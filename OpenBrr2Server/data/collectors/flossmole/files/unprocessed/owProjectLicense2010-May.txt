@@ -1,0 +1,130 @@
+#  file: owProjLicense2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, code, description, date_collected, datasource_id
+#  FROM ow_project_licenses
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	code	description	date_collected	datasource_id
+acceleo	271	Eclipse Public License (EPL)	2010-05-03 15:36:06	220
+apollon	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:35	220
+asm	187	BSD License	2010-05-03 15:36:35	220
+aspire	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:35	220
+azuki	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:35	220
+barracudamvc	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+been	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+bonita	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+bsframework	187	BSD License	2010-05-03 15:36:36	220
+byline	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+c-jdbc	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+cardamom	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+carol	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+celtix	271	Eclipse Public License (EPL)	2010-05-03 15:36:36	220
+celtix	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+clif	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+deployment	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+director	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+dods	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+dotnetj	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+dream	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+dryverl	187	BSD License	2010-05-03 15:36:36	220
+eaf	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+easybeans	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+edemos	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+enhydra	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+exoplatform	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+federid	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+fractal	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+gasp	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+gotm	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+howl	187	BSD License	2010-05-03 15:36:36	220
+initiativebi	14	OSI Approved	2010-05-03 15:36:36	220
+interldap	14	OSI Approved	2010-05-03 15:36:36	220
+introspector	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+ishmael	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+istx	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+jac	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+jaspte	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+javaservice	187	BSD License	2010-05-03 15:36:36	220
+javaservice	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:36	220
+jawe	15	GNU General Public License (GPL)	2010-05-03 15:36:36	220
+jeffree	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+jonas-doc	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+jonathan	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+joram	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+jorm	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+jotm	187	BSD License	2010-05-03 15:36:37	220
+jsurvey	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+kelly	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+kelp	15	GNU General Public License (GPL)	2010-05-03 15:36:37	220
+kilim2	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+lemonldap	17	Artistic License	2010-05-03 15:36:37	220
+lemonldap	15	GNU General Public License (GPL)	2010-05-03 15:36:37	220
+lewys	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+lomboz	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+massiv	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+medor	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+modfact	15	GNU General Public License (GPL)	2010-05-03 15:36:37	220
+monolog	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+navilis	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+noah	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+objectweb-zh	15	GNU General Public License (GPL)	2010-05-03 15:36:37	220
+octopus	15	GNU General Public License (GPL)	2010-05-03 15:36:37	220
+odis	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+ofccharts	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+oncepi	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+openediint	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+openmobileis	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+ops	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+orchestra	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+orientwareccm	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+oyster	15	GNU General Public License (GPL)	2010-05-03 15:36:37	220
+paje	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+pargres	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+perseus	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+petals	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+petalsmaster	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:37	220
+rubbos	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+rubis	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+s4allsdk	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+scarbo	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+shark	15	GNU General Public License (GPL)	2010-05-03 15:36:38	220
+snapper	15	GNU General Public License (GPL)	2010-05-03 15:36:38	220
+sofa	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+spagic	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+spago	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+spago4q	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+spagobi	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+speedo	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+starwebservice	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+stock-online	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+telosys	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+tess	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+think	15	GNU General Public License (GPL)	2010-05-03 15:36:38	220
+think	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+wildcat	15	GNU General Public License (GPL)	2010-05-03 15:36:38	220
+xmlc	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+xplus	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+xquare	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+xservice	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+xwiki	16	GNU Lesser General Public License (LGPL)	2010-05-03 15:36:38	220
+zeus	196	Other/Proprietary License	2010-05-03 15:36:38	220

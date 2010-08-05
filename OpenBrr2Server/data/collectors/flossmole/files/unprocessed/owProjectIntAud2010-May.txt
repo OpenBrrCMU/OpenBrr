@@ -1,0 +1,180 @@
+#  file: owProjIntAud2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, code, description, date_collected, datasource_id
+#  FROM ow_project_intended_audience
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	code	description	date_collected	datasource_id
+acceleo	3	Developers	2010-05-03 15:36:06	220
+apollon	3	Developers	2010-05-03 15:36:35	220
+asm	3	Developers	2010-05-03 15:36:35	220
+aspire	3	Developers	2010-05-03 15:36:35	220
+aspire	2	End Users/Desktop	2010-05-03 15:36:35	220
+azuki	3	Developers	2010-05-03 15:36:35	220
+azuki	5	Other Audience	2010-05-03 15:36:35	220
+barracudamvc	3	Developers	2010-05-03 15:36:36	220
+been	3	Developers	2010-05-03 15:36:36	220
+bonita	3	Developers	2010-05-03 15:36:36	220
+bsframework	3	Developers	2010-05-03 15:36:36	220
+byline	3	Developers	2010-05-03 15:36:36	220
+byline	2	End Users/Desktop	2010-05-03 15:36:36	220
+c-jdbc	3	Developers	2010-05-03 15:36:36	220
+c-jdbc	2	End Users/Desktop	2010-05-03 15:36:36	220
+c-jdbc	4	System Administrators	2010-05-03 15:36:36	220
+cardamom	3	Developers	2010-05-03 15:36:36	220
+carol	3	Developers	2010-05-03 15:36:36	220
+clif	4	System Administrators	2010-05-03 15:36:36	220
+clif	2	End Users/Desktop	2010-05-03 15:36:36	220
+clif	3	Developers	2010-05-03 15:36:36	220
+deployment	3	Developers	2010-05-03 15:36:36	220
+director	3	Developers	2010-05-03 15:36:36	220
+director	4	System Administrators	2010-05-03 15:36:36	220
+dods	3	Developers	2010-05-03 15:36:36	220
+dotnetj	3	Developers	2010-05-03 15:36:36	220
+dream	3	Developers	2010-05-03 15:36:36	220
+dryverl	3	Developers	2010-05-03 15:36:36	220
+dysoweb	4	System Administrators	2010-05-03 15:36:36	220
+dysoweb	3	Developers	2010-05-03 15:36:36	220
+eaf	3	Developers	2010-05-03 15:36:36	220
+edemos	3	Developers	2010-05-03 15:36:36	220
+edemos	2	End Users/Desktop	2010-05-03 15:36:36	220
+edemos	4	System Administrators	2010-05-03 15:36:36	220
+enhydra	3	Developers	2010-05-03 15:36:36	220
+exoplatform	3	Developers	2010-05-03 15:36:36	220
+exoplatform	2	End Users/Desktop	2010-05-03 15:36:36	220
+federid	4	System Administrators	2010-05-03 15:36:36	220
+federid	3	Developers	2010-05-03 15:36:36	220
+fractal	3	Developers	2010-05-03 15:36:36	220
+gasp	3	Developers	2010-05-03 15:36:36	220
+gasp	4	System Administrators	2010-05-03 15:36:36	220
+gotm	3	Developers	2010-05-03 15:36:36	220
+howl	3	Developers	2010-05-03 15:36:36	220
+initiativebi	3	Developers	2010-05-03 15:36:36	220
+initiativebi	2	End Users/Desktop	2010-05-03 15:36:36	220
+interldap	4	System Administrators	2010-05-03 15:36:36	220
+interldap	3	Developers	2010-05-03 15:36:36	220
+introspector	3	Developers	2010-05-03 15:36:36	220
+ishmael	3	Developers	2010-05-03 15:36:36	220
+ishmael	4	System Administrators	2010-05-03 15:36:36	220
+jac	3	Developers	2010-05-03 15:36:36	220
+jaspte	2	End Users/Desktop	2010-05-03 15:36:36	220
+jaspte	3	Developers	2010-05-03 15:36:36	220
+javaservice	3	Developers	2010-05-03 15:36:36	220
+javaservice	4	System Administrators	2010-05-03 15:36:36	220
+jawe	4	System Administrators	2010-05-03 15:36:36	220
+jawe	3	Developers	2010-05-03 15:36:36	220
+jeffree	3	Developers	2010-05-03 15:36:37	220
+jonas-doc	3	Developers	2010-05-03 15:36:37	220
+jonas-doc	2	End Users/Desktop	2010-05-03 15:36:37	220
+jorm	3	Developers	2010-05-03 15:36:37	220
+jsurvey	3	Developers	2010-05-03 15:36:37	220
+kelly	3	Developers	2010-05-03 15:36:37	220
+kelp	3	Developers	2010-05-03 15:36:37	220
+kilim2	4	System Administrators	2010-05-03 15:36:37	220
+kilim2	3	Developers	2010-05-03 15:36:37	220
+lemonldap	4	System Administrators	2010-05-03 15:36:37	220
+lewys	3	Developers	2010-05-03 15:36:37	220
+lewys	2	End Users/Desktop	2010-05-03 15:36:37	220
+lewys	4	System Administrators	2010-05-03 15:36:37	220
+lomboz	3	Developers	2010-05-03 15:36:37	220
+massiv	3	Developers	2010-05-03 15:36:37	220
+maven	3	Developers	2010-05-03 15:36:37	220
+medor	3	Developers	2010-05-03 15:36:37	220
+modfact	3	Developers	2010-05-03 15:36:37	220
+monolog	3	Developers	2010-05-03 15:36:37	220
+navilis	3	Developers	2010-05-03 15:36:37	220
+noah	3	Developers	2010-05-03 15:36:37	220
+noah	2	End Users/Desktop	2010-05-03 15:36:37	220
+noah	4	System Administrators	2010-05-03 15:36:37	220
+objectweb-zh	3	Developers	2010-05-03 15:36:37	220
+objectweb-zh	5	Other Audience	2010-05-03 15:36:37	220
+objectweb-zh	4	System Administrators	2010-05-03 15:36:37	220
+octopus	3	Developers	2010-05-03 15:36:37	220
+octopus	2	End Users/Desktop	2010-05-03 15:36:37	220
+odis	3	Developers	2010-05-03 15:36:37	220
+ofccharts	3	Developers	2010-05-03 15:36:37	220
+oncepi	3	Developers	2010-05-03 15:36:37	220
+oncess	3	Developers	2010-05-03 15:36:37	220
+oncess	2	End Users/Desktop	2010-05-03 15:36:37	220
+oncess	4	System Administrators	2010-05-03 15:36:37	220
+openediint	3	Developers	2010-05-03 15:36:37	220
+openediint	5	Other Audience	2010-05-03 15:36:37	220
+openmobileis	3	Developers	2010-05-03 15:36:37	220
+openmobileis	2	End Users/Desktop	2010-05-03 15:36:37	220
+ops	3	Developers	2010-05-03 15:36:37	220
+orchestra	3	Developers	2010-05-03 15:36:37	220
+orchestra	2	End Users/Desktop	2010-05-03 15:36:37	220
+orchestra	4	System Administrators	2010-05-03 15:36:37	220
+orientwareccm	3	Developers	2010-05-03 15:36:37	220
+orientwareccm	2	End Users/Desktop	2010-05-03 15:36:37	220
+orientwareccm	4	System Administrators	2010-05-03 15:36:37	220
+oyster	3	Developers	2010-05-03 15:36:37	220
+paje	3	Developers	2010-05-03 15:36:37	220
+pargres	4	System Administrators	2010-05-03 15:36:37	220
+pargres	3	Developers	2010-05-03 15:36:37	220
+perseus	3	Developers	2010-05-03 15:36:37	220
+petals	3	Developers	2010-05-03 15:36:37	220
+petals	2	End Users/Desktop	2010-05-03 15:36:37	220
+petals	5	Other Audience	2010-05-03 15:36:37	220
+petalsmaster	3	Developers	2010-05-03 15:36:37	220
+petalsmaster	2	End Users/Desktop	2010-05-03 15:36:37	220
+petalsmaster	5	Other Audience	2010-05-03 15:36:37	220
+rubbos	3	Developers	2010-05-03 15:36:38	220
+rubis	3	Developers	2010-05-03 15:36:38	220
+s4allsdk	3	Developers	2010-05-03 15:36:38	220
+scarbo	3	Developers	2010-05-03 15:36:38	220
+scarbo	2	End Users/Desktop	2010-05-03 15:36:38	220
+scarbo	5	Other Audience	2010-05-03 15:36:38	220
+shark	4	System Administrators	2010-05-03 15:36:38	220
+shark	3	Developers	2010-05-03 15:36:38	220
+snapper	3	Developers	2010-05-03 15:36:38	220
+snapper	2	End Users/Desktop	2010-05-03 15:36:38	220
+snapper	4	System Administrators	2010-05-03 15:36:38	220
+spagic	4	System Administrators	2010-05-03 15:36:38	220
+spagic	5	Other Audience	2010-05-03 15:36:38	220
+spagic	3	Developers	2010-05-03 15:36:38	220
+spago	3	Developers	2010-05-03 15:36:38	220
+spago4q	3	Developers	2010-05-03 15:36:38	220
+spago4q	4	System Administrators	2010-05-03 15:36:38	220
+spagobi	3	Developers	2010-05-03 15:36:38	220
+spagobi	2	End Users/Desktop	2010-05-03 15:36:38	220
+speedo	3	Developers	2010-05-03 15:36:38	220
+starwebservice	4	System Administrators	2010-05-03 15:36:38	220
+starwebservice	2	End Users/Desktop	2010-05-03 15:36:38	220
+starwebservice	3	Developers	2010-05-03 15:36:38	220
+stock-online	3	Developers	2010-05-03 15:36:38	220
+stock-online	5	Other Audience	2010-05-03 15:36:38	220
+telosys	3	Developers	2010-05-03 15:36:38	220
+tess	3	Developers	2010-05-03 15:36:38	220
+think	3	Developers	2010-05-03 15:36:38	220
+wildcat	3	Developers	2010-05-03 15:36:38	220
+xmlc	3	Developers	2010-05-03 15:36:38	220
+xplus	2	End Users/Desktop	2010-05-03 15:36:38	220
+xplus	3	Developers	2010-05-03 15:36:38	220
+xquare	3	Developers	2010-05-03 15:36:38	220
+xservice	3	Developers	2010-05-03 15:36:38	220
+xservice	2	End Users/Desktop	2010-05-03 15:36:38	220
+xservice	4	System Administrators	2010-05-03 15:36:38	220
+xwiki	2	End Users/Desktop	2010-05-03 15:36:38	220
+xwiki	4	System Administrators	2010-05-03 15:36:38	220
+zeus	3	Developers	2010-05-03 15:36:38	220

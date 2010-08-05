@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="remoting-service"    
+    class="flex.messaging.services.RemotingService"
+    messageTypes="flex.messaging.messages.RemotingMessage">
+
+    <adapters />
+        
+
+    <default-channels>
+        <channel ref="my-amf"/>
+    </default-channels>
+    
+    <destination id="PrimitiveTest">
+        <properties>
+            <source>weborb.tests.PrimitiveTest</source>
+        </properties>
+    </destination>
+    
+    <destination id="DatabaseTestMsSql">
+        <properties>
+            <source>weborb.tests.DatabaseTestMsSql</source>
+        </properties>
+    </destination>  
+    
+    <destination id="DatabaseTestMySql">
+        <properties>
+            <source>weborb.tests.DatabaseTestMySql</source>
+        </properties>
+    </destination>  
+     
+    <destination id="MultipleArgsTest">
+        <properties>
+            <source>weborb.tests.MultipleArgsTest</source>
+        </properties>
+    </destination>
+    
+    <destination id="StringsTest">
+        <properties>
+            <source>weborb.tests.StringsTest</source>
+        </properties>
+    </destination>    
+    
+    <destination id="PrimitiveArrayTest">
+        <properties>
+            <source>weborb.tests.PrimitiveArrayTest</source>
+        </properties>
+    </destination>   
+    
+    <destination id="ComplexTypesTest">
+        <properties>
+            <source>weborb.tests.ComplexTypesTest</source>
+        </properties>
+    </destination>   
+    
+    <destination id="InfoServiceDestination">
+        <properties>
+            <source>InfoService</source>
+        </properties>
+    </destination>  
+
+    <destination id="AccountBalanceDestination">
+      <properties>
+        <source>weborb.examples.AccountBalance</source>
+      </properties>
+      <security>
+        <security-constraint>
+          <auth-method>Custom</auth-method>
+          <roles>
+        <role>examplesuser</role>
+          </roles>
+        </security-constraint> 
+      </security> 
+    </destination> 
+    
+    <destination id="SecureTest">
+        <properties>
+            <source>weborb.HelloWorld</source>
+        </properties>
+        <security>
+          <security-constraint>
+        <auth-method>Custom</auth-method>
+          <roles>
+            <role>administrator</role>
+          </roles>
+          </security-constraint>        
+        </security>
+    </destination>   
+
+    <destination id="WeborbManagement">
+        <properties>
+            <source>weborb.management.ManagementService</source>
+        </properties>
+    </destination>  
+    
+     <destination id="WeborbSecurity">
+        <properties>
+            <source>weborb.management.SecurityService</source>
+        </properties>
+    </destination>  
+    
+    <destination id="WeborbConfiguration">
+        <properties>
+            <source>weborb.management.ConfigurationService</source>
+        </properties>
+    </destination> 
+
+    <destination id="WDMFCodeGen">
+        <properties>
+            <source>weborb.management.datamanagement.codegen.WDMFCodeGenerator</source>
+        </properties>
+    </destination> 
+    
+    <destination id="DataServiceSubcriptionManager">
+        <properties>
+            <source>weborb.data.management.DataService</source>
+        </properties>
+    </destination> 
+    
+    <destination id="GenericDestination">
+        <properties>
+            <source>*</source>
+        </properties>
+    </destination> 
+    <destination channels="session-channel" id="GenericSessionDestination">
+        <channels>
+           <channel ref="session-channel"/>
+        </channels>
+        <properties>
+            <source>*</source>
+        </properties>
+    </destination> 
+
+    <destination channels="singleton-channel" id="GenericSingletonDestination">
+        <channels>
+           <channel ref="singleton-channel"/>
+        </channels>
+        <properties>
+            <source>*</source>
+        </properties>
+    </destination>
+    
+</service>

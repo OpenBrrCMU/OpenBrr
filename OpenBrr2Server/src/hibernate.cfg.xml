@@ -1,0 +1,47 @@
+<!DOCTYPE hibernate-configuration SYSTEM
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- Basic Properties -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/openbrr2_dev</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">password</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		
+		<!-- Use the C3P0 connection pool provider -->
+		<property name="hibernate.c3p0.min_size">5</property>
+		<property name="hibernate.c3p0.max_size">20</property>
+		<property name="hibernate.c3p0.timeout">300</property>
+		<property name="hibernate.c3p0.max_statements">50</property>
+		<property name="hibernate.c3p0.idle_test_period">3000</property>
+		
+		<!-- Show and print nice SQL on stdout -->
+		<!--
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		-->
+		
+		<!-- List of XML mapping files -->
+		<!--mapping resource="hello/Message.hbm.xml"/-->
+		<mapping class="org.openbrr.collector.flossmole.data.FlossmoleDataFile"/>
+		<mapping class="org.openbrr.core.data.Project"/>
+		<mapping class="org.openbrr.core.data.Topic"/>
+		<mapping class="org.openbrr.core.data.Audience"/>
+		<mapping class="org.openbrr.core.data.DataStore"/>
+		<mapping class="org.openbrr.core.data.Interface"/>
+		<mapping class="org.openbrr.core.data.License"/>
+		<mapping class="org.openbrr.core.data.OperatingSystem"/>
+		<mapping class="org.openbrr.core.data.ProgramLanguage"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectDetail"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectStat"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectUrl"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectLicense"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectAudience"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectDataStore"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectOperatingSystem"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectProgrammingLanguage"/>
+		<mapping class="org.openbrr.collector.flossmole.sf.data.SfProjectTopic"/>
+	</session-factory>
+</hibernate-configuration>

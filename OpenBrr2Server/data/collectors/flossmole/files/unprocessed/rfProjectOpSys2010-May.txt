@@ -1,0 +1,3881 @@
+#  file: rfProjOpSys2010-May.txt
+#  package: rfRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of RubyForge project 
+#  information generated from the list of projects gathered in 2010-May
+#
+#  Raw html data was inserted into database by running our java-based Rubyforge 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, code, description, date_collected, datasource_id
+#  FROM rf_project_operating_system
+#  WHERE datasource_id=219
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 219 is the 2010-May run on Rubyforge.
+
+proj_unixname	code	description	date_collected	datasource_id
+aaap	235	OS Independent	2010-05-04 12:53:43	219
+aabytefield	200	POSIX	2010-05-04 12:53:43	219
+aalib-ruby	200	POSIX	2010-05-04 12:53:43	219
+aamm	235	OS Independent	2010-05-04 12:53:44	219
+aapc	201	Linux	2010-05-04 12:53:44	219
+aaserverbrowser	216	Windows	2010-05-04 12:53:44	219
+aaserverbrowser	201	Linux	2010-05-04 12:53:44	219
+abplotter	235	OS Independent	2010-05-04 12:53:44	219
+absrenamer	235	OS Independent	2010-05-04 12:53:44	219
+accelerator	235	OS Independent	2010-05-04 12:53:44	219
+accounting	235	OS Independent	2010-05-04 12:53:44	219
+accounts4free	201	Linux	2010-05-04 12:53:44	219
+accra	235	OS Independent	2010-05-04 12:53:44	219
+aclsystem	235	OS Independent	2010-05-04 12:53:44	219
+act-as-debug	235	OS Independent	2010-05-04 12:53:44	219
+actasenherit	235	OS Independent	2010-05-04 12:53:44	219
+actionflow	235	OS Independent	2010-05-04 12:53:44	219
+actionpool	235	OS Independent	2010-05-04 12:53:44	219
+actiontimer	235	OS Independent	2010-05-04 12:53:44	219
+actir4cdp	216	Windows	2010-05-04 12:53:44	219
+actir4cdp	201	Linux	2010-05-04 12:53:44	219
+active-lastfm	201	Linux	2010-05-04 12:53:44	219
+active-lastfm	309	OS X	2010-05-04 12:53:44	219
+active-lastfm	221	MacOS	2010-05-04 12:53:44	219
+active-rbac	235	OS Independent	2010-05-04 12:53:45	219
+active-relation	235	OS Independent	2010-05-04 12:53:45	219
+activeacl	235	OS Independent	2010-05-04 12:53:45	219
+activedirectory	201	Linux	2010-05-04 12:53:45	219
+activeflow	201	Linux	2010-05-04 12:53:45	219
+activeflow	216	Windows	2010-05-04 12:53:45	219
+activeflow	221	MacOS	2010-05-04 12:53:45	219
+activeform	235	OS Independent	2010-05-04 12:53:45	219
+activelocale	235	OS Independent	2010-05-04 12:53:45	219
+activemdb	200	POSIX	2010-05-04 12:53:45	219
+activerdf	235	OS Independent	2010-05-04 12:53:45	219
+activerdf-rules	235	OS Independent	2010-05-04 12:53:45	219
+activeresources	235	OS Independent	2010-05-04 12:53:45	219
+activerest	235	OS Independent	2010-05-04 12:53:45	219
+activerevver	235	OS Independent	2010-05-04 12:53:45	219
+activerubic	200	POSIX	2010-05-04 12:53:45	219
+activesearch	235	OS Independent	2010-05-04 12:53:45	219
+activesfdc	235	OS Independent	2010-05-04 12:53:45	219
+activesms	235	OS Independent	2010-05-04 12:53:45	219
+activesocial	235	OS Independent	2010-05-04 12:53:45	219
+activetest	235	OS Independent	2010-05-04 12:53:45	219
+activewarehouse	235	OS Independent	2010-05-04 12:53:45	219
+activeyahoo	221	MacOS	2010-05-04 12:53:45	219
+activeyahoo	216	Windows	2010-05-04 12:53:45	219
+activeyahoo	200	POSIX	2010-05-04 12:53:45	219
+activitystreams	235	OS Independent	2010-05-04 12:53:46	219
+activrecord2sdb	235	OS Independent	2010-05-04 12:53:46	219
+acts-as-cortado	200	POSIX	2010-05-04 12:53:46	219
+acts-as-matree	235	OS Independent	2010-05-04 12:53:46	219
+acts-as-secured	235	OS Independent	2010-05-04 12:53:46	219
+acts-as-solr	235	OS Independent	2010-05-04 12:53:46	219
+acts-as-toucher	235	OS Independent	2010-05-04 12:53:46	219
+acts-voteable	235	OS Independent	2010-05-04 12:53:46	219
+actsascatalog	235	OS Independent	2010-05-04 12:53:46	219
+actsasferret	235	OS Independent	2010-05-04 12:53:46	219
+actsasmodified	235	OS Independent	2010-05-04 12:53:46	219
+actsasrenderer	235	OS Independent	2010-05-04 12:53:46	219
+actsasresource	235	OS Independent	2010-05-04 12:53:46	219
+actsassvn	235	OS Independent	2010-05-04 12:53:46	219
+actsasupload	235	OS Independent	2010-05-04 12:53:46	219
+ad4ruby	235	OS Independent	2010-05-04 12:53:46	219
+adaptation	235	OS Independent	2010-05-04 12:53:46	219
+adaptation	201	Linux	2010-05-04 12:53:46	219
+addressable	235	OS Independent	2010-05-04 12:53:46	219
+adesklets-ruby	200	POSIX	2010-05-04 12:53:46	219
+adhearsion	235	OS Independent	2010-05-04 12:53:46	219
+adminpage	221	MacOS	2010-05-04 12:53:47	219
+adminpage	216	Windows	2010-05-04 12:53:47	219
+adminpage	201	Linux	2010-05-04 12:53:47	219
+adminscaffold	235	OS Independent	2010-05-04 12:53:47	219
+admob	235	OS Independent	2010-05-04 12:53:47	219
+admreq	201	Linux	2010-05-04 12:53:47	219
+admreq	216	Windows	2010-05-04 12:53:47	219
+adocca-plugins	235	OS Independent	2010-05-04 12:53:47	219
+adsense	235	OS Independent	2010-05-04 12:53:47	219
+adsf	235	OS Independent	2010-05-04 12:53:47	219
+advabest	235	OS Independent	2010-05-04 12:53:47	219
+advertnet	201	Linux	2010-05-04 12:53:47	219
+advocasee	207	SunOS/Solaris	2010-05-04 12:53:47	219
+adwallah	235	OS Independent	2010-05-04 12:53:47	219
+aeditor	235	OS Independent	2010-05-04 12:53:47	219
+aeditor	200	POSIX	2010-05-04 12:53:47	219
+aethyr	201	Linux	2010-05-04 12:53:47	219
+affected-items	235	OS Independent	2010-05-04 12:53:47	219
+afphelper	235	OS Independent	2010-05-04 12:53:47	219
+agg4r	218	Windows 95/98/2000	2010-05-04 12:53:47	219
+agg4r	201	Linux	2010-05-04 12:53:47	219
+agora	235	OS Independent	2010-05-04 12:53:47	219
+agoraruby	235	OS Independent	2010-05-04 12:53:47	219
+ahft	235	OS Independent	2010-05-04 12:53:47	219
+ai-app-prog	235	OS Independent	2010-05-04 12:53:47	219
+ai4r	235	OS Independent	2010-05-04 12:53:47	219
+aikidosalvador	216	Windows	2010-05-04 12:53:47	219
+aiml-programr	235	OS Independent	2010-05-04 12:53:47	219
+airport	309	OS X	2010-05-04 12:53:47	219
+airscript-fe	201	Linux	2010-05-04 12:53:47	219
+ajax-grid	235	OS Independent	2010-05-04 12:53:48	219
+ajaxscaffold	235	OS Independent	2010-05-04 12:53:48	219
+aka	235	OS Independent	2010-05-04 12:53:48	219
+akiba	235	OS Independent	2010-05-04 12:53:48	219
+akisu	235	OS Independent	2010-05-04 12:53:48	219
+akisu	207	SunOS/Solaris	2010-05-04 12:53:48	219
+alacarte	201	Linux	2010-05-04 12:53:48	219
+alacarte	221	MacOS	2010-05-04 12:53:48	219
+alexandria	309	OS X	2010-05-04 12:53:48	219
+alexandria	200	POSIX	2010-05-04 12:53:48	219
+algorithms	235	OS Independent	2010-05-04 12:53:48	219
+allinoneruby	216	Windows	2010-05-04 12:53:48	219
+allinoneruby	200	POSIX	2010-05-04 12:53:48	219
+alogr	200	POSIX	2010-05-04 12:53:48	219
+alph	235	OS Independent	2010-05-04 12:53:48	219
+alphabar	235	OS Independent	2010-05-04 12:53:48	219
+alumina	216	Windows	2010-05-04 12:53:48	219
+alumina	309	OS X	2010-05-04 12:53:48	219
+alumina	201	Linux	2010-05-04 12:53:48	219
+alumnionrails	235	OS Independent	2010-05-04 12:53:48	219
+aman	235	OS Independent	2010-05-04 12:53:48	219
+amazing	201	Linux	2010-05-04 12:53:48	219
+amazon-ec2	235	OS Independent	2010-05-04 12:53:48	219
+amber	235	OS Independent	2010-05-04 12:53:48	219
+ambient	235	OS Independent	2010-05-04 12:53:48	219
+ambling	235	OS Independent	2010-05-04 12:53:48	219
+amqp	221	MacOS	2010-05-04 12:53:49	219
+amqp	201	Linux	2010-05-04 12:53:49	219
+amused	201	Linux	2010-05-04 12:53:49	219
+amused	235	OS Independent	2010-05-04 12:53:49	219
+anchor	235	OS Independent	2010-05-04 12:53:49	219
+andrewid	235	OS Independent	2010-05-04 12:53:49	219
+anemone	235	OS Independent	2010-05-04 12:53:49	219
+angelmap	235	OS Independent	2010-05-04 12:53:49	219
+annotate-models	235	OS Independent	2010-05-04 12:53:49	219
+annttrainer	201	Linux	2010-05-04 12:53:49	219
+annttrainer	309	OS X	2010-05-04 12:53:49	219
+annttrainer	235	OS Independent	2010-05-04 12:53:49	219
+antbuilder	235	OS Independent	2010-05-04 12:53:49	219
+anteater	235	OS Independent	2010-05-04 12:53:49	219
+anthill	235	OS Independent	2010-05-04 12:53:49	219
+anthilldiameter	235	OS Independent	2010-05-04 12:53:49	219
+anthillsmpp	235	OS Independent	2010-05-04 12:53:49	219
+antwrap	235	OS Independent	2010-05-04 12:53:49	219
+anvil	235	OS Independent	2010-05-04 12:53:49	219
+ap4r	235	OS Independent	2010-05-04 12:53:49	219
+apacheconf	201	Linux	2010-05-04 12:53:49	219
+apachelogregex	235	OS Independent	2010-05-04 12:53:49	219
+apetag	235	OS Independent	2010-05-04 12:53:49	219
+aplo	235	OS Independent	2010-05-04 12:53:49	219
+apotomo	235	OS Independent	2010-05-04 12:53:49	219
+app-profiler	200	POSIX	2010-05-04 12:53:49	219
+app-profiler	235	OS Independent	2010-05-04 12:53:49	219
+appmath	235	OS Independent	2010-05-04 12:53:49	219
+approach	235	OS Independent	2010-05-04 12:53:50	219
+apropos	235	OS Independent	2010-05-04 12:53:50	219
+apt	235	OS Independent	2010-05-04 12:53:50	219
+ar-copyable	235	OS Independent	2010-05-04 12:53:50	219
+ar-timeline	235	OS Independent	2010-05-04 12:53:50	219
+arbypod	201	Linux	2010-05-04 12:53:51	219
+arbypod	309	OS X	2010-05-04 12:53:50	219
+arbypod	235	OS Independent	2010-05-04 12:53:50	219
+arcadia	235	OS Independent	2010-05-04 12:53:51	219
+arcallproc	235	OS Independent	2010-05-04 12:53:51	219
+archipelago	235	OS Independent	2010-05-04 12:53:51	219
+archive-tar	235	OS Independent	2010-05-04 12:53:51	219
+archive-zip	235	OS Independent	2010-05-04 12:53:51	219
+archives	235	OS Independent	2010-05-04 12:53:52	219
+arfparser	235	OS Independent	2010-05-04 12:53:52	219
+argent	235	OS Independent	2010-05-04 12:53:52	219
+as3-puremvc	235	OS Independent	2010-05-04 12:53:52	219
+as3spec	221	MacOS	2010-05-04 12:53:52	219
+as3spec	216	Windows	2010-05-04 12:53:52	219
+as3spec	201	Linux	2010-05-04 12:53:52	219
+asami	201	Linux	2010-05-04 12:53:52	219
+ascii85	235	OS Independent	2010-05-04 12:53:52	219
+asf	235	OS Independent	2010-05-04 12:53:52	219
+asgoogleaccount	235	OS Independent	2010-05-04 12:53:52	219
+asl	200	POSIX	2010-05-04 12:53:52	219
+asproject	216	Windows	2010-05-04 12:53:52	219
+asproject	309	OS X	2010-05-04 12:53:52	219
+asproject	201	Linux	2010-05-04 12:53:52	219
+assert2	235	OS Independent	2010-05-04 12:53:52	219
+assertions	235	OS Independent	2010-05-04 12:53:52	219
+assertxpath	235	OS Independent	2010-05-04 12:53:52	219
+assit	235	OS Independent	2010-05-04 12:53:52	219
+assoc-mgmt	235	OS Independent	2010-05-04 12:53:52	219
+assocupload	235	OS Independent	2010-05-04 12:53:52	219
+asterisk-ruby	235	OS Independent	2010-05-04 12:53:52	219
+asteriskonrails	201	Linux	2010-05-04 12:53:53	219
+astro-algo	235	OS Independent	2010-05-04 12:53:53	219
+astromoon	216	Windows	2010-05-04 12:53:53	219
+astromoon	236	Other OS	2010-05-04 12:53:53	219
+astromoon	201	Linux	2010-05-04 12:53:53	219
+atom	235	OS Independent	2010-05-04 12:53:53	219
+atompp	235	OS Independent	2010-05-04 12:53:53	219
+atompublog	235	OS Independent	2010-05-04 12:53:53	219
+attachr	235	OS Independent	2010-05-04 12:53:53	219
+aurita	200	POSIX	2010-05-04 12:53:53	219
+aurora	235	OS Independent	2010-05-04 12:53:53	219
+aurum	235	OS Independent	2010-05-04 12:53:53	219
+auth-resource	200	POSIX	2010-05-04 12:53:53	219
+auth-typekey	235	OS Independent	2010-05-04 12:53:53	219
+authentable	235	OS Independent	2010-05-04 12:53:53	219
+authentication	235	OS Independent	2010-05-04 12:53:53	219
+authorails	235	OS Independent	2010-05-04 12:53:53	219
+authorization	235	OS Independent	2010-05-04 12:53:53	219
+auto	219	Windows NT/2000	2010-05-04 12:53:53	219
+auto	201	Linux	2010-05-04 12:53:53	219
+autobuild	200	POSIX	2010-05-04 12:53:53	219
+autodoc-fortran	235	OS Independent	2010-05-04 12:53:53	219
+autodrop	201	Linux	2010-05-04 12:53:53	219
+autoescape	235	OS Independent	2010-05-04 12:53:53	219
+autom-proyectos	309	OS X	2010-05-04 12:53:53	219
+autom-proyectos	200	POSIX	2010-05-04 12:53:53	219
+automateit	235	OS Independent	2010-05-04 12:53:54	219
+automatic-fk	235	OS Independent	2010-05-04 12:53:54	219
+automaton	235	OS Independent	2010-05-04 12:53:54	219
+autozest	207	SunOS/Solaris	2010-05-04 12:53:54	219
+autozest	201	Linux	2010-05-04 12:53:54	219
+autozest	309	OS X	2010-05-04 12:53:54	219
+autumn-leaves	235	OS Independent	2010-05-04 12:53:54	219
+avant	235	OS Independent	2010-05-04 12:53:54	219
+aversa	235	OS Independent	2010-05-04 12:53:54	219
+awshucks	309	OS X	2010-05-04 12:53:54	219
+axis-netcam	235	OS Independent	2010-05-04 12:53:54	219
+azureusonrails	235	OS Independent	2010-05-04 12:53:54	219
+b10g	235	OS Independent	2010-05-04 12:53:54	219
+backgroundrb	200	POSIX	2010-05-04 12:53:54	219
+backlog	235	OS Independent	2010-05-04 12:53:54	219
+backofficegems	235	OS Independent	2010-05-04 12:53:54	219
+backports	235	OS Independent	2010-05-04 12:53:54	219
+backprop	235	OS Independent	2010-05-04 12:53:54	219
+backup	200	POSIX	2010-05-04 12:53:54	219
+backupgem	200	POSIX	2010-05-04 12:53:54	219
+backupman	200	POSIX	2010-05-04 12:53:54	219
+backupman	309	OS X	2010-05-04 12:53:54	219
+bacuview	201	Linux	2010-05-04 12:53:54	219
+bake	235	OS Independent	2010-05-04 12:53:55	219
+baker	235	OS Independent	2010-05-04 12:53:55	219
+baker	201	Linux	2010-05-04 12:53:55	219
+ballerr	201	Linux	2010-05-04 12:53:55	219
+ballerr	216	Windows	2010-05-04 12:53:55	219
+bangkok	235	OS Independent	2010-05-04 12:53:55	219
+barcode	235	OS Independent	2010-05-04 12:53:55	219
+barcode-gen	235	OS Independent	2010-05-04 12:53:55	219
+barometer	235	OS Independent	2010-05-04 12:53:55	219
+baself	235	OS Independent	2010-05-04 12:53:55	219
+basewoot	200	POSIX	2010-05-04 12:53:55	219
+bat	235	OS Independent	2010-05-04 12:53:55	219
+bayuploader	309	OS X	2010-05-04 12:53:55	219
+bayuploader	200	POSIX	2010-05-04 12:53:55	219
+bcodec	235	OS Independent	2010-05-04 12:53:55	219
+bcrypt-ruby	309	OS X	2010-05-04 12:53:55	219
+bcrypt-ruby	200	POSIX	2010-05-04 12:53:55	219
+bdb2	200	POSIX	2010-05-04 12:53:55	219
+beamr	235	OS Independent	2010-05-04 12:53:55	219
+bee	235	OS Independent	2010-05-04 12:53:55	219
+beenverified	235	OS Independent	2010-05-04 12:53:55	219
+beeptoys	214	Microsoft	2010-05-04 12:53:55	219
+beeptoys	200	POSIX	2010-05-04 12:53:55	219
+behaviors	235	OS Independent	2010-05-04 12:53:55	219
+bells	309	OS X	2010-05-04 12:53:55	219
+bells	201	Linux	2010-05-04 12:53:55	219
+bench	235	OS Independent	2010-05-04 12:53:55	219
+betabrite	235	OS Independent	2010-05-04 12:53:55	219
+betfairclient	235	OS Independent	2010-05-04 12:53:55	219
+bettercable	216	Windows	2010-05-04 12:53:55	219
+betternestedset	235	OS Independent	2010-05-04 12:53:55	219
+bettybuilder	235	OS Independent	2010-05-04 12:53:56	219
+bibstudy	235	OS Independent	2010-05-04 12:53:56	219
+bibtexparser	235	OS Independent	2010-05-04 12:53:56	219
+bijou	235	OS Independent	2010-05-04 12:53:56	219
+bin2hex	216	Windows	2010-05-04 12:53:56	219
+bin2hex	201	Linux	2010-05-04 12:53:56	219
+binaryparse	235	OS Independent	2010-05-04 12:53:56	219
+binbackup	201	Linux	2010-05-04 12:53:56	219
+bindata	235	OS Independent	2010-05-04 12:53:56	219
+bingodisk	235	OS Independent	2010-05-04 12:53:56	219
+biomart	235	OS Independent	2010-05-04 12:53:56	219
+bioruby-annex	235	OS Independent	2010-05-04 12:53:56	219
+birdy	201	Linux	2010-05-04 12:53:56	219
+bit-struct	235	OS Independent	2010-05-04 12:53:56	219
+bitcache	235	OS Independent	2010-05-04 12:53:56	219
+bitchun	219	Windows NT/2000	2010-05-04 12:53:56	219
+bitchun	309	OS X	2010-05-04 12:53:56	219
+bitchun	201	Linux	2010-05-04 12:53:56	219
+bitpack	235	OS Independent	2010-05-04 12:53:56	219
+bits	216	Windows	2010-05-04 12:53:56	219
+bitstring	235	OS Independent	2010-05-04 12:53:56	219
+bitter	309	OS X	2010-05-04 12:53:56	219
+bitter	200	POSIX	2010-05-04 12:53:56	219
+bj-on-old-rails	235	OS Independent	2010-05-04 12:53:56	219
+bl6g	235	OS Independent	2010-05-04 12:53:56	219
+blackcloth	235	OS Independent	2010-05-04 12:53:56	219
+blacklight	235	OS Independent	2010-05-04 12:53:56	219
+blanket	221	MacOS	2010-05-04 12:53:56	219
+blanket	200	POSIX	2010-05-04 12:53:56	219
+blatanalyzer	200	POSIX	2010-05-04 12:53:56	219
+ble	235	OS Independent	2010-05-04 12:53:56	219
+blender	235	OS Independent	2010-05-04 12:53:56	219
+blinkenwords	200	POSIX	2010-05-04 12:53:57	219
+blinkenwords	309	OS X	2010-05-04 12:53:57	219
+blinkenwords	216	Windows	2010-05-04 12:53:57	219
+blitz3d	216	Windows	2010-05-04 12:53:57	219
+blogengine	235	OS Independent	2010-05-04 12:53:57	219
+blogfun	200	POSIX	2010-05-04 12:53:57	219
+bloggit	235	OS Independent	2010-05-04 12:53:57	219
+bloglines	235	OS Independent	2010-05-04 12:53:57	219
+blogmarks	235	OS Independent	2010-05-04 12:53:57	219
+blogsight	200	POSIX	2010-05-04 12:53:57	219
+blogwell	235	OS Independent	2010-05-04 12:53:57	219
+bluefeather	235	OS Independent	2010-05-04 12:53:57	219
+bn4r	235	OS Independent	2010-05-04 12:53:57	219
+bob	235	OS Independent	2010-05-04 12:53:57	219
+boilerplate	235	OS Independent	2010-05-04 12:53:57	219
+boisjoli	235	OS Independent	2010-05-04 12:53:57	219
+bokeo	201	Linux	2010-05-04 12:53:57	219
+bokeo	214	Microsoft	2010-05-04 12:53:57	219
+boogaloo	200	POSIX	2010-05-04 12:53:57	219
+bookworms	201	Linux	2010-05-04 12:53:57	219
+boomerang	235	OS Independent	2010-05-04 12:53:57	219
+boptic	235	OS Independent	2010-05-04 12:53:57	219
+bosdk	235	OS Independent	2010-05-04 12:53:57	219
+boto	235	OS Independent	2010-05-04 12:53:57	219
+bottone	203	FreeBSD	2010-05-04 12:53:57	219
+bottone	235	OS Independent	2010-05-04 12:53:57	219
+bounce-email	235	OS Independent	2010-05-04 12:53:57	219
+bowline	235	OS Independent	2010-05-04 12:53:57	219
+bowtie	235	OS Independent	2010-05-04 12:53:57	219
+brcobranca	235	OS Independent	2010-05-04 12:53:58	219
+breeze	235	OS Independent	2010-05-04 12:53:58	219
+bricks	235	OS Independent	2010-05-04 12:53:58	219
+briscola	219	Windows NT/2000	2010-05-04 12:53:58	219
+briscola	235	OS Independent	2010-05-04 12:53:58	219
+briscola	201	Linux	2010-05-04 12:53:58	219
+browsercms	235	OS Independent	2010-05-04 12:53:58	219
+bufferaffects	235	OS Independent	2010-05-04 12:53:58	219
+buggy	235	OS Independent	2010-05-04 12:53:58	219
+bugtrack	200	POSIX	2010-05-04 12:53:58	219
+bugtrack	219	Windows NT/2000	2010-05-04 12:53:58	219
+build2spec	235	OS Independent	2010-05-04 12:53:58	219
+builder	235	OS Independent	2010-05-04 12:53:58	219
+buildr	235	OS Independent	2010-05-04 12:53:58	219
+buildr4eclipse	235	OS Independent	2010-05-04 12:53:58	219
+bulkmail	200	POSIX	2010-05-04 12:53:58	219
+bulletonrails	235	OS Independent	2010-05-04 12:53:58	219
+bulletrb	201	Linux	2010-05-04 12:53:58	219
+bulletrb	309	OS X	2010-05-04 12:53:58	219
+bulletrb	216	Windows	2010-05-04 12:53:58	219
+bunny-amqp	235	OS Independent	2010-05-04 12:53:58	219
+busyajax	235	OS Independent	2010-05-04 12:53:58	219
+butils	235	OS Independent	2010-05-04 12:53:58	219
+butler	235	OS Independent	2010-05-04 12:53:58	219
+button-labels	235	OS Independent	2010-05-04 12:53:58	219
+bycoque	235	OS Independent	2010-05-04 12:53:58	219
+byeloo	214	Microsoft	2010-05-04 12:53:58	219
+byeloo	309	OS X	2010-05-04 12:53:58	219
+byeloo	201	Linux	2010-05-04 12:53:58	219
+bzrwrapper	235	OS Independent	2010-05-04 12:53:59	219
+bzzz	201	Linux	2010-05-04 12:53:59	219
+bzzz	203	FreeBSD	2010-05-04 12:53:59	219
+bzzz	216	Windows	2010-05-04 12:53:59	219
+caboose	235	OS Independent	2010-05-04 12:53:59	219
+cache-decorator	235	OS Independent	2010-05-04 12:53:59	219
+cacheability	235	OS Independent	2010-05-04 12:53:59	219
+caching-plugin	235	OS Independent	2010-05-04 12:53:59	219
+cairn	201	Linux	2010-05-04 12:53:59	219
+cairn	309	OS X	2010-05-04 12:53:59	219
+cairn	216	Windows	2010-05-04 12:53:59	219
+cairo	221	MacOS	2010-05-04 12:53:59	219
+cairo	216	Windows	2010-05-04 12:53:59	219
+cairo	200	POSIX	2010-05-04 12:53:59	219
+calcul-wxruby	216	Windows	2010-05-04 12:53:59	219
+caldersphere	235	OS Independent	2010-05-04 12:53:59	219
+callback	200	POSIX	2010-05-04 12:53:59	219
+callback	214	Microsoft	2010-05-04 12:53:59	219
+callback	221	MacOS	2010-05-04 12:53:59	219
+callbacks	200	POSIX	2010-05-04 12:53:59	219
+calterm	235	OS Independent	2010-05-04 12:53:59	219
+camellia	235	OS Independent	2010-05-04 12:53:59	219
+cameltoe	235	OS Independent	2010-05-04 12:53:59	219
+campaignmonitor	235	OS Independent	2010-05-04 12:53:59	219
+capazon	235	OS Independent	2010-05-04 12:53:59	219
+capby	235	OS Independent	2010-05-04 12:53:59	219
+capgem	235	OS Independent	2010-05-04 12:53:59	219
+capistrano	235	OS Independent	2010-05-04 12:53:59	219
+capistrano	200	POSIX	2010-05-04 12:53:59	219
+capistrano-conf	235	OS Independent	2010-05-04 12:53:59	219
+capistrano-s3	235	OS Independent	2010-05-04 12:53:59	219
+capistrano-sdb	235	OS Independent	2010-05-04 12:53:59	219
+cappy-runit	200	POSIX	2010-05-04 12:53:59	219
+cappy-runit	235	OS Independent	2010-05-04 12:53:59	219
+capsaicin	216	Windows	2010-05-04 12:53:59	219
+capsaicin	309	OS X	2010-05-04 12:53:59	219
+capsaicin	200	POSIX	2010-05-04 12:53:59	219
+captcha	235	OS Independent	2010-05-04 12:53:59	219
+cardinal	235	OS Independent	2010-05-04 12:54:00	219
+cares	200	POSIX	2010-05-04 12:54:00	219
+caricature	235	OS Independent	2010-05-04 12:54:00	219
+carpark	235	OS Independent	2010-05-04 12:54:00	219
+carrierwave	235	OS Independent	2010-05-04 12:54:00	219
+cartesian	235	OS Independent	2010-05-04 12:54:00	219
+caser	235	OS Independent	2010-05-04 12:54:00	219
+cashjuggler	219	Windows NT/2000	2010-05-04 12:54:00	219
+cashjuggler	201	Linux	2010-05-04 12:54:00	219
+casl	235	OS Independent	2010-05-04 12:54:00	219
+castaway	201	Linux	2010-05-04 12:54:00	219
+castaway	309	OS X	2010-05-04 12:54:00	219
+castaway	216	Windows	2010-05-04 12:54:00	219
+catamount	235	OS Independent	2010-05-04 12:54:00	219
+catori	201	Linux	2010-05-04 12:54:00	219
+cbac	235	OS Independent	2010-05-04 12:54:00	219
+cbuilder	201	Linux	2010-05-04 12:54:00	219
+cbuilder	202	BSD	2010-05-04 12:54:00	219
+cbuilder	235	OS Independent	2010-05-04 12:54:00	219
+ccredit	235	OS Independent	2010-05-04 12:54:00	219
+cctrayrb	200	POSIX	2010-05-04 12:54:00	219
+cdb	200	POSIX	2010-05-04 12:54:00	219
+cdblog	235	OS Independent	2010-05-04 12:54:00	219
+celerity	235	OS Independent	2010-05-04 12:54:00	219
+cells	235	OS Independent	2010-05-04 12:54:00	219
+centaurr	235	OS Independent	2010-05-04 12:54:00	219
+cerberus	235	OS Independent	2010-05-04 12:54:00	219
+cereal	235	OS Independent	2010-05-04 12:54:00	219
+cerise	235	OS Independent	2010-05-04 12:54:00	219
+cevirgec	219	Windows NT/2000	2010-05-04 12:54:00	219
+cfpropertylist	235	OS Independent	2010-05-04 12:54:00	219
+cfruby	235	OS Independent	2010-05-04 12:54:00	219
+cfruby	200	POSIX	2010-05-04 12:54:00	219
+cgen	235	OS Independent	2010-05-04 12:54:00	219
+chainable	235	OS Independent	2010-05-04 12:54:01	219
+chameleon	235	OS Independent	2010-05-04 12:54:01	219
+charlie	235	OS Independent	2010-05-04 12:54:01	219
+chatten	235	OS Independent	2010-05-04 12:54:01	219
+checkr	235	OS Independent	2010-05-04 12:54:01	219
+chess	235	OS Independent	2010-05-04 12:54:01	219
+chessonrails	235	OS Independent	2010-05-04 12:54:01	219
+chikkenbukket	235	OS Independent	2010-05-04 12:54:01	219
+chronic	235	OS Independent	2010-05-04 12:54:01	219
+chuckslist	235	OS Independent	2010-05-04 12:54:01	219
+chump-change	235	OS Independent	2010-05-04 12:54:01	219
+chun	201	Linux	2010-05-04 12:54:01	219
+cicphash	235	OS Independent	2010-05-04 12:54:01	219
+cinabox	201	Linux	2010-05-04 12:54:01	219
+circus	235	OS Independent	2010-05-04 12:54:01	219
+cit	200	POSIX	2010-05-04 12:54:01	219
+citriski	235	OS Independent	2010-05-04 12:54:01	219
+civicduty	235	OS Independent	2010-05-04 12:54:01	219
+classbrowser	235	OS Independent	2010-05-04 12:54:01	219
+classifier	235	OS Independent	2010-05-04 12:54:01	219
+classroom	200	POSIX	2010-05-04 12:54:02	219
+cleanliness	235	OS Independent	2010-05-04 12:54:02	219
+clevic	216	Windows	2010-05-04 12:54:02	219
+clevic	201	Linux	2010-05-04 12:54:02	219
+cliaws	235	OS Independent	2010-05-04 12:54:02	219
+cliblog	235	OS Independent	2010-05-04 12:54:02	219
+clickatell	200	POSIX	2010-05-04 12:54:02	219
+clickspotter	200	POSIX	2010-05-04 12:54:02	219
+clinicdb	235	OS Independent	2010-05-04 12:54:02	219
+clop	235	OS Independent	2010-05-04 12:54:02	219
+clothred	235	OS Independent	2010-05-04 12:54:02	219
+cloudburst	235	OS Independent	2010-05-04 12:54:02	219
+clsruby	235	OS Independent	2010-05-04 12:54:02	219
+clubweb	235	OS Independent	2010-05-04 12:54:02	219
+clusterim	235	OS Independent	2010-05-04 12:54:02	219
+clyk	235	OS Independent	2010-05-04 12:54:02	219
+cmd	235	OS Independent	2010-05-04 12:54:02	219
+cmdctrl	200	POSIX	2010-05-04 12:54:02	219
+cmdline	235	OS Independent	2010-05-04 12:54:02	219
+cmdparse	235	OS Independent	2010-05-04 12:54:02	219
+cmsplugin	235	OS Independent	2010-05-04 12:54:02	219
+cnav	216	Windows	2010-05-04 12:54:02	219
+cnav	201	Linux	2010-05-04 12:54:02	219
+cnuconfig	235	OS Independent	2010-05-04 12:54:02	219
+cnuregexp	235	OS Independent	2010-05-04 12:54:02	219
+cobasis	235	OS Independent	2010-05-04 12:54:02	219
+cocktailswxruby	216	Windows	2010-05-04 12:54:02	219
+coco-ruby	235	OS Independent	2010-05-04 12:54:02	219
+cocoba	216	Windows	2010-05-04 12:54:02	219
+cocoba	309	OS X	2010-05-04 12:54:02	219
+cocoba	201	Linux	2010-05-04 12:54:02	219
+code74	221	MacOS	2010-05-04 12:54:02	219
+codefumes	200	POSIX	2010-05-04 12:54:03	219
+codegraph	202	BSD	2010-05-04 12:54:03	219
+codegraph	201	Linux	2010-05-04 12:54:03	219
+codemax	216	Windows	2010-05-04 12:54:03	219
+codemax	309	OS X	2010-05-04 12:54:03	219
+codemax	201	Linux	2010-05-04 12:54:03	219
+coderay	235	OS Independent	2010-05-04 12:54:03	219
+collections	235	OS Independent	2010-05-04 12:54:03	219
+color-japanese	235	OS Independent	2010-05-04 12:54:03	219
+colorize	235	OS Independent	2010-05-04 12:54:03	219
+colorparser	235	OS Independent	2010-05-04 12:54:03	219
+comatose	235	OS Independent	2010-05-04 12:54:03	219
+comet-gramework	201	Linux	2010-05-04 12:54:03	219
+commandset	235	OS Independent	2010-05-04 12:54:03	219
+commitment	235	OS Independent	2010-05-04 12:54:03	219
+commonwealthy	221	MacOS	2010-05-04 12:54:03	219
+commonwealthy	235	OS Independent	2010-05-04 12:54:03	219
+commonwealthy	200	POSIX	2010-05-04 12:54:03	219
+communitio	235	OS Independent	2010-05-04 12:54:03	219
+compages	235	OS Independent	2010-05-04 12:54:03	219
+comparedbmysql	216	Windows	2010-05-04 12:54:03	219
+comparedbmysql	201	Linux	2010-05-04 12:54:03	219
+concatenative	235	OS Independent	2010-05-04 12:54:03	219
+concurrent	235	OS Independent	2010-05-04 12:54:03	219
+confersion	309	OS X	2010-05-04 12:54:03	219
+confersion	200	POSIX	2010-05-04 12:54:03	219
+conssolv	235	OS Independent	2010-05-04 12:54:04	219
+constantrecord	235	OS Independent	2010-05-04 12:54:04	219
+constellation	207	SunOS/Solaris	2010-05-04 12:54:04	219
+constellation	201	Linux	2010-05-04 12:54:04	219
+constellation	219	Windows NT/2000	2010-05-04 12:54:04	219
+constraint	235	OS Independent	2010-05-04 12:54:04	219
+contactcsv	235	OS Independent	2010-05-04 12:54:04	219
+contactsiphon	235	OS Independent	2010-05-04 12:54:04	219
+contentful	235	OS Independent	2010-05-04 12:54:04	219
+contextr	235	OS Independent	2010-05-04 12:54:04	219
+continuous4r	235	OS Independent	2010-05-04 12:54:04	219
+conversion	235	OS Independent	2010-05-04 12:54:04	219
+conveyor	235	OS Independent	2010-05-04 12:54:04	219
+cooloptions	235	OS Independent	2010-05-04 12:54:04	219
+copland	235	OS Independent	2010-05-04 12:54:04	219
+cori	235	OS Independent	2010-05-04 12:54:04	219
+cortex-reaver	200	POSIX	2010-05-04 12:54:04	219
+cotta	235	OS Independent	2010-05-04 12:54:04	219
+cougar	201	Linux	2010-05-04 12:54:04	219
+cougar	216	Windows	2010-05-04 12:54:04	219
+countloc	235	OS Independent	2010-05-04 12:54:04	219
+courseadvisor	235	OS Independent	2010-05-04 12:54:04	219
+crackup	235	OS Independent	2010-05-04 12:54:05	219
+crank	235	OS Independent	2010-05-04 12:54:05	219
+creole	235	OS Independent	2010-05-04 12:54:05	219
+criteria	235	OS Independent	2010-05-04 12:54:05	219
+crm114	235	OS Independent	2010-05-04 12:54:05	219
+croc	235	OS Independent	2010-05-04 12:54:05	219
+cronedit	309	OS X	2010-05-04 12:54:05	219
+cronedit	201	Linux	2010-05-04 12:54:05	219
+crtestrunner	309	OS X	2010-05-04 12:54:05	219
+crude	235	OS Independent	2010-05-04 12:54:05	219
+crypt	235	OS Independent	2010-05-04 12:54:05	219
+crypt-isaac	235	OS Independent	2010-05-04 12:54:05	219
+crypt-tea	235	OS Independent	2010-05-04 12:54:05	219
+crypteddownload	235	OS Independent	2010-05-04 12:54:05	219
+cssformbuilder	235	OS Independent	2010-05-04 12:54:05	219
+cssganttplugin	235	OS Independent	2010-05-04 12:54:05	219
+cssparser	235	OS Independent	2010-05-04 12:54:05	219
+csspress	309	OS X	2010-05-04 12:54:05	219
+csv-import	235	OS Independent	2010-05-04 12:54:05	219
+csv-rails	235	OS Independent	2010-05-04 12:54:05	219
+csv2sql	235	OS Independent	2010-05-04 12:54:05	219
+csvrecord	235	OS Independent	2010-05-04 12:54:05	219
+ctioga2	235	OS Independent	2010-05-04 12:54:05	219
+cuca	200	POSIX	2010-05-04 12:54:05	219
+cupola	235	OS Independent	2010-05-04 12:54:05	219
+cups	200	POSIX	2010-05-04 12:54:05	219
+curb	235	OS Independent	2010-05-04 12:54:05	219
+curr-converter	200	POSIX	2010-05-04 12:54:05	219
+curr-converter	235	OS Independent	2010-05-04 12:54:05	219
+curr-converter	214	Microsoft	2010-05-04 12:54:05	219
+currency	235	OS Independent	2010-05-04 12:54:05	219
+cursor	235	OS Independent	2010-05-04 12:54:06	219
+cvstools	202	BSD	2010-05-04 12:54:06	219
+cvstools	201	Linux	2010-05-04 12:54:06	219
+cws	235	OS Independent	2010-05-04 12:54:06	219
+cyberdeck	200	POSIX	2010-05-04 12:54:06	219
+cyberdeck	235	OS Independent	2010-05-04 12:54:06	219
+czytacz	235	OS Independent	2010-05-04 12:54:06	219
+czytacz	201	Linux	2010-05-04 12:54:06	219
+d8a	235	OS Independent	2010-05-04 12:54:06	219
+daapclient	235	OS Independent	2010-05-04 12:54:06	219
+dabcup	235	OS Independent	2010-05-04 12:54:06	219
+dacota	235	OS Independent	2010-05-04 12:54:06	219
+daemons	200	POSIX	2010-05-04 12:54:06	219
+dake	201	Linux	2010-05-04 12:54:06	219
+dango	216	Windows	2010-05-04 12:54:06	219
+dango	201	Linux	2010-05-04 12:54:06	219
+darcs-ruby	235	OS Independent	2010-05-04 12:54:06	219
+dataex	235	OS Independent	2010-05-04 12:54:06	219
+datagen	216	Windows	2010-05-04 12:54:06	219
+datamapper	235	OS Independent	2010-05-04 12:54:06	219
+dataview	235	OS Independent	2010-05-04 12:54:06	219
+datebalks	235	OS Independent	2010-05-04 12:54:06	219
+datedbackup	200	POSIX	2010-05-04 12:54:06	219
+dateeaster	235	OS Independent	2010-05-04 12:54:06	219
+dateutils	235	OS Independent	2010-05-04 12:54:06	219
+daum	235	OS Independent	2010-05-04 12:54:06	219
+davclient	235	OS Independent	2010-05-04 12:54:06	219
+daylife	235	OS Independent	2010-05-04 12:54:06	219
+db-discovery	235	OS Independent	2010-05-04 12:54:06	219
+db2extended	216	Windows	2010-05-04 12:54:06	219
+db2extended	210	AIX	2010-05-04 12:54:06	219
+db2extended	201	Linux	2010-05-04 12:54:06	219
+db2rails	235	OS Independent	2010-05-04 12:54:06	219
+dbc	235	OS Independent	2010-05-04 12:54:06	219
+dbcov	201	Linux	2010-05-04 12:54:07	219
+dbcov	309	OS X	2010-05-04 12:54:07	219
+dbcov	216	Windows	2010-05-04 12:54:07	219
+dbd-informix	235	OS Independent	2010-05-04 12:54:07	219
+dbdiff	235	OS Independent	2010-05-04 12:54:07	219
+dbrb	235	OS Independent	2010-05-04 12:54:07	219
+dbrubymanager	201	Linux	2010-05-04 12:54:07	219
+dbus-ruby	200	POSIX	2010-05-04 12:54:07	219
+dconr	235	OS Independent	2010-05-04 12:54:07	219
+dctl	200	POSIX	2010-05-04 12:54:07	219
+ddate	235	OS Independent	2010-05-04 12:54:07	219
+ddcplugin	235	OS Independent	2010-05-04 12:54:07	219
+ddynastructs	216	Windows	2010-05-04 12:54:07	219
+ddynastructs	201	Linux	2010-05-04 12:54:07	219
+debianonrails	201	Linux	2010-05-04 12:54:07	219
+debpack	235	OS Independent	2010-05-04 12:54:07	219
+debug-commons	235	OS Independent	2010-05-04 12:54:07	219
+debugprint	235	OS Independent	2010-05-04 12:54:07	219
+decimal	235	OS Independent	2010-05-04 12:54:07	219
+deckshuffler	235	OS Independent	2010-05-04 12:54:07	219
+declan	235	OS Independent	2010-05-04 12:54:07	219
+decorate	235	OS Independent	2010-05-04 12:54:07	219
+dectxn	235	OS Independent	2010-05-04 12:54:07	219
+dedawiki	235	OS Independent	2010-05-04 12:54:07	219
+deepend	235	OS Independent	2010-05-04 12:54:07	219
+delicious4r	235	OS Independent	2010-05-04 12:54:07	219
+delish	201	Linux	2010-05-04 12:54:07	219
+demolisher	235	OS Independent	2010-05-04 12:54:07	219
+dependency	235	OS Independent	2010-05-04 12:54:07	219
+deplategem	235	OS Independent	2010-05-04 12:54:07	219
+deprec	235	OS Independent	2010-05-04 12:54:07	219
+deprecated	235	OS Independent	2010-05-04 12:54:07	219
+devalot	235	OS Independent	2010-05-04 12:54:08	219
+developergarden	221	MacOS	2010-05-04 12:54:08	219
+developergarden	214	Microsoft	2010-05-04 12:54:08	219
+developergarden	236	Other OS	2010-05-04 12:54:08	219
+dhaka	235	OS Independent	2010-05-04 12:54:08	219
+dhkeyexchange	200	POSIX	2010-05-04 12:54:08	219
+dhkeyexchange	309	OS X	2010-05-04 12:54:08	219
+dhun	221	MacOS	2010-05-04 12:54:08	219
+diakonos	309	OS X	2010-05-04 12:54:08	219
+diakonos	201	Linux	2010-05-04 12:54:08	219
+dialog	235	OS Independent	2010-05-04 12:54:08	219
+diaria	235	OS Independent	2010-05-04 12:54:08	219
+dicom	235	OS Independent	2010-05-04 12:54:08	219
+dicomutils	216	Windows	2010-05-04 12:54:08	219
+dicomutils	235	OS Independent	2010-05-04 12:54:08	219
+dicomutils	201	Linux	2010-05-04 12:54:08	219
+diff-csv	235	OS Independent	2010-05-04 12:54:08	219
+difflcs	235	OS Independent	2010-05-04 12:54:08	219
+digestr	200	POSIX	2010-05-04 12:54:08	219
+digestr	216	Windows	2010-05-04 12:54:08	219
+digestr	221	MacOS	2010-05-04 12:54:08	219
+digitalmoney	235	OS Independent	2010-05-04 12:54:08	219
+digitalronin	235	OS Independent	2010-05-04 12:54:08	219
+dime	200	POSIX	2010-05-04 12:54:08	219
+diplomacy	235	OS Independent	2010-05-04 12:54:08	219
+diptera	235	OS Independent	2010-05-04 12:54:08	219
+dirdiff	235	OS Independent	2010-05-04 12:54:08	219
+dirjoy	235	OS Independent	2010-05-04 12:54:08	219
+discussit	235	OS Independent	2010-05-04 12:54:08	219
+dispatcher	235	OS Independent	2010-05-04 12:54:08	219
+disqus	235	OS Independent	2010-05-04 12:54:08	219
+distribustream	235	OS Independent	2010-05-04 12:54:08	219
+divshare	235	OS Independent	2010-05-04 12:54:08	219
+djbt	200	POSIX	2010-05-04 12:54:08	219
+djbt	309	OS X	2010-05-04 12:54:08	219
+djbt	216	Windows	2010-05-04 12:54:08	219
+dl-link-helper	235	OS Independent	2010-05-04 12:54:08	219
+dlinkctrl	221	MacOS	2010-05-04 12:54:08	219
+dlinkctrl	216	Windows	2010-05-04 12:54:08	219
+dlinkctrl	201	Linux	2010-05-04 12:54:08	219
+dm-optlock	235	OS Independent	2010-05-04 12:54:09	219
+dm-paperclip	235	OS Independent	2010-05-04 12:54:09	219
+dm-rdf	235	OS Independent	2010-05-04 12:54:09	219
+dm-sphinx	235	OS Independent	2010-05-04 12:54:09	219
+dm-yaml-adapter	235	OS Independent	2010-05-04 12:54:09	219
+dnsomatic	235	OS Independent	2010-05-04 12:54:09	219
+dnsruby	235	OS Independent	2010-05-04 12:54:09	219
+dnssd	219	Windows NT/2000	2010-05-04 12:54:09	219
+dnssd	309	OS X	2010-05-04 12:54:09	219
+dnssd	200	POSIX	2010-05-04 12:54:09	219
+dnstraverse	235	OS Independent	2010-05-04 12:54:09	219
+doab	235	OS Independent	2010-05-04 12:54:09	219
+doc2html	216	Windows	2010-05-04 12:54:09	219
+docgenerator	219	Windows NT/2000	2010-05-04 12:54:09	219
+docgenerator	235	OS Independent	2010-05-04 12:54:09	219
+documatic	235	OS Independent	2010-05-04 12:54:09	219
+dodt-chargen	216	Windows	2010-05-04 12:54:09	219
+dohruby	235	OS Independent	2010-05-04 12:54:09	219
+dojor	235	OS Independent	2010-05-04 12:54:09	219
+dokkit	235	OS Independent	2010-05-04 12:54:09	219
+dome	235	OS Independent	2010-05-04 12:54:09	219
+doodle	235	OS Independent	2010-05-04 12:54:09	219
+dorkbuster	235	OS Independent	2010-05-04 12:54:09	219
+dotime	235	OS Independent	2010-05-04 12:54:09	219
+dotnetvc	219	Windows NT/2000	2010-05-04 12:54:09	219
+dotr	200	POSIX	2010-05-04 12:54:09	219
+dotr	309	OS X	2010-05-04 12:54:09	219
+dotr	214	Microsoft	2010-05-04 12:54:09	219
+dram	200	POSIX	2010-05-04 12:54:09	219
+dramatis	221	MacOS	2010-05-04 12:54:09	219
+dramatis	235	OS Independent	2010-05-04 12:54:09	219
+dramatis	201	Linux	2010-05-04 12:54:09	219
+drbfire	235	OS Independent	2010-05-04 12:54:09	219
+drcureta	201	Linux	2010-05-04 12:54:10	219
+drcureta	309	OS X	2010-05-04 12:54:10	219
+drnicutilities	235	OS Independent	2010-05-04 12:54:10	219
+drp	235	OS Independent	2010-05-04 12:54:10	219
+drqueue	216	Windows	2010-05-04 12:54:10	219
+drqueue	309	OS X	2010-05-04 12:54:10	219
+drqueue	200	POSIX	2010-05-04 12:54:10	219
+druid	235	OS Independent	2010-05-04 12:54:10	219
+druida	200	POSIX	2010-05-04 12:54:10	219
+druida	221	MacOS	2010-05-04 12:54:10	219
+dtr	235	OS Independent	2010-05-04 12:54:10	219
+duby	201	Linux	2010-05-04 12:54:10	219
+dubya	309	OS X	2010-05-04 12:54:10	219
+dubya	200	POSIX	2010-05-04 12:54:10	219
+ducktypechecker	235	OS Independent	2010-05-04 12:54:10	219
+dumptruck	235	OS Independent	2010-05-04 12:54:10	219
+dutchfaker	235	OS Independent	2010-05-04 12:54:10	219
+dvbstreamer	200	POSIX	2010-05-04 12:54:10	219
+dynect	235	OS Independent	2010-05-04 12:54:10	219
+dynpet	218	Windows 95/98/2000	2010-05-04 12:54:10	219
+dynpet	201	Linux	2010-05-04 12:54:10	219
+eaal	235	OS Independent	2010-05-04 12:54:10	219
+eadcodec	235	OS Independent	2010-05-04 12:54:10	219
+eagerfindersql	235	OS Independent	2010-05-04 12:54:10	219
+ean	235	OS Independent	2010-05-04 12:54:10	219
+eassl	221	MacOS	2010-05-04 12:54:10	219
+eassl	216	Windows	2010-05-04 12:54:10	219
+eassl	201	Linux	2010-05-04 12:54:10	219
+easygameengine	214	Microsoft	2010-05-04 12:54:10	219
+easygameengine	201	Linux	2010-05-04 12:54:10	219
+easymessages	235	OS Independent	2010-05-04 12:54:11	219
+easyproj	235	OS Independent	2010-05-04 12:54:11	219
+easysft	235	OS Independent	2010-05-04 12:54:11	219
+eb-nested-set	235	OS Independent	2010-05-04 12:54:11	219
+ebay4r	235	OS Independent	2010-05-04 12:54:11	219
+eblog	219	Windows NT/2000	2010-05-04 12:54:11	219
+echi-converter	219	Windows NT/2000	2010-05-04 12:54:11	219
+echi-converter	200	POSIX	2010-05-04 12:54:11	219
+ecmdlineparser	235	OS Independent	2010-05-04 12:54:11	219
+ecommerce	235	OS Independent	2010-05-04 12:54:11	219
+ecs	235	OS Independent	2010-05-04 12:54:11	219
+edgar4r	235	OS Independent	2010-05-04 12:54:11	219
+eduerp	216	Windows	2010-05-04 12:54:11	219
+eduerp	201	Linux	2010-05-04 12:54:11	219
+edx	201	Linux	2010-05-04 12:54:11	219
+edx	235	OS Independent	2010-05-04 12:54:11	219
+edx	216	Windows	2010-05-04 12:54:11	219
+efp	235	OS Independent	2010-05-04 12:54:11	219
+eldorado	235	OS Independent	2010-05-04 12:54:11	219
+eleanor	235	OS Independent	2010-05-04 12:54:11	219
+elektronik	216	Windows	2010-05-04 12:54:11	219
+element	200	POSIX	2010-05-04 12:54:11	219
+elemental	235	OS Independent	2010-05-04 12:54:11	219
+elephant	235	OS Independent	2010-05-04 12:54:11	219
+elif	216	Windows	2010-05-04 12:54:11	219
+elif	309	OS X	2010-05-04 12:54:11	219
+elif	200	POSIX	2010-05-04 12:54:11	219
+elitejournal	235	OS Independent	2010-05-04 12:54:11	219
+emdrb	235	OS Independent	2010-05-04 12:54:11	219
+emerald	235	OS Independent	2010-05-04 12:54:11	219
+emilsscraper	216	Windows	2010-05-04 12:54:12	219
+emm-ruby	200	POSIX	2010-05-04 12:54:12	219
+emoji	235	OS Independent	2010-05-04 12:54:12	219
+emoji	309	OS X	2010-05-04 12:54:12	219
+emoji	236	Other OS	2010-05-04 12:54:12	219
+emojiconv	235	OS Independent	2010-05-04 12:54:12	219
+encml	200	POSIX	2010-05-04 12:54:12	219
+ender	200	POSIX	2010-05-04 12:54:12	219
+ender	309	OS X	2010-05-04 12:54:12	219
+ender	216	Windows	2010-05-04 12:54:12	219
+enemy	235	OS Independent	2010-05-04 12:54:12	219
+energon	235	OS Independent	2010-05-04 12:54:12	219
+engel	235	OS Independent	2010-05-04 12:54:12	219
+enhanced-mgrtns	235	OS Independent	2010-05-04 12:54:12	219
+enigma	216	Windows	2010-05-04 12:54:12	219
+enigma	201	Linux	2010-05-04 12:54:12	219
+enkoder	235	OS Independent	2010-05-04 12:54:12	219
+enum-column	235	OS Independent	2010-05-04 12:54:12	219
+enum-mapper	235	OS Independent	2010-05-04 12:54:12	219
+equipment	216	Windows	2010-05-04 12:54:12	219
+equipment	200	POSIX	2010-05-04 12:54:12	219
+erbextensions	235	OS Independent	2010-05-04 12:54:12	219
+erlbox	235	OS Independent	2010-05-04 12:54:12	219
+erlectricity	235	OS Independent	2010-05-04 12:54:12	219
+erlgen	235	OS Independent	2010-05-04 12:54:12	219
+erp4u	235	OS Independent	2010-05-04 12:54:12	219
+erubis	235	OS Independent	2010-05-04 12:54:12	219
+erun	235	OS Independent	2010-05-04 12:54:12	219
+eruta	216	Windows	2010-05-04 12:54:12	219
+eruta	235	OS Independent	2010-05-04 12:54:12	219
+eruta	201	Linux	2010-05-04 12:54:12	219
+eschool	235	OS Independent	2010-05-04 12:54:12	219
+escptopdf	200	POSIX	2010-05-04 12:54:12	219
+esmir	200	POSIX	2010-05-04 12:54:12	219
+esp	235	OS Independent	2010-05-04 12:54:12	219
+estraier	200	POSIX	2010-05-04 12:54:12	219
+et-tool	219	Windows NT/2000	2010-05-04 12:54:12	219
+et-tool	201	Linux	2010-05-04 12:54:12	219
+etch	216	Windows	2010-05-04 12:54:12	219
+eteos-client	235	OS Independent	2010-05-04 12:54:12	219
+etherquest	235	OS Independent	2010-05-04 12:54:12	219
+ev-memcache-cli	235	OS Independent	2010-05-04 12:54:13	219
+evangelisator	201	Linux	2010-05-04 12:54:13	219
+evdbapi	235	OS Independent	2010-05-04 12:54:13	219
+eveapi	235	OS Independent	2010-05-04 12:54:13	219
+eventlogger	235	OS Independent	2010-05-04 12:54:13	219
+eventmachine	235	OS Independent	2010-05-04 12:54:13	219
+everdex	219	Windows NT/2000	2010-05-04 12:54:13	219
+evil	235	OS Independent	2010-05-04 12:54:13	219
+evm	201	Linux	2010-05-04 12:54:13	219
+evosynth	235	OS Independent	2010-05-04 12:54:13	219
+exact4r	235	OS Independent	2010-05-04 12:54:13	219
+excelio	201	Linux	2010-05-04 12:54:13	219
+excelio	216	Windows	2010-05-04 12:54:13	219
+exclusive-flags	235	OS Independent	2010-05-04 12:54:13	219
+execremote	309	OS X	2010-05-04 12:54:13	219
+execremote	201	Linux	2010-05-04 12:54:13	219
+exg2cal	235	OS Independent	2010-05-04 12:54:13	219
+exif-graph	235	OS Independent	2010-05-04 12:54:13	219
+exiffu	235	OS Independent	2010-05-04 12:54:13	219
+exifr	235	OS Independent	2010-05-04 12:54:13	219
+exist-xml-rpc	201	Linux	2010-05-04 12:54:13	219
+expensetracker	235	OS Independent	2010-05-04 12:54:13	219
+expire-sessions	235	OS Independent	2010-05-04 12:54:13	219
+explainpmt	235	OS Independent	2010-05-04 12:54:13	219
+expr-interpret	235	OS Independent	2010-05-04 12:54:13	219
+extcsv	235	OS Independent	2010-05-04 12:54:13	219
+extensional	235	OS Independent	2010-05-04 12:54:13	219
+extensions	235	OS Independent	2010-05-04 12:54:13	219
+extmath	235	OS Independent	2010-05-04 12:54:13	219
+extract-curves	235	OS Independent	2010-05-04 12:54:13	219
+extractor	235	OS Independent	2010-05-04 12:54:13	219
+eyeinthesky	235	OS Independent	2010-05-04 12:54:14	219
+ezabel	235	OS Independent	2010-05-04 12:54:14	219
+ezcrypto	235	OS Independent	2010-05-04 12:54:14	219
+ezgtk	235	OS Independent	2010-05-04 12:54:14	219
+f-m	201	Linux	2010-05-04 12:54:14	219
+facebookbot	235	OS Independent	2010-05-04 12:54:14	219
+facetoface	216	Windows	2010-05-04 12:54:14	219
+facetoface	200	POSIX	2010-05-04 12:54:14	219
+facets	235	OS Independent	2010-05-04 12:54:14	219
+facon	235	OS Independent	2010-05-04 12:54:14	219
+facter	200	POSIX	2010-05-04 12:54:14	219
+facter	309	OS X	2010-05-04 12:54:14	219
+facter	235	OS Independent	2010-05-04 12:54:14	219
+fair-cg	235	OS Independent	2010-05-04 12:54:14	219
+faithfulcode	235	OS Independent	2010-05-04 12:54:14	219
+fakeweb	235	OS Independent	2010-05-04 12:54:14	219
+fast-xs	200	POSIX	2010-05-04 12:54:14	219
+fastercsv	201	Linux	2010-05-04 12:54:14	219
+fastercsv	309	OS X	2010-05-04 12:54:14	219
+fastercsv	216	Windows	2010-05-04 12:54:14	219
+fasterh	235	OS Independent	2010-05-04 12:54:14	219
+fasterpath	235	OS Independent	2010-05-04 12:54:14	219
+fastreader	200	POSIX	2010-05-04 12:54:14	219
+fatfreecrm	309	OS X	2010-05-04 12:54:14	219
+fatfreecrm	200	POSIX	2010-05-04 12:54:14	219
+fathom	235	OS Independent	2010-05-04 12:54:14	219
+faucets	216	Windows	2010-05-04 12:54:14	219
+fauna	235	OS Independent	2010-05-04 12:54:14	219
+fblib	216	Windows	2010-05-04 12:54:14	219
+fblib	201	Linux	2010-05-04 12:54:14	219
+fbmyip	205	OpenBSD	2010-05-04 12:54:14	219
+fbmyip	201	Linux	2010-05-04 12:54:14	219
+fcca	235	OS Independent	2010-05-04 12:54:14	219
+fccropper	235	OS Independent	2010-05-04 12:54:14	219
+fcgi	200	POSIX	2010-05-04 12:54:14	219
+fcgi	219	Windows NT/2000	2010-05-04 12:54:14	219
+fckeditorp	235	OS Independent	2010-05-04 12:54:14	219
+feed-discover	235	OS Independent	2010-05-04 12:54:15	219
+feed-normalizer	235	OS Independent	2010-05-04 12:54:15	219
+feedalizer	235	OS Independent	2010-05-04 12:54:15	219
+feedblender	200	POSIX	2010-05-04 12:54:15	219
+feedblender	221	MacOS	2010-05-04 12:54:15	219
+feeddiscoverapi	235	OS Independent	2010-05-04 12:54:15	219
+feeds	235	OS Independent	2010-05-04 12:54:15	219
+feedtools	235	OS Independent	2010-05-04 12:54:15	219
+feedtools-cache	235	OS Independent	2010-05-04 12:54:15	219
+feedvalidator	235	OS Independent	2010-05-04 12:54:15	219
+femail	235	OS Independent	2010-05-04 12:54:15	219
+ferb	235	OS Independent	2010-05-04 12:54:15	219
+ferret	235	OS Independent	2010-05-04 12:54:15	219
+ferus	235	OS Independent	2010-05-04 12:54:15	219
+festivaltts4r	221	MacOS	2010-05-04 12:54:15	219
+festivaltts4r	201	Linux	2010-05-04 12:54:15	219
+ffi-ncurses	221	MacOS	2010-05-04 12:54:15	219
+ffi-ncurses	201	Linux	2010-05-04 12:54:15	219
+ffruby	235	OS Independent	2010-05-04 12:54:15	219
+fhlow	201	Linux	2010-05-04 12:54:15	219
+fhlow	216	Windows	2010-05-04 12:54:15	219
+filament	221	MacOS	2010-05-04 12:54:15	219
+filament	219	Windows NT/2000	2010-05-04 12:54:15	219
+filament	201	Linux	2010-05-04 12:54:15	219
+file-formatter	235	OS Independent	2010-05-04 12:54:15	219
+filebrowser	235	OS Independent	2010-05-04 12:54:15	219
+filecache	200	POSIX	2010-05-04 12:54:15	219
+filecache	309	OS X	2010-05-04 12:54:15	219
+filecache	216	Windows	2010-05-04 12:54:15	219
+filefinder	201	Linux	2010-05-04 12:54:15	219
+filemonitor	200	POSIX	2010-05-04 12:54:15	219
+filereplacer	219	Windows NT/2000	2010-05-04 12:54:15	219
+filereplacer	201	Linux	2010-05-04 12:54:15	219
+filereplicator	201	Linux	2010-05-04 12:54:15	219
+filereplicator	309	OS X	2010-05-04 12:54:15	219
+filereplicator	214	Microsoft	2010-05-04 12:54:15	219
+filescan	235	OS Independent	2010-05-04 12:54:15	219
+filetter	235	OS Independent	2010-05-04 12:54:15	219
+filtered-list	235	OS Independent	2010-05-04 12:54:15	219
+finalizer	235	OS Independent	2010-05-04 12:54:15	219
+financasonrails	235	OS Independent	2010-05-04 12:54:15	219
+finance-tvm	235	OS Independent	2010-05-04 12:54:15	219
+findercolor	309	OS X	2010-05-04 12:54:15	219
+findercolor	221	MacOS	2010-05-04 12:54:15	219
+finitefield	235	OS Independent	2010-05-04 12:54:15	219
+firephruby	235	OS Independent	2010-05-04 12:54:16	219
+fireruby	216	Windows	2010-05-04 12:54:16	219
+fireruby	309	OS X	2010-05-04 12:54:16	219
+fireruby	201	Linux	2010-05-04 12:54:16	219
+fiscalcode	235	OS Independent	2010-05-04 12:54:16	219
+fishtrack	235	OS Independent	2010-05-04 12:54:16	219
+fit	235	OS Independent	2010-05-04 12:54:16	219
+fityk-ruby	200	POSIX	2010-05-04 12:54:16	219
+fix4r	235	OS Independent	2010-05-04 12:54:16	219
+fizzbuzz	235	OS Independent	2010-05-04 12:54:16	219
+fjson	200	POSIX	2010-05-04 12:54:16	219
+fjson	214	Microsoft	2010-05-04 12:54:16	219
+fjson	221	MacOS	2010-05-04 12:54:16	219
+flacinfo-rb	235	OS Independent	2010-05-04 12:54:16	219
+flash-helper	235	OS Independent	2010-05-04 12:54:16	219
+flash-plugin	235	OS Independent	2010-05-04 12:54:16	219
+flashrails	219	Windows NT/2000	2010-05-04 12:54:16	219
+flex-attributes	235	OS Independent	2010-05-04 12:54:16	219
+flexamater	309	OS X	2010-05-04 12:54:16	219
+flexboox	235	OS Independent	2010-05-04 12:54:16	219
+flexible-rails	214	Microsoft	2010-05-04 12:54:16	219
+flexible-rails	309	OS X	2010-05-04 12:54:16	219
+flexscaffold	216	Windows	2010-05-04 12:54:16	219
+flexscaffold	201	Linux	2010-05-04 12:54:16	219
+flickraw	235	OS Independent	2010-05-04 12:54:16	219
+flickrfetchr	201	Linux	2010-05-04 12:54:16	219
+fliewr	201	Linux	2010-05-04 12:54:16	219
+flipper	235	OS Independent	2010-05-04 12:54:16	219
+flite4r	200	POSIX	2010-05-04 12:54:16	219
+flittr	235	OS Independent	2010-05-04 12:54:16	219
+flixr	219	Windows NT/2000	2010-05-04 12:54:16	219
+flixr	200	POSIX	2010-05-04 12:54:16	219
+float-formats	235	OS Independent	2010-05-04 12:54:16	219
+flotilla	235	OS Independent	2010-05-04 12:54:16	219
+flout	235	OS Independent	2010-05-04 12:54:16	219
+flowtools	235	OS Independent	2010-05-04 12:54:16	219
+flt	235	OS Independent	2010-05-04 12:54:16	219
+fluentxpath	235	OS Independent	2010-05-04 12:54:17	219
+fluxr	235	OS Independent	2010-05-04 12:54:17	219
+fluxr	200	POSIX	2010-05-04 12:54:17	219
+flvedit	235	OS Independent	2010-05-04 12:54:17	219
+flvtool2	201	Linux	2010-05-04 12:54:17	219
+flvtool2	309	OS X	2010-05-04 12:54:17	219
+flvtool2	216	Windows	2010-05-04 12:54:17	219
+flytrap	221	MacOS	2010-05-04 12:54:17	219
+flytrap	201	Linux	2010-05-04 12:54:17	219
+fmq	235	OS Independent	2010-05-04 12:54:17	219
+fop4rails	201	Linux	2010-05-04 12:54:17	219
+forc	201	Linux	2010-05-04 12:54:17	219
+forc	219	Windows NT/2000	2010-05-04 12:54:17	219
+forc	221	MacOS	2010-05-04 12:54:17	219
+forgespider	235	OS Independent	2010-05-04 12:54:17	219
+forgetful	235	OS Independent	2010-05-04 12:54:17	219
+forkmanager	200	POSIX	2010-05-04 12:54:17	219
+foundry	200	POSIX	2010-05-04 12:54:17	219
+foursquare	235	OS Independent	2010-05-04 12:54:17	219
+fox-tool	235	OS Independent	2010-05-04 12:54:17	219
+freebaseapi	235	OS Independent	2010-05-04 12:54:17	219
+freeface	235	OS Independent	2010-05-04 12:54:17	219
+freeride	216	Windows	2010-05-04 12:54:17	219
+freeride	309	OS X	2010-05-04 12:54:17	219
+freeride	200	POSIX	2010-05-04 12:54:17	219
+friend-feed	235	OS Independent	2010-05-04 12:54:17	219
+frusdl	235	OS Independent	2010-05-04 12:54:18	219
+fsdb	235	OS Independent	2010-05-04 12:54:18	219
+fshp	235	OS Independent	2010-05-04 12:54:18	219
+fsmgen	235	OS Independent	2010-05-04 12:54:18	219
+ftpfxp	235	OS Independent	2010-05-04 12:54:18	219
+ftpwatch	201	Linux	2010-05-04 12:54:18	219
+fudger	235	OS Independent	2010-05-04 12:54:18	219
+fudger	200	POSIX	2010-05-04 12:54:18	219
+funfx	216	Windows	2010-05-04 12:54:18	219
+fuzzyrb	235	OS Independent	2010-05-04 12:54:18	219
+fxframework	201	Linux	2010-05-04 12:54:18	219
+fxframework	216	Windows	2010-05-04 12:54:18	219
+fxirb	216	Windows	2010-05-04 12:54:18	219
+fxirb	201	Linux	2010-05-04 12:54:18	219
+fxri	235	OS Independent	2010-05-04 12:54:18	219
+fxsvgcanvas	216	Windows	2010-05-04 12:54:18	219
+fxsvgcanvas	201	Linux	2010-05-04 12:54:18	219
+g11n	235	OS Independent	2010-05-04 12:54:18	219
+g2a	235	OS Independent	2010-05-04 12:54:18	219
+g3d-ruby	216	Windows	2010-05-04 12:54:18	219
+g3d-ruby	202	BSD	2010-05-04 12:54:18	219
+g3d-ruby	201	Linux	2010-05-04 12:54:18	219
+g3l	235	OS Independent	2010-05-04 12:54:18	219
+gainer	200	POSIX	2010-05-04 12:54:18	219
+galaxy	235	OS Independent	2010-05-04 12:54:18	219
+galena	235	OS Independent	2010-05-04 12:54:18	219
+gallery-remote	214	Microsoft	2010-05-04 12:54:18	219
+gallery-remote	309	OS X	2010-05-04 12:54:18	219
+gambit	235	OS Independent	2010-05-04 12:54:18	219
+gamequery	235	OS Independent	2010-05-04 12:54:18	219
+gappslib	235	OS Independent	2010-05-04 12:54:18	219
+gaspode	201	Linux	2010-05-04 12:54:18	219
+gazette	235	OS Independent	2010-05-04 12:54:18	219
+gbarcode	235	OS Independent	2010-05-04 12:54:18	219
+gbs-signal-slot	235	OS Independent	2010-05-04 12:54:19	219
+gbstring	235	OS Independent	2010-05-04 12:54:19	219
+gcalevents	235	OS Independent	2010-05-04 12:54:19	219
+gd2	235	OS Independent	2010-05-04 12:54:19	219
+gdata	235	OS Independent	2010-05-04 12:54:19	219
+gdiff	200	POSIX	2010-05-04 12:54:19	219
+gdiff	236	Other OS	2010-05-04 12:54:19	219
+gdiff	214	Microsoft	2010-05-04 12:54:19	219
+gecoder	216	Windows	2010-05-04 12:54:19	219
+gecoder	309	OS X	2010-05-04 12:54:19	219
+gecoder	201	Linux	2010-05-04 12:54:19	219
+geekast	201	Linux	2010-05-04 12:54:19	219
+geminstaller	235	OS Independent	2010-05-04 12:54:19	219
+gemsonrails	235	OS Independent	2010-05-04 12:54:19	219
+gemviz	216	Windows	2010-05-04 12:54:19	219
+gemviz	309	OS X	2010-05-04 12:54:19	219
+gemviz	201	Linux	2010-05-04 12:54:19	219
+genealogy	235	OS Independent	2010-05-04 12:54:19	219
+genfrag	235	OS Independent	2010-05-04 12:54:19	219
+genie	235	OS Independent	2010-05-04 12:54:19	219
+genitor	235	OS Independent	2010-05-04 12:54:19	219
+genomatic	235	OS Independent	2010-05-04 12:54:19	219
+gentlecms	235	OS Independent	2010-05-04 12:54:19	219
+geo	235	OS Independent	2010-05-04 12:54:19	219
+geocoder	235	OS Independent	2010-05-04 12:54:19	219
+geogazer	235	OS Independent	2010-05-04 12:54:19	219
+geoip	235	OS Independent	2010-05-04 12:54:19	219
+geometry	235	OS Independent	2010-05-04 12:54:20	219
+geopol	235	OS Independent	2010-05-04 12:54:20	219
+george	235	OS Independent	2010-05-04 12:54:20	219
+georss4rb	235	OS Independent	2010-05-04 12:54:20	219
+georuby	235	OS Independent	2010-05-04 12:54:20	219
+gerbil	235	OS Independent	2010-05-04 12:54:20	219
+gesperanto	219	Windows NT/2000	2010-05-04 12:54:20	219
+gesperanto	240	GNU Hurd	2010-05-04 12:54:20	219
+gesperanto	201	Linux	2010-05-04 12:54:20	219
+getoptdeclare	235	OS Independent	2010-05-04 12:54:20	219
+getoptions	235	OS Independent	2010-05-04 12:54:20	219
+gettext	214	Microsoft	2010-05-04 12:54:20	219
+gettext	236	Other OS	2010-05-04 12:54:20	219
+gettext	200	POSIX	2010-05-04 12:54:20	219
+getyouridx-ruby	235	OS Independent	2010-05-04 12:54:20	219
+gewee	200	POSIX	2010-05-04 12:54:20	219
+gewee	216	Windows	2010-05-04 12:54:20	219
+gforge-console	216	Windows	2010-05-04 12:54:20	219
+gforge-console	309	OS X	2010-05-04 12:54:20	219
+gforge-console	201	Linux	2010-05-04 12:54:20	219
+gga4r	235	OS Independent	2010-05-04 12:54:20	219
+ggenv	235	OS Independent	2010-05-04 12:54:20	219
+gglib	201	Linux	2010-05-04 12:54:20	219
+gglib	216	Windows	2010-05-04 12:54:20	219
+gglib	221	MacOS	2010-05-04 12:54:20	219
+ggraphwidget	201	Linux	2010-05-04 12:54:20	219
+ghost	309	OS X	2010-05-04 12:54:20	219
+ghost	200	POSIX	2010-05-04 12:54:20	219
+ghostwheel	216	Windows	2010-05-04 12:54:20	219
+ghostwheel	309	OS X	2010-05-04 12:54:20	219
+ghostwheel	200	POSIX	2010-05-04 12:54:20	219
+gibson	201	Linux	2010-05-04 12:54:20	219
+gif2led	235	OS Independent	2010-05-04 12:54:20	219
+gil	235	OS Independent	2010-05-04 12:54:20	219
+gimgsearch	235	OS Independent	2010-05-04 12:54:20	219
+ginst	200	POSIX	2010-05-04 12:54:20	219
+gipper	235	OS Independent	2010-05-04 12:54:20	219
+git	235	OS Independent	2010-05-04 12:54:20	219
+git-rails	235	OS Independent	2010-05-04 12:54:20	219
+git-trac	200	POSIX	2010-05-04 12:54:20	219
+git-webhook	235	OS Independent	2010-05-04 12:54:20	219
+gitchart	235	OS Independent	2010-05-04 12:54:20	219
+gitian-tools	235	OS Independent	2010-05-04 12:54:20	219
+gitian-tools	201	Linux	2010-05-04 12:54:20	219
+giza	235	OS Independent	2010-05-04 12:54:20	219
+glassfishgem	235	OS Independent	2010-05-04 12:54:21	219
+gli	235	OS Independent	2010-05-04 12:54:21	219
+glimr	219	Windows NT/2000	2010-05-04 12:54:21	219
+glimr	309	OS X	2010-05-04 12:54:21	219
+glimr	201	Linux	2010-05-04 12:54:21	219
+globalize	235	OS Independent	2010-05-04 12:54:21	219
+gltail	235	OS Independent	2010-05-04 12:54:21	219
+glue-factory	235	OS Independent	2010-05-04 12:54:21	219
+gmailutils	201	Linux	2010-05-04 12:54:21	219
+gmailutils	309	OS X	2010-05-04 12:54:21	219
+gmailutils	216	Windows	2010-05-04 12:54:21	219
+gms	235	OS Independent	2010-05-04 12:54:21	219
+gnetvibes	200	POSIX	2010-05-04 12:54:21	219
+gnms	201	Linux	2010-05-04 12:54:21	219
+gnn	235	OS Independent	2010-05-04 12:54:21	219
+gnome-art	201	Linux	2010-05-04 12:54:21	219
+gnucap	235	OS Independent	2010-05-04 12:54:21	219
+gnumedia	235	OS Independent	2010-05-04 12:54:21	219
+gnuplot	235	OS Independent	2010-05-04 12:54:21	219
+goals-fond	235	OS Independent	2010-05-04 12:54:21	219
+goform	216	Windows	2010-05-04 12:54:21	219
+goldberg	235	OS Independent	2010-05-04 12:54:21	219
+gondorlibrary	235	OS Independent	2010-05-04 12:54:21	219
+gong	219	Windows NT/2000	2010-05-04 12:54:21	219
+gooby	236	Other OS	2010-05-04 12:54:21	219
+gooby	235	OS Independent	2010-05-04 12:54:21	219
+google-api	235	OS Independent	2010-05-04 12:54:21	219
+google-checkout	235	OS Independent	2010-05-04 12:54:21	219
+google-video	235	OS Independent	2010-05-04 12:54:21	219
+google4r	235	OS Independent	2010-05-04 12:54:21	219
+googlecheckout	235	OS Independent	2010-05-04 12:54:21	219
+googleservice	235	OS Independent	2010-05-04 12:54:21	219
+gor	235	OS Independent	2010-05-04 12:54:22	219
+gossamer	235	OS Independent	2010-05-04 12:54:22	219
+gossip	235	OS Independent	2010-05-04 12:54:22	219
+gowda	235	OS Independent	2010-05-04 12:54:22	219
+gphoto4ruby	221	MacOS	2010-05-04 12:54:22	219
+gphoto4ruby	201	Linux	2010-05-04 12:54:22	219
+gpps	235	OS Independent	2010-05-04 12:54:22	219
+gpstrail	219	Windows NT/2000	2010-05-04 12:54:22	219
+gpx	235	OS Independent	2010-05-04 12:54:22	219
+gpxtools	200	POSIX	2010-05-04 12:54:22	219
+graffle	309	OS X	2010-05-04 12:54:22	219
+grammar	235	OS Independent	2010-05-04 12:54:22	219
+granen	309	OS X	2010-05-04 12:54:22	219
+graph	235	OS Independent	2010-05-04 12:54:22	219
+gratr	235	OS Independent	2010-05-04 12:54:22	219
+gravatarplugin	235	OS Independent	2010-05-04 12:54:22	219
+gravtastic	235	OS Independent	2010-05-04 12:54:22	219
+gray	235	OS Independent	2010-05-04 12:54:22	219
+grb	309	OS X	2010-05-04 12:54:22	219
+grb	200	POSIX	2010-05-04 12:54:22	219
+greencloth	235	OS Independent	2010-05-04 12:54:22	219
+greenpepperruby	235	OS Independent	2010-05-04 12:54:22	219
+greprb	207	SunOS/Solaris	2010-05-04 12:54:22	219
+greprb	201	Linux	2010-05-04 12:54:22	219
+greprb	219	Windows NT/2000	2010-05-04 12:54:22	219
+grill	235	OS Independent	2010-05-04 12:54:22	219
+grism	235	OS Independent	2010-05-04 12:54:22	219
+ground	200	POSIX	2010-05-04 12:54:22	219
+groundwork	201	Linux	2010-05-04 12:54:22	219
+groundwork	309	OS X	2010-05-04 12:54:22	219
+growl-logger	216	Windows	2010-05-04 12:54:22	219
+growl-logger	309	OS X	2010-05-04 12:54:22	219
+gruby	235	OS Independent	2010-05-04 12:54:23	219
+gruesome	309	OS X	2010-05-04 12:54:23	219
+gruesome	201	Linux	2010-05-04 12:54:23	219
+gruff	235	OS Independent	2010-05-04 12:54:23	219
+grumblr	201	Linux	2010-05-04 12:54:23	219
+gs-phone	201	Linux	2010-05-04 12:54:23	219
+gst	201	Linux	2010-05-04 12:54:23	219
+gtdfiles	235	OS Independent	2010-05-04 12:54:23	219
+gtk-fortune	200	POSIX	2010-05-04 12:54:23	219
+gtk2alertapp	201	Linux	2010-05-04 12:54:23	219
+gtk2applib	201	Linux	2010-05-04 12:54:23	219
+gtk2blackjack	201	Linux	2010-05-04 12:54:23	219
+gtk2bookmarks	201	Linux	2010-05-04 12:54:23	219
+gtk2diaryapp	201	Linux	2010-05-04 12:54:23	219
+gtk2passwordapp	201	Linux	2010-05-04 12:54:23	219
+gtk2todoapp	201	Linux	2010-05-04 12:54:23	219
+gtk2twitter	201	Linux	2010-05-04 12:54:23	219
+gtk2twitter	212	Other	2010-05-04 12:54:23	219
+gtk2youtubeapp	201	Linux	2010-05-04 12:54:23	219
+gtk2youtubeapp	212	Other	2010-05-04 12:54:23	219
+gtkrules	201	Linux	2010-05-04 12:54:23	219
+gtkrules	218	Windows 95/98/2000	2010-05-04 12:54:23	219
+gueda	201	Linux	2010-05-04 12:54:23	219
+guessmethod	235	OS Independent	2010-05-04 12:54:23	219
+guessutf	235	OS Independent	2010-05-04 12:54:23	219
+guff	235	OS Independent	2010-05-04 12:54:23	219
+guild	235	OS Independent	2010-05-04 12:54:23	219
+guildbuilds	235	OS Independent	2010-05-04 12:54:23	219
+guitest	219	Windows NT/2000	2010-05-04 12:54:23	219
+gurgitate-mail	235	OS Independent	2010-05-04 12:54:23	219
+gwdamcalc	235	OS Independent	2010-05-04 12:54:23	219
+haberdasher	235	OS Independent	2010-05-04 12:54:23	219
+halcyon	235	OS Independent	2010-05-04 12:54:23	219
+ham	201	Linux	2010-05-04 12:54:23	219
+hammer	235	OS Independent	2010-05-04 12:54:24	219
+hamr	235	OS Independent	2010-05-04 12:54:24	219
+hancock	235	OS Independent	2010-05-04 12:54:24	219
+handoff	235	OS Independent	2010-05-04 12:54:24	219
+handshake	235	OS Independent	2010-05-04 12:54:24	219
+handy	309	OS X	2010-05-04 12:54:24	219
+handy	202	BSD	2010-05-04 12:54:24	219
+handy	201	Linux	2010-05-04 12:54:24	219
+happygirl	235	OS Independent	2010-05-04 12:54:24	219
+harmonium	235	OS Independent	2010-05-04 12:54:24	219
+harmonize	309	OS X	2010-05-04 12:54:24	219
+has-fixtures	235	OS Independent	2010-05-04 12:54:24	219
+has-ftsearch	235	OS Independent	2010-05-04 12:54:24	219
+has-image	235	OS Independent	2010-05-04 12:54:24	219
+hash-access	235	OS Independent	2010-05-04 12:54:24	219
+hasmanythrough	235	OS Independent	2010-05-04 12:54:24	219
+hatena-bookmark	201	Linux	2010-05-04 12:54:24	219
+hatenagraphup	235	OS Independent	2010-05-04 12:54:24	219
+hedgehog	235	OS Independent	2010-05-04 12:54:24	219
+helipad	235	OS Independent	2010-05-04 12:54:24	219
+helpconverter	235	OS Independent	2010-05-04 12:54:24	219
+helpengine	235	OS Independent	2010-05-04 12:54:24	219
+hercs-studio-gm	201	Linux	2010-05-04 12:54:24	219
+hercs-studio-gm	309	OS X	2010-05-04 12:54:24	219
+hercs-studio-gm	216	Windows	2010-05-04 12:54:24	219
+herd	201	Linux	2010-05-04 12:54:24	219
+hessian	235	OS Independent	2010-05-04 12:54:24	219
+hgeruby	219	Windows NT/2000	2010-05-04 12:54:25	219
+hierclust	235	OS Independent	2010-05-04 12:54:25	219
+higgs	200	POSIX	2010-05-04 12:54:25	219
+highline	201	Linux	2010-05-04 12:54:25	219
+highline	216	Windows	2010-05-04 12:54:25	219
+highline	221	MacOS	2010-05-04 12:54:25	219
+highwire	235	OS Independent	2010-05-04 12:54:25	219
+hilfer	201	Linux	2010-05-04 12:54:25	219
+hilgo	216	Windows	2010-05-04 12:54:25	219
+hilgo	201	Linux	2010-05-04 12:54:25	219
+hipster	216	Windows	2010-05-04 12:54:25	219
+hobix	200	POSIX	2010-05-04 12:54:25	219
+hobix	309	OS X	2010-05-04 12:54:25	219
+hobix	218	Windows 95/98/2000	2010-05-04 12:54:25	219
+holidays	235	OS Independent	2010-05-04 12:54:25	219
+homeagent	214	Microsoft	2010-05-04 12:54:25	219
+homecenter	235	OS Independent	2010-05-04 12:54:25	219
+homer	235	OS Independent	2010-05-04 12:54:25	219
+homeschool	235	OS Independent	2010-05-04 12:54:25	219
+hornetseye	201	Linux	2010-05-04 12:54:25	219
+hornetseye	216	Windows	2010-05-04 12:54:25	219
+hostblock	201	Linux	2010-05-04 12:54:25	219
+hostconnect	235	OS Independent	2010-05-04 12:54:25	219
+hotp	235	OS Independent	2010-05-04 12:54:25	219
+howdy	200	POSIX	2010-05-04 12:54:25	219
+hparser	235	OS Independent	2010-05-04 12:54:25	219
+hpdf	200	POSIX	2010-05-04 12:54:25	219
+hpdf	214	Microsoft	2010-05-04 12:54:25	219
+hprevalence	235	OS Independent	2010-05-04 12:54:25	219
+hpricot-scrub	235	OS Independent	2010-05-04 12:54:25	219
+hrman	309	OS X	2010-05-04 12:54:25	219
+hrman	202	BSD	2010-05-04 12:54:25	219
+hrman	201	Linux	2010-05-04 12:54:25	219
+htaccess	235	OS Independent	2010-05-04 12:54:25	219
+html2csv	235	OS Independent	2010-05-04 12:54:25	219
+htmldoc	200	POSIX	2010-05-04 12:54:25	219
+httpal	235	OS Independent	2010-05-04 12:54:25	219
+httpauth	235	OS Independent	2010-05-04 12:54:26	219
+httpbl	235	OS Independent	2010-05-04 12:54:26	219
+hubris	221	MacOS	2010-05-04 12:54:26	219
+hubris	201	Linux	2010-05-04 12:54:26	219
+hunspell	200	POSIX	2010-05-04 12:54:26	219
+hyperactvrsrc	235	OS Independent	2010-05-04 12:54:26	219
+hypersonic	235	OS Independent	2010-05-04 12:54:26	219
+i18nrb	235	OS Independent	2010-05-04 12:54:26	219
+i2c	201	Linux	2010-05-04 12:54:26	219
+iab	235	OS Independent	2010-05-04 12:54:26	219
+ib-ruby	235	OS Independent	2010-05-04 12:54:26	219
+ibank2	309	OS X	2010-05-04 12:54:26	219
+ibes	235	OS Independent	2010-05-04 12:54:26	219
+icalc	200	POSIX	2010-05-04 12:54:26	219
+icalendar	235	OS Independent	2010-05-04 12:54:26	219
+icarus	215	MS-DOS	2010-05-04 12:54:26	219
+icarus	216	Windows	2010-05-04 12:54:26	219
+icarus	235	OS Independent	2010-05-04 12:54:26	219
+ick	235	OS Independent	2010-05-04 12:54:26	219
+icu	235	OS Independent	2010-05-04 12:54:26	219
+icu4r	201	Linux	2010-05-04 12:54:26	219
+id3lib-ruby	216	Windows	2010-05-04 12:54:26	219
+id3lib-ruby	309	OS X	2010-05-04 12:54:26	219
+id3lib-ruby	200	POSIX	2010-05-04 12:54:26	219
+ideal-ruby	235	OS Independent	2010-05-04 12:54:26	219
+ideaxchange	235	OS Independent	2010-05-04 12:54:26	219
+ident	235	OS Independent	2010-05-04 12:54:26	219
+idiomag	235	OS Independent	2010-05-04 12:54:26	219
+idn	235	OS Independent	2010-05-04 12:54:26	219
+idt	216	Windows	2010-05-04 12:54:26	219
+idt	235	OS Independent	2010-05-04 12:54:26	219
+idvault	235	OS Independent	2010-05-04 12:54:26	219
+ifetch-tools	201	Linux	2010-05-04 12:54:26	219
+iff	235	OS Independent	2010-05-04 12:54:26	219
+iffish	201	Linux	2010-05-04 12:54:26	219
+iffish	309	OS X	2010-05-04 12:54:26	219
+iffish	216	Windows	2010-05-04 12:54:26	219
+ifmapper	235	OS Independent	2010-05-04 12:54:26	219
+iforead	235	OS Independent	2010-05-04 12:54:26	219
+ifragmentcache	216	Windows	2010-05-04 12:54:26	219
+ifragmentcache	309	OS X	2010-05-04 12:54:26	219
+ifragmentcache	201	Linux	2010-05-04 12:54:26	219
+iii	235	OS Independent	2010-05-04 12:54:27	219
+ikko	235	OS Independent	2010-05-04 12:54:27	219
+image-data	235	OS Independent	2010-05-04 12:54:27	219
+image-data	309	OS X	2010-05-04 12:54:27	219
+image-data	200	POSIX	2010-05-04 12:54:27	219
+imagetooth	221	MacOS	2010-05-04 12:54:27	219
+imagetooth	216	Windows	2010-05-04 12:54:27	219
+imagetooth	201	Linux	2010-05-04 12:54:27	219
+imagevenue	235	OS Independent	2010-05-04 12:54:27	219
+imagine	216	Windows	2010-05-04 12:54:27	219
+imagine	309	OS X	2010-05-04 12:54:27	219
+imagine	201	Linux	2010-05-04 12:54:27	219
+imapget	200	POSIX	2010-05-04 12:54:27	219
+imapstore	200	POSIX	2010-05-04 12:54:27	219
+imparcial	201	Linux	2010-05-04 12:54:27	219
+imposer	235	OS Independent	2010-05-04 12:54:27	219
+informationcard	235	OS Independent	2010-05-04 12:54:27	219
+infotech	219	Windows NT/2000	2010-05-04 12:54:27	219
+ini	235	OS Independent	2010-05-04 12:54:27	219
+inline	235	OS Independent	2010-05-04 12:54:27	219
+inplacecontrols	235	OS Independent	2010-05-04 12:54:27	219
+input	201	Linux	2010-05-04 12:54:27	219
+input	309	OS X	2010-05-04 12:54:27	219
+input	216	Windows	2010-05-04 12:54:27	219
+inquest	235	OS Independent	2010-05-04 12:54:27	219
+inquisitor	235	OS Independent	2010-05-04 12:54:27	219
+instantredmine	216	Windows	2010-05-04 12:54:27	219
+instiki	216	Windows	2010-05-04 12:54:27	219
+instiki	235	OS Independent	2010-05-04 12:54:27	219
+integral	235	OS Independent	2010-05-04 12:54:27	219
+integration	200	POSIX	2010-05-04 12:54:27	219
+integration	309	OS X	2010-05-04 12:54:27	219
+integrator2	218	Windows 95/98/2000	2010-05-04 12:54:27	219
+integrator2	201	Linux	2010-05-04 12:54:27	219
+integrity	309	OS X	2010-05-04 12:54:27	219
+integrity	201	Linux	2010-05-04 12:54:27	219
+interpolator	235	OS Independent	2010-05-04 12:54:28	219
+intersys	200	POSIX	2010-05-04 12:54:28	219
+intersys	309	OS X	2010-05-04 12:54:28	219
+intersys	219	Windows NT/2000	2010-05-04 12:54:28	219
+intervals	235	OS Independent	2010-05-04 12:54:28	219
+io-like	235	OS Independent	2010-05-04 12:54:28	219
+iotaz	235	OS Independent	2010-05-04 12:54:28	219
+iowa	200	POSIX	2010-05-04 12:54:28	219
+ip-address	235	OS Independent	2010-05-04 12:54:28	219
+ipaccess	235	OS Independent	2010-05-04 12:54:28	219
+iptcext	201	Linux	2010-05-04 12:54:28	219
+irbal	235	OS Independent	2010-05-04 12:54:28	219
+irc4r	235	OS Independent	2010-05-04 12:54:28	219
+ircsocket	235	OS Independent	2010-05-04 12:54:28	219
+ironruby	221	MacOS	2010-05-04 12:54:28	219
+ironruby	216	Windows	2010-05-04 12:54:28	219
+ironruby	201	Linux	2010-05-04 12:54:28	219
+irr	201	Linux	2010-05-04 12:54:28	219
+iruby-mode	235	OS Independent	2010-05-04 12:54:28	219
+is-gd	235	OS Independent	2010-05-04 12:54:28	219
+isbn-converter	235	OS Independent	2010-05-04 12:54:28	219
+isi-rb	235	OS Independent	2010-05-04 12:54:28	219
+isiqongo	235	OS Independent	2010-05-04 12:54:28	219
+isitiphone	235	OS Independent	2010-05-04 12:54:28	219
+iso8583	235	OS Independent	2010-05-04 12:54:28	219
+isync	309	OS X	2010-05-04 12:54:28	219
+itunes-rm-dups	309	OS X	2010-05-04 12:54:29	219
+itunesxmlparser	219	Windows NT/2000	2010-05-04 12:54:29	219
+ivy	235	OS Independent	2010-05-04 12:54:29	219
+iwget	201	Linux	2010-05-04 12:54:29	219
+jabber-bot	235	OS Independent	2010-05-04 12:54:29	219
+jabber4r	235	OS Independent	2010-05-04 12:54:29	219
+jackdaw	235	OS Independent	2010-05-04 12:54:29	219
+jasper-client	235	OS Independent	2010-05-04 12:54:29	219
+javaclass	235	OS Independent	2010-05-04 12:54:29	219
+jdbc-wrapper	235	OS Independent	2010-05-04 12:54:29	219
+jello	309	OS X	2010-05-04 12:54:29	219
+jello	200	POSIX	2010-05-04 12:54:29	219
+jewelnet	235	OS Independent	2010-05-04 12:54:29	219
+jite	235	OS Independent	2010-05-04 12:54:29	219
+jobpot	235	OS Independent	2010-05-04 12:54:29	219
+jobserver	200	POSIX	2010-05-04 12:54:29	219
+jobsworth	200	POSIX	2010-05-04 12:54:29	219
+jobtracker	235	OS Independent	2010-05-04 12:54:29	219
+jota	235	OS Independent	2010-05-04 12:54:29	219
+journeta	309	OS X	2010-05-04 12:54:29	219
+joystick-ruby	201	Linux	2010-05-04 12:54:29	219
+jpmobile	235	OS Independent	2010-05-04 12:54:29	219
+jq4r	235	OS Independent	2010-05-04 12:54:29	219
+jquery-cheat	235	OS Independent	2010-05-04 12:54:29	219
+jruby-extras	235	OS Independent	2010-05-04 12:54:30	219
+js-if-blocks	235	OS Independent	2010-05-04 12:54:30	219
+jscmd	200	POSIX	2010-05-04 12:54:30	219
+jscmd	309	OS X	2010-05-04 12:54:30	219
+jscmd	219	Windows NT/2000	2010-05-04 12:54:30	219
+json-jruby	235	OS Independent	2010-05-04 12:54:30	219
+json-rpc	235	OS Independent	2010-05-04 12:54:30	219
+jspp	235	OS Independent	2010-05-04 12:54:30	219
+juggernaut	235	OS Independent	2010-05-04 12:54:30	219
+juglares	235	OS Independent	2010-05-04 12:54:30	219
+juicer	200	POSIX	2010-05-04 12:54:30	219
+juicer	309	OS X	2010-05-04 12:54:30	219
+juicer	216	Windows	2010-05-04 12:54:30	219
+juick	235	OS Independent	2010-05-04 12:54:30	219
+junction	235	OS Independent	2010-05-04 12:54:30	219
+jyte	235	OS Independent	2010-05-04 12:54:30	219
+kabe	235	OS Independent	2010-05-04 12:54:30	219
+kaching	216	Windows	2010-05-04 12:54:30	219
+kagemusha	235	OS Independent	2010-05-04 12:54:30	219
+kalculus	200	POSIX	2010-05-04 12:54:30	219
+kalculus	309	OS X	2010-05-04 12:54:30	219
+kalculus	216	Windows	2010-05-04 12:54:30	219
+kamila	201	Linux	2010-05-04 12:54:30	219
+kams	216	Windows	2010-05-04 12:54:30	219
+kams	201	Linux	2010-05-04 12:54:30	219
+kanocc	235	OS Independent	2010-05-04 12:54:30	219
+kantan-sgf	235	OS Independent	2010-05-04 12:54:30	219
+kcssbars	201	Linux	2010-05-04 12:54:30	219
+kcssbars	202	BSD	2010-05-04 12:54:30	219
+kdialog	201	Linux	2010-05-04 12:54:30	219
+keepyourhead	200	POSIX	2010-05-04 12:54:30	219
+kernul	221	MacOS	2010-05-04 12:54:30	219
+kernul	200	POSIX	2010-05-04 12:54:30	219
+keybox	235	OS Independent	2010-05-04 12:54:30	219
+keychain	235	OS Independent	2010-05-04 12:54:30	219
+keynotegen	235	OS Independent	2010-05-04 12:54:30	219
+keypoint	216	Windows	2010-05-04 12:54:30	219
+keypoint	309	OS X	2010-05-04 12:54:30	219
+keypoint	201	Linux	2010-05-04 12:54:30	219
+khammurabi	235	OS Independent	2010-05-04 12:54:31	219
+khayyam	235	OS Independent	2010-05-04 12:54:31	219
+kiddo	235	OS Independent	2010-05-04 12:54:31	219
+kilopaper	235	OS Independent	2010-05-04 12:54:31	219
+kind-dom	235	OS Independent	2010-05-04 12:54:31	219
+kirbybase	235	OS Independent	2010-05-04 12:54:31	219
+kirbyrecord	235	OS Independent	2010-05-04 12:54:31	219
+kit	235	OS Independent	2010-05-04 12:54:31	219
+kitchen	235	OS Independent	2010-05-04 12:54:31	219
+kitty	214	Microsoft	2010-05-04 12:54:31	219
+kitty	200	POSIX	2010-05-04 12:54:31	219
+kloner	200	POSIX	2010-05-04 12:54:31	219
+kloner	309	OS X	2010-05-04 12:54:31	219
+klookup	235	OS Independent	2010-05-04 12:54:31	219
+kodekopelli	235	OS Independent	2010-05-04 12:54:31	219
+kofblog	235	OS Independent	2010-05-04 12:54:31	219
+kokori	221	MacOS	2010-05-04 12:54:31	219
+komment	201	Linux	2010-05-04 12:54:31	219
+korundum	200	POSIX	2010-05-04 12:54:31	219
+kotp-rlcwtool	219	Windows NT/2000	2010-05-04 12:54:31	219
+kotp-rlcwtool	309	OS X	2010-05-04 12:54:31	219
+kotp-rlcwtool	200	POSIX	2010-05-04 12:54:31	219
+koujou	235	OS Independent	2010-05-04 12:54:31	219
+krb5	202	BSD	2010-05-04 12:54:31	219
+krb5	201	Linux	2010-05-04 12:54:31	219
+kreed	235	OS Independent	2010-05-04 12:54:31	219
+kucms	235	OS Independent	2010-05-04 12:54:31	219
+kwala	200	POSIX	2010-05-04 12:54:31	219
+kwalify	235	OS Independent	2010-05-04 12:54:31	219
+l-ruby	200	POSIX	2010-05-04 12:54:31	219
+l5rruby	219	Windows NT/2000	2010-05-04 12:54:31	219
+laborantin	235	OS Independent	2010-05-04 12:54:31	219
+ladspar	201	Linux	2010-05-04 12:54:32	219
+lafcadio	235	OS Independent	2010-05-04 12:54:32	219
+lame-ruby	309	OS X	2010-05-04 12:54:32	219
+lame-ruby	201	Linux	2010-05-04 12:54:32	219
+lapillus	235	OS Independent	2010-05-04 12:54:32	219
+latex	235	OS Independent	2010-05-04 12:54:32	219
+layout-helper	235	OS Independent	2010-05-04 12:54:32	219
+layout-mollio-g	235	OS Independent	2010-05-04 12:54:32	219
+lazibi	235	OS Independent	2010-05-04 12:54:32	219
+lazyeval	235	OS Independent	2010-05-04 12:54:32	219
+lazygarbage	200	POSIX	2010-05-04 12:54:32	219
+lazyscript	200	POSIX	2010-05-04 12:54:32	219
+lazysvn	210	AIX	2010-05-04 12:54:32	219
+lazytest	200	POSIX	2010-05-04 12:54:32	219
+lazyversion	200	POSIX	2010-05-04 12:54:32	219
+ldap-auth	235	OS Independent	2010-05-04 12:54:32	219
+ldapfs	201	Linux	2010-05-04 12:54:32	219
+ldapmapper	235	OS Independent	2010-05-04 12:54:32	219
+le-bliki	235	OS Independent	2010-05-04 12:54:32	219
+ledsign	309	OS X	2010-05-04 12:54:32	219
+ledsign	201	Linux	2010-05-04 12:54:32	219
+leeloo	235	OS Independent	2010-05-04 12:54:32	219
+legislation-uk	235	OS Independent	2010-05-04 12:54:32	219
+lego-mindstorms	219	Windows NT/2000	2010-05-04 12:54:32	219
+levenshtein	235	OS Independent	2010-05-04 12:54:32	219
+libcisco	235	OS Independent	2010-05-04 12:54:32	219
+libeveapi	235	OS Independent	2010-05-04 12:54:32	219
+libgnupg-ruby	235	OS Independent	2010-05-04 12:54:32	219
+libid3tag-ruby	235	OS Independent	2010-05-04 12:54:32	219
+libmodbus4r	200	POSIX	2010-05-04 12:54:33	219
+libmtp	235	OS Independent	2010-05-04 12:54:33	219
+libnet4r	235	OS Independent	2010-05-04 12:54:33	219
+libpcm	200	POSIX	2010-05-04 12:54:33	219
+libpoker	235	OS Independent	2010-05-04 12:54:33	219
+librage	201	Linux	2010-05-04 12:54:33	219
+libraggi	235	OS Independent	2010-05-04 12:54:33	219
+libraryfind	235	OS Independent	2010-05-04 12:54:33	219
+librarysolution	235	OS Independent	2010-05-04 12:54:33	219
+librend	201	Linux	2010-05-04 12:54:33	219
+librmpd	235	OS Independent	2010-05-04 12:54:33	219
+libtomato	235	OS Independent	2010-05-04 12:54:33	219
+libtorrent-ruby	216	Windows	2010-05-04 12:54:33	219
+libtorrent-ruby	309	OS X	2010-05-04 12:54:33	219
+libtorrent-ruby	200	POSIX	2010-05-04 12:54:33	219
+libxml	221	MacOS	2010-05-04 12:54:33	219
+libxml	216	Windows	2010-05-04 12:54:33	219
+libxml	200	POSIX	2010-05-04 12:54:33	219
+libxosd-ruby	201	Linux	2010-05-04 12:54:33	219
+libxsl	216	Windows	2010-05-04 12:54:33	219
+libxsl	309	OS X	2010-05-04 12:54:33	219
+libxsl	201	Linux	2010-05-04 12:54:33	219
+libyate	200	POSIX	2010-05-04 12:54:33	219
+liftoff	214	Microsoft	2010-05-04 12:54:33	219
+liftoff	235	OS Independent	2010-05-04 12:54:33	219
+liftoff	200	POSIX	2010-05-04 12:54:33	219
+lightcsv	235	OS Independent	2010-05-04 12:54:33	219
+lightrail	235	OS Independent	2010-05-04 12:54:33	219
+lightwave	309	OS X	2010-05-04 12:54:33	219
+lightwave	201	Linux	2010-05-04 12:54:33	219
+linalg	235	OS Independent	2010-05-04 12:54:33	219
+linefit	235	OS Independent	2010-05-04 12:54:33	219
+lingo	235	OS Independent	2010-05-04 12:54:33	219
+linkedscaffold	235	OS Independent	2010-05-04 12:54:33	219
+linkize	235	OS Independent	2010-05-04 12:54:33	219
+linkland	235	OS Independent	2010-05-04 12:54:33	219
+linklift-plugin	235	OS Independent	2010-05-04 12:54:33	219
+linnet	200	POSIX	2010-05-04 12:54:33	219
+lipsiadmin	214	Microsoft	2010-05-04 12:54:33	219
+lipsiadmin	309	OS X	2010-05-04 12:54:33	219
+liquidrail	236	Other OS	2010-05-04 12:54:33	219
+liquidrail	219	Windows NT/2000	2010-05-04 12:54:33	219
+liquidrail	221	MacOS	2010-05-04 12:54:33	219
+lisp	235	OS Independent	2010-05-04 12:54:33	219
+list-utils-gem	235	OS Independent	2010-05-04 12:54:33	219
+listentome	201	Linux	2010-05-04 12:54:34	219
+littlelexer	235	OS Independent	2010-05-04 12:54:34	219
+littlestream	235	OS Independent	2010-05-04 12:54:34	219
+live-console	235	OS Independent	2010-05-04 12:54:34	219
+lix	200	POSIX	2010-05-04 12:54:34	219
+ljpost	235	OS Independent	2010-05-04 12:54:34	219
+ljr	200	POSIX	2010-05-04 12:54:34	219
+lldmud	235	OS Independent	2010-05-04 12:54:34	219
+llip	235	OS Independent	2010-05-04 12:54:34	219
+lms	235	OS Independent	2010-05-04 12:54:34	219
+lnbackup	201	Linux	2010-05-04 12:54:34	219
+loc	235	OS Independent	2010-05-04 12:54:34	219
+locale	235	OS Independent	2010-05-04 12:54:34	219
+locapoint	235	OS Independent	2010-05-04 12:54:34	219
+locatehip	216	Windows	2010-05-04 12:54:34	219
+locatehip	201	Linux	2010-05-04 12:54:34	219
+log4r	235	OS Independent	2010-05-04 12:54:34	219
+logging	235	OS Independent	2010-05-04 12:54:34	219
+logilogi	201	Linux	2010-05-04 12:54:34	219
+logilogi	235	OS Independent	2010-05-04 12:54:34	219
+loginsugar	235	OS Independent	2010-05-04 12:54:34	219
+loginui	235	OS Independent	2010-05-04 12:54:34	219
+loglibrary	235	OS Independent	2010-05-04 12:54:34	219
+logruby	201	Linux	2010-05-04 12:54:34	219
+logsimple	235	OS Independent	2010-05-04 12:54:34	219
+logtwuncator	216	Windows	2010-05-04 12:54:34	219
+loki	309	OS X	2010-05-04 12:54:34	219
+lolita	235	OS Independent	2010-05-04 12:54:34	219
+long-decimal	235	OS Independent	2010-05-04 12:54:34	219
+lookupfields	235	OS Independent	2010-05-04 12:54:34	219
+loom	216	Windows	2010-05-04 12:54:34	219
+loom	309	OS X	2010-05-04 12:54:34	219
+loom	201	Linux	2010-05-04 12:54:34	219
+lore	200	POSIX	2010-05-04 12:54:34	219
+lostboysrb	235	OS Independent	2010-05-04 12:54:34	219
+lotto	235	OS Independent	2010-05-04 12:54:35	219
+lpx	201	Linux	2010-05-04 12:54:35	219
+ludicrous	235	OS Independent	2010-05-04 12:54:35	219
+ludy	235	OS Independent	2010-05-04 12:54:35	219
+ludy	200	POSIX	2010-05-04 12:54:35	219
+luna-ruby	219	Windows NT/2000	2010-05-04 12:54:35	219
+luna-ruby	218	Windows 95/98/2000	2010-05-04 12:54:35	219
+lustr	235	OS Independent	2010-05-04 12:54:35	219
+luvbot	235	OS Independent	2010-05-04 12:54:35	219
+lwr-simple	216	Windows	2010-05-04 12:54:35	219
+lwr-simple	236	Other OS	2010-05-04 12:54:35	219
+lwr-simple	200	POSIX	2010-05-04 12:54:35	219
+lwtools	235	OS Independent	2010-05-04 12:54:35	219
+m4dbi	235	OS Independent	2010-05-04 12:54:35	219
+machinery	235	OS Independent	2010-05-04 12:54:35	219
+machinery	309	OS X	2010-05-04 12:54:35	219
+machinery	201	Linux	2010-05-04 12:54:35	219
+macinstaller	309	OS X	2010-05-04 12:54:35	219
+mackit	309	OS X	2010-05-04 12:54:35	219
+maggaworld	200	POSIX	2010-05-04 12:54:35	219
+magicdb	201	Linux	2010-05-04 12:54:35	219
+magicdb	216	Windows	2010-05-04 12:54:35	219
+magicdb	221	MacOS	2010-05-04 12:54:35	219
+magickwand	216	Windows	2010-05-04 12:54:35	219
+magickwand	309	OS X	2010-05-04 12:54:35	219
+magickwand	200	POSIX	2010-05-04 12:54:35	219
+magicmodel	235	OS Independent	2010-05-04 12:54:35	219
+magicmodels	235	OS Independent	2010-05-04 12:54:35	219
+magnolia-api	235	OS Independent	2010-05-04 12:54:35	219
+mahoro	200	POSIX	2010-05-04 12:54:35	219
+mailbuild	235	OS Independent	2010-05-04 12:54:35	219
+maildiode	200	POSIX	2010-05-04 12:54:35	219
+mailee	235	OS Independent	2010-05-04 12:54:35	219
+mailfactory	235	OS Independent	2010-05-04 12:54:35	219
+mailhub	235	OS Independent	2010-05-04 12:54:35	219
+mailing-queue	214	Microsoft	2010-05-04 12:54:35	219
+mailing-queue	201	Linux	2010-05-04 12:54:35	219
+mailproc	235	OS Independent	2010-05-04 12:54:35	219
+mailr	235	OS Independent	2010-05-04 12:54:36	219
+malline	235	OS Independent	2010-05-04 12:54:36	219
+mallrat	235	OS Independent	2010-05-04 12:54:36	219
+mama	235	OS Independent	2010-05-04 12:54:36	219
+managesieve	235	OS Independent	2010-05-04 12:54:36	219
+managesystems	200	POSIX	2010-05-04 12:54:36	219
+managesystems	216	Windows	2010-05-04 12:54:36	219
+mandown	235	OS Independent	2010-05-04 12:54:36	219
+mandown	200	POSIX	2010-05-04 12:54:36	219
+mango	235	OS Independent	2010-05-04 12:54:36	219
+mapmaker	235	OS Independent	2010-05-04 12:54:36	219
+maraudeur	216	Windows	2010-05-04 12:54:36	219
+marimba	201	Linux	2010-05-04 12:54:36	219
+marimba	309	OS X	2010-05-04 12:54:36	219
+marimba	214	Microsoft	2010-05-04 12:54:36	219
+marjoree	216	Windows	2010-05-04 12:54:36	219
+markaboo	235	OS Independent	2010-05-04 12:54:36	219
+mars	235	OS Independent	2010-05-04 12:54:36	219
+maruku	235	OS Independent	2010-05-04 12:54:36	219
+mashfeed	200	POSIX	2010-05-04 12:54:36	219
+mashfeed	309	OS X	2010-05-04 12:54:36	219
+mashfeed	219	Windows NT/2000	2010-05-04 12:54:36	219
+massage	235	OS Independent	2010-05-04 12:54:36	219
+mastership	235	OS Independent	2010-05-04 12:54:36	219
+masterview	235	OS Independent	2010-05-04 12:54:36	219
+matchable	216	Windows	2010-05-04 12:54:36	219
+matchable	235	OS Independent	2010-05-04 12:54:36	219
+matchable	201	Linux	2010-05-04 12:54:36	219
+mathwiki	235	OS Independent	2010-05-04 12:54:36	219
+matlab-ruby	309	OS X	2010-05-04 12:54:36	219
+matlab-ruby	200	POSIX	2010-05-04 12:54:36	219
+matriculimit	235	OS Independent	2010-05-04 12:54:36	219
+matrixorbital	200	POSIX	2010-05-04 12:54:36	219
+maveric	235	OS Independent	2010-05-04 12:54:36	219
+maxwiki	201	Linux	2010-05-04 12:54:36	219
+maxwiki	216	Windows	2010-05-04 12:54:36	219
+maxwiki	221	MacOS	2010-05-04 12:54:36	219
+mazemaker	216	Windows	2010-05-04 12:54:36	219
+mazemaker	309	OS X	2010-05-04 12:54:36	219
+mazemaker	201	Linux	2010-05-04 12:54:36	219
+mcunilib	216	Windows	2010-05-04 12:54:37	219
+measure	235	OS Independent	2010-05-04 12:54:37	219
+mechanize	235	OS Independent	2010-05-04 12:54:37	219
+mediacloth	235	OS Independent	2010-05-04 12:54:37	219
+mediaremote	235	OS Independent	2010-05-04 12:54:37	219
+mediawiki	235	OS Independent	2010-05-04 12:54:37	219
+meimei	235	OS Independent	2010-05-04 12:54:37	219
+membres	235	OS Independent	2010-05-04 12:54:37	219
+memcache	235	OS Independent	2010-05-04 12:54:37	219
+memcache	203	FreeBSD	2010-05-04 12:54:37	219
+memento	235	OS Independent	2010-05-04 12:54:37	219
+merb-cache	200	POSIX	2010-05-04 12:54:37	219
+merb-ext-direct	235	OS Independent	2010-05-04 12:54:37	219
+merb-global	235	OS Independent	2010-05-04 12:54:37	219
+merb-mootools	235	OS Independent	2010-05-04 12:54:37	219
+merb-strokedb	235	OS Independent	2010-05-04 12:54:37	219
+meta-rails	235	OS Independent	2010-05-04 12:54:37	219
+metabuild	201	Linux	2010-05-04 12:54:37	219
+metafusion	235	OS Independent	2010-05-04 12:54:37	219
+metafuzz	235	OS Independent	2010-05-04 12:54:37	219
+meth-math	216	Windows	2010-05-04 12:54:37	219
+mftools	235	OS Independent	2010-05-04 12:54:38	219
+mfwrite	235	OS Independent	2010-05-04 12:54:38	219
+mget	216	Windows	2010-05-04 12:54:38	219
+mget	202	BSD	2010-05-04 12:54:38	219
+mget	201	Linux	2010-05-04 12:54:38	219
+mhandler	200	POSIX	2010-05-04 12:54:38	219
+mhandler	214	Microsoft	2010-05-04 12:54:38	219
+microengine	235	OS Independent	2010-05-04 12:54:38	219
+midilib	235	OS Independent	2010-05-04 12:54:38	219
+mig-constraints	235	OS Independent	2010-05-04 12:54:38	219
+migrationtest	235	OS Independent	2010-05-04 12:54:38	219
+milk	235	OS Independent	2010-05-04 12:54:38	219
+milk	201	Linux	2010-05-04 12:54:38	219
+mime	235	OS Independent	2010-05-04 12:54:38	219
+mime-alt-lite	235	OS Independent	2010-05-04 12:54:38	219
+mindshare	235	OS Independent	2010-05-04 12:54:38	219
+miner	201	Linux	2010-05-04 12:54:38	219
+mingruby	235	OS Independent	2010-05-04 12:54:38	219
+mini-magick	221	MacOS	2010-05-04 12:54:38	219
+mini-magick	200	POSIX	2010-05-04 12:54:38	219
+minibase	235	OS Independent	2010-05-04 12:54:38	219
+minicomic	200	POSIX	2010-05-04 12:54:38	219
+miniexiftool	235	OS Independent	2010-05-04 12:54:38	219
+minilab	219	Windows NT/2000	2010-05-04 12:54:38	219
+minuteman	235	OS Independent	2010-05-04 12:54:38	219
+miriad	221	MacOS	2010-05-04 12:54:38	219
+miriad	219	Windows NT/2000	2010-05-04 12:54:38	219
+miriad	200	POSIX	2010-05-04 12:54:38	219
+misctools	219	Windows NT/2000	2010-05-04 12:54:38	219
+mkmf2	235	OS Independent	2010-05-04 12:54:38	219
+mkrf	235	OS Independent	2010-05-04 12:54:38	219
+ml-ruby	235	OS Independent	2010-05-04 12:54:38	219
+mlmp3p	221	MacOS	2010-05-04 12:54:38	219
+mlmp3p	201	Linux	2010-05-04 12:54:38	219
+mmoplus2	201	Linux	2010-05-04 12:54:39	219
+mmoplus2	216	Windows	2010-05-04 12:54:39	219
+mmoplus2	221	MacOS	2010-05-04 12:54:39	219
+mms2r	235	OS Independent	2010-05-04 12:54:39	219
+mobliki	235	OS Independent	2010-05-04 12:54:39	219
+mobyproxy	235	OS Independent	2010-05-04 12:54:39	219
+model-ac	235	OS Independent	2010-05-04 12:54:39	219
+model-graph	235	OS Independent	2010-05-04 12:54:39	219
+model-tags	235	OS Independent	2010-05-04 12:54:39	219
+modelbrowser	235	OS Independent	2010-05-04 12:54:39	219
+modspox	235	OS Independent	2010-05-04 12:54:39	219
+mogo24r	216	Windows	2010-05-04 12:54:39	219
+mole	235	OS Independent	2010-05-04 12:54:39	219
+mollom	235	OS Independent	2010-05-04 12:54:39	219
+molruby	235	OS Independent	2010-05-04 12:54:39	219
+monetdb-ror	201	Linux	2010-05-04 12:54:39	219
+mongo	235	OS Independent	2010-05-04 12:54:39	219
+mongrel-compres	235	OS Independent	2010-05-04 12:54:39	219
+mongrel-cow	200	POSIX	2010-05-04 12:54:39	219
+mongrel-stunnel	200	POSIX	2010-05-04 12:54:39	219
+monitmanager	235	OS Independent	2010-05-04 12:54:39	219
+monkeybars	235	OS Independent	2010-05-04 12:54:39	219
+monkeys	235	OS Independent	2010-05-04 12:54:39	219
+monkeys	201	Linux	2010-05-04 12:54:39	219
+monkeytest	235	OS Independent	2010-05-04 12:54:39	219
+monorail	235	OS Independent	2010-05-04 12:54:40	219
+monrails	201	Linux	2010-05-04 12:54:40	219
+moocow	235	OS Independent	2010-05-04 12:54:40	219
+moodcube	221	MacOS	2010-05-04 12:54:40	219
+moodcube	219	Windows NT/2000	2010-05-04 12:54:40	219
+moodcube	201	Linux	2010-05-04 12:54:40	219
+moron	200	POSIX	2010-05-04 12:54:40	219
+mosquito	235	OS Independent	2010-05-04 12:54:40	219
+most-popular	235	OS Independent	2010-05-04 12:54:40	219
+mouliruby	235	OS Independent	2010-05-04 12:54:40	219
+move	235	OS Independent	2010-05-04 12:54:40	219
+mowaon	235	OS Independent	2010-05-04 12:54:40	219
+moxruby	235	OS Independent	2010-05-04 12:54:40	219
+mp3collector	235	OS Independent	2010-05-04 12:54:40	219
+mp3collector	216	Windows	2010-05-04 12:54:40	219
+mp3control	309	OS X	2010-05-04 12:54:40	219
+mp3control	200	POSIX	2010-05-04 12:54:40	219
+mp3retracker	235	OS Independent	2010-05-04 12:54:40	219
+mp3taglib	201	Linux	2010-05-04 12:54:40	219
+mp4info	235	OS Independent	2010-05-04 12:54:40	219
+mpd	212	Other	2010-05-04 12:54:40	219
+mpd	201	Linux	2010-05-04 12:54:40	219
+mpris	200	POSIX	2010-05-04 12:54:40	219
+mqtt	200	POSIX	2010-05-04 12:54:40	219
+mr-guid	216	Windows	2010-05-04 12:54:40	219
+mr-guid	201	Linux	2010-05-04 12:54:40	219
+mrirc	235	OS Independent	2010-05-04 12:54:40	219
+mropener	200	POSIX	2010-05-04 12:54:40	219
+mropener	216	Windows	2010-05-04 12:54:40	219
+mrplot	235	OS Independent	2010-05-04 12:54:40	219
+mspire	216	Windows	2010-05-04 12:54:40	219
+mspire	200	POSIX	2010-05-04 12:54:40	219
+mtuciproject	219	Windows NT/2000	2010-05-04 12:54:40	219
+mtuciproject	202	BSD	2010-05-04 12:54:40	219
+mtuciproject	201	Linux	2010-05-04 12:54:40	219
+muby	235	OS Independent	2010-05-04 12:54:40	219
+mudclay	235	OS Independent	2010-05-04 12:54:41	219
+muddygems	235	OS Independent	2010-05-04 12:54:41	219
+muding	235	OS Independent	2010-05-04 12:54:41	219
+multi	235	OS Independent	2010-05-04 12:54:41	219
+multiblocks	235	OS Independent	2010-05-04 12:54:41	219
+multiconditions	235	OS Independent	2010-05-04 12:54:41	219
+multiexiftool	235	OS Independent	2010-05-04 12:54:41	219
+multimethod	235	OS Independent	2010-05-04 12:54:41	219
+multiset	235	OS Independent	2010-05-04 12:54:41	219
+mundo-pepino	200	POSIX	2010-05-04 12:54:41	219
+mupnp	235	OS Independent	2010-05-04 12:54:41	219
+muravey-tools	235	OS Independent	2010-05-04 12:54:41	219
+musicextras	201	Linux	2010-05-04 12:54:41	219
+mux	235	OS Independent	2010-05-04 12:54:41	219
+mw-api	235	OS Independent	2010-05-04 12:54:41	219
+mwgui	222	Windows CE	2010-05-04 12:54:41	219
+mwgui	218	Windows 95/98/2000	2010-05-04 12:54:41	219
+mxc2	235	OS Independent	2010-05-04 12:54:41	219
+mxx-ru	235	OS Independent	2010-05-04 12:54:41	219
+mycash	218	Windows 95/98/2000	2010-05-04 12:54:41	219
+mycash	201	Linux	2010-05-04 12:54:41	219
+myexperiment	216	Windows	2010-05-04 12:54:41	219
+myexperiment	201	Linux	2010-05-04 12:54:41	219
+mygui	216	Windows	2010-05-04 12:54:41	219
+mylibrary	235	OS Independent	2010-05-04 12:54:41	219
+myrubyblog	235	OS Independent	2010-05-04 12:54:41	219
+myspace-events	235	OS Independent	2010-05-04 12:54:41	219
+myspace-ruby	219	Windows NT/2000	2010-05-04 12:54:41	219
+myspace-ruby	309	OS X	2010-05-04 12:54:41	219
+myspace-ruby	201	Linux	2010-05-04 12:54:41	219
+myspaceid-sdk	235	OS Independent	2010-05-04 12:54:41	219
+mysql-ruby	200	POSIX	2010-05-04 12:54:42	219
+mysql-win	216	Windows	2010-05-04 12:54:42	219
+mysqladmin	309	OS X	2010-05-04 12:54:42	219
+mysqladmin	200	POSIX	2010-05-04 12:54:42	219
+mysqlmsr	200	POSIX	2010-05-04 12:54:42	219
+namecase	235	OS Independent	2010-05-04 12:54:42	219
+nanoc	235	OS Independent	2010-05-04 12:54:42	219
+naptr	235	OS Independent	2010-05-04 12:54:42	219
+narf	235	OS Independent	2010-05-04 12:54:42	219
+narray	235	OS Independent	2010-05-04 12:54:42	219
+natcmp	235	OS Independent	2010-05-04 12:54:42	219
+naturalsort	235	OS Independent	2010-05-04 12:54:42	219
+nautils	200	POSIX	2010-05-04 12:54:42	219
+naver	235	OS Independent	2010-05-04 12:54:42	219
+ncal2gcal	214	Microsoft	2010-05-04 12:54:42	219
+ndc	201	Linux	2010-05-04 12:54:42	219
+nebraska	216	Windows	2010-05-04 12:54:42	219
+nebraska	201	Linux	2010-05-04 12:54:42	219
+nebulargauntlet	235	OS Independent	2010-05-04 12:54:42	219
+ned	200	POSIX	2010-05-04 12:54:42	219
+needle	235	OS Independent	2010-05-04 12:54:42	219
+neelix	235	OS Independent	2010-05-04 12:54:42	219
+nessus-xmlrpc	201	Linux	2010-05-04 12:54:42	219
+nessus-xmlrpc	216	Windows	2010-05-04 12:54:42	219
+nessuslibs	235	OS Independent	2010-05-04 12:54:42	219
+nested-layouts	235	OS Independent	2010-05-04 12:54:42	219
+nestegg	235	OS Independent	2010-05-04 12:54:42	219
+net-amazon-s3	235	OS Independent	2010-05-04 12:54:42	219
+net-dns	200	POSIX	2010-05-04 12:54:42	219
+net-flickr	235	OS Independent	2010-05-04 12:54:42	219
+net-ftp-list	235	OS Independent	2010-05-04 12:54:42	219
+net-http-cache	235	OS Independent	2010-05-04 12:54:42	219
+net-im	235	OS Independent	2010-05-04 12:54:43	219
+net-nbd	201	Linux	2010-05-04 12:54:43	219
+net-netrc	216	Windows	2010-05-04 12:54:43	219
+net-netrc	200	POSIX	2010-05-04 12:54:43	219
+net-sip	235	OS Independent	2010-05-04 12:54:43	219
+net-smpp	201	Linux	2010-05-04 12:54:43	219
+net-smpp	203	FreeBSD	2010-05-04 12:54:43	219
+net-ssh	235	OS Independent	2010-05-04 12:54:43	219
+net-ssh-krb	216	Windows	2010-05-04 12:54:43	219
+net-ssh-krb	200	POSIX	2010-05-04 12:54:43	219
+net-tftp	235	OS Independent	2010-05-04 12:54:43	219
+net-toc	235	OS Independent	2010-05-04 12:54:43	219
+netdhcp	201	Linux	2010-05-04 12:54:43	219
+netplayplus	219	Windows NT/2000	2010-05-04 12:54:43	219
+netsinav	235	OS Independent	2010-05-04 12:54:43	219
+network-facade	235	OS Independent	2010-05-04 12:54:43	219
+neural	235	OS Independent	2010-05-04 12:54:43	219
+newby	221	MacOS	2010-05-04 12:54:43	219
+newgem	235	OS Independent	2010-05-04 12:54:43	219
+newjs	235	OS Independent	2010-05-04 12:54:43	219
+newsfire-export	309	OS X	2010-05-04 12:54:43	219
+newsstats	200	POSIX	2010-05-04 12:54:43	219
+newstickor	235	OS Independent	2010-05-04 12:54:43	219
+ngslib	235	OS Independent	2010-05-04 12:54:43	219
+nice-ffi	235	OS Independent	2010-05-04 12:54:43	219
+nickel-silver	235	OS Independent	2010-05-04 12:54:43	219
+nicolus	235	OS Independent	2010-05-04 12:54:43	219
+nihongobenkyo	201	Linux	2010-05-04 12:54:43	219
+nihongobenkyo	216	Windows	2010-05-04 12:54:43	219
+nile	216	Windows	2010-05-04 12:54:43	219
+nile	309	OS X	2010-05-04 12:54:43	219
+nile	200	POSIX	2010-05-04 12:54:43	219
+nilsimsa	221	MacOS	2010-05-04 12:54:43	219
+nilsimsa	214	Microsoft	2010-05-04 12:54:43	219
+nilsimsa	200	POSIX	2010-05-04 12:54:43	219
+nio	235	OS Independent	2010-05-04 12:54:43	219
+nitro	216	Windows	2010-05-04 12:54:43	219
+nitro	235	OS Independent	2010-05-04 12:54:43	219
+nitro	201	Linux	2010-05-04 12:54:43	219
+nitro-auth	235	OS Independent	2010-05-04 12:54:43	219
+nntp	200	POSIX	2010-05-04 12:54:44	219
+noclergy	200	POSIX	2010-05-04 12:54:44	219
+nodewrap	235	OS Independent	2010-05-04 12:54:44	219
+nokiafs	201	Linux	2010-05-04 12:54:44	219
+noobysite	235	OS Independent	2010-05-04 12:54:44	219
+nooto	235	OS Independent	2010-05-04 12:54:44	219
+nor	235	OS Independent	2010-05-04 12:54:44	219
+notes	235	OS Independent	2010-05-04 12:54:44	219
+notesexport	219	Windows NT/2000	2010-05-04 12:54:44	219
+nrkscraper	200	POSIX	2010-05-04 12:54:44	219
+nrkscraper	235	OS Independent	2010-05-04 12:54:44	219
+nrr	235	OS Independent	2010-05-04 12:54:44	219
+nsjtpd	201	Linux	2010-05-04 12:54:44	219
+nu2blogger	235	OS Independent	2010-05-04 12:54:44	219
+nuscatone	201	Linux	2010-05-04 12:54:44	219
+nvtristrip	235	OS Independent	2010-05-04 12:54:44	219
+nwn-lib	200	POSIX	2010-05-04 12:54:44	219
+objectiveflickr	235	OS Independent	2010-05-04 12:54:44	219
+obloh	200	POSIX	2010-05-04 12:54:44	219
+ocadia	235	OS Independent	2010-05-04 12:54:44	219
+octave-ruby	200	POSIX	2010-05-04 12:54:44	219
+octopi	235	OS Independent	2010-05-04 12:54:44	219
+odbc-rails	235	OS Independent	2010-05-04 12:54:45	219
+oedipus	201	Linux	2010-05-04 12:54:45	219
+oedipus	235	OS Independent	2010-05-04 12:54:45	219
+oedipus	216	Windows	2010-05-04 12:54:45	219
+offspringviewer	216	Windows	2010-05-04 12:54:45	219
+ofront	216	Windows	2010-05-04 12:54:45	219
+ofront	309	OS X	2010-05-04 12:54:45	219
+ofront	201	Linux	2010-05-04 12:54:45	219
+ofx	235	OS Independent	2010-05-04 12:54:45	219
+ofx-parser	235	OS Independent	2010-05-04 12:54:45	219
+ofxget	235	OS Independent	2010-05-04 12:54:45	219
+ofxrb	235	OS Independent	2010-05-04 12:54:45	219
+ogginfo-rb	235	OS Independent	2010-05-04 12:54:45	219
+ogrerb	219	Windows NT/2000	2010-05-04 12:54:45	219
+ogrerb	309	OS X	2010-05-04 12:54:45	219
+ogrerb	201	Linux	2010-05-04 12:54:45	219
+ohash	235	OS Independent	2010-05-04 12:54:45	219
+oii	235	OS Independent	2010-05-04 12:54:45	219
+oiko	235	OS Independent	2010-05-04 12:54:45	219
+oinoid	235	OS Independent	2010-05-04 12:54:45	219
+omgkitties	235	OS Independent	2010-05-04 12:54:45	219
+onebody	235	OS Independent	2010-05-04 12:54:45	219
+onemanpublisher	235	OS Independent	2010-05-04 12:54:45	219
+onering	235	OS Independent	2010-05-04 12:54:45	219
+onewire	201	Linux	2010-05-04 12:54:45	219
+onewire	216	Windows	2010-05-04 12:54:45	219
+oniisama	235	OS Independent	2010-05-04 12:54:45	219
+onion	235	OS Independent	2010-05-04 12:54:45	219
+ook	216	Windows	2010-05-04 12:54:45	219
+ook	205	OpenBSD	2010-05-04 12:54:45	219
+ook	201	Linux	2010-05-04 12:54:45	219
+open-australia	235	OS Independent	2010-05-04 12:54:45	219
+open-campground	201	Linux	2010-05-04 12:54:45	219
+open-campground	219	Windows NT/2000	2010-05-04 12:54:45	219
+open-diary	235	OS Independent	2010-05-04 12:54:45	219
+openagenda	235	OS Independent	2010-05-04 12:54:45	219
+openbill	235	OS Independent	2010-05-04 12:54:45	219
+openbsd-dist	205	OpenBSD	2010-05-04 12:54:45	219
+opendht	235	OS Independent	2010-05-04 12:54:45	219
+openedgeadapter	216	Windows	2010-05-04 12:54:45	219
+openpgp	235	OS Independent	2010-05-04 12:54:46	219
+openrm	216	Windows	2010-05-04 12:54:46	219
+openrm	309	OS X	2010-05-04 12:54:46	219
+openrm	201	Linux	2010-05-04 12:54:46	219
+opensocial	235	OS Independent	2010-05-04 12:54:46	219
+opensteam	235	OS Independent	2010-05-04 12:54:46	219
+opentg	201	Linux	2010-05-04 12:54:46	219
+opentick-ruby	235	OS Independent	2010-05-04 12:54:46	219
+opod	235	OS Independent	2010-05-04 12:54:46	219
+opsdoodle	235	OS Independent	2010-05-04 12:54:46	219
+optconfig	235	OS Independent	2010-05-04 12:54:46	219
+opticon	235	OS Independent	2010-05-04 12:54:46	219
+opticon	200	POSIX	2010-05-04 12:54:46	219
+optimus-ep	235	OS Independent	2010-05-04 12:54:46	219
+optionparser	235	OS Independent	2010-05-04 12:54:46	219
+oracle-enhanced	235	OS Independent	2010-05-04 12:54:46	219
+orchid	219	Windows NT/2000	2010-05-04 12:54:46	219
+ordered-tree	235	OS Independent	2010-05-04 12:54:46	219
+orderederrors	235	OS Independent	2010-05-04 12:54:46	219
+orderific	235	OS Independent	2010-05-04 12:54:46	219
+ormql	235	OS Independent	2010-05-04 12:54:46	219
+osirails	201	Linux	2010-05-04 12:54:46	219
+osirails	235	OS Independent	2010-05-04 12:54:46	219
+osiris	235	OS Independent	2010-05-04 12:54:46	219
+oslink	235	OS Independent	2010-05-04 12:54:46	219
+ossp	235	OS Independent	2010-05-04 12:54:46	219
+osxbuild	309	OS X	2010-05-04 12:54:46	219
+oughtve	200	POSIX	2010-05-04 12:54:46	219
+oupsnow	235	OS Independent	2010-05-04 12:54:46	219
+owlscribble	235	OS Independent	2010-05-04 12:54:47	219
+ozimodo	235	OS Independent	2010-05-04 12:54:47	219
+p2converter	201	Linux	2010-05-04 12:54:47	219
+packable	235	OS Independent	2010-05-04 12:54:47	219
+packgen	221	MacOS	2010-05-04 12:54:47	219
+packgen	201	Linux	2010-05-04 12:54:47	219
+pacuby	309	OS X	2010-05-04 12:54:47	219
+pacuby	201	Linux	2010-05-04 12:54:47	219
+page-glimpse	235	OS Independent	2010-05-04 12:54:47	219
+pages-bibtex	309	OS X	2010-05-04 12:54:47	219
+pagetemplate	235	OS Independent	2010-05-04 12:54:47	219
+pallas	235	OS Independent	2010-05-04 12:54:47	219
+pallet	235	OS Independent	2010-05-04 12:54:47	219
+palm	235	OS Independent	2010-05-04 12:54:47	219
+palmgoog	216	Windows	2010-05-04 12:54:47	219
+palmtree	235	OS Independent	2010-05-04 12:54:47	219
+panda-query	235	OS Independent	2010-05-04 12:54:47	219
+pandora	235	OS Independent	2010-05-04 12:54:47	219
+parallelforkmgr	216	Windows	2010-05-04 12:54:47	219
+parallelforkmgr	309	OS X	2010-05-04 12:54:47	219
+parallelforkmgr	200	POSIX	2010-05-04 12:54:47	219
+parallelpipes	235	OS Independent	2010-05-04 12:54:47	219
+parasite	200	POSIX	2010-05-04 12:54:47	219
+parasite	214	Microsoft	2010-05-04 12:54:47	219
+parasite	221	MacOS	2010-05-04 12:54:47	219
+parlay	235	OS Independent	2010-05-04 12:54:47	219
+parlement	235	OS Independent	2010-05-04 12:54:47	219
+parsetree	235	OS Independent	2010-05-04 12:54:47	219
+parseuseragent	235	OS Independent	2010-05-04 12:54:47	219
+partialsmon	235	OS Independent	2010-05-04 12:54:47	219
+partitioned	235	OS Independent	2010-05-04 12:54:47	219
+pasaporte	200	POSIX	2010-05-04 12:54:47	219
+passenger	200	POSIX	2010-05-04 12:54:47	219
+passiveldap	219	Windows NT/2000	2010-05-04 12:54:47	219
+passiveldap	235	OS Independent	2010-05-04 12:54:47	219
+passiveldap	201	Linux	2010-05-04 12:54:47	219
+patch-server	235	OS Independent	2010-05-04 12:54:48	219
+patir	201	Linux	2010-05-04 12:54:48	219
+patir	309	OS X	2010-05-04 12:54:48	219
+patir	214	Microsoft	2010-05-04 12:54:48	219
+patron	309	OS X	2010-05-04 12:54:48	219
+patron	201	Linux	2010-05-04 12:54:48	219
+pattern-match	235	OS Independent	2010-05-04 12:54:48	219
+patternfinder	235	OS Independent	2010-05-04 12:54:48	219
+payment	235	OS Independent	2010-05-04 12:54:48	219
+pbxmanager	235	OS Independent	2010-05-04 12:54:48	219
+pcanusb	216	Windows	2010-05-04 12:54:48	219
+pcaprub	200	POSIX	2010-05-04 12:54:48	219
+pdf-storycards	235	OS Independent	2010-05-04 12:54:48	219
+pdf-toolkit	235	OS Independent	2010-05-04 12:54:48	219
+peach	235	OS Independent	2010-05-04 12:54:48	219
+peachdb	235	OS Independent	2010-05-04 12:54:48	219
+peachdb	200	POSIX	2010-05-04 12:54:48	219
+peerwater	235	OS Independent	2010-05-04 12:54:48	219
+peggy	235	OS Independent	2010-05-04 12:54:48	219
+pelmo	235	OS Independent	2010-05-04 12:54:48	219
+per-cookie-auth	235	OS Independent	2010-05-04 12:54:48	219
+peridot	235	OS Independent	2010-05-04 12:54:48	219
+periscope	235	OS Independent	2010-05-04 12:54:48	219
+persia	235	OS Independent	2010-05-04 12:54:48	219
+persmedialib	235	OS Independent	2010-05-04 12:54:48	219
+petcare	216	Windows	2010-05-04 12:54:49	219
+petite	218	Windows 95/98/2000	2010-05-04 12:54:49	219
+petite	309	OS X	2010-05-04 12:54:49	219
+petite	201	Linux	2010-05-04 12:54:49	219
+pfff	235	OS Independent	2010-05-04 12:54:49	219
+pgplot	235	OS Independent	2010-05-04 12:54:49	219
+phidgets	235	OS Independent	2010-05-04 12:54:49	219
+phishtank	235	OS Independent	2010-05-04 12:54:49	219
+phonenumber	235	OS Independent	2010-05-04 12:54:49	219
+photosync	235	OS Independent	2010-05-04 12:54:49	219
+php	235	OS Independent	2010-05-04 12:54:49	219
+phprpc	235	OS Independent	2010-05-04 12:54:49	219
+pickacolor	235	OS Independent	2010-05-04 12:54:49	219
+pickworks	201	Linux	2010-05-04 12:54:49	219
+pickworks	216	Windows	2010-05-04 12:54:49	219
+picnic	235	OS Independent	2010-05-04 12:54:49	219
+picnic	201	Linux	2010-05-04 12:54:49	219
+picolena	309	OS X	2010-05-04 12:54:49	219
+picolena	201	Linux	2010-05-04 12:54:49	219
+picothumbs	235	OS Independent	2010-05-04 12:54:49	219
+pictrails	235	OS Independent	2010-05-04 12:54:49	219
+pidgin2adium	309	OS X	2010-05-04 12:54:49	219
+pidify	201	Linux	2010-05-04 12:54:49	219
+pie	235	OS Independent	2010-05-04 12:54:49	219
+piggy	235	OS Independent	2010-05-04 12:54:49	219
+pika	235	OS Independent	2010-05-04 12:54:49	219
+pingfm	235	OS Independent	2010-05-04 12:54:49	219
+pinup	235	OS Independent	2010-05-04 12:54:49	219
+pippin	235	OS Independent	2010-05-04 12:54:49	219
+pirates	235	OS Independent	2010-05-04 12:54:49	219
+piston	235	OS Independent	2010-05-04 12:54:49	219
+pixiedust	200	POSIX	2010-05-04 12:54:49	219
+pkvov	235	OS Independent	2010-05-04 12:54:49	219
+pl-commerce	235	OS Independent	2010-05-04 12:54:49	219
+planet	200	POSIX	2010-05-04 12:54:49	219
+planetsgame	201	Linux	2010-05-04 12:54:49	219
+planetsgame	309	OS X	2010-05-04 12:54:49	219
+planetsgame	219	Windows NT/2000	2010-05-04 12:54:49	219
+planner-rtm	235	OS Independent	2010-05-04 12:54:50	219
+platform	235	OS Independent	2010-05-04 12:54:50	219
+plugman	235	OS Independent	2010-05-04 12:54:50	219
+pmatch	201	Linux	2010-05-04 12:54:50	219
+pms	200	POSIX	2010-05-04 12:54:50	219
+pmsrb	201	Linux	2010-05-04 12:54:50	219
+pmsrb	309	OS X	2010-05-04 12:54:50	219
+pmsrb	216	Windows	2010-05-04 12:54:50	219
+podcastfs	201	Linux	2010-05-04 12:54:50	219
+podcastpublish	235	OS Independent	2010-05-04 12:54:50	219
+podcastpublish	200	POSIX	2010-05-04 12:54:50	219
+pog	235	OS Independent	2010-05-04 12:54:50	219
+pokemon-hunters	235	OS Independent	2010-05-04 12:54:50	219
+poker	200	POSIX	2010-05-04 12:54:50	219
+poker	235	OS Independent	2010-05-04 12:54:50	219
+poker	216	Windows	2010-05-04 12:54:50	219
+pol	235	OS Independent	2010-05-04 12:54:50	219
+poliglota	235	OS Independent	2010-05-04 12:54:50	219
+pollywog	200	POSIX	2010-05-04 12:54:50	219
+polyglot	235	OS Independent	2010-05-04 12:54:50	219
+pongo	221	MacOS	2010-05-04 12:54:50	219
+pongo	214	Microsoft	2010-05-04 12:54:50	219
+popen4	200	POSIX	2010-05-04 12:54:50	219
+popen4	309	OS X	2010-05-04 12:54:50	219
+popen4	219	Windows NT/2000	2010-05-04 12:54:50	219
+por	235	OS Independent	2010-05-04 12:54:50	219
+port	201	Linux	2010-05-04 12:54:50	219
+portmidi	221	MacOS	2010-05-04 12:54:50	219
+portmidi	216	Windows	2010-05-04 12:54:50	219
+portmidi	201	Linux	2010-05-04 12:54:50	219
+portrails	235	OS Independent	2010-05-04 12:54:50	219
+positionrange	235	OS Independent	2010-05-04 12:54:50	219
+posixipc	200	POSIX	2010-05-04 12:54:50	219
+posted	235	OS Independent	2010-05-04 12:54:50	219
+postgis-adapter	235	OS Independent	2010-05-04 12:54:50	219
+postini4r	235	OS Independent	2010-05-04 12:54:51	219
+postview	200	POSIX	2010-05-04 12:54:51	219
+powncy	235	OS Independent	2010-05-04 12:54:51	219
+ppds-libs	201	Linux	2010-05-04 12:54:51	219
+pr-dbus	235	OS Independent	2010-05-04 12:54:51	219
+pr-dbus	201	Linux	2010-05-04 12:54:51	219
+prelude	235	OS Independent	2010-05-04 12:54:51	219
+pricewatch	216	Windows	2010-05-04 12:54:51	219
+prime	235	OS Independent	2010-05-04 12:54:51	219
+printermgr	219	Windows NT/2000	2010-05-04 12:54:51	219
+priority-queue	235	OS Independent	2010-05-04 12:54:51	219
+processorpool	235	OS Independent	2010-05-04 12:54:51	219
+progbarsnapshot	235	OS Independent	2010-05-04 12:54:51	219
+progress-meter	201	Linux	2010-05-04 12:54:51	219
+proj4rb	216	Windows	2010-05-04 12:54:51	219
+proj4rb	235	OS Independent	2010-05-04 12:54:51	219
+projectdesk	235	OS Independent	2010-05-04 12:54:51	219
+prometheus	201	Linux	2010-05-04 12:54:51	219
+prometheus	235	OS Independent	2010-05-04 12:54:51	219
+prong	235	OS Independent	2010-05-04 12:54:51	219
+prophet	235	OS Independent	2010-05-04 12:54:51	219
+proteinfactory	216	Windows	2010-05-04 12:54:51	219
+proteinfactory	309	OS X	2010-05-04 12:54:51	219
+proteinfactory	200	POSIX	2010-05-04 12:54:51	219
+proteus	235	OS Independent	2010-05-04 12:54:51	219
+protopuffs	235	OS Independent	2010-05-04 12:54:51	219
+protostruct	200	POSIX	2010-05-04 12:54:51	219
+provenance	235	OS Independent	2010-05-04 12:54:51	219
+prstringio	235	OS Independent	2010-05-04 12:54:51	219
+pry	201	Linux	2010-05-04 12:54:51	219
+pscan	200	POSIX	2010-05-04 12:54:51	219
+pseudo-gettext	200	POSIX	2010-05-04 12:54:51	219
+pseudo-gettext	236	Other OS	2010-05-04 12:54:51	219
+pseudo-gettext	214	Microsoft	2010-05-04 12:54:51	219
+ptodo	235	OS Independent	2010-05-04 12:54:52	219
+ptodo	309	OS X	2010-05-04 12:54:52	219
+ptodo	201	Linux	2010-05-04 12:54:52	219
+ptreloaded	235	OS Independent	2010-05-04 12:54:52	219
+puppet	309	OS X	2010-05-04 12:54:52	219
+puppet	200	POSIX	2010-05-04 12:54:52	219
+purplepkg	201	Linux	2010-05-04 12:54:52	219
+purplepkg	309	OS X	2010-05-04 12:54:52	219
+puzzlemaps	200	POSIX	2010-05-04 12:54:52	219
+pyre	235	OS Independent	2010-05-04 12:54:52	219
+q-and-a-machine	235	OS Independent	2010-05-04 12:54:52	219
+q2engine	235	OS Independent	2010-05-04 12:54:52	219
+q2engine	200	POSIX	2010-05-04 12:54:52	219
+qbfc	216	Windows	2010-05-04 12:54:52	219
+qbruby	216	Windows	2010-05-04 12:54:52	219
+qemu-supervisor	235	OS Independent	2010-05-04 12:54:52	219
+qlc	235	OS Independent	2010-05-04 12:54:52	219
+qrp	200	POSIX	2010-05-04 12:54:52	219
+qt2fxruby	214	Microsoft	2010-05-04 12:54:52	219
+qt2fxruby	201	Linux	2010-05-04 12:54:52	219
+qtext	201	Linux	2010-05-04 12:54:52	219
+qtext	309	OS X	2010-05-04 12:54:52	219
+qtext	216	Windows	2010-05-04 12:54:52	219
+qtodo	235	OS Independent	2010-05-04 12:54:52	219
+quality-ext	235	OS Independent	2010-05-04 12:54:52	219
+quality-ext	200	POSIX	2010-05-04 12:54:52	219
+qualitysmithext	235	OS Independent	2010-05-04 12:54:52	219
+qualitysmithext	200	POSIX	2010-05-04 12:54:52	219
+quantcast	235	OS Independent	2010-05-04 12:54:52	219
+quantity	235	OS Independent	2010-05-04 12:54:52	219
+quarry	235	OS Independent	2010-05-04 12:54:52	219
+quarry	309	OS X	2010-05-04 12:54:52	219
+quarry	201	Linux	2010-05-04 12:54:52	219
+quarto	216	Windows	2010-05-04 12:54:52	219
+quarto	200	POSIX	2010-05-04 12:54:52	219
+quartzhouse	235	OS Independent	2010-05-04 12:54:52	219
+quarzo	235	OS Independent	2010-05-04 12:54:52	219
+queenofdiamonds	216	Windows	2010-05-04 12:54:52	219
+queryparser	235	OS Independent	2010-05-04 12:54:52	219
+questionnaire	235	OS Independent	2010-05-04 12:54:53	219
+queue-tip	309	OS X	2010-05-04 12:54:53	219
+queue-tip	203	FreeBSD	2010-05-04 12:54:53	219
+queue-tip	201	Linux	2010-05-04 12:54:53	219
+quickmagick	235	OS Independent	2010-05-04 12:54:53	219
+quixml	201	Linux	2010-05-04 12:54:53	219
+quixml	216	Windows	2010-05-04 12:54:53	219
+quixml	221	MacOS	2010-05-04 12:54:53	219
+quizr	235	OS Independent	2010-05-04 12:54:53	219
+qwik	235	OS Independent	2010-05-04 12:54:53	219
+r-l-a	309	OS X	2010-05-04 12:54:53	219
+r-l-a	200	POSIX	2010-05-04 12:54:53	219
+r-lijo	235	OS Independent	2010-05-04 12:54:53	219
+r-pass	235	OS Independent	2010-05-04 12:54:53	219
+r18n	235	OS Independent	2010-05-04 12:54:53	219
+r3t	235	OS Independent	2010-05-04 12:54:53	219
+r43	235	OS Independent	2010-05-04 12:54:53	219
+r4digitalnz	235	OS Independent	2010-05-04 12:54:53	219
+r4hcp	201	Linux	2010-05-04 12:54:53	219
+r4ruby	235	OS Independent	2010-05-04 12:54:53	219
+rabbit	235	OS Independent	2010-05-04 12:54:53	219
+rabble	235	OS Independent	2010-05-04 12:54:53	219
+rack	235	OS Independent	2010-05-04 12:54:53	219
+racket	235	OS Independent	2010-05-04 12:54:53	219
+radhosting	203	FreeBSD	2010-05-04 12:54:54	219
+radhosting	201	Linux	2010-05-04 12:54:54	219
+radhosting	212	Other	2010-05-04 12:54:54	219
+radiance	235	OS Independent	2010-05-04 12:54:54	219
+radiant	235	OS Independent	2010-05-04 12:54:54	219
+radiant-gallery	309	OS X	2010-05-04 12:54:54	219
+radiant-gallery	201	Linux	2010-05-04 12:54:54	219
+radiant-gallery	212	Other	2010-05-04 12:54:54	219
+radical	200	POSIX	2010-05-04 12:54:54	219
+radoop	235	OS Independent	2010-05-04 12:54:54	219
+radum	235	OS Independent	2010-05-04 12:54:54	219
+rafaq	200	POSIX	2010-05-04 12:54:54	219
+rafaq	219	Windows NT/2000	2010-05-04 12:54:54	219
+rage	235	OS Independent	2010-05-04 12:54:54	219
+railbase	235	OS Independent	2010-05-04 12:54:54	219
+railendar	235	OS Independent	2010-05-04 12:54:54	219
+railfrog	235	OS Independent	2010-05-04 12:54:54	219
+railfrog	309	OS X	2010-05-04 12:54:54	219
+railfrog	201	Linux	2010-05-04 12:54:54	219
+railpass	235	OS Independent	2010-05-04 12:54:54	219
+railroad	235	OS Independent	2010-05-04 12:54:54	219
+rails	235	OS Independent	2010-05-04 12:54:54	219
+rails-bdescribe	235	OS Independent	2010-05-04 12:54:54	219
+rails-cmdb	235	OS Independent	2010-05-04 12:54:54	219
+rails-datum	235	OS Independent	2010-05-04 12:54:54	219
+rails-editor	235	OS Independent	2010-05-04 12:54:54	219
+rails-engines	235	OS Independent	2010-05-04 12:54:54	219
+rails-has-flags	207	SunOS/Solaris	2010-05-04 12:54:54	219
+rails-has-flags	201	Linux	2010-05-04 12:54:54	219
+rails-has-flags	219	Windows NT/2000	2010-05-04 12:54:54	219
+rails-informix	235	OS Independent	2010-05-04 12:54:54	219
+rails-ledger	235	OS Independent	2010-05-04 12:54:54	219
+rails-on-rails	200	POSIX	2010-05-04 12:54:54	219
+rails-psql-auth	235	OS Independent	2010-05-04 12:54:54	219
+rails-pwnage	201	Linux	2010-05-04 12:54:54	219
+rails-sequel	235	OS Independent	2010-05-04 12:54:54	219
+railsbb	235	OS Independent	2010-05-04 12:54:54	219
+railsbench	235	OS Independent	2010-05-04 12:54:54	219
+railsbox	235	OS Independent	2010-05-04 12:54:54	219
+railscart	235	OS Independent	2010-05-04 12:54:55	219
+railscheck	235	OS Independent	2010-05-04 12:54:55	219
+railschess	201	Linux	2010-05-04 12:54:55	219
+railscollab	235	OS Independent	2010-05-04 12:54:55	219
+railsdb	235	OS Independent	2010-05-04 12:54:55	219
+railserp	221	MacOS	2010-05-04 12:54:55	219
+railserp	214	Microsoft	2010-05-04 12:54:55	219
+railserp	201	Linux	2010-05-04 12:54:55	219
+railsforums	200	POSIX	2010-05-04 12:54:55	219
+railsinstaller	216	Windows	2010-05-04 12:54:55	219
+railslets	235	OS Independent	2010-05-04 12:54:55	219
+railsloft	235	OS Independent	2010-05-04 12:54:55	219
+railslogvislzr	235	OS Independent	2010-05-04 12:54:55	219
+railslogvislzr	309	OS X	2010-05-04 12:54:55	219
+railsmailserver	235	OS Independent	2010-05-04 12:54:55	219
+railsmon	235	OS Independent	2010-05-04 12:54:55	219
+railsmud	235	OS Independent	2010-05-04 12:54:55	219
+railsmyadmin	200	POSIX	2010-05-04 12:54:55	219
+railsmyadmin	309	OS X	2010-05-04 12:54:55	219
+railsondesktop	216	Windows	2010-05-04 12:54:55	219
+railsonusb	216	Windows	2010-05-04 12:54:55	219
+railspdfplugin	219	Windows NT/2000	2010-05-04 12:54:55	219
+railspdfplugin	309	OS X	2010-05-04 12:54:55	219
+railspdfplugin	201	Linux	2010-05-04 12:54:55	219
+railspgprocs	235	OS Independent	2010-05-04 12:54:55	219
+railspki	235	OS Independent	2010-05-04 12:54:55	219
+railsrtv	235	OS Independent	2010-05-04 12:54:55	219
+railsstats	235	OS Independent	2010-05-04 12:54:55	219
+railstracker	235	OS Independent	2010-05-04 12:54:55	219
+raimbo	200	POSIX	2010-05-04 12:54:55	219
+rain8net	235	OS Independent	2010-05-04 12:54:55	219
+rain8net	201	Linux	2010-05-04 12:54:55	219
+rainbows	201	Linux	2010-05-04 12:54:55	219
+raingrams	235	OS Independent	2010-05-04 12:54:55	219
+rake-completion	200	POSIX	2010-05-04 12:54:55	219
+rake-tasks	235	OS Independent	2010-05-04 12:54:55	219
+rake-tasks	200	POSIX	2010-05-04 12:54:55	219
+rake4latex	235	OS Independent	2010-05-04 12:54:55	219
+rakemenu	235	OS Independent	2010-05-04 12:54:55	219
+rakeweb	235	OS Independent	2010-05-04 12:54:56	219
+ralbum	235	OS Independent	2010-05-04 12:54:56	219
+raliasfile	309	OS X	2010-05-04 12:54:56	219
+rally-rest-api	235	OS Independent	2010-05-04 12:54:56	219
+ram	235	OS Independent	2010-05-04 12:54:56	219
+ramaze	235	OS Independent	2010-05-04 12:54:56	219
+rametook	201	Linux	2010-05-04 12:54:56	219
+rami	235	OS Independent	2010-05-04 12:54:56	219
+ramis	235	OS Independent	2010-05-04 12:54:56	219
+ramona	235	OS Independent	2010-05-04 12:54:56	219
+rams	235	OS Independent	2010-05-04 12:54:56	219
+ranalytics	235	OS Independent	2010-05-04 12:54:56	219
+rand	235	OS Independent	2010-05-04 12:54:56	219
+random	235	OS Independent	2010-05-04 12:54:56	219
+random-data	235	OS Independent	2010-05-04 12:54:56	219
+random-word-gen	221	MacOS	2010-05-04 12:54:56	219
+random-word-gen	201	Linux	2010-05-04 12:54:56	219
+randomcases	235	OS Independent	2010-05-04 12:54:56	219
+rannel	235	OS Independent	2010-05-04 12:54:56	219
+rant	235	OS Independent	2010-05-04 12:54:56	219
+raop	235	OS Independent	2010-05-04 12:54:56	219
+rapidshare	235	OS Independent	2010-05-04 12:54:56	219
+rapt	235	OS Independent	2010-05-04 12:54:56	219
+rash	235	OS Independent	2010-05-04 12:54:56	219
+rasm	235	OS Independent	2010-05-04 12:54:56	219
+rassembler	235	OS Independent	2010-05-04 12:54:56	219
+rassmalog	235	OS Independent	2010-05-04 12:54:56	219
+rasta	216	Windows	2010-05-04 12:54:56	219
+rastman	235	OS Independent	2010-05-04 12:54:56	219
+rat	235	OS Independent	2010-05-04 12:54:56	219
+rat	309	OS X	2010-05-04 12:54:56	219
+rat	200	POSIX	2010-05-04 12:54:56	219
+ratchet	235	OS Independent	2010-05-04 12:54:56	219
+rav	235	OS Independent	2010-05-04 12:54:56	219
+rawapi	235	OS Independent	2010-05-04 12:54:56	219
+rawdio	235	OS Independent	2010-05-04 12:54:56	219
+rawk-the-logs	235	OS Independent	2010-05-04 12:54:57	219
+rawline	235	OS Independent	2010-05-04 12:54:57	219
+raxb	235	OS Independent	2010-05-04 12:54:57	219
+raziel	235	OS Independent	2010-05-04 12:54:57	219
+rb-aes31	235	OS Independent	2010-05-04 12:54:57	219
+rb-appscript	309	OS X	2010-05-04 12:54:57	219
+rb-cdio	235	OS Independent	2010-05-04 12:54:57	219
+rb-daspk	216	Windows	2010-05-04 12:54:57	219
+rb-daspk	309	OS X	2010-05-04 12:54:57	219
+rb-db	200	POSIX	2010-05-04 12:54:57	219
+rb-gsl	235	OS Independent	2010-05-04 12:54:57	219
+rb-itunes	309	OS X	2010-05-04 12:54:57	219
+rb-itunes	216	Windows	2010-05-04 12:54:57	219
+rb-itunes	221	MacOS	2010-05-04 12:54:57	219
+rb-plplot	235	OS Independent	2010-05-04 12:54:57	219
+rb-skypemac	221	MacOS	2010-05-04 12:54:57	219
+rb-wartslib	200	POSIX	2010-05-04 12:54:57	219
+rbaio	219	Windows NT/2000	2010-05-04 12:54:57	219
+rbarcode	200	POSIX	2010-05-04 12:54:57	219
+rbase	235	OS Independent	2010-05-04 12:54:57	219
+rbb	235	OS Independent	2010-05-04 12:54:57	219
+rbcddb	200	POSIX	2010-05-04 12:54:57	219
+rbcdio	235	OS Independent	2010-05-04 12:54:57	219
+rbcdio	207	SunOS/Solaris	2010-05-04 12:54:57	219
+rbcoincoin	201	Linux	2010-05-04 12:54:57	219
+rbcurse	235	OS Independent	2010-05-04 12:54:57	219
+rbehave	235	OS Independent	2010-05-04 12:54:57	219
+rbgooey	235	OS Independent	2010-05-04 12:54:57	219
+rbgrep	235	OS Independent	2010-05-04 12:54:57	219
+rbibtex	235	OS Independent	2010-05-04 12:54:57	219
+rbimapsync	201	Linux	2010-05-04 12:54:57	219
+rbiphonetest	309	OS X	2010-05-04 12:54:57	219
+rblog2008	201	Linux	2010-05-04 12:54:57	219
+rbluez	201	Linux	2010-05-04 12:54:58	219
+rbmood	235	OS Independent	2010-05-04 12:54:58	219
+rbmud	200	POSIX	2010-05-04 12:54:58	219
+rboard	235	OS Independent	2010-05-04 12:54:58	219
+rbot	200	POSIX	2010-05-04 12:54:58	219
+rbpar	235	OS Independent	2010-05-04 12:54:58	219
+rbrainz	235	OS Independent	2010-05-04 12:54:58	219
+rbroccoli	309	OS X	2010-05-04 12:54:58	219
+rbroccoli	203	FreeBSD	2010-05-04 12:54:58	219
+rbsh	200	POSIX	2010-05-04 12:54:58	219
+rbshell	214	Microsoft	2010-05-04 12:54:58	219
+rbshell	200	POSIX	2010-05-04 12:54:58	219
+rbt	235	OS Independent	2010-05-04 12:54:58	219
+rbtk	235	OS Independent	2010-05-04 12:54:58	219
+rbuddy	235	OS Independent	2010-05-04 12:54:58	219
+rbugtracker	219	Windows NT/2000	2010-05-04 12:54:58	219
+rbwireapi	201	Linux	2010-05-04 12:54:58	219
+rbyaml	235	OS Independent	2010-05-04 12:54:58	219
+rcalc	235	OS Independent	2010-05-04 12:54:58	219
+rcdk	235	OS Independent	2010-05-04 12:54:58	219
+rchaff	235	OS Independent	2010-05-04 12:54:58	219
+rchemy	235	OS Independent	2010-05-04 12:54:58	219
+rcipher	235	OS Independent	2010-05-04 12:54:58	219
+rcm	235	OS Independent	2010-05-04 12:54:58	219
+rcoaster	201	Linux	2010-05-04 12:54:58	219
+rcommand	309	OS X	2010-05-04 12:54:58	219
+rcommand	200	POSIX	2010-05-04 12:54:58	219
+rcommerce	235	OS Independent	2010-05-04 12:54:58	219
+rcommons	235	OS Independent	2010-05-04 12:54:58	219
+rcon	235	OS Independent	2010-05-04 12:54:58	219
+rconda-rconfig	201	Linux	2010-05-04 12:54:58	219
+rconda-rconfig	221	MacOS	2010-05-04 12:54:58	219
+rconfig	235	OS Independent	2010-05-04 12:54:58	219
+rconftool	235	OS Independent	2010-05-04 12:54:58	219
+rcor	235	OS Independent	2010-05-04 12:54:59	219
+rcrawl	235	OS Independent	2010-05-04 12:54:59	219
+rcss	235	OS Independent	2010-05-04 12:54:59	219
+rcurses	200	POSIX	2010-05-04 12:54:59	219
+rcv	201	Linux	2010-05-04 12:54:59	219
+rcv	216	Windows	2010-05-04 12:54:59	219
+rdav	235	OS Independent	2010-05-04 12:54:59	219
+rdb	235	OS Independent	2010-05-04 12:54:59	219
+rdbc	235	OS Independent	2010-05-04 12:54:59	219
+rdbxml	201	Linux	2010-05-04 12:54:59	219
+rddb	235	OS Independent	2010-05-04 12:54:59	219
+rde	219	Windows NT/2000	2010-05-04 12:54:59	219
+rdf	235	OS Independent	2010-05-04 12:54:59	219
+rdfbus	235	OS Independent	2010-05-04 12:54:59	219
+rdfcache	235	OS Independent	2010-05-04 12:54:59	219
+rdfgrid	235	OS Independent	2010-05-04 12:54:59	219
+rdfize	235	OS Independent	2010-05-04 12:54:59	219
+rdfs	235	OS Independent	2010-05-04 12:54:59	219
+rdfsgen	235	OS Independent	2010-05-04 12:54:59	219
+rdialog	235	OS Independent	2010-05-04 12:54:59	219
+rdirector	235	OS Independent	2010-05-04 12:54:59	219
+rdoc-chm	216	Windows	2010-05-04 12:54:59	219
+rdoc-chm	236	Other OS	2010-05-04 12:54:59	219
+rdoc-on-rails	235	OS Independent	2010-05-04 12:54:59	219
+rdocbrowser	200	POSIX	2010-05-04 12:54:59	219
+rdocweb	235	OS Independent	2010-05-04 12:54:59	219
+rdsl	235	OS Independent	2010-05-04 12:54:59	219
+rdtool	235	OS Independent	2010-05-04 12:54:59	219
+rdvd-slideshow	201	Linux	2010-05-04 12:54:59	219
+reactive	235	OS Independent	2010-05-04 12:54:59	219
+realfk	235	OS Independent	2010-05-04 12:54:59	219
+recipe	235	OS Independent	2010-05-04 12:54:59	219
+reckoner	200	POSIX	2010-05-04 12:55:00	219
+recordsearch	235	OS Independent	2010-05-04 12:55:00	219
+redbird	235	OS Independent	2010-05-04 12:55:00	219
+redbook	235	OS Independent	2010-05-04 12:55:00	219
+redboy	201	Linux	2010-05-04 12:55:00	219
+redcloth	235	OS Independent	2010-05-04 12:55:00	219
+redclothcoderay	235	OS Independent	2010-05-04 12:55:00	219
+reddy	235	OS Independent	2010-05-04 12:55:00	219
+redgem	201	Linux	2010-05-04 12:55:00	219
+redgem	202	BSD	2010-05-04 12:55:00	219
+redirect	235	OS Independent	2010-05-04 12:55:00	219
+redlight	200	POSIX	2010-05-04 12:55:00	219
+redmine	235	OS Independent	2010-05-04 12:55:00	219
+rednails	235	OS Independent	2010-05-04 12:55:00	219
+redpimp	235	OS Independent	2010-05-04 12:55:00	219
+redshift	235	OS Independent	2010-05-04 12:55:00	219
+redtickets	200	POSIX	2010-05-04 12:55:00	219
+redux	235	OS Independent	2010-05-04 12:55:00	219
+redwood	201	Linux	2010-05-04 12:55:00	219
+reference	235	OS Independent	2010-05-04 12:55:00	219
+refinery	235	OS Independent	2010-05-04 12:55:00	219
+refuge	235	OS Independent	2010-05-04 12:55:00	219
+rel	235	OS Independent	2010-05-04 12:55:00	219
+relais	200	POSIX	2010-05-04 12:55:00	219
+relais	235	OS Independent	2010-05-04 12:55:00	219
+relais	221	MacOS	2010-05-04 12:55:00	219
+relative	235	OS Independent	2010-05-04 12:55:00	219
+relax	235	OS Independent	2010-05-04 12:55:00	219
+relearn	235	OS Independent	2010-05-04 12:55:00	219
+reliable-msg	235	OS Independent	2010-05-04 12:55:00	219
+relisp	235	OS Independent	2010-05-04 12:55:00	219
+remacpro	235	OS Independent	2010-05-04 12:55:01	219
+rematch	235	OS Independent	2010-05-04 12:55:01	219
+rematch	216	Windows	2010-05-04 12:55:01	219
+reminder	201	Linux	2010-05-04 12:55:01	219
+remit	235	OS Independent	2010-05-04 12:55:01	219
+remote-api	235	OS Independent	2010-05-04 12:55:01	219
+remote-ruby	235	OS Independent	2010-05-04 12:55:01	219
+remote-validate	235	OS Independent	2010-05-04 12:55:01	219
+rempires	201	Linux	2010-05-04 12:55:01	219
+rempires	309	OS X	2010-05-04 12:55:01	219
+rempires	216	Windows	2010-05-04 12:55:01	219
+renamer	235	OS Independent	2010-05-04 12:55:01	219
+renkin	235	OS Independent	2010-05-04 12:55:01	219
+reparcs	235	OS Independent	2010-05-04 12:55:01	219
+replacefixtures	235	OS Independent	2010-05-04 12:55:01	219
+repobundle	235	OS Independent	2010-05-04 12:55:01	219
+reptile	235	OS Independent	2010-05-04 12:55:01	219
+repub	235	OS Independent	2010-05-04 12:55:01	219
+respvisualizer	221	MacOS	2010-05-04 12:55:01	219
+respvisualizer	216	Windows	2010-05-04 12:55:01	219
+respvisualizer	200	POSIX	2010-05-04 12:55:01	219
+ressbo	309	OS X	2010-05-04 12:55:01	219
+rest-agent	235	OS Independent	2010-05-04 12:55:01	219
+resteasy	235	OS Independent	2010-05-04 12:55:01	219
+restful-rails	235	OS Independent	2010-05-04 12:55:01	219
+restfulezm	235	OS Independent	2010-05-04 12:55:01	219
+restfulite	200	POSIX	2010-05-04 12:55:01	219
+restfulx	235	OS Independent	2010-05-04 12:55:01	219
+resto	235	OS Independent	2010-05-04 12:55:01	219
+restr	235	OS Independent	2010-05-04 12:55:01	219
+reststop	235	OS Independent	2010-05-04 12:55:01	219
+resume	235	OS Independent	2010-05-04 12:55:01	219
+resumeonrails	235	OS Independent	2010-05-04 12:55:01	219
+retrograph	235	OS Independent	2010-05-04 12:55:02	219
+retrospectiva	235	OS Independent	2010-05-04 12:55:02	219
+reve	235	OS Independent	2010-05-04 12:55:02	219
+reviews	235	OS Independent	2010-05-04 12:55:02	219
+revolt	235	OS Independent	2010-05-04 12:55:02	219
+revolution	235	OS Independent	2010-05-04 12:55:02	219
+revolutionary	235	OS Independent	2010-05-04 12:55:02	219
+revver4r	235	OS Independent	2010-05-04 12:55:02	219
+rex	235	OS Independent	2010-05-04 12:55:02	219
+rexchange	235	OS Independent	2010-05-04 12:55:02	219
+rexpect	235	OS Independent	2010-05-04 12:55:02	219
+rextra	200	POSIX	2010-05-04 12:55:02	219
+rf-comments	235	OS Independent	2010-05-04 12:55:02	219
+rfacebook	235	OS Independent	2010-05-04 12:55:02	219
+rfeedparser	221	MacOS	2010-05-04 12:55:02	219
+rfeedparser	200	POSIX	2010-05-04 12:55:02	219
+rfeedreader	235	OS Independent	2010-05-04 12:55:02	219
+rffitool	235	OS Independent	2010-05-04 12:55:02	219
+rfin	235	OS Independent	2010-05-04 12:55:02	219
+rfits	200	POSIX	2010-05-04 12:55:02	219
+rfits	309	OS X	2010-05-04 12:55:02	219
+rfm	236	Other OS	2010-05-04 12:55:02	219
+rfolio	235	OS Independent	2010-05-04 12:55:02	219
+rforce	235	OS Independent	2010-05-04 12:55:02	219
+rforum	235	OS Independent	2010-05-04 12:55:02	219
+rfpdf	235	OS Independent	2010-05-04 12:55:02	219
+rfs	235	OS Independent	2010-05-04 12:55:02	219
+rfuse	201	Linux	2010-05-04 12:55:02	219
+rfuse-ng	201	Linux	2010-05-04 12:55:02	219
+rgate	235	OS Independent	2010-05-04 12:55:02	219
+rgenetic	235	OS Independent	2010-05-04 12:55:02	219
+rghost	221	MacOS	2010-05-04 12:55:02	219
+rghost	216	Windows	2010-05-04 12:55:02	219
+rghost	201	Linux	2010-05-04 12:55:02	219
+rgl	235	OS Independent	2010-05-04 12:55:02	219
+rglpk	235	OS Independent	2010-05-04 12:55:02	219
+rgraph	235	OS Independent	2010-05-04 12:55:03	219
+rgssbattlesys	235	OS Independent	2010-05-04 12:55:03	219
+rhaiker	221	MacOS	2010-05-04 12:55:03	219
+rhaiker	216	Windows	2010-05-04 12:55:03	219
+rhaiker	201	Linux	2010-05-04 12:55:03	219
+rhb	235	OS Independent	2010-05-04 12:55:03	219
+rhcp	201	Linux	2010-05-04 12:55:03	219
+rhcp	235	OS Independent	2010-05-04 12:55:03	219
+rhel	214	Microsoft	2010-05-04 12:55:03	219
+rhel	309	OS X	2010-05-04 12:55:03	219
+rhel	201	Linux	2010-05-04 12:55:03	219
+rholdem	235	OS Independent	2010-05-04 12:55:03	219
+rhuidean	235	OS Independent	2010-05-04 12:55:03	219
+ri18n	235	OS Independent	2010-05-04 12:55:03	219
+ribit	201	Linux	2010-05-04 12:55:03	219
+ribrary	235	OS Independent	2010-05-04 12:55:03	219
+ribrary	309	OS X	2010-05-04 12:55:03	219
+ribusb	235	OS Independent	2010-05-04 12:55:03	219
+rices	235	OS Independent	2010-05-04 12:55:03	219
+riddler	214	Microsoft	2010-05-04 12:55:03	219
+riddler	309	OS X	2010-05-04 12:55:03	219
+riddler	201	Linux	2010-05-04 12:55:03	219
+ride	235	OS Independent	2010-05-04 12:55:03	219
+ridge	235	OS Independent	2010-05-04 12:55:03	219
+riess	216	Windows	2010-05-04 12:55:03	219
+rife	235	OS Independent	2010-05-04 12:55:03	219
+riff	235	OS Independent	2010-05-04 12:55:03	219
+rightaws	235	OS Independent	2010-05-04 12:55:03	219
+rightscale	235	OS Independent	2010-05-04 12:55:03	219
+rinari	235	OS Independent	2010-05-04 12:55:03	219
+rindr	235	OS Independent	2010-05-04 12:55:04	219
+ringservice	235	OS Independent	2010-05-04 12:55:04	219
+rinit	201	Linux	2010-05-04 12:55:04	219
+rino	235	OS Independent	2010-05-04 12:55:04	219
+rinotify	201	Linux	2010-05-04 12:55:04	219
+rinruby	214	Microsoft	2010-05-04 12:55:04	219
+rinruby	201	Linux	2010-05-04 12:55:04	219
+rinstant	235	OS Independent	2010-05-04 12:55:04	219
+rip	200	POSIX	2010-05-04 12:55:04	219
+ripfix	235	OS Independent	2010-05-04 12:55:04	219
+ripod	201	Linux	2010-05-04 12:55:04	219
+riposte	309	OS X	2010-05-04 12:55:04	219
+riposte	202	BSD	2010-05-04 12:55:04	219
+riposte	201	Linux	2010-05-04 12:55:04	219
+ripple	235	OS Independent	2010-05-04 12:55:04	219
+risc	235	OS Independent	2010-05-04 12:55:04	219
+rise	235	OS Independent	2010-05-04 12:55:04	219
+risk-man	219	Windows NT/2000	2010-05-04 12:55:04	219
+risk-man	235	OS Independent	2010-05-04 12:55:04	219
+rislamic	221	MacOS	2010-05-04 12:55:04	219
+rislamic	214	Microsoft	2010-05-04 12:55:04	219
+rislamic	201	Linux	2010-05-04 12:55:04	219
+ritex	235	OS Independent	2010-05-04 12:55:04	219
+rjni	200	POSIX	2010-05-04 12:55:04	219
+rjournal	235	OS Independent	2010-05-04 12:55:04	219
+rkalzium	235	OS Independent	2010-05-04 12:55:04	219
+rkeychain	221	MacOS	2010-05-04 12:55:04	219
+rlib	235	OS Independent	2010-05-04 12:55:04	219
+rload	235	OS Independent	2010-05-04 12:55:04	219
+rlsm	235	OS Independent	2010-05-04 12:55:04	219
+rlua	235	OS Independent	2010-05-04 12:55:05	219
+rlua	200	POSIX	2010-05-04 12:55:05	219
+rmagick	216	Windows	2010-05-04 12:55:05	219
+rmagick	309	OS X	2010-05-04 12:55:05	219
+rmagick	200	POSIX	2010-05-04 12:55:05	219
+rmasm	235	OS Independent	2010-05-04 12:55:05	219
+rmchd	235	OS Independent	2010-05-04 12:55:05	219
+rmedial	309	OS X	2010-05-04 12:55:05	219
+rml	235	OS Independent	2010-05-04 12:55:05	219
+rmmseg	235	OS Independent	2010-05-04 12:55:05	219
+rmobio	214	Microsoft	2010-05-04 12:55:05	219
+rmobio	201	Linux	2010-05-04 12:55:05	219
+rmodbus	235	OS Independent	2010-05-04 12:55:05	219
+rmovie	200	POSIX	2010-05-04 12:55:05	219
+rmql	235	OS Independent	2010-05-04 12:55:05	219
+rms	202	BSD	2010-05-04 12:55:05	219
+rmud	309	OS X	2010-05-04 12:55:05	219
+rmud	200	POSIX	2010-05-04 12:55:05	219
+rmush	235	OS Independent	2010-05-04 12:55:05	219
+rmx	201	Linux	2010-05-04 12:55:05	219
+rmxp-multi	235	OS Independent	2010-05-04 12:55:05	219
+rnetwhistler	235	OS Independent	2010-05-04 12:55:05	219
+rnews	235	OS Independent	2010-05-04 12:55:05	219
+rnum	235	OS Independent	2010-05-04 12:55:05	219
+rnwnsrvemu	235	OS Independent	2010-05-04 12:55:05	219
+roar	235	OS Independent	2010-05-04 12:55:05	219
+roastbeef	309	OS X	2010-05-04 12:55:05	219
+roastbeef	202	BSD	2010-05-04 12:55:05	219
+roastbeef	201	Linux	2010-05-04 12:55:05	219
+roby	200	POSIX	2010-05-04 12:55:05	219
+rocketstarter	221	MacOS	2010-05-04 12:55:05	219
+rocketstarter	201	Linux	2010-05-04 12:55:05	219
+rockit	216	Windows	2010-05-04 12:55:05	219
+rockit	201	Linux	2010-05-04 12:55:05	219
+rocksolidrails	235	OS Independent	2010-05-04 12:55:05	219
+rocmail	201	Linux	2010-05-04 12:55:05	219
+rodo	235	OS Independent	2010-05-04 12:55:05	219
+rog	201	Linux	2010-05-04 12:55:05	219
+rogger	219	Windows NT/2000	2010-05-04 12:55:05	219
+rogger	309	OS X	2010-05-04 12:55:05	219
+rogger	201	Linux	2010-05-04 12:55:05	219
+rogue	235	OS Independent	2010-05-04 12:55:05	219
+rojo	235	OS Independent	2010-05-04 12:55:05	219
+rollinggemstone	235	OS Independent	2010-05-04 12:55:06	219
+romey	235	OS Independent	2010-05-04 12:55:06	219
+ronin	235	OS Independent	2010-05-04 12:55:06	219
+roo	235	OS Independent	2010-05-04 12:55:06	219
+rook	235	OS Independent	2010-05-04 12:55:06	219
+rools	235	OS Independent	2010-05-04 12:55:06	219
+ror-akismet	235	OS Independent	2010-05-04 12:55:06	219
+ror-dot	235	OS Independent	2010-05-04 12:55:06	219
+rorascanner	201	Linux	2010-05-04 12:55:06	219
+rorem	235	OS Independent	2010-05-04 12:55:06	219
+rornuke	235	OS Independent	2010-05-04 12:55:06	219
+rorox	201	Linux	2010-05-04 12:55:06	219
+rorsublist	235	OS Independent	2010-05-04 12:55:06	219
+rorsvnprep	235	OS Independent	2010-05-04 12:55:06	219
+ros	235	OS Independent	2010-05-04 12:55:06	219
+ross	201	Linux	2010-05-04 12:55:06	219
+rosters	235	OS Independent	2010-05-04 12:55:06	219
+rote	235	OS Independent	2010-05-04 12:55:06	219
+rottztv	235	OS Independent	2010-05-04 12:55:06	219
+rouwam	235	OS Independent	2010-05-04 12:55:06	219
+rownage	235	OS Independent	2010-05-04 12:55:06	219
+roxanne	235	OS Independent	2010-05-04 12:55:06	219
+roxml	235	OS Independent	2010-05-04 12:55:06	219
+rpa-base	235	OS Independent	2010-05-04 12:55:06	219
+rpam	201	Linux	2010-05-04 12:55:06	219
+rpeer-engine	235	OS Independent	2010-05-04 12:55:06	219
+rplanet	235	OS Independent	2010-05-04 12:55:06	219
+rplot	201	Linux	2010-05-04 12:55:06	219
+rplug	235	OS Independent	2010-05-04 12:55:06	219
+rpmspecparser	201	Linux	2010-05-04 12:55:07	219
+rpod	235	OS Independent	2010-05-04 12:55:07	219
+rpodder	201	Linux	2010-05-04 12:55:07	219
+rpodder	202	BSD	2010-05-04 12:55:07	219
+rpos	221	MacOS	2010-05-04 12:55:07	219
+rpos	214	Microsoft	2010-05-04 12:55:07	219
+rpos	201	Linux	2010-05-04 12:55:07	219
+rpp	235	OS Independent	2010-05-04 12:55:07	219
+rqrcode	235	OS Independent	2010-05-04 12:55:07	219
+rquerypad	235	OS Independent	2010-05-04 12:55:07	219
+rrb	201	Linux	2010-05-04 12:55:07	219
+rrb	216	Windows	2010-05-04 12:55:07	219
+rrc	216	Windows	2010-05-04 12:55:07	219
+rrc	202	BSD	2010-05-04 12:55:07	219
+rrc	201	Linux	2010-05-04 12:55:07	219
+rrename	235	OS Independent	2010-05-04 12:55:07	219
+rrev	235	OS Independent	2010-05-04 12:55:07	219
+rriki	201	Linux	2010-05-04 12:55:07	219
+rriki	309	OS X	2010-05-04 12:55:07	219
+rriki	219	Windows NT/2000	2010-05-04 12:55:07	219
+rrncurses	309	OS X	2010-05-04 12:55:07	219
+rrncurses	202	BSD	2010-05-04 12:55:07	219
+rrncurses	201	Linux	2010-05-04 12:55:07	219
+rrobots	235	OS Independent	2010-05-04 12:55:07	219
+rrrip	200	POSIX	2010-05-04 12:55:07	219
+rrrip	309	OS X	2010-05-04 12:55:07	219
+rrrip	216	Windows	2010-05-04 12:55:07	219
+rrt-ruby	219	Windows NT/2000	2010-05-04 12:55:07	219
+rsame	235	OS Independent	2010-05-04 12:55:07	219
+rscm	235	OS Independent	2010-05-04 12:55:07	219
+rscribd	235	OS Independent	2010-05-04 12:55:07	219
+rsh3ll	201	Linux	2010-05-04 12:55:07	219
+rsh3ll	309	OS X	2010-05-04 12:55:07	219
+rsh3ll	214	Microsoft	2010-05-04 12:55:07	219
+rsheet	201	Linux	2010-05-04 12:55:07	219
+rshell	235	OS Independent	2010-05-04 12:55:07	219
+rsherpa	235	OS Independent	2010-05-04 12:55:07	219
+rsil	221	MacOS	2010-05-04 12:55:07	219
+rsim	235	OS Independent	2010-05-04 12:55:07	219
+rsimul	201	Linux	2010-05-04 12:55:07	219
+rsl	235	OS Independent	2010-05-04 12:55:07	219
+rsocsvr	235	OS Independent	2010-05-04 12:55:08	219
+rsort	235	OS Independent	2010-05-04 12:55:08	219
+rsp	200	POSIX	2010-05-04 12:55:08	219
+rspec	235	OS Independent	2010-05-04 12:55:08	219
+rsqlitegui	216	Windows	2010-05-04 12:55:08	219
+rsqlitegui	201	Linux	2010-05-04 12:55:08	219
+rsrcg	235	OS Independent	2010-05-04 12:55:08	219
+rsreport	235	OS Independent	2010-05-04 12:55:08	219
+rsruby	309	OS X	2010-05-04 12:55:08	219
+rsruby	200	POSIX	2010-05-04 12:55:08	219
+rss-client	235	OS Independent	2010-05-04 12:55:08	219
+rss-wxruby	216	Windows	2010-05-04 12:55:08	219
+rss2mail	200	POSIX	2010-05-04 12:55:08	219
+rssfwd	235	OS Independent	2010-05-04 12:55:08	219
+rstyx	235	OS Independent	2010-05-04 12:55:08	219
+rsudoku	200	POSIX	2010-05-04 12:55:08	219
+rsync-mirror	201	Linux	2010-05-04 12:55:08	219
+rt-client	235	OS Independent	2010-05-04 12:55:08	219
+rtaglib	200	POSIX	2010-05-04 12:55:08	219
+rtags	235	OS Independent	2010-05-04 12:55:08	219
+rtd	200	POSIX	2010-05-04 12:55:08	219
+rtd	214	Microsoft	2010-05-04 12:55:08	219
+rtd	221	MacOS	2010-05-04 12:55:08	219
+rtellico	235	OS Independent	2010-05-04 12:55:08	219
+rticle	235	OS Independent	2010-05-04 12:55:08	219
+rtictactoe	235	OS Independent	2010-05-04 12:55:08	219
+rtinspect	235	OS Independent	2010-05-04 12:55:08	219
+rtm	235	OS Independent	2010-05-04 12:55:08	219
+rtm	200	POSIX	2010-05-04 12:55:08	219
+rtm-shell	235	OS Independent	2010-05-04 12:55:08	219
+rtodoist	235	OS Independent	2010-05-04 12:55:08	219
+rtplan	235	OS Independent	2010-05-04 12:55:09	219
+rtrace	221	MacOS	2010-05-04 12:55:09	219
+rtrace	207	SunOS/Solaris	2010-05-04 12:55:09	219
+rtranscoder	235	OS Independent	2010-05-04 12:55:09	219
+rturing	235	OS Independent	2010-05-04 12:55:09	219
+rturk	235	OS Independent	2010-05-04 12:55:09	219
+rtv	201	Linux	2010-05-04 12:55:09	219
+rtv	216	Windows	2010-05-04 12:55:09	219
+rubac	201	Linux	2010-05-04 12:55:09	219
+rubalt	235	OS Independent	2010-05-04 12:55:09	219
+rubber	235	OS Independent	2010-05-04 12:55:09	219
+rubedo	200	POSIX	2010-05-04 12:55:09	219
+rubemacs	200	POSIX	2010-05-04 12:55:09	219
+rubernate	235	OS Independent	2010-05-04 12:55:09	219
+rubhash	200	POSIX	2010-05-04 12:55:09	219
+rubia	235	OS Independent	2010-05-04 12:55:09	219
+rubicante	235	OS Independent	2010-05-04 12:55:09	219
+rubidine	235	OS Independent	2010-05-04 12:55:09	219
+rubidium	235	OS Independent	2010-05-04 12:55:09	219
+rubigen	235	OS Independent	2010-05-04 12:55:09	219
+rubiki	235	OS Independent	2010-05-04 12:55:09	219
+rubikon	201	Linux	2010-05-04 12:55:09	219
+rubikon	221	MacOS	2010-05-04 12:55:09	219
+rubines	235	OS Independent	2010-05-04 12:55:09	219
+rubirc	235	OS Independent	2010-05-04 12:55:09	219
+rubish	235	OS Independent	2010-05-04 12:55:09	219
+rublog	235	OS Independent	2010-05-04 12:55:09	219
+rubo	235	OS Independent	2010-05-04 12:55:09	219
+ruboid	235	OS Independent	2010-05-04 12:55:09	219
+rubot	235	OS Independent	2010-05-04 12:55:09	219
+rubric	200	POSIX	2010-05-04 12:55:09	219
+rubuild	235	OS Independent	2010-05-04 12:55:09	219
+ruburple	235	OS Independent	2010-05-04 12:55:09	219
+ruby	235	OS Independent	2010-05-04 12:55:09	219
+ruby-activeldap	235	OS Independent	2010-05-04 12:55:09	219
+ruby-aes	235	OS Independent	2010-05-04 12:55:10	219
+ruby-agi	201	Linux	2010-05-04 12:55:10	219
+ruby-ajp	235	OS Independent	2010-05-04 12:55:10	219
+ruby-amt	235	OS Independent	2010-05-04 12:55:10	219
+ruby-asp	235	OS Independent	2010-05-04 12:55:10	219
+ruby-aws	235	OS Independent	2010-05-04 12:55:10	219
+ruby-bluetooth	219	Windows NT/2000	2010-05-04 12:55:10	219
+ruby-bluetooth	309	OS X	2010-05-04 12:55:10	219
+ruby-bluetooth	201	Linux	2010-05-04 12:55:10	219
+ruby-bookshelf	235	OS Independent	2010-05-04 12:55:10	219
+ruby-box2d	219	Windows NT/2000	2010-05-04 12:55:10	219
+ruby-breakpoint	235	OS Independent	2010-05-04 12:55:10	219
+ruby-cafinfo	235	OS Independent	2010-05-04 12:55:10	219
+ruby-cg	235	OS Independent	2010-05-04 12:55:10	219
+ruby-contract	235	OS Independent	2010-05-04 12:55:10	219
+ruby-cradle	207	SunOS/Solaris	2010-05-04 12:55:10	219
+ruby-cradle	201	Linux	2010-05-04 12:55:10	219
+ruby-cradle	216	Windows	2010-05-04 12:55:10	219
+ruby-dbi	235	OS Independent	2010-05-04 12:55:10	219
+ruby-debug	200	POSIX	2010-05-04 12:55:10	219
+ruby-debug19	200	POSIX	2010-05-04 12:55:10	219
+ruby-decimal	235	OS Independent	2010-05-04 12:55:10	219
+ruby-devil	200	POSIX	2010-05-04 12:55:10	219
+ruby-devil	216	Windows	2010-05-04 12:55:10	219
+ruby-devil	221	MacOS	2010-05-04 12:55:10	219
+ruby-dlx	216	Windows	2010-05-04 12:55:10	219
+ruby-dlx	201	Linux	2010-05-04 12:55:10	219
+ruby-doom	235	OS Independent	2010-05-04 12:55:10	219
+ruby-dtrace	309	OS X	2010-05-04 12:55:10	219
+ruby-dtrace	207	SunOS/Solaris	2010-05-04 12:55:10	219
+ruby-dumpasn1	235	OS Independent	2010-05-04 12:55:10	219
+ruby-edccs	235	OS Independent	2010-05-04 12:55:10	219
+ruby-exiv2	235	OS Independent	2010-05-04 12:55:10	219
+ruby-exiv2	309	OS X	2010-05-04 12:55:10	219
+ruby-exiv2	200	POSIX	2010-05-04 12:55:10	219
+ruby-fann	219	Windows NT/2000	2010-05-04 12:55:10	219
+ruby-fann	309	OS X	2010-05-04 12:55:10	219
+ruby-fann	200	POSIX	2010-05-04 12:55:10	219
+ruby-fb2k	216	Windows	2010-05-04 12:55:10	219
+ruby-filemagic	200	POSIX	2010-05-04 12:55:10	219
+ruby-freedb	200	POSIX	2010-05-04 12:55:10	219
+ruby-frontbase	235	OS Independent	2010-05-04 12:55:10	219
+ruby-ftgl	219	Windows NT/2000	2010-05-04 12:55:10	219
+ruby-ftgl	309	OS X	2010-05-04 12:55:10	219
+ruby-ftgl	201	Linux	2010-05-04 12:55:10	219
+ruby-gdchart	235	OS Independent	2010-05-04 12:55:10	219
+ruby-geonames	235	OS Independent	2010-05-04 12:55:10	219
+ruby-gforge	235	OS Independent	2010-05-04 12:55:10	219
+ruby-glfw	216	Windows	2010-05-04 12:55:10	219
+ruby-glfw	309	OS X	2010-05-04 12:55:10	219
+ruby-glfw	200	POSIX	2010-05-04 12:55:10	219
+ruby-gsl-ng	235	OS Independent	2010-05-04 12:55:11	219
+ruby-helix	309	OS X	2010-05-04 12:55:11	219
+ruby-helix	201	Linux	2010-05-04 12:55:11	219
+ruby-hunspell	200	POSIX	2010-05-04 12:55:11	219
+ruby-hunspell	216	Windows	2010-05-04 12:55:11	219
+ruby-ical	235	OS Independent	2010-05-04 12:55:11	219
+ruby-ifconfig	202	BSD	2010-05-04 12:55:11	219
+ruby-ifconfig	201	Linux	2010-05-04 12:55:11	219
+ruby-ifconfig	207	SunOS/Solaris	2010-05-04 12:55:11	219
+ruby-ifp	235	OS Independent	2010-05-04 12:55:11	219
+ruby-informix	200	POSIX	2010-05-04 12:55:11	219
+ruby-informix	216	Windows	2010-05-04 12:55:11	219
+ruby-irc	201	Linux	2010-05-04 12:55:11	219
+ruby-irc-yail	235	OS Independent	2010-05-04 12:55:11	219
+ruby-ircd	235	OS Independent	2010-05-04 12:55:11	219
+ruby-iwlist	201	Linux	2010-05-04 12:55:11	219
+ruby-kaart	201	Linux	2010-05-04 12:55:11	219
+ruby-kaart	309	OS X	2010-05-04 12:55:11	219
+ruby-kaart	216	Windows	2010-05-04 12:55:11	219
+ruby-ldap	235	OS Independent	2010-05-04 12:55:11	219
+ruby-ldapserver	235	OS Independent	2010-05-04 12:55:11	219
+ruby-libburn	201	Linux	2010-05-04 12:55:11	219
+ruby-libcddb	216	Windows	2010-05-04 12:55:11	219
+ruby-libcddb	201	Linux	2010-05-04 12:55:11	219
+ruby-libnet	235	OS Independent	2010-05-04 12:55:11	219
+ruby-libnids	235	OS Independent	2010-05-04 12:55:11	219
+ruby-libnotify	201	Linux	2010-05-04 12:55:11	219
+ruby-linkedin	235	OS Independent	2010-05-04 12:55:11	219
+ruby-linkparser	235	OS Independent	2010-05-04 12:55:11	219
+ruby-lorcon	235	OS Independent	2010-05-04 12:55:11	219
+ruby-mnesia	309	OS X	2010-05-04 12:55:11	219
+ruby-mp3info	235	OS Independent	2010-05-04 12:55:11	219
+ruby-mythtv	235	OS Independent	2010-05-04 12:55:11	219
+ruby-net-nntp	235	OS Independent	2010-05-04 12:55:11	219
+ruby-nxt	235	OS Independent	2010-05-04 12:55:11	219
+ruby-oci8	235	OS Independent	2010-05-04 12:55:11	219
+ruby-ogg	235	OS Independent	2010-05-04 12:55:11	219
+ruby-ogginfo	235	OS Independent	2010-05-04 12:55:11	219
+ruby-ole	235	OS Independent	2010-05-04 12:55:11	219
+ruby-openal	200	POSIX	2010-05-04 12:55:11	219
+ruby-opencl	235	OS Independent	2010-05-04 12:55:11	219
+ruby-opengl	235	OS Independent	2010-05-04 12:55:11	219
+ruby-openid	200	POSIX	2010-05-04 12:55:11	219
+ruby-otp	235	OS Independent	2010-05-04 12:55:12	219
+ruby-ow-patches	216	Windows	2010-05-04 12:55:12	219
+ruby-packetio	201	Linux	2010-05-04 12:55:12	219
+ruby-pam	200	POSIX	2010-05-04 12:55:12	219
+ruby-pdf	235	OS Independent	2010-05-04 12:55:12	219
+ruby-pg	200	POSIX	2010-05-04 12:55:12	219
+ruby-pg	216	Windows	2010-05-04 12:55:12	219
+ruby-pg	221	MacOS	2010-05-04 12:55:12	219
+ruby-pipeline	200	POSIX	2010-05-04 12:55:12	219
+ruby-pixels	235	OS Independent	2010-05-04 12:55:12	219
+ruby-plsql	235	OS Independent	2010-05-04 12:55:12	219
+ruby-postgres	200	POSIX	2010-05-04 12:55:12	219
+ruby-prof	201	Linux	2010-05-04 12:55:12	219
+ruby-prof	214	Microsoft	2010-05-04 12:55:12	219
+ruby-prolog	235	OS Independent	2010-05-04 12:55:12	219
+ruby-protobuf	235	OS Independent	2010-05-04 12:55:12	219
+ruby-ptbr	218	Windows 95/98/2000	2010-05-04 12:55:12	219
+ruby-ptbr	201	Linux	2010-05-04 12:55:12	219
+ruby-pytst	235	OS Independent	2010-05-04 12:55:12	219
+ruby-recaptcha	200	POSIX	2010-05-04 12:55:12	219
+ruby-release	235	OS Independent	2010-05-04 12:55:12	219
+ruby-rpp	235	OS Independent	2010-05-04 12:55:12	219
+ruby-rtf	235	OS Independent	2010-05-04 12:55:12	219
+ruby-s3	235	OS Independent	2010-05-04 12:55:12	219
+ruby-saferpay	235	OS Independent	2010-05-04 12:55:12	219
+ruby-sendfile	207	SunOS/Solaris	2010-05-04 12:55:12	219
+ruby-sendfile	201	Linux	2010-05-04 12:55:12	219
+ruby-sendfile	203	FreeBSD	2010-05-04 12:55:12	219
+ruby-serialport	216	Windows	2010-05-04 12:55:12	219
+ruby-serialport	200	POSIX	2010-05-04 12:55:12	219
+ruby-sexy	235	OS Independent	2010-05-04 12:55:12	219
+ruby-sexy	200	POSIX	2010-05-04 12:55:12	219
+ruby-snarl	216	Windows	2010-05-04 12:55:12	219
+ruby-statsample	235	OS Independent	2010-05-04 12:55:12	219
+ruby-stemp	201	Linux	2010-05-04 12:55:12	219
+ruby-stemp	203	FreeBSD	2010-05-04 12:55:12	219
+ruby-stemp	309	OS X	2010-05-04 12:55:12	219
+ruby-style	200	POSIX	2010-05-04 12:55:12	219
+ruby-sxip	201	Linux	2010-05-04 12:55:12	219
+ruby-units	235	OS Independent	2010-05-04 12:55:12	219
+ruby-v4l	201	Linux	2010-05-04 12:55:12	219
+ruby-vault	235	OS Independent	2010-05-04 12:55:12	219
+ruby-vpi	200	POSIX	2010-05-04 12:55:12	219
+ruby-vpopmail	201	Linux	2010-05-04 12:55:13	219
+ruby-web	216	Windows	2010-05-04 12:55:13	219
+ruby-web	235	OS Independent	2010-05-04 12:55:13	219
+ruby-web	309	OS X	2010-05-04 12:55:13	219
+ruby-xattr	200	POSIX	2010-05-04 12:55:13	219
+ruby-xen	235	OS Independent	2010-05-04 12:55:13	219
+ruby-xen	201	Linux	2010-05-04 12:55:13	219
+ruby-xosd	200	POSIX	2010-05-04 12:55:13	219
+ruby-zoom	235	OS Independent	2010-05-04 12:55:13	219
+ruby2c	235	OS Independent	2010-05-04 12:55:13	219
+ruby2cext	235	OS Independent	2010-05-04 12:55:13	219
+ruby2jar	235	OS Independent	2010-05-04 12:55:13	219
+ruby9i	235	OS Independent	2010-05-04 12:55:13	219
+rubyamf	235	OS Independent	2010-05-04 12:55:13	219
+rubybb	235	OS Independent	2010-05-04 12:55:13	219
+rubybbcom	203	FreeBSD	2010-05-04 12:55:13	219
+rubyblackjack	235	OS Independent	2010-05-04 12:55:13	219
+rubybnc	235	OS Independent	2010-05-04 12:55:13	219
+rubybrl	201	Linux	2010-05-04 12:55:13	219
+rubyc	218	Windows 95/98/2000	2010-05-04 12:55:13	219
+rubyc	309	OS X	2010-05-04 12:55:13	219
+rubyc	200	POSIX	2010-05-04 12:55:13	219
+rubycampus	200	POSIX	2010-05-04 12:55:13	219
+rubycampus	235	OS Independent	2010-05-04 12:55:13	219
+rubycas-client	235	OS Independent	2010-05-04 12:55:13	219
+rubycas-server	235	OS Independent	2010-05-04 12:55:13	219
+rubycas-server	200	POSIX	2010-05-04 12:55:13	219
+rubychart	235	OS Independent	2010-05-04 12:55:13	219
+rubychess	235	OS Independent	2010-05-04 12:55:13	219
+rubycipher	235	OS Independent	2010-05-04 12:55:13	219
+rubycms	235	OS Independent	2010-05-04 12:55:13	219
+rubycreatures	235	OS Independent	2010-05-04 12:55:13	219
+rubycron	216	Windows	2010-05-04 12:55:13	219
+rubycron	201	Linux	2010-05-04 12:55:13	219
+rubycube	219	Windows NT/2000	2010-05-04 12:55:13	219
+rubydevelop	235	OS Independent	2010-05-04 12:55:13	219
+rubydevelop	201	Linux	2010-05-04 12:55:13	219
+rubydotnet	219	Windows NT/2000	2010-05-04 12:55:14	219
+rubydrill	235	OS Independent	2010-05-04 12:55:14	219
+rubydvd	201	Linux	2010-05-04 12:55:14	219
+rubyfast	240	GNU Hurd	2010-05-04 12:55:14	219
+rubyforapache	216	Windows	2010-05-04 12:55:14	219
+rubyforger	201	Linux	2010-05-04 12:55:14	219
+rubyfxgen	214	Microsoft	2010-05-04 12:55:14	219
+rubyfxgen	201	Linux	2010-05-04 12:55:14	219
+rubygame	200	POSIX	2010-05-04 12:55:14	219
+rubygame	309	OS X	2010-05-04 12:55:14	219
+rubygame	216	Windows	2010-05-04 12:55:14	219
+rubygems	235	OS Independent	2010-05-04 12:55:14	219
+rubygl	235	OS Independent	2010-05-04 12:55:14	219
+rubyglew	201	Linux	2010-05-04 12:55:14	219
+rubygntp	235	OS Independent	2010-05-04 12:55:14	219
+rubygo	235	OS Independent	2010-05-04 12:55:14	219
+rubygui	235	OS Independent	2010-05-04 12:55:14	219
+rubyhealthvault	235	OS Independent	2010-05-04 12:55:14	219
+rubyhwinfo	201	Linux	2010-05-04 12:55:14	219
+rubyibm	216	Windows	2010-05-04 12:55:14	219
+rubyibm	210	AIX	2010-05-04 12:55:14	219
+rubyibm	201	Linux	2010-05-04 12:55:14	219
+rubyinlabs	235	OS Independent	2010-05-04 12:55:14	219
+rubyinline	235	OS Independent	2010-05-04 12:55:14	219
+rubyinlineaccel	235	OS Independent	2010-05-04 12:55:14	219
+rubyinstaller	218	Windows 95/98/2000	2010-05-04 12:55:14	219
+rubyinstaller	219	Windows NT/2000	2010-05-04 12:55:14	219
+rubyircd	235	OS Independent	2010-05-04 12:55:14	219
+rubyjdwp	235	OS Independent	2010-05-04 12:55:14	219
+rubylab	216	Windows	2010-05-04 12:55:14	219
+rubylab	201	Linux	2010-05-04 12:55:14	219
+rubylets	235	OS Independent	2010-05-04 12:55:14	219
+rubylit	235	OS Independent	2010-05-04 12:55:14	219
+rubylogparser	218	Windows 95/98/2000	2010-05-04 12:55:15	219
+rubylogparser	219	Windows NT/2000	2010-05-04 12:55:15	219
+rubyluabridge	221	MacOS	2010-05-04 12:55:15	219
+rubyluabridge	216	Windows	2010-05-04 12:55:15	219
+rubyluabridge	201	Linux	2010-05-04 12:55:15	219
+rubymacs	200	POSIX	2010-05-04 12:55:15	219
+rubymail	200	POSIX	2010-05-04 12:55:15	219
+rubymail	216	Windows	2010-05-04 12:55:15	219
+rubyman	235	OS Independent	2010-05-04 12:55:15	219
+rubyminer	309	OS X	2010-05-04 12:55:15	219
+rubymon	201	Linux	2010-05-04 12:55:15	219
+rubymq	235	OS Independent	2010-05-04 12:55:15	219
+rubymurray	235	OS Independent	2010-05-04 12:55:15	219
+rubymut	235	OS Independent	2010-05-04 12:55:15	219
+rubynet	219	Windows NT/2000	2010-05-04 12:55:15	219
+rubynmap	235	OS Independent	2010-05-04 12:55:15	219
+rubynode	235	OS Independent	2010-05-04 12:55:15	219
+rubyntlm	235	OS Independent	2010-05-04 12:55:15	219
+rubynuts	235	OS Independent	2010-05-04 12:55:15	219
+rubyobjc	309	OS X	2010-05-04 12:55:15	219
+rubyodf	200	POSIX	2010-05-04 12:55:15	219
+rubyodf	235	OS Independent	2010-05-04 12:55:15	219
+rubyodf	214	Microsoft	2010-05-04 12:55:15	219
+rubyomf2097	214	Microsoft	2010-05-04 12:55:15	219
+rubyomf2097	200	POSIX	2010-05-04 12:55:15	219
+rubyonblogs	235	OS Independent	2010-05-04 12:55:15	219
+rubyonbrforum	235	OS Independent	2010-05-04 12:55:15	219
+rubyonmexico	235	OS Independent	2010-05-04 12:55:15	219
+rubyopensolaris	207	SunOS/Solaris	2010-05-04 12:55:15	219
+rubyosa	309	OS X	2010-05-04 12:55:15	219
+rubyosx	221	MacOS	2010-05-04 12:55:15	219
+rubyplayer	200	POSIX	2010-05-04 12:55:15	219
+rubyplugs	235	OS Independent	2010-05-04 12:55:15	219
+rubypodder	201	Linux	2010-05-04 12:55:15	219
+rubypoker	235	OS Independent	2010-05-04 12:55:15	219
+rubyport-dtrace	309	OS X	2010-05-04 12:55:15	219
+rubypost	235	OS Independent	2010-05-04 12:55:15	219
+rubypython	214	Microsoft	2010-05-04 12:55:15	219
+rubypython	309	OS X	2010-05-04 12:55:15	219
+rubypython	200	POSIX	2010-05-04 12:55:15	219
+rubyquartz	309	OS X	2010-05-04 12:55:15	219
+rubyquerytool	235	OS Independent	2010-05-04 12:55:15	219
+rubyrep	214	Microsoft	2010-05-04 12:55:16	219
+rubyrep	200	POSIX	2010-05-04 12:55:16	219
+rubyrest	235	OS Independent	2010-05-04 12:55:16	219
+rubyri	235	OS Independent	2010-05-04 12:55:16	219
+rubyrobot	235	OS Independent	2010-05-04 12:55:16	219
+rubyroom	235	OS Independent	2010-05-04 12:55:16	219
+rubyroom	201	Linux	2010-05-04 12:55:16	219
+rubyrpc	235	OS Independent	2010-05-04 12:55:16	219
+rubyrrdtool	200	POSIX	2010-05-04 12:55:16	219
+rubyrss	235	OS Independent	2010-05-04 12:55:16	219
+rubyrunce	221	MacOS	2010-05-04 12:55:16	219
+rubyrunce	216	Windows	2010-05-04 12:55:16	219
+rubyrunce	201	Linux	2010-05-04 12:55:16	219
+rubyscript2exe	216	Windows	2010-05-04 12:55:16	219
+rubyscript2exe	200	POSIX	2010-05-04 12:55:16	219
+rubysettlers	235	OS Independent	2010-05-04 12:55:16	219
+rubysh	235	OS Independent	2010-05-04 12:55:16	219
+rubyshambo	235	OS Independent	2010-05-04 12:55:16	219
+rubyshop	235	OS Independent	2010-05-04 12:55:16	219
+rubysip	235	OS Independent	2010-05-04 12:55:16	219
+rubyslim	235	OS Independent	2010-05-04 12:55:16	219
+rubyspaces	235	OS Independent	2010-05-04 12:55:16	219
+rubystack	216	Windows	2010-05-04 12:55:16	219
+rubystats	235	OS Independent	2010-05-04 12:55:16	219
+rubysteer	201	Linux	2010-05-04 12:55:16	219
+rubysteer	235	OS Independent	2010-05-04 12:55:16	219
+rubysteps	235	OS Independent	2010-05-04 12:55:16	219
+rubystylejs	235	OS Independent	2010-05-04 12:55:16	219
+rubysunrpc	235	OS Independent	2010-05-04 12:55:16	219
+rubysvg	235	OS Independent	2010-05-04 12:55:16	219
+rubyswitch	235	OS Independent	2010-05-04 12:55:16	219
+rubysync	235	OS Independent	2010-05-04 12:55:16	219
+rubytalism	235	OS Independent	2010-05-04 12:55:16	219
+rubytcc	235	OS Independent	2010-05-04 12:55:16	219
+rubytests	235	OS Independent	2010-05-04 12:55:16	219
+rubytet	235	OS Independent	2010-05-04 12:55:16	219
+rubytrailers	235	OS Independent	2010-05-04 12:55:16	219
+rubytree	235	OS Independent	2010-05-04 12:55:16	219
+rubytreemap	235	OS Independent	2010-05-04 12:55:16	219
+rubytter	235	OS Independent	2010-05-04 12:55:17	219
+rubyunix	235	OS Independent	2010-05-04 12:55:17	219
+rubyverse	201	Linux	2010-05-04 12:55:17	219
+rubyvm	235	OS Independent	2010-05-04 12:55:17	219
+rubyvmware	219	Windows NT/2000	2010-05-04 12:55:17	219
+rubyvmware	201	Linux	2010-05-04 12:55:17	219
+rubyvor	235	OS Independent	2010-05-04 12:55:17	219
+rubyweather	235	OS Independent	2010-05-04 12:55:17	219
+rubywebdialogs	235	OS Independent	2010-05-04 12:55:17	219
+rubywiki	235	OS Independent	2010-05-04 12:55:17	219
+rubywmq	216	Windows	2010-05-04 12:55:17	219
+rubywmq	235	OS Independent	2010-05-04 12:55:17	219
+rubywmq	201	Linux	2010-05-04 12:55:17	219
+rubyxt	235	OS Independent	2010-05-04 12:55:17	219
+rubyyabt	201	Linux	2010-05-04 12:55:17	219
+rubyzon	235	OS Independent	2010-05-04 12:55:17	219
+rucas	235	OS Independent	2010-05-04 12:55:17	219
+rucodegen	235	OS Independent	2010-05-04 12:55:17	219
+rudebug	216	Windows	2010-05-04 12:55:17	219
+rudebug	235	OS Independent	2010-05-04 12:55:17	219
+rudebug	200	POSIX	2010-05-04 12:55:17	219
+rudoto	201	Linux	2010-05-04 12:55:17	219
+rudups	309	OS X	2010-05-04 12:55:17	219
+rufit	235	OS Independent	2010-05-04 12:55:17	219
+rufopode	309	OS X	2010-05-04 12:55:17	219
+ruga	201	Linux	2010-05-04 12:55:17	219
+rugalytics	235	OS Independent	2010-05-04 12:55:17	219
+rugomatic	235	OS Independent	2010-05-04 12:55:17	219
+rugtd	235	OS Independent	2010-05-04 12:55:17	219
+rugui	201	Linux	2010-05-04 12:55:17	219
+rugui	309	OS X	2010-05-04 12:55:17	219
+rugui	216	Windows	2010-05-04 12:55:17	219
+ruleby	235	OS Independent	2010-05-04 12:55:17	219
+ruma	201	Linux	2010-05-04 12:55:17	219
+rumai	235	OS Independent	2010-05-04 12:55:17	219
+rumbster	235	OS Independent	2010-05-04 12:55:17	219
+rumda	235	OS Independent	2010-05-04 12:55:17	219
+ruminate	235	OS Independent	2010-05-04 12:55:17	219
+rumpus	235	OS Independent	2010-05-04 12:55:18	219
+runison	235	OS Independent	2010-05-04 12:55:18	219
+runt	235	OS Independent	2010-05-04 12:55:18	219
+runtex	219	Windows NT/2000	2010-05-04 12:55:18	219
+runtex	235	OS Independent	2010-05-04 12:55:18	219
+runtimeprofile	235	OS Independent	2010-05-04 12:55:18	219
+rup	200	POSIX	2010-05-04 12:55:18	219
+rupac	201	Linux	2010-05-04 12:55:18	219
+rupl	236	Other OS	2010-05-04 12:55:18	219
+ruport	235	OS Independent	2010-05-04 12:55:18	219
+ruprecht	309	OS X	2010-05-04 12:55:18	219
+ruprecht	201	Linux	2010-05-04 12:55:18	219
+rupy	200	POSIX	2010-05-04 12:55:18	219
+rural	200	POSIX	2010-05-04 12:55:18	219
+rural	309	OS X	2010-05-04 12:55:18	219
+rural	216	Windows	2010-05-04 12:55:18	219
+rush	200	POSIX	2010-05-04 12:55:18	219
+russian	235	OS Independent	2010-05-04 12:55:18	219
+russter	235	OS Independent	2010-05-04 12:55:18	219
+rust	235	OS Independent	2010-05-04 12:55:18	219
+rutaci	235	OS Independent	2010-05-04 12:55:18	219
+rutils	235	OS Independent	2010-05-04 12:55:18	219
+ruva	235	OS Independent	2010-05-04 12:55:18	219
+ruvi	216	Windows	2010-05-04 12:55:18	219
+ruvi	200	POSIX	2010-05-04 12:55:18	219
+ruvim	235	OS Independent	2010-05-04 12:55:18	219
+ruwese	200	POSIX	2010-05-04 12:55:18	219
+ruwiki	200	POSIX	2010-05-04 12:55:18	219
+ruwiki	235	OS Independent	2010-05-04 12:55:18	219
+ruwiki	216	Windows	2010-05-04 12:55:18	219
+rwb	235	OS Independent	2010-05-04 12:55:18	219
+rwdapplications	216	Windows	2010-05-04 12:55:18	219
+rwdapplications	235	OS Independent	2010-05-04 12:55:18	219
+rwdapplications	201	Linux	2010-05-04 12:55:18	219
+rweb	201	Linux	2010-05-04 12:55:18	219
+rweb	236	Other OS	2010-05-04 12:55:18	219
+rweb	216	Windows	2010-05-04 12:55:18	219
+rwebunit	216	Windows	2010-05-04 12:55:18	219
+rwidgets	200	POSIX	2010-05-04 12:55:18	219
+rwikibot	235	OS Independent	2010-05-04 12:55:18	219
+rwsman	201	Linux	2010-05-04 12:55:19	219
+rxlib	200	POSIX	2010-05-04 12:55:19	219
+rxul	235	OS Independent	2010-05-04 12:55:19	219
+ryms	235	OS Independent	2010-05-04 12:55:19	219
+ryzer	235	OS Independent	2010-05-04 12:55:19	219
+s33r	235	OS Independent	2010-05-04 12:55:19	219
+s5presents	235	OS Independent	2010-05-04 12:55:19	219
+s7-seven	235	OS Independent	2010-05-04 12:55:19	219
+s7r47e50	201	Linux	2010-05-04 12:55:19	219
+sac	200	POSIX	2010-05-04 12:55:19	219
+sac	309	OS X	2010-05-04 12:55:19	219
+sac	235	OS Independent	2010-05-04 12:55:19	219
+safe	235	OS Independent	2010-05-04 12:55:19	219
+sahara	235	OS Independent	2010-05-04 12:55:19	219
+saikuro	235	OS Independent	2010-05-04 12:55:19	219
+sair-daemon	201	Linux	2010-05-04 12:55:19	219
+salgo	235	OS Independent	2010-05-04 12:55:19	219
+sambala	212	Other	2010-05-04 12:55:19	219
+sambala	201	Linux	2010-05-04 12:55:19	219
+sambala	309	OS X	2010-05-04 12:55:19	219
+sapo-rb	235	OS Independent	2010-05-04 12:55:19	219
+saronpasu	221	MacOS	2010-05-04 12:55:19	219
+saronpasu	219	Windows NT/2000	2010-05-04 12:55:19	219
+saronpasu	201	Linux	2010-05-04 12:55:19	219
+sashimi	235	OS Independent	2010-05-04 12:55:19	219
+scaffoldform	235	OS Independent	2010-05-04 12:55:19	219
+scaffolding-ext	235	OS Independent	2010-05-04 12:55:19	219
+scarlet	235	OS Independent	2010-05-04 12:55:19	219
+scgi	200	POSIX	2010-05-04 12:55:19	219
+schematron	235	OS Independent	2010-05-04 12:55:19	219
+schoultzvideo	201	Linux	2010-05-04 12:55:20	219
+scio	235	OS Independent	2010-05-04 12:55:20	219
+sciyag	235	OS Independent	2010-05-04 12:55:20	219
+sclust	235	OS Independent	2010-05-04 12:55:20	219
+scmrss	235	OS Independent	2010-05-04 12:55:20	219
+sconvert	216	Windows	2010-05-04 12:55:20	219
+sconvert	309	OS X	2010-05-04 12:55:20	219
+sconvert	201	Linux	2010-05-04 12:55:20	219
+scooter	235	OS Independent	2010-05-04 12:55:20	219
+scrabblit	235	OS Independent	2010-05-04 12:55:20	219
+screensvr	219	Windows NT/2000	2010-05-04 12:55:20	219
+screensvr	218	Windows 95/98/2000	2010-05-04 12:55:20	219
+scrubyt	235	OS Independent	2010-05-04 12:55:20	219
+scrumr	235	OS Independent	2010-05-04 12:55:20	219
+sds	201	Linux	2010-05-04 12:55:20	219
+searchable	235	OS Independent	2010-05-04 12:55:20	219
+searchable-rec	235	OS Independent	2010-05-04 12:55:20	219
+searchapi	235	OS Independent	2010-05-04 12:55:20	219
+seguro	201	Linux	2010-05-04 12:55:20	219
+selector	235	OS Independent	2010-05-04 12:55:20	219
+selms	200	POSIX	2010-05-04 12:55:20	219
+seltest	201	Linux	2010-05-04 12:55:20	219
+semacode	235	OS Independent	2010-05-04 12:55:20	219
+semilla	235	OS Independent	2010-05-04 12:55:20	219
+sentence	235	OS Independent	2010-05-04 12:55:20	219
+serdisplib-ruby	201	Linux	2010-05-04 12:55:21	219
+serdisplib-ruby	202	BSD	2010-05-04 12:55:21	219
+seriesviewer	235	OS Independent	2010-05-04 12:55:21	219
+serverbuddy	201	Linux	2010-05-04 12:55:21	219
+serverside	309	OS X	2010-05-04 12:55:21	219
+serverside	202	BSD	2010-05-04 12:55:21	219
+serverside	201	Linux	2010-05-04 12:55:21	219
+servicemerchant	235	OS Independent	2010-05-04 12:55:21	219
+sexp	235	OS Independent	2010-05-04 12:55:21	219
+sfii90	216	Windows	2010-05-04 12:55:21	219
+sftp-compat	235	OS Independent	2010-05-04 12:55:21	219
+sfzer	235	OS Independent	2010-05-04 12:55:21	219
+sgl	219	Windows NT/2000	2010-05-04 12:55:21	219
+sgl	309	OS X	2010-05-04 12:55:21	219
+shadowjack	235	OS Independent	2010-05-04 12:55:21	219
+shattered	201	Linux	2010-05-04 12:55:21	219
+shattered	216	Windows	2010-05-04 12:55:21	219
+shattered	221	MacOS	2010-05-04 12:55:21	219
+shell-tools	235	OS Independent	2010-05-04 12:55:21	219
+shellable	235	OS Independent	2010-05-04 12:55:21	219
+shiningred	235	OS Independent	2010-05-04 12:55:21	219
+shinmun	235	OS Independent	2010-05-04 12:55:21	219
+shire	235	OS Independent	2010-05-04 12:55:21	219
+shooting-star	201	Linux	2010-05-04 12:55:21	219
+shooting-star	202	BSD	2010-05-04 12:55:21	219
+shoppinglist	235	OS Independent	2010-05-04 12:55:21	219
+shortepic-pmo	221	MacOS	2010-05-04 12:55:21	219
+shortepic-pmo	200	POSIX	2010-05-04 12:55:21	219
+shroom	201	Linux	2010-05-04 12:55:21	219
+shunt	235	OS Independent	2010-05-04 12:55:21	219
+shunya	235	OS Independent	2010-05-04 12:55:21	219
+sicl	201	Linux	2010-05-04 12:55:22	219
+sicl	209	HP-UX	2010-05-04 12:55:22	219
+sicl	219	Windows NT/2000	2010-05-04 12:55:22	219
+sierra	219	Windows NT/2000	2010-05-04 12:55:22	219
+siffer	235	OS Independent	2010-05-04 12:55:22	219
+sifrhelper	235	OS Independent	2010-05-04 12:55:22	219
+signupto	235	OS Independent	2010-05-04 12:55:22	219
+sim	235	OS Independent	2010-05-04 12:55:22	219
+simple-json	235	OS Independent	2010-05-04 12:55:22	219
+simplecms	235	OS Independent	2010-05-04 12:55:22	219
+simpleconsole	235	OS Independent	2010-05-04 12:55:22	219
+simplemail	200	POSIX	2010-05-04 12:55:22	219
+simplepass	200	POSIX	2010-05-04 12:55:22	219
+simplepay	235	OS Independent	2010-05-04 12:55:22	219
+simplesidebar	235	OS Independent	2010-05-04 12:55:22	219
+simplesubtitler	201	Linux	2010-05-04 12:55:22	219
+simplesubtitler	236	Other OS	2010-05-04 12:55:22	219
+simplesubtitler	309	OS X	2010-05-04 12:55:22	219
+simplexmlparser	216	Windows	2010-05-04 12:55:22	219
+simplexmlparser	201	Linux	2010-05-04 12:55:22	219
+simplierstats	235	OS Independent	2010-05-04 12:55:22	219
+simplypowerful	235	OS Independent	2010-05-04 12:55:22	219
+simruby	235	OS Independent	2010-05-04 12:55:22	219
+simuproxy	201	Linux	2010-05-04 12:55:22	219
+simuproxy	216	Windows	2010-05-04 12:55:22	219
+sinai	235	OS Independent	2010-05-04 12:55:22	219
+sinatra-mapping	214	Microsoft	2010-05-04 12:55:22	219
+sinatra-mapping	200	POSIX	2010-05-04 12:55:22	219
+sipper	214	Microsoft	2010-05-04 12:55:22	219
+sipper	201	Linux	2010-05-04 12:55:22	219
+sipper	207	SunOS/Solaris	2010-05-04 12:55:22	219
+site-explorer	235	OS Independent	2010-05-04 12:55:23	219
+site-map	235	OS Independent	2010-05-04 12:55:23	219
+sitemap-rb	214	Microsoft	2010-05-04 12:55:23	219
+sitemap-rb	200	POSIX	2010-05-04 12:55:23	219
+skema	235	OS Independent	2010-05-04 12:55:23	219
+skiaxer	309	OS X	2010-05-04 12:55:23	219
+skiaxer	201	Linux	2010-05-04 12:55:23	219
+skinnyblog	235	OS Independent	2010-05-04 12:55:23	219
+skiplist	200	POSIX	2010-05-04 12:55:23	219
+skynet	235	OS Independent	2010-05-04 12:55:23	219
+skyper	201	Linux	2010-05-04 12:55:23	219
+skyperapper	221	MacOS	2010-05-04 12:55:23	219
+skyperapper	216	Windows	2010-05-04 12:55:23	219
+sl8	235	OS Independent	2010-05-04 12:55:23	219
+sleipnir-api	219	Windows NT/2000	2010-05-04 12:55:23	219
+slumber	235	OS Independent	2010-05-04 12:55:23	219
+smagacor	200	POSIX	2010-05-04 12:55:23	219
+smarbs	201	Linux	2010-05-04 12:55:23	219
+smartcard	216	Windows	2010-05-04 12:55:23	219
+smartcard	309	OS X	2010-05-04 12:55:23	219
+smartcard	201	Linux	2010-05-04 12:55:23	219
+smartinput	235	OS Independent	2010-05-04 12:55:23	219
+smeagol	235	OS Independent	2010-05-04 12:55:23	219
+smeagol4rails	235	OS Independent	2010-05-04 12:55:23	219
+smerf	235	OS Independent	2010-05-04 12:55:23	219
+smmanagement	235	OS Independent	2010-05-04 12:55:23	219
+smoke	235	OS Independent	2010-05-04 12:55:23	219
+sms-http	221	MacOS	2010-05-04 12:55:23	219
+sms-http	200	POSIX	2010-05-04 12:55:23	219
+smsender	200	POSIX	2010-05-04 12:55:23	219
+smsender	216	Windows	2010-05-04 12:55:23	219
+smser	235	OS Independent	2010-05-04 12:55:23	219
+smuggler	235	OS Independent	2010-05-04 12:55:24	219
+smugmug4r	235	OS Independent	2010-05-04 12:55:24	219
+snailgun	201	Linux	2010-05-04 12:55:24	219
+snippits	201	Linux	2010-05-04 12:55:24	219
+snmplib	235	OS Independent	2010-05-04 12:55:24	219
+snmpscan	235	OS Independent	2010-05-04 12:55:24	219
+snoopy	235	OS Independent	2010-05-04 12:55:24	219
+snplotyper	235	OS Independent	2010-05-04 12:55:24	219
+sodasearch	235	OS Independent	2010-05-04 12:55:24	219
+sodukusweeper	216	Windows	2010-05-04 12:55:24	219
+soks	235	OS Independent	2010-05-04 12:55:24	219
+solarisutils	207	SunOS/Solaris	2010-05-04 12:55:24	219
+solunas	235	OS Independent	2010-05-04 12:55:24	219
+solver	235	OS Independent	2010-05-04 12:55:24	219
+sortable-list	235	OS Independent	2010-05-04 12:55:24	219
+soundmanager2	309	OS X	2010-05-04 12:55:24	219
+soundmanager2	201	Linux	2010-05-04 12:55:24	219
+soup	235	OS Independent	2010-05-04 12:55:24	219
+sourcecode2html	216	Windows	2010-05-04 12:55:24	219
+sourcecode2html	201	Linux	2010-05-04 12:55:24	219
+sourcecontrol	235	OS Independent	2010-05-04 12:55:24	219
+spaceshooter	221	MacOS	2010-05-04 12:55:24	219
+spaceshooter	218	Windows 95/98/2000	2010-05-04 12:55:24	219
+spaceshooter	201	Linux	2010-05-04 12:55:24	219
+sparql	235	OS Independent	2010-05-04 12:55:24	219
+sparrow	235	OS Independent	2010-05-04 12:55:24	219
+spec-converter	235	OS Independent	2010-05-04 12:55:24	219
+spec-unit	200	POSIX	2010-05-04 12:55:25	219
+spec-unit	309	OS X	2010-05-04 12:55:25	219
+spec-unit	216	Windows	2010-05-04 12:55:25	219
+specrun	235	OS Independent	2010-05-04 12:55:25	219
+spectacles	235	OS Independent	2010-05-04 12:55:25	219
+spectate	309	OS X	2010-05-04 12:55:25	219
+spectate	200	POSIX	2010-05-04 12:55:25	219
+spectre	235	OS Independent	2010-05-04 12:55:25	219
+speed-reader	201	Linux	2010-05-04 12:55:25	219
+speed-reader	309	OS X	2010-05-04 12:55:25	219
+speed-reader	216	Windows	2010-05-04 12:55:25	219
+speedreader	235	OS Independent	2010-05-04 12:55:25	219
+speedymaths	235	OS Independent	2010-05-04 12:55:25	219
+sphinx	235	OS Independent	2010-05-04 12:55:25	219
+spider	235	OS Independent	2010-05-04 12:55:25	219
+spirit	235	OS Independent	2010-05-04 12:55:25	219
+spockets	235	OS Independent	2010-05-04 12:55:25	219
+spreadsheet	235	OS Independent	2010-05-04 12:55:25	219
+spree	235	OS Independent	2010-05-04 12:55:25	219
+sprolog	201	Linux	2010-05-04 12:55:25	219
+sprout	221	MacOS	2010-05-04 12:55:25	219
+sprout	216	Windows	2010-05-04 12:55:25	219
+sprout	201	Linux	2010-05-04 12:55:25	219
+sproutcore	200	POSIX	2010-05-04 12:55:25	219
+sproutcore	309	OS X	2010-05-04 12:55:25	219
+sproutcore	235	OS Independent	2010-05-04 12:55:25	219
+sqid	235	OS Independent	2010-05-04 12:55:25	219
+sql-serialize	235	OS Independent	2010-05-04 12:55:25	219
+sql2xls	235	OS Independent	2010-05-04 12:55:25	219
+sqlanywhere	200	POSIX	2010-05-04 12:55:25	219
+sqlanywhere	214	Microsoft	2010-05-04 12:55:25	219
+sqld4r	309	OS X	2010-05-04 12:55:25	219
+sqld4r	202	BSD	2010-05-04 12:55:25	219
+sqld4r	201	Linux	2010-05-04 12:55:25	219
+sqliki	235	OS Independent	2010-05-04 12:55:25	219
+sqlite-ironruby	216	Windows	2010-05-04 12:55:25	219
+sqlite-ruby	235	OS Independent	2010-05-04 12:55:25	219
+sqlstatement	235	OS Independent	2010-05-04 12:55:25	219
+sqlyzer	235	OS Independent	2010-05-04 12:55:25	219
+sqrbl	235	OS Independent	2010-05-04 12:55:25	219
+squib	235	OS Independent	2010-05-04 12:55:25	219
+sqwee	201	Linux	2010-05-04 12:55:25	219
+sribi	235	OS Independent	2010-05-04 12:55:26	219
+srt-resync	201	Linux	2010-05-04 12:55:26	219
+ssbz	200	POSIX	2010-05-04 12:55:26	219
+ssbz	309	OS X	2010-05-04 12:55:26	219
+ssbz	235	OS Independent	2010-05-04 12:55:26	219
+ssh-grid	235	OS Independent	2010-05-04 12:55:26	219
+ssh-grid	201	Linux	2010-05-04 12:55:26	219
+sshotgun	200	POSIX	2010-05-04 12:55:26	219
+sslplaypen	207	SunOS/Solaris	2010-05-04 12:55:26	219
+stachine	235	OS Independent	2010-05-04 12:55:26	219
+stapler	235	OS Independent	2010-05-04 12:55:26	219
+starruby	201	Linux	2010-05-04 12:55:26	219
+starruby	216	Windows	2010-05-04 12:55:26	219
+startat	235	OS Independent	2010-05-04 12:55:26	219
+statarray	200	POSIX	2010-05-04 12:55:26	219
+statgrab	235	OS Independent	2010-05-04 12:55:26	219
+staticmatic	235	OS Independent	2010-05-04 12:55:26	219
+staticweb	235	OS Independent	2010-05-04 12:55:26	219
+staticweb	201	Linux	2010-05-04 12:55:26	219
+statistically	235	OS Independent	2010-05-04 12:55:26	219
+stdlib-doc	235	OS Independent	2010-05-04 12:55:26	219
+steam-condenser	221	MacOS	2010-05-04 12:55:26	219
+steam-condenser	216	Windows	2010-05-04 12:55:26	219
+steam-condenser	201	Linux	2010-05-04 12:55:26	219
+stellr	309	OS X	2010-05-04 12:55:26	219
+stellr	201	Linux	2010-05-04 12:55:26	219
+stemmer	235	OS Independent	2010-05-04 12:55:26	219
+stencil-templ	201	Linux	2010-05-04 12:55:26	219
+stencil-templ	309	OS X	2010-05-04 12:55:26	219
+steppable	235	OS Independent	2010-05-04 12:55:26	219
+stil	235	OS Independent	2010-05-04 12:55:26	219
+stompmq	235	OS Independent	2010-05-04 12:55:26	219
+storycards	235	OS Independent	2010-05-04 12:55:27	219
+strawberails	235	OS Independent	2010-05-04 12:55:27	219
+strawberry	235	OS Independent	2010-05-04 12:55:27	219
+stringvalidator	235	OS Independent	2010-05-04 12:55:27	219
+stripattributes	235	OS Independent	2010-05-04 12:55:27	219
+submeister	200	POSIX	2010-05-04 12:55:27	219
+submodulesync	200	POSIX	2010-05-04 12:55:27	219
+subrails	214	Microsoft	2010-05-04 12:55:27	219
+subrails	309	OS X	2010-05-04 12:55:27	219
+subrails	201	Linux	2010-05-04 12:55:27	219
+subset-sum	235	OS Independent	2010-05-04 12:55:27	219
+substitutesolve	221	MacOS	2010-05-04 12:55:27	219
+substitutesolve	214	Microsoft	2010-05-04 12:55:27	219
+substitutesolve	200	POSIX	2010-05-04 12:55:27	219
+subtle	200	POSIX	2010-05-04 12:55:27	219
+subwrap	216	Windows	2010-05-04 12:55:27	219
+subwrap	200	POSIX	2010-05-04 12:55:27	219
+suck20	235	OS Independent	2010-05-04 12:55:27	219
+sudoku	200	POSIX	2010-05-04 12:55:27	219
+sudoku-gtk	235	OS Independent	2010-05-04 12:55:27	219
+sudoku-x	235	OS Independent	2010-05-04 12:55:27	219
+sugoi-mail	235	OS Independent	2010-05-04 12:55:27	219
+sunaku	235	OS Independent	2010-05-04 12:55:27	219
+sup	200	POSIX	2010-05-04 12:55:27	219
+superforms	235	OS Independent	2010-05-04 12:55:27	219
+support	235	OS Independent	2010-05-04 12:55:27	219
+suprails	235	OS Independent	2010-05-04 12:55:27	219
+surething	201	Linux	2010-05-04 12:55:27	219
+survey-toolkit	235	OS Independent	2010-05-04 12:55:28	219
+surveyor	235	OS Independent	2010-05-04 12:55:28	219
+svn-command	235	OS Independent	2010-05-04 12:55:28	219
+svn-hooks	200	POSIX	2010-05-04 12:55:28	219
+svnauto	200	POSIX	2010-05-04 12:55:28	219
+svnbranch	200	POSIX	2010-05-04 12:55:28	219
+swallow	200	POSIX	2010-05-04 12:55:28	219
+swe-tv	235	OS Independent	2010-05-04 12:55:28	219
+sweetgui	235	OS Independent	2010-05-04 12:55:28	219
+sweph4ruby	235	OS Independent	2010-05-04 12:55:28	219
+swint	200	POSIX	2010-05-04 12:55:28	219
+swint	309	OS X	2010-05-04 12:55:28	219
+swint	214	Microsoft	2010-05-04 12:55:28	219
+sws	201	Linux	2010-05-04 12:55:28	219
+sxp	235	OS Independent	2010-05-04 12:55:28	219
+syck	235	OS Independent	2010-05-04 12:55:28	219
+symbian	236	Other OS	2010-05-04 12:55:28	219
+symphony	201	Linux	2010-05-04 12:55:28	219
+syndication	235	OS Independent	2010-05-04 12:55:28	219
+syntax	235	OS Independent	2010-05-04 12:55:28	219
+syntaxi	235	OS Independent	2010-05-04 12:55:28	219
+synthgunt	216	Windows	2010-05-04 12:55:28	219
+synthgunt	201	Linux	2010-05-04 12:55:28	219
+systemtimer	221	MacOS	2010-05-04 12:55:28	219
+systemtimer	201	Linux	2010-05-04 12:55:28	219
+systir	235	OS Independent	2010-05-04 12:55:28	219
+sysutils	219	Windows NT/2000	2010-05-04 12:55:28	219
+sysutils	200	POSIX	2010-05-04 12:55:28	219
+sysvipc	200	POSIX	2010-05-04 12:55:28	219
+tabtab	200	POSIX	2010-05-04 12:55:28	219
+tacacs-plus	235	OS Independent	2010-05-04 12:55:28	219
+tadpole	235	OS Independent	2010-05-04 12:55:29	219
+tadpoles	201	Linux	2010-05-04 12:55:29	219
+tag-system	216	Windows	2010-05-04 12:55:29	219
+tagflow	201	Linux	2010-05-04 12:55:29	219
+taggable	235	OS Independent	2010-05-04 12:55:29	219
+tagloko	309	OS X	2010-05-04 12:55:29	219
+tagsurf	235	OS Independent	2010-05-04 12:55:29	219
+tagtools	235	OS Independent	2010-05-04 12:55:29	219
+tagtreescanner	235	OS Independent	2010-05-04 12:55:29	219
+taintedsignal	201	Linux	2010-05-04 12:55:29	219
+taintedsignal	309	OS X	2010-05-04 12:55:29	219
+taintedsignal	218	Windows 95/98/2000	2010-05-04 12:55:29	219
+takuma104	235	OS Independent	2010-05-04 12:55:29	219
+tanzanite	235	OS Independent	2010-05-04 12:55:29	219
+tar2rubyscript	235	OS Independent	2010-05-04 12:55:29	219
+tarpipe	235	OS Independent	2010-05-04 12:55:29	219
+tartan	235	OS Independent	2010-05-04 12:55:29	219
+taskjuggler	200	POSIX	2010-05-04 12:55:29	219
+taskjuggler	216	Windows	2010-05-04 12:55:29	219
+taskjuggler	221	MacOS	2010-05-04 12:55:29	219
+taskr	235	OS Independent	2010-05-04 12:55:29	219
+tattletale	200	POSIX	2010-05-04 12:55:29	219
+tdbatmon	201	Linux	2010-05-04 12:55:29	219
+tealeaf	235	OS Independent	2010-05-04 12:55:29	219
+technorati	235	OS Independent	2010-05-04 12:55:29	219
+teius	235	OS Independent	2010-05-04 12:55:29	219
+teius	216	Windows	2010-05-04 12:55:29	219
+teleauth	235	OS Independent	2010-05-04 12:55:29	219
+telemeter	235	OS Independent	2010-05-04 12:55:29	219
+telemeter	309	OS X	2010-05-04 12:55:29	219
+telemeter	207	SunOS/Solaris	2010-05-04 12:55:29	219
+tellme	201	Linux	2010-05-04 12:55:29	219
+tem	235	OS Independent	2010-05-04 12:55:29	219
+tem	236	Other OS	2010-05-04 12:55:29	219
+tempest	235	OS Independent	2010-05-04 12:55:29	219
+templater	235	OS Independent	2010-05-04 12:55:29	219
+tengen	200	POSIX	2010-05-04 12:55:29	219
+tensor	219	Windows NT/2000	2010-05-04 12:55:29	219
+tensor	201	Linux	2010-05-04 12:55:29	219
+tentsteak	235	OS Independent	2010-05-04 12:55:29	219
+terminator	235	OS Independent	2010-05-04 12:55:30	219
+termios	200	POSIX	2010-05-04 12:55:30	219
+termtter	235	OS Independent	2010-05-04 12:55:30	219
+termvisual	200	POSIX	2010-05-04 12:55:30	219
+test-extensions	235	OS Independent	2010-05-04 12:55:30	219
+test-extensions	200	POSIX	2010-05-04 12:55:30	219
+test-httpweb	235	OS Independent	2010-05-04 12:55:30	219
+test-parser	235	OS Independent	2010-05-04 12:55:30	219
+test-spec	235	OS Independent	2010-05-04 12:55:30	219
+test-unit	235	OS Independent	2010-05-04 12:55:30	219
+testcamp	235	OS Independent	2010-05-04 12:55:30	219
+testlinkclient	221	MacOS	2010-05-04 12:55:30	219
+testlinkclient	216	Windows	2010-05-04 12:55:30	219
+testlinkclient	201	Linux	2010-05-04 12:55:30	219
+testnotifier	216	Windows	2010-05-04 12:55:30	219
+testnotifier	309	OS X	2010-05-04 12:55:30	219
+testnotifier	201	Linux	2010-05-04 12:55:30	219
+testunitxml	235	OS Independent	2010-05-04 12:55:30	219
+texier	235	OS Independent	2010-05-04 12:55:30	219
+text-format	235	OS Independent	2010-05-04 12:55:30	219
+text-highlight	235	OS Independent	2010-05-04 12:55:30	219
+textpow	235	OS Independent	2010-05-04 12:55:30	219
+textweaver	235	OS Independent	2010-05-04 12:55:30	219
+tftpplus	235	OS Independent	2010-05-04 12:55:30	219
+tgrcms	235	OS Independent	2010-05-04 12:55:30	219
+thehub	235	OS Independent	2010-05-04 12:55:30	219
+themcp	235	OS Independent	2010-05-04 12:55:30	219
+theme-generator	235	OS Independent	2010-05-04 12:55:30	219
+therush	200	POSIX	2010-05-04 12:55:30	219
+thetis	216	Windows	2010-05-04 12:55:31	219
+thetis	235	OS Independent	2010-05-04 12:55:31	219
+thetis	201	Linux	2010-05-04 12:55:31	219
+thinhttp	212	Other	2010-05-04 12:55:31	219
+thinhttp	202	BSD	2010-05-04 12:55:31	219
+thinky	235	OS Independent	2010-05-04 12:55:31	219
+third-base	235	OS Independent	2010-05-04 12:55:31	219
+thirtyboxes	235	OS Independent	2010-05-04 12:55:31	219
+thumbnailer	235	OS Independent	2010-05-04 12:55:31	219
+tibcorv	207	SunOS/Solaris	2010-05-04 12:55:31	219
+tibcorv	201	Linux	2010-05-04 12:55:31	219
+tibcorv	219	Windows NT/2000	2010-05-04 12:55:31	219
+tiddy	200	POSIX	2010-05-04 12:55:31	219
+tides	201	Linux	2010-05-04 12:55:31	219
+tigerevents	235	OS Independent	2010-05-04 12:55:31	219
+timcharper	235	OS Independent	2010-05-04 12:55:31	219
+timecert	235	OS Independent	2010-05-04 12:55:31	219
+timekeeper	200	POSIX	2010-05-04 12:55:31	219
+timelog4r	201	Linux	2010-05-04 12:55:31	219
+timelog4r	216	Windows	2010-05-04 12:55:31	219
+timelog4r	221	MacOS	2010-05-04 12:55:31	219
+timeofftracker	235	OS Independent	2010-05-04 12:55:31	219
+timeoutx	235	OS Independent	2010-05-04 12:55:31	219
+tioga	221	MacOS	2010-05-04 12:55:31	219
+tioga	201	Linux	2010-05-04 12:55:31	219
+tipbackup	201	Linux	2010-05-04 12:55:31	219
+tkar	235	OS Independent	2010-05-04 12:55:31	219
+tkregreplace	221	MacOS	2010-05-04 12:55:31	219
+tkregreplace	216	Windows	2010-05-04 12:55:31	219
+tkregreplace	200	POSIX	2010-05-04 12:55:31	219
+tkri	235	OS Independent	2010-05-04 12:55:31	219
+tktictactoe	235	OS Independent	2010-05-04 12:55:31	219
+tldlib	235	OS Independent	2010-05-04 12:55:31	219
+tmtool	216	Windows	2010-05-04 12:55:32	219
+tmtool	235	OS Independent	2010-05-04 12:55:32	219
+to-json-options	235	OS Independent	2010-05-04 12:55:32	219
+todoexe	219	Windows NT/2000	2010-05-04 12:55:32	219
+todoexe	201	Linux	2010-05-04 12:55:32	219
+toombila	201	Linux	2010-05-04 12:55:32	219
+toombila	216	Windows	2010-05-04 12:55:32	219
+toombila	221	MacOS	2010-05-04 12:55:32	219
+toozday	235	OS Independent	2010-05-04 12:55:32	219
+topaz	221	MacOS	2010-05-04 12:55:32	219
+topaz	200	POSIX	2010-05-04 12:55:32	219
+topsecret	235	OS Independent	2010-05-04 12:55:32	219
+topspot	235	OS Independent	2010-05-04 12:55:32	219
+tor	235	OS Independent	2010-05-04 12:55:32	219
+torgo	235	OS Independent	2010-05-04 12:55:32	219
+torrentparser	235	OS Independent	2010-05-04 12:55:32	219
+tournament	235	OS Independent	2010-05-04 12:55:32	219
+tourneybot	235	OS Independent	2010-05-04 12:55:32	219
+track-changes	235	OS Independent	2010-05-04 12:55:32	219
+tracker	235	OS Independent	2010-05-04 12:55:32	219
+trackrecord	235	OS Independent	2010-05-04 12:55:32	219
+tradingrobotdsl	235	OS Independent	2010-05-04 12:55:32	219
+traducteur	216	Windows	2010-05-04 12:55:32	219
+trails	235	OS Independent	2010-05-04 12:55:32	219
+traks	235	OS Independent	2010-05-04 12:55:32	219
+trans-simple	235	OS Independent	2010-05-04 12:55:32	219
+transact	235	OS Independent	2010-05-04 12:55:32	219
+translated	235	OS Independent	2010-05-04 12:55:32	219
+trapeze	235	OS Independent	2010-05-04 12:55:32	219
+trebuchet	235	OS Independent	2010-05-04 12:55:32	219
+treebank	235	OS Independent	2010-05-04 12:55:32	219
+treevisitor	235	OS Independent	2010-05-04 12:55:32	219
+trestle	235	OS Independent	2010-05-04 12:55:32	219
+tridtris	235	OS Independent	2010-05-04 12:55:33	219
+trimurti	235	OS Independent	2010-05-04 12:55:33	219
+trinity	235	OS Independent	2010-05-04 12:55:33	219
+trivobserver	235	OS Independent	2010-05-04 12:55:33	219
+trollop	235	OS Independent	2010-05-04 12:55:33	219
+trophy-scraper	216	Windows	2010-05-04 12:55:33	219
+trophy-scraper	309	OS X	2010-05-04 12:55:33	219
+trophy-scraper	200	POSIX	2010-05-04 12:55:33	219
+trutag	235	OS Independent	2010-05-04 12:55:33	219
+truveo	235	OS Independent	2010-05-04 12:55:33	219
+tsapi	216	Windows	2010-05-04 12:55:33	219
+tserver	201	Linux	2010-05-04 12:55:33	219
+tserver	216	Windows	2010-05-04 12:55:33	219
+tsm-command	200	POSIX	2010-05-04 12:55:33	219
+tsmadapter	216	Windows	2010-05-04 12:55:33	219
+tsmadapter	201	Linux	2010-05-04 12:55:33	219
+tspy	235	OS Independent	2010-05-04 12:55:33	219
+tsql-analyzer	219	Windows NT/2000	2010-05-04 12:55:33	219
+tssgrb	235	OS Independent	2010-05-04 12:55:33	219
+ttk	235	OS Independent	2010-05-04 12:55:33	219
+ttt2db	235	OS Independent	2010-05-04 12:55:33	219
+tuiter	235	OS Independent	2010-05-04 12:55:33	219
+tumbler	235	OS Independent	2010-05-04 12:55:33	219
+tunecoredirect	216	Windows	2010-05-04 12:55:33	219
+tunecoredirect	309	OS X	2010-05-04 12:55:33	219
+tunecoredirect	201	Linux	2010-05-04 12:55:33	219
+turing	200	POSIX	2010-05-04 12:55:33	219
+turkcerb	235	OS Independent	2010-05-04 12:55:33	219
+tv-dot-com	309	OS X	2010-05-04 12:55:33	219
+tv-dot-com	200	POSIX	2010-05-04 12:55:33	219
+tvanytime	235	OS Independent	2010-05-04 12:55:33	219
+twitter2jabber	200	POSIX	2010-05-04 12:55:33	219
+twitter2vk	235	OS Independent	2010-05-04 12:55:33	219
+twitter4r	235	OS Independent	2010-05-04 12:55:33	219
+twitterscrobble	235	OS Independent	2010-05-04 12:55:34	219
+twittery	235	OS Independent	2010-05-04 12:55:34	219
+twowaysql	235	OS Independent	2010-05-04 12:55:34	219
+tycho	201	Linux	2010-05-04 12:55:34	219
+typo	235	OS Independent	2010-05-04 12:55:34	219
+tzinfo	235	OS Independent	2010-05-04 12:55:34	219
+tztime	235	OS Independent	2010-05-04 12:55:34	219
+uaenv	235	OS Independent	2010-05-04 12:55:34	219
+ubc-monitor	201	Linux	2010-05-04 12:55:34	219
+uberhacker	235	OS Independent	2010-05-04 12:55:34	219
+uberhacker	216	Windows	2010-05-04 12:55:34	219
+uberhacker	215	MS-DOS	2010-05-04 12:55:34	219
+ufooar	219	Windows NT/2000	2010-05-04 12:55:34	219
+uformatparser	235	OS Independent	2010-05-04 12:55:34	219
+uipoet	235	OS Independent	2010-05-04 12:55:34	219
+ulla	201	Linux	2010-05-04 12:55:34	219
+ulla	202	BSD	2010-05-04 12:55:34	219
+ulla	221	MacOS	2010-05-04 12:55:34	219
+ulmul	200	POSIX	2010-05-04 12:55:34	219
+ultraviolet	235	OS Independent	2010-05-04 12:55:34	219
+uncertain	235	OS Independent	2010-05-04 12:55:34	219
+unicode-utils	235	OS Independent	2010-05-04 12:55:34	219
+unidecode	235	OS Independent	2010-05-04 12:55:34	219
+uniforma	235	OS Independent	2010-05-04 12:55:34	219
+unity	235	OS Independent	2010-05-04 12:55:34	219
+unroller	235	OS Independent	2010-05-04 12:55:34	219
+unroller	200	POSIX	2010-05-04 12:55:34	219
+unstiki	235	OS Independent	2010-05-04 12:55:34	219
+upcoming-api	216	Windows	2010-05-04 12:55:34	219
+upcoming-api	309	OS X	2010-05-04 12:55:34	219
+upcoming-api	201	Linux	2010-05-04 12:55:34	219
+upde	202	BSD	2010-05-04 12:55:34	219
+upde	219	Windows NT/2000	2010-05-04 12:55:34	219
+uploadcolumn	235	OS Independent	2010-05-04 12:55:34	219
+urinal	235	OS Independent	2010-05-04 12:55:34	219
+uritemplate	235	OS Independent	2010-05-04 12:55:35	219
+url-markr	235	OS Independent	2010-05-04 12:55:35	219
+uruby	235	OS Independent	2010-05-04 12:55:35	219
+use-config	235	OS Independent	2010-05-04 12:55:35	219
+userquery	235	OS Independent	2010-05-04 12:55:35	219
+usps-api	235	OS Independent	2010-05-04 12:55:35	219
+utf-test	235	OS Independent	2010-05-04 12:55:35	219
+uuid4r	200	POSIX	2010-05-04 12:55:35	219
+uuidtools	235	OS Independent	2010-05-04 12:55:35	219
+uvatools	235	OS Independent	2010-05-04 12:55:35	219
+uweb	235	OS Independent	2010-05-04 12:55:35	219
+uwkiwi	235	OS Independent	2010-05-04 12:55:35	219
+v4lradio	201	Linux	2010-05-04 12:55:35	219
+vacl	235	OS Independent	2010-05-04 12:55:35	219
+validaterequest	235	OS Independent	2010-05-04 12:55:35	219
+validator	235	OS Independent	2010-05-04 12:55:35	219
+valuable	235	OS Independent	2010-05-04 12:55:35	219
+vanatime	235	OS Independent	2010-05-04 12:55:35	219
+vapor	235	OS Independent	2010-05-04 12:55:35	219
+vault-web	235	OS Independent	2010-05-04 12:55:35	219
+veracity	235	OS Independent	2010-05-04 12:55:35	219
+verhoeff	235	OS Independent	2010-05-04 12:55:35	219
+vertigo	235	OS Independent	2010-05-04 12:55:35	219
+vgrails	216	Windows	2010-05-04 12:55:35	219
+vgrails	201	Linux	2010-05-04 12:55:35	219
+vi-cli	235	OS Independent	2010-05-04 12:55:35	219
+viddler	235	OS Independent	2010-05-04 12:55:35	219
+vikinggem	235	OS Independent	2010-05-04 12:55:36	219
+vim-ruby	235	OS Independent	2010-05-04 12:55:36	219
+vimget	309	OS X	2010-05-04 12:55:36	219
+vimget	200	POSIX	2010-05-04 12:55:36	219
+vimmate	200	POSIX	2010-05-04 12:55:36	219
+vinzclortho	235	OS Independent	2010-05-04 12:55:36	219
+virtuozzo	235	OS Independent	2010-05-04 12:55:36	219
+visage	235	OS Independent	2010-05-04 12:55:36	219
+visitor	235	OS Independent	2010-05-04 12:55:36	219
+visualizemodels	235	OS Independent	2010-05-04 12:55:36	219
+visualruby	218	Windows 95/98/2000	2010-05-04 12:55:36	219
+vlaah	235	OS Independent	2010-05-04 12:55:36	219
+vladenvironment	200	POSIX	2010-05-04 12:55:36	219
+vmonitor	200	POSIX	2010-05-04 12:55:36	219
+vmsruby	236	Other OS	2010-05-04 12:55:36	219
+vodcatcher	235	OS Independent	2010-05-04 12:55:36	219
+voodoo	200	POSIX	2010-05-04 12:55:36	219
+vorbiscomment	235	OS Independent	2010-05-04 12:55:36	219
+voruby	235	OS Independent	2010-05-04 12:55:36	219
+votigoto	235	OS Independent	2010-05-04 12:55:36	219
+votigoto	309	OS X	2010-05-04 12:55:36	219
+vrtools	216	Windows	2010-05-04 12:55:36	219
+vtigerws	235	OS Independent	2010-05-04 12:55:36	219
+vwmclient	218	Windows 95/98/2000	2010-05-04 12:55:36	219
+vwmclient	201	Linux	2010-05-04 12:55:36	219
+vying	235	OS Independent	2010-05-04 12:55:36	219
+w2tags	216	Windows	2010-05-04 12:55:36	219
+w2tags	200	POSIX	2010-05-04 12:55:36	219
+w3cvalidators	235	OS Independent	2010-05-04 12:55:36	219
+wagit	235	OS Independent	2010-05-04 12:55:36	219
+wagn	235	OS Independent	2010-05-04 12:55:36	219
+wagon	235	OS Independent	2010-05-04 12:55:36	219
+wakame	200	POSIX	2010-05-04 12:55:36	219
+wakeonlan	200	POSIX	2010-05-04 12:55:36	219
+walrus	235	OS Independent	2010-05-04 12:55:36	219
+wang	235	OS Independent	2010-05-04 12:55:36	219
+warcraft-armory	235	OS Independent	2010-05-04 12:55:36	219
+warp	235	OS Independent	2010-05-04 12:55:37	219
+watchcat	201	Linux	2010-05-04 12:55:37	219
+watcher	200	POSIX	2010-05-04 12:55:37	219
+watchr	235	OS Independent	2010-05-04 12:55:37	219
+watchtower	235	OS Independent	2010-05-04 12:55:37	219
+watir-on-rails	309	OS X	2010-05-04 12:55:37	219
+watir-on-rails	216	Windows	2010-05-04 12:55:37	219
+wax	309	OS X	2010-05-04 12:55:37	219
+wax	200	POSIX	2010-05-04 12:55:37	219
+waxeye	235	OS Independent	2010-05-04 12:55:37	219
+wbxml	216	Windows	2010-05-04 12:55:37	219
+wbxml	201	Linux	2010-05-04 12:55:37	219
+wdot	201	Linux	2010-05-04 12:55:37	219
+wdot	309	OS X	2010-05-04 12:55:37	219
+wdot	216	Windows	2010-05-04 12:55:37	219
+weaver	235	OS Independent	2010-05-04 12:55:37	219
+webby	235	OS Independent	2010-05-04 12:55:37	219
+webdemon	235	OS Independent	2010-05-04 12:55:37	219
+webgen	216	Windows	2010-05-04 12:55:37	219
+webgen	235	OS Independent	2010-05-04 12:55:37	219
+webgen	201	Linux	2010-05-04 12:55:37	219
+webjay	235	OS Independent	2010-05-04 12:55:37	219
+webnotes	235	OS Independent	2010-05-04 12:55:37	219
+webplanner	235	OS Independent	2010-05-04 12:55:37	219
+webroar	200	POSIX	2010-05-04 12:55:37	219
+websitiary	235	OS Independent	2010-05-04 12:55:37	219
+webspike-ruby	201	Linux	2010-05-04 12:55:37	219
+webstudio	202	BSD	2010-05-04 12:55:37	219
+webstudio	201	Linux	2010-05-04 12:55:37	219
+webu	235	OS Independent	2010-05-04 12:55:37	219
+webunit-codegen	235	OS Independent	2010-05-04 12:55:37	219
+wee	235	OS Independent	2010-05-04 12:55:37	219
+weft-qda	216	Windows	2010-05-04 12:55:37	219
+weft-qda	309	OS X	2010-05-04 12:55:37	219
+weft-qda	200	POSIX	2010-05-04 12:55:37	219
+weighted-rate	235	OS Independent	2010-05-04 12:55:37	219
+weightedselect	235	OS Independent	2010-05-04 12:55:37	219
+weldir	235	OS Independent	2010-05-04 12:55:37	219
+weta	235	OS Independent	2010-05-04 12:55:37	219
+weta	200	POSIX	2010-05-04 12:55:37	219
+wfe	235	OS Independent	2010-05-04 12:55:37	219
+whizzbot	235	OS Independent	2010-05-04 12:55:38	219
+whois	235	OS Independent	2010-05-04 12:55:38	219
+whotowho	235	OS Independent	2010-05-04 12:55:38	219
+wiki2go	235	OS Independent	2010-05-04 12:55:38	219
+wikicreole	235	OS Independent	2010-05-04 12:55:38	219
+wikid	235	OS Independent	2010-05-04 12:55:38	219
+wikitext	309	OS X	2010-05-04 12:55:38	219
+wikitext	201	Linux	2010-05-04 12:55:38	219
+win-user32-ruby	216	Windows	2010-05-04 12:55:38	219
+win32-captureie	219	Windows NT/2000	2010-05-04 12:55:38	219
+win32console	214	Microsoft	2010-05-04 12:55:38	219
+win32ole-pp	219	Windows NT/2000	2010-05-04 12:55:38	219
+win32olenet	219	Windows NT/2000	2010-05-04 12:55:38	219
+win32olerot	216	Windows	2010-05-04 12:55:38	219
+win32utils	219	Windows NT/2000	2010-05-04 12:55:38	219
+winjobscheduler	218	Windows 95/98/2000	2010-05-04 12:55:38	219
+winnower	235	OS Independent	2010-05-04 12:55:38	219
+winnscriptatype	201	Linux	2010-05-04 12:55:38	219
+winnscriptatype	309	OS X	2010-05-04 12:55:38	219
+winnscriptatype	216	Windows	2010-05-04 12:55:38	219
+wireless-ruby	309	OS X	2010-05-04 12:55:38	219
+wireless-ruby	201	Linux	2010-05-04 12:55:38	219
+wiretap	200	POSIX	2010-05-04 12:55:38	219
+wisdomgems	235	OS Independent	2010-05-04 12:55:38	219
+wlog	235	OS Independent	2010-05-04 12:55:38	219
+wmainfo	235	OS Independent	2010-05-04 12:55:38	219
+wol	235	OS Independent	2010-05-04 12:55:38	219
+wolfe	235	OS Independent	2010-05-04 12:55:38	219
+wontomedia	235	OS Independent	2010-05-04 12:55:38	219
+wontomedia	201	Linux	2010-05-04 12:55:38	219
+wora	235	OS Independent	2010-05-04 12:55:38	219
+workpattern	235	OS Independent	2010-05-04 12:55:39	219
+worktimer	235	OS Independent	2010-05-04 12:55:39	219
+worktimer	216	Windows	2010-05-04 12:55:39	219
+wping	216	Windows	2010-05-04 12:55:39	219
+wrblog	235	OS Independent	2010-05-04 12:55:39	219
+wrtranslate	235	OS Independent	2010-05-04 12:55:39	219
+wsse	221	MacOS	2010-05-04 12:55:39	219
+wsse	201	Linux	2010-05-04 12:55:39	219
+wtr	216	Windows	2010-05-04 12:55:39	219
+wtruby	201	Linux	2010-05-04 12:55:39	219
+wtruby	309	OS X	2010-05-04 12:55:39	219
+wtruby	216	Windows	2010-05-04 12:55:39	219
+www-delicious	235	OS Independent	2010-05-04 12:55:39	219
+wxredit	235	OS Independent	2010-05-04 12:55:39	219
+wxride	216	Windows	2010-05-04 12:55:39	219
+wxride	309	OS X	2010-05-04 12:55:39	219
+wxride	201	Linux	2010-05-04 12:55:39	219
+wxruby	201	Linux	2010-05-04 12:55:39	219
+wxruby	309	OS X	2010-05-04 12:55:39	219
+wxruby	216	Windows	2010-05-04 12:55:39	219
+wxrubydebug	235	OS Independent	2010-05-04 12:55:39	219
+wxrubylayouts	235	OS Independent	2010-05-04 12:55:39	219
+wysmacs	216	Windows	2010-05-04 12:55:39	219
+x10-cm17a	200	POSIX	2010-05-04 12:55:39	219
+x10-cm17a	216	Windows	2010-05-04 12:55:39	219
+x12-parser	235	OS Independent	2010-05-04 12:55:39	219
+x12parser	235	OS Independent	2010-05-04 12:55:39	219
+x2c	200	POSIX	2010-05-04 12:55:39	219
+xampl	309	OS X	2010-05-04 12:55:39	219
+xampl	202	BSD	2010-05-04 12:55:39	219
+xampl	201	Linux	2010-05-04 12:55:39	219
+xboot	235	OS Independent	2010-05-04 12:55:39	219
+xcapclient	235	OS Independent	2010-05-04 12:55:39	219
+xdccfetch	235	OS Independent	2010-05-04 12:55:39	219
+xenzen	235	OS Independent	2010-05-04 12:55:39	219
+xenzen	201	Linux	2010-05-04 12:55:39	219
+xforge	235	OS Independent	2010-05-04 12:55:39	219
+xgallery	235	OS Independent	2010-05-04 12:55:39	219
+xiacc	235	OS Independent	2010-05-04 12:55:39	219
+xibe	235	OS Independent	2010-05-04 12:55:40	219
+xinha-plugin	235	OS Independent	2010-05-04 12:55:40	219
+xinod	235	OS Independent	2010-05-04 12:55:40	219
+xlib	221	MacOS	2010-05-04 12:55:40	219
+xlib	200	POSIX	2010-05-04 12:55:40	219
+xlsuite	235	OS Independent	2010-05-04 12:55:40	219
+xmbcs	235	OS Independent	2010-05-04 12:55:40	219
+xml-magic	235	OS Independent	2010-05-04 12:55:40	219
+xml-mapping	235	OS Independent	2010-05-04 12:55:40	219
+xml-simple	235	OS Independent	2010-05-04 12:55:40	219
+xml2xls	219	Windows NT/2000	2010-05-04 12:55:40	219
+xml2xls	201	Linux	2010-05-04 12:55:40	219
+xmlcodec	235	OS Independent	2010-05-04 12:55:40	219
+xmldigester	235	OS Independent	2010-05-04 12:55:40	219
+xmlresume2x	235	OS Independent	2010-05-04 12:55:40	219
+xmlrocs	200	POSIX	2010-05-04 12:55:40	219
+xmlrpcs	235	OS Independent	2010-05-04 12:55:40	219
+xmltv2html	235	OS Independent	2010-05-04 12:55:40	219
+xmpp4r-simple	235	OS Independent	2010-05-04 12:55:40	219
+xmppd	200	POSIX	2010-05-04 12:55:40	219
+xrefresh-server	309	OS X	2010-05-04 12:55:40	219
+xrvg	235	OS Independent	2010-05-04 12:55:40	219
+xspf	235	OS Independent	2010-05-04 12:55:40	219
+ya2yaml	235	OS Independent	2010-05-04 12:55:40	219
+yahoo-se	235	OS Independent	2010-05-04 12:55:40	219
+yahoo-video	235	OS Independent	2010-05-04 12:55:40	219
+yahoo-weather	235	OS Independent	2010-05-04 12:55:40	219
+yahoofinance	235	OS Independent	2010-05-04 12:55:40	219
+yajb	235	OS Independent	2010-05-04 12:55:40	219
+yajl-ruby	200	POSIX	2010-05-04 12:55:40	219
+yak	235	OS Independent	2010-05-04 12:55:40	219
+yaparc	201	Linux	2010-05-04 12:55:41	219
+yarbo	235	OS Independent	2010-05-04 12:55:41	219
+yawl4r	235	OS Independent	2010-05-04 12:55:41	219
+yax	235	OS Independent	2010-05-04 12:55:41	219
+yaxml	235	OS Independent	2010-05-04 12:55:41	219
+ybur	235	OS Independent	2010-05-04 12:55:41	219
+ycn	235	OS Independent	2010-05-04 12:55:41	219
+yelp	235	OS Independent	2010-05-04 12:55:41	219
+yemuraidcdb	235	OS Independent	2010-05-04 12:55:41	219
+ym4r	235	OS Independent	2010-05-04 12:55:41	219
+yo-lib	235	OS Independent	2010-05-04 12:55:41	219
+yoot	201	Linux	2010-05-04 12:55:41	219
+youtube	235	OS Independent	2010-05-04 12:55:41	219
+youtube-g	235	OS Independent	2010-05-04 12:55:41	219
+yubikey	235	OS Independent	2010-05-04 12:55:41	219
+yuitree	235	OS Independent	2010-05-04 12:55:41	219
+zak	235	OS Independent	2010-05-04 12:55:41	219
+zak	201	Linux	2010-05-04 12:55:41	219
+zebra	309	OS X	2010-05-04 12:55:41	219
+zebra	202	BSD	2010-05-04 12:55:41	219
+zebra	201	Linux	2010-05-04 12:55:41	219
+zena	235	OS Independent	2010-05-04 12:55:41	219
+zenhacks	235	OS Independent	2010-05-04 12:55:41	219
+zenhacks	200	POSIX	2010-05-04 12:55:41	219
+zentest	235	OS Independent	2010-05-04 12:55:41	219
+zenweb	235	OS Independent	2010-05-04 12:55:41	219
+zerto	235	OS Independent	2010-05-04 12:55:41	219
+zfs-snapshot	207	SunOS/Solaris	2010-05-04 12:55:41	219
+zfs-snapshot	203	FreeBSD	2010-05-04 12:55:41	219
+zfs-snapshot	309	OS X	2010-05-04 12:55:41	219
+zik	201	Linux	2010-05-04 12:55:42	219
+zimco	221	MacOS	2010-05-04 12:55:42	219
+zimco	216	Windows	2010-05-04 12:55:42	219
+zimco	200	POSIX	2010-05-04 12:55:42	219
+zinzani	309	OS X	2010-05-04 12:55:42	219
+zinzani	201	Linux	2010-05-04 12:55:42	219
+zionedit	219	Windows NT/2000	2010-05-04 12:55:42	219
+zipcodesearch	235	OS Independent	2010-05-04 12:55:42	219
+zliby	235	OS Independent	2010-05-04 12:55:42	219
+znmud	235	OS Independent	2010-05-04 12:55:42	219
+zobjinspect	235	OS Independent	2010-05-04 12:55:42	219
+zonefile	200	POSIX	2010-05-04 12:55:42	219
+zookeeper	200	POSIX	2010-05-04 12:55:42	219
+zyps	235	OS Independent	2010-05-04 12:55:42	219

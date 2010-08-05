@@ -1,0 +1,167 @@
+#  file: owProjectList2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname
+#  FROM ow_projects
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname
+acceleo
+accord
+apollon
+asm
+aspire
+azuki
+barracudamvc
+been
+bonita
+bpmadmin
+bsframework
+byline
+c-jdbc
+cardamom
+carol
+celtix
+clif
+cmi
+deployment
+director
+dods
+dotnetj
+dream
+dryverl
+dysoweb
+eaf
+easybeans
+easywsdl
+eclipse-update
+edemos
+enhydra
+enusmv
+epaf
+exoplatform
+federid
+foo
+fractal
+frascati
+fwkdemoiselle
+gasp
+gotm
+howl
+initiativebi
+interldap
+introspector
+ishmael
+istx
+ivy
+j2ws
+jac
+jasmine
+jaspte
+javaservice
+jawe
+jeffree
+jmimetypelib
+jnetcontrol
+jonas-doc
+jonathan
+joram
+jorm
+jotm
+jsurvey
+jwtgen
+kelly
+kelp
+kilim
+kilim2
+lemonldap
+lewys
+lomboz
+massiv
+maven
+medor
+mesh
+mind
+modfact
+monolog
+navilis
+newsadmin
+noah
+objectweb-zh
+ocelot
+octopus
+odis
+ofccharts
+oncepi
+oncess
+opalval
+openediint
+openmobileis
+ops
+orchestra
+orientwareccm
+osa-interop
+oslcv3
+ow2appliances
+oyster
+paje
+pangu
+pargres
+perseus
+petals
+petalsmaster
+pkuas
+polyorb
+rfid
+rubbos
+rubis
+s4allsdk
+salome-tmf
+scarbo
+shark
+siteadmin
+snapper
+soda
+sofa
+spagic
+spago
+spago4q
+spagobi
+speedo
+starwebservice
+stock-online
+surf
+telosys
+tess
+think
+tox
+ubistar
+wcms
+wildcat
+winqemu
+wsunit
+xmlc
+xplus
+xquare
+xservice
+xwiki
+zeus

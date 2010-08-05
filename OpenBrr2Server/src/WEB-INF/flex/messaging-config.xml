@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="message-service"
+    class="weborb.messaging.v3.MessagingServiceHandler"
+    messageTypes="flex.messaging.messages.AsyncMessage">
+
+    <destination id="ChatDestination">
+        <properties>
+        
+            <server>
+                <durable>false</durable>
+            </server>
+            
+            <message-service-handler>weborb.messaging.v3.MessagingServiceHandler</message-service-handler>
+            <message-storage-policy>weborb.messaging.v3.MemoryStoragePolicy</message-storage-policy>>
+            
+        </properties>
+
+        <channels>
+            <channel ref="my-polling-amf"/>
+        </channels>         
+        
+    </destination>
+
+    <destination id="SampleJMSDestination">
+        <properties>
+        
+            <server>
+                <durable>false</durable>
+            </server>
+            
+            <jms>
+                <initial-context-environment>java:comp/env/jms</initial-context-environment>
+                <connection-factory>TopicFactory</connection-factory>
+                <destination-jndi-name>MyTopic</destination-jndi-name>
+                <acknowledge-mode>AUTO_ACKNOWLEDGE</acknowledge-mode>
+                <transacted-sessions>false</transacted-sessions>
+                <delivery-mode>NON_PERSISTENT</delivery-mode>
+                <message-priority>6</message-priority>
+                <message-factory>weborb.messaging.v3.jms.JmsObjectMessageFactory</message-factory>
+            </jms> 
+            
+            <message-service-handler>weborb.messaging.v3.jms.JmsServiceHandler</message-service-handler>
+        </properties>
+
+        <channels>
+            <channel ref="my-polling-amf"/>
+        </channels>         
+        
+    </destination>
+    
+    <destination id="DataService">
+        <properties>
+        
+            <server>
+                <durable>false</durable>
+            </server>
+            
+            <message-service-handler>weborb.messaging.v3.MessagingServiceHandler</message-service-handler>
+            <message-storage-policy>weborb.messaging.v3.MemoryStoragePolicy</message-storage-policy>>
+            
+        </properties>
+
+        <channels>
+            <channel ref="my-polling-amf"/>
+        </channels>         
+        
+    </destination>     
+    
+    <destination id="ActiveMQChat">
+        <properties>
+        
+            <server>
+                <durable>false</durable>
+            </server>
+             
+            <jms>
+                <initial-context-environment>
+                <property>
+                   <name>java.naming.factory.initial</name>
+                   <value>org.apache.activemq.jndi.ActiveMQInitialContextFactory</value>
+                 </property>
+                 <property>
+                   <name>java.naming.provider.url</name>
+                   <value>tcp://localhost:61616</value>
+                 </property>                
+                </initial-context-environment>
+                <connection-factory>topicConnectionFactory</connection-factory>
+                <destination-jndi-name>FlexChatTopic</destination-jndi-name>
+                <acknowledge-mode>AUTO_ACKNOWLEDGE</acknowledge-mode>
+                <transacted-sessions>false</transacted-sessions>
+                <delivery-mode>NON_PERSISTENT</delivery-mode>
+                <message-priority>6</message-priority>
+                <message-factory>weborb.messaging.v3.jms.JmsObjectMessageFactory</message-factory>
+            </jms>             
+            <message-service-handler>weborb.messaging.v3.jms.JmsServiceHandler</message-service-handler>
+        </properties>
+
+        <channels>
+            <channel ref="my-polling-amf"/>
+        </channels>         
+        
+    </destination>    
+
+</service>

@@ -1,0 +1,3340 @@
+#  file: sfRawDonorsData2009-Jun.txt
+#  package: sfRawData2009-Jun
+#  description of file/package:
+#
+#  This package includes raw data files from our database of Sourceforge project 
+#  information generated from the list of projects gathered on 2009-Jun
+#
+#  Raw data was inserted into database by running the scripts:
+#  parseHtmlDonorsSF.pl
+#
+#  This particular file includes raw "Donors" data for each project 
+#  that shows this info on their SF project pages. (Not every project lists this 
+#  information.)
+#
+#  Scripts & raw data available at http://ossmole.sourceforge.net
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (afterall we just spidered it ;).
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2008) SourceForge Available at: 
+#  http://ossmole.sourceforge.net
+#
+#  SELECT * FROM `project_donors` WHERE datasource_id=172
+#
+#  description of columns:
+#  proj_unixname: the name of the project at sourceforge (PK)
+#  donor_id: the donor's name (PK)
+#  date_collected: this is the date the data was inserted
+#  datasource_id: when was this data gathered, and on which run? (PK)
+proj_unixname	donor_id	datasource_id	date_collected
+a-k-i-r-a	gianguz	172	2009-06-11 22:12:05
+aatrade	Anonymous donor(s)	172	2009-06-11 22:12:08
+abducted-irc	asphixia	172	2009-06-11 22:12:09
+abiword	karnesky	172	2009-06-11 22:12:09
+abiword	Anonymous donor(s)	172	2009-06-11 22:12:09
+abrviewer	Anonymous donor(s)	172	2009-06-11 22:12:10
+abrviewer	craymond	172	2009-06-11 22:12:10
+acalproj	Anonymous donor(s)	172	2009-06-11 22:12:11
+acemulator	stantuna	172	2009-06-11 22:12:13
+achat	bptrain	172	2009-06-11 22:12:14
+achat	Anonymous donor(s)	172	2009-06-11 22:12:14
+actiongame	davitomon	172	2009-06-11 22:12:15
+actiongame	mybugaccount	172	2009-06-11 22:12:15
+actiongame	jamz_26things	172	2009-06-11 22:12:15
+activeagenda	billrobo	172	2009-06-11 22:12:16
+activelock	Anonymous donor(s)	172	2009-06-11 22:12:16
+activityindicat	konstadi73	172	2009-06-11 22:12:16
+afick	Anonymous donor(s)	172	2009-06-11 22:12:20
+afpfs-ng	jmelby	172	2009-06-11 22:12:21
+agar	Anonymous donor(s)	172	2009-06-11 22:12:21
+agiletrack	mitcheljh	172	2009-06-11 22:12:24
+agx-ast-addons	mixvoip	172	2009-06-11 22:12:25
+ahk	leemeng	172	2009-06-11 22:12:25
+ajax	gevely	172	2009-06-11 22:12:29
+ajaxfilmdb	tuxinside	172	2009-06-11 22:12:29
+ajaxplorer	dlmfisher	172	2009-06-11 22:12:30
+ajaxplorer	kevandju	172	2009-06-11 22:12:30
+ajrdatabase	kosteck	172	2009-06-11 22:12:30
+akkar	camarilladee	172	2009-06-11 22:12:31
+akkar	Anonymous donor(s)	172	2009-06-11 22:12:31
+albumlist	Anonymous donor(s)	172	2009-06-11 22:12:32
+albumlist	dgbx	172	2009-06-11 22:12:32
+alc900-cups	Anonymous donor(s)	172	2009-06-11 22:12:32
+aldrin	Anonymous donor(s)	172	2009-06-11 22:12:32
+algernon-j	mikerichardson	172	2009-06-11 22:12:34
+alj	Anonymous donor(s)	172	2009-06-11 22:12:35
+alleg	trentg	172	2009-06-11 22:12:35
+alleg	aureliocurado	172	2009-06-11 22:12:35
+alleg	cgamesplay	172	2009-06-11 22:12:35
+alliancep2p	lmcity	172	2009-06-11 22:12:36
+alliancep2p	easterwolf	172	2009-06-11 22:12:36
+alliancep2p	yen-lo-wang	172	2009-06-11 22:12:36
+alliancep2p	hallucinative0	172	2009-06-11 22:12:36
+alliancep2p	Anonymous donor(s)	172	2009-06-11 22:12:36
+alltoavi	jethro87	172	2009-06-11 22:12:36
+alltoavi	vturzo	172	2009-06-11 22:12:36
+alltoavi	tparks1983	172	2009-06-11 22:12:36
+alltoavi	leondegrance	172	2009-06-11 22:12:36
+alltoavi	chucky100	172	2009-06-11 22:12:36
+alohamoo	Anonymous donor(s)	172	2009-06-11 22:12:36
+alvyn	Anonymous donor(s)	172	2009-06-11 22:12:38
+amazoop	Anonymous donor(s)	172	2009-06-11 22:12:40
+amicus	Anonymous donor(s)	172	2009-06-11 22:12:41
+amine-platform	Anonymous donor(s)	172	2009-06-11 22:12:41
+ammentos	justmoon	172	2009-06-11 22:12:41
+amphetarate	jongalloway	172	2009-06-11 22:12:42
+amule	drnop	172	2009-06-11 22:12:42
+amule	Anonymous donor(s)	172	2009-06-11 22:12:42
+amxmodx	Anonymous donor(s)	172	2009-06-11 22:12:43
+amxmodx	chris12341	172	2009-06-11 22:12:43
+amxmodx	mysticsphinx	172	2009-06-11 22:12:43
+amxmodx	hyp3rsniper	172	2009-06-11 22:12:43
+amxmodx	defillbert	172	2009-06-11 22:12:43
+anathema	Anonymous donor(s)	172	2009-06-11 22:12:44
+anathema	harbo-torres	172	2009-06-11 22:12:44
+anathema	xarei	172	2009-06-11 22:12:44
+anjuta	alokprax	172	2009-06-11 22:12:47
+anjuta	spicerun	172	2009-06-11 22:12:47
+anjuta	Anonymous donor(s)	172	2009-06-11 22:12:47
+anki	bebopalong	172	2009-06-11 22:12:47
+anki	siljeal	172	2009-06-11 22:12:47
+anki	infofarmer	172	2009-06-11 22:12:47
+anki	donaldcherry	172	2009-06-11 22:12:47
+anon	Anonymous donor(s)	172	2009-06-11 22:12:48
+anope	Anonymous donor(s)	172	2009-06-11 22:12:48
+anope	recoding	172	2009-06-11 22:12:48
+anope	berquist	172	2009-06-11 22:12:48
+anope	williamwikked	172	2009-06-11 22:12:48
+antinstaller	Anonymous donor(s)	172	2009-06-11 22:12:51
+antsp2p	Anonymous donor(s)	172	2009-06-11 22:12:51
+antsp2p	fenrirthewolf	172	2009-06-11 22:12:51
+antsp2p	colinkiegel	172	2009-06-11 22:12:51
+antsp2p	pauly2072	172	2009-06-11 22:12:51
+antsp2p	kawajoe	172	2009-06-11 22:12:51
+apache2cp	Anonymous donor(s)	172	2009-06-11 22:12:54
+apache2triad	Anonymous donor(s)	172	2009-06-11 22:12:54
+apexlib	brad_moreland	172	2009-06-11 22:12:55
+apexlib	arintoul	172	2009-06-11 22:12:55
+apexlib	Anonymous donor(s)	172	2009-06-11 22:12:55
+apexplugin	gabsinator	172	2009-06-11 22:12:55
+aphpkb	bford85	172	2009-06-11 22:12:56
+aphpkb	jtheed	172	2009-06-11 22:12:56
+applejack	richardlammert	172	2009-06-11 22:12:57
+applejack	jeandionloginn	172	2009-06-11 22:12:57
+applejack	jeffsyrop	172	2009-06-11 22:12:57
+applejack	hankeypanky	172	2009-06-11 22:12:57
+applejack	muchumundo	172	2009-06-11 22:12:57
+appleseed	Anonymous donor(s)	172	2009-06-11 22:12:57
+appscript	hraban	172	2009-06-11 22:12:59
+appscript	andreberg	172	2009-06-11 22:12:59
+appscript	jsiska	172	2009-06-11 22:12:59
+aqbanking	Anonymous donor(s)	172	2009-06-11 22:13:00
+aqualung	Anonymous donor(s)	172	2009-06-11 22:13:00
+aqualung	c72578	172	2009-06-11 22:13:00
+aquamacs	ashasudeh	172	2009-06-11 22:13:00
+aquamacs	ortizt	172	2009-06-11 22:13:00
+aquamacs	almery	172	2009-06-11 22:13:00
+aquamacs	dlevity	172	2009-06-11 22:13:00
+aquamacs	tishizuk	172	2009-06-11 22:13:00
+aquapalm	Anonymous donor(s)	172	2009-06-11 22:13:00
+aquapalm	granador	172	2009-06-11 22:13:00
+aquaterm	persquare	172	2009-06-11 22:13:01
+aquaterm	Anonymous donor(s)	172	2009-06-11 22:13:01
+arbaro	Anonymous donor(s)	172	2009-06-11 22:13:02
+archopen	Anonymous donor(s)	172	2009-06-11 22:13:03
+archopen	opeos	172	2009-06-11 22:13:03
+areca-amazon-s3	jimunoz	172	2009-06-11 22:13:05
+armagetronad	Anonymous donor(s)	172	2009-06-11 22:13:07
+armagetronad	nemostultae	172	2009-06-11 22:13:07
+armagetronad	wrtlprnft	172	2009-06-11 22:13:07
+armagetronad	onearmbandit	172	2009-06-11 22:13:07
+armagetronad	electricturtle	172	2009-06-11 22:13:07
+asholamp	Anonymous donor(s)	172	2009-06-11 22:13:13
+asnmtap	Anonymous donor(s)	172	2009-06-11 22:13:15
+asp-project	Anonymous donor(s)	172	2009-06-11 22:13:15
+aspam	Anonymous donor(s)	172	2009-06-11 22:13:15
+aspcalendars	abaharloo999	172	2009-06-11 22:13:15
+aspell	Anonymous donor(s)	172	2009-06-11 22:13:16
+aspell	melonsydney	172	2009-06-11 22:13:16
+aspell	linuxkiddo	172	2009-06-11 22:13:16
+assp	nxn	172	2009-06-11 22:13:18
+assp	cleanden	172	2009-06-11 22:13:18
+assp	bsc-boss	172	2009-06-11 22:13:18
+assp	wartangler	172	2009-06-11 22:13:18
+assp	jimmyray7	172	2009-06-11 22:13:18
+astatspro	Anonymous donor(s)	172	2009-06-11 22:13:18
+asterisk-java	Anonymous donor(s)	172	2009-06-11 22:13:19
+asteriskadmin	akitabright	172	2009-06-11 22:13:19
+astrogrep	Anonymous donor(s)	172	2009-06-11 22:13:20
+asttapi	darrendwyer	172	2009-06-11 22:13:21
+asttapi	Anonymous donor(s)	172	2009-06-11 22:13:21
+atunes	themat	172	2009-06-11 22:13:26
+atunes	bebopalong	172	2009-06-11 22:13:26
+atunes	rebski	172	2009-06-11 22:13:26
+atunes	rwrey	172	2009-06-11 22:13:26
+atunes	hobieorris	172	2009-06-11 22:13:26
+aubit4gl	roblawrence	172	2009-06-11 22:13:26
+audacity	sugi_0000	172	2009-06-11 22:13:27
+audacity	vbnetmatrix	172	2009-06-11 22:13:27
+audacity	abushman	172	2009-06-11 22:13:27
+audacity	nizwiz	172	2009-06-11 22:13:27
+audacity	tkneser	172	2009-06-11 22:13:27
+audiobookcutter	Anonymous donor(s)	172	2009-06-11 22:13:27
+audiobookcutter	jledv	172	2009-06-11 22:13:27
+audiobookcutter	woden_	172	2009-06-11 22:13:27
+audiobookcutter	hdt42	172	2009-06-11 22:13:27
+audiobookcutter	unterdenlinden	172	2009-06-11 22:13:27
+aufs	pmlane-ndn	172	2009-06-11 22:13:28
+aufs	marshman	172	2009-06-11 22:13:28
+aufs	Anonymous donor(s)	172	2009-06-11 22:13:28
+aurigadoc	Anonymous donor(s)	172	2009-06-11 22:13:29
+austrumi	Anonymous donor(s)	172	2009-06-11 22:13:29
+austrumi	tervel	172	2009-06-11 22:13:29
+authoxy-panther	Anonymous donor(s)	172	2009-06-11 22:13:30
+autokey	theoa	172	2009-06-11 22:13:31
+autolyrix	hifromgsf	172	2009-06-11 22:13:32
+automysqlbackup	csabi23	172	2009-06-11 22:13:32
+automysqlbackup	dvanzuijlekom	172	2009-06-11 22:13:32
+automysqlbackup	glaures	172	2009-06-11 22:13:32
+automysqlbackup	vincentcima	172	2009-06-11 22:13:32
+automysqlbackup	bendriscoll	172	2009-06-11 22:13:32
+autotroll	vgapnet_host	172	2009-06-11 22:13:34
+autotroll	tafferjim	172	2009-06-11 22:13:34
+ava-sbs	bosscha	172	2009-06-11 22:13:35
+avos	Anonymous donor(s)	172	2009-06-11 22:13:36
+avr-eclipse	coolerfisch	172	2009-06-11 22:13:36
+avr-eclipse	j-oe	172	2009-06-11 22:13:36
+awdbedit	Anonymous donor(s)	172	2009-06-11 22:13:37
+awemud	Anonymous donor(s)	172	2009-06-11 22:13:38
+awl-wizard	xixi31	172	2009-06-11 22:13:38
+awstats	najk	172	2009-06-11 22:13:39
+awstats	aafradio	172	2009-06-11 22:13:39
+awstats	mattbingel	172	2009-06-11 22:13:39
+awstats	arcadum	172	2009-06-11 22:13:39
+awstats	avian1	172	2009-06-11 22:13:39
+axcrypt	sassquatch	172	2009-06-11 22:13:39
+axcrypt	sf4bobby	172	2009-06-11 22:13:39
+axcrypt	Anonymous donor(s)	172	2009-06-11 22:13:39
+azsmrc	Anonymous donor(s)	172	2009-06-11 22:13:40
+azsmrc	nastypapercut	172	2009-06-11 22:13:40
+azsmrc	agreu	172	2009-06-11 22:13:40
+azsmrc	giantjobot	172	2009-06-11 22:13:40
+azureus	Anonymous donor(s)	172	2009-06-11 22:13:41
+azureus	flaggh	172	2009-06-11 22:13:41
+azureus	iflo	172	2009-06-11 22:13:41
+azureus	ociciornie	172	2009-06-11 22:13:41
+bacnet	bitstest	172	2009-06-11 22:13:44
+badmem	Anonymous donor(s)	172	2009-06-11 22:13:45
+bamcompile	Anonymous donor(s)	172	2009-06-11 22:13:46
+bamcompile	mhaldemann	172	2009-06-11 22:13:46
+bamcompile	yavork	172	2009-06-11 22:13:46
+banktao	Anonymous donor(s)	172	2009-06-11 22:13:47
+barbecue	mijamu	172	2009-06-11 22:13:47
+barbecue	emobus	172	2009-06-11 22:13:47
+bashburn	Anonymous donor(s)	172	2009-06-11 22:13:50
+batchrenamer	Anonymous donor(s)	172	2009-06-11 22:13:52
+battletorrent	Anonymous donor(s)	172	2009-06-11 22:13:52
+battletorrent	rolandorg	172	2009-06-11 22:13:52
+bbdkp	Anonymous donor(s)	172	2009-06-11 22:13:54
+bedic	kurochka	172	2009-06-11 22:13:59
+bedic	roatta	172	2009-06-11 22:13:59
+bedic	Anonymous donor(s)	172	2009-06-11 22:13:59
+beehiveforum	michaelgibson	172	2009-06-11 22:14:00
+beehiveforum	hofstaff	172	2009-06-11 22:14:00
+beepcore-java	Anonymous donor(s)	172	2009-06-11 22:14:00
+begm	kfsone	172	2009-06-11 22:14:00
+belkin-extract	Anonymous donor(s)	172	2009-06-11 22:14:01
+beo	jpf200524	172	2009-06-11 22:14:02
+beo	vonbon	172	2009-06-11 22:14:02
+beo	Anonymous donor(s)	172	2009-06-11 22:14:02
+bhttpmail	Anonymous donor(s)	172	2009-06-11 22:14:06
+bhttpmail	gssq	172	2009-06-11 22:14:06
+bibdesk	luredan	172	2009-06-11 22:14:06
+bibdesk	weisen	172	2009-06-11 22:14:06
+bibdesk	dp_goldenberg	172	2009-06-11 22:14:06
+bibdesk	matt1619	172	2009-06-11 22:14:06
+billardgl	xnor	172	2009-06-11 22:14:10
+bingo-cards	hipparchus2001	172	2009-06-11 22:14:11
+biocentrica	Anonymous donor(s)	172	2009-06-11 22:14:11
+bios-lt	greghol	172	2009-06-11 22:14:12
+birdblog	Anonymous donor(s)	172	2009-06-11 22:14:14
+birdy	Anonymous donor(s)	172	2009-06-11 22:14:14
+bitweaver	tarus	172	2009-06-11 22:14:16
+bitweaver	gravyface	172	2009-06-11 22:14:16
+blackberrytools	chrispylord	172	2009-06-11 22:14:17
+blackberrytools	Anonymous donor(s)	172	2009-06-11 22:14:17
+blackchat	Anonymous donor(s)	172	2009-06-11 22:14:17
+blahzdns	hockeyrink	172	2009-06-11 22:14:18
+blissemu	kldavis	172	2009-06-11 22:14:20
+blogtk	Anonymous donor(s)	172	2009-06-11 22:14:22
+blua	Anonymous donor(s)	172	2009-06-11 22:14:23
+bluecove	ujs83	172	2009-06-11 22:14:23
+bluefish	ysgys	172	2009-06-11 22:14:24
+bluefish	Anonymous donor(s)	172	2009-06-11 22:14:24
+bluetooth-alsa	colinkiegel	172	2009-06-11 22:14:25
+bluetooth-alsa	ssj195	172	2009-06-11 22:14:25
+bluetooth-alsa	chengfu	172	2009-06-11 22:14:25
+bluez	zed_0xff	172	2009-06-11 22:14:26
+bluezync	freddyw	172	2009-06-11 22:14:26
+blw	o3nsmash	172	2009-06-11 22:14:26
+bnbteasytracker	Anonymous donor(s)	172	2009-06-11 22:14:27
+bnirc	Anonymous donor(s)	172	2009-06-11 22:14:27
+bol	Anonymous donor(s)	172	2009-06-11 22:14:29
+bom	octan3	172	2009-06-11 22:14:30
+bom	haipe	172	2009-06-11 22:14:30
+bom	ebaer1702	172	2009-06-11 22:14:30
+bom	normalburger1	172	2009-06-11 22:14:30
+bom	michael_baer	172	2009-06-11 22:14:30
+bonkenc	Anonymous donor(s)	172	2009-06-11 22:14:30
+bonkenc	egg2213	172	2009-06-11 22:14:30
+bonkenc	claass	172	2009-06-11 22:14:30
+bonkenc	thorcarlson	172	2009-06-11 22:14:30
+booby	Anonymous donor(s)	172	2009-06-11 22:14:31
+books-macosx	josefsalyer	172	2009-06-11 22:14:31
+books-macosx	Anonymous donor(s)	172	2009-06-11 22:14:31
+boomerang	Anonymous donor(s)	172	2009-06-11 22:14:32
+boomerang	svansa	172	2009-06-11 22:14:32
+bouml	msorc	172	2009-06-11 22:14:35
+bouml	nicolassauvaget	172	2009-06-11 22:14:35
+bouml	lollisoft	172	2009-06-11 22:14:35
+box2d	puelo	172	2009-06-11 22:14:35
+box2d	skatc	172	2009-06-11 22:14:35
+box2d	cpoizat	172	2009-06-11 22:14:35
+box2dflash	skatc	172	2009-06-11 22:14:35
+brainworkshop	sudoit	172	2009-06-11 22:14:37
+bricksmith	jimmod75	172	2009-06-11 22:14:39
+bricksmith	Anonymous donor(s)	172	2009-06-11 22:14:39
+brim	jyvais	172	2009-06-11 22:14:40
+brutalchess	Anonymous donor(s)	172	2009-06-11 22:14:41
+bt747	cdgmol	172	2009-06-11 22:14:42
+btanks	lazylegs	172	2009-06-11 22:14:42
+btanks	Anonymous donor(s)	172	2009-06-11 22:14:42
+btnet	romwil	172	2009-06-11 22:14:44
+btnet	andrewmckay583	172	2009-06-11 22:14:44
+btnet	benpeterson24	172	2009-06-11 22:14:44
+btnet	matro	172	2009-06-11 22:14:44
+btnet	peterh226	172	2009-06-11 22:14:44
+btwincap	Anonymous donor(s)	172	2009-06-11 22:14:44
+buddi	limer	172	2009-06-11 22:14:45
+buddi	miguelcampana	172	2009-06-11 22:14:45
+buddi	carey2	172	2009-06-11 22:14:45
+buddi	dottiepotter	172	2009-06-11 22:14:45
+buddi	tom_allen	172	2009-06-11 22:14:45
+bugnet	retznutz	172	2009-06-11 22:14:46
+bugnet	Anonymous donor(s)	172	2009-06-11 22:14:46
+burn-osx	edelsont	172	2009-06-11 22:14:47
+burn-osx	socapex_2k	172	2009-06-11 22:14:47
+burn-osx	ksuzuka	172	2009-06-11 22:14:47
+burn-osx	goroshko	172	2009-06-11 22:14:47
+burn-osx	tiemme	172	2009-06-11 22:14:47
+burst	cabincrekezeke	172	2009-06-11 22:14:49
+burst	sethness	172	2009-06-11 22:14:49
+burst	Anonymous donor(s)	172	2009-06-11 22:14:49
+burst-plus	Anonymous donor(s)	172	2009-06-11 22:14:49
+busybox	mdanielski	172	2009-06-11 22:14:49
+busybox	olsonware	172	2009-06-11 22:14:49
+butterflymp3	Anonymous donor(s)	172	2009-06-11 22:14:49
+bwgburn	Anonymous donor(s)	172	2009-06-11 22:14:50
+bytehoard	Anonymous donor(s)	172	2009-06-11 22:14:51
+c-cramp	Anonymous donor(s)	172	2009-06-11 22:14:51
+c2h	Anonymous donor(s)	172	2009-06-11 22:14:52
+cagi	Anonymous donor(s)	172	2009-06-11 22:14:55
+calendarx	Anonymous donor(s)	172	2009-06-11 22:14:57
+camelbones	Anonymous donor(s)	172	2009-06-11 22:14:59
+camelbones	seattlesparks	172	2009-06-11 22:14:59
+camelbones	aclaughan	172	2009-06-11 22:14:59
+camelbones	emazep	172	2009-06-11 22:14:59
+camelbones	rclaytonconner	172	2009-06-11 22:14:59
+can	seocompany	172	2009-06-11 22:15:00
+candycrisis	potrzebie	172	2009-06-11 22:15:00
+candycrisis	ikrieg	172	2009-06-11 22:15:00
+candycrisis	Anonymous donor(s)	172	2009-06-11 22:15:00
+canny	tnagao	172	2009-06-11 22:15:00
+cantera	mschaffer	172	2009-06-11 22:15:00
+car-companion	smentzer	172	2009-06-11 22:15:01
+car-companion	wexx	172	2009-06-11 22:15:01
+car-companion	Anonymous donor(s)	172	2009-06-11 22:15:01
+cast-control	Anonymous donor(s)	172	2009-06-11 22:15:05
+cctiddly	hansnl	172	2009-06-11 22:15:10
+cctiddly	Anonymous donor(s)	172	2009-06-11 22:15:10
+ccwakka	Anonymous donor(s)	172	2009-06-11 22:15:11
+cdcover	Anonymous donor(s)	172	2009-06-11 22:15:11
+cdrom-lock	Anonymous donor(s)	172	2009-06-11 22:15:12
+cedet	vurte	172	2009-06-11 22:15:14
+cedet	martinslouf	172	2009-06-11 22:15:14
+cedet	Anonymous donor(s)	172	2009-06-11 22:15:14
+cerebrus-fp6	Anonymous donor(s)	172	2009-06-11 22:15:16
+cewolf	cafob	172	2009-06-11 22:15:17
+cewolf	bpascal	172	2009-06-11 22:15:17
+ch2r	Anonymous donor(s)	172	2009-06-11 22:15:20
+chan-capi	Anonymous donor(s)	172	2009-06-11 22:15:20
+chan-sccp	Anonymous donor(s)	172	2009-06-11 22:15:20
+chatsniff	Anonymous donor(s)	172	2009-06-11 22:15:23
+checkgmail	Anonymous donor(s)	172	2009-06-11 22:15:24
+checkgmail	vgrisham	172	2009-06-11 22:15:24
+checkgmail	dclozier	172	2009-06-11 22:15:24
+chiba	ilangocal	172	2009-06-11 22:15:26
+chicken-export	wsh1979	172	2009-06-11 22:15:26
+chmox	Anonymous donor(s)	172	2009-06-11 22:15:28
+chmox	grmueller	172	2009-06-11 22:15:28
+chmox	rptb1	172	2009-06-11 22:15:28
+chocolate-doom	mikeshere	172	2009-06-11 22:15:29
+chronosxp	Anonymous donor(s)	172	2009-06-11 22:15:30
+chsdet	louiskessler	172	2009-06-11 22:15:30
+chungles	lubelski	172	2009-06-11 22:15:30
+cimg	Anonymous donor(s)	172	2009-06-11 22:15:31
+cimg	akabla	172	2009-06-11 22:15:31
+ciphsafe	jidaikobo	172	2009-06-11 22:15:32
+ciphsafe	Anonymous donor(s)	172	2009-06-11 22:15:32
+cl-net-snmp	yedingding	172	2009-06-11 22:15:35
+clamwin	louis-stahl	172	2009-06-11 22:15:35
+clamwin	mdmoyer	172	2009-06-11 22:15:35
+clamwin	jahaziel	172	2009-06-11 22:15:35
+clamwin	mangecelle	172	2009-06-11 22:15:35
+clamwin	bompieno	172	2009-06-11 22:15:35
+clansphere	funk3r	172	2009-06-11 22:15:36
+clansphere	thodde26	172	2009-06-11 22:15:36
+clansphere	patkite	172	2009-06-11 22:15:36
+clansphere	americanspirit	172	2009-06-11 22:15:36
+clansphere	davidkra	172	2009-06-11 22:15:36
+clib2	capehill	172	2009-06-11 22:15:39
+clib2	ssolie	172	2009-06-11 22:15:39
+clib2	abalabanb	172	2009-06-11 22:15:39
+clib2	Anonymous donor(s)	172	2009-06-11 22:15:39
+clipp	Anonymous donor(s)	172	2009-06-11 22:15:40
+clipp	nanomid	172	2009-06-11 22:15:40
+clipsrules	nicolagiacobbe	172	2009-06-11 22:15:41
+clisp	gspofford	172	2009-06-11 22:15:41
+clisp	funkyj	172	2009-06-11 22:15:41
+clisp	rurban	172	2009-06-11 22:15:41
+clisp	Anonymous donor(s)	172	2009-06-11 22:15:41
+clojure	somejan	172	2009-06-11 22:15:41
+clojure	tpratley	172	2009-06-11 22:15:41
+clojure	xrath	172	2009-06-11 22:15:41
+clojure	johnwayner	172	2009-06-11 22:15:41
+clojure	gjahad	172	2009-06-11 22:15:41
+clonezilla	Anonymous donor(s)	172	2009-06-11 22:15:42
+clonezilla	chenvertjd	172	2009-06-11 22:15:42
+clonezilla	z-bail	172	2009-06-11 22:15:42
+clucene	jimsoule	172	2009-06-11 22:15:43
+clusterssh	rafke1	172	2009-06-11 22:15:44
+cmsmadesimple	aportale	172	2009-06-11 22:15:46
+cmsmadesimple	Anonymous donor(s)	172	2009-06-11 22:15:46
+cnccodegen	vijaychd	172	2009-06-11 22:15:47
+cnwizards	casterle	172	2009-06-11 22:15:47
+cnwizards	Anonymous donor(s)	172	2009-06-11 22:15:47
+coaddons	laozisailor	172	2009-06-11 22:15:47
+codeblocks	haszaidi	172	2009-06-11 22:15:50
+codeblocks	ykasidit	172	2009-06-11 22:15:50
+codeblocks	dess54nancy	172	2009-06-11 22:15:50
+codeblocks	seronis	172	2009-06-11 22:15:50
+codeblocks	jimcheoros	172	2009-06-11 22:15:50
+codegenerator	Anonymous donor(s)	172	2009-06-11 22:15:50
+codelite	shabbirbhimani	172	2009-06-11 22:15:51
+codelite	wittend	172	2009-06-11 22:15:51
+coldbrewhelpdes	ke4clu	172	2009-06-11 22:15:53
+colinux	Anonymous donor(s)	172	2009-06-11 22:15:54
+colinux	ewanrg	172	2009-06-11 22:15:54
+colinux	gboutwel	172	2009-06-11 22:15:54
+colladablender	Anonymous donor(s)	172	2009-06-11 22:15:54
+columba	waffel	172	2009-06-11 22:15:55
+comix	xavierguillot	172	2009-06-11 22:15:57
+comix	costinha	172	2009-06-11 22:15:57
+comix	stigneous	172	2009-06-11 22:15:57
+comix	mrcamuti	172	2009-06-11 22:15:57
+comix	m3ntat	172	2009-06-11 22:15:57
+commca	g-l-a	172	2009-06-11 22:15:57
+commonclipse	cmeans	172	2009-06-11 22:15:57
+compiere	eetimm	172	2009-06-11 22:15:59
+compiere	harrichr	172	2009-06-11 22:15:59
+compiere	chris_wright	172	2009-06-11 22:15:59
+compinabox	Anonymous donor(s)	172	2009-06-11 22:16:00
+console	yo-tu-el	172	2009-06-11 22:16:04
+console	tropos	172	2009-06-11 22:16:04
+console	brianpeiris	172	2009-06-11 22:16:04
+console	rogerdpack	172	2009-06-11 22:16:04
+consultcomm	bwiese	172	2009-06-11 22:16:05
+contentor	Anonymous donor(s)	172	2009-06-11 22:16:05
+copfilter	dr-ms	172	2009-06-11 22:16:08
+copfilter	Anonymous donor(s)	172	2009-06-11 22:16:08
+cord	stacecom	172	2009-06-11 22:16:09
+cord	tomtj	172	2009-06-11 22:16:09
+cord	leonroy	172	2009-06-11 22:16:09
+cord	dr3do	172	2009-06-11 22:16:09
+coriander	sourceforgedonm	172	2009-06-11 22:16:10
+cornerfix	cscho	172	2009-06-11 22:16:10
+cornerfix	jimpape	172	2009-06-11 22:16:10
+cornerfix	brucekro	172	2009-06-11 22:16:10
+cornerfix	Anonymous donor(s)	172	2009-06-11 22:16:10
+cpulimit	olsonw	172	2009-06-11 22:16:14
+crawlpaper	bcrounse	172	2009-06-11 22:16:15
+cream	mountain_sf	172	2009-06-11 22:16:16
+cream	maphew	172	2009-06-11 22:16:16
+cream	Anonymous donor(s)	172	2009-06-11 22:16:16
+crex	ljk999	172	2009-06-11 22:16:16
+cridmanager	Anonymous donor(s)	172	2009-06-11 22:16:17
+crm-commerce	Anonymous donor(s)	172	2009-06-11 22:16:17
+crm-ctt	snowboarder04	172	2009-06-11 22:16:17
+crm-ctt	careladolfse	172	2009-06-11 22:16:17
+crm-ctt	deftcom	172	2009-06-11 22:16:17
+crm-ctt	inettom	172	2009-06-11 22:16:17
+crm-ctt	engunneer	172	2009-06-11 22:16:17
+cronometer	valincpres	172	2009-06-11 22:16:18
+cronometer	kdewalt	172	2009-06-11 22:16:18
+cronometer	harrychittenden	172	2009-06-11 22:16:18
+cronometer	iki_31415	172	2009-06-11 22:16:18
+cronometer	atyourserver	172	2009-06-11 22:16:18
+crosspost	Anonymous donor(s)	172	2009-06-11 22:16:18
+crownandcutlass	Anonymous donor(s)	172	2009-06-11 22:16:19
+crystal	Anonymous donor(s)	172	2009-06-11 22:16:21
+crystal	okt	172	2009-06-11 22:16:21
+crystal	allcolor	172	2009-06-11 22:16:21
+crystal	malaz	172	2009-06-11 22:16:21
+crystal	ramlambmoo	172	2009-06-11 22:16:21
+cscrape	Anonymous donor(s)	172	2009-06-11 22:16:22
+csgallerytool	Anonymous donor(s)	172	2009-06-11 22:16:23
+csgallerytool	steveso	172	2009-06-11 22:16:23
+csgallerytool	allcammedup	172	2009-06-11 22:16:23
+csgallerytool	peaboy	172	2009-06-11 22:16:23
+cssed	Anonymous donor(s)	172	2009-06-11 22:16:25
+csstidy	Anonymous donor(s)	172	2009-06-11 22:16:26
+cube	sdsinsky	172	2009-06-11 22:16:28
+cube	Anonymous donor(s)	172	2009-06-11 22:16:28
+cuecreator	ac0n	172	2009-06-11 22:16:30
+curl	djc0	172	2009-06-11 22:16:30
+curl-loader	monkeypunk	172	2009-06-11 22:16:30
+cuyahoga	agm16march05	172	2009-06-11 22:16:32
+cx-freeze	rwbest	172	2009-06-11 22:16:35
+cxbx	Anonymous donor(s)	172	2009-06-11 22:16:35
+cybera	smonsarr	172	2009-06-11 22:16:35
+cybera	torph	172	2009-06-11 22:16:35
+d2x-xl	joannaj	172	2009-06-11 22:16:37
+d2x-xl	eggchibang	172	2009-06-11 22:16:37
+d2x-xl	lucasjung	172	2009-06-11 22:16:37
+daloradius	kreg_roenfeldt	172	2009-06-11 22:16:40
+dar	dashs	172	2009-06-11 22:16:42
+darkice	Anonymous donor(s)	172	2009-06-11 22:16:43
+darkice	marillat	172	2009-06-11 22:16:43
+darkice	owenc67202	172	2009-06-11 22:16:43
+dasblogce	ben_playerpal	172	2009-06-11 22:16:44
+dasblogce	troysabin	172	2009-06-11 22:16:44
+dasblogce	Anonymous donor(s)	172	2009-06-11 22:16:44
+dashpc	Anonymous donor(s)	172	2009-06-11 22:16:45
+datacrow	s1n1c	172	2009-06-11 22:16:45
+datacrow	spike5884	172	2009-06-11 22:16:45
+datacrow	glozzie	172	2009-06-11 22:16:45
+datacrow	skorpionnan	172	2009-06-11 22:16:45
+datacrow	Anonymous donor(s)	172	2009-06-11 22:16:45
+datavision	aibanhamano	172	2009-06-11 22:16:47
+date-countdown	zimzo	172	2009-06-11 22:16:47
+davmail	swasko	172	2009-06-11 22:16:48
+davmail	klassa	172	2009-06-11 22:16:48
+davmail	seggerman	172	2009-06-11 22:16:48
+davmail	vvsri	172	2009-06-11 22:16:48
+davmail	aclauberg	172	2009-06-11 22:16:48
+db-model-excel	Anonymous donor(s)	172	2009-06-11 22:16:49
+dban	mrvelle	172	2009-06-11 22:16:50
+dban	briancunningham	172	2009-06-11 22:16:50
+dban	brainworker	172	2009-06-11 22:16:50
+dban	ap07	172	2009-06-11 22:16:50
+dbappbuilder	fishpi	172	2009-06-11 22:16:50
+dbexpressplus	mzwollo	172	2009-06-11 22:16:51
+dclp	adams901	172	2009-06-11 22:16:56
+dctm	djpretzel	172	2009-06-11 22:16:56
+debate-ie-timer	Anonymous donor(s)	172	2009-06-11 22:16:59
+debianhardened	Anonymous donor(s)	172	2009-06-11 22:16:59
+defe22001	guitar1969	172	2009-06-11 22:17:01
+deinterlace	Anonymous donor(s)	172	2009-06-11 22:17:02
+deinterlace	raoul4	172	2009-06-11 22:17:02
+deinterlace	chew_i	172	2009-06-11 22:17:02
+dekiwiki	drakcon	172	2009-06-11 22:17:02
+delphisci	deusi	172	2009-06-11 22:17:03
+delphisci	techopinion	172	2009-06-11 22:17:03
+delphisci	turbo_charged	172	2009-06-11 22:17:03
+delphisci	Anonymous donor(s)	172	2009-06-11 22:17:03
+delphitwain	Anonymous donor(s)	172	2009-06-11 22:17:03
+deng	mochtroid-x	172	2009-06-11 22:17:05
+deng	tinz	172	2009-06-11 22:17:05
+deng	angelgraves13	172	2009-06-11 22:17:05
+deng	janko_s	172	2009-06-11 22:17:05
+dent	Anonymous donor(s)	172	2009-06-11 22:17:05
+denyhosts	plessy	172	2009-06-11 22:17:05
+denyhosts	rkbunca	172	2009-06-11 22:17:05
+denyhosts	fcreid	172	2009-06-11 22:17:05
+denyhosts	peterkuykendall	172	2009-06-11 22:17:05
+denyhosts	tlakofski	172	2009-06-11 22:17:05
+deplate	Anonymous donor(s)	172	2009-06-11 22:17:05
+deskweb	Anonymous donor(s)	172	2009-06-11 22:17:07
+desproxy	Anonymous donor(s)	172	2009-06-11 22:17:07
+desproxy	apple95	172	2009-06-11 22:17:07
+detritus	erniemercer	172	2009-06-11 22:17:07
+devkitpro	chichinorth	172	2009-06-11 22:17:09
+devkitpro	kadrim1983	172	2009-06-11 22:17:09
+devkitpro	Anonymous donor(s)	172	2009-06-11 22:17:09
+dfast	Anonymous donor(s)	172	2009-06-11 22:17:10
+dfast	antbryan	172	2009-06-11 22:17:10
+dfast	rogerdean	172	2009-06-11 22:17:10
+dhcp-dns-server	Anonymous donor(s)	172	2009-06-11 22:17:11
+dia-installer	mikehibbett	172	2009-06-11 22:17:12
+dia-installer	neddyfreddy	172	2009-06-11 22:17:12
+dia-installer	tbogie_gvds	172	2009-06-11 22:17:12
+dia-installer	Anonymous donor(s)	172	2009-06-11 22:17:12
+diddlebug	Anonymous donor(s)	172	2009-06-11 22:17:15
+diddlebug	gserafini	172	2009-06-11 22:17:15
+diit	Anonymous donor(s)	172	2009-06-11 22:17:17
+dimensionex	kevinper	172	2009-06-11 22:17:17
+dimensionex	cleoni	172	2009-06-11 22:17:17
+dircomp	infofarmer	172	2009-06-11 22:17:19
+director	Anonymous donor(s)	172	2009-06-11 22:17:19
+directorysync	gary-yates	172	2009-06-11 22:17:19
+directorysync	thirdline	172	2009-06-11 22:17:19
+directorysync	derdom	172	2009-06-11 22:17:19
+directorysync	alexandercurtis	172	2009-06-11 22:17:19
+directorysync	rclay	172	2009-06-11 22:17:19
+directsql	gmays	172	2009-06-11 22:17:19
+directxwine	Anonymous donor(s)	172	2009-06-11 22:17:19
+dirstorage	Anonymous donor(s)	172	2009-06-11 22:17:20
+dirsyncpro	mlotspaih	172	2009-06-11 22:17:20
+discinsert	cgbale	172	2009-06-11 22:17:20
+divfixpp	Anonymous donor(s)	172	2009-06-11 22:17:23
+diy-zoning	Anonymous donor(s)	172	2009-06-11 22:17:23
+dm-rainfall	Anonymous donor(s)	172	2009-06-11 22:17:26
+dmlw	h5inz	172	2009-06-11 22:17:27
+dmoz2mysql	trukfixer	172	2009-06-11 22:17:27
+doc-book	Anonymous donor(s)	172	2009-06-11 22:17:30
+docfrac	svansa	172	2009-06-11 22:17:30
+docfrac	Anonymous donor(s)	172	2009-06-11 22:17:30
+dockpanelsuite	Anonymous donor(s)	172	2009-06-11 22:17:30
+dockpanelsuite	shlomosh1972	172	2009-06-11 22:17:30
+dockpanelsuite	anandhkr	172	2009-06-11 22:17:30
+dockpanelsuite	outasync	172	2009-06-11 22:17:30
+dockpanelsuite	imnopatzer	172	2009-06-11 22:17:30
+docutils	Anonymous donor(s)	172	2009-06-11 22:17:31
+docutils	cben	172	2009-06-11 22:17:31
+docutils	jkw225	172	2009-06-11 22:17:31
+dohickey	Anonymous donor(s)	172	2009-06-11 22:17:32
+domination	kyphilom	172	2009-06-11 22:17:33
+donnerlaparole	kitecal	172	2009-06-11 22:17:34
+donnerlaparole	Anonymous donor(s)	172	2009-06-11 22:17:34
+dopays	Anonymous donor(s)	172	2009-06-11 22:17:35
+dosbox	gpohlgpohl	172	2009-06-11 22:17:35
+dosbox	backspace54	172	2009-06-11 22:17:35
+dosbox	dark_ixion	172	2009-06-11 22:17:35
+dosbox	tmeyer155	172	2009-06-11 22:17:35
+dosbox	luaan	172	2009-06-11 22:17:35
+dosemu	iainretallick	172	2009-06-11 22:17:35
+dotnetvnc	Anonymous donor(s)	172	2009-06-11 22:17:37
+dotnetvnc	liane	172	2009-06-11 22:17:37
+dotnetvnc	wardxmodem	172	2009-06-11 22:17:37
+dotproject	racerxx	172	2009-06-11 22:17:37
+dotproject	keb	172	2009-06-11 22:17:37
+dotproject	vascoca	172	2009-06-11 22:17:37
+dotproject	alan_m_carroll	172	2009-06-11 22:17:37
+doubletype	akinobu	172	2009-06-11 22:17:38
+doubletype	itronic	172	2009-06-11 22:17:38
+dpss	Anonymous donor(s)	172	2009-06-11 22:17:40
+drakecms	carlosg79	172	2009-06-11 22:17:41
+drakecms	apollonios	172	2009-06-11 22:17:41
+drakecms	helig	172	2009-06-11 22:17:41
+drakecms	Anonymous donor(s)	172	2009-06-11 22:17:41
+drbl	trancekuja	172	2009-06-11 22:17:42
+drbl	lilox	172	2009-06-11 22:17:42
+drc-fir	Anonymous donor(s)	172	2009-06-11 22:17:42
+drftpd	botzcare	172	2009-06-11 22:17:42
+drftpd	Anonymous donor(s)	172	2009-06-11 22:17:42
+driverondemand	Anonymous donor(s)	172	2009-06-11 22:17:43
+driverondemand	kitz	172	2009-06-11 22:17:43
+driverondemand	joshuasuazo	172	2009-06-11 22:17:43
+dropline-gnome	ertz	172	2009-06-11 22:17:44
+dropline-gnome	plblaze	172	2009-06-11 22:17:44
+dropline-gnome	Anonymous donor(s)	172	2009-06-11 22:17:44
+druid	Anonymous donor(s)	172	2009-06-11 22:17:44
+druid	rkoshy	172	2009-06-11 22:17:44
+druid	jbendixsen	172	2009-06-11 22:17:44
+drvback	pegasus_fnl	172	2009-06-11 22:17:45
+drvback	utluna	172	2009-06-11 22:17:45
+drvback	simmtec	172	2009-06-11 22:17:45
+drvback	jaycity3	172	2009-06-11 22:17:45
+drvback	itobor	172	2009-06-11 22:17:45
+dsbudget	Anonymous donor(s)	172	2009-06-11 22:17:45
+dsbudget	jeff_davidson	172	2009-06-11 22:17:45
+dsbudget	kardrager	172	2009-06-11 22:17:45
+dsbudget	saerickson	172	2009-06-11 22:17:45
+dsplus	Anonymous donor(s)	172	2009-06-11 22:17:46
+dsplus	dgaranin	172	2009-06-11 22:17:46
+dsplus	ares78	172	2009-06-11 22:17:46
+dsplus	lightdsg	172	2009-06-11 22:17:46
+dspro	Anonymous donor(s)	172	2009-06-11 22:17:46
+dt-source	andrewrcollins	172	2009-06-11 22:17:47
+dtron	djmcgoldrick	172	2009-06-11 22:17:48
+duml	koberjm1122	172	2009-06-11 22:17:49
+duml	adevan	172	2009-06-11 22:17:49
+dump3	Anonymous donor(s)	172	2009-06-11 22:17:50
+dvd-baker	Anonymous donor(s)	172	2009-06-11 22:17:51
+dvd-slideshow	Anonymous donor(s)	172	2009-06-11 22:17:51
+dvdflick	javad1831	172	2009-06-11 22:17:51
+dvdflick	d1e2i3	172	2009-06-11 22:17:51
+dvdflick	ech3lon	172	2009-06-11 22:17:51
+dvdflick	tom85	172	2009-06-11 22:17:51
+dvdflick	preffent	172	2009-06-11 22:17:51
+dvdstyler	braino12	172	2009-06-11 22:17:52
+dvdstyler	jfrankle	172	2009-06-11 22:17:52
+dvdstyler	mtnsorlake	172	2009-06-11 22:17:52
+dvdstyler	sedohmen	172	2009-06-11 22:17:52
+dvdstyler	ocyl	172	2009-06-11 22:17:52
+dvrbox	Anonymous donor(s)	172	2009-06-11 22:17:52
+dwsim	guailo	172	2009-06-11 22:17:53
+dxflib	Anonymous donor(s)	172	2009-06-11 22:17:53
+dxspider	Anonymous donor(s)	172	2009-06-11 22:17:54
+e680	Anonymous donor(s)	172	2009-06-11 22:17:59
+e7note	edaw	172	2009-06-11 22:17:59
+eaccelerator	Anonymous donor(s)	172	2009-06-11 22:17:59
+eaccelerator	digirati	172	2009-06-11 22:17:59
+earth3d	Anonymous donor(s)	172	2009-06-11 22:18:00
+easyeos	spezifanta	172	2009-06-11 22:18:02
+easymoblog	martin010	172	2009-06-11 22:18:03
+easymoblog	Anonymous donor(s)	172	2009-06-11 22:18:03
+easypodcast	Anonymous donor(s)	172	2009-06-11 22:18:04
+easystruts	Anonymous donor(s)	172	2009-06-11 22:18:05
+eboard	mimosinnet	172	2009-06-11 22:18:07
+eboard	iwulu	172	2009-06-11 22:18:07
+eboard	Anonymous donor(s)	172	2009-06-11 22:18:07
+ebon	bheilig	172	2009-06-11 22:18:07
+ebxmlrr	Anonymous donor(s)	172	2009-06-11 22:18:07
+echovnc	reptileqc	172	2009-06-11 22:18:09
+eciadsl	Anonymous donor(s)	172	2009-06-11 22:18:09
+eclipse-cs	aguther	172	2009-06-11 22:18:10
+eclipse-cs	markygoldstein	172	2009-06-11 22:18:10
+eclipse-cs	Anonymous donor(s)	172	2009-06-11 22:18:10
+eclipse-rbe	Anonymous donor(s)	172	2009-06-11 22:18:10
+eclipseme	Anonymous donor(s)	172	2009-06-11 22:18:11
+eclipseme	rorygraves	172	2009-06-11 22:18:11
+eclipseme	kyberneticist	172	2009-06-11 22:18:11
+eclipseme	anonymousmous	172	2009-06-11 22:18:11
+eclipseme	chaiken	172	2009-06-11 22:18:11
+eclipsesap2java	Anonymous donor(s)	172	2009-06-11 22:18:11
+eclipsetrader	Anonymous donor(s)	172	2009-06-11 22:18:11
+eclipsetrader	muhaas	172	2009-06-11 22:18:11
+eclipsetrader	odav	172	2009-06-11 22:18:11
+eclipsetrader	mckenph	172	2009-06-11 22:18:11
+ecogeographica	Anonymous donor(s)	172	2009-06-11 22:18:12
+ecut	nupstone	172	2009-06-11 22:18:13
+edireader	Anonymous donor(s)	172	2009-06-11 22:18:15
+editarea	Anonymous donor(s)	172	2009-06-11 22:18:15
+editarea	kochp	172	2009-06-11 22:18:15
+editarea	myinterestsde	172	2009-06-11 22:18:15
+editarea	jupiter_it	172	2009-06-11 22:18:15
+edna	Anonymous donor(s)	172	2009-06-11 22:18:16
+edoom	caedescontego	172	2009-06-11 22:18:16
+edtech	Anonymous donor(s)	172	2009-06-11 22:18:16
+eduke32	Anonymous donor(s)	172	2009-06-11 22:18:16
+eduke32	mblackwell1024	172	2009-06-11 22:18:16
+eduke32	spocke	172	2009-06-11 22:18:16
+edumips64	fafa1971	172	2009-06-11 22:18:16
+eekboek	kingigi	172	2009-06-11 22:18:17
+efw	kramernet	172	2009-06-11 22:18:18
+efw	Anonymous donor(s)	172	2009-06-11 22:18:18
+egg-fu	Anonymous donor(s)	172	2009-06-11 22:18:19
+eggsham	bill77	172	2009-06-11 22:18:19
+egwsec	Anonymous donor(s)	172	2009-06-11 22:18:20
+ehep	Anonymous donor(s)	172	2009-06-11 22:18:20
+eiffel-mas	quickstars	172	2009-06-11 22:18:21
+eigenbase	perfecthash	172	2009-06-11 22:18:21
+ejbca	Anonymous donor(s)	172	2009-06-11 22:18:22
+electrem	Anonymous donor(s)	172	2009-06-11 22:18:24
+electricsheep	Anonymous donor(s)	172	2009-06-11 22:18:24
+elgg	petehubbard	172	2009-06-11 22:18:26
+elgg	Anonymous donor(s)	172	2009-06-11 22:18:26
+emegs	ppeyk	172	2009-06-11 22:18:30
+emerge	Anonymous donor(s)	172	2009-06-11 22:18:30
+emerge	step666	172	2009-06-11 22:18:30
+emerge	sryo	172	2009-06-11 22:18:30
+emerge	jaclark7	172	2009-06-11 22:18:30
+emerge	johnnyzero	172	2009-06-11 22:18:30
+emesene	csolis	172	2009-06-11 22:18:30
+emfprinter	bass77	172	2009-06-11 22:18:30
+emma	jaywayjohan	172	2009-06-11 22:18:31
+emma	dchsw	172	2009-06-11 22:18:31
+emma	Anonymous donor(s)	172	2009-06-11 22:18:31
+emulepawcio	sg33g5	172	2009-06-11 22:18:32
+emulepawcio	Anonymous donor(s)	172	2009-06-11 22:18:32
+emuleplus	Anonymous donor(s)	172	2009-06-11 22:18:32
+emuleplus	jlporto13	172	2009-06-11 22:18:32
+emuleplus	trianda	172	2009-06-11 22:18:32
+emuleplus	grapaggi	172	2009-06-11 22:18:32
+emuleplus	doud135	172	2009-06-11 22:18:32
+emulextreme	snealg	172	2009-06-11 22:18:32
+emulextreme	Anonymous donor(s)	172	2009-06-11 22:18:32
+emulinker	Anonymous donor(s)	172	2009-06-11 22:18:32
+enblend	irose	172	2009-06-11 22:18:34
+enblend	jayuuey	172	2009-06-11 22:18:34
+enblend	samfentress	172	2009-06-11 22:18:34
+enblend	gferraro	172	2009-06-11 22:18:34
+enblend	jasestu	172	2009-06-11 22:18:34
+encyclopodia	pacopineda	172	2009-06-11 22:18:34
+encyclopodia	Anonymous donor(s)	172	2009-06-11 22:18:34
+enlightenment	Anonymous donor(s)	172	2009-06-11 22:18:36
+enlightenment	fazekaim	172	2009-06-11 22:18:36
+enlightenment	handyande	172	2009-06-11 22:18:36
+enlightenment	sleuth	172	2009-06-11 22:18:36
+enotifwiki	Anonymous donor(s)	172	2009-06-11 22:18:36
+eq2map-updater	Anonymous donor(s)	172	2009-06-11 22:18:41
+eqdkp-plus	Anonymous donor(s)	172	2009-06-11 22:18:41
+eqegg	Anonymous donor(s)	172	2009-06-11 22:18:41
+eraser	dwinches	172	2009-06-11 22:18:42
+eraser	Anonymous donor(s)	172	2009-06-11 22:18:42
+eric-ide	cpallanti	172	2009-06-11 22:18:43
+eric-ide	dhaffey	172	2009-06-11 22:18:43
+eric-ide	helixblue	172	2009-06-11 22:18:43
+eric-ide	Anonymous donor(s)	172	2009-06-11 22:18:43
+es40	martinv2	172	2009-06-11 22:18:45
+eternalware	jmszczap82	172	2009-06-11 22:18:49
+etex	Anonymous donor(s)	172	2009-06-11 22:18:49
+etherboot	afineberg	172	2009-06-11 22:18:49
+etherwatch	jbousquet	172	2009-06-11 22:18:50
+eticket	geronimo_xx	172	2009-06-11 22:18:50
+eticket	redpeppers	172	2009-06-11 22:18:50
+eticket	smbambling	172	2009-06-11 22:18:50
+eticket	livabetes	172	2009-06-11 22:18:50
+eticket	spamexperts	172	2009-06-11 22:18:50
+ettercap	delder	172	2009-06-11 22:18:50
+ettercap	inser13	172	2009-06-11 22:18:50
+ettercap	Anonymous donor(s)	172	2009-06-11 22:18:50
+euphony	Anonymous donor(s)	172	2009-06-11 22:18:51
+euphony	rodal	172	2009-06-11 22:18:51
+eventlogmonitor	anchornet	172	2009-06-11 22:18:53
+eventlogmonitor	garthlogic	172	2009-06-11 22:18:53
+evilnet	Anonymous donor(s)	172	2009-06-11 22:18:54
+evilnet	r33d	172	2009-06-11 22:18:54
+evm2003	Anonymous donor(s)	172	2009-06-11 22:18:55
+evocms	Anonymous donor(s)	172	2009-06-11 22:18:55
+evolution-osx	Anonymous donor(s)	172	2009-06-11 22:18:55
+exist	Anonymous donor(s)	172	2009-06-11 22:18:59
+exist	bkc	172	2009-06-11 22:18:59
+exist	glarsen	172	2009-06-11 22:18:59
+exist	ajwelch	172	2009-06-11 22:18:59
+exponent	golok	172	2009-06-11 22:19:01
+exponent	gboerman	172	2009-06-11 22:19:01
+exponent	generare	172	2009-06-11 22:19:01
+exponent	cburns70	172	2009-06-11 22:19:01
+exponent	jensth	172	2009-06-11 22:19:01
+exporttoxl	nderby	172	2009-06-11 22:19:01
+ext2fsd	ernie_r	172	2009-06-11 22:19:02
+ext2fsd	atkulp	172	2009-06-11 22:19:02
+ext2fsd	mdaniel	172	2009-06-11 22:19:02
+ext2fsd	Anonymous donor(s)	172	2009-06-11 22:19:02
+eyeos	Anonymous donor(s)	172	2009-06-11 22:19:04
+ezupdate	doa2	172	2009-06-11 22:19:06
+ezupdate	jasoncigar	172	2009-06-11 22:19:06
+f4l	toby_zurich	172	2009-06-11 22:19:06
+f4l	linux_girlie	172	2009-06-11 22:19:06
+f4l	andrewfrueh	172	2009-06-11 22:19:06
+f4l	Anonymous donor(s)	172	2009-06-11 22:19:06
+f5bbutil	kmashint	172	2009-06-11 22:19:06
+factux	Anonymous donor(s)	172	2009-06-11 22:19:08
+fail2ban	darcym	172	2009-06-11 22:19:09
+fail2ban	jsextl	172	2009-06-11 22:19:09
+fail2ban	Anonymous donor(s)	172	2009-06-11 22:19:09
+fakenes	Anonymous donor(s)	172	2009-06-11 22:19:09
+fangs	Anonymous donor(s)	172	2009-06-11 22:19:11
+farsitex	shabbirbhimani	172	2009-06-11 22:19:12
+fastmm	wynnrichardson	172	2009-06-11 22:19:13
+fastmm	gebor	172	2009-06-11 22:19:13
+fastmm	medington	172	2009-06-11 22:19:13
+fastmm	gerryf	172	2009-06-11 22:19:13
+fastmm	qcorrell	172	2009-06-11 22:19:13
+fb-contrib	ermannov	172	2009-06-11 22:19:15
+fb-s60	Anonymous donor(s)	172	2009-06-11 22:19:15
+fbpanel	sysy	172	2009-06-11 22:19:16
+fbpanel	Anonymous donor(s)	172	2009-06-11 22:19:16
+fdm	infofarmer	172	2009-06-11 22:19:17
+fdms2tools	gibbuti	172	2009-06-11 22:19:17
+feedreader	Anonymous donor(s)	172	2009-06-11 22:19:19
+feedreader	tbk24	172	2009-06-11 22:19:19
+ffmpeg-php	cmjoyner	172	2009-06-11 22:19:21
+ffmpeg-php	Anonymous donor(s)	172	2009-06-11 22:19:21
+ffpis	Anonymous donor(s)	172	2009-06-11 22:19:22
+ffrend	Anonymous donor(s)	172	2009-06-11 22:19:22
+ffs	Anonymous donor(s)	172	2009-06-11 22:19:22
+file-folder-ren	sevensages	172	2009-06-11 22:19:25
+file-folder-ren	dosware	172	2009-06-11 22:19:25
+file-folder-ren	courtenayennis	172	2009-06-11 22:19:25
+file-folder-ren	xavierguillot	172	2009-06-11 22:19:25
+file-folder-ren	lovesflsun	172	2009-06-11 22:19:25
+filebreaker	duquebaro	172	2009-06-11 22:19:25
+filenexus	robidigital	172	2009-06-11 22:19:26
+filenexus	Anonymous donor(s)	172	2009-06-11 22:19:26
+fileseeker	Anonymous donor(s)	172	2009-06-11 22:19:27
+filezilla	maziminke	172	2009-06-11 22:19:27
+filezilla	gfischel	172	2009-06-11 22:19:27
+filezilla	stephanweynicz	172	2009-06-11 22:19:27
+filezilla	mechanique	172	2009-06-11 22:19:27
+filezilla	dprushton	172	2009-06-11 22:19:27
+finj	Anonymous donor(s)	172	2009-06-11 22:19:30
+firehol	bhagatd	172	2009-06-11 22:19:32
+firehol	ypalanque	172	2009-06-11 22:19:32
+firemox	Anonymous donor(s)	172	2009-06-11 22:19:32
+firewallpapi	Anonymous donor(s)	172	2009-06-11 22:19:32
+fitd	wolruf	172	2009-06-11 22:19:34
+fjep	reconway	172	2009-06-11 22:19:35
+fjep	Anonymous donor(s)	172	2009-06-11 22:19:35
+flashlinux	lexthehex	172	2009-06-11 22:19:37
+flashlinux	Anonymous donor(s)	172	2009-06-11 22:19:37
+flashnuke	Anonymous donor(s)	172	2009-06-11 22:19:37
+flashqard	shahab_sh	172	2009-06-11 22:19:37
+flexformatter	brucedeen	172	2009-06-11 22:19:40
+flib	Anonymous donor(s)	172	2009-06-11 22:19:40
+flickrbackup	hinteraner	172	2009-06-11 22:19:41
+flowplayer	ddfishe	172	2009-06-11 22:19:42
+flowplayer	tunewiki	172	2009-06-11 22:19:42
+flowplayer	sandraklma	172	2009-06-11 22:19:42
+flowplayer	manuelkreutz	172	2009-06-11 22:19:42
+flowplayer	joetainment	172	2009-06-11 22:19:42
+fluxbox	kristianr	172	2009-06-11 22:19:44
+fluxbox	karnesky	172	2009-06-11 22:19:44
+fluxbox	infofarmer	172	2009-06-11 22:19:44
+fnswitch	Anonymous donor(s)	172	2009-06-11 22:19:46
+foam	Anonymous donor(s)	172	2009-06-11 22:19:46
+folderprint	edaw	172	2009-06-11 22:19:47
+foldersize	Anonymous donor(s)	172	2009-06-11 22:19:47
+foldersize	blaqc	172	2009-06-11 22:19:47
+foldersize	atamido	172	2009-06-11 22:19:47
+fontforge	Anonymous donor(s)	172	2009-06-11 22:19:47
+fontforge	widhaya3	172	2009-06-11 22:19:47
+fontforge	glyphobet	172	2009-06-11 22:19:47
+fontforge	victormote	172	2009-06-11 22:19:47
+fontforge	pgrzelak	172	2009-06-11 22:19:47
+foots	malign	172	2009-06-11 22:19:48
+foray	victormote	172	2009-06-11 22:19:49
+forester-atv	Anonymous donor(s)	172	2009-06-11 22:19:50
+formcat	lr1234567	172	2009-06-11 22:19:50
+forums	Anonymous donor(s)	172	2009-06-11 22:19:52
+forums	oamey	172	2009-06-11 22:19:52
+free-cmms	knearhoof	172	2009-06-11 22:19:57
+free-cmms	Anonymous donor(s)	172	2009-06-11 22:19:57
+free-doko	elpatron_kiel	172	2009-06-11 22:19:57
+free-doko	enders	172	2009-06-11 22:19:57
+free-doko	Anonymous donor(s)	172	2009-06-11 22:19:57
+free42	tcuser	172	2009-06-11 22:19:57
+free42	mcflan	172	2009-06-11 22:19:57
+free42	mac4805	172	2009-06-11 22:19:57
+free42	martyou	172	2009-06-11 22:19:57
+free42	jcadick	172	2009-06-11 22:19:57
+freecast	cymru2000	172	2009-06-11 22:19:59
+freecol	bmgzx	172	2009-06-11 22:20:00
+freecol	rijnsent	172	2009-06-11 22:20:00
+freecol	gearian	172	2009-06-11 22:20:00
+freecol	tiago_aquino	172	2009-06-11 22:20:00
+freecol	dwhigg	172	2009-06-11 22:20:00
+freefilesync	xanthos78	172	2009-06-11 22:20:01
+freeghost	paul220	172	2009-06-11 22:20:01
+freeghost	orphantech	172	2009-06-11 22:20:01
+freeghost	mfitch	172	2009-06-11 22:20:01
+freeghost	danielmash	172	2009-06-11 22:20:01
+freeghost	aucado54	172	2009-06-11 22:20:01
+freeguide-tv	Anonymous donor(s)	172	2009-06-11 22:20:01
+freeguide-tv	longrun	172	2009-06-11 22:20:01
+freeguide-tv	sfuller1955	172	2009-06-11 22:20:01
+freekiss	davidputman	172	2009-06-11 22:20:02
+freekiss	Anonymous donor(s)	172	2009-06-11 22:20:02
+freeorion	Anonymous donor(s)	172	2009-06-11 22:20:03
+freeorion	deletedbyrantz	172	2009-06-11 22:20:03
+freeorion	tsee	172	2009-06-11 22:20:03
+freeorion	tkeserus	172	2009-06-11 22:20:03
+freepops	rick98382	172	2009-06-11 22:20:04
+freepops	teleflip	172	2009-06-11 22:20:04
+freepops	mowog	172	2009-06-11 22:20:04
+freepops	nicolagiacobbe	172	2009-06-11 22:20:04
+freepops	Anonymous donor(s)	172	2009-06-11 22:20:04
+freestdf	Anonymous donor(s)	172	2009-06-11 22:20:05
+freestdf	jodonnellmfgv	172	2009-06-11 22:20:05
+freesteam	Anonymous donor(s)	172	2009-06-11 22:20:05
+freevo	atirc	172	2009-06-11 22:20:06
+freevo	Anonymous donor(s)	172	2009-06-11 22:20:06
+freewheeling	Anonymous donor(s)	172	2009-06-11 22:20:06
+freewheeling	autumnautist	172	2009-06-11 22:20:06
+freewheeling	daneasley	172	2009-06-11 22:20:06
+freewheeling	florentberthaut	172	2009-06-11 22:20:06
+freexer	Anonymous donor(s)	172	2009-06-11 22:20:06
+frinika	partypoker	172	2009-06-11 22:20:07
+frinika	hajdam	172	2009-06-11 22:20:07
+frinika	Anonymous donor(s)	172	2009-06-11 22:20:07
+frostwire	Anonymous donor(s)	172	2009-06-11 22:20:08
+frostwire	felipe1982	172	2009-06-11 22:20:08
+frostwire	gubatron	172	2009-06-11 22:20:08
+fsaa1655g	Anonymous donor(s)	172	2009-06-11 22:20:09
+fsth	Anonymous donor(s)	172	2009-06-11 22:20:10
+fswordfinder	Anonymous donor(s)	172	2009-06-11 22:20:10
+fullsync	Anonymous donor(s)	172	2009-06-11 22:20:12
+fullsync	xmlizer	172	2009-06-11 22:20:12
+fullsync	gsupp	172	2009-06-11 22:20:12
+fullsync	zonetuke	172	2009-06-11 22:20:12
+fusionregistry	ljcook	172	2009-06-11 22:20:14
+fusionregistry	allpar	172	2009-06-11 22:20:14
+fwink	Anonymous donor(s)	172	2009-06-11 22:20:16
+fwink	jnardone	172	2009-06-11 22:20:16
+fwink	jdh449	172	2009-06-11 22:20:16
+fxfloorboard	Anonymous donor(s)	172	2009-06-11 22:20:16
+fxruby	hal_fulton	172	2009-06-11 22:20:16
+fxstats	Anonymous donor(s)	172	2009-06-11 22:20:16
+gaim-bnet	Anonymous donor(s)	172	2009-06-11 22:20:19
+galleon	muppel	172	2009-06-11 22:20:21
+galleon	krkeegan	172	2009-06-11 22:20:21
+galleon	victorgh	172	2009-06-11 22:20:21
+galleon	eldonjon72	172	2009-06-11 22:20:21
+galleon	delder	172	2009-06-11 22:20:21
+gallery2flickr	papz	172	2009-06-11 22:20:21
+gallerycart	Anonymous donor(s)	172	2009-06-11 22:20:21
+gallerycart	mlkeffer	172	2009-06-11 22:20:21
+gallerycart	cal516	172	2009-06-11 22:20:21
+gallerycart	kenwilliams5	172	2009-06-11 22:20:21
+gameranger	Anonymous donor(s)	172	2009-06-11 22:20:24
+gametimeplus	trygvebotnen	172	2009-06-11 22:20:25
+gametimeplus	Anonymous donor(s)	172	2009-06-11 22:20:25
+ganttproject	Anonymous donor(s)	172	2009-06-11 22:20:26
+ganttproject	edaw	172	2009-06-11 22:20:26
+ganttproject	richard_brown	172	2009-06-11 22:20:26
+ganttproject	shvyndin-ab	172	2009-06-11 22:20:26
+ganttproject	epastele	172	2009-06-11 22:20:26
+ganttpv	Anonymous donor(s)	172	2009-06-11 22:20:26
+gcaldaemon	Anonymous donor(s)	172	2009-06-11 22:20:30
+gcaldaemon	tmcdougal	172	2009-06-11 22:20:30
+gcaldaemon	marvd	172	2009-06-11 22:20:30
+gcaldaemon	curtainrod	172	2009-06-11 22:20:30
+gcaldaemon	koick	172	2009-06-11 22:20:30
+gcalendar-nuke	jimarron	172	2009-06-11 22:20:30
+gcalendar-nuke	sixf00t4	172	2009-06-11 22:20:30
+gcalendar-nuke	kbulmer	172	2009-06-11 22:20:30
+gcalendar-nuke	fnolan	172	2009-06-11 22:20:30
+gcalsync	Anonymous donor(s)	172	2009-06-11 22:20:30
+gcs-java	war-ink	172	2009-06-11 22:20:31
+gcs-java	hammerbot	172	2009-06-11 22:20:31
+gcs-java	wurp	172	2009-06-11 22:20:31
+gcs-java	Anonymous donor(s)	172	2009-06-11 22:20:31
+geany	avantman42	172	2009-06-11 22:20:33
+geany	gentoo-freak	172	2009-06-11 22:20:33
+geany	alex_garel	172	2009-06-11 22:20:33
+geany	kioob	172	2009-06-11 22:20:33
+geany	fxguillois	172	2009-06-11 22:20:33
+gearhead	johnnydmonic	172	2009-06-11 22:20:33
+gearhead2	jhondai	172	2009-06-11 22:20:33
+geckoproj	frenchrh	172	2009-06-11 22:20:34
+geda	Anonymous donor(s)	172	2009-06-11 22:20:34
+geekbind	vlm	172	2009-06-11 22:20:35
+geeny	Anonymous donor(s)	172	2009-06-11 22:20:35
+geexboxforwii	elsnorro	172	2009-06-11 22:20:35
+geexboxforwii	torben_s	172	2009-06-11 22:20:35
+genesearcher	Anonymous donor(s)	172	2009-06-11 22:20:37
+geshi	Anonymous donor(s)	172	2009-06-11 22:20:43
+geshi	phpzen	172	2009-06-11 22:20:43
+getid3	cashisking123	172	2009-06-11 22:20:45
+getid3	wbartels	172	2009-06-11 22:20:45
+getid3	Anonymous donor(s)	172	2009-06-11 22:20:45
+getittogether	Anonymous donor(s)	172	2009-06-11 22:20:45
+gfime11webstat	Anonymous donor(s)	172	2009-06-11 22:20:46
+gfime11webstat	hodelm	172	2009-06-11 22:20:46
+ggap	Anonymous donor(s)	172	2009-06-11 22:20:47
+gham	chfalcao	172	2009-06-11 22:20:48
+gham	Anonymous donor(s)	172	2009-06-11 22:20:48
+gi-gui	rolriam	172	2009-06-11 22:20:49
+gimp-app	Anonymous donor(s)	172	2009-06-11 22:20:51
+gimp-app	musicmanj	172	2009-06-11 22:20:51
+gimp-app	andrewf1234	172	2009-06-11 22:20:51
+gimp-app	larsrc	172	2009-06-11 22:20:51
+gimp-win	jefurii	172	2009-06-11 22:20:51
+gizmod	bernardokuri	172	2009-06-11 22:20:53
+gizmod	Anonymous donor(s)	172	2009-06-11 22:20:53
+glm-ajax	nicktrew	172	2009-06-11 22:20:56
+glm-flv	samnsane	172	2009-06-11 22:20:56
+glmom	Anonymous donor(s)	172	2009-06-11 22:20:56
+globetrotter	Anonymous donor(s)	172	2009-06-11 22:20:57
+gmail-lite	markthien	172	2009-06-11 22:20:59
+gmail-lite	philipkd	172	2009-06-11 22:20:59
+gmailerxp	jhwk	172	2009-06-11 22:21:00
+gmailerxp	richgatlin	172	2009-06-11 22:21:00
+gmailproxy	Anonymous donor(s)	172	2009-06-11 22:21:00
+gmap-module	eduo	172	2009-06-11 22:21:00
+gmap-module	Anonymous donor(s)	172	2009-06-11 22:21:00
+gmenu2x	lorystorm90	172	2009-06-11 22:21:00
+gmenu2x	Anonymous donor(s)	172	2009-06-11 22:21:00
+gnomad2	vpyhrric	172	2009-06-11 22:21:03
+gnome-cyr	Anonymous donor(s)	172	2009-06-11 22:21:04
+gnome-sv	norpan	172	2009-06-11 22:21:05
+gns-3	ocyl	172	2009-06-11 22:21:06
+gnu-darwin	proclus	172	2009-06-11 22:21:06
+gnucash	jszigetvari	172	2009-06-11 22:21:06
+gnucash	lucisit	172	2009-06-11 22:21:06
+gnucash	greatred	172	2009-06-11 22:21:06
+gnucash	davidkmoore	172	2009-06-11 22:21:06
+gnucash	norepeat	172	2009-06-11 22:21:06
+gnude	Anonymous donor(s)	172	2009-06-11 22:21:07
+gnustamp	Anonymous donor(s)	172	2009-06-11 22:21:09
+gnutsp	rob_chou	172	2009-06-11 22:21:09
+gnuwin32	tricaric	172	2009-06-11 22:21:09
+gnuwin32	njall	172	2009-06-11 22:21:09
+gnuwin32	dynn	172	2009-06-11 22:21:09
+gnuwin32	mzoboli	172	2009-06-11 22:21:09
+gnuwin32	yuzisee	172	2009-06-11 22:21:09
+gogrinder	james_schiiller	172	2009-06-11 22:21:10
+gogrinder	Anonymous donor(s)	172	2009-06-11 22:21:10
+googlelocator	Anonymous donor(s)	172	2009-06-11 22:21:12
+gopf	Anonymous donor(s)	172	2009-06-11 22:21:13
+gopf	gryzor	172	2009-06-11 22:21:13
+gopf	rjfhendriks	172	2009-06-11 22:21:13
+gosee	Anonymous donor(s)	172	2009-06-11 22:21:14
+gpgrelay	Anonymous donor(s)	172	2009-06-11 22:21:16
+gplflashcards	Anonymous donor(s)	172	2009-06-11 22:21:16
+gplmpgdec	Anonymous donor(s)	172	2009-06-11 22:21:17
+gpsbabel	Anonymous donor(s)	172	2009-06-11 22:21:17
+gpsbabel	skloecker	172	2009-06-11 22:21:17
+gpsbabel	jimburd	172	2009-06-11 22:21:17
+gpsim	Anonymous donor(s)	172	2009-06-11 22:21:17
+gpslib4j	boris_mikhaylov	172	2009-06-11 22:21:17
+gpsmap	Anonymous donor(s)	172	2009-06-11 22:21:17
+gpsmap	marciowb	172	2009-06-11 22:21:17
+gpsmap	ganand	172	2009-06-11 22:21:17
+gpsmapper	sunilnarwal	172	2009-06-11 22:21:17
+gqlplus	frobnic8	172	2009-06-11 22:21:19
+gqlplus	Anonymous donor(s)	172	2009-06-11 22:21:19
+gqview	kozaki	172	2009-06-11 22:21:19
+gqview	Anonymous donor(s)	172	2009-06-11 22:21:19
+gramps	espenbe	172	2009-06-11 22:21:20
+gramps	bayvista	172	2009-06-11 22:21:20
+gramps	ostie67	172	2009-06-11 22:21:20
+gramps	sbutman	172	2009-06-11 22:21:20
+gramps	digimars	172	2009-06-11 22:21:20
+grandperspectiv	valentinissimo	172	2009-06-11 22:21:21
+grandperspectiv	thfarrell	172	2009-06-11 22:21:21
+grandperspectiv	tomrhoads	172	2009-06-11 22:21:21
+grandperspectiv	famouslastwords	172	2009-06-11 22:21:21
+grandperspectiv	alcomposer	172	2009-06-11 22:21:21
+graph	Anonymous donor(s)	172	2009-06-11 22:21:21
+greader2x	battlefinch	172	2009-06-11 22:21:23
+greenshot	lovesflsun	172	2009-06-11 22:21:24
+greenshot	edaw	172	2009-06-11 22:21:24
+greenshot	chfalcao	172	2009-06-11 22:21:24
+greenshot	pippip2	172	2009-06-11 22:21:24
+greenshot	danvine	172	2009-06-11 22:21:24
+gretl	walesch	172	2009-06-11 22:21:25
+grinder	gold_owl	172	2009-06-11 22:21:26
+group-office	djk20	172	2009-06-11 22:21:27
+group-office	infofarmer	172	2009-06-11 22:21:27
+group-office	prodigy2u3	172	2009-06-11 22:21:27
+group-office	Anonymous donor(s)	172	2009-06-11 22:21:27
+gruntspud	blueyed	172	2009-06-11 22:21:29
+gscan2pdf	rpotter28	172	2009-06-11 22:21:29
+gscan2pdf	voronaam	172	2009-06-11 22:21:29
+gscan2pdf	infofarmer	172	2009-06-11 22:21:29
+gscan2pdf	rahofmann	172	2009-06-11 22:21:29
+gscan2pdf	lyhana8	172	2009-06-11 22:21:29
+gshowtv	xavierguillot	172	2009-06-11 22:21:30
+gsoap2	Anonymous donor(s)	172	2009-06-11 22:21:31
+gsoap2	danler	172	2009-06-11 22:21:31
+gsr	iccicom	172	2009-06-11 22:21:31
+gtd-php	u_m_rasmussen	172	2009-06-11 22:21:32
+gtd-php	fvaz	172	2009-06-11 22:21:32
+gtd-php	wafflemana	172	2009-06-11 22:21:32
+gtk-gnutella	noubi	172	2009-06-11 22:21:33
+gtk-mui	senex_sf	172	2009-06-11 22:21:33
+gtkpod	simonfrei	172	2009-06-11 22:21:35
+gtkpod	tele2win	172	2009-06-11 22:21:35
+gtkpod	alsierra	172	2009-06-11 22:21:35
+gtkpod	steeleyuk	172	2009-06-11 22:21:35
+gtkpod	kanikilu	172	2009-06-11 22:21:35
+guifications	Anonymous donor(s)	172	2009-06-11 22:21:37
+guifications	eddie_ferrari	172	2009-06-11 22:21:37
+guitoo	gmharkin	172	2009-06-11 22:21:38
+guitoo	rongten	172	2009-06-11 22:21:38
+gujin	infofarmer	172	2009-06-11 22:21:38
+gujin	saeed319	172	2009-06-11 22:21:38
+gujin	Anonymous donor(s)	172	2009-06-11 22:21:38
+guliverkli	gnurkel	172	2009-06-11 22:21:38
+guliverkli	jhall251	172	2009-06-11 22:21:38
+guliverkli	blseal	172	2009-06-11 22:21:38
+guliverkli	ocyl	172	2009-06-11 22:21:38
+guliverkli	numenor65	172	2009-06-11 22:21:38
+gutenpalm	infofarmer	172	2009-06-11 22:21:40
+gwenview	technologov	172	2009-06-11 22:21:41
+gyachi	grkumar123	172	2009-06-11 22:21:42
+h0td0g	Anonymous donor(s)	172	2009-06-11 22:21:42
+ha-jdbc	Anonymous donor(s)	172	2009-06-11 22:21:43
+halflifeadmin	infofarmer	172	2009-06-11 22:21:45
+halflifeadmin	cccnbn	172	2009-06-11 22:21:45
+halflifeadmin	Anonymous donor(s)	172	2009-06-11 22:21:45
+hallon	Anonymous donor(s)	172	2009-06-11 22:21:45
+halo2stats	Anonymous donor(s)	172	2009-06-11 22:21:45
+halomaprep	Anonymous donor(s)	172	2009-06-11 22:21:45
+hammerora	bobvance	172	2009-06-11 22:21:46
+handypalmstuff	cjpkicherche	172	2009-06-11 22:21:46
+hannah	Anonymous donor(s)	172	2009-06-11 22:21:47
+hashish	Anonymous donor(s)	172	2009-06-11 22:21:49
+havp	Anonymous donor(s)	172	2009-06-11 22:21:49
+hbci4java	s3lf	172	2009-06-11 22:21:50
+hbci4java	prodigy7	172	2009-06-11 22:21:50
+hcpin	Anonymous donor(s)	172	2009-06-11 22:21:51
+hdparm	Anonymous donor(s)	172	2009-06-11 22:21:51
+headunit	Anonymous donor(s)	172	2009-06-11 22:21:51
+healthmonitor	Anonymous donor(s)	172	2009-06-11 22:21:52
+heat-meteo	daisyraven	172	2009-06-11 22:21:52
+heat-meteo	bostmaguy	172	2009-06-11 22:21:52
+heat-meteo	Anonymous donor(s)	172	2009-06-11 22:21:52
+helpcenterlive	jnet	172	2009-06-11 22:21:54
+hessling-editor	Anonymous donor(s)	172	2009-06-11 22:21:56
+hexedit	Anonymous donor(s)	172	2009-06-11 22:21:56
+hibernatesynch	lsitongia	172	2009-06-11 22:21:57
+hibernex	corby	172	2009-06-11 22:21:57
+hldstart	xtc_samu	172	2009-06-11 22:22:01
+hmne	Anonymous donor(s)	172	2009-06-11 22:22:02
+hnfapmon	fiaranch	172	2009-06-11 22:22:02
+hnfapmon	bruce12	172	2009-06-11 22:22:02
+hnfapmon	k1deu	172	2009-06-11 22:22:02
+hnfapmon	ed413	172	2009-06-11 22:22:02
+hnfapmon	raildr	172	2009-06-11 22:22:02
+hoaras	Anonymous donor(s)	172	2009-06-11 22:22:02
+hobbitmon	Anonymous donor(s)	172	2009-06-11 22:22:02
+hobbitmon	boylelaw	172	2009-06-11 22:22:02
+homesightremote	Anonymous donor(s)	172	2009-06-11 22:22:04
+hostinghelper	Anonymous donor(s)	172	2009-06-11 22:22:06
+hotelier	nano2001ac	172	2009-06-11 22:22:06
+hotkeybind	cswilly	172	2009-06-11 22:22:06
+hotsanic	Anonymous donor(s)	172	2009-06-11 22:22:06
+hp3900-series	Anonymous donor(s)	172	2009-06-11 22:22:07
+hp3900-series	calibinot	172	2009-06-11 22:22:07
+html-editor	Anonymous donor(s)	172	2009-06-11 22:22:10
+html2fpdf	palanvinod	172	2009-06-11 22:22:10
+html2fpdf	cdukes	172	2009-06-11 22:22:10
+html2fpdf	Anonymous donor(s)	172	2009-06-11 22:22:10
+httpunit	Anonymous donor(s)	172	2009-06-11 22:22:13
+httpunit	mrjabba	172	2009-06-11 22:22:13
+httpunit	sesters	172	2009-06-11 22:22:13
+httpunit	zenforhire	172	2009-06-11 22:22:13
+hugin	vpdura	172	2009-06-11 22:22:14
+hugin	rolfn	172	2009-06-11 22:22:14
+hugin	gdg17	172	2009-06-11 22:22:14
+hugin	gawthrop	172	2009-06-11 22:22:14
+hugin	lor74cas	172	2009-06-11 22:22:14
+humaitrader	Anonymous donor(s)	172	2009-06-11 22:22:14
+hvalur	Anonymous donor(s)	172	2009-06-11 22:22:15
+hydrogen	xtrip	172	2009-06-11 22:22:16
+hydrogen	seamower	172	2009-06-11 22:22:16
+hydrogen	calmongo	172	2009-06-11 22:22:16
+hydrogen	desy666	172	2009-06-11 22:22:16
+hydrogen	lowintensity	172	2009-06-11 22:22:16
+hylafax	glasn0st	172	2009-06-11 22:22:17
+hyperestraier	Anonymous donor(s)	172	2009-06-11 22:22:17
+hypergraph	Anonymous donor(s)	172	2009-06-11 22:22:17
+hypergraph	tommeke100	172	2009-06-11 22:22:17
+hypergraph	mhwombat	172	2009-06-11 22:22:17
+hyperwap	Anonymous donor(s)	172	2009-06-11 22:22:17
+ical4j	ebremer	172	2009-06-11 22:22:22
+ical4j	spybreak	172	2009-06-11 22:22:22
+icopy	fnw2004	172	2009-06-11 22:22:25
+icopy	mkeaton1967	172	2009-06-11 22:22:25
+icpac	Anonymous donor(s)	172	2009-06-11 22:22:25
+ie7	jamesacook	172	2009-06-11 22:22:29
+ie7	Anonymous donor(s)	172	2009-06-11 22:22:29
+ieadmin	Anonymous donor(s)	172	2009-06-11 22:22:29
+iextract	infofarmer	172	2009-06-11 22:22:30
+ifstatus	Anonymous donor(s)	172	2009-06-11 22:22:31
+ignalum	Anonymous donor(s)	172	2009-06-11 22:22:31
+ihu	Anonymous donor(s)	172	2009-06-11 22:22:32
+iipimage	rukiman	172	2009-06-11 22:22:33
+iipimage	Anonymous donor(s)	172	2009-06-11 22:22:33
+ijournal	Anonymous donor(s)	172	2009-06-11 22:22:33
+ileech	helium222	172	2009-06-11 22:22:34
+imagneto	Anonymous donor(s)	172	2009-06-11 22:22:37
+imailistproj	Anonymous donor(s)	172	2009-06-11 22:22:37
+img-browse-sort	adao2001	172	2009-06-11 22:22:39
+img-browse-sort	Anonymous donor(s)	172	2009-06-11 22:22:39
+imgseek	cfortune	172	2009-06-11 22:22:39
+imgv	Anonymous donor(s)	172	2009-06-11 22:22:40
+imho10	Anonymous donor(s)	172	2009-06-11 22:22:40
+impresscms	sethsd	172	2009-06-11 22:22:41
+imsniffer	christr	172	2009-06-11 22:22:41
+incron	wschlich	172	2009-06-11 22:22:42
+ingeniweb	rileydogwa	172	2009-06-11 22:22:46
+ingeniweb	Anonymous donor(s)	172	2009-06-11 22:22:46
+initranslator	lbaudrillard	172	2009-06-11 22:22:47
+injection	mmwasko	172	2009-06-11 22:22:47
+inkscape	vic2vic	172	2009-06-11 22:22:47
+inkscape	eggplantfarmer	172	2009-06-11 22:22:47
+inkscape	nessie212	172	2009-06-11 22:22:47
+inkscape	ber	172	2009-06-11 22:22:47
+inkscape	mboulado	172	2009-06-11 22:22:47
+inkulator	Anonymous donor(s)	172	2009-06-11 22:22:47
+inprotect	guinnessstout	172	2009-06-11 22:22:49
+installjammer	kovidgoyal	172	2009-06-11 22:22:50
+instlux	Anonymous donor(s)	172	2009-06-11 22:22:51
+instlux	jordi_massaguer	172	2009-06-11 22:22:51
+instlux	tkrag	172	2009-06-11 22:22:51
+int64	Anonymous donor(s)	172	2009-06-11 22:22:51
+intel915wddm	Anonymous donor(s)	172	2009-06-11 22:22:51
+intelligerefcs	giorgionatili	172	2009-06-11 22:22:52
+internote	vnpiper	172	2009-06-11 22:22:53
+invisiblebasic	sysmod	172	2009-06-11 22:22:56
+iometer	notes	172	2009-06-11 22:22:56
+iometer	Anonymous donor(s)	172	2009-06-11 22:22:56
+ipat-s	Anonymous donor(s)	172	2009-06-11 22:22:57
+ipodder	c_chambers	172	2009-06-11 22:23:00
+ipodder	thefeman	172	2009-06-11 22:23:00
+ipodder	eckh60	172	2009-06-11 22:23:00
+ipodder	martypup	172	2009-06-11 22:23:00
+ipodder	leocarling	172	2009-06-11 22:23:00
+ipodlinuxinstl	Anonymous donor(s)	172	2009-06-11 22:23:00
+ipscan	Anonymous donor(s)	172	2009-06-11 22:23:01
+iptbb	Anonymous donor(s)	172	2009-06-11 22:23:01
+ireport	Anonymous donor(s)	172	2009-06-11 22:23:04
+ireport	jesteve	172	2009-06-11 22:23:04
+ireport	daudo	172	2009-06-11 22:23:04
+ireport	bstusa2	172	2009-06-11 22:23:04
+iriverter	Anonymous donor(s)	172	2009-06-11 22:23:05
+irm	Anonymous donor(s)	172	2009-06-11 22:23:05
+irrlichtsharp	Anonymous donor(s)	172	2009-06-11 22:23:05
+irrpt	Anonymous donor(s)	172	2009-06-11 22:23:06
+iscroll2	Anonymous donor(s)	172	2009-06-11 22:23:06
+iscroll2	lwampler	172	2009-06-11 22:23:06
+iscroll2	lassik	172	2009-06-11 22:23:06
+iscroll2	rojaws	172	2009-06-11 22:23:06
+isoj2me	Anonymous donor(s)	172	2009-06-11 22:23:08
+ispcp	dirkey	172	2009-06-11 22:23:09
+ispcp	djkouza	172	2009-06-11 22:23:09
+ispcp	wwwtheinanimate	172	2009-06-11 22:23:09
+ispcp	jdcooke	172	2009-06-11 22:23:09
+ispcp	joanas1347	172	2009-06-11 22:23:09
+ispider	froosh	172	2009-06-11 22:23:09
+ispider	Anonymous donor(s)	172	2009-06-11 22:23:09
+ispp	Anonymous donor(s)	172	2009-06-11 22:23:09
+ispysoftware	loststeak	172	2009-06-11 22:23:10
+italc	jxdinkin	172	2009-06-11 22:23:11
+italc	srlillian	172	2009-06-11 22:23:11
+italc	jdeisenberg	172	2009-06-11 22:23:11
+italc	carbenson	172	2009-06-11 22:23:11
+italc	pdubu	172	2009-06-11 22:23:11
+iterm	jlarkin	172	2009-06-11 22:23:11
+iterm	avacc	172	2009-06-11 22:23:11
+iterm	andrewkener	172	2009-06-11 22:23:11
+iterm	snuffop	172	2009-06-11 22:23:11
+iterm	iaw4	172	2009-06-11 22:23:11
+itextdotnet	Anonymous donor(s)	172	2009-06-11 22:23:11
+itrade	Anonymous donor(s)	172	2009-06-11 22:23:12
+itsfv	danzlotnik	172	2009-06-11 22:23:12
+itunesexport	Anonymous donor(s)	172	2009-06-11 22:23:13
+ivan	maff_yew	172	2009-06-11 22:23:14
+ivan	Anonymous donor(s)	172	2009-06-11 22:23:14
+ivman	Anonymous donor(s)	172	2009-06-11 22:23:14
+ivs-milter	Anonymous donor(s)	172	2009-06-11 22:23:14
+ivtv	mcr	172	2009-06-11 22:23:15
+ixsf	Anonymous donor(s)	172	2009-06-11 22:23:16
+j-ftp	brashertech	172	2009-06-11 22:23:16
+j-interop	Anonymous donor(s)	172	2009-06-11 22:23:16
+j2eespider	bgbraga	172	2009-06-11 22:23:17
+j2mevnc	Anonymous donor(s)	172	2009-06-11 22:23:19
+jabbin	infofarmer	172	2009-06-11 22:23:21
+jabref	nmiller_co	172	2009-06-11 22:23:21
+jabref	thekilch	172	2009-06-11 22:23:21
+jabref	finklera	172	2009-06-11 22:23:21
+jabref	kbajer	172	2009-06-11 22:23:21
+jabref	mrwhite2000	172	2009-06-11 22:23:21
+jac64	Anonymous donor(s)	172	2009-06-11 22:23:21
+jailer	loospa	172	2009-06-11 22:23:24
+jajuk	ursmenet	172	2009-06-11 22:23:25
+jajuk	chozzecz	172	2009-06-11 22:23:25
+jajuk	bflorat	172	2009-06-11 22:23:25
+jajuk	edaw	172	2009-06-11 22:23:25
+jajuk	Anonymous donor(s)	172	2009-06-11 22:23:25
+jake2	Anonymous donor(s)	172	2009-06-11 22:23:25
+jake2	kenshiu	172	2009-06-11 22:23:25
+jalingo	lazylegs	172	2009-06-11 22:23:25
+jameleon	slappstah	172	2009-06-11 22:23:26
+jameleon	Anonymous donor(s)	172	2009-06-11 22:23:26
+jamonapi	hg000627	172	2009-06-11 22:23:26
+jamonapi	Anonymous donor(s)	172	2009-06-11 22:23:26
+jamvm	Anonymous donor(s)	172	2009-06-11 22:23:26
+jamvm	plougher	172	2009-06-11 22:23:26
+jaolt	jabirukawanna	172	2009-06-11 22:23:27
+jaris	tommar7	172	2009-06-11 22:23:28
+jatha	Anonymous donor(s)	172	2009-06-11 22:23:30
+java-comix	Anonymous donor(s)	172	2009-06-11 22:23:31
+java-game-lib	Anonymous donor(s)	172	2009-06-11 22:23:31
+java-game-lib	ant001	172	2009-06-11 22:23:31
+java-game-lib	midster	172	2009-06-11 22:23:31
+java-game-lib	gavia	172	2009-06-11 22:23:31
+java-game-lib	majeric	172	2009-06-11 22:23:31
+java3d-eclipse	vlads	172	2009-06-11 22:23:32
+java3dsloader	Anonymous donor(s)	172	2009-06-11 22:23:32
+javaabc	thedeppchef	172	2009-06-11 22:23:32
+javacavemaps	javakai	172	2009-06-11 22:23:33
+javacsv	meetmrnrg	172	2009-06-11 22:23:34
+javacsv	Anonymous donor(s)	172	2009-06-11 22:23:34
+javadiff	Anonymous donor(s)	172	2009-06-11 22:23:34
+javagroups	bacchu_anjan	172	2009-06-11 22:23:35
+javaserver	Anonymous donor(s)	172	2009-06-11 22:23:38
+javawebparts	hpsof	172	2009-06-11 22:23:40
+javaxm	cshotton	172	2009-06-11 22:23:41
+javaxm	wellesgoodrich	172	2009-06-11 22:23:41
+javaxm	Anonymous donor(s)	172	2009-06-11 22:23:41
+jbidwatcher	Anonymous donor(s)	172	2009-06-11 22:23:43
+jbidwatcher	rino8	172	2009-06-11 22:23:43
+jbidwatcher	skigeek	172	2009-06-11 22:23:43
+jbidwatcher	fivelittlefish	172	2009-06-11 22:23:43
+jbuzzer	achimwestermann	172	2009-06-11 22:23:45
+jchart2d	Anonymous donor(s)	172	2009-06-11 22:23:46
+jchart2d	bschooly	172	2009-06-11 22:23:46
+jchart2d	bkasindorf	172	2009-06-11 22:23:46
+jd3lib	Anonymous donor(s)	172	2009-06-11 22:23:50
+jdev-vss-ext	Anonymous donor(s)	172	2009-06-11 22:23:51
+jedit	braqoon	172	2009-06-11 22:23:54
+jedit	danquah	172	2009-06-11 22:23:54
+jedit	raganoth	172	2009-06-11 22:23:54
+jedit	aka3	172	2009-06-11 22:23:54
+jedit	danr7	172	2009-06-11 22:23:54
+jep	karianna	172	2009-06-11 22:23:56
+jepp	yuricake	172	2009-06-11 22:23:56
+jerichohtml	milotin	172	2009-06-11 22:23:56
+jeti	Anonymous donor(s)	172	2009-06-11 22:23:57
+jetty	Anonymous donor(s)	172	2009-06-11 22:23:57
+jfacedbc	Anonymous donor(s)	172	2009-06-11 22:23:58
+jffnms	johndag	172	2009-06-11 22:23:58
+jflac	bhamail	172	2009-06-11 22:23:59
+jfritz	robotniko	172	2009-06-11 22:24:00
+jfritz	truckerchen	172	2009-06-11 22:24:00
+jfritz	Anonymous donor(s)	172	2009-06-11 22:24:00
+jgap	Anonymous donor(s)	172	2009-06-11 22:24:01
+jgap	nogre	172	2009-06-11 22:24:01
+jgap	hbr1717	172	2009-06-11 22:24:01
+jgen-database	joomlagenes	172	2009-06-11 22:24:01
+jgnash	Anonymous donor(s)	172	2009-06-11 22:24:02
+jgnash	washhog	172	2009-06-11 22:24:02
+jgnash	jfmurray	172	2009-06-11 22:24:02
+jgnash	mczapf	172	2009-06-11 22:24:02
+jgnash	tjinkerson	172	2009-06-11 22:24:02
+jgossipforum	Anonymous donor(s)	172	2009-06-11 22:24:02
+jgraph	lindsayb	172	2009-06-11 22:24:02
+jgraph	scapt	172	2009-06-11 22:24:02
+jgraph	Anonymous donor(s)	172	2009-06-11 22:24:02
+jicengine	Anonymous donor(s)	172	2009-06-11 22:24:04
+jimm	Anonymous donor(s)	172	2009-06-11 22:24:05
+jmac	bhamail	172	2009-06-11 22:24:10
+jmemorize	kerrisian	172	2009-06-11 22:24:11
+jmemorize	taligent	172	2009-06-11 22:24:11
+jmemorize	doggan	172	2009-06-11 22:24:11
+jmemorize	Anonymous donor(s)	172	2009-06-11 22:24:11
+jmirc	Anonymous donor(s)	172	2009-06-11 22:24:12
+jmri	jere_ingram	172	2009-06-11 22:24:12
+jmri	w_cholmondeley	172	2009-06-11 22:24:12
+jmri	djduchamp	172	2009-06-11 22:24:12
+jmri	awilliamson	172	2009-06-11 22:24:12
+jmri	wookey	172	2009-06-11 22:24:12
+jmtf	Anonymous donor(s)	172	2009-06-11 22:24:13
+jncomponents	thesponsor	172	2009-06-11 22:24:14
+jode	robertito	172	2009-06-11 22:24:16
+joelib	daendeleon	172	2009-06-11 22:24:17
+jogre	Anonymous donor(s)	172	2009-06-11 22:24:17
+joone	ollieg	172	2009-06-11 22:24:18
+joone	ouimetco	172	2009-06-11 22:24:18
+joone	dnovelli	172	2009-06-11 22:24:18
+joone	sakisg	172	2009-06-11 22:24:18
+joone	abdo_achkar	172	2009-06-11 22:24:18
+jpersist	Anonymous donor(s)	172	2009-06-11 22:24:22
+jpilot-db	Anonymous donor(s)	172	2009-06-11 22:24:22
+jpodder	Anonymous donor(s)	172	2009-06-11 22:24:23
+jpodder	dzone	172	2009-06-11 22:24:23
+jpype	iamroderik	172	2009-06-11 22:24:25
+jpype	mister_b	172	2009-06-11 22:24:25
+jpype	atyutyunnik	172	2009-06-11 22:24:25
+jpype	garrett1020	172	2009-06-11 22:24:25
+jqemugui	Anonymous donor(s)	172	2009-06-11 22:24:25
+jqql	wolvesled	172	2009-06-11 22:24:25
+jrisk	henry54	172	2009-06-11 22:24:27
+jrisk	ndjc	172	2009-06-11 22:24:27
+jrisk	kyphilom	172	2009-06-11 22:24:27
+jrisk	visualecho	172	2009-06-11 22:24:27
+jrisk	Anonymous donor(s)	172	2009-06-11 22:24:27
+jrobot	lelex54321	172	2009-06-11 22:24:27
+jrobots	Anonymous donor(s)	172	2009-06-11 22:24:27
+jsbrwsniff	van_koperen	172	2009-06-11 22:24:28
+jsbsim	wysacre	172	2009-06-11 22:24:28
+jsbsim	dpculp	172	2009-06-11 22:24:28
+jsbsim	Anonymous donor(s)	172	2009-06-11 22:24:28
+jsettings	Anonymous donor(s)	172	2009-06-11 22:24:31
+jsholdem	Anonymous donor(s)	172	2009-06-11 22:24:32
+jsmsirl	ronanbrowne	172	2009-06-11 22:24:33
+jsmsirl	davidnolan	172	2009-06-11 22:24:33
+jsshtunnel	Anonymous donor(s)	172	2009-06-11 22:24:36
+jtds	nielsg	172	2009-06-11 22:24:38
+jtds	Anonymous donor(s)	172	2009-06-11 22:24:38
+jtemplates	Anonymous donor(s)	172	2009-06-11 22:24:39
+jtidy	vlads	172	2009-06-11 22:24:39
+jtransplant	bnblazer	172	2009-06-11 22:24:40
+juice	Anonymous donor(s)	172	2009-06-11 22:24:41
+juicereceiver	tgelee	172	2009-06-11 22:24:42
+juicereceiver	chrisbloomfield	172	2009-06-11 22:24:42
+juicereceiver	mvillal	172	2009-06-11 22:24:42
+juicereceiver	abacab1965	172	2009-06-11 22:24:42
+juicereceiver	goyenp	172	2009-06-11 22:24:42
+junkmatcher	Anonymous donor(s)	172	2009-06-11 22:24:43
+juno6	Anonymous donor(s)	172	2009-06-11 22:24:43
+juploadr	Anonymous donor(s)	172	2009-06-11 22:24:43
+juploadr	madinam	172	2009-06-11 22:24:43
+juploadr	emerix	172	2009-06-11 22:24:43
+juploadr	tomates	172	2009-06-11 22:24:43
+juploadr	slauriere	172	2009-06-11 22:24:43
+jvoicexml	buente	172	2009-06-11 22:24:46
+jvstwrapper	markygoldstein	172	2009-06-11 22:24:46
+jwchat	Anonymous donor(s)	172	2009-06-11 22:24:46
+jwchat	infofarmer	172	2009-06-11 22:24:46
+jwchat	dotplex	172	2009-06-11 22:24:46
+jwchat	supportspace	172	2009-06-11 22:24:46
+jxplorer	syberchic	172	2009-06-11 22:24:48
+jxtask	albert_	172	2009-06-11 22:24:48
+k5ndesktopcal	deanderson	172	2009-06-11 22:24:50
+k9copy	Anonymous donor(s)	172	2009-06-11 22:24:50
+k9copy	bkp	172	2009-06-11 22:24:50
+k9copy	guettli	172	2009-06-11 22:24:50
+kaboodle	Anonymous donor(s)	172	2009-06-11 22:24:51
+kanasensei	fbergeron	172	2009-06-11 22:24:52
+karrigell	gloonie	172	2009-06-11 22:24:55
+kat	Anonymous donor(s)	172	2009-06-11 22:24:55
+katan	Anonymous donor(s)	172	2009-06-11 22:24:55
+kb2kskype	ezust	172	2009-06-11 22:24:56
+kb2kskype	dabombnl	172	2009-06-11 22:24:56
+kb2kskype	philippt	172	2009-06-11 22:24:56
+kbattery	Anonymous donor(s)	172	2009-06-11 22:24:56
+kdar	Anonymous donor(s)	172	2009-06-11 22:24:57
+kde-cygwin	Anonymous donor(s)	172	2009-06-11 22:24:58
+kde-cygwin	mosquitotracker	172	2009-06-11 22:24:58
+kde-cygwin	fishpi	172	2009-06-11 22:24:58
+kdiff3	leonidk08	172	2009-06-11 22:24:58
+kdiff3	kmoore1213	172	2009-06-11 22:24:58
+kdiff3	sskalkunte	172	2009-06-11 22:24:58
+kdiff3	jalanb	172	2009-06-11 22:24:58
+kdiff3	schragge	172	2009-06-11 22:24:58
+keepass	halinagold	172	2009-06-11 22:24:59
+keepass	calsam	172	2009-06-11 22:24:59
+keepass	giovino	172	2009-06-11 22:24:59
+keepass	luden	172	2009-06-11 22:24:59
+keepass	dfcz2	172	2009-06-11 22:24:59
+keepassbb	Anonymous donor(s)	172	2009-06-11 22:24:59
+keepassbb	broughtie	172	2009-06-11 22:24:59
+keepassbb	bitbucket000	172	2009-06-11 22:24:59
+keepassbb	emenhart	172	2009-06-11 22:24:59
+keepassbb	dennisyuki	172	2009-06-11 22:24:59
+keepassj2me	Anonymous donor(s)	172	2009-06-11 22:24:59
+keepassj2me	isgtj0	172	2009-06-11 22:24:59
+keepassj2me	davernot	172	2009-06-11 22:24:59
+keepassj2me	munchos	172	2009-06-11 22:24:59
+keepasssd	dkcarmona	172	2009-06-11 22:24:59
+keepasssd	igyman	172	2009-06-11 22:24:59
+keepasssd	Anonymous donor(s)	172	2009-06-11 22:24:59
+keepassx	ctirpak	172	2009-06-11 22:24:59
+keepassx	workmanlike	172	2009-06-11 22:24:59
+keepassx	noiano	172	2009-06-11 22:24:59
+keepassx	bobov	172	2009-06-11 22:24:59
+keepassx	creemorian	172	2009-06-11 22:24:59
+keytouch	luc765	172	2009-06-11 22:25:02
+keytouch	mrbooter	172	2009-06-11 22:25:02
+keytouch	grgentux	172	2009-06-11 22:25:02
+keytouch	Anonymous donor(s)	172	2009-06-11 22:25:02
+kgbarchiver	Anonymous donor(s)	172	2009-06-11 22:25:03
+kgbarchiver	sramos30	172	2009-06-11 22:25:03
+kgbarchiver	iliast	172	2009-06-11 22:25:03
+kgbarchiver	dechazeau	172	2009-06-11 22:25:03
+kile	arpasi	172	2009-06-11 22:25:05
+kile	schragge	172	2009-06-11 22:25:05
+kile	tjm1983	172	2009-06-11 22:25:05
+kile	nobelis	172	2009-06-11 22:25:05
+kile	spigotbp	172	2009-06-11 22:25:05
+kio-clucene	skierpage	172	2009-06-11 22:25:06
+kiskis	lin89rtw	172	2009-06-11 22:25:07
+kiskis	cvetter	172	2009-06-11 22:25:07
+kiskis	Anonymous donor(s)	172	2009-06-11 22:25:07
+kissfft	Anonymous donor(s)	172	2009-06-11 22:25:07
+klamav	Anonymous donor(s)	172	2009-06-11 22:25:08
+kmatrix3d	superstoned	172	2009-06-11 22:25:10
+kmeleon	kkomp	172	2009-06-11 22:25:10
+kmenc15	Anonymous donor(s)	172	2009-06-11 22:25:10
+kmltosql	simonecampora	172	2009-06-11 22:25:11
+knoda	Anonymous donor(s)	172	2009-06-11 22:25:12
+knoda	martinwelsh	172	2009-06-11 22:25:12
+knopaste	Anonymous donor(s)	172	2009-06-11 22:25:12
+knoppixmame	natmaka	172	2009-06-11 22:25:12
+knoppixmame	Anonymous donor(s)	172	2009-06-11 22:25:12
+kobazscripts	m45t3r	172	2009-06-11 22:25:13
+kodos	Anonymous donor(s)	172	2009-06-11 22:25:13
+koizo	marotoweb	172	2009-06-11 22:25:14
+koizo	krani1	172	2009-06-11 22:25:14
+kolmafia	chubgrub	172	2009-06-11 22:25:14
+kolmafia	amethysta	172	2009-06-11 22:25:14
+kolmafia	stevoid	172	2009-06-11 22:25:14
+kolmafia	bdrag0n	172	2009-06-11 22:25:14
+kolmafia	kidoblivious	172	2009-06-11 22:25:14
+kplayer	Anonymous donor(s)	172	2009-06-11 22:25:18
+kraken-gateway	wroot	172	2009-06-11 22:25:19
+krdesktop	amclaren	172	2009-06-11 22:25:19
+krusader	technologov	172	2009-06-11 22:25:20
+krusader	perab	172	2009-06-11 22:25:20
+krusader	dnelson26	172	2009-06-11 22:25:20
+krusader	schragge	172	2009-06-11 22:25:20
+krusader	psionides	172	2009-06-11 22:25:20
+ksar	jasonholland	172	2009-06-11 22:25:21
+ksar	Anonymous donor(s)	172	2009-06-11 22:25:21
+kscraft	Anonymous donor(s)	172	2009-06-11 22:25:21
+kscraft	akopian	172	2009-06-11 22:25:21
+kscraft	diotima-perc	172	2009-06-11 22:25:21
+ksetiwatch	Anonymous donor(s)	172	2009-06-11 22:25:21
+ksudoku	mattflaschen	172	2009-06-11 22:25:22
+ksudoku	Anonymous donor(s)	172	2009-06-11 22:25:22
+ktechlab	arcachofo	172	2009-06-11 22:25:22
+ktechlab	digigalos	172	2009-06-11 22:25:22
+ktechlab	vsavani	172	2009-06-11 22:25:22
+ktouch	blueyed	172	2009-06-11 22:25:23
+kumbia	Anonymous donor(s)	172	2009-06-11 22:25:23
+kzenexplorer	Anonymous donor(s)	172	2009-06-11 22:25:26
+l7-filter	bartman007	172	2009-06-11 22:25:27
+l7-filter	azfuller	172	2009-06-11 22:25:27
+l7-filter	Anonymous donor(s)	172	2009-06-11 22:25:27
+laffer	Anonymous donor(s)	172	2009-06-11 22:25:30
+lambda	ariejan	172	2009-06-11 22:25:30
+larytet	Anonymous donor(s)	172	2009-06-11 22:25:33
+latex-beamer	Anonymous donor(s)	172	2009-06-11 22:25:35
+latex-beamer	rongten	172	2009-06-11 22:25:35
+latex-beamer	shimikano	172	2009-06-11 22:25:35
+latex-beamer	wiskott	172	2009-06-11 22:25:35
+latex-beamer	fasolack	172	2009-06-11 22:25:35
+latexdraw	martinnyc	172	2009-06-11 22:25:35
+latexdraw	franki31	172	2009-06-11 22:25:35
+latexdraw	Anonymous donor(s)	172	2009-06-11 22:25:35
+launcher	Anonymous donor(s)	172	2009-06-11 22:25:36
+launchy	jledv	172	2009-06-11 22:25:36
+launchy	jsnel	172	2009-06-11 22:25:36
+launchy	bhoffste	172	2009-06-11 22:25:36
+launchy	davidspalding	172	2009-06-11 22:25:36
+launchy	dearon	172	2009-06-11 22:25:36
+layout	ksakuma	172	2009-06-11 22:25:36
+layout	gurkesaft	172	2009-06-11 22:25:36
+lazyinstaller	utdream	172	2009-06-11 22:25:37
+lcdsmartie	Anonymous donor(s)	172	2009-06-11 22:25:38
+lcdsmartie	copkiller80	172	2009-06-11 22:25:38
+lcdsmartie	jta827	172	2009-06-11 22:25:38
+leafnode	onetravelsource	172	2009-06-11 22:25:41
+leafnode	adamfunk	172	2009-06-11 22:25:41
+leafnode	theheise	172	2009-06-11 22:25:41
+leafnode	seocompany	172	2009-06-11 22:25:41
+leafrss	Anonymous donor(s)	172	2009-06-11 22:25:41
+leklekdict	Anonymous donor(s)	172	2009-06-11 22:25:43
+lemonos	Anonymous donor(s)	172	2009-06-11 22:25:43
+leo	kccole01	172	2009-06-11 22:25:44
+leo	thyrsus	172	2009-06-11 22:25:44
+leo	derwisch	172	2009-06-11 22:25:44
+leo	davidmcnab	172	2009-06-11 22:25:44
+leo	danr7	172	2009-06-11 22:25:44
+lessa	bv3r	172	2009-06-11 22:25:45
+leto	drogillio	172	2009-06-11 22:25:45
+leto	Anonymous donor(s)	172	2009-06-11 22:25:45
+lgames	Anonymous donor(s)	172	2009-06-11 22:25:46
+lgames	xavierguillot	172	2009-06-11 22:25:46
+lgames	rehlers	172	2009-06-11 22:25:46
+libcdorganizer	knightofoldcode	172	2009-06-11 22:25:48
+libcx	gcogniaux	172	2009-06-11 22:25:50
+libdc1394	sourceforgedonm	172	2009-06-11 22:25:50
+liberopops	Anonymous donor(s)	172	2009-06-11 22:25:51
+libmpeg2	Anonymous donor(s)	172	2009-06-11 22:25:55
+libnjb	ral84	172	2009-06-11 22:25:55
+libusb-win32	bitpipe	172	2009-06-11 22:26:00
+libusbdotnet	l05443	172	2009-06-11 22:26:00
+libwebserver	Anonymous donor(s)	172	2009-06-11 22:26:01
+libymp	infofarmer	172	2009-06-11 22:26:01
+licq	Anonymous donor(s)	172	2009-06-11 22:26:02
+licq	grayswander	172	2009-06-11 22:26:02
+licq	bodyonov	172	2009-06-11 22:26:02
+lifetype	Anonymous donor(s)	172	2009-06-11 22:26:02
+lightphpcms	clwells	172	2009-06-11 22:26:03
+lightscreen	scolestock	172	2009-06-11 22:26:03
+lightscreen	paulgj	172	2009-06-11 22:26:03
+linav	Anonymous donor(s)	172	2009-06-11 22:26:05
+lingon	fuzzy-wan	172	2009-06-11 22:26:06
+lingon	ridogi	172	2009-06-11 22:26:06
+lingon	jblaize	172	2009-06-11 22:26:06
+lingon	chetripley	172	2009-06-11 22:26:06
+lingon	pattiharrington	172	2009-06-11 22:26:06
+linpha	Anonymous donor(s)	172	2009-06-11 22:26:08
+linpha	bernard_j_l	172	2009-06-11 22:26:08
+linpha	fearlessleader	172	2009-06-11 22:26:08
+linpha	wwl911	172	2009-06-11 22:26:08
+linpha	specialist383	172	2009-06-11 22:26:08
+linux-ntfs	stups	172	2009-06-11 22:26:09
+linux-ntfs	tomtj	172	2009-06-11 22:26:09
+linux-ntfs	jay_berkenbilt	172	2009-06-11 22:26:09
+linux-ntfs	Anonymous donor(s)	172	2009-06-11 22:26:09
+listengnome	Anonymous donor(s)	172	2009-06-11 22:26:13
+listengnome	inko_ia	172	2009-06-11 22:26:13
+listengnome	simonfrei	172	2009-06-11 22:26:13
+live-graph	collinsej	172	2009-06-11 22:26:15
+livecut	Anonymous donor(s)	172	2009-06-11 22:26:16
+lives	Anonymous donor(s)	172	2009-06-11 22:26:16
+lives	scachi	172	2009-06-11 22:26:16
+ljarchive	Anonymous donor(s)	172	2009-06-11 22:26:17
+lmme	yaniv_jonathan	172	2009-06-11 22:26:18
+lmms	skiessi	172	2009-06-11 22:26:18
+lmms	vilkatis	172	2009-06-11 22:26:18
+lmms	unition	172	2009-06-11 22:26:18
+lmms	skrell	172	2009-06-11 22:26:18
+locomotive	gocbgo	172	2009-06-11 22:26:21
+locomotive	Anonymous donor(s)	172	2009-06-11 22:26:21
+logicmail	doomsday_bb	172	2009-06-11 22:26:23
+logicmail	brbinj	172	2009-06-11 22:26:23
+logicmail	mikem42	172	2009-06-11 22:26:23
+logicmail	nduk2010	172	2009-06-11 22:26:23
+logicmail	teknokat	172	2009-06-11 22:26:23
+lose	Anonymous donor(s)	172	2009-06-11 22:26:27
+lottasophie	Anonymous donor(s)	172	2009-06-11 22:26:27
+lportal	kirkf	172	2009-06-11 22:26:28
+lportal	Anonymous donor(s)	172	2009-06-11 22:26:28
+lprof	lt_gustavsen	172	2009-06-11 22:26:28
+lprof	leonardevens	172	2009-06-11 22:26:28
+lprof	larspm	172	2009-06-11 22:26:28
+lpuni	ricardo1702	172	2009-06-11 22:26:28
+lslplus	marco_cunha	172	2009-06-11 22:26:30
+luaedit	redhades	172	2009-06-11 22:26:32
+luaedit	Anonymous donor(s)	172	2009-06-11 22:26:32
+lucidcms	Anonymous donor(s)	172	2009-06-11 22:26:32
+lucidcms	neal1047	172	2009-06-11 22:26:32
+luntbuild	robinshine	172	2009-06-11 22:26:34
+lxp	kathydms	172	2009-06-11 22:26:36
+lynkeos	Anonymous donor(s)	172	2009-06-11 22:26:37
+maatkit	fishpi	172	2009-06-11 22:26:38
+mac-on-linux	Anonymous donor(s)	172	2009-06-11 22:26:38
+mac3dec	Anonymous donor(s)	172	2009-06-11 22:26:39
+macattrick	Anonymous donor(s)	172	2009-06-11 22:26:39
+macflightgear	Anonymous donor(s)	172	2009-06-11 22:26:39
+macglide	unyedelsu	172	2009-06-11 22:26:40
+macglide	Anonymous donor(s)	172	2009-06-11 22:26:40
+macpaf	Anonymous donor(s)	172	2009-06-11 22:26:41
+macxm	Anonymous donor(s)	172	2009-06-11 22:26:41
+macxm	chigh	172	2009-06-11 22:26:41
+madedit	Anonymous donor(s)	172	2009-06-11 22:26:42
+madedit	dantemason	172	2009-06-11 22:26:42
+madedit	cyorxamp	172	2009-06-11 22:26:42
+madedit	acastellon	172	2009-06-11 22:26:42
+madedit	geroldpe	172	2009-06-11 22:26:42
+magnolia	phrodo	172	2009-06-11 22:26:45
+magpierss	Anonymous donor(s)	172	2009-06-11 22:26:45
+mahogany	openhs	172	2009-06-11 22:26:45
+mail-rpg-client	falk_huth	172	2009-06-11 22:26:46
+mailman	Anonymous donor(s)	172	2009-06-11 22:26:47
+mailman	nes49	172	2009-06-11 22:26:47
+mailman	infofarmer	172	2009-06-11 22:26:47
+mailmerge	minimal11	172	2009-06-11 22:26:47
+mailwasher	Anonymous donor(s)	172	2009-06-11 22:26:48
+mailwatch	Anonymous donor(s)	172	2009-06-11 22:26:48
+mandarax	jeff_gaer	172	2009-06-11 22:26:51
+mantaray	Anonymous donor(s)	172	2009-06-11 22:26:52
+mapivi	Anonymous donor(s)	172	2009-06-11 22:26:53
+mapivi	renzop	172	2009-06-11 22:26:53
+markiv	anton-science	172	2009-06-11 22:26:56
+mars	Anonymous donor(s)	172	2009-06-11 22:26:56
+marsyas	Anonymous donor(s)	172	2009-06-11 22:26:56
+massid3lib	Anonymous donor(s)	172	2009-06-11 22:26:57
+materm	Anonymous donor(s)	172	2009-06-11 22:26:58
+materm	karnesky	172	2009-06-11 22:26:58
+math-linux	narutocanada	172	2009-06-11 22:26:58
+matplotlib	cfuller	172	2009-06-11 22:27:01
+matplotlib	bytang	172	2009-06-11 22:27:01
+matplotlib	mike137	172	2009-06-11 22:27:01
+matplotlib	inghi	172	2009-06-11 22:27:01
+matplotlib	smif1984	172	2009-06-11 22:27:01
+maxview	Anonymous donor(s)	172	2009-06-11 22:27:03
+mazesmith	Anonymous donor(s)	172	2009-06-11 22:27:03
+mcor	dastanger	172	2009-06-11 22:27:06
+mcor	Anonymous donor(s)	172	2009-06-11 22:27:06
+md5deep	ruddenberg	172	2009-06-11 22:27:07
+mda-sql	Anonymous donor(s)	172	2009-06-11 22:27:07
+mdapifilter	Anonymous donor(s)	172	2009-06-11 22:27:07
+mdevinf	dur730	172	2009-06-11 22:27:08
+meanwhile	cskalenda	172	2009-06-11 22:27:10
+meanwhile	peacy	172	2009-06-11 22:27:10
+meanwhile	le_chat	172	2009-06-11 22:27:10
+meanwhile	Anonymous donor(s)	172	2009-06-11 22:27:10
+mediacoder	Anonymous donor(s)	172	2009-06-11 22:27:11
+mediacoder	tylast	172	2009-06-11 22:27:11
+mediacoder	saberliner	172	2009-06-11 22:27:11
+mediainfo	msromike	172	2009-06-11 22:27:11
+mediainfo	bernguil	172	2009-06-11 22:27:11
+mediainfo	oas777	172	2009-06-11 22:27:11
+mediainfo	graystrickland	172	2009-06-11 22:27:11
+mediatomb	spookymulder	172	2009-06-11 22:27:12
+mediatomb	j1mmy76	172	2009-06-11 22:27:12
+megatrack	ericjwolfe	172	2009-06-11 22:27:13
+megatrack	fparris	172	2009-06-11 22:27:13
+megatrack	gtravis3	172	2009-06-11 22:27:14
+megatrack	Anonymous donor(s)	172	2009-06-11 22:27:14
+megatunix	Anonymous donor(s)	172	2009-06-11 22:27:14
+megatunix	jagwit	172	2009-06-11 22:27:14
+megatunix	modly	172	2009-06-11 22:27:14
+mekwars	Anonymous donor(s)	172	2009-06-11 22:27:14
+membermapnuke	virtualwar	172	2009-06-11 22:27:15
+memjog	mcoulter279	172	2009-06-11 22:27:15
+memoranda	schroder2	172	2009-06-11 22:27:16
+meshcms	gslender	172	2009-06-11 22:27:18
+meta-analysis	Anonymous donor(s)	172	2009-06-11 22:27:19
+metasamadhi	halfpint	172	2009-06-11 22:27:21
+mffmbitstream	Anonymous donor(s)	172	2009-06-11 22:27:23
+mffmtimescale	mhakkinen	172	2009-06-11 22:27:23
+mffmtimescale	Anonymous donor(s)	172	2009-06-11 22:27:23
+microusb	Anonymous donor(s)	172	2009-06-11 22:27:28
+midiprocessing	Anonymous donor(s)	172	2009-06-11 22:27:28
+midp-calc	apolgati	172	2009-06-11 22:27:29
+midp-calc	viric	172	2009-06-11 22:27:29
+midp-calc	Anonymous donor(s)	172	2009-06-11 22:27:29
+minibar	Anonymous donor(s)	172	2009-06-11 22:27:33
+minipauker	Anonymous donor(s)	172	2009-06-11 22:27:34
+minipauker	mrbiki	172	2009-06-11 22:27:34
+minishare	Anonymous donor(s)	172	2009-06-11 22:27:34
+mios	Anonymous donor(s)	172	2009-06-11 22:27:36
+mirkosdk	synkro	172	2009-06-11 22:27:37
+mirkosdk	Anonymous donor(s)	172	2009-06-11 22:27:37
+mirth	nrandom	172	2009-06-11 22:27:37
+mixere	borateen	172	2009-06-11 22:27:38
+mixxx	infofarmer	172	2009-06-11 22:27:38
+mixxx	p_ter_z	172	2009-06-11 22:27:38
+mixxx	kingttx3	172	2009-06-11 22:27:38
+mkcdrec	tastle73	172	2009-06-11 22:27:40
+mkcdrec	loadbalancerx3	172	2009-06-11 22:27:40
+mkcdrec	lewis_holcroft	172	2009-06-11 22:27:40
+mkcdrec	mturnbull	172	2009-06-11 22:27:40
+mkcdrec	daryldjones	172	2009-06-11 22:27:40
+mle	bbskip22	172	2009-06-11 22:27:41
+mlmac	Anonymous donor(s)	172	2009-06-11 22:27:41
+mlsony	Anonymous donor(s)	172	2009-06-11 22:27:41
+mmclibrary	Anonymous donor(s)	172	2009-06-11 22:27:42
+mmclibrary	scottybaby	172	2009-06-11 22:27:42
+mmconvert	Anonymous donor(s)	172	2009-06-11 22:27:42
+mmtribute	stenni	172	2009-06-11 22:27:43
+mmtribute	Anonymous donor(s)	172	2009-06-11 22:27:43
+mobilemoodle	thomas667	172	2009-06-11 22:27:46
+moblogger2	manojtk	172	2009-06-11 22:27:47
+mod-fcgid	absd	172	2009-06-11 22:27:48
+mod-slotlimit	effe8	172	2009-06-11 22:27:49
+mod-spamhaus	jurassiko	172	2009-06-11 22:27:49
+modatospresta	mikmasson	172	2009-06-11 22:27:50
+modcplusplus	dashboardtiki	172	2009-06-11 22:27:50
+modcplusplus	dhetzel	172	2009-06-11 22:27:50
+monetdb	mlkersten	172	2009-06-11 22:27:55
+monete	Anonymous donor(s)	172	2009-06-11 22:27:55
+monex	drejc	172	2009-06-11 22:27:55
+monkeyd	j_9_dos	172	2009-06-11 22:27:56
+monkeystudio	Anonymous donor(s)	172	2009-06-11 22:27:56
+monocalendar	Anonymous donor(s)	172	2009-06-11 22:27:56
+monolingual	Anonymous donor(s)	172	2009-06-11 22:27:56
+monolingual	aw25	172	2009-06-11 22:27:56
+monolingual	kwiniec	172	2009-06-11 22:27:56
+monolingual	ennui1	172	2009-06-11 22:27:56
+monolingual	mckemper	172	2009-06-11 22:27:56
+moodle	linux_girlie	172	2009-06-11 22:27:58
+moodle	Anonymous donor(s)	172	2009-06-11 22:27:58
+mooedit	mobarski	172	2009-06-11 22:27:58
+mooffanka	Anonymous donor(s)	172	2009-06-11 22:27:58
+moonav	clauskj3r	172	2009-06-11 22:27:58
+moreamp	Anonymous donor(s)	172	2009-06-11 22:28:00
+moregroupware	lucifuge	172	2009-06-11 22:28:00
+moregroupware	Anonymous donor(s)	172	2009-06-11 22:28:00
+mosevents	Anonymous donor(s)	172	2009-06-11 22:28:01
+motionview	tegola	172	2009-06-11 22:28:02
+mov	Anonymous donor(s)	172	2009-06-11 22:28:03
+movierentals	Anonymous donor(s)	172	2009-06-11 22:28:03
+mp3-cms	monkshac	172	2009-06-11 22:28:05
+mp3-cms	mpolczynski	172	2009-06-11 22:28:05
+mp3-duplicates	Anonymous donor(s)	172	2009-06-11 22:28:05
+mp3bookhelper	Anonymous donor(s)	172	2009-06-11 22:28:06
+mp3bookhelper	callaleia	172	2009-06-11 22:28:06
+mp3bookhelper	sachinwfs	172	2009-06-11 22:28:06
+mp3explorer	skor16	172	2009-06-11 22:28:06
+mp3ey	icesphere	172	2009-06-11 22:28:06
+mp3gain	Anonymous donor(s)	172	2009-06-11 22:28:06
+mp3gain	labargmd	172	2009-06-11 22:28:06
+mp3gain	terri716	172	2009-06-11 22:28:06
+mp3gain	nikise1	172	2009-06-11 22:28:06
+mp3info	Anonymous donor(s)	172	2009-06-11 22:28:06
+mp3splitter	kpkpkp	172	2009-06-11 22:28:07
+mp3splt	Anonymous donor(s)	172	2009-06-11 22:28:07
+mp3splt	jhohm	172	2009-06-11 22:28:07
+mp3splt	rolofft	172	2009-06-11 22:28:07
+mpd	ajmarkus	172	2009-06-11 22:28:07
+mpd	Anonymous donor(s)	172	2009-06-11 22:28:07
+mplayerplug-in	larspmathiassen	172	2009-06-11 22:28:09
+mplayerplug-in	infofarmer	172	2009-06-11 22:28:09
+mplayerplug-in	msorc	172	2009-06-11 22:28:09
+mplayerplug-in	Anonymous donor(s)	172	2009-06-11 22:28:09
+mpxj	Anonymous donor(s)	172	2009-06-11 22:28:11
+msnshadow	epuertas	172	2009-06-11 22:28:14
+msnshadow	ced117	172	2009-06-11 22:28:14
+msnshadow	pdegroote	172	2009-06-11 22:28:14
+mt-daapd	fivesboy	172	2009-06-11 22:28:16
+mt-daapd	velociped	172	2009-06-11 22:28:16
+mt-daapd	Anonymous donor(s)	172	2009-06-11 22:28:16
+mugbook	Anonymous donor(s)	172	2009-06-11 22:28:18
+muibase	Anonymous donor(s)	172	2009-06-11 22:28:18
+multishop	nerd3d	172	2009-06-11 22:28:22
+multishop	Anonymous donor(s)	172	2009-06-11 22:28:22
+mumble	pilot_51	172	2009-06-11 22:28:22
+mumble	h3x4bit	172	2009-06-11 22:28:22
+mumble	fwaggle	172	2009-06-11 22:28:22
+mumble	mumble-tower	172	2009-06-11 22:28:22
+musicpd	keith_lauchlan	172	2009-06-11 22:28:24
+musicpd	jlapenna	172	2009-06-11 22:28:24
+musicpd	slaterson	172	2009-06-11 22:28:24
+musicpd	Anonymous donor(s)	172	2009-06-11 22:28:24
+musicplayer	jamesmicheallay	172	2009-06-11 22:28:24
+musicplayer	gates22	172	2009-06-11 22:28:24
+musicplayer	dustinfrelich	172	2009-06-11 22:28:24
+musicplayer	burlyhousetech	172	2009-06-11 22:28:24
+musicplayer	jebediah05	172	2009-06-11 22:28:24
+mvpmc	Anonymous donor(s)	172	2009-06-11 22:28:27
+mvpmc	pchadwick	172	2009-06-11 22:28:27
+mvpmc	rgitzel	172	2009-06-11 22:28:27
+mvpmc	gtb	172	2009-06-11 22:28:27
+mvpmc	philly_phenom	172	2009-06-11 22:28:27
+mwe	Anonymous donor(s)	172	2009-06-11 22:28:27
+mxchange	Anonymous donor(s)	172	2009-06-11 22:28:28
+mybic	Anonymous donor(s)	172	2009-06-11 22:28:30
+mybusinessbasic	oldno7	172	2009-06-11 22:28:31
+mybusinessbasic	mikecurry1974	172	2009-06-11 22:28:31
+mydns-ng	optize	172	2009-06-11 22:28:32
+myffl	Anonymous donor(s)	172	2009-06-11 22:28:33
+myfreetv	Anonymous donor(s)	172	2009-06-11 22:28:33
+mygrid	nuclearspike	172	2009-06-11 22:28:33
+myheadlines	Anonymous donor(s)	172	2009-06-11 22:28:33
+mypageall	k9barry	172	2009-06-11 22:28:37
+myphone	Anonymous donor(s)	172	2009-06-11 22:28:37
+myphone	whtech	172	2009-06-11 22:28:37
+mysqa	fbiaggi	172	2009-06-11 22:28:40
+mysql-cocoa	quickthyme	172	2009-06-11 22:28:40
+mysql-cocoa	Anonymous donor(s)	172	2009-06-11 22:28:40
+mysql-python	Anonymous donor(s)	172	2009-06-11 22:28:40
+mysql-python	holdenweb	172	2009-06-11 22:28:40
+mysql-python	dinoboff	172	2009-06-11 22:28:40
+mysql-python	paton-simpson	172	2009-06-11 22:28:40
+mysql-python	jstrout	172	2009-06-11 22:28:40
+mythburn	Anonymous donor(s)	172	2009-06-11 22:28:42
+mytracker	damaten	172	2009-06-11 22:28:43
+mytracks	benhof	172	2009-06-11 22:28:43
+mytracks	waterhead37	172	2009-06-11 22:28:43
+mytracks	reinard	172	2009-06-11 22:28:43
+mytracks	kaysystems	172	2009-06-11 22:28:43
+mytracks	jlboone2	172	2009-06-11 22:28:43
+n40hz	webtool	172	2009-06-11 22:28:45
+n40hz	joel-s	172	2009-06-11 22:28:45
+n40hz	Anonymous donor(s)	172	2009-06-11 22:28:45
+nagiosql	Anonymous donor(s)	172	2009-06-11 22:28:47
+nano-hive	vastnexus	172	2009-06-11 22:28:48
+nb-translations	Anonymous donor(s)	172	2009-06-11 22:28:52
+nb-translations	rued1	172	2009-06-11 22:28:52
+nc-net	Anonymous donor(s)	172	2009-06-11 22:28:53
+nco	rsignell	172	2009-06-11 22:28:53
+ndcms-net	Anonymous donor(s)	172	2009-06-11 22:28:55
+ndiswrapper	xgregx	172	2009-06-11 22:28:55
+ndiswrapper	feliu	172	2009-06-11 22:28:55
+ndiswrapper	v1nz	172	2009-06-11 22:28:55
+ndiswrapper	thiers	172	2009-06-11 22:28:55
+ndiswrapper	ieee488	172	2009-06-11 22:28:55
+ndoc	ingrates	172	2009-06-11 22:28:55
+ndoc	Anonymous donor(s)	172	2009-06-11 22:28:55
+ndslib	Anonymous donor(s)	172	2009-06-11 22:28:55
+nemo-cyclone	sergi5com	172	2009-06-11 22:28:57
+neobio	Anonymous donor(s)	172	2009-06-11 22:28:57
+neodatis-odb	guilhermegrg	172	2009-06-11 22:28:57
+neomail	Anonymous donor(s)	172	2009-06-11 22:28:58
+neomail	infofarmer	172	2009-06-11 22:28:58
+nesrommaker	rubberdude	172	2009-06-11 22:28:59
+nestopia	Anonymous donor(s)	172	2009-06-11 22:29:00
+netoffice	evolutionone	172	2009-06-11 22:29:05
+netoffice	robertgarrigos	172	2009-06-11 22:29:05
+netoffice	Anonymous donor(s)	172	2009-06-11 22:29:05
+netpop	Anonymous donor(s)	172	2009-06-11 22:29:05
+netron	lauriejane	172	2009-06-11 22:29:06
+netron	jamesmelhuish	172	2009-06-11 22:29:06
+netron	Anonymous donor(s)	172	2009-06-11 22:29:06
+netserver	haydont	172	2009-06-11 22:29:07
+netserver	Anonymous donor(s)	172	2009-06-11 22:29:07
+newgenlib	jai_haravu	172	2009-06-11 22:29:11
+newsphp	Anonymous donor(s)	172	2009-06-11 22:29:13
+newsstar	Anonymous donor(s)	172	2009-06-11 22:29:13
+ngrc	myrtdork	172	2009-06-11 22:29:17
+nhopkg	houndlinux	172	2009-06-11 22:29:17
+nice	kybernetikos	172	2009-06-11 22:29:18
+niceplayer	Anonymous donor(s)	172	2009-06-11 22:29:18
+niceplayer	ridogi	172	2009-06-11 22:29:18
+niceplayer	alammi	172	2009-06-11 22:29:18
+niceplayer	gferreroferri	172	2009-06-11 22:29:18
+niceplayer	jbbo	172	2009-06-11 22:29:18
+nicotine-app	Anonymous donor(s)	172	2009-06-11 22:29:18
+nicotine-app	georhey	172	2009-06-11 22:29:18
+nicotine-app	jprose	172	2009-06-11 22:29:18
+ninan	byte-poet	172	2009-06-11 22:29:20
+ninan	kenkl	172	2009-06-11 22:29:20
+ninan	Anonymous donor(s)	172	2009-06-11 22:29:20
+nltk	stevenbird	172	2009-06-11 22:29:22
+nmea	kaleid	172	2009-06-11 22:29:23
+nmnnewsletter	Anonymous donor(s)	172	2009-06-11 22:29:23
+noksync	petenz	172	2009-06-11 22:29:26
+nomadsync	Anonymous donor(s)	172	2009-06-11 22:29:27
+noname	shdohawk01	172	2009-06-11 22:29:27
+ns2graph	dosirrah	172	2009-06-11 22:29:32
+nsis	Anonymous donor(s)	172	2009-06-11 22:29:33
+nsis	hunter1728	172	2009-06-11 22:29:33
+nsis	jaywayjohan	172	2009-06-11 22:29:33
+nsis	rich_a	172	2009-06-11 22:29:33
+nsound	Anonymous donor(s)	172	2009-06-11 22:29:34
+nsplugin	Anonymous donor(s)	172	2009-06-11 22:29:34
+nst	quuxo	172	2009-06-11 22:29:35
+nst	Anonymous donor(s)	172	2009-06-11 22:29:35
+nuketopmusic	Anonymous donor(s)	172	2009-06-11 22:29:37
+nuketopmusic	dyanni	172	2009-06-11 22:29:37
+nullwebmail	Anonymous donor(s)	172	2009-06-11 22:29:38
+nvclock	freydenker	172	2009-06-11 22:29:40
+nvclock	Anonymous donor(s)	172	2009-06-11 22:29:40
+nvram-wakeup	Anonymous donor(s)	172	2009-06-11 22:29:40
+nzbget	Anonymous donor(s)	172	2009-06-11 22:29:42
+nzbget	karaokestu	172	2009-06-11 22:29:42
+objectdcl	jimshort	172	2009-06-11 22:29:45
+objectlistview	grammarian	172	2009-06-11 22:29:45
+ocsinventory	Anonymous donor(s)	172	2009-06-11 22:29:48
+ocsinventory	billrobo	172	2009-06-11 22:29:48
+ocsinventory	joeross7	172	2009-06-11 22:29:48
+ocsinventory	samyantoun	172	2009-06-11 22:29:48
+ocsinventory	voumard	172	2009-06-11 22:29:48
+ocular	Anonymous donor(s)	172	2009-06-11 22:29:50
+offl	robwetz	172	2009-06-11 22:29:52
+offl	laberdere	172	2009-06-11 22:29:52
+offl	Anonymous donor(s)	172	2009-06-11 22:29:52
+ogmrip	minimalisti	172	2009-06-11 22:29:54
+ogmrip	gxpark	172	2009-06-11 22:29:54
+ogmrip	mockenh	172	2009-06-11 22:29:54
+ogmrip	phileom	172	2009-06-11 22:29:54
+ogmrip	aaronfsf	172	2009-06-11 22:29:54
+ogre	sckoobs	172	2009-06-11 22:29:54
+ogre	borundin	172	2009-06-11 22:29:54
+ogre	Anonymous donor(s)	172	2009-06-11 22:29:54
+ogreal	Anonymous donor(s)	172	2009-06-11 22:29:54
+ojnk	Anonymous donor(s)	172	2009-06-11 22:29:56
+okiwi	lanjoe9	172	2009-06-11 22:29:56
+okiwi	Anonymous donor(s)	172	2009-06-11 22:29:56
+omb	randulo	172	2009-06-11 22:29:58
+omniportal	nberardi	172	2009-06-11 22:29:59
+omtoolbox	jakobwelner	172	2009-06-11 22:30:00
+oneorzero	mchristian	172	2009-06-11 22:30:01
+online-gaming	Anonymous donor(s)	172	2009-06-11 22:30:02
+onlinegrades	Anonymous donor(s)	172	2009-06-11 22:30:02
+ooc	Anonymous donor(s)	172	2009-06-11 22:30:04
+ooomacros	Anonymous donor(s)	172	2009-06-11 22:30:05
+ooop	dsmith2952	172	2009-06-11 22:30:05
+ooop	giordi63	172	2009-06-11 22:30:05
+ooop	sportember	172	2009-06-11 22:30:05
+ooop	czcsaba	172	2009-06-11 22:30:05
+opcion	Anonymous donor(s)	172	2009-06-11 22:30:07
+openanno	Anonymous donor(s)	172	2009-06-11 22:30:10
+openanno	endaryl	172	2009-06-11 22:30:10
+openanno	lynxis	172	2009-06-11 22:30:10
+opencards	scottrkahler	172	2009-06-11 22:30:12
+opencards	jow20	172	2009-06-11 22:30:12
+opendb	Anonymous donor(s)	172	2009-06-11 22:30:15
+opendb	ptal	172	2009-06-11 22:30:15
+opendb	jbousquet	172	2009-06-11 22:30:15
+opendb	rkpoulin	172	2009-06-11 22:30:15
+opendb	tms2x2	172	2009-06-11 22:30:15
+openfi	Anonymous donor(s)	172	2009-06-11 22:30:17
+openfi	amitgee	172	2009-06-11 22:30:17
+openfi	perkes	172	2009-06-11 22:30:17
+openfi	lazyart	172	2009-06-11 22:30:17
+openflower	Anonymous donor(s)	172	2009-06-11 22:30:18
+opengauge	metrompguino	172	2009-06-11 22:30:18
+opengtoolkit	Anonymous donor(s)	172	2009-06-11 22:30:20
+openh323gk	Anonymous donor(s)	172	2009-06-11 22:30:20
+openh323gk	boris_mikhaylov	172	2009-06-11 22:30:20
+openhr20	tibee	172	2009-06-11 22:30:20
+openit	nlsteffens	172	2009-06-11 22:30:21
+openit	Anonymous donor(s)	172	2009-06-11 22:30:21
+openmonitor	rscorpion	172	2009-06-11 22:30:24
+openneo	Anonymous donor(s)	172	2009-06-11 22:30:25
+openneo	jkozee	172	2009-06-11 22:30:25
+openneo	paul_c_s	172	2009-06-11 22:30:25
+openneo	w5lee	172	2009-06-11 22:30:25
+opennms	anderus	172	2009-06-11 22:30:26
+opennms	rshrubber	172	2009-06-11 22:30:26
+opennms	steffann	172	2009-06-11 22:30:26
+opennms	Anonymous donor(s)	172	2009-06-11 22:30:26
+openosek	Anonymous donor(s)	172	2009-06-11 22:30:26
+openospc	kstan_79	172	2009-06-11 22:30:26
+openpms	Anonymous donor(s)	172	2009-06-11 22:30:27
+openretsclient	Anonymous donor(s)	172	2009-06-11 22:30:28
+openshell	alexe_cn	172	2009-06-11 22:30:30
+openshowcenter	Anonymous donor(s)	172	2009-06-11 22:30:31
+opensmtp-net	sheda0	172	2009-06-11 22:30:31
+opensong	Anonymous donor(s)	172	2009-06-11 22:30:31
+opensong	mdmoyer	172	2009-06-11 22:30:31
+opensong	millgrover	172	2009-06-11 22:30:31
+opensong	kiwione	172	2009-06-11 22:30:31
+opensong	keykommander	172	2009-06-11 22:30:31
+opensourcemugen	formula69	172	2009-06-11 22:30:32
+opentracker-fw	Anonymous donor(s)	172	2009-06-11 22:30:35
+openttd	Anonymous donor(s)	172	2009-06-11 22:30:35
+openvpn	Anonymous donor(s)	172	2009-06-11 22:30:36
+openvpn	martin_hessler	172	2009-06-11 22:30:36
+openwebspider	andpoli	172	2009-06-11 22:30:37
+openwebspider	mousemoves104	172	2009-06-11 22:30:37
+openwebspider	Anonymous donor(s)	172	2009-06-11 22:30:37
+openwfe	pxe	172	2009-06-11 22:30:37
+openwfe	skyvanman	172	2009-06-11 22:30:37
+ophcrack	khanlog	172	2009-06-11 22:30:38
+ophcrack	rizlaleaf	172	2009-06-11 22:30:38
+ophcrack	blackfede	172	2009-06-11 22:30:38
+ophcrack	chwinste	172	2009-06-11 22:30:38
+ophcrack	pinternational	172	2009-06-11 22:30:38
+oradump	Anonymous donor(s)	172	2009-06-11 22:30:41
+orclib	gstrit	172	2009-06-11 22:30:43
+oreon	chatainsim	172	2009-06-11 22:30:43
+oreon	Anonymous donor(s)	172	2009-06-11 22:30:43
+oreports	c_pepper	172	2009-06-11 22:30:43
+oreports	nicholas	172	2009-06-11 22:30:43
+oreports	rcastag	172	2009-06-11 22:30:43
+oreports	boniarco	172	2009-06-11 22:30:43
+oreports	smbabu	172	2009-06-11 22:30:43
+orm-net	mr_luc	172	2009-06-11 22:30:44
+orm-net	siljeal	172	2009-06-11 22:30:44
+orm-net	pedershk	172	2009-06-11 22:30:44
+orm-net	Anonymous donor(s)	172	2009-06-11 22:30:44
+ortro	Anonymous donor(s)	172	2009-06-11 22:30:45
+os3grid	Anonymous donor(s)	172	2009-06-11 22:30:46
+osc	neoragex09	172	2009-06-11 22:30:46
+oscpm	Anonymous donor(s)	172	2009-06-11 22:30:47
+osfinancials	micha1968	172	2009-06-11 22:30:48
+osfinancials	Anonymous donor(s)	172	2009-06-11 22:30:48
+osmailcleaner	Anonymous donor(s)	172	2009-06-11 22:30:49
+osmailcleaner	rickrambo	172	2009-06-11 22:30:49
+osmailcleaner	johnnylkg	172	2009-06-11 22:30:49
+osmailcleaner	gidsco	172	2009-06-11 22:30:49
+osswin	Anonymous donor(s)	172	2009-06-11 22:30:51
+osswin	martin_hessler	172	2009-06-11 22:30:51
+osswin	timmyjnr	172	2009-06-11 22:30:51
+osswin	hobz	172	2009-06-11 22:30:51
+osx-palm-tools	Anonymous donor(s)	172	2009-06-11 22:30:52
+osxavr	bkriews	172	2009-06-11 22:30:52
+osxnews	Anonymous donor(s)	172	2009-06-11 22:30:52
+osync	Anonymous donor(s)	172	2009-06-11 22:30:52
+ourtunes	Anonymous donor(s)	172	2009-06-11 22:30:55
+owl	acidtoast	172	2009-06-11 22:30:56
+owl	ozymate	172	2009-06-11 22:30:56
+owl	joombler	172	2009-06-11 22:30:56
+owl	buchser	172	2009-06-11 22:30:56
+p3scan	jofry	172	2009-06-11 22:31:00
+p3scan	Anonymous donor(s)	172	2009-06-11 22:31:00
+p4a	zukunftcom	172	2009-06-11 22:31:00
+p4a	mechano	172	2009-06-11 22:31:00
+p4eclipse	Anonymous donor(s)	172	2009-06-11 22:31:00
+pablodraw	adammil2000	172	2009-06-11 22:31:01
+pablodraw	Anonymous donor(s)	172	2009-06-11 22:31:01
+pacpl	infofarmer	172	2009-06-11 22:31:02
+pacpl	mckemie	172	2009-06-11 22:31:02
+paintbrush	echocker	172	2009-06-11 22:31:04
+paintbrush	rpcohen	172	2009-06-11 22:31:04
+paintbrush	bartlebyfred	172	2009-06-11 22:31:04
+paintbrush	mattlohr	172	2009-06-11 22:31:04
+paintbrush	richardhealey	172	2009-06-11 22:31:04
+paintown	mac-gamer	172	2009-06-11 22:31:04
+paktype	Anonymous donor(s)	172	2009-06-11 22:31:04
+palireader	yeshu	172	2009-06-11 22:31:05
+palmavr	Anonymous donor(s)	172	2009-06-11 22:31:06
+palmopenchess	Anonymous donor(s)	172	2009-06-11 22:31:06
+palmopenchess	vonwillich	172	2009-06-11 22:31:06
+palmopenchess	albertopv	172	2009-06-11 22:31:06
+palmopenchess	simpawn	172	2009-06-11 22:31:06
+palmopenchess	herbschr	172	2009-06-11 22:31:06
+palmvnc2	gymcshoe	172	2009-06-11 22:31:07
+palmvnc2	Anonymous donor(s)	172	2009-06-11 22:31:07
+pam-mount	despot	172	2009-06-11 22:31:07
+pam-mount	phtb0y	172	2009-06-11 22:31:07
+pam-mount	larspmathiassen	172	2009-06-11 22:31:07
+pamie	frankturley	172	2009-06-11 22:31:08
+pamie	Anonymous donor(s)	172	2009-06-11 22:31:08
+pamusb	delder	172	2009-06-11 22:31:08
+pands	platsajack	172	2009-06-11 22:31:08
+pands	Anonymous donor(s)	172	2009-06-11 22:31:08
+paradb	mr_mcnatt	172	2009-06-11 22:31:11
+parallelcolt	liebke	172	2009-06-11 22:31:11
+parus	salnikov	172	2009-06-11 22:31:13
+passerby	oldwolfe01	172	2009-06-11 22:31:14
+passreminder	Anonymous donor(s)	172	2009-06-11 22:31:14
+passwordsafe	joejoehh	172	2009-06-11 22:31:15
+passwordsafe	anukampana	172	2009-06-11 22:31:15
+passwordsafe	barber9	172	2009-06-11 22:31:15
+passwordsafe	enlaca	172	2009-06-11 22:31:15
+passwordsafe	nishiko	172	2009-06-11 22:31:15
+pastmon	Anonymous donor(s)	172	2009-06-11 22:31:15
+patsystem	Anonymous donor(s)	172	2009-06-11 22:31:16
+pbnj	s_w_bradley	172	2009-06-11 22:31:18
+pbwebgui	Anonymous donor(s)	172	2009-06-11 22:31:18
+pbwebgui	mblakeslee	172	2009-06-11 22:31:18
+pbwebgui	petek_bc	172	2009-06-11 22:31:18
+pcbsd	Anonymous donor(s)	172	2009-06-11 22:31:19
+pchart	c_schmitz	172	2009-06-11 22:31:19
+pctvgtk	Anonymous donor(s)	172	2009-06-11 22:31:21
+pdf-inc	jmls	172	2009-06-11 22:31:22
+pdf-inc	optionsystems	172	2009-06-11 22:31:22
+pdfbox	braine	172	2009-06-11 22:31:22
+pdfbox	janthonyl	172	2009-06-11 22:31:22
+pdfbox	Anonymous donor(s)	172	2009-06-11 22:31:22
+pdfcreator	steveweir	172	2009-06-11 22:31:22
+pdfcreator	jackob37	172	2009-06-11 22:31:22
+pdfcreator	bkoop2	172	2009-06-11 22:31:22
+pdfcreator	ddjustice	172	2009-06-11 22:31:22
+pdfcreator	aphid717	172	2009-06-11 22:31:22
+pdfdoclet	kevinstembridge	172	2009-06-11 22:31:23
+pdfdoclet	wjcarpenter	172	2009-06-11 22:31:23
+pdfdownload	marktheweinberg	172	2009-06-11 22:31:23
+pdfdownload	norbertb1978	172	2009-06-11 22:31:23
+pdfdownload	Anonymous donor(s)	172	2009-06-11 22:31:23
+pdfedit	edoviak	172	2009-06-11 22:31:23
+pdfsam	rkremer	172	2009-06-11 22:31:23
+pdfsam	lpolidori	172	2009-06-11 22:31:23
+pdfsam	dnelson26	172	2009-06-11 22:31:23
+pdfsam	jochen_hayek	172	2009-06-11 22:31:23
+pdfsam	galeng	172	2009-06-11 22:31:23
+pdfview	Anonymous donor(s)	172	2009-06-11 22:31:23
+pdfview	cskiadas	172	2009-06-11 22:31:23
+pdfview	quangdiggity	172	2009-06-11 22:31:23
+pdfwinshell	johnny5--	172	2009-06-11 22:31:23
+pdsimagereader	cliffstriker	172	2009-06-11 22:31:24
+pdsimagereader	Anonymous donor(s)	172	2009-06-11 22:31:24
+peanutkb	merinet	172	2009-06-11 22:31:25
+pearpc	Anonymous donor(s)	172	2009-06-11 22:31:25
+pearpc	fvh	172	2009-06-11 22:31:25
+pearpc	dr-dewilde	172	2009-06-11 22:31:25
+peerguardian	titanicliberty	172	2009-06-11 22:31:26
+peerguardian	wanderfull	172	2009-06-11 22:31:26
+peerguardian	nastypapercut	172	2009-06-11 22:31:26
+peerguardian	ocyl	172	2009-06-11 22:31:26
+peerguardian	Anonymous donor(s)	172	2009-06-11 22:31:26
+pentaho	jbleuel	172	2009-06-11 22:31:28
+perl2dvd	petereader	172	2009-06-11 22:31:31
+perlmol	Anonymous donor(s)	172	2009-06-11 22:31:32
+persianmobidict	farnajam	172	2009-06-11 22:31:33
+petousb	Anonymous donor(s)	172	2009-06-11 22:31:34
+pfaedit	Anonymous donor(s)	172	2009-06-11 22:31:35
+pfn	dmenace	172	2009-06-11 22:31:36
+pfn	outofcontrol	172	2009-06-11 22:31:36
+pfn	troike	172	2009-06-11 22:31:36
+pfn	mvhplank	172	2009-06-11 22:31:36
+pfn	gneek	172	2009-06-11 22:31:36
+pfuel	Anonymous donor(s)	172	2009-06-11 22:31:36
+pgsqlformac	gouldsc	172	2009-06-11 22:31:37
+pgsqlformac	hockleyd	172	2009-06-11 22:31:37
+pgsqlformac	iq9	172	2009-06-11 22:31:37
+pgsqlformac	cpisto	172	2009-06-11 22:31:37
+phatos	Anonymous donor(s)	172	2009-06-11 22:31:38
+phgstats	Anonymous donor(s)	172	2009-06-11 22:31:39
+php-calendar	Anonymous donor(s)	172	2009-06-11 22:31:44
+php-calendar	edgardo	172	2009-06-11 22:31:44
+php-calendar	simplecheck	172	2009-06-11 22:31:44
+php-html	Anonymous donor(s)	172	2009-06-11 22:31:45
+phpagi	senoramor	172	2009-06-11 22:31:49
+phpagi	Anonymous donor(s)	172	2009-06-11 22:31:49
+phpbb3f1webtipp	praabe	172	2009-06-11 22:31:51
+phpbb3portal	Anonymous donor(s)	172	2009-06-11 22:31:51
+phpbb3portal	michelle36	172	2009-06-11 22:31:51
+phpbb3portal	n2rga	172	2009-06-11 22:31:51
+phpbb3portal	oldlock	172	2009-06-11 22:31:51
+phpbb3portal	johnnytheone	172	2009-06-11 22:31:51
+phpbt	wplate	172	2009-06-11 22:31:52
+phpbt	mvalente	172	2009-06-11 22:31:52
+phpcodegenie	Anonymous donor(s)	172	2009-06-11 22:31:53
+phpcollab	ekzact	172	2009-06-11 22:31:53
+phpcollab	Anonymous donor(s)	172	2009-06-11 22:31:53
+phpdagger	Anonymous donor(s)	172	2009-06-11 22:31:54
+phpdiplomacy	Anonymous donor(s)	172	2009-06-11 22:31:55
+phpdiplomacy	jeremymiles	172	2009-06-11 22:31:55
+phpdocu	fplanque	172	2009-06-11 22:31:56
+phpffl	Anonymous donor(s)	172	2009-06-11 22:31:57
+phpffl	mccovey44	172	2009-06-11 22:31:57
+phpffl	tim073	172	2009-06-11 22:31:57
+phpffl	jojooboo	172	2009-06-11 22:31:57
+phpffl	toddwdraper	172	2009-06-11 22:31:57
+phpflickr	Anonymous donor(s)	172	2009-06-11 22:31:57
+phpfm	pesto9	172	2009-06-11 22:31:57
+phpformgen	Anonymous donor(s)	172	2009-06-11 22:31:58
+phpformgen	bstevenson	172	2009-06-11 22:31:58
+phpformgen	jackandrews	172	2009-06-11 22:31:58
+phpformgen	pheath1	172	2009-06-11 22:31:58
+phpformgen	gemnut	172	2009-06-11 22:31:58
+phpgedview	ncasellini	172	2009-06-11 22:31:58
+phpgedview	vidisad	172	2009-06-11 22:31:58
+phpgedview	bigone60	172	2009-06-11 22:31:58
+phpgedview	avdl	172	2009-06-11 22:31:58
+phpgedview	adieball	172	2009-06-11 22:31:58
+phpgiftreg	aonaran	172	2009-06-11 22:31:58
+phpgiftreg	Anonymous donor(s)	172	2009-06-11 22:31:58
+phpgrabcomics	seanf2061	172	2009-06-11 22:31:59
+phpgrabcomics	Anonymous donor(s)	172	2009-06-11 22:31:59
+phpgraphy	mechromancer	172	2009-06-11 22:31:59
+phpgrowthcharts	flydoc40	172	2009-06-11 22:31:59
+phpjrkdb	blanckenhorn	172	2009-06-11 22:32:01
+phplayersmenu	xpavp03	172	2009-06-11 22:32:02
+phplayersmenu	franki	172	2009-06-11 22:32:02
+phplayersmenu	Anonymous donor(s)	172	2009-06-11 22:32:02
+phplist	Anonymous donor(s)	172	2009-06-11 22:32:02
+phplot	Anonymous donor(s)	172	2009-06-11 22:32:02
+phpmyadmin	digirati	172	2009-06-11 22:32:04
+phpmyadmin	adoll	172	2009-06-11 22:32:04
+phpmyadmin	tomplus	172	2009-06-11 22:32:04
+phpmyadmin	insuranceagents	172	2009-06-11 22:32:04
+phpmyadmin	mvlib	172	2009-06-11 22:32:04
+phpmybackup	Anonymous donor(s)	172	2009-06-11 22:32:04
+phpmyfamily	Anonymous donor(s)	172	2009-06-11 22:32:05
+phpmyfamily	gelcube	172	2009-06-11 22:32:05
+phpmyprepaid	Anonymous donor(s)	172	2009-06-11 22:32:06
+phpnggpl	ddreslough	172	2009-06-11 22:32:07
+phpobrowser	gogogadgetscott	172	2009-06-11 22:32:07
+phpoll	phpoll	172	2009-06-11 22:32:07
+phpop3clean	kpimichael	172	2009-06-11 22:32:08
+phpopenchat	blanckenhorn	172	2009-06-11 22:32:08
+phppaypalpro	Anonymous donor(s)	172	2009-06-11 22:32:08
+phprpms	wsdr	172	2009-06-11 22:32:10
+phprpms	Anonymous donor(s)	172	2009-06-11 22:32:10
+phpscheduleit	Anonymous donor(s)	172	2009-06-11 22:32:11
+phpscheduleit	maziminke	172	2009-06-11 22:32:11
+phpscheduleit	groupm7	172	2009-06-11 22:32:11
+phpscheduleit	dpulverizer	172	2009-06-11 22:32:11
+phpscheduleit	alric_1	172	2009-06-11 22:32:11
+phpsera	moderncomics	172	2009-06-11 22:32:11
+phpshell	hvankeer	172	2009-06-11 22:32:11
+phpshell	Anonymous donor(s)	172	2009-06-11 22:32:11
+phpsyntaxtree	Anonymous donor(s)	172	2009-06-11 22:32:13
+phpthumb	Anonymous donor(s)	172	2009-06-11 22:32:13
+phpthumb	promo2020	172	2009-06-11 22:32:13
+phpthumb	flinx777	172	2009-06-11 22:32:13
+phpthumb	estewb	172	2009-06-11 22:32:13
+phptimesheet	Anonymous donor(s)	172	2009-06-11 22:32:13
+phpwcms	Anonymous donor(s)	172	2009-06-11 22:32:15
+phpwcms	adamoliver	172	2009-06-11 22:32:15
+phpwcms	lineangle	172	2009-06-11 22:32:15
+phpwebftp	buccaneer66	172	2009-06-11 22:32:15
+phpwebftp	jaxdevil	172	2009-06-11 22:32:15
+phpwebftp	Anonymous donor(s)	172	2009-06-11 22:32:15
+phpxmail	rfajman	172	2009-06-11 22:32:16
+phreebooks	got_code	172	2009-06-11 22:32:17
+pi3web	Anonymous donor(s)	172	2009-06-11 22:32:18
+pianohero	kero905b	172	2009-06-11 22:32:18
+piklab	zoiks	172	2009-06-11 22:32:22
+piklab	arcachofo	172	2009-06-11 22:32:22
+pisg	Anonymous donor(s)	172	2009-06-11 22:32:26
+pklasku	Anonymous donor(s)	172	2009-06-11 22:32:28
+pl1gcc	Anonymous donor(s)	172	2009-06-11 22:32:28
+placemint	roeky	172	2009-06-11 22:32:28
+planet-earth	Anonymous donor(s)	172	2009-06-11 22:32:29
+plarpebu	Anonymous donor(s)	172	2009-06-11 22:32:30
+plasmid	joehopfield	172	2009-06-11 22:32:30
+playbackflash	florianiragne	172	2009-06-11 22:32:30
+playerpro	Anonymous donor(s)	172	2009-06-11 22:32:31
+plex86	Anonymous donor(s)	172	2009-06-11 22:32:31
+plogit	Anonymous donor(s)	172	2009-06-11 22:32:32
+ploticus	enochatearth	172	2009-06-11 22:32:32
+ploticus	Anonymous donor(s)	172	2009-06-11 22:32:32
+pmidic	lauriehudson	172	2009-06-11 22:32:35
+pmii	m31	172	2009-06-11 22:32:35
+pnotepad	Anonymous donor(s)	172	2009-06-11 22:32:37
+pnotepad	r_wetzlmayr	172	2009-06-11 22:32:37
+pnotepad	jengeltx	172	2009-06-11 22:32:37
+pnotepad	hermandsen	172	2009-06-11 22:32:37
+pnotepad	jmcq2	172	2009-06-11 22:32:37
+pocketdigi	daguero	172	2009-06-11 22:32:38
+pocketdigi	oe9fwv	172	2009-06-11 22:32:38
+pocketdigi	htefs	172	2009-06-11 22:32:38
+pocketdigi	ok1cdj	172	2009-06-11 22:32:38
+pocketdigi	klotz	172	2009-06-11 22:32:38
+pocketinsanity	retromanuk	172	2009-06-11 22:32:38
+pocketinsanity	Anonymous donor(s)	172	2009-06-11 22:32:38
+pocketsudoku	mslusar	172	2009-06-11 22:32:38
+pocketsudoku	Anonymous donor(s)	172	2009-06-11 22:32:38
+pocketxpdf	Anonymous donor(s)	172	2009-06-11 22:32:39
+pocketxpdf	cattledogit	172	2009-06-11 22:32:39
+podcastgen	fleetwood63	172	2009-06-11 22:32:39
+podcastgen	Anonymous donor(s)	172	2009-06-11 22:32:39
+podofo	Anonymous donor(s)	172	2009-06-11 22:32:40
+podracer	Anonymous donor(s)	172	2009-06-11 22:32:40
+poedit	infofarmer	172	2009-06-11 22:32:40
+poedit	mimosa	172	2009-06-11 22:32:40
+polyworld	rgoldsto	172	2009-06-11 22:32:43
+polyworld	Anonymous donor(s)	172	2009-06-11 22:32:43
+pommo	cvicari	172	2009-06-11 22:32:43
+pommo	bobab	172	2009-06-11 22:32:43
+ponyprog	Anonymous donor(s)	172	2009-06-11 22:32:43
+ponyprog	kufer	172	2009-06-11 22:32:43
+ponyprog	endolith	172	2009-06-11 22:32:43
+ponyprog	roki59	172	2009-06-11 22:32:43
+poopf	Anonymous donor(s)	172	2009-06-11 22:32:44
+pop2owa	riatorg	172	2009-06-11 22:32:44
+popfile	freddegast	172	2009-06-11 22:32:44
+popfile	Anonymous donor(s)	172	2009-06-11 22:32:44
+poppawid	Anonymous donor(s)	172	2009-06-11 22:32:45
+portable-celtx	tomreedtoon	172	2009-06-11 22:32:46
+portableapps	dpaniagua	172	2009-06-11 22:32:46
+portableapps	coastview	172	2009-06-11 22:32:46
+portableapps	aucado54	172	2009-06-11 22:32:46
+portableapps	Anonymous donor(s)	172	2009-06-11 22:32:46
+portablefirefox	Anonymous donor(s)	172	2009-06-11 22:32:46
+portableoo	mtz4of12	172	2009-06-11 22:32:46
+portableoo	vpdura	172	2009-06-11 22:32:46
+portableoo	edaw	172	2009-06-11 22:32:46
+portableoo	Anonymous donor(s)	172	2009-06-11 22:32:46
+portableosx	Anonymous donor(s)	172	2009-06-11 22:32:46
+portpal	yaniv_jonathan	172	2009-06-11 22:32:47
+postlet	syrus2k	172	2009-06-11 22:32:48
+postlet	msorc	172	2009-06-11 22:32:48
+postlet	zahmaci	172	2009-06-11 22:32:48
+postlet	henry_21pc	172	2009-06-11 22:32:48
+postlet	threegirldad	172	2009-06-11 22:32:48
+postsharp	cetinsert	172	2009-06-11 22:32:49
+pot	Anonymous donor(s)	172	2009-06-11 22:32:49
+potrace	sgbeal	172	2009-06-11 22:32:49
+potrace	Anonymous donor(s)	172	2009-06-11 22:32:49
+povclipse	disnel	172	2009-06-11 22:32:49
+powerjournal	vjong	172	2009-06-11 22:32:50
+powermated	Anonymous donor(s)	172	2009-06-11 22:32:51
+powl	Anonymous donor(s)	172	2009-06-11 22:32:51
+pppblog	Anonymous donor(s)	172	2009-06-11 22:32:52
+prado	tanus	172	2009-06-11 22:32:53
+prado	schmunk	172	2009-06-11 22:32:53
+prado	Anonymous donor(s)	172	2009-06-11 22:32:53
+preferredsearch	vaughanj	172	2009-06-11 22:32:55
+premake	Anonymous donor(s)	172	2009-06-11 22:32:55
+prevayler	Anonymous donor(s)	172	2009-06-11 22:32:56
+preview-latex	malteser	172	2009-06-11 22:32:56
+preview-latex	Anonymous donor(s)	172	2009-06-11 22:32:56
+progports	proclus	172	2009-06-11 22:33:00
+project-alumni	Anonymous donor(s)	172	2009-06-11 22:33:01
+propsorter	drothauser	172	2009-06-11 22:33:06
+propsorter	Anonymous donor(s)	172	2009-06-11 22:33:06
+protoforge	aschultz14	172	2009-06-11 22:33:07
+proximodo	Anonymous donor(s)	172	2009-06-11 22:33:08
+proxool	Anonymous donor(s)	172	2009-06-11 22:33:08
+ps2kl	megadeth67	172	2009-06-11 22:33:09
+ps2kl	robinfartman	172	2009-06-11 22:33:09
+ps2kl	Anonymous donor(s)	172	2009-06-11 22:33:09
+pscafe	msdemarchi	172	2009-06-11 22:33:09
+pscafe	lbumpers	172	2009-06-11 22:33:09
+pso	Anonymous donor(s)	172	2009-06-11 22:33:11
+pspvc	gregmiller2	172	2009-06-11 22:33:12
+psvlib	droctopus	172	2009-06-11 22:33:12
+psvlib	mpaycher	172	2009-06-11 22:33:12
+ptrivia	Anonymous donor(s)	172	2009-06-11 22:33:14
+pulptunes	soapynebula	172	2009-06-11 22:33:15
+punt	Anonymous donor(s)	172	2009-06-11 22:33:16
+punt	mashiharu	172	2009-06-11 22:33:16
+puppy	Anonymous donor(s)	172	2009-06-11 22:33:16
+puttysm	elfqrin	172	2009-06-11 22:33:17
+pwdepot	Anonymous donor(s)	172	2009-06-11 22:33:18
+pwrblog	Anonymous donor(s)	172	2009-06-11 22:33:18
+pxes	Anonymous donor(s)	172	2009-06-11 22:33:19
+pxes	seschmid	172	2009-06-11 22:33:19
+pxlib	themnemonic	172	2009-06-11 22:33:19
+pxlib	jcgonz	172	2009-06-11 22:33:19
+pydev	sleepingbull	172	2009-06-11 22:33:23
+pydev	nabla256	172	2009-06-11 22:33:23
+pydev	jsword	172	2009-06-11 22:33:23
+pydev	philipmassey	172	2009-06-11 22:33:23
+pydev	iconjack	172	2009-06-11 22:33:23
+pygccxml	Anonymous donor(s)	172	2009-06-11 22:33:25
+pykeylogger	constructfan	172	2009-06-11 22:33:27
+pykeylogger	burtec	172	2009-06-11 22:33:27
+pykeylogger	bisvivit	172	2009-06-11 22:33:27
+pykeylogger	cdillahu	172	2009-06-11 22:33:27
+pykeylogger	carlosaguilar	172	2009-06-11 22:33:27
+pykeylogpe	derwydd	172	2009-06-11 22:33:27
+pykeylogpe	bill_from_jpt	172	2009-06-11 22:33:27
+pykeylogpe	av8rtx	172	2009-06-11 22:33:27
+pykeylogpe	jonblaze2k8	172	2009-06-11 22:33:27
+pykeylogpe	Anonymous donor(s)	172	2009-06-11 22:33:27
+pyparsing	twcook	172	2009-06-11 22:33:30
+pyparsing	cellurl	172	2009-06-11 22:33:30
+pyro	Anonymous donor(s)	172	2009-06-11 22:33:31
+pyrtf	Anonymous donor(s)	172	2009-06-11 22:33:32
+pytc	Anonymous donor(s)	172	2009-06-11 22:33:33
+python	Anonymous donor(s)	172	2009-06-11 22:33:33
+python	nlehuen	172	2009-06-11 22:33:33
+python	aportale	172	2009-06-11 22:33:33
+python	vmlinuxz	172	2009-06-11 22:33:33
+pythoncard	Anonymous donor(s)	172	2009-06-11 22:33:35
+pywin32	jason_drew	172	2009-06-11 22:33:36
+pywin32	b_b	172	2009-06-11 22:33:36
+pywin32	cappy2112	172	2009-06-11 22:33:36
+pywin32	Anonymous donor(s)	172	2009-06-11 22:33:36
+qalculate	revolvevolution	172	2009-06-11 22:33:38
+qalculate	tlvu	172	2009-06-11 22:33:38
+qalculate	asmirnoff	172	2009-06-11 22:33:38
+qbittorrent	Anonymous donor(s)	172	2009-06-11 22:33:39
+qgis	Anonymous donor(s)	172	2009-06-11 22:33:42
+qingy	darkliquid	172	2009-06-11 22:33:42
+qjackctl	ushimitsudoki	172	2009-06-11 22:33:42
+qjackctl	john-gustafsson	172	2009-06-11 22:33:42
+qpdf2	Anonymous donor(s)	172	2009-06-11 22:33:45
+qpxtool	ocyl	172	2009-06-11 22:33:46
+qpxtool	Anonymous donor(s)	172	2009-06-11 22:33:46
+qtractor	papasmurrf	172	2009-06-11 22:33:48
+qtractor	mediastation	172	2009-06-11 22:33:48
+qtractor	oxi	172	2009-06-11 22:33:48
+quark	hardcoal	172	2009-06-11 22:33:50
+quark	northwood21	172	2009-06-11 22:33:50
+quark	fafhrd_pro	172	2009-06-11 22:33:50
+quark	warcus	172	2009-06-11 22:33:50
+qucs	Anonymous donor(s)	172	2009-06-11 22:33:51
+qucs	fransschreuder	172	2009-06-11 22:33:51
+qucs	ingolemo	172	2009-06-11 22:33:51
+qucs	rts549	172	2009-06-11 22:33:51
+querycommander	dflock	172	2009-06-11 22:33:51
+querycommander	Anonymous donor(s)	172	2009-06-11 22:33:51
+quice	forcemagic	172	2009-06-11 22:33:51
+quice	kingpin006	172	2009-06-11 22:33:51
+quickserver	Anonymous donor(s)	172	2009-06-11 22:33:54
+qvpdf	Anonymous donor(s)	172	2009-06-11 22:33:56
+qwikiwiki	Anonymous donor(s)	172	2009-06-11 22:33:56
+qwt	Anonymous donor(s)	172	2009-06-11 22:33:57
+qwt	tricaric	172	2009-06-11 22:33:57
+qwt	n9vv	172	2009-06-11 22:33:57
+qwt	atenderholt	172	2009-06-11 22:33:57
+qwt	cliffwiener	172	2009-06-11 22:33:57
+r2build	drewlyons	172	2009-06-11 22:33:57
+radmind	sefrserbhsrth	172	2009-06-11 22:34:00
+radrails	reinerj	172	2009-06-11 22:34:00
+rainbowportal	Anonymous donor(s)	172	2009-06-11 22:34:01
+ralfchat	solitudedude	172	2009-06-11 22:34:02
+ralfchat	Anonymous donor(s)	172	2009-06-11 22:34:02
+rapideuphoria	derekparnell	172	2009-06-11 22:34:03
+raptorv2	laurents	172	2009-06-11 22:34:04
+ravencore	Anonymous donor(s)	172	2009-06-11 22:34:05
+ravencore	tfonrouge	172	2009-06-11 22:34:05
+ravencore	darknight	172	2009-06-11 22:34:05
+rcbot2	paperguy	172	2009-06-11 22:34:07
+reactorsrv	rod_apeldoorn	172	2009-06-11 22:34:09
+realmforge	dannomite	172	2009-06-11 22:34:11
+realmforge	uggibuggi	172	2009-06-11 22:34:11
+realmforge	Anonymous donor(s)	172	2009-06-11 22:34:11
+realslim	Anonymous donor(s)	172	2009-06-11 22:34:11
+reblog	ethanz	172	2009-06-11 22:34:12
+reblog	clarkburbidge	172	2009-06-11 22:34:12
+redwall	sheinrich	172	2009-06-11 22:34:16
+redwall	emaynard69	172	2009-06-11 22:34:16
+redwall	ndoeberlein	172	2009-06-11 22:34:16
+redwall	Anonymous donor(s)	172	2009-06-11 22:34:16
+refbase	Anonymous donor(s)	172	2009-06-11 22:34:16
+refbase	karnesky	172	2009-06-11 22:34:16
+refbase	jaregi	172	2009-06-11 22:34:16
+refbase	pmurmann	172	2009-06-11 22:34:16
+refit	Anonymous donor(s)	172	2009-06-11 22:34:16
+refit	haeusler	172	2009-06-11 22:34:16
+refit	g605	172	2009-06-11 22:34:16
+refit	ilkevinli	172	2009-06-11 22:34:16
+regeditpe	Anonymous donor(s)	172	2009-06-11 22:34:17
+regexrenamer	relaets	172	2009-06-11 22:34:17
+regina-rexx	Anonymous donor(s)	172	2009-06-11 22:34:17
+relativitysim	Anonymous donor(s)	172	2009-06-11 22:34:19
+releaseforge	Anonymous donor(s)	172	2009-06-11 22:34:19
+releaseforge	bharat	172	2009-06-11 22:34:19
+releaseforge	linux_girlie	172	2009-06-11 22:34:19
+rem-empty-dir	edaw	172	2009-06-11 22:34:19
+remerge	vnpiper	172	2009-06-11 22:34:20
+remotecalendars	Anonymous donor(s)	172	2009-06-11 22:34:21
+remotecalendars	mattfong	172	2009-06-11 22:34:21
+remotecalendars	tera-bit-dactyl	172	2009-06-11 22:34:21
+remotecalendars	shashinka	172	2009-06-11 22:34:21
+remotecalendars	gtlu	172	2009-06-11 22:34:21
+remotetracker	gisellevasc	172	2009-06-11 22:34:21
+reportman	Anonymous donor(s)	172	2009-06-11 22:34:23
+reprap	adrian-bowyer	172	2009-06-11 22:34:24
+reprap	tjm1983	172	2009-06-11 22:34:24
+reprap	eloquence	172	2009-06-11 22:34:24
+reprap	keness	172	2009-06-11 22:34:24
+reprap	diantir	172	2009-06-11 22:34:24
+resonanceim	Anonymous donor(s)	172	2009-06-11 22:34:26
+rest2web	tephyr	172	2009-06-11 22:34:26
+retrocode	davelindsay	172	2009-06-11 22:34:27
+retroshare	stockpicker	172	2009-06-11 22:34:27
+retroshare	mikeudall	172	2009-06-11 22:34:27
+retroweaver	aholland	172	2009-06-11 22:34:27
+retroweaver	Anonymous donor(s)	172	2009-06-11 22:34:27
+rexxsql	wvw	172	2009-06-11 22:34:28
+rexxsql	Anonymous donor(s)	172	2009-06-11 22:34:28
+rezound	Anonymous donor(s)	172	2009-06-11 22:34:29
+rftpdpr	Anonymous donor(s)	172	2009-06-11 22:34:30
+rhide	Anonymous donor(s)	172	2009-06-11 22:34:31
+rhino	xavierguillot	172	2009-06-11 22:34:31
+ripboard	fbudz	172	2009-06-11 22:34:33
+rira	Anonymous donor(s)	172	2009-06-11 22:34:33
+risk	felixfreiberger	172	2009-06-11 22:34:33
+rkhunter	zaphodm	172	2009-06-11 22:34:34
+rlplot	run4flat	172	2009-06-11 22:34:35
+rlplot	Anonymous donor(s)	172	2009-06-11 22:34:35
+roarjk3mod	erfg1	172	2009-06-11 22:34:37
+robodance	Anonymous donor(s)	172	2009-06-11 22:34:37
+robodance	clovisgg	172	2009-06-11 22:34:37
+robodoc	pamar	172	2009-06-11 22:34:38
+robodoc	tronkko	172	2009-06-11 22:34:38
+rosegarden	blueapple2	172	2009-06-11 22:34:42
+rosegarden	jazzypuppy	172	2009-06-11 22:34:42
+rosegarden	josander	172	2009-06-11 22:34:42
+rosegarden	nct	172	2009-06-11 22:34:42
+rosegarden	jcochrane	172	2009-06-11 22:34:42
+rox	kybernetikos	172	2009-06-11 22:34:44
+rox	pandora-logic	172	2009-06-11 22:34:44
+rssbandit	Anonymous donor(s)	172	2009-06-11 22:34:48
+rssbandit	oldwoodc	172	2009-06-11 22:34:48
+rssbandit	oakvilleonca	172	2009-06-11 22:34:48
+rssbandit	hcanfly	172	2009-06-11 22:34:48
+rssbandit	oudknoei	172	2009-06-11 22:34:48
+rssowl	Anonymous donor(s)	172	2009-06-11 22:34:49
+rsyncrypto	infofarmer	172	2009-06-11 22:34:50
+rtext	Anonymous donor(s)	172	2009-06-11 22:34:51
+rtl8180-sa2400	Anonymous donor(s)	172	2009-06-11 22:34:51
+rtl8180-sa2400	robertkl	172	2009-06-11 22:34:51
+rtse	powerbomb1411	172	2009-06-11 22:34:52
+rtse	Anonymous donor(s)	172	2009-06-11 22:34:52
+rubyeclipse	hessml	172	2009-06-11 22:34:53
+rubyeclipse	Anonymous donor(s)	172	2009-06-11 22:34:53
+rudix	aureliojargas	172	2009-06-11 22:34:54
+rudix	robteix	172	2009-06-11 22:34:54
+rudl	tsuihark	172	2009-06-11 22:34:54
+rvfsim	Anonymous donor(s)	172	2009-06-11 22:34:57
+s11n	stevemadere	172	2009-06-11 22:34:58
+s11n	Anonymous donor(s)	172	2009-06-11 22:34:58
+s60dosbox	prunge	172	2009-06-11 22:34:59
+safecopy	Anonymous donor(s)	172	2009-06-11 22:35:01
+sage-sre	bkuder	172	2009-06-11 22:35:02
+sahi	Anonymous donor(s)	172	2009-06-11 22:35:02
+sahi	lechzawistowski	172	2009-06-11 22:35:02
+sahi	vijay-venkat	172	2009-06-11 22:35:02
+sahi	ddininio	172	2009-06-11 22:35:02
+salmon	Anonymous donor(s)	172	2009-06-11 22:35:03
+salmon	bigfleet	172	2009-06-11 22:35:03
+salmon	frank_fer	172	2009-06-11 22:35:03
+salmon	pmoon7	172	2009-06-11 22:35:03
+sarangtracegeo	Anonymous donor(s)	172	2009-06-11 22:35:07
+sarg	ymtan3032	172	2009-06-11 22:35:07
+sarg	Anonymous donor(s)	172	2009-06-11 22:35:07
+sarissa	cedsav	172	2009-06-11 22:35:07
+sarissa	greghiggins	172	2009-06-11 22:35:07
+sauerbraten	Anonymous donor(s)	172	2009-06-11 22:35:08
+sauerbraten	badomun	172	2009-06-11 22:35:08
+sawin32	cobranetworks	172	2009-06-11 22:35:09
+sawin32	apurdam	172	2009-06-11 22:35:09
+sawin32	Anonymous donor(s)	172	2009-06-11 22:35:09
+saxon	mmh5	172	2009-06-11 22:35:10
+saxon	kosek	172	2009-06-11 22:35:10
+saxon	brettz9	172	2009-06-11 22:35:10
+saxon	ajwelch	172	2009-06-11 22:35:10
+saxon	gimsieke	172	2009-06-11 22:35:10
+sayavideoeditor	zarxrax	172	2009-06-11 22:35:10
+sayzme	Anonymous donor(s)	172	2009-06-11 22:35:10
+sblog	Anonymous donor(s)	172	2009-06-11 22:35:11
+schemaspy	Anonymous donor(s)	172	2009-06-11 22:35:14
+schemaspy	chervitz	172	2009-06-11 22:35:14
+schemaspy	monocongo	172	2009-06-11 22:35:14
+schemaspy	rbambura	172	2009-06-11 22:35:14
+schemaspy	nigel_charman	172	2009-06-11 22:35:14
+schlabo	Anonymous donor(s)	172	2009-06-11 22:35:15
+scide	joangarnet	172	2009-06-11 22:35:16
+scopeshapes	Anonymous donor(s)	172	2009-06-11 22:35:18
+scourge	redemption042	172	2009-06-11 22:35:18
+screem	sgop	172	2009-06-11 22:35:20
+screem	utnubuuser	172	2009-06-11 22:35:20
+screem	Anonymous donor(s)	172	2009-06-11 22:35:20
+screenassist	nizwiz	172	2009-06-11 22:35:20
+scrobblerd	snauth	172	2009-06-11 22:35:22
+sears	macvos	172	2009-06-11 22:35:27
+self-commerce	eifelquilt	172	2009-06-11 22:35:32
+semitone	Anonymous donor(s)	172	2009-06-11 22:35:33
+sendpage	Anonymous donor(s)	172	2009-06-11 22:35:34
+sensorlock	tehpenguin	172	2009-06-11 22:35:34
+sensorlock	scolling	172	2009-06-11 22:35:34
+sensorlock	godwaldt	172	2009-06-11 22:35:34
+sensorlock	anderuso	172	2009-06-11 22:35:34
+sensorlock	kpn50	172	2009-06-11 22:35:34
+sepy	tectonik	172	2009-06-11 22:35:35
+sepy	joangarnet	172	2009-06-11 22:35:35
+sepy	Anonymous donor(s)	172	2009-06-11 22:35:35
+servingxml	Anonymous donor(s)	172	2009-06-11 22:35:38
+servingxml	lucaburaggi	172	2009-06-11 22:35:38
+setacl	rogerhaxby	172	2009-06-11 22:35:39
+setacl	brucewayne	172	2009-06-11 22:35:39
+setacl	m_jennings	172	2009-06-11 22:35:39
+setacl	Anonymous donor(s)	172	2009-06-11 22:35:39
+sft	Anonymous donor(s)	172	2009-06-11 22:35:42
+shadowrunmmo	mnixon0	172	2009-06-11 22:35:44
+shakespeer	Anonymous donor(s)	172	2009-06-11 22:35:45
+shareazax	Anonymous donor(s)	172	2009-06-11 22:35:46
+sharppdf	sverrirf	172	2009-06-11 22:35:48
+sheltermanager	msuginger	172	2009-06-11 22:35:49
+sheltermanager	bartonlsmith	172	2009-06-11 22:35:49
+sheltermanager	waldroff	172	2009-06-11 22:35:49
+sheltermanager	roybrown	172	2009-06-11 22:35:49
+sheltermanager	stefanied	172	2009-06-11 22:35:49
+shingetsu	Anonymous donor(s)	172	2009-06-11 22:35:50
+ship84	pagefault	172	2009-06-11 22:35:51
+shortlinux	Anonymous donor(s)	172	2009-06-11 22:35:52
+showlister	Anonymous donor(s)	172	2009-06-11 22:35:52
+showmypcssh	Anonymous donor(s)	172	2009-06-11 22:35:53
+showmypcssh	vinnydb	172	2009-06-11 22:35:53
+shuffle-db	karnesky	172	2009-06-11 22:35:53
+shuffle-db	Anonymous donor(s)	172	2009-06-11 22:35:53
+shutdown	Anonymous donor(s)	172	2009-06-11 22:35:53
+sikher	Anonymous donor(s)	172	2009-06-11 22:35:57
+simba-sync	antbryan	172	2009-06-11 22:35:59
+simpleboxcms	Anonymous donor(s)	172	2009-06-11 22:36:02
+simpledirectory	dynn	172	2009-06-11 22:36:02
+simplemail	trevordick	172	2009-06-11 22:36:03
+simplemail	frak_swe	172	2009-06-11 22:36:03
+simplemail	Anonymous donor(s)	172	2009-06-11 22:36:03
+simplexboard	ippan	172	2009-06-11 22:36:06
+simplgroup	jochen_fuchs	172	2009-06-11 22:36:06
+simplist	mrtechguy	172	2009-06-11 22:36:06
+simplog	Anonymous donor(s)	172	2009-06-11 22:36:06
+sinet	mwiegers	172	2009-06-11 22:36:08
+singapore	idaniboy	172	2009-06-11 22:36:08
+singapore	hcgtv	172	2009-06-11 22:36:08
+singapore	Anonymous donor(s)	172	2009-06-11 22:36:08
+siproxd	Anonymous donor(s)	172	2009-06-11 22:36:10
+siproxd	mwolter619	172	2009-06-11 22:36:10
+siproxd	ioltd	172	2009-06-11 22:36:10
+siteatschool	Anonymous donor(s)	172	2009-06-11 22:36:12
+skim-app	Anonymous donor(s)	172	2009-06-11 22:36:16
+skim-app	stefanvollmar	172	2009-06-11 22:36:16
+skim-app	iterd	172	2009-06-11 22:36:16
+skim-app	tats_y	172	2009-06-11 22:36:16
+skim-app	tadturner	172	2009-06-11 22:36:16
+skychart	monje314	172	2009-06-11 22:36:17
+skychart	Anonymous donor(s)	172	2009-06-11 22:36:17
+slaytanic	thequickpick	172	2009-06-11 22:36:19
+slooze	mdkendall	172	2009-06-11 22:36:22
+smartcam	premik	172	2009-06-11 22:36:24
+smartirc4net	exor674	172	2009-06-11 22:36:25
+smartprojectacc	matrix--	172	2009-06-11 22:36:26
+smartwin	kostasvl	172	2009-06-11 22:36:27
+smbdaudit	entropia69	172	2009-06-11 22:36:27
+smbwebclient	Anonymous donor(s)	172	2009-06-11 22:36:27
+smbwebclient	mscnln	172	2009-06-11 22:36:27
+smbwebclient	chris_heaven	172	2009-06-11 22:36:27
+smc	wjthorpe	172	2009-06-11 22:36:27
+smc	Anonymous donor(s)	172	2009-06-11 22:36:27
+smclone	Anonymous donor(s)	172	2009-06-11 22:36:28
+smplayer	plague_cz	172	2009-06-11 22:36:30
+smplayer	slimgym	172	2009-06-11 22:36:30
+smplayer	andreamotta	172	2009-06-11 22:36:30
+smplayer	picapiedra	172	2009-06-11 22:36:30
+smplayer	pcjg	172	2009-06-11 22:36:30
+smslib	Anonymous donor(s)	172	2009-06-11 22:36:31
+smtpauth	roncam	172	2009-06-11 22:36:32
+smultron	ckellsworth	172	2009-06-11 22:36:32
+smultron	notetoself	172	2009-06-11 22:36:32
+smultron	reesmaxwell	172	2009-06-11 22:36:32
+smultron	dlamet	172	2009-06-11 22:36:32
+smultron	rpcohen	172	2009-06-11 22:36:32
+snazzybackup	edaw	172	2009-06-11 22:36:34
+snipegallery	Anonymous donor(s)	172	2009-06-11 22:36:34
+sol-enet	only4menl	172	2009-06-11 22:36:42
+sol-enet	bheckel	172	2009-06-11 22:36:42
+solarseek	manateeshaped	172	2009-06-11 22:36:42
+solarseek	rjrecio	172	2009-06-11 22:36:42
+solarseek	Anonymous donor(s)	172	2009-06-11 22:36:42
+solfege	Anonymous donor(s)	172	2009-06-11 22:36:43
+solidircd	tux316	172	2009-06-11 22:36:43
+solidircd	barkerjr	172	2009-06-11 22:36:43
+solunas	Anonymous donor(s)	172	2009-06-11 22:36:43
+some-chess	dr1000110	172	2009-06-11 22:36:44
+souptonuts	Anonymous donor(s)	172	2009-06-11 22:36:47
+sourcegrid	nierka4	172	2009-06-11 22:36:48
+sourcegrid	Anonymous donor(s)	172	2009-06-11 22:36:48
+sourcemod	Anonymous donor(s)	172	2009-06-11 22:36:48
+sourcemod	feuersturm	172	2009-06-11 22:36:48
+sourcemod	kharri1073	172	2009-06-11 22:36:48
+sox	millepag	172	2009-06-11 22:36:48
+sox	infofarmer	172	2009-06-11 22:36:48
+sox	Anonymous donor(s)	172	2009-06-11 22:36:48
+spacetraderwin	Anonymous donor(s)	172	2009-06-11 22:36:50
+spacetraderwin	heyerdahl	172	2009-06-11 22:36:50
+spambot	Anonymous donor(s)	172	2009-06-11 22:36:51
+spamgourmet	dherkes	172	2009-06-11 22:36:51
+sparklinesforxl	questio	172	2009-06-11 22:36:52
+spe	pedroso	172	2009-06-11 22:36:53
+spe	pr4vst3r	172	2009-06-11 22:36:53
+speedsim	Anonymous donor(s)	172	2009-06-11 22:36:54
+speedtouchconf	Anonymous donor(s)	172	2009-06-11 22:36:54
+speex	Anonymous donor(s)	172	2009-06-11 22:36:55
+spellerpages	guruzim	172	2009-06-11 22:36:55
+spellerpages	danielbair	172	2009-06-11 22:36:55
+spellerpages	Anonymous donor(s)	172	2009-06-11 22:36:55
+spexplorer	jgama	172	2009-06-11 22:36:56
+sphpblog	Anonymous donor(s)	172	2009-06-11 22:36:56
+spirit	dany_b	172	2009-06-11 22:36:58
+spirit	Anonymous donor(s)	172	2009-06-11 22:36:58
+splix	Anonymous donor(s)	172	2009-06-11 22:36:59
+splix	abbe_de	172	2009-06-11 22:36:59
+splix	ogrisel	172	2009-06-11 22:36:59
+splix	johkra	172	2009-06-11 22:36:59
+splix	andrebreiler	172	2009-06-11 22:36:59
+springie	Anonymous donor(s)	172	2009-06-11 22:37:01
+sqlbuddy	Anonymous donor(s)	172	2009-06-11 22:37:03
+sqlite-dotnet2	dbeeksma	172	2009-06-11 22:37:04
+sqlite-dotnet2	fredericlatour	172	2009-06-11 22:37:04
+sqlite-dotnet2	oboesax	172	2009-06-11 22:37:04
+sqlite-dotnet2	warrenhwinter	172	2009-06-11 22:37:04
+sqlite-dotnet2	rkulp	172	2009-06-11 22:37:04
+sqlninja	zildac	172	2009-06-11 22:37:06
+sqlninja	Anonymous donor(s)	172	2009-06-11 22:37:06
+sqlpp	Anonymous donor(s)	172	2009-06-11 22:37:06
+sqlrelay	Anonymous donor(s)	172	2009-06-11 22:37:06
+sqlrelay	sbarclay8308	172	2009-06-11 22:37:06
+sqlunit	dtorgerson	172	2009-06-11 22:37:07
+sqlunit	nadsinoz	172	2009-06-11 22:37:07
+sqorpion	Anonymous donor(s)	172	2009-06-11 22:37:07
+squashfs	Anonymous donor(s)	172	2009-06-11 22:37:07
+squashfs	csmithtx	172	2009-06-11 22:37:07
+squashfs	aarontc	172	2009-06-11 22:37:07
+squashfs	markusgrunwald	172	2009-06-11 22:37:07
+squirrel	Anonymous donor(s)	172	2009-06-11 22:37:08
+stanix	Anonymous donor(s)	172	2009-06-11 22:37:16
+stardict	victorwang88	172	2009-06-11 22:37:16
+stardict	qian_xiong	172	2009-06-11 22:37:16
+stardict	hk008	172	2009-06-11 22:37:16
+stardict	brona	172	2009-06-11 22:37:16
+stardict	guanglin-du	172	2009-06-11 22:37:16
+starshop	Anonymous donor(s)	172	2009-06-11 22:37:17
+stealthnetwebui	jwcrobinson	172	2009-06-11 22:37:19
+stellarium	alch	172	2009-06-11 22:37:21
+stellarium	jmnielsen	172	2009-06-11 22:37:21
+stellarium	revastrobuff	172	2009-06-11 22:37:21
+stellarium	du54n	172	2009-06-11 22:37:21
+stellarium	fabgroove	172	2009-06-11 22:37:21
+stitcher	Anonymous donor(s)	172	2009-06-11 22:37:22
+stitchpanorama	dfourer	172	2009-06-11 22:37:22
+streber	Anonymous donor(s)	172	2009-06-11 22:37:27
+stripesnoop	Anonymous donor(s)	172	2009-06-11 22:37:28
+stripesnoop	cwsulliv	172	2009-06-11 22:37:28
+stripesnoop	pdx-tech	172	2009-06-11 22:37:28
+stv	ericritchie	172	2009-06-11 22:37:30
+subdownloader	ervile	172	2009-06-11 22:37:31
+subdownloader	Anonymous donor(s)	172	2009-06-11 22:37:31
+subtitlecreator	Anonymous donor(s)	172	2009-06-11 22:37:32
+subtitlecreator	hubblec4	172	2009-06-11 22:37:32
+subtitlecreator	saint-francis	172	2009-06-11 22:37:32
+sudoku	laurilehti	172	2009-06-11 22:37:33
+sudoku	Anonymous donor(s)	172	2009-06-11 22:37:33
+sudokusensei	snesreviews	172	2009-06-11 22:37:33
+sudowin	Anonymous donor(s)	172	2009-06-11 22:37:33
+sugarcrm	Anonymous donor(s)	172	2009-06-11 22:37:34
+sugarcrm	digirati	172	2009-06-11 22:37:34
+sugarcrm	ocyl	172	2009-06-11 22:37:34
+sugarcrm	romper	172	2009-06-11 22:37:34
+suggest	Anonymous donor(s)	172	2009-06-11 22:37:34
+sumoam	johnamecom	172	2009-06-11 22:37:34
+supertuxkart	liukka	172	2009-06-11 22:37:37
+supertuxkart	carljolsson	172	2009-06-11 22:37:37
+supertuxkart	tux_peng	172	2009-06-11 22:37:37
+supertuxkart	rudy251079	172	2009-06-11 22:37:37
+superversion	andy-goryachev	172	2009-06-11 22:37:37
+superversion	cyraxx	172	2009-06-11 22:37:37
+susrep	panmunjom	172	2009-06-11 22:37:39
+svgplugin	Anonymous donor(s)	172	2009-06-11 22:37:41
+svnfusion	xmelody	172	2009-06-11 22:37:41
+sw8txml	squarerobot	172	2009-06-11 22:37:42
+swaret	Anonymous donor(s)	172	2009-06-11 22:37:42
+swfaddress	peterotte	172	2009-06-11 22:37:43
+swiftmailer	ishadakota	172	2009-06-11 22:37:44
+swiftmailer	montego	172	2009-06-11 22:37:44
+swiftmailer	ablee1	172	2009-06-11 22:37:44
+swiftmailer	kieranhuggins	172	2009-06-11 22:37:44
+swiftmailer	hikaristeven	172	2009-06-11 22:37:44
+swingwt	Anonymous donor(s)	172	2009-06-11 22:37:44
+swsusp	mjd	172	2009-06-11 22:37:47
+swsusp	jaspsoftware	172	2009-06-11 22:37:47
+swsusp	Anonymous donor(s)	172	2009-06-11 22:37:47
+swupdata	johndmadster	172	2009-06-11 22:37:47
+sxdl	pcole	172	2009-06-11 22:37:47
+sydi	denisegreen	172	2009-06-11 22:37:48
+sydi	divebc	172	2009-06-11 22:37:48
+sydi	avantman42	172	2009-06-11 22:37:48
+sydi	Anonymous donor(s)	172	2009-06-11 22:37:48
+sylpheed-claws	Anonymous donor(s)	172	2009-06-11 22:37:48
+sylpheed-claws	abrolag	172	2009-06-11 22:37:48
+sylpheed-claws	bwalle	172	2009-06-11 22:37:48
+sylpheed-claws	fabioprina	172	2009-06-11 22:37:48
+symbianbible	Anonymous donor(s)	172	2009-06-11 22:37:48
+symmetricds	cdrain	172	2009-06-11 22:37:48
+synce	Anonymous donor(s)	172	2009-06-11 22:37:49
+synce	tosterdahl	172	2009-06-11 22:37:49
+synce	cppm	172	2009-06-11 22:37:49
+synce	samjam	172	2009-06-11 22:37:49
+synchingthunder	Anonymous donor(s)	172	2009-06-11 22:37:49
+synergy2	plessy	172	2009-06-11 22:37:50
+synergy2	wesoccer2003	172	2009-06-11 22:37:50
+synergy2	bisyonaryo	172	2009-06-11 22:37:50
+synergy2	jcordsen	172	2009-06-11 22:37:50
+synergy2	mikemak	172	2009-06-11 22:37:50
+synkron	gomez3	172	2009-06-11 22:37:50
+syntax-desktop	Anonymous donor(s)	172	2009-06-11 22:37:51
+syslog-analyzer	infofarmer	172	2009-06-11 22:37:52
+systats	Anonymous donor(s)	172	2009-06-11 22:37:53
+systats	apocalypso	172	2009-06-11 22:37:53
+systats	chrispiss	172	2009-06-11 22:37:53
+ta-aa	danedike	172	2009-06-11 22:37:55
+ta-aa	Anonymous donor(s)	172	2009-06-11 22:37:55
+tabletmagic	hobart	172	2009-06-11 22:37:57
+tabletmagic	iamsandr	172	2009-06-11 22:37:57
+tabletmagic	yttiktak	172	2009-06-11 22:37:57
+tabletmagic	barrymacj	172	2009-06-11 22:37:57
+tailforwin32	sawlau	172	2009-06-11 22:37:59
+tailforwin32	jd00h	172	2009-06-11 22:37:59
+tailforwin32	mgoldshmidt	172	2009-06-11 22:37:59
+tailforwin32	Anonymous donor(s)	172	2009-06-11 22:37:59
+talksoup	Anonymous donor(s)	172	2009-06-11 22:37:59
+tanklogger	mrbranden	172	2009-06-11 22:38:02
+tanklogger	serktx	172	2009-06-11 22:38:02
+tbtray	Anonymous donor(s)	172	2009-06-11 22:38:06
+tcexam	rockyandbeagle	172	2009-06-11 22:38:07
+tcltkaqua	Anonymous donor(s)	172	2009-06-11 22:38:08
+tcotool	phirzel	172	2009-06-11 22:38:09
+tcpmpflvplugin	Anonymous donor(s)	172	2009-06-11 22:38:09
+tcpmpflvplugin	fmarozz	172	2009-06-11 22:38:09
+tcx2nikexml	spopp	172	2009-06-11 22:38:09
+tdbf	scenes	172	2009-06-11 22:38:09
+tdbf	tonymaro	172	2009-06-11 22:38:09
+tdbf	Anonymous donor(s)	172	2009-06-11 22:38:09
+tdm-gcc	bluescarni	172	2009-06-11 22:38:10
+tdo	Anonymous donor(s)	172	2009-06-11 22:38:10
+tdt	Anonymous donor(s)	172	2009-06-11 22:38:10
+teamwork	Anonymous donor(s)	172	2009-06-11 22:38:12
+templatelite	zabmilenko	172	2009-06-11 22:38:14
+tep	Anonymous donor(s)	172	2009-06-11 22:38:16
+testopia	abovill	172	2009-06-11 22:38:18
+texlipse	haeusler	172	2009-06-11 22:38:20
+texlipse	hamaryns	172	2009-06-11 22:38:20
+texlipse	niederberger	172	2009-06-11 22:38:20
+texteditor-mcc	Anonymous donor(s)	172	2009-06-11 22:38:21
+tftgallery	igorkolker	172	2009-06-11 22:38:23
+thegreensmurf	Anonymous donor(s)	172	2009-06-11 22:38:26
+themanaworld	b_lindeijer	172	2009-06-11 22:38:27
+themanaworld	der_doener	172	2009-06-11 22:38:27
+themanaworld	axltrozz	172	2009-06-11 22:38:27
+themanaworld	maci321	172	2009-06-11 22:38:27
+theopencrm	Anonymous donor(s)	172	2009-06-11 22:38:28
+thingamablog	Anonymous donor(s)	172	2009-06-11 22:38:29
+thingamablog	riverwell	172	2009-06-11 22:38:29
+thingamablog	akbowbender	172	2009-06-11 22:38:29
+thingamablog	shoppe	172	2009-06-11 22:38:29
+thinkingrock	Anonymous donor(s)	172	2009-06-11 22:38:30
+thinstation	j_9_dos	172	2009-06-11 22:38:30
+thinstation	Anonymous donor(s)	172	2009-06-11 22:38:30
+thumbview	Anonymous donor(s)	172	2009-06-11 22:38:32
+timeeffect	rubo77	172	2009-06-11 22:38:37
+timeentry	dragonxnik	172	2009-06-11 22:38:37
+timetrackplugin	cmeans	172	2009-06-11 22:38:38
+tinymce	stevelockwood	172	2009-06-11 22:38:40
+tinymce	idmadj	172	2009-06-11 22:38:40
+tinymce	macvos	172	2009-06-11 22:38:40
+tinymce	nobarcode	172	2009-06-11 22:38:40
+tinymce	nhastingstrew	172	2009-06-11 22:38:40
+tivodotnet	Anonymous donor(s)	172	2009-06-11 22:38:42
+tivodotnet	johnmsch	172	2009-06-11 22:38:42
+tnef	Anonymous donor(s)	172	2009-06-11 22:38:47
+toendacms	Anonymous donor(s)	172	2009-06-11 22:38:49
+topologi-linux	Anonymous donor(s)	172	2009-06-11 22:38:51
+torrentspy	Anonymous donor(s)	172	2009-06-11 22:38:53
+tortoisevsts	munozrick	172	2009-06-11 22:38:54
+tovid	pengi_films	172	2009-06-11 22:38:55
+tpx	xond	172	2009-06-11 22:38:57
+tpx	Anonymous donor(s)	172	2009-06-11 22:38:57
+trafficsqueezer	marcelovoax	172	2009-06-11 22:38:59
+trafficsqueezer	yaplej	172	2009-06-11 22:38:59
+tremulous	seffylight	172	2009-06-11 22:39:03
+tremulous	obliviongh	172	2009-06-11 22:39:03
+tremulous	dholbert	172	2009-06-11 22:39:03
+tremulous	ploximeth	172	2009-06-11 22:39:03
+tremulous	superpie	172	2009-06-11 22:39:03
+tricktakinggame	dardennel	172	2009-06-11 22:39:04
+triplea	fabyan	172	2009-06-11 22:39:05
+triplea	seidelin	172	2009-06-11 22:39:05
+triplea	imkharn	172	2009-06-11 22:39:05
+triplea	veqryn	172	2009-06-11 22:39:05
+tripwire	Anonymous donor(s)	172	2009-06-11 22:39:05
+trn	Anonymous donor(s)	172	2009-06-11 22:39:06
+trove4j	sermetyucel	172	2009-06-11 22:39:07
+trove4j	Anonymous donor(s)	172	2009-06-11 22:39:07
+tsep	Anonymous donor(s)	172	2009-06-11 22:39:09
+tsep	wcmanns	172	2009-06-11 22:39:09
+tsheet	swelljoe	172	2009-06-11 22:39:09
+tsheet	swichman	172	2009-06-11 22:39:09
+tsheet	jcard0na	172	2009-06-11 22:39:09
+tsheet	Anonymous donor(s)	172	2009-06-11 22:39:09
+tsunami	Anonymous donor(s)	172	2009-06-11 22:39:10
+tunetoy	Anonymous donor(s)	172	2009-06-11 22:39:13
+tuneup	devanimal	172	2009-06-11 22:39:13
+tuneup	qmsa	172	2009-06-11 22:39:13
+tupa	nske	172	2009-06-11 22:39:13
+tupa	Anonymous donor(s)	172	2009-06-11 22:39:13
+turbocash	Anonymous donor(s)	172	2009-06-11 22:39:13
+turquaz	Anonymous donor(s)	172	2009-06-11 22:39:14
+tutos	mmwasko	172	2009-06-11 22:39:14
+tutos	farmgeek	172	2009-06-11 22:39:14
+tutos	mishehu	172	2009-06-11 22:39:14
+tutos	rongten	172	2009-06-11 22:39:14
+tutos	Anonymous donor(s)	172	2009-06-11 22:39:14
+tvguide	xwray	172	2009-06-11 22:39:17
+tvguide	thenunz	172	2009-06-11 22:39:17
+tvshows	zanepost	172	2009-06-11 22:39:17
+tvshows	defrone	172	2009-06-11 22:39:17
+tvshows	Anonymous donor(s)	172	2009-06-11 22:39:17
+twiggi	Anonymous donor(s)	172	2009-06-11 22:39:18
+txadmin	Anonymous donor(s)	172	2009-06-11 22:39:19
+txt2tags	Anonymous donor(s)	172	2009-06-11 22:39:19
+txtsql	nexami	172	2009-06-11 22:39:19
+txtsql	Anonymous donor(s)	172	2009-06-11 22:39:19
+tyshow	Anonymous donor(s)	172	2009-06-11 22:39:20
+uber-uploader	maxwell44	172	2009-06-11 22:39:22
+uber-uploader	djpurpose	172	2009-06-11 22:39:22
+uber-uploader	edewing	172	2009-06-11 22:39:22
+uber-uploader	d_a_	172	2009-06-11 22:39:22
+uber-uploader	complete_idiot	172	2009-06-11 22:39:22
+ubuntu-bp	steve_riley	172	2009-06-11 22:39:23
+ubuntu-bp	Anonymous donor(s)	172	2009-06-11 22:39:23
+ubuntuzilla	mikeferrier	172	2009-06-11 22:39:23
+ubuntuzilla	minnaloushe	172	2009-06-11 22:39:23
+uccass	aquadhere	172	2009-06-11 22:39:23
+uccass	travelera	172	2009-06-11 22:39:23
+uccass	xjulienx	172	2009-06-11 22:39:23
+uccass	Anonymous donor(s)	172	2009-06-11 22:39:23
+uira	jose_da_vinci	172	2009-06-11 22:39:28
+ultimate	simorgh	172	2009-06-11 22:39:29
+ultrastar	jonas666	172	2009-06-11 22:39:29
+ultrastar	Anonymous donor(s)	172	2009-06-11 22:39:29
+ultrastardx	imkharn	172	2009-06-11 22:39:29
+ultravnc	c_raidz	172	2009-06-11 22:39:29
+ultravnc	nreitcheck	172	2009-06-11 22:39:29
+ultravnc	Anonymous donor(s)	172	2009-06-11 22:39:29
+ummc	petersieg	172	2009-06-11 22:39:31
+ums	neven	172	2009-06-11 22:39:31
+unacex	mic71	172	2009-06-11 22:39:31
+unacex	Anonymous donor(s)	172	2009-06-11 22:39:31
+uncrustify	battalaykut	172	2009-06-11 22:39:32
+unikey	Anonymous donor(s)	172	2009-06-11 22:39:34
+unixodbc	Anonymous donor(s)	172	2009-06-11 22:39:35
+unixodbc	bk6471	172	2009-06-11 22:39:35
+unxutils	Anonymous donor(s)	172	2009-06-11 22:39:37
+usbip	Anonymous donor(s)	172	2009-06-11 22:39:40
+use-case-maker	mak_san120	172	2009-06-11 22:39:41
+user-mode-linux	bobintetley	172	2009-06-11 22:39:42
+user-mode-linux	crazyshells	172	2009-06-11 22:39:42
+user-mode-linux	jhhudso	172	2009-06-11 22:39:42
+user-mode-linux	flofri	172	2009-06-11 22:39:42
+usercontrol	cmathewsplano	172	2009-06-11 22:39:42
+usl	money1109	172	2009-06-11 22:39:43
+utstatsdb	Anonymous donor(s)	172	2009-06-11 22:39:44
+utstatsdb	sadgit	172	2009-06-11 22:39:44
+utstatsdb	betajuice	172	2009-06-11 22:39:44
+utstatsdb	meankeys	172	2009-06-11 22:39:44
+uwc	bigmac37	172	2009-06-11 22:39:45
+vallheru	Anonymous donor(s)	172	2009-06-11 22:39:48
+varamozhi	Anonymous donor(s)	172	2009-06-11 22:39:49
+vassalengine	aradiel	172	2009-06-11 22:39:49
+vassalengine	tompeters	172	2009-06-11 22:39:49
+vassalengine	jimmyd41	172	2009-06-11 22:39:49
+vassalengine	andydbrown50	172	2009-06-11 22:39:49
+vatemps	Anonymous donor(s)	172	2009-06-11 22:39:49
+vb-doc	Anonymous donor(s)	172	2009-06-11 22:39:49
+vclub	Anonymous donor(s)	172	2009-06-11 22:39:52
+vectorvisual	Anonymous donor(s)	172	2009-06-11 22:39:54
+veldfire	Anonymous donor(s)	172	2009-06-11 22:39:54
+veloace	Anonymous donor(s)	172	2009-06-11 22:39:54
+veryquickwiki	cmeans	172	2009-06-11 22:39:57
+veryquickwiki	Anonymous donor(s)	172	2009-06-11 22:39:57
+vhcs	petzsch	172	2009-06-11 22:39:58
+vhcs	gmail	172	2009-06-11 22:39:58
+vhcs	gurugirl	172	2009-06-11 22:39:58
+vhypno	Anonymous donor(s)	172	2009-06-11 22:39:58
+viewcvs	Anonymous donor(s)	172	2009-06-11 22:40:00
+viewmol	Anonymous donor(s)	172	2009-06-11 22:40:00
+viewstl	Anonymous donor(s)	172	2009-06-11 22:40:00
+villonanny	markeee	172	2009-06-11 22:40:01
+vipmin	genesisca	172	2009-06-11 22:40:03
+virtualdub	pete515	172	2009-06-11 22:40:03
+virtualdub	knowlengr	172	2009-06-11 22:40:03
+virtualdub	ddummer	172	2009-06-11 22:40:03
+virtualdub	wardzone	172	2009-06-11 22:40:03
+virtualdub	premik	172	2009-06-11 22:40:03
+virtualt	Anonymous donor(s)	172	2009-06-11 22:40:04
+virtuedesktops	Anonymous donor(s)	172	2009-06-11 22:40:04
+virtuedesktops	willulmer	172	2009-06-11 22:40:04
+virtuedesktops	johnqpublique	172	2009-06-11 22:40:04
+visual	Anonymous donor(s)	172	2009-06-11 22:40:06
+vitrax	Anonymous donor(s)	172	2009-06-11 22:40:08
+vixynet	Anonymous donor(s)	172	2009-06-11 22:40:08
+vjdbc	Anonymous donor(s)	172	2009-06-11 22:40:08
+vmps-srv	roundkat	172	2009-06-11 22:40:10
+vnced	kmkyoung	172	2009-06-11 22:40:10
+voiceone	Anonymous donor(s)	172	2009-06-11 22:40:12
+vrspace	dragonmagi	172	2009-06-11 22:40:15
+vrspace	Anonymous donor(s)	172	2009-06-11 22:40:15
+vulsearch	Anonymous donor(s)	172	2009-06-11 22:40:18
+vwsphp	Anonymous donor(s)	172	2009-06-11 22:40:18
+vxplib	Anonymous donor(s)	172	2009-06-11 22:40:19
+w3rep	dsjoerg	172	2009-06-11 22:40:20
+wabaccess	albator34	172	2009-06-11 22:40:20
+wampserver	Anonymous donor(s)	172	2009-06-11 22:40:22
+wampserver	gansta93	172	2009-06-11 22:40:22
+wampserver	marshasarmchair	172	2009-06-11 22:40:22
+wampserver	keithbrook	172	2009-06-11 22:40:22
+wampserver	eugenett	172	2009-06-11 22:40:22
+waste	lemist	172	2009-06-11 22:40:24
+waste	earney	172	2009-06-11 22:40:24
+waste	king-gidorah	172	2009-06-11 22:40:24
+waste	Anonymous donor(s)	172	2009-06-11 22:40:24
+watchclone	Anonymous donor(s)	172	2009-06-11 22:40:25
+watin	cgeorgakopoulos	172	2009-06-11 22:40:25
+watin	gluerman	172	2009-06-11 22:40:25
+waxgui	Anonymous donor(s)	172	2009-06-11 22:40:27
+webadmin	infofarmer	172	2009-06-11 22:40:30
+webadmin	public_domain	172	2009-06-11 22:40:30
+webadmin	thereabouts	172	2009-06-11 22:40:30
+webadmin	larrypate	172	2009-06-11 22:40:30
+webadmin	bar3	172	2009-06-11 22:40:30
+webask	dieckert99	172	2009-06-11 22:40:31
+webcalendar	howardballinger	172	2009-06-11 22:40:32
+webcalendar	marcnyc	172	2009-06-11 22:40:32
+webcalendar	tangerame	172	2009-06-11 22:40:32
+webcalendar	davidjaz	172	2009-06-11 22:40:32
+webcalendar	gwally	172	2009-06-11 22:40:32
+webcam-tools	ebleyebley	172	2009-06-11 22:40:32
+webcamflv	syspert	172	2009-06-11 22:40:32
+webcamserver	Anonymous donor(s)	172	2009-06-11 22:40:32
+webcamstudio	linux_user_73	172	2009-06-11 22:40:32
+webcamstudio	izzyrider	172	2009-06-11 22:40:32
+webcamxtra	jtnimoy	172	2009-06-11 22:40:32
+webcamxtra	raboyd	172	2009-06-11 22:40:32
+webcamxtra	Anonymous donor(s)	172	2009-06-11 22:40:32
+webcards	sjrooster	172	2009-06-11 22:40:32
+webconformance	luisandresilva	172	2009-06-11 22:40:33
+webhuddle	Anonymous donor(s)	172	2009-06-11 22:40:35
+webhuddle	jbmoore	172	2009-06-11 22:40:35
+webhuddle	thor918	172	2009-06-11 22:40:35
+webonswing	Anonymous donor(s)	172	2009-06-11 22:40:38
+webserv	andrewfrueh	172	2009-06-11 22:40:39
+webserv	Anonymous donor(s)	172	2009-06-11 22:40:39
+websitemirror	Anonymous donor(s)	172	2009-06-11 22:40:39
+wednus	Anonymous donor(s)	172	2009-06-11 22:40:42
+wgois	voxel777	172	2009-06-11 22:40:45
+wgois	vectrex	172	2009-06-11 22:40:45
+wgois	Anonymous donor(s)	172	2009-06-11 22:40:45
+wheatblog	Anonymous donor(s)	172	2009-06-11 22:40:45
+whorld	Anonymous donor(s)	172	2009-06-11 22:40:47
+wick	Anonymous donor(s)	172	2009-06-11 22:40:47
+widelands	katajanmarja	172	2009-06-11 22:40:48
+widelands	stefannagy	172	2009-06-11 22:40:48
+widelands	hornord	172	2009-06-11 22:40:48
+widelands	elegmit	172	2009-06-11 22:40:48
+widelands	Anonymous donor(s)	172	2009-06-11 22:40:48
+widgetterm	blitzcat	172	2009-06-11 22:40:48
+widgetterm	Anonymous donor(s)	172	2009-06-11 22:40:48
+wiideocenter	drjhank	172	2009-06-11 22:40:49
+winacd	kwhammer	172	2009-06-11 22:40:52
+winacd	Anonymous donor(s)	172	2009-06-11 22:40:52
+winbinder	one-zer0	172	2009-06-11 22:40:53
+winbinder	Anonymous donor(s)	172	2009-06-11 22:40:53
+windirstat	edaw	172	2009-06-11 22:40:53
+windirstat	uncleharpoon	172	2009-06-11 22:40:53
+windirstat	szenithlee	172	2009-06-11 22:40:53
+windirstat	sdhawley1	172	2009-06-11 22:40:53
+windirstat	veszerin	172	2009-06-11 22:40:53
+windjview	yuripor	172	2009-06-11 22:40:53
+windjview	veygue	172	2009-06-11 22:40:53
+windjview	sejoker	172	2009-06-11 22:40:53
+windjview	Anonymous donor(s)	172	2009-06-11 22:40:54
+windows-get	icheyne	172	2009-06-11 22:40:54
+wine	Anonymous donor(s)	172	2009-06-11 22:40:54
+wine	iflo	172	2009-06-11 22:40:54
+wine	kakaopor	172	2009-06-11 22:40:54
+wine	glenseiler	172	2009-06-11 22:40:54
+wine	infofarmer	172	2009-06-11 22:40:54
+winfingerprint	Anonymous donor(s)	172	2009-06-11 22:40:54
+wings	leobischoff	172	2009-06-11 22:40:55
+wings	mdentari	172	2009-06-11 22:40:55
+wings	suzuki74	172	2009-06-11 22:40:55
+wings	vehakki	172	2009-06-11 22:40:55
+wings	jaimevives	172	2009-06-11 22:40:55
+winmerge	stonestreet	172	2009-06-11 22:40:55
+winmerge	amire80	172	2009-06-11 22:40:55
+winmerge	eduardr	172	2009-06-11 22:40:55
+winmerge	tefird	172	2009-06-11 22:40:55
+winmerge	seelie	172	2009-06-11 22:40:55
+winpdb	pedroso	172	2009-06-11 22:40:56
+winpdb	vdicarlo	172	2009-06-11 22:40:56
+winpe	ketilmm	172	2009-06-11 22:40:56
+winpe	Anonymous donor(s)	172	2009-06-11 22:40:56
+winpooch	Anonymous donor(s)	172	2009-06-11 22:40:57
+winpooch	infofarmer	172	2009-06-11 22:40:57
+winpooch	yochiz	172	2009-06-11 22:40:57
+winprinthylafax	Anonymous donor(s)	172	2009-06-11 22:40:57
+winscp	obsidiandh	172	2009-06-11 22:40:57
+winscp	jjschwarz	172	2009-06-11 22:40:57
+winscp	mzapalski	172	2009-06-11 22:40:57
+winscp	infofarmer	172	2009-06-11 22:40:57
+winscp	rob-craig	172	2009-06-11 22:40:57
+winshellex	Anonymous donor(s)	172	2009-06-11 22:40:57
+wireless	Anonymous donor(s)	172	2009-06-11 22:40:58
+wirns	joannb	172	2009-06-11 22:40:59
+wirns	Anonymous donor(s)	172	2009-06-11 22:40:59
+wmptagext	gary_johnson	172	2009-06-11 22:41:02
+wnerd	sofrhino	172	2009-06-11 22:41:03
+wnerd	Anonymous donor(s)	172	2009-06-11 22:41:03
+wolk	kaiser2001	172	2009-06-11 22:41:03
+wolk	Anonymous donor(s)	172	2009-06-11 22:41:03
+wombatshare	Anonymous donor(s)	172	2009-06-11 22:41:04
+worldvista	Anonymous donor(s)	172	2009-06-11 22:41:06
+worldvista	barrp	172	2009-06-11 22:41:06
+wowc	Anonymous donor(s)	172	2009-06-11 22:41:08
+wqy	Anonymous donor(s)	172	2009-06-11 22:41:10
+wqy	leonh	172	2009-06-11 22:41:10
+wqy	fangq	172	2009-06-11 22:41:10
+wqy	pupilzeng	172	2009-06-11 22:41:10
+wqy	zhlmmc	172	2009-06-11 22:41:10
+wrapper	mauritzl	172	2009-06-11 22:41:10
+wrapper	Anonymous donor(s)	172	2009-06-11 22:41:10
+wserverxkit	Anonymous donor(s)	172	2009-06-11 22:41:11
+wsi-glossary	Anonymous donor(s)	172	2009-06-11 22:41:11
+wsmanager	Anonymous donor(s)	172	2009-06-11 22:41:12
+wsmanager	awolfe_ii	172	2009-06-11 22:41:12
+wsmanager	bokubob	172	2009-06-11 22:41:12
+wsmanager	davidslv	172	2009-06-11 22:41:12
+wsmanager	captkirk	172	2009-06-11 22:41:12
+wurfl	jim-mack	172	2009-06-11 22:41:14
+wurfl	Anonymous donor(s)	172	2009-06-11 22:41:14
+wview	Anonymous donor(s)	172	2009-06-11 22:41:14
+wview	tarus	172	2009-06-11 22:41:14
+wview	hrbrmstr	172	2009-06-11 22:41:14
+wview	bhnb	172	2009-06-11 22:41:14
+wwasher	Anonymous donor(s)	172	2009-06-11 22:41:14
+wwiv	xaminmo	172	2009-06-11 22:41:14
+wx200d	hrbrmstr	172	2009-06-11 22:41:15
+wxdsgn	faguiar	172	2009-06-11 22:41:15
+wxdsgn	galland	172	2009-06-11 22:41:15
+wxdsgn	sudarsun	172	2009-06-11 22:41:15
+wxdsgn	dftruf	172	2009-06-11 22:41:15
+wxdsgn	swong1	172	2009-06-11 22:41:15
+wxjs	swaxi	172	2009-06-11 22:41:17
+wxjs	wittend	172	2009-06-11 22:41:17
+wxmud	Anonymous donor(s)	172	2009-06-11 22:41:17
+wxmun	gbesjes	172	2009-06-11 22:41:17
+wxperl	simonflk	172	2009-06-11 22:41:17
+wxperl	Anonymous donor(s)	172	2009-06-11 22:41:17
+wxphp	Anonymous donor(s)	172	2009-06-11 22:41:17
+wxpython	paton-simpson	172	2009-06-11 22:41:17
+wxpython	sephiroth_tmm	172	2009-06-11 22:41:17
+wxpython	mojosam	172	2009-06-11 22:41:17
+wxpython	kasplat	172	2009-06-11 22:41:17
+wxpython	thirst	172	2009-06-11 22:41:17
+wxsvg	infofarmer	172	2009-06-11 22:41:17
+x-mailer	joe_b2	172	2009-06-11 22:41:19
+x-mailer	Anonymous donor(s)	172	2009-06-11 22:41:19
+x125-linux	Anonymous donor(s)	172	2009-06-11 22:41:19
+x125-linux	mswal2846	172	2009-06-11 22:41:19
+xajax	q_no	172	2009-06-11 22:41:20
+xajax	kwiens1	172	2009-06-11 22:41:20
+xajax	chadjohnson	172	2009-06-11 22:41:20
+xajax	nano-math	172	2009-06-11 22:41:20
+xajax	Anonymous donor(s)	172	2009-06-11 22:41:20
+xamj	digitalrinaldo	172	2009-06-11 22:41:21
+xampp	pech	172	2009-06-11 22:41:21
+xbnbt	marlboroman213	172	2009-06-11 22:41:23
+xbnbt	mthemagician	172	2009-06-11 22:41:23
+xbox-windows	Anonymous donor(s)	172	2009-06-11 22:41:23
+xbtt	visigod	172	2009-06-11 22:41:23
+xbtt	thereabouts	172	2009-06-11 22:41:23
+xbtt	rodeokid	172	2009-06-11 22:41:23
+xbtt	sovietninja	172	2009-06-11 22:41:23
+xbtt	benjaminbih	172	2009-06-11 22:41:23
+xccu	hindukusch	172	2009-06-11 22:41:24
+xcdroast	slubbs	172	2009-06-11 22:41:24
+xcdroast	Anonymous donor(s)	172	2009-06-11 22:41:24
+xchat	subnuke	172	2009-06-11 22:41:24
+xchat	larspmathiassen	172	2009-06-11 22:41:24
+xdbcms	budfirst	172	2009-06-11 22:41:25
+xdbcms	sun818	172	2009-06-11 22:41:25
+xdccklipper	Anonymous donor(s)	172	2009-06-11 22:41:25
+xebece	Anonymous donor(s)	172	2009-06-11 22:41:26
+xfv	klotz	172	2009-06-11 22:41:30
+xml-copy-editor	thowen	172	2009-06-11 22:41:35
+xml-copy-editor	hzr	172	2009-06-11 22:41:35
+xmltask	gortsack	172	2009-06-11 22:41:39
+xmms-jack	Anonymous donor(s)	172	2009-06-11 22:41:40
+xmms-slideshow	Anonymous donor(s)	172	2009-06-11 22:41:40
+xmocx	Anonymous donor(s)	172	2009-06-11 22:41:40
+xmpppy	Anonymous donor(s)	172	2009-06-11 22:41:41
+xpad	Anonymous donor(s)	172	2009-06-11 22:41:44
+xpertmailer	Anonymous donor(s)	172	2009-06-11 22:41:44
+xplanet	Anonymous donor(s)	172	2009-06-11 22:41:45
+xpy	xavierguillot	172	2009-06-11 22:41:46
+xpy	Anonymous donor(s)	172	2009-06-11 22:41:46
+xrdp	Anonymous donor(s)	172	2009-06-11 22:41:46
+xrdp	infofarmer	172	2009-06-11 22:41:46
+xrms	hghahn	172	2009-06-11 22:41:47
+xrms	hancilt	172	2009-06-11 22:41:47
+xrms	ashant	172	2009-06-11 22:41:47
+xrms	Anonymous donor(s)	172	2009-06-11 22:41:47
+xsim2d	void_main	172	2009-06-11 22:41:48
+xuups	a-ph3x	172	2009-06-11 22:41:52
+xvidcap	madamski	172	2009-06-11 22:41:52
+xvidcap	paniq	172	2009-06-11 22:41:52
+xvidcap	dgdaniels	172	2009-06-11 22:41:52
+xvidcap	Anonymous donor(s)	172	2009-06-11 22:41:52
+xviservicethief	philipdk	172	2009-06-11 22:41:52
+xwords	Anonymous donor(s)	172	2009-06-11 22:41:53
+yabause	realbrucest	172	2009-06-11 22:41:54
+yabause	everrain	172	2009-06-11 22:41:54
+yabause	johnsonlam	172	2009-06-11 22:41:54
+yabtuc	Anonymous donor(s)	172	2009-06-11 22:41:54
+yagcu	Anonymous donor(s)	172	2009-06-11 22:41:56
+yald	clintre	172	2009-06-11 22:41:57
+yale	quietriot	172	2009-06-11 22:41:57
+yats	Anonymous donor(s)	172	2009-06-11 22:42:01
+ytoics	Anonymous donor(s)	172	2009-06-11 22:42:06
+z390	Anonymous donor(s)	172	2009-06-11 22:42:07
+zanebug	eadiaz	172	2009-06-11 22:42:08
+zd1211	elecnix	172	2009-06-11 22:42:09
+zd1211	Anonymous donor(s)	172	2009-06-11 22:42:09
+zdt	fdimmling	172	2009-06-11 22:42:10
+zdt	batchman82	172	2009-06-11 22:42:10
+zdt	hansgruetz	172	2009-06-11 22:42:10
+zdt	creutzburg	172	2009-06-11 22:42:10
+zdt	gioge	172	2009-06-11 22:42:10
+zencart	Anonymous donor(s)	172	2009-06-11 22:42:10
+zencart	wmckenna	172	2009-06-11 22:42:10
+zencart-italia	Anonymous donor(s)	172	2009-06-11 22:42:10
+zentrack	salarcon	172	2009-06-11 22:42:11
+zentrack	jjevack	172	2009-06-11 22:42:11
+zentrack	mcutting	172	2009-06-11 22:42:11
+zentrack	ica-net	172	2009-06-11 22:42:11
+zentrack	twistedself	172	2009-06-11 22:42:11
+zguidetv	Anonymous donor(s)	172	2009-06-11 22:42:14
+zimbrafunambol	thomi_ch	172	2009-06-11 22:42:14
+zina	mastar	172	2009-06-11 22:42:14
+zina	trueinfinite	172	2009-06-11 22:42:14
+zina	rickmccl	172	2009-06-11 22:42:14
+zina	Anonymous donor(s)	172	2009-06-11 22:42:14
+zinf	Anonymous donor(s)	172	2009-06-11 22:42:15
+zinf	oeaton	172	2009-06-11 22:42:15
+zinf	vknightbd	172	2009-06-11 22:42:15
+zint	lakecoder	172	2009-06-11 22:42:15
+znf	Anonymous donor(s)	172	2009-06-11 22:42:16
+zscreen	czcsaba	172	2009-06-11 22:42:19
+zsnes	Anonymous donor(s)	172	2009-06-11 22:42:19
+zsnes	giga-fan7	172	2009-06-11 22:42:19
+zsnes	dynn	172	2009-06-11 22:42:19
+zsnes	infofarmer	172	2009-06-11 22:42:19
+zsrep	Anonymous donor(s)	172	2009-06-11 22:42:19
+zxunrar	Anonymous donor(s)	172	2009-06-11 22:42:20
+zyxel630-11	Anonymous donor(s)	172	2009-06-11 22:42:21

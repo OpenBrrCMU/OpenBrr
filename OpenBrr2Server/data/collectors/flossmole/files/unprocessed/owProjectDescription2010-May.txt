@@ -1,0 +1,139 @@
+#  file: owProjDesc2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, description, date_collected, datasource_id
+#  FROM ow_project_description
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	description	date_collected	datasource_id
+acceleo	Acceleo is a code generator which uses the MDA approach to easily design applications with models. Acceleo is natively based on Eclipse EMF and can be extended to target any technology.	2010-05-03 15:36:06	220
+accord	Accord is the first open source Odette FTP 2.0 product suite, providing functionalities to ease the integration of business partners with security and governance in mind. Project is licensed under GNU Affero GPL v3. 	2010-05-03 15:36:35	220
+apollon	Generation engine able to build graphical user interfaces (GUI) from DTDs and customization models. This makes the GUIs adapted to the edition of XML documents.	2010-05-03 15:36:35	220
+aspire	The AspireRFID project aims at developing and promoting an open-source, lightweight, standards-compliant, scalable, privacy-friendly, and integrated middleware to ease the development, the deployment and the management of RFID-based applications.	2010-05-03 15:36:35	220
+barracudamvc	Barracuda is an open-source Presentation Framework designed to make it easier to build servlet based webapps by applying proven client-server patterns to the web development paradigm. It includes a DOM based templating mechanism for better separation	2010-05-03 15:36:35	220
+been	BEEN: Framework for Integrating Performance Evaluation in Development Cycle	2010-05-03 15:36:36	220
+bonita	Bonita Open Solution provides an intuitive and powerful Open Source BPM solution for simple to complex projects	2010-05-03 15:36:36	220
+bpmadmin	NovaBPM is reference open source BPM platform embedding Bonita XPDL Workflow and Orchestra BPEL projects	2010-05-03 15:36:36	220
+bsframework	The Bright Side Framework provides ready-to-use high level components to quickly build J2EE business applications accessed by rich java/Swing clients on HTTP.	2010-05-03 15:36:36	220
+c-jdbc	Clustered JDBC gives your applications a transparent (no code modification) access to a cluster of databases even if your database engines are not cluster-aware.	2010-05-03 15:36:36	220
+cardamom	CARDAMOM is a middleware framework that provides features to configure, deploy and execute near real-time, distributed and fault-tolerant applications.	2010-05-03 15:36:36	220
+carol	CAROL (Common Architecture for RMI Objectweb Layer) is a Java RMI (Remote Methods Invocation) management tool.	2010-05-03 15:36:36	220
+celtix	Celtix delivers a Java enterprise service bus (ESB) runtime and set of extensibility APIs, simplifying the construction, integration and flexible reuse of technical and business components using a standards-based, service-oriented architecture.	2010-05-03 15:36:36	220
+clif	CLIF provides a flexible, extensible Java-based platform for scalable, distributed load injection and performance testing. With the Eclipse-based GUI, use provided or custom load injectors and probes, and run up to millions of vUsers per injector!	2010-05-03 15:36:36	220
+cmi	CMI is a framework to enable clustering of all RMI objects. CMI aims to get scalability and high availability for RMI servers. Also, it ensures an up-to-date cluster view for clients and allows to change dynamically the algorithms of load-balancing.	2010-05-03 15:36:36	220
+director	Enhydra Director implements web server plugins for Apache, IIS and IPlanet supporting advanced load balancing / clustering and runtime administration. Director can be used with plain Tomcat, Jetty, JBoss, JOnAS or Enhydra Server.	2010-05-03 15:36:36	220
+dods	Enhydra DODS is a code generating O/R mapping tool with true SQL queries for predictable performance, configurable templates and data/query caching. Can be used in standalone applications, every application server and of course with Enhydra Server.	2010-05-03 15:36:36	220
+dotnetj	DotNetJ is a middleware that gives .NET clients the ability to use Java components or J2EE applications. This project aims at providing .NET-to-Java interoperability without the bottleneck of web services.	2010-05-03 15:36:36	220
+dream	Dream is a component-based software framework dedicated to the construction of communication middleware. It provides a component library (based on Fractal) and tools allowing the construction of various communication paradigms.	2010-05-03 15:36:36	220
+dryverl	Dryverl is an XML dialect for specifying Erlang-to-C bindings as C port drivers, and a set of XSLT stylesheets that generate all of Erlang and C source code for a binding.	2010-05-03 15:36:36	220
+dysoweb	Dysoweb provides modularity and dynamicity to serlvet based web applications. Based on OSGi it allows the dynamic deployment of services packaged as bundles.	2010-05-03 15:36:36	220
+eaf	Enhydra Application Framework implements the Enhydra &quot;super-servlet&quot;, provides dynamic URL-JSESSIONID rewriting, PO caching, session-, database-, logging-, configuration- and XMLC APIs using adapters for different application servers.	2010-05-03 15:36:36	220
+easywsdl	Easy WSDL Toolbox provides a simple and extensible library to handle  WSDL documents with a common and high level API. It handles both WSDL 1.1 or WSDL2.0	2010-05-03 15:36:36	220
+eclipse-update	This project is used to manage the ObjectWeb Consortium Eclipse update sites (download.[fr2,us,zh].forge.objectweb.org/eclipse-update) which allow Eclipse users to download ObjectWeb plugins directly from Eclipse.	2010-05-03 15:36:36	220
+edemos	Enhydra Demos contains many applications showing various aspects of Enhydra tools and technologies like EAF, XMLC, DODS, Barracuda, Flash, FOP, XSLT, WAP/WML, VXML, SOAP, etc.	2010-05-03 15:36:36	220
+enhydra	Enhydra Server is the leading Open Source Java/XML application server supporting latest Servlet and Webservice standards. Enhydra Enterprise is based on JOnAS and supports the full J2EE stack.	2010-05-03 15:36:36	220
+epaf	This tool is an Eclipse plug-in based on EPF, which can define process aspects and weave them into SPEM 2.0 (Software Process Engineering Meta-model 2.0) process models.	2010-05-03 15:36:36	220
+exoplatform	eXo platform product line: a Portlet Container (JSR 168 + JSR 286 + WSRP2), a Java Content Repository (JCR - JSR 170), an AJAX based Portal (with WebOS layout), a full Enterprise Content Managament (ECM) and a Collaboration Suite 	2010-05-03 15:36:36	220
+federid	The FederID project aim to offer a real solution of Identity Management and Identity Federation. Built on existing free software, it profits of the support and the financing of the French National Agency of Research.	2010-05-03 15:36:36	220
+frascati	FraSCAti is a Java-based open source implementation of Service Component Architecture (SCA) specifications. Based on the OW2 Fractal component model, FraSCAti provides an open architecture to integrate new SCA component, binding, and intent technologies.	2010-05-03 15:36:36	220
+fwkdemoiselle	Demoiselle Framework is a Java Application Framework designed to accelerate the development of transactional database Web applications.	2010-05-03 15:36:36	220
+gasp	GASP project (GAming Services Platform) deals with middleware solutions to support Multiplayer Mobile Games (MMG) and Multiplayer Ubiquitous Games (MUGs), that implement and extends the Open Mobile Alliance GS specifications.	2010-05-03 15:36:36	220
+gotm	GoTM (GoTM is an open Transaction Monitor) is a component-based framework for building various transaction services. GoTM is developped with the Fractal component model.	2010-05-03 15:36:36	220
+howl	HOWL is a logger implementation providing features required by the JOTM project. HOWL uses unformatted binary logs to maximize performance and specifies a journalization API with methods necessary to support JOTM recovery operations.	2010-05-03 15:36:36	220
+interldap	InterLDAP is an identity management project based on a Java framework. Main goals are to solve self-management, provisioning, access control and profil management.	2010-05-03 15:36:36	220
+introspector	The introspector project aims to create a semantic interface into the GNU GCC compiler and other free tools. The data extracted will be useful for other object brokers. Currently hosted on sourceforge, we will be migrating the project to objectweb.	2010-05-03 15:36:36	220
+ivy	This project is used to manage the OW2's Ivy Repository (ivy.objectweb.org) which allows project managers using ivy to use a commmon repository.	2010-05-03 15:36:36	220
+j2ws	J2WS is a transforming tool to help develop web services efficiently.	2010-05-03 15:36:36	220
+jac	Java Aspect Components (JAC) is a framework for aspect-oriented sofware development in Java.	2010-05-03 15:36:36	220
+jasmine	JASMINe is an administration tool for the SOA platform aiming to simplify the administrator's job and reduce the management costs. It relies on an autonomic system (Jade project) for implementing some autonomous behaviors (self-repair, self-healing).	2010-05-03 15:36:36	220
+jaspte	Bench4Q is a QoS oriented B2C benchmark for Internet Middleware. It makes many extensions of TPC-W, especially for load simulation and metrics analysis of a benchmark. This project is hosted on the Trustie forge, operated by the OW2 China Local Chapter.	2010-05-03 15:36:36	220
+javaservice	JavaService allows server-type Java programs to be run in the background as a Windows NT/2000/XP system service (aka Unix daemon process).	2010-05-03 15:36:36	220
+jawe	Enhydra JaWE is a graphical Java Workflow Editor according to WfMC specifications supporting XPDL as its native file format. JaWE can be used to edit workflow definitions for Enhydra Shark or every other XPDL conformant Workflow server.	2010-05-03 15:36:36	220
+jeffree	Java Embedded Framework Free. Based on OSGi v2.0 specification.	2010-05-03 15:36:37	220
+jmimetypelib	jmimetypelib is a java library used to find the mime-type of files and streams using file extension and/or magic numbers. Additionally it may return an icon to represent the mime-type file and a locale description.	2010-05-03 15:36:37	220
+jnetcontrol	Management and configuring network equipment with support to Telnet protocol ie: Cisco tm, 3COM.	2010-05-03 15:36:37	220
+jonas-doc	The jonas-doc project goal is to hold JOnAS documentation translations. The repository will contain one directory per language (French -&gt; jonas-doc-fr, German -&gt; jonas-doc-de, ...).	2010-05-03 15:36:37	220
+jonathan	Jonathan is an open source adaptable distributed object platform, which currently provides several personalities, including on compliant with the OMG CORBA specifications and another with the RMI specification.	2010-05-03 15:36:37	220
+joram	JORAM (Java Open Reliable Asynchronous Messaging) is an open source implementation of the JMS (Java Message Service) 1.1 API.	2010-05-03 15:36:37	220
+jorm	JORM (Java Object Repository Mapping) is an open source adaptable persistence service.	2010-05-03 15:36:37	220
+jotm	JOTM (Java Open Transaction Manager) is a fully functional open source standalone transaction manager that implements the XA protocol and is compliant with the JTA APIs.	2010-05-03 15:36:37	220
+jsurvey	The purpose of JSurvey is to provide tools for building online survey based on Java (J2EE) technologies. For the moment JSurvey is a started project so there is only a cvs repository with the sources of an online graphical survey example. see the cvs REA	2010-05-03 15:36:37	220
+kelp	Enhydra Kelp is the IDE plugin for JBuilder, Netbeans, Eclipse and JDeveloper integrating EAF, Enhydra XMLC and Enhydra DODS into your favorite development environment. It also includes an application wizard for your first steps.	2010-05-03 15:36:37	220
+kilim	Kilim is a generic configuration framework based on the concept of configuration by software assembly.	2010-05-03 15:36:37	220
+kilim2	This project has not yet submitted a description.	2010-05-03 15:36:37	220
+lemonldap	LemonLDAP::NG is a single sign on handler for Apache web server. It manages several levels of cache and gets authentication data from an LDAP directory.	2010-05-03 15:36:37	220
+lewys	LeWYS hosts a number of frameworks related to monitoring, based on OW2 Fractal component model. It contains a primary module called lewys, a Fractal monitoring framework providing a library of probes for both hardware and software resources.	2010-05-03 15:36:37	220
+lomboz	Lomboz is an eclipse plug-in for J2EE developers by extending eclipse JDT. It employs some of the proven open-source technologies. Supporting the complete development cycle: Code, deploy, test and debug.	2010-05-03 15:36:37	220
+maven	This project is used to manage the ObjectWeb's Maven Repository (maven.objectweb.org) which allows project managers using maven to use a commmon repository.	2010-05-03 15:36:37	220
+mesh	Mesh is a proxy for a remote JDBC driver, which can be accessed as though it were local. 	2010-05-03 15:36:37	220
+mind	MIND is an implementation of the Fractal component model for the development of embedded softwares. It provides an architecture compilation tool-chain, a component library and an integrated development environment based on Eclipse.	2010-05-03 15:36:37	220
+modfact	(Model Factory) is a Tool Box for the MDA(TM) (Model Driven Architecture)	2010-05-03 15:36:37	220
+navilis	Xcalia NAViLIS Web allows a developer to browse, query for, create, update, and delete business objects that are mapped to a live database. NAViLIS Web is like a database browser, except that the user navigates Java objects instead of database tables.	2010-05-03 15:36:37	220
+newsadmin	This project has not yet submitted a description.	2010-05-03 15:36:37	220
+noah	Noah is an implementation of an Interaction Service. &lt;br&gt;Interactions between components are described using a specific language (ISL). &lt;br&gt;Successive Adaptations are merged in a commutative and associative way.	2010-05-03 15:36:37	220
+objectweb-zh	ObjectWeb Chinese Project is a work in progress to translate ObjectWeb Document, localize ObjectWeb Projects and prompt ObjectWeb Open Source in China. This project serves as the file repository for the document translation effort.	2010-05-03 15:36:37	220
+ocelot	OCELOT is an Open Collaborative Environment for the Leverage of Online insTrumentation. It is a Framework to easily create and deploy collaborative-based applications in order to operate one or several real remote devices over the Internet.	2010-05-03 15:36:37	220
+ofccharts	OFC Charts fills the need for publishing reports and statistics in graphical format such as curves and histograms. Fully written in JAVA and compatible with all popular IDEs it creates graphics in industry standard JPEG, PNG and SVG formats.	2010-05-03 15:36:37	220
+oncepi	As an Integration-Oriented business process management system, OncePI project provides a platform to construct dynamic process flexibly and efficiently.	2010-05-03 15:36:37	220
+oncess	OnceSS is for service selection for business process. It can optimize the QoS of bussiness process. This project is hosted on the Trustie forge, operated by the OW2 China Local Chapter.	2010-05-03 15:36:37	220
+opalval	Project for validation of ow2 forge	2010-05-03 15:36:37	220
+openediint	Open EDIINT is an open source implementation of EDIINT standards. It provides a component library and tools to build applications that allow companies to integrate with their partners, making Electronic Data Interchange over the Internet.	2010-05-03 15:36:37	220
+openmobileis	Open Mobile IS is a Java framework that aim to provide all the functionalities and components needed for the developpement of entreprise mobile application.	2010-05-03 15:36:37	220
+ops	Orbeon Forms is an open source forms solution that handles the complexity of forms typical of the enterprise or government. It is delivered to standard web browsers thanks to XForms and Ajax technology, with no need for client-side software or plugins.	2010-05-03 15:36:37	220
+orchestra	Orchestra is a Web Service Orchestration Suite based on the OASIS standard BPEL (Business Process Execution Language). 	2010-05-03 15:36:37	220
+orientwareccm	A CCM implementation in C++	2010-05-03 15:36:37	220
+osa-interop	The OSA CCV Project provides software, tools, collatoral and guidelines for interoperability of OSA and OW2 projects and vendors. It leverages the 3 year effort by OSA to demonstrate project interoperability.	2010-05-03 15:36:37	220
+oslcv3	Open Source License Checker V.3 is tool for inspection and analysis of license information from open source packages.	2010-05-03 15:36:37	220
+oyster	Enhydra Oyster is a Java library for SMIME signing and encryption using different key strengths and algorithms. It is developed with suport and testing for major E-Mail clients.	2010-05-03 15:36:37	220
+pargres	ParGRES is a Database Cluster Middleware whose main goal is to efficiently process heavy-weight queries (e.g. OLAP). Our query processing combines intra and inter-query parallelism, while using replication and virtual fragmentation over a PC cluster.	2010-05-03 15:36:37	220
+petals	The PETALS Services Platform provides a distributed open source implementation of Java Business Integration (JBI) spec as a core element to build OW2 ESB solutions, leveraging existing Consortium s components.	2010-05-03 15:36:37	220
+pkuas	JOnAS PKU is a light-weight application server prototype. It functions as component operating platform based on Java/J2EE technology. It aims at exploring advanced middleware features like easy of management, flexibility, and open to change.	2010-05-03 15:36:37	220
+polyorb	PolyORB is a schizophrenic middleware that has an original architecture decoupling protocol personalities from application personalities. PolyORB enables in the same middleware: configurability, genericity and M2M.	2010-05-03 15:36:38	220
+rfid	RFID project is a collection of RFID related components and middleware available from ObjectWeb s software stack.	2010-05-03 15:36:38	220
+rubbos	RUBBoS is a bulletin board benchmark modeled after an online news forum like Slashdot. It is used for design patterns and J2EE servers performance scalability evaluation. RUBBoS provides the essential bulletin board features such as discussion threads.	2010-05-03 15:36:38	220
+rubis	RUBiS is an auction site prototype modeled after eBay.com. It is used for design patterns and J2EE servers performance scalability evaluation.	2010-05-03 15:36:38	220
+s4allsdk	S4All-SDK is a toolkit to build a Java standard based service oriented platform	2010-05-03 15:36:38	220
+salome-tmf	SalomeTMF is a test management tool, aiming to provide an open framework allowing, the automatic tests execution, reports, and the management of defects/requirements. In 2010 ACPQualife take the lead of the project. http://www.Acpqualife.com/	2010-05-03 15:36:38	220
+scarbo	Scarbo brings technology agnostic Business Process design and execution to your service architecture. Built on Eclipse Java Workflow Tooling (JWT) and the Frascati SCA platform, it supports the Nova Bonita workflow engine while being open to others.	2010-05-03 15:36:38	220
+shark	Enhydra Shark is a workflow server with a difference. Shark is completely based on standards from WfMC and OMG using XPDL as its native workflow definition language. The Shark framework can be configured to support different environments.	2010-05-03 15:36:38	220
+snapper	Enhydra Snapper is a fulltext search library / framework in Java based on Apache Lucene to build search engine applications or integrate fulltext search into applications.	2010-05-03 15:36:38	220
+soda	The SODA project will develop an ecosystem (runtime and tools) for building service-oriented systems running on embedded devices. Both a C/C++ and a Java (J2ME CDC) version will be developed.	2010-05-03 15:36:38	220
+sofa	SOFA provides a platform for designing applications composed of hierarchical, dynamically updatable components, interconnected by connectors hiding deployment details. Communication among the components can be captured formally by behavior protocols.	2010-05-03 15:36:38	220
+spago	Spago is a J2EE framework that provides a solution to the needs of multichannel applications and integration services. It allows to develop web applications,integrating existing infrastructures and publishing the services on different channels.	2010-05-03 15:36:38	220
+spago4q	Spago4Q  is a platform for assessing the maturity of the software development process and product, by evaluating data and measures collected from the development tools with non-invasive techniques, in order to improve the overall quality.	2010-05-03 15:36:38	220
+spagobi	SpagoBI is a Business Intelligence Free Platform which uses many FOSS tools as analytical engines, integrating them in an infrastructure which offers a cross-operativeness and a consistent vision between Report,OLAP,Data Mining,Dashboard and over the DWH	2010-05-03 15:36:38	220
+starwebservice	StarWebService is an independent platform for developing, deploying, managing and running Web Services.	2010-05-03 15:36:38	220
+stock-online	Stock-Online is the CSIRO application used to stress middleware performance and scalability. This open-source version is implemented in EJB 1.1, and provides two alternative design choices (Session bean + JDBC, and Session bean + CMP Entity beans).	2010-05-03 15:36:38	220
+surf	SURF (Fault Tolerance by Replication with Universal Services) is a Java library replication service for arbitrary deterministic objects. In crash situations objects can still be accessed with replication transparent to the application developer.	2010-05-03 15:36:38	220
+tess	TESS (Timestamped Event Stream System) is a framework designed to easily build complex event stream processing. CRS (Chronicle Recognition System) deploys a TESS processing architecture which implements a correlation rule engine from a set of chronicles.	2010-05-03 15:36:38	220
+think	THINK is a software framework for building component-based system kernels. As an implementation of the Fractal model, it clearly separates architectural from functional apects, provides flexibility, encourages code re-use and reduces development time.	2010-05-03 15:36:38	220
+tox	This project has not yet submitted a description.	2010-05-03 15:36:38	220
+ubistar	Ubistar Project is a platform which support the development of the pervasive computing applications.	2010-05-03 15:36:38	220
+wcms	This project has not yet submitted a description.	2010-05-03 15:36:38	220
+wildcat	WildCAT is a Java toolkit/framework to make applications context-aware. It provides a simple and dynamic data model to represent the execution context of the application, which can be accessed both synchronously and asynchronously (pull and push).	2010-05-03 15:36:38	220
+wsunit	WSUnit is a tool that can help you test Web Services. It provides a predictable and repeatable simulation of a Web Service that is ideal for unit testing.	2010-05-03 15:36:38	220
+xmlc	Enhydra XMLC radically simplifies web development by cleanly separating presentation from code.	2010-05-03 15:36:38	220
+xplus	xPlus is a implementation of the persistence provider of Enterprise Java Beans 3.0, also known as the Java Persistence API (JPA). It can be used as a stand-alone POJO persistence layer, or it can be integrated into any EJB3.0 compliant container.	2010-05-03 15:36:38	220
+xquare	The XQuare project provides a set of Java components for extending J2EE platforms with XML-based, heterogeneous information integration capabilities, using the XQuery language	2010-05-03 15:36:38	220
+xservice	XService suite, which is powered by ACT (The Institute of Advanced Computing Technology), Beihang University, Beijing, China, is a suite focus on xml and web service and provide fundamental element to enable service oriented architecture(SOA).	2010-05-03 15:36:38	220
+xwiki	XWiki is a second-generation wiki. See http://xwiki.org for all details.	2010-05-03 15:36:38	220
+zeus	Open source Java-to-XML Data Binding tool.	2010-05-03 15:36:38	220

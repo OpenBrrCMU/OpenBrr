@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services-config>
+
+    <services>
+        <service-include file-path="remoting-config.xml" />
+        <service-include file-path="messaging-config.xml" />
+        <service id="remoting-weborb-service"
+            class="Weborb.V3Types.Core.RemotingHandler"
+            messageTypes="flex.messaging.messages.RemotingMessage">
+            <adapters />
+
+            <default-channels>
+                <channel ref="weborb-rtmp"/>
+            </default-channels>
+
+            <destination id="MessagingDestination">
+                <properties>
+                    <source>*</source>
+                </properties>
+            </destination>   
+            
+            <destination id="RTMPDestination">
+                <properties>
+                    <server>
+                        <durable>false</durable>
+                    </server>
+                    <message-service-handler>weborb.messaging.v3.MessagingServiceHandler</message-service-handler>
+                    <message-storage-policy>weborb.messaging.v3.MemoryStoragePolicy</message-storage-policy>>
+                </properties>
+                <channels>
+                    <channel ref="weborb-rtmp"/>
+                </channels>         
+            </destination>            
+        </service>         
+    </services>
+
+    <channels>
+
+        <channel-definition id="my-amf" class="mx.messaging.channels.AMFChannel">
+            <endpoint uri="weborb.wo" class="flex.messaging.endpoints.AMFEndpoint"/>
+            <properties>
+                <polling-enabled>false</polling-enabled>
+            </properties>
+        </channel-definition>
+        
+        <channel-definition id="my-polling-amf" class="mx.messaging.channels.AMFChannel">
+            <endpoint uri="weborb.wo" class="flex.messaging.endpoints.AMFEndpoint"/>
+            <properties>
+                <polling-enabled>true</polling-enabled>
+                <polling-interval-seconds>1</polling-interval-seconds>
+            </properties>
+        </channel-definition>              
+
+        <channel-definition id="session-channel" class="mx.messaging.channels.AMFChannel">
+            <endpoint uri="weborb.wo?activate=session" class="flex.messaging.endpoints.AMFEndpoint"/>
+            <properties>
+                <polling-enabled>false</polling-enabled>
+            </properties>
+        </channel-definition>
+
+        <channel-definition id="singleton-channel" class="mx.messaging.channels.AMFChannel">
+            <endpoint uri="weborb.wo?activate=application" class="flex.messaging.endpoints.AMFEndpoint"/>
+            <properties>
+                <polling-enabled>false</polling-enabled>
+            </properties>
+        </channel-definition>
+
+        <channel-definition id="my-secure-amf" class="mx.messaging.channels.SecureAMFChannel">
+            <endpoint uri="weborb.wo" class="flex.messaging.endpoints.SecureAMFEndpoint"/>
+        </channel-definition>
+        
+        <channel-definition id="weborb-rtmp" class="weborb.messaging.WeborbMessagingChannel">
+            <endpoint uri="rtmp://{server.name}:1935" />
+        </channel-definition>
+    </channels>
+</services-config>

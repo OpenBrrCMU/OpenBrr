@@ -1,0 +1,829 @@
+#  file: owDevelopers2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT dev_loginname, realname, date_collected, datasource_id
+#  FROM ow_developers
+#  WHERE datasource_id=220
+#  ORDER BY dev_loginname;
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+dev_loginname	realname	date_collected	datasource_id
+abdellat	Takoua Abdellatif	2010-05-03 15:32:10	220
+abonnefoy	Anthonin Bonnefoy	2010-05-03 15:29:50	220
+aboulze	Alain Boulze	2010-05-03 15:34:03	220
+acldrwd	Alastair Calderwood	2010-05-03 15:32:24	220
+adadiaconescu	Ada Diaconescu	2010-05-03 15:32:10	220
+adgeg	Adgeg	2010-05-03 15:30:50	220
+adil	Meribaa adil	2010-05-03 15:35:06	220
+adisakala	Adi Sakala	2010-05-03 15:29:48	220
+admin	Local GForge Admin	2010-05-03 15:32:38	220
+adriangep	Adrián Gómez-España Pecker	2010-05-03 15:35:06	220
+afreret	Alexandre Freret	2010-05-03 15:30:09	220
+afreyssin	Andre Freyssinet	2010-05-03 15:31:43	220
+afuca	Alfonso Fuca	2010-05-03 15:33:12	220
+aghedin	Alberto Ghedin	2010-05-03 15:34:42	220
+ahiba	ahiba	2010-05-03 15:29:50	220
+ahmedadouani	Ahmed Adouani	2010-05-03 15:35:06	220
+aime	Aime Vareille	2010-05-03 15:35:06	220
+akardell	Aaron Kardell	2010-05-03 15:35:30	220
+alaric	Alaric Mestre de Laroque	2010-05-03 15:32:30	220
+alci	Franck Routier	2010-05-03 15:29:26	220
+aledeniz	Alessandro Riolo	2010-05-03 15:29:40	220
+alex86	Deneux	2010-05-03 15:30:14	220
+aliam	ALIA Mourad	2010-05-03 15:32:22	220
+alitokmen	S. Ali Tokmen	2010-05-03 15:29:45	220
+allilaire	Freddy Allilaire	2010-05-03 15:29:11	220
+alouis	Adrien Louis	2010-05-03 15:30:17	220
+alphaa	xulei	2010-05-03 15:35:40	220
+aluca	Anca Paula Luca	2010-05-03 15:35:43	220
+amensch	Antoine Mensch	2010-05-03 15:34:24	220
+amrania	amrani idrissi azzedine	2010-05-03 15:29:45	220
+andrea	Andrea Smyth	2010-05-03 15:29:48	220
+andreagrassi	Andrea Grassi	2010-05-03 15:34:35	220
+andreasschenk	Dr. Andreas Schenk	2010-05-03 15:31:38	220
+andrei	Andrei Loskutov	2010-05-03 15:29:19	220
+andrej	Andrej Podzimek	2010-05-03 15:29:29	220
+andrey	Laurent Andrey	2010-05-03 15:30:41	220
+andreyparfonov	Andrey Parfonov	2010-05-03 15:30:33	220
+andreys	Andrey Sadovykh	2010-05-03 15:32:30	220
+angoca	Andres Gomez Casanova	2010-05-03 15:29:21	220
+annema	Matthieu ANNE	2010-05-03 15:32:27	220
+anthony_b	Anthony Birembaut	2010-05-03 15:29:31	220
+antmiele	Antonietta Miele	2010-05-03 15:34:32	220
+apace	Alessio Pace	2010-05-03 15:30:05	220
+apaibir	Ajay Paibir	2010-05-03 15:29:48	220
+apupier	Aurelien Pupier	2010-05-03 15:31:20	220
+araujo	Edmar Pessoa Araújo Neto	2010-05-03 15:33:28	220
+ardaaydin	Arda Aydin	2010-05-03 15:31:20	220
+aruffie	adrien  ruffie	2010-05-03 15:33:39	220
+asergey	Serge Aleynikov	2010-05-03 15:30:07	220
+ashah	Archit Shah	2010-05-03 15:29:38	220
+assis	Alexandre A. B. Lima	2010-05-03 15:33:33	220
+ataurelli	Alessandro Taurelli	2010-05-03 15:33:01	220
+atiar	TIAR Abderrahmane	2010-05-03 15:33:43	220
+atrac	Jan Tattermusch	2010-05-03 15:29:29	220
+aucoueron	Aurelien Coueron	2010-05-03 15:35:00	220
+aurore	Aurore Penault	2010-05-03 15:34:07	220
+aveleda	Albino Aveleda	2010-05-03 15:33:33	220
+avernet	Alessandro Vernet	2010-05-03 15:33:10	220
+a_madl	Alfred Madl	2010-05-03 15:29:57	220
+babkd	David Babka	2010-05-03 15:34:28	220
+badolle	badolle fabien	2010-05-03 15:31:43	220
+baiao	Fernanda Baiao	2010-05-03 15:33:33	220
+bamboo	Bamboo	2010-05-03 15:30:38	220
+barais	Barais Olivier	2010-05-03 15:35:20	220
+barjo	Jonathan Bardin	2010-05-03 15:32:18	220
+barozzi	Luca Barozzi	2010-05-03 15:34:32	220
+baz	Sebastien Jean	2010-05-03 15:29:21	220
+bdany70	Balestrin Daniele	2010-05-03 15:34:32	220
+belkhatir	Noureddine Belkhatir	2010-05-03 15:29:55	220
+bellissa	Luc Bellissard	2010-05-03 15:31:43	220
+bellmann29	Jörg Bellmann	2010-05-03 15:31:38	220
+bendraou	Bendraou Reda	2010-05-03 15:32:30	220
+benhur	Benhur Stein	2010-05-03 15:33:28	220
+benjmestrallet	Benjamin Mestrallet	2010-05-03 15:30:33	220
+benoitf	Florent Benoit	2010-05-03 15:29:45	220
+bergschlos	Karpenko Sergey	2010-05-03 15:30:33	220
+bernabei	Angelo Bernabei	2010-05-03 15:34:35	220
+bersihyo	Yoann Bersihand	2010-05-03 15:31:46	220
+beyler_olivier	Olivier Beyler	2010-05-03 15:29:50	220
+blachonm	marc blachon	2010-05-03 15:29:31	220
+bmi	Bruno Michel	2010-05-03 15:32:02	220
+bmiranda	Bernardo Miranda	2010-05-03 15:33:33	220
+bonenfant	Ludovic Bonenfant	2010-05-03 15:29:43	220
+bouillot	nicolas bouillot	2010-05-03 15:30:50	220
+bourcier	Johann Bourcier	2010-05-03 15:32:18	220
+bourretp	Pierre Bourret	2010-05-03 15:32:18	220
+bourzabe	bourzabe louabalbe	2010-05-03 15:29:53	220
+boutaleb	boutaleb btissam	2010-05-03 15:32:10	220
+bozhong	Bozhong Lin	2010-05-03 15:29:48	220
+bpm	Bull Bpm	2010-05-03 15:31:12	220
+bprucha	Brett Prucha	2010-05-03 15:29:38	220
+braeuney	BRAEUNER	2010-05-03 15:29:45	220
+braganholo	Vanessa Braganholo	2010-05-03 15:33:33	220
+brahime	Elwalid BRAHIM	2010-05-03 15:29:33	220
+brepcek	Branislav Repcek	2010-05-03 15:29:29	220
+bricardq	Bricard Quentin	2010-05-03 15:29:45	220
+brice	Brice Revenant	2010-05-03 15:30:33	220
+brunoborges	Bruno Borges	2010-05-03 15:29:14	220
+bruno_therese	Bruno THERESE	2010-05-03 15:35:06	220
+bryanche	Bryan Che	2010-05-03 15:29:38	220
+bsayli	Baris Sayli	2010-05-03 15:32:13	220
+bugfixer	Denny Chambers	2010-05-03 15:29:26	220
+bures	Tomas Bures	2010-05-03 15:34:28	220
+bwright	Barton Wright	2010-05-03 15:29:48	220
+calvisim	Calvisi Marc	2010-05-03 15:32:10	220
+camillej	Jerome Camilleri	2010-05-03 15:31:07	220
+caodg	Donggang Cao	2010-05-03 15:33:46	220
+carlos	Carlos Sanchez	2010-05-03 15:29:48	220
+carpentier	Pierre Carpentier	2010-05-03 15:32:30	220
+caseryj	Jérémy Casery	2010-05-03 15:30:59	220
+caustin	Calvin Austin	2010-05-03 15:33:20	220
+cayuelaj	Jacques Cayuela	2010-05-03 15:34:18	220
+cazzin	Grazia Cazzin	2010-05-03 15:34:42	220
+cbrun	Cédric Brun	2010-05-03 15:29:11	220
+cburin	Clément Burin des Roziers	2010-05-03 15:35:06	220
+cctrieloff	Carl Trieloff	2010-05-03 15:29:48	220
+cdangerville	Cyril Dangerville	2010-05-03 15:30:36	220
+cdeneux	Christophe DENEUX	2010-05-03 15:30:17	220
+cecchet	Emmanuel Cecchet	2010-05-03 15:29:40	220
+cedric	Cedric Thomas	2010-05-03 15:34:18	220
+ceres	Petr Tuma	2010-05-03 15:29:29	220
+cescoffier	Clement Escoffier	2010-05-03 15:32:18	220
+cgravier	Christophe GRAVIER	2010-05-03 15:30:36	220
+chaffotm	Matthieu CHAFFOTTE	2010-05-03 15:29:31	220
+chahinem	malek chahine	2010-05-03 15:31:20	220
+chamerling	Christophe Hamerling	2010-05-03 15:30:17	220
+charauxp	Philippe Charaux	2010-05-03 15:31:56	220
+charles_casadei	Charles Casadei	2010-05-03 15:30:17	220
+charoy	François Charoy	2010-05-03 15:29:31	220
+charrep	Charre	2010-05-03 15:32:27	220
+chassand	Sebastien Chassande-Barrioz	2010-05-03 15:29:50	220
+chazalet	Antonin Chazalet	2010-05-03 15:32:10	220
+chenjh	Chen Jianhui	2010-05-03 15:32:56	220
+chiarelli	Chiara Chiarelli	2010-05-03 15:34:39	220
+chirino	Hiram Chirino	2010-05-03 15:30:55	220
+chomats	Chomat Stephane	2010-05-03 15:32:27	220
+chouyas	chouya samir	2010-05-03 15:29:11	220
+christianc	Christian Cryder	2010-05-03 15:29:26	220
+cjodea	Conrad O'Dea	2010-05-03 15:29:48	220
+clement_oudot	Clément OUDOT	2010-05-03 15:30:36	220
+cliffschmidt	Cliff Schmidt	2010-05-03 15:29:48	220
+cney	Christophe Ney	2010-05-03 15:35:46	220
+cnotot	Cédric NOTOT	2010-05-03 15:29:11	220
+cnuel	Catherine NUEL	2010-05-03 15:32:38	220
+congnguyen	Nguyen Thanh Cong	2010-05-03 15:30:33	220
+contrera	Christophe Contreras	2010-05-03 15:29:16	220
+coqp	Philippe Coq	2010-05-03 15:29:45	220
+cover_eye	xiaoxiao	2010-05-03 15:35:40	220
+cquinton	Clement Quinton	2010-05-03 15:30:44	220
+csiro	Paul Brebner	2010-05-03 15:34:53	220
+cvergnaud	Chrystophe Vergnaud	2010-05-03 15:30:09	220
+cyz	ying z. chen	2010-05-03 15:32:43	220
+damian	Damian Arregui	2010-05-03 15:29:40	220
+danesa	Adriana Danes	2010-05-03 15:30:14	220
+dangtran	Frederic Dang Tran	2010-05-03 15:31:20	220
+danpb	Daniel Berrange	2010-05-03 15:29:38	220
+darthvader	Stefan Armbruster	2010-05-03 15:29:26	220
+davidedc	Davide Dalle Carbonare	2010-05-03 15:30:33	220
+davymoussavou	Davy MOUSSAVOU	2010-05-03 15:33:07	220
+dbonneau	David Bonneau	2010-05-03 15:29:11	220
+dbradby	Daniel Bradby	2010-05-03 15:35:26	220
+dbutano	Butano Daniela	2010-05-03 15:34:32	220
+deanj	Dean Jennings	2010-05-03 15:31:07	220
+debrouxl	Lionel Debroux	2010-05-03 15:30:41	220
+dechampa	Pascal Dechamboux	2010-05-03 15:30:41	220
+deets	Diez B. Roggisch	2010-05-03 15:29:26	220
+degolf	David A. Egolf	2010-05-03 15:31:38	220
+delpiano	Fabien Delpiano	2010-05-03 15:30:50	220
+demarey	Christophe Demarey	2010-05-03 15:30:41	220
+demch	Diego Ernesto Malpica Chauvet	2010-05-03 15:29:40	220
+dengfei	DENG FEI	2010-05-03 15:33:46	220
+desertom	Mikael Desertot	2010-05-03 15:29:21	220
+dfournie	Damien Fournier	2010-05-03 15:30:44	220
+dgervalle	Denis Gervalle	2010-05-03 15:35:43	220
+dgregoro	Dennis Gregorovic	2010-05-03 15:29:38	220
+dhansen	Dylan Hansen	2010-05-03 15:29:40	220
+dhdv	D. de Villeneuve	2010-05-03 15:35:06	220
+dhy01	David H. Young	2010-05-03 15:35:30	220
+diego-midon	Diego Midon Pereira	2010-05-03 15:30:05	220
+dillense	Bruno Dillenseger	2010-05-03 15:29:50	220
+diopt	Diop Tamsir	2010-05-03 15:31:20	220
+djencks	David Jencks	2010-05-03 15:30:55	220
+dkulp	Daniel Kulp	2010-05-03 15:29:48	220
+doisneal	DOISNEAU	2010-05-03 15:32:38	220
+dolet	Nicolas Dolet	2010-05-03 15:30:44	220
+donsez	Didier Donsez	2010-05-03 15:29:21	220
+dotnetj	DotNetJ	2010-05-03 15:30:02	220
+dparisek	Doug Parisek	2010-05-03 15:29:31	220
+dr-alves	David Alves	2010-05-03 15:30:14	220
+dsmall0	d	2010-05-03 15:33:10	220
+dssmith	Duncan Smith	2010-05-03 15:29:40	220
+dturkoglu	Deniz Turkoglu	2010-05-03 15:32:13	220
+duanzhiquan	duanzhiquan	2010-05-03 15:31:22	220
+dumantbr	Bruno Dumant	2010-05-03 15:31:41	220
+dungln	Nguyen Le Dung	2010-05-03 15:30:33	220
+durieuxp	Philippe Durieux	2010-05-03 15:29:45	220
+dutoo	Marc Dutoo	2010-05-03 15:32:02	220
+duvauchn	Duvauchel Nicoals	2010-05-03 15:29:45	220
+dxshi	Dianxi Shi	2010-05-03 15:35:13	220
+eamdwyer	Eamonn Dwyer	2010-05-03 15:29:48	220
+ebruchez	Erik Bruchez	2010-05-03 15:33:10	220
+ebruneton	Eric Bruneton	2010-05-03 15:29:19	220
+eetuj	Eetu Jalonen	2010-05-03 15:33:20	220
+egberts	Stephen Egbert	2010-05-03 15:29:31	220
+eglynn	Eoghan Glynn	2010-05-03 15:29:48	220
+ehardesty	Eric Hardesty	2010-05-03 15:30:55	220
+ejohnson	Eric Johnson	2010-05-03 15:29:48	220
+ejuliot	Etienne Juliot	2010-05-03 15:29:11	220
+ekuleshov	Eugene Kuleshov	2010-05-03 15:29:19	220
+ekurkela	Eero Kurkela	2010-05-03 15:33:20	220
+el-vadimo	Vadim Nasardinov	2010-05-03 15:29:38	220
+elazzouzi	IBN ELAZZOUZI Mohamed	2010-05-03 15:29:31	220
+elemelin	Eric Lemelin	2010-05-03 15:35:00	220
+elka	Lefteris Karageorgiou	2010-05-03 15:29:21	220
+elkholymaggy	el kholy	2010-05-03 15:29:33	220
+emsellem	David Emsellem	2010-05-03 15:32:40	220
+epva5350	Patrick Venier	2010-05-03 15:35:06	220
+ervalerio	Valerio Schiavoni	2010-05-03 15:30:05	220
+esdaniel	Ed Daniel	2010-05-03 15:34:18	220
+eseyman	Emmanuel Seyman	2010-05-03 15:30:36	220
+essobedo	Nicolas Filotto	2010-05-03 15:30:33	220
+etcheversx	Xavier Etchevers	2010-05-03 15:33:36	220
+evamars	hehongjie	2010-05-03 15:35:40	220
+evlist	Eric van der Vlist	2010-05-03 15:33:10	220
+exertief	Francois Exertier	2010-05-03 15:31:38	220
+exo	eXo Platform	2010-05-03 15:30:33	220
+experl01	Xavier Spengler	2010-05-03 15:31:49	220
+eyindanga	stephane zeng	2010-05-03 15:29:45	220
+fab	Fabrice Rivart	2010-05-03 15:29:50	220
+fabien_almori	fabien almori	2010-05-03 15:35:06	220
+fabien_mottet	Fabien Mottet	2010-05-03 15:30:41	220
+farmand	Francois Armand	2010-05-03 15:30:36	220
+fassinjp	Jean-Philippe Fassino	2010-05-03 15:35:06	220
+fbolton	Fintan Bolton	2010-05-03 15:29:48	220
+fcaron	Franck Caron	2010-05-03 15:30:50	220
+feliot	David Feliot	2010-05-03 15:31:43	220
+ffang	Freeman Fang	2010-05-03 15:29:48	220
+ffrancis	Frédéric Francis	2010-05-03 15:33:07	220
+fgardes	Frédéric Gardes	2010-05-03 15:30:17	220
+fgaudin	Francois Gaudin	2010-05-03 15:29:11	220
+fgheno	Francesco Gheno	2010-05-03 15:34:32	220
+fichatel	François MORON	2010-05-03 15:30:33	220
+fko	Fabrice Kordon	2010-05-03 15:33:50	220
+flet	Francois LETELLIER	2010-05-03 15:35:46	220
+flissi	Areski Flissi	2010-05-03 15:29:55	220
+flmc8433	Florian Francheteau	2010-05-03 15:29:50	220
+floiret	Frédéric Loiret	2010-05-03 15:30:41	220
+flombard	Felix Lombard	2010-05-03 15:34:10	220
+florinciu	Florin Ciubotaru	2010-05-03 15:35:43	220
+flow	Bjoern Erik Abt	2010-05-03 15:31:38	220
+fmancinelli	Fabio Mancinelli	2010-05-03 15:35:43	220
+fmetral	Florent Métral	2010-05-03 15:29:50	220
+fmillevi	Franck Milleville	2010-05-03 15:32:33	220
+fmolinieres	Frederic Molinieres	2010-05-03 15:31:56	220
+fmorel	franck morel	2010-05-03 15:29:11	220
+fnasser	Fernando Nasser	2010-05-03 15:29:45	220
+forax	Remi Forax	2010-05-03 15:29:19	220
+fornacif	Francois Fornaciari	2010-05-03 15:29:21	220
+foufou73	FOURNIER david	2010-05-03 15:35:06	220
+fpeters	Frédéric Péters	2010-05-03 15:30:36	220
+franceschini	monica franceschini	2010-05-03 15:34:42	220
+francesm	monica franceschini	2010-05-03 15:30:33	220
+frascati-bot	Frascati bot	2010-05-03 15:32:19	220
+fredsdc	Frederico Souza da Camara	2010-05-03 15:30:47	220
+frperezs	Francisco Perez-Sorrosal	2010-05-03 15:29:45	220
+fsougrati	Fayçal SOUGRATI	2010-05-03 15:34:07	220
+gabo_pedraza	Gabriel Pedraza Ferreira	2010-05-03 15:29:21	220
+gaellalire	Gaël Lalire	2010-05-03 15:29:33	220
+gandrille	Etienne Gandrille	2010-05-03 15:29:21	220
+garciap	GARCIA Pierre	2010-05-03 15:30:05	220
+gavardi	Giulio Gavardi	2010-05-03 15:34:39	220
+gblondelle	Gael Blondelle	2010-05-03 15:30:17	220
+gboccalon	Gianfranco Boccalon	2010-05-03 15:34:32	220
+gbort	Guillaume Bort	2010-05-03 15:31:38	220
+gdecarnin	Guillaume Decarnin	2010-05-03 15:34:10	220
+geaz	Gennady Azarenkov	2010-05-03 15:30:33	220
+genewoo	Gene Woo	2010-05-03 15:32:43	220
+geovanirw	Geovani Ricardo Wiedenhoft	2010-05-03 15:33:28	220
+gercan	Gorkem ERCAN	2010-05-03 15:32:13	220
+gfavro	guillaume Favro	2010-05-03 15:34:07	220
+gfiorentino	Giampaolo Fiorentino	2010-05-03 15:34:18	220
+ggebhart	Gebhart Guillaume	2010-05-03 15:29:11	220
+ghanmh	GHANM Hicham	2010-05-03 15:31:20	220
+giachino	antonella giachino	2010-05-03 15:34:42	220
+gibello	Pierre-Yves Gibello	2010-05-03 15:31:49	220
+gift	Li Wu	2010-05-03 15:35:40	220
+gioia	Andrea Gioia	2010-05-03 15:34:42	220
+girouxm	Michael Giroux	2010-05-03 15:30:55	220
+gisalern	Gianluca Salerno	2010-05-03 15:34:35	220
+glefur	Goulwen LE FUR	2010-05-03 15:29:11	220
+gmohr	Gary Mohr	2010-05-03 15:30:19	220
+goebelg	georges goebel	2010-05-03 15:32:10	220
+gof83	Gang Fan	2010-05-03 15:29:45	220
+goubetjy	Goubet Jean-Yves	2010-05-03 15:33:12	220
+greenwood	Dominic Greenwood	2010-05-03 15:34:56	220
+greg	Gregory Luguet	2010-05-03 15:31:51	220
+gregory	Gregory de Fombelle	2010-05-03 15:32:30	220
+gressier	Eric Gressier	2010-05-03 15:30:50	220
+greydet	Gonzague Reydet	2010-05-03 15:29:11	220
+griffin	Dmitry Komissaroff	2010-05-03 15:31:56	220
+gsigms	Nicolas Loriant	2010-05-03 15:35:20	220
+guimard	Xavier Guimard	2010-05-03 15:32:07	220
+guo_miao	Guo Miao	2010-05-03 15:32:43	220
+gvega	German VEGA	2010-05-03 15:32:27	220
+gward	Greg Ward	2010-05-03 15:29:40	220
+gyil5326	guirec lorant	2010-05-03 15:35:06	220
+hainguyen	Nguyen Hoang Hai	2010-05-03 15:30:33	220
+hammamio	Ouajdi Hammami	2010-05-03 15:29:33	220
+hamonca	catherine hamon	2010-05-03 15:31:46	220
+hamza	benmaki	2010-05-03 15:35:06	220
+handongd	handong	2010-05-03 15:35:40	220
+hanzz	Hans Prueller	2010-05-03 15:31:38	220
+harry	Harry Pan	2010-05-03 15:32:43	220
+haugoug	Germain Haugou	2010-05-03 15:30:41	220
+hauzar	David Hauzar	2010-05-03 15:34:28	220
+hazem	Hazem Elmeleegy	2010-05-03 15:32:10	220
+heikkinen	Johannes Heikkinen	2010-05-03 15:33:20	220
+heini	Christian Hein	2010-05-03 15:32:30	220
+helenli	helenli	2010-05-03 15:33:46	220
+hien_it	Hien Nguyen Van	2010-05-03 15:31:20	220
+hint	Frederic Laugier	2010-05-03 15:29:40	220
+hitogoroshi	kettani mehdi	2010-05-03 15:32:51	220
+hjfried	Joachim Friedrich	2010-05-03 15:31:38	220
+hnetynka	Petr Hnetynka	2010-05-03 15:34:28	220
+horn	Horn	2010-05-03 15:32:04	220
+hosekp	Petr Hosek	2010-05-03 15:34:28	220
+hryan	Ruan HE	2010-05-03 15:35:06	220
+hubert_peters	Hubert Peters	2010-05-03 15:31:38	220
+hudson	Bonita Hudson	2010-05-03 15:29:31	220
+hudson_jasmine	Hudson server for JASMINe	2010-05-03 15:31:20	220
+hugues	Jerome Hugues	2010-05-03 15:33:50	220
+hunghoang	Hoang Quang Hung	2010-05-03 15:30:33	220
+huynh	Tran Huynh	2010-05-03 15:33:12	220
+ifall	Ibrahima FALL	2010-05-03 15:32:30	220
+integration	Acceleo Integrator	2010-05-03 15:29:11	220
+jandes	Jane Andes	2010-05-03 15:31:38	220
+japaz	Jesús Alberto Paz Jiménez	2010-05-03 15:29:45	220
+jarbouta	Tahar Jarboui	2010-05-03 15:35:06	220
+jaruch	Jaroslav Pastorek	2010-05-03 15:34:28	220
+javababe	Pauline Lin	2010-05-03 15:32:43	220
+jbenois	Jérôme BENOIS	2010-05-03 15:29:11	220
+jblais	Julien Blais	2010-05-03 15:30:14	220
+jboynes	Jeremy Boynes	2010-05-03 15:30:55	220
+jbvanzuylen	Jean-Bernard van Zuylen	2010-05-03 15:29:40	220
+jchaumont	Joan Chaumont	2010-05-03 15:29:50	220
+jclarke	Jonathan Clarke	2010-05-03 15:31:01	220
+jdcasey	John Casey	2010-05-03 15:29:48	220
+jdcoudf	Florent COUDERT	2010-05-03 15:33:01	220
+jeffkole	Jeff Kolesky	2010-05-03 15:29:40	220
+jeffree-admin	Yannick Raoul	2010-05-03 15:31:30	220
+jellart	Julien	2010-05-03 15:29:21	220
+jeremie_defaye	jeremie Defaye	2010-05-03 15:34:07	220
+jeromepetit	Jerome Petit	2010-05-03 15:31:54	220
+jeromephx	Jerome Pioux	2010-05-03 15:31:38	220
+jfichez	Jérôme Fichez	2010-05-03 15:29:43	220
+jiangning	JiangNing	2010-05-03 15:29:48	220
+jimma	Jim Ma	2010-05-03 15:29:48	220
+jiri_tauber	Jiri Täuber	2010-05-03 15:29:29	220
+jkjome	Jacob Kjome	2010-05-03 15:29:26	220
+jkornas	Jakub Kornas	2010-05-03 15:30:05	220
+jlabejof	jonathan labejof	2010-05-03 15:30:41	220
+jldominguez	Juan Lucas	2010-05-03 15:33:07	220
+jlegrand	Julien Legrand	2010-05-03 15:30:14	220
+jlesbegueries	Julien Lesbegueries	2010-05-03 15:30:17	220
+jliu	Jervis Liu	2010-05-03 15:29:48	220
+jmesnil	Jeff Mesnil	2010-05-03 15:29:16	220
+jmfrenard	Jean-Marie RENARD	2010-05-03 15:30:38	220
+jmusset	Jonathan MUSSET	2010-05-03 15:29:11	220
+jm_hallouet	Jean-Marie Hallouët (Kereval)	2010-05-03 15:34:07	220
+jnavasm	Juan NAVAS	2010-05-03 15:35:06	220
+joaninh	Helene Joanin	2010-05-03 15:29:31	220
+joelle	Joëlle FOTSO	2010-05-03 15:31:54	220
+johnb	John Barrett	2010-05-03 15:32:16	220
+jorri	Tuomo Jorri	2010-05-03 15:33:20	220
+jorris	Jon Orris	2010-05-03 15:29:38	220
+jpdomenge	Jean-Pierre Domengé	2010-05-03 15:29:21	220
+jplorre	Jean-Pierre LORRE	2010-05-03 15:33:39	220
+jribault	judicael ribault	2010-05-03 15:30:41	220
+jsoldat	John Soldatos	2010-05-03 15:29:21	220
+jsquires	Julian Squires	2010-05-03 15:29:48	220
+julien_blass	Julien Blass	2010-05-03 15:32:22	220
+juraj	Juraj Polakovic	2010-05-03 15:35:06	220
+justin	Justin Ross	2010-05-03 15:29:38	220
+jvdrean	Jean-Vincent Drean	2010-05-03 15:35:43	220
+jvelociter	Jérôme Velociter	2010-05-03 15:35:43	220
+jvlaine	Jyrki Laine	2010-05-03 15:33:20	220
+kalo	Grégory CALONNIER	2010-05-03 15:29:50	220
+kayliu	huiliu	2010-05-03 15:30:27	220
+kburgess	Kathy Burgess	2010-05-03 15:31:38	220
+keita007	Ansoumane KEITA	2010-05-03 15:35:06	220
+kersus	liu jian	2010-05-03 15:35:40	220
+keulkeul	Mickael BARON	2010-05-03 15:31:54	220
+kevin_goo	Jian Gu	2010-05-03 15:33:15	220
+keznikl	Jaroslav Keznikl	2010-05-03 15:34:28	220
+khdung	Huu-Dung Kieu	2010-05-03 15:29:33	220
+kievgama	Kiev Gama	2010-05-03 15:29:21	220
+kinder	Bruno Kinder Almentero	2010-05-03 15:33:33	220
+kito99	Kito D. Mann	2010-05-03 15:30:33	220
+klesnil	Jan Klesnil	2010-05-03 15:34:28	220
+kocik	Fabrice Kocik	2010-05-03 15:30:50	220
+kofron	Jan Kofron	2010-05-03 15:30:41	220
+kolos	Tatár, Kolos	2010-05-03 15:29:40	220
+kpollet	Pollet Kevin	2010-05-03 15:31:54	220
+ksclarke	Kevin S. Clarke	2010-05-03 15:32:33	220
+ksm	Sergey Kabashnyuk	2010-05-03 15:30:33	220
+kucerat	Tomas Kucera	2010-05-03 15:34:28	220
+kunze	Richard Kunze	2010-05-03 15:35:30	220
+kupsu	Mikko Kupsu	2010-05-03 15:33:20	220
+lacostma	Marc Lacoste	2010-05-03 15:35:06	220
+lamari	Maher LAMARI	2010-05-03 15:32:30	220
+lannocc	Shawn Wilson	2010-05-03 15:29:26	220
+lannoisa	Armel Lannois	2010-05-03 15:34:18	220
+lapnguyen	Nguyen Lap	2010-05-03 15:30:33	220
+laudinetl	Laurent Laudinet	2010-05-03 15:34:18	220
+laurent	Laurent Martelli	2010-05-03 15:31:17	220
+lautarul	Roman Pedchenko	2010-05-03 15:30:33	220
+lavigueur	Bruno Lavigueur	2010-05-03 15:30:41	220
+ldelaigue	Laurent Delaigue	2010-05-03 15:29:11	220
+leclercq	Matthieu Leclercq	2010-05-03 15:30:05	220
+lefebval	Alexandre Lefebvre	2010-05-03 15:31:46	220
+lehotsky	Jakub Lehotsky	2010-05-03 15:29:29	220
+lejeuneg	Goulven Le Jeune	2010-05-03 15:29:31	220
+leonardofc	Carneiro, Leonardo	2010-05-03 15:31:38	220
+lesya_metelya	lesya_metelya	2010-05-03 15:30:33	220
+levmar	Mark Leverentz	2010-05-03 15:35:30	220
+lgarcia	Luciano Garcia-Banuelos	2010-05-03 15:33:36	220
+lglglglg	li qiang	2010-05-03 15:29:53	220
+lgoubet	Laurent Goubet	2010-05-03 15:29:11	220
+lguerin	Laurent GUERIN	2010-05-03 15:35:00	220
+lhw09	LinHongwu	2010-05-03 15:29:53	220
+lianglin	Liang Lin	2010-05-03 15:35:33	220
+lingoini	Nicolas LINGOIS	2010-05-03 15:35:06	220
+linuxman	Su Baochen	2010-05-03 15:32:43	220
+liumeirongact	liumeirong	2010-05-03 15:35:40	220
+liumin	Liu Min	2010-05-03 15:35:40	220
+lizhuqing	LiZhuqing	2010-05-03 15:35:40	220
+lkeller	Lukas Keller	2010-05-03 15:34:56	220
+lobryol	Olivier Lobry	2010-05-03 15:31:46	220
+loris	Loris Bouzonnet	2010-05-03 15:29:45	220
+loveofcsdt	ShiLei	2010-05-03 15:30:30	220
+loverad	Daniel Lovera	2010-05-03 15:30:14	220
+lparikka	Lasse Parikka	2010-05-03 15:33:20	220
+lsmit	Lars Smit	2010-05-03 15:35:36	220
+ludovic	Ludovic Dubost	2010-05-03 15:32:19	220
+lukasjezek	Lukáš Ježek	2010-05-03 15:34:28	220
+macros	Jaco Swart	2010-05-03 15:29:40	220
+mahmoudbh	Mahmoud Ben Hassine	2010-05-03 15:30:41	220
+majda	David Majda	2010-05-03 15:29:29	220
+makis	Maxim Shaposhnik	2010-05-03 15:30:33	220
+mancelin	Mathieu ANCELIN	2010-05-03 15:30:14	220
+manhdung	Hoang Manh Dung	2010-05-03 15:30:33	220
+manley	James Manley	2010-05-03 15:31:38	220
+maomaode	maomaode	2010-05-03 15:29:48	220
+maranzana	GianLuca Maranzana	2010-05-03 15:34:32	220
+marc	Marc Wick	2010-05-03 15:29:40	220
+marcelomouracio	Marcelo Mouracio	2010-05-03 15:33:33	220
+marchemi	Mikael Marche	2010-05-03 15:29:50	220
+margueri	Julie Marguerite	2010-05-03 15:29:40	220
+mark2000	Mark Bakker	2010-05-03 15:29:38	220
+markoid	Marek Vondrak	2010-05-03 15:32:16	220
+markus-karg	Markus KARG	2010-05-03 15:31:38	220
+marta	Marta Mattoso	2010-05-03 15:33:33	220
+mastercracker3d	Luis Arce Martínez	2010-05-03 15:31:35	220
+matej	Matej Pivoluska	2010-05-03 15:34:28	220
+mathieuc	Mathieu Crassin	2010-05-03 15:33:12	220
+maven	Maven rsync	2010-05-03 15:32:19	220
+maxj07	ma xiujuan	2010-05-03 15:29:53	220
+mbeldame	Mathias BELDAME	2010-05-03 15:30:17	220
+mboweb	Marc Bouchet	2010-05-03 15:32:35	220
+mca	Monique Calisti	2010-05-03 15:34:56	220
+mchauvin	Mariot Chauvin	2010-05-03 15:29:11	220
+mcissoko	CISSOKO  MOUSSA	2010-05-03 15:35:06	220
+mcortella	Marco Cortella	2010-05-03 15:34:42	220
+mdupont	James Michael DuPont	2010-05-03 15:31:04	220
+mehdy13	Mehdi	2010-05-03 15:35:06	220
+mencl	Vladimir Mencl	2010-05-03 15:30:41	220
+mep	Kebo Wang	2010-05-03 15:33:53	220
+merisiec	Christophe Merisier	2010-05-03 15:31:20	220
+merle	Philippe Merle	2010-05-03 15:29:55	220
+metzgerm	Michel Metzger	2010-05-03 15:32:27	220
+mgasco83	Maurice Gasco	2010-05-03 15:30:09	220
+mgomez	Manuel GOMEZ	2010-05-03 15:33:07	220
+mheath	Mike Heath	2010-05-03 15:29:40	220
+mherbert	Marc Herbert	2010-05-03 15:29:40	220
+mickael_istria	Mickael Istria	2010-05-03 15:32:19	220
+mikael	Mikaël Ates	2010-05-03 15:30:36	220
+minhdv	Dang Van Minh	2010-05-03 15:30:33	220
+minhnguyen	alliance1135	2010-05-03 15:30:33	220
+missonng	Guillaume Missonnier	2010-05-03 15:29:45	220
+mjambert	Marc Jambert	2010-05-03 15:30:17	220
+mjucker	mathieu jucker	2010-05-03 15:29:24	220
+mlebreton	Mathieu LE BRETON	2010-05-03 15:33:39	220
+mleduque	Mickaël Leduque	2010-05-03 15:30:14	220
+mleger	Marc Léger	2010-05-03 15:30:41	220
+mlouvel	maxime louvel	2010-05-03 15:32:27	220
+mmalohlava	Michal Malohlava	2010-05-03 15:34:28	220
+mmillequant	Matthieu Milléquant	2010-05-03 15:32:27	220
+mmoody_js	Mike Moody	2010-05-03 15:33:17	220
+mmorel	Matthieu Morel	2010-05-03 15:30:42	220
+moddolibarr	Samuel Bouchet	2010-05-03 15:29:11	220
+modrzyk	Nicolas Modrzyk	2010-05-03 15:29:40	220
+moghrabi	Xavier MOGHRABI	2010-05-03 15:30:19	220
+moghrabix	Xavier MOGHRABI	2010-05-03 15:34:18	220
+montagny	sylvain montagny	2010-05-03 15:35:06	220
+moonsea	lijing	2010-05-03 15:35:40	220
+moroy	Jerome Moroy	2010-05-03 15:30:42	220
+mounie	Gregory Mounie	2010-05-03 15:33:28	220
+mo_eljai2	Mohammed El Jai	2010-05-03 15:32:19	220
+mpapez	Michal Papež	2010-05-03 15:34:28	220
+mpeltier	Mathieu Peltier	2010-05-03 15:29:40	220
+mpoize	michel poize	2010-05-03 15:35:06	220
+mprochazka	Marek Prochazka	2010-05-03 15:29:40	220
+msauvage	Marie Sauvage	2010-05-03 15:30:42	220
+musado	Karel Masek	2010-05-03 15:34:28	220
+mvaldes	Miguel Valdes Faura	2010-05-03 15:29:31	220
+mwringe	Matt Wringe	2010-05-03 15:31:38	220
+m_carrolle	Carrolle mathieu	2010-05-03 15:33:39	220
+nacid	Naci Dai	2010-05-03 15:32:13	220
+nalirko	Mirko Nalesso	2010-05-03 15:34:32	220
+namphunghai	Phung Hai Nam	2010-05-03 15:30:33	220
+natacha	Natacha Hoang	2010-05-03 15:35:06	220
+nathalielepine	Nathalie Lepine	2010-05-03 15:29:11	220
+nboissel	Nicolas Boissel-Dallier	2010-05-03 15:30:17	220
+ndepalma	noel de palma	2010-05-03 15:31:20	220
+nejla_rouis	nejla rouis	2010-05-03 15:35:06	220
+nektarios	Nektarios Leontiadis	2010-05-03 15:29:21	220
+nfleury	Fleury	2010-05-03 15:33:39	220
+nibertaz	Nicola Bertazzo	2010-05-03 15:34:39	220
+nicoulaj	Julien Nicoulaud	2010-05-03 15:31:20	220
+nieuviar	Simon Nieuviarts	2010-05-03 15:29:45	220
+ningzh	zhu ning	2010-05-03 15:29:45	220
+nkef	Nikos Kefalakis	2010-05-03 15:29:21	220
+nkons	Nikolaos Konstantinou	2010-05-03 15:29:21	220
+nolte001	Markus Nolte	2010-05-03 15:31:38	220
+nqhungvn	Nguyen Quang Hung	2010-05-03 15:30:33	220
+nsalatge	Salatgé Nicolas	2010-05-03 15:30:17	220
+ntolia	Niraj Tolia	2010-05-03 15:29:40	220
+nunien	Julien Gaillard	2010-05-03 15:35:06	220
+ofabre	Olivier Fabre	2010-05-03 15:30:17	220
+ofitz	Orla Fitzgerald	2010-05-03 15:29:48	220
+ojoh6423	Jean-Didier Ott	2010-05-03 15:32:51	220
+olaf	Olivier Fambon	2010-05-03 15:29:40	220
+olayaida	Oussama LAYAIDA	2010-05-03 15:32:10	220
+oliviergenty	Olivier Genty	2010-05-03 15:33:01	220
+olivier_benny	Olivier Benny	2010-05-03 15:30:42	220
+oltolina	sergio oltolina	2010-05-03 15:34:39	220
+omarot	Olivier Marot	2010-05-03 15:32:27	220
+ondrac	Ondrej Cerny	2010-05-03 15:34:28	220
+onurbacak	Onur Bacak	2010-05-03 15:30:33	220
+orbeonbld2	build guy	2010-05-03 15:33:10	220
+orchestra	Orchestra	2010-05-03 15:32:19	220
+oscarbarrios	Oscar Barrios Torrero	2010-05-03 15:29:31	220
+oxymel	Oxymel	2010-05-03 15:32:53	220
+ozanne_a	Alain Ozanne	2010-05-03 15:30:50	220
+ozcan	Ali Erdem Ozcan	2010-05-03 15:30:42	220
+ozgurt	Ozgur Tumer	2010-05-03 15:32:13	220
+pabloa	Pablo Alcaraz	2010-05-03 15:31:33	220
+palazzotti	Marco Palazzotti	2010-05-03 15:34:18	220
+paristot	Philippe Aristote	2010-05-03 15:30:33	220
+paulus	paulus	2010-05-03 15:32:22	220
+pautet	Laurent Pautet	2010-05-03 15:33:50	220
+pavelpar	Pavel Parizek	2010-05-03 15:34:28	220
+pbresson	Pascal Bresson	2010-05-03 15:29:40	220
+pcarton	Pierre CARTON	2010-05-03 15:30:44	220
+pcdavid	Pierre-Charles David	2010-05-03 15:30:42	220
+pconil	Patrice Conil	2010-05-03 15:33:39	220
+pcrepieux	Pierre Crépieux	2010-05-03 15:29:50	220
+pdelrieu	Philippe Delrieu	2010-05-03 15:33:07	220
+pdubois	Pierre Dubois	2010-05-03 15:30:09	220
+pellerin	Romain Pellerin	2010-05-03 15:30:50	220
+pelletib	Benoit PELLETIER	2010-05-03 15:29:45	220
+pessemier	Nicolas Pessemier	2010-05-03 15:30:42	220
+petals	PEtALS	2010-05-03 15:32:19	220
+peterit	Peter Nedonosko	2010-05-03 15:30:33	220
+peterjones	Peter Jones	2010-05-03 15:29:48	220
+petitjef	François Petit Jean	2010-05-03 15:34:18	220
+philijer	Jeremy Philippe	2010-05-03 15:29:50	220
+phsur	Philippe SURBAYROLE	2010-05-03 15:32:51	220
+phunguyen	Nguyen Ba Phu	2010-05-03 15:30:33	220
+pierre	Pierre Scokaert	2010-05-03 15:31:30	220
+pierrebonhomme	 Pierre Bonhomme	2010-05-03 15:32:27	220
+pinheirg	Gisele Pinheiro Souza	2010-05-03 15:30:14	220
+plamarque	Patrice Lamarque	2010-05-03 15:30:33	220
+plind	Pascal Lindelauf	2010-05-03 15:29:11	220
+pnedonosko	Peter Nedonosko	2010-05-03 15:30:33	220
+poch	Tomáš Poch	2010-05-03 15:34:28	220
+pop	Tomas Pop	2010-05-03 15:34:28	220
+pophillt	pophillat	2010-05-03 15:34:18	220
+porcherg	Guillaume Porcher	2010-05-03 15:29:31	220
+poulhies	Marc Poulhies	2010-05-03 15:32:27	220
+pounard	Pierre RINEAU	2010-05-03 15:29:11	220
+poutchej	Jean-Pierre POUTCHEU	2010-05-03 15:31:20	220
+ppaulus	P.Paulus	2010-05-03 15:34:07	220
+praguin	Patrick Raguin	2010-05-03 15:29:11	220
+prawee	Prawee Sriplakich	2010-05-03 15:32:30	220
+praynal	Patrice Raynal	2010-05-03 15:29:11	220
+psmeyers	Pierre SMEYERS	2010-05-03 15:33:43	220
+pulou	jacques pulou	2010-05-03 15:35:06	220
+qingyue	tianchao	2010-05-03 15:33:46	220
+qingzhu	Gabriel YOU	2010-05-03 15:31:20	220
+quaireau	SQ	2010-05-03 15:34:03	220
+quema	Vivien Quema	2010-05-03 15:30:05	220
+radua	Radu Alina	2010-05-03 15:31:20	220
+raduk	Radu Kopetz	2010-05-03 15:35:06	220
+rafael	Rafael Dias Araujo	2010-05-03 15:35:06	220
+raffaello	Raffaello PELAGALLI	2010-05-03 15:35:43	220
+rafi	Raphael Marvie	2010-05-03 15:32:30	220
+rainf0x	Alex Reshetnyak	2010-05-03 15:30:33	220
+rainswallow	Eric Zhao	2010-05-03 15:35:16	220
+raszykj	Jan Raszyk	2010-05-03 15:34:28	220
+rbresson	remy bresson	2010-05-03 15:31:20	220
+rdruilhe	Rémi Druilhe	2010-05-03 15:29:50	220
+redwene	Redwene Haddou	2010-05-03 15:35:00	220
+reinhard4711	Reinhard Prehofer	2010-05-03 15:31:38	220
+renaud	Renaud Pawlak	2010-05-03 15:31:17	220
+renaultgu	Guillaume Renault	2010-05-03 15:29:45	220
+rene	René Giretzlehner	2010-05-03 15:31:38	220
+reschini	Renato Eschini	2010-05-03 15:29:40	220
+rhs	Rafael H. Schloming	2010-05-03 15:29:45	220
+riase	Rias Emmanuel	2010-05-03 15:30:19	220
+richardl	Richard Li	2010-05-03 15:29:38	220
+rickla	Rick LaBanca	2010-05-03 15:29:40	220
+riveill	Michel RIVEILL	2010-05-03 15:32:40	220
+riviereg	Guillaume Riviere	2010-05-03 15:30:02	220
+rivierni	Nicolas Rivierre	2010-05-03 15:30:42	220
+rlachaiz	Renaud Lachaize	2010-05-03 15:35:06	220
+rlenglet	Romain Lenglet	2010-05-03 15:30:05	220
+rlevy	Ron Levy	2010-05-03 15:34:56	220
+rlg	Rodrigue Le Gall	2010-05-03 15:29:31	220
+rmarins	Rafael Marins	2010-05-03 15:29:14	220
+rmelisson	Remi Melisson	2010-05-03 15:30:42	220
+rnaudin	roland NAUDIN	2010-05-03 15:30:05	220
+robertbakic	Robert Bakic	2010-05-03 15:29:24	220
+rochenic	Nicolas Roche	2010-05-03 15:35:06	220
+roscarci	Roberto Scarciello	2010-05-03 15:34:35	220
+rosso83	Rossato Luca	2010-05-03 15:34:32	220
+rouazana	Raphaël Ouazana	2010-05-03 15:30:36	220
+rouvoy	Romain Rouvoy	2010-05-03 15:29:16	220
+rouxj	Julien Roux	2010-05-03 15:31:20	220
+rproust	Raphaël Proust	2010-05-03 15:32:27	220
+rschermesser	Rémy-Christophe Schermesser	2010-05-03 15:31:01	220
+rtorsoli	Riccardo Torsoli	2010-05-03 15:31:38	220
+ruaudl	Laurent RUAUD	2010-05-03 15:31:20	220
+rudametw	Walter Rudametkin	2010-05-03 15:29:21	220
+ruffatti	Gabriele Ruffatti	2010-05-03 15:34:18	220
+rutthenut	John Rutter	2010-05-03 15:31:25	220
+sadellahr	Sadellah Rahif	2010-05-03 15:29:11	220
+saint	Gian Uberto Lauri	2010-05-03 15:34:32	220
+sandra_bogaert	Sandra Bogaert	2010-05-03 15:32:51	220
+sandre	Sebastien ANDRE	2010-05-03 15:33:39	220
+sauthieg	Guillaume Sauthier	2010-05-03 15:29:45	220
+sbahloul	Sébastien Bahloul	2010-05-03 15:30:36	220
+sbouchet	Stéphane Bouchet	2010-05-03 15:29:11	220
+sbouzitouna	Bouzitouna	2010-05-03 15:32:30	220
+scamuzzo	Stefano Scamuzzo	2010-05-03 15:30:59	220
+schambon	Sylvain Chambon	2010-05-03 15:32:02	220
+schmidt	Loïc Schmidt	2010-05-03 15:29:21	220
+schmittp	Patrick Schmitt	2010-05-03 15:31:38	220
+schnorr	Lucas Schnorr	2010-05-03 15:33:28	220
+schultzr	Rod Schultz	2010-05-03 15:31:38	220
+scol	Sebastien Col	2010-05-03 15:34:46	220
+scruntime	Steve Crossan	2010-05-03 15:29:38	220
+sdumitriu	Sergiu Dumitriu	2010-05-03 15:35:43	220
+seanoc	Sean O'Callaghan	2010-05-03 15:29:48	220
+sebastiend	Sebastien Desbouchages	2010-05-03 15:30:14	220
+seintur	Lionel Seinturier	2010-05-03 15:29:21	220
+sensunik76	Raphael Roth	2010-05-03 15:31:38	220
+serrano	Patricia Serrano Alvarado	2010-05-03 15:30:53	220
+seyvozs	Stephane Seyvoz	2010-05-03 15:32:27	220
+sgarcia	sébastien garcia	2010-05-03 15:33:39	220
+siegmund	Siegmund Gorr	2010-05-03 15:31:38	220
+simatic	Michel Simatic	2010-05-03 15:29:21	220
+simko	Viliam Simko	2010-05-03 15:34:28	220
+sinankonya	Sinan Konya	2010-05-03 15:32:13	220
+skars	Jordan Brunier	2010-05-03 15:29:50	220
+slacrampe	Stéphane LACRAMPE	2010-05-03 15:29:11	220
+sliard	Samuel Liard	2010-05-03 15:29:11	220
+slincan	Lincan Silvan Eugen	2010-05-03 15:29:40	220
+smccarth	Stephen McCarthy	2010-05-03 15:29:48	220
+smyousuf	Sofyan Mohammad Yousaf	2010-05-03 15:29:21	220
+solderag	Guillaume SOLDERA	2010-05-03 15:31:20	220
+songjy	Jingyu Song	2010-05-03 15:30:33	220
+souadnia21	souadnia	2010-05-03 15:30:14	220
+souami	Hakim SOUAMI	2010-05-03 15:29:43	220
+souillac	SOUILLARD	2010-05-03 15:29:31	220
+sourcec	chaieb moheddine	2010-05-03 15:35:06	220
+spadique	Stephane Padique	2010-05-03 15:30:59	220
+sribas	Stephane Ribas	2010-05-03 15:29:21	220
+srouges	Stephane Rouges	2010-05-03 15:35:36	220
+ssaurel	Sylvain SAUREL	2010-05-03 15:34:07	220
+sshinde	Shashin Shinde	2010-05-03 15:29:38	220
+sskracic	Sebastian Skracic	2010-05-03 15:29:38	220
+stahlmann	Helge Stahlmann	2010-05-03 15:29:40	220
+starwebservice	jane	2010-05-03 15:34:49	220
+strappab	benjamin strappazzon	2010-05-03 15:30:14	220
+straumat	Stéphane TRAUMAT	2010-05-03 15:31:38	220
+strino	Sandra Trino	2010-05-03 15:33:39	220
+studzine	Eduardo S. E. de Castro	2010-05-03 15:30:14	220
+sunitty	sundou	2010-05-03 15:35:40	220
+sunman	Alexey V. Zavizionov	2010-05-03 15:30:33	220
+surrel	Guillaume Surrel	2010-05-03 15:31:43	220
+tachker	Nicolas Tachker	2010-05-03 15:31:43	220
+tanguy	Tanguy Le Floch-Souet	2010-05-03 15:35:06	220
+taweili	David Li	2010-05-03 15:32:16	220
+tchemineau	Thomas Chemineau	2010-05-03 15:30:36	220
+tcoupaye	Thierry Coupaye	2010-05-03 15:30:42	220
+tcsetp	Zhang Xin	2010-05-03 15:31:09	220
+tdejean	Thierry DÉJEAN	2010-05-03 15:30:17	220
+tebanzouhair	Teban Zouhair	2010-05-03 15:32:51	220
+templth	Thierry Templier	2010-05-03 15:29:11	220
+tescalle	Escalle Thomas	2010-05-03 15:29:50	220
+tgrall	Tugdual Grall	2010-05-03 15:30:33	220
+thejaswihr	Thejaswi Raya	2010-05-03 15:33:20	220
+thib	LAVAL Thibault	2010-05-03 15:35:06	220
+thinkbot	Think bot	2010-05-03 15:35:06	220
+thuynguyen	Nguyen Ngoc Thuy	2010-05-03 15:30:33	220
+timh	Tim Holloway	2010-05-03 15:31:07	220
+tkalibera	Tomas Kalibera	2010-05-03 15:29:29	220
+tledoux	Thomas Ledoux	2010-05-03 15:35:20	220
+tmortagne	Thomas Mortagne	2010-05-03 15:35:43	220
+tomas	tomas pérez segovia	2010-05-03 15:29:50	220
+tomcanyi	Michal Tomcanyi	2010-05-03 15:29:29	220
+tomecek	Antonin Tomecek	2010-05-03 15:29:29	220
+tomli	Tom Li	2010-05-03 15:29:48	220
+tommy	Tommy SCHNEIDER	2010-05-03 15:31:20	220
+tonetto	Leonardo Tonetto	2010-05-03 15:35:06	220
+tony3107	Anthony Gelibert	2010-05-03 15:35:06	220
+tonyortiz	tony ortiz	2010-05-03 15:31:38	220
+tournijc	Jean-Charles Tournier	2010-05-03 15:35:06	220
+touseau	Lionel Touseau	2010-05-03 15:29:21	220
+tousjuli	Julien TOUS	2010-05-03 15:35:06	220
+toutpt	JeanMichel FRANCOIS	2010-05-03 15:29:11	220
+trentshue	Trent Shue	2010-05-03 15:30:55	220
+tritter	Tom Ritter	2010-05-03 15:32:30	220
+trongtran	Tran The Trong	2010-05-03 15:30:33	220
+tuanpham	Pham Tuan	2010-05-03 15:30:33	220
+tuduy	Vu Duy Tu	2010-05-03 15:30:33	220
+tuloup	Guillaume Tuloup	2010-05-03 15:33:12	220
+tungnguyen	Nguyen Dang Tung	2010-05-03 15:30:33	220
+tungthanh	Pham Thanh Tung	2010-05-03 15:30:33	220
+ugurkarakaya	Ugur Karakaya	2010-05-03 15:29:40	220
+ulhasbhole	Ulhas Bhole	2010-05-03 15:29:48	220
+urban	Jaroslav Urban	2010-05-03 15:29:29	220
+user-test	User Test	2010-05-03 15:33:01	220
+usero	Fernando Usero	2010-05-03 15:29:55	220
+uyildirim	ugur yildirim	2010-05-03 15:32:13	220
+vachet	Guy Vachet	2010-05-03 15:29:50	220
+vangelisk	Vangelis Kouravelos	2010-05-03 15:29:21	220
+vasekremes	Vasek Remes	2010-05-03 15:34:28	220
+vaudauxr	Guillaume Vaudaux-Ruth	2010-05-03 15:34:10	220
+vdanjean	Vincent Danjean	2010-05-03 15:33:28	220
+vergnaud	Thomas Vergnaud	2010-05-03 15:33:50	220
+vetheault	Véronique Théault	2010-05-03 15:34:07	220
+veyjul	Julien Vey	2010-05-03 15:31:20	220
+vietlongnguyen	Nguyen Viet Long	2010-05-03 15:30:33	220
+vigneras	Pierre Vigneras	2010-05-03 15:29:31	220
+villep	Pierre-Emmanuel Ville	2010-05-03 15:35:06	220
+villoks	Ville Oksanen	2010-05-03 15:33:20	220
+vincenco	Colette VINCENT	2010-05-03 15:29:50	220
+vitalka	Vitaly Parfounov	2010-05-03 15:30:33	220
+vivekl	Vivek Lakshmanan	2010-05-03 15:31:38	220
+vmassol	Vincent Massol	2010-05-03 15:32:19	220
+vmichaud	Vincent Michaud	2010-05-03 15:30:14	220
+vnadai	Vinícius Nadai	2010-05-03 15:33:04	220
+vojtmen	Vojtech Mencl	2010-05-03 15:34:28	220
+volkana	Volkan Adıgüzel	2010-05-03 15:32:13	220
+waeselynck	Fran�ois Waeselynck	2010-05-03 15:31:20	220
+wafa_saidane	wafa saidane	2010-05-03 15:35:06	220
+wangwei_email	wang wei	2010-05-03 15:31:22	220
+wangying	王颖	2010-05-03 15:35:40	220
+wangzy	Ziyou Wang	2010-05-03 15:29:45	220
+weblab-maven	deploy maven	2010-05-03 15:32:19	220
+willpiers	William Piers	2010-05-03 15:29:11	220
+wjoseph	Wilhem JOSEPH-FRANCOIS	2010-05-03 15:35:40	220
+xblanc	Xavier Blanc	2010-05-03 15:32:30	220
+xiaochaowu	xiaochao wu	2010-05-03 15:31:38	220
+xiaoda	xiaoda	2010-05-03 15:33:46	220
+xiayl	Xia Yonglin	2010-05-03 15:30:33	220
+xophe	Christophe Dousson	2010-05-03 15:35:03	220
+xsalto-team	XSALTO Team	2010-05-03 15:34:18	220
+xwikiadmin	XWiki Admin	2010-05-03 15:33:01	220
+yann_davin	Yann Davin	2010-05-03 15:30:42	220
+yasbai	baida yassine	2010-05-03 15:35:06	220
+yelmo	El moumeni Youssef	2010-05-03 15:35:06	220
+yeshiyang	Ye Shiyang	2010-05-03 15:32:59	220
+yinjian	yinjian	2010-05-03 15:35:40	220
+yluo	Yongming Luo	2010-05-03 15:29:21	220
+ylussaud	Yvan Lussaud	2010-05-03 15:29:11	220
+ymortier	Yann Mortier	2010-05-03 15:29:11	220
+yoannperrin	Yoann Perrin	2010-05-03 15:29:24	220
+youchao	Chao YOU	2010-05-03 15:31:20	220
+younes_174	Chehraoui Younes	2010-05-03 15:35:06	220
+zerbetto	Davide Zerbetto	2010-05-03 15:34:42	220
+zhangdecai	zhangdecai	2010-05-03 15:35:40	220
+zhangxf	Xiaofei Zhang	2010-05-03 15:31:15	220
+zhouminghui	zhou minghui	2010-05-03 15:33:46	220
+zhouyue	wei zhouyue	2010-05-03 15:29:45	220
+zhuyihan	zhuyihan	2010-05-03 15:35:40	220
+zimbrao	Geraldo Zimbrao	2010-05-03 15:33:33	220
+ziping	ziping	2010-05-03 15:35:06	220
+zoppello	Andrea Zoppello	2010-05-03 15:34:32	220
+zurczakv	Vincent Zurczak	2010-05-03 15:33:39	220

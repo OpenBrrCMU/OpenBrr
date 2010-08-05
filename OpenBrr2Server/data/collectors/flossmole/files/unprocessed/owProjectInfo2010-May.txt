@@ -1,0 +1,168 @@
+#  file: owProjectInfo2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, url, date_registered, proj_long_name, proj_id_num, 
+#  activity_percentile, dev_count, date_collected, datasource_id
+#  FROM ow_projects
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname;
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	url	date_registered	proj_long_name	proj_id_num	dev_count	date_collected	datasource_id
+acceleo	http://forge.objectweb.org/projects/acceleo	2006-09-07 18:22:00	Acceleo	273	32	NULL	220
+accord	http://forge.objectweb.org/projects/accord	2009-11-27 20:23:00	ACCORD	369	2	NULL	220
+apollon	http://forge.objectweb.org/projects/apollon	2003-04-22 16:38:00	Apollon	68	3	NULL	220
+asm	http://forge.objectweb.org/projects/asm	2002-07-11 09:58:00	ASM	23	4	NULL	220
+aspire	http://forge.objectweb.org/projects/aspire	2008-06-03 16:13:00	AspireRFID	324	25	NULL	220
+azuki	http://forge.objectweb.org/projects/azuki	2007-11-30 17:55:00	Azuki Framework	315	3	NULL	220
+barracudamvc	http://forge.objectweb.org/projects/barracudamvc	2003-11-11 20:39:00	BarracudaMVC	91	7	NULL	220
+been	http://forge.objectweb.org/projects/been	2006-05-25 14:25:00	BEEN: Performance Evaluation Framework	259	11	NULL	220
+bonita	http://forge.objectweb.org/projects/bonita	2003-02-14 15:17:00	Bonita	56	16	NULL	220
+bpmadmin	http://forge.objectweb.org/projects/bpmadmin	2007-02-06 12:06:00	NovaBPM	293	13	NULL	220
+bsframework	http://forge.objectweb.org/projects/bsframework	2003-12-03 11:27:00	Bright Side Framework	95	4	NULL	220
+byline	http://forge.objectweb.org/projects/byline	2004-08-16 16:31:00	Byline	143	13	NULL	220
+c-jdbc	http://forge.objectweb.org/projects/c-jdbc	2002-11-26 10:08:00	C-JDBC	42	28	NULL	220
+cardamom	http://forge.objectweb.org/projects/cardamom	2004-04-07 13:06:00	CARDAMOM	123	3	NULL	220
+carol	http://forge.objectweb.org/projects/carol	2002-08-06 09:15:00	CAROL	26	27	NULL	220
+celtix	http://forge.objectweb.org/projects/celtix	2005-05-19 03:11:00	Celtix ESB	192	27	NULL	220
+clif	http://forge.objectweb.org/projects/clif	2003-02-24 10:59:00	CLIF	57	19	NULL	220
+cmi	http://forge.objectweb.org/projects/cmi	2008-07-05 21:30:00	CMI	328	12	NULL	220
+deployment	http://forge.objectweb.org/projects/deployment	2004-02-20 14:31:00	ObjectWeb Deployment Frameworks	116	5	NULL	220
+director	http://forge.objectweb.org/projects/director	2002-08-26 10:03:00	Enhydra Director	31	1	NULL	220
+dods	http://forge.objectweb.org/projects/dods	2003-03-31 13:57:00	Enhydra DODS	61	1	NULL	220
+dotnetj	http://forge.objectweb.org/projects/dotnetj	2003-01-28 10:48:00	DotNetJ	52	2	NULL	220
+dream	http://forge.objectweb.org/projects/dream	2004-03-06 19:56:00	Dream	118	11	NULL	220
+dryverl	http://forge.objectweb.org/projects/dryverl	2006-05-09 10:56:00	Dryverl	257	2	NULL	220
+dysoweb	http://forge.objectweb.org/projects/dysoweb	2007-05-31 16:39:00	Dysoweb	304	5	NULL	220
+eaf	http://forge.objectweb.org/projects/eaf	2003-10-17 11:15:00	Enhydra Framework	82	1	NULL	220
+easybeans	http://forge.objectweb.org/projects/easybeans	2006-02-07 23:03:00	EasyBeans	236	31	NULL	220
+easywsdl	http://forge.objectweb.org/projects/easywsdl	2008-11-25 11:44:00	Easy WSDL Toolbox	334	14	NULL	220
+eclipse-update	http://forge.objectweb.org/projects/eclipse-update	2005-02-04 15:38:00	ObjectWeb Eclipse Update Site	176	7	NULL	220
+edemos	http://forge.objectweb.org/projects/edemos	2003-10-17 11:17:00	Enhydra Demos	83	1	NULL	220
+enhydra	http://forge.objectweb.org/projects/enhydra	2002-06-02 08:54:00	Enhydra Server	21	1	NULL	220
+enusmv	http://forge.objectweb.org/projects/enusmv	2009-09-17 10:30:00	An extended symbolic model checking tool	361	1	NULL	220
+epaf	http://forge.objectweb.org/projects/epaf	2009-04-30 04:04:00	Eclipse Process Aspect Framework	350	1	NULL	220
+exoplatform	http://forge.objectweb.org/projects/exoplatform	2004-09-22 12:17:00	eXo Platform	151	44	NULL	220
+federid	http://forge.objectweb.org/projects/federid	2006-12-11 09:56:00	FederID	287	10	NULL	220
+foo	http://forge.objectweb.org/projects/foo	2003-10-27 10:52:00	Foo Project	87	5	NULL	220
+fractal	http://forge.objectweb.org/projects/fractal	2002-06-27 10:10:00	Fractal	22	37	NULL	220
+frascati	http://forge.objectweb.org/projects/frascati	2008-10-13 00:20:00	FraSCAti - Open SCA middleware platform	329	13	NULL	220
+fwkdemoiselle	http://forge.objectweb.org/projects/fwkdemoiselle	2009-06-19 18:52:00	Project Demoiselle	354	1	NULL	220
+gasp	http://forge.objectweb.org/projects/gasp	2005-06-07 14:33:00	GASP	198	9	NULL	220
+gotm	http://forge.objectweb.org/projects/gotm	2003-10-17 15:14:00	GoTM	84	5	NULL	220
+howl	http://forge.objectweb.org/projects/howl	2003-11-26 16:28:00	High-speed ObjectWeb Logger	92	7	NULL	220
+initiativebi	http://forge.objectweb.org/projects/initiativebi	2009-12-01 14:14:00	BIinitiative	371	3	NULL	220
+interldap	http://forge.objectweb.org/projects/interldap	2004-11-18 16:41:00	InterLDAP	162	9	NULL	220
+introspector	http://forge.objectweb.org/projects/introspector	2002-12-23 10:48:00	Introspector	48	1	NULL	220
+ishmael	http://forge.objectweb.org/projects/ishmael	2002-10-16 07:08:00	Ishmael - Dolphin	40	7	NULL	220
+istx	http://forge.objectweb.org/projects/istx	2006-03-30 04:41:00	istx	251	1	NULL	220
+ivy	http://forge.objectweb.org/projects/ivy	2007-10-24 16:57:00	OW2's Ivy Repository	314	6	NULL	220
+j2ws	http://forge.objectweb.org/projects/j2ws	2008-12-17 09:21:00	J2WS	341	1	NULL	220
+jac	http://forge.objectweb.org/projects/jac	2003-06-02 17:12:00	Java Aspect Components	73	3	NULL	220
+jasmine	http://forge.objectweb.org/projects/jasmine	2006-11-08 12:51:00	JASMINe	282	34	NULL	220
+jaspte	http://forge.objectweb.org/projects/jaspte	2009-03-04 04:09:00	Bench4Q	345	2	NULL	220
+javaservice	http://forge.objectweb.org/projects/javaservice	2004-07-18 11:52:00	JavaService	137	1	NULL	220
+jawe	http://forge.objectweb.org/projects/jawe	2003-01-18 07:14:00	Enhydra JaWE	50	1	NULL	220
+jeffree	http://forge.objectweb.org/projects/jeffree	2002-12-16 09:22:00	JEFFREE	46	2	NULL	220
+jmimetypelib	http://forge.objectweb.org/projects/jmimetypelib	2006-03-27 17:00:00	jMimetypeLib	250	1	NULL	220
+jnetcontrol	http://forge.objectweb.org/projects/jnetcontrol	2006-04-24 22:47:00	JNetControl	255	1	NULL	220
+jonas-doc	http://forge.objectweb.org/projects/jonas-doc	2003-10-23 14:10:00	JOnAS Documentation	85	43	NULL	220
+jonathan	http://forge.objectweb.org/projects/jonathan	2002-03-29 15:39:00	Jonathan	9	9	NULL	220
+joram	http://forge.objectweb.org/projects/joram	2002-03-28 11:35:00	JORAM	4	6	NULL	220
+jorm	http://forge.objectweb.org/projects/jorm	2002-03-28 16:12:00	JORM	6	8	NULL	220
+jotm	http://forge.objectweb.org/projects/jotm	2002-04-12 10:19:00	JOTM	19	12	NULL	220
+jsurvey	http://forge.objectweb.org/projects/jsurvey	2002-09-11 15:38:00	JSurvey	38	2	NULL	220
+jwtgen	http://forge.objectweb.org/projects/jwtgen	2006-10-19 15:53:00	JWTGen	278	4	NULL	220
+kelly	http://forge.objectweb.org/projects/kelly	2003-04-24 10:38:00	Kelly	69	4	NULL	220
+kelp	http://forge.objectweb.org/projects/kelp	2002-08-26 08:16:00	Enhydra Kelp	30	1	NULL	220
+kilim	http://forge.objectweb.org/projects/kilim	2002-07-24 16:56:00	Kilim	24	7	NULL	220
+kilim2	http://forge.objectweb.org/projects/kilim2	2003-03-04 19:28:00	Kilim 2	58	2	NULL	220
+lemonldap	http://forge.objectweb.org/projects/lemonldap	2006-09-28 12:43:00	LemonLDAP::NG	274	3	NULL	220
+lewys	http://forge.objectweb.org/projects/lewys	2004-04-05 18:30:00	LeWYS	122	15	NULL	220
+lomboz	http://forge.objectweb.org/projects/lomboz	2003-12-13 12:40:00	Lomboz	97	9	NULL	220
+massiv	http://forge.objectweb.org/projects/massiv	2004-09-18 12:05:00	Massiv, a MMO middleware	149	3	NULL	220
+maven	http://forge.objectweb.org/projects/maven	2005-05-04 12:43:00	ObjectWeb's Maven Repository	189	68	NULL	220
+medor	http://forge.objectweb.org/projects/medor	2002-12-03 17:46:00	MEDOR	43	12	NULL	220
+mesh	http://forge.objectweb.org/projects/mesh	2006-06-16 16:17:00	Mesh	261	1	NULL	220
+mind	http://forge.objectweb.org/projects/mind	2010-01-11 10:33:00	MIND	375	21	NULL	220
+modfact	http://forge.objectweb.org/projects/modfact	2003-09-15 11:30:00	ModFact	77	13	NULL	220
+monolog	http://forge.objectweb.org/projects/monolog	2002-11-13 13:30:00	Monolog	41	9	NULL	220
+navilis	http://forge.objectweb.org/projects/navilis	2005-08-02 10:17:00	Xcalia NAViLIS	215	1	NULL	220
+newsadmin	http://forge.objectweb.org/projects/newsadmin	1970-01-01 01:00:00	Site News Admin	2	5	NULL	220
+noah	http://forge.objectweb.org/projects/noah	2003-07-22 15:59:00	noah	75	2	NULL	220
+objectweb-zh	http://forge.objectweb.org/projects/objectweb-zh	2003-05-29 09:14:00	ObjectWeb Chinese Project	71	8	NULL	220
+ocelot	http://forge.objectweb.org/projects/ocelot	2009-02-06 00:35:00	OCELOT	344	1	NULL	220
+octopus	http://forge.objectweb.org/projects/octopus	2002-09-28 10:34:00	Enhydra Octopus	39	1	NULL	220
+odis	http://forge.objectweb.org/projects/odis	2009-04-05 11:57:00	ODIS	349	7	NULL	220
+ofccharts	http://forge.objectweb.org/projects/ofccharts	2006-04-06 10:29:00	OFC Charts	253	1	NULL	220
+oncepi	http://forge.objectweb.org/projects/oncepi	2006-08-18 08:20:00	OncePI	269	2	NULL	220
+oncess	http://forge.objectweb.org/projects/oncess	2009-11-08 11:47:00	OnceSS	364	1	NULL	220
+opalval	http://forge.objectweb.org/projects/opalval	2008-02-22 10:56:00	Opal Validation	320	6	NULL	220
+openediint	http://forge.objectweb.org/projects/openediint	2005-07-06 15:17:00	Open EDIINT	210	2	NULL	220
+openmobileis	http://forge.objectweb.org/projects/openmobileis	2005-02-04 14:14:00	Open Mobile IS	175	5	NULL	220
+ops	http://forge.objectweb.org/projects/ops	2005-01-07 10:08:00	Orbeon Forms	168	5	NULL	220
+orchestra	http://forge.objectweb.org/projects/orchestra	2006-08-01 18:08:00	Orchestra	266	16	NULL	220
+orientwareccm	http://forge.objectweb.org/projects/orientwareccm	2006-03-27 09:08:00	OrientwareCCM	248	1	NULL	220
+osa-interop	http://forge.objectweb.org/projects/osa-interop	2010-01-26 20:52:00	OSA CCV Project	376	1	NULL	220
+oslcv3	http://forge.objectweb.org/projects/oslcv3	2008-10-16 20:12:00	Open Source License Checker v3.0	330	12	NULL	220
+ow2appliances	http://forge.objectweb.org/projects/ow2appliances	2010-04-08 14:48:00	OW2 Appliances	379	4	NULL	220
+oyster	http://forge.objectweb.org/projects/oyster	2004-02-08 10:48:00	Enhydra Oyster	110	1	NULL	220
+paje	http://forge.objectweb.org/projects/paje	2004-10-26 15:04:00	Pajé visualization tool	157	6	NULL	220
+pangu	http://forge.objectweb.org/projects/pangu	2009-09-12 03:52:00	PanGu:A Pervasive Computing Platform	359	1	NULL	220
+pargres	http://forge.objectweb.org/projects/pargres	2005-11-03 22:40:00	ParGRES - a database cluster	229	9	NULL	220
+perseus	http://forge.objectweb.org/projects/perseus	2003-01-31 16:44:00	Perseus	53	8	NULL	220
+petals	http://forge.objectweb.org/projects/petals	2005-07-10 15:30:00	Petals ESB	213	28	NULL	220
+petalsmaster	http://forge.objectweb.org/projects/petalsmaster	2008-11-25 17:15:00	Petals Master	335	10	NULL	220
+pkuas	http://forge.objectweb.org/projects/pkuas	2006-03-24 10:14:00	JOnAS PKU prototype	247	11	NULL	220
+polyorb	http://forge.objectweb.org/projects/polyorb	2004-04-18 19:39:00	PolyORB	125	4	NULL	220
+rfid	http://forge.objectweb.org/projects/rfid	2004-11-29 08:13:00	RFID middleware	164	3	NULL	220
+rubbos	http://forge.objectweb.org/projects/rubbos	2004-05-18 09:57:00	RUBBoS	129	3	NULL	220
+rubis	http://forge.objectweb.org/projects/rubis	2002-12-04 12:20:00	RUBiS	44	3	NULL	220
+s4allsdk	http://forge.objectweb.org/projects/s4allsdk	2005-10-17 18:36:00	S4All SDK	225	3	NULL	220
+salome-tmf	http://forge.objectweb.org/projects/salome-tmf	2005-05-23 11:29:00	SaloméTMF	194	12	NULL	220
+scarbo	http://forge.objectweb.org/projects/scarbo	2009-01-08 15:14:00	Scarbo	342	6	NULL	220
+shark	http://forge.objectweb.org/projects/shark	2003-07-18 18:56:00	Enhydra Shark	74	1	NULL	220
+siteadmin	http://forge.objectweb.org/projects/siteadmin	2002-03-29 12:47:00	Opal	1	27	NULL	220
+snapper	http://forge.objectweb.org/projects/snapper	2005-04-25 11:25:00	Enhydra Snapper	188	1	NULL	220
+soda	http://forge.objectweb.org/projects/soda	2006-10-18 18:53:00	Service-Oriented Device Architecture	277	1	NULL	220
+sofa	http://forge.objectweb.org/projects/sofa	2003-02-10 12:09:00	SOFA	54	24	NULL	220
+spagic	http://forge.objectweb.org/projects/spagic	2007-03-30 17:40:00	Spagic	298	11	NULL	220
+spago	http://forge.objectweb.org/projects/spago	2005-05-23 11:58:00	Spago	195	7	NULL	220
+spago4q	http://forge.objectweb.org/projects/spago4q	2007-04-27 19:07:00	Spago4Q (SpagoBI for Quality)	301	5	NULL	220
+spagobi	http://forge.objectweb.org/projects/spagobi	2005-06-17 19:19:00	SpagoBI	204	13	NULL	220
+speedo	http://forge.objectweb.org/projects/speedo	2002-09-06 11:01:00	Speedo	33	8	NULL	220
+starwebservice	http://forge.objectweb.org/projects/starwebservice	2006-03-27 09:20:00	StarWebService	249	1	NULL	220
+stock-online	http://forge.objectweb.org/projects/stock-online	2003-03-31 07:07:00	Stock-Online	60	1	NULL	220
+surf	http://forge.objectweb.org/projects/surf	2004-06-24 16:10:00	SURF	131	4	NULL	220
+telosys	http://forge.objectweb.org/projects/telosys	2005-05-27 12:00:00	Telosys	196	5	NULL	220
+tess	http://forge.objectweb.org/projects/tess	2009-11-02 16:17:00	TESS	362	1	NULL	220
+think	http://forge.objectweb.org/projects/think	2002-08-08 12:17:00	THINK	27	57	NULL	220
+tox	http://forge.objectweb.org/projects/tox	2003-10-30 01:08:00	tomcat + ojb + xmlc	88	1	NULL	220
+ubistar	http://forge.objectweb.org/projects/ubistar	2009-03-10 14:32:00	Ubistar	346	1	NULL	220
+wcms	http://forge.objectweb.org/projects/wcms	2003-11-06 06:31:00	Wireless Content Management	89	1	NULL	220
+wildcat	http://forge.objectweb.org/projects/wildcat	2006-07-12 09:24:00	WildCAT	263	6	NULL	220
+winqemu	http://forge.objectweb.org/projects/winqemu	2009-09-14 09:46:00	WinQEMU：The Windows Port of QEMU	360	1	NULL	220
+wsunit	http://forge.objectweb.org/projects/wsunit	2004-11-01 19:27:00	WSUnit - XML over HTTP Reflector	161	1	NULL	220
+xmlc	http://forge.objectweb.org/projects/xmlc	2003-01-09 10:49:00	Enhydra XMLC	49	7	NULL	220
+xplus	http://forge.objectweb.org/projects/xplus	2007-06-06 04:43:00	xPlus	305	3	NULL	220
+xquare	http://forge.objectweb.org/projects/xquare	2003-10-01 08:20:00	XQuare	78	3	NULL	220
+xservice	http://forge.objectweb.org/projects/xservice	2006-04-06 09:36:00	XService Suite	252	16	NULL	220
+xwiki	http://forge.objectweb.org/projects/xwiki	2005-01-19 17:41:00	XWiki	170	11	NULL	220
+zeus	http://forge.objectweb.org/projects/zeus	2003-04-10 21:52:00	Enhydra Zeus	62	3	NULL	220

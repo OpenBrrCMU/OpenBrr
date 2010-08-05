@@ -1,0 +1,131 @@
+#  file: owProjectEnvironment2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, code, description, date_collected, datasource_id
+#  FROM ow_project_environment
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	code	description	date_collected	datasource_id
+acceleo	230	Win32 (MS Windows)	2010-05-03 15:36:06	220
+acceleo	231	Gnome	2010-05-03 15:36:06	220
+acceleo	232	KDE	2010-05-03 15:36:06	220
+apollon	226	Console (Text Based)	2010-05-03 15:36:35	220
+aspire	226	Console (Text Based)	2010-05-03 15:36:35	220
+aspire	237	Web Environment	2010-05-03 15:36:35	220
+barracudamvc	237	Web Environment	2010-05-03 15:36:35	220
+been	237	Web Environment	2010-05-03 15:36:36	220
+bonita	233	Other Environment	2010-05-03 15:36:36	220
+bonita	237	Web Environment	2010-05-03 15:36:36	220
+byline	237	Web Environment	2010-05-03 15:36:36	220
+c-jdbc	229	X11 Applications	2010-05-03 15:36:36	220
+c-jdbc	230	Win32 (MS Windows)	2010-05-03 15:36:36	220
+c-jdbc	238	No Input/Output (Daemon)	2010-05-03 15:36:36	220
+cardamom	233	Other Environment	2010-05-03 15:36:36	220
+carol	237	Web Environment	2010-05-03 15:36:36	220
+deployment	226	Console (Text Based)	2010-05-03 15:36:36	220
+director	237	Web Environment	2010-05-03 15:36:36	220
+dods	229	X11 Applications	2010-05-03 15:36:36	220
+dods	230	Win32 (MS Windows)	2010-05-03 15:36:36	220
+dods	237	Web Environment	2010-05-03 15:36:36	220
+dryverl	238	No Input/Output (Daemon)	2010-05-03 15:36:36	220
+dysoweb	237	Web Environment	2010-05-03 15:36:36	220
+eaf	237	Web Environment	2010-05-03 15:36:36	220
+edemos	237	Web Environment	2010-05-03 15:36:36	220
+enhydra	237	Web Environment	2010-05-03 15:36:36	220
+exoplatform	237	Web Environment	2010-05-03 15:36:36	220
+federid	226	Console (Text Based)	2010-05-03 15:36:36	220
+federid	237	Web Environment	2010-05-03 15:36:36	220
+gasp	237	Web Environment	2010-05-03 15:36:36	220
+initiativebi	237	Web Environment	2010-05-03 15:36:36	220
+interldap	226	Console (Text Based)	2010-05-03 15:36:36	220
+interldap	237	Web Environment	2010-05-03 15:36:36	220
+introspector	231	Gnome	2010-05-03 15:36:36	220
+introspector	237	Web Environment	2010-05-03 15:36:36	220
+introspector	226	Console (Text Based)	2010-05-03 15:36:36	220
+jac	226	Console (Text Based)	2010-05-03 15:36:36	220
+jac	233	Other Environment	2010-05-03 15:36:36	220
+jac	237	Web Environment	2010-05-03 15:36:36	220
+javaservice	230	Win32 (MS Windows)	2010-05-03 15:36:36	220
+javaservice	238	No Input/Output (Daemon)	2010-05-03 15:36:36	220
+jawe	233	Other Environment	2010-05-03 15:36:36	220
+jawe	230	Win32 (MS Windows)	2010-05-03 15:36:36	220
+jawe	229	X11 Applications	2010-05-03 15:36:36	220
+jeffree	229	X11 Applications	2010-05-03 15:36:37	220
+jeffree	230	Win32 (MS Windows)	2010-05-03 15:36:37	220
+jeffree	238	No Input/Output (Daemon)	2010-05-03 15:36:37	220
+jsurvey	237	Web Environment	2010-05-03 15:36:37	220
+kelp	230	Win32 (MS Windows)	2010-05-03 15:36:37	220
+kelp	229	X11 Applications	2010-05-03 15:36:37	220
+lemonldap	237	Web Environment	2010-05-03 15:36:37	220
+lewys	233	Other Environment	2010-05-03 15:36:37	220
+lewys	238	No Input/Output (Daemon)	2010-05-03 15:36:37	220
+lomboz	233	Other Environment	2010-05-03 15:36:37	220
+massiv	238	No Input/Output (Daemon)	2010-05-03 15:36:37	220
+massiv	230	Win32 (MS Windows)	2010-05-03 15:36:37	220
+massiv	229	X11 Applications	2010-05-03 15:36:37	220
+modfact	237	Web Environment	2010-05-03 15:36:37	220
+modfact	233	Other Environment	2010-05-03 15:36:37	220
+octopus	226	Console (Text Based)	2010-05-03 15:36:37	220
+octopus	233	Other Environment	2010-05-03 15:36:37	220
+ofccharts	237	Web Environment	2010-05-03 15:36:37	220
+ofccharts	230	Win32 (MS Windows)	2010-05-03 15:36:37	220
+oncepi	237	Web Environment	2010-05-03 15:36:37	220
+oncess	237	Web Environment	2010-05-03 15:36:37	220
+openediint	233	Other Environment	2010-05-03 15:36:37	220
+openmobileis	237	Web Environment	2010-05-03 15:36:37	220
+ops	237	Web Environment	2010-05-03 15:36:37	220
+orientwareccm	230	Win32 (MS Windows)	2010-05-03 15:36:37	220
+oyster	226	Console (Text Based)	2010-05-03 15:36:37	220
+oyster	237	Web Environment	2010-05-03 15:36:37	220
+paje	229	X11 Applications	2010-05-03 15:36:37	220
+paje	233	Other Environment	2010-05-03 15:36:37	220
+perseus	233	Other Environment	2010-05-03 15:36:37	220
+petals	233	Other Environment	2010-05-03 15:36:37	220
+petals	237	Web Environment	2010-05-03 15:36:37	220
+petalsmaster	233	Other Environment	2010-05-03 15:36:37	220
+petalsmaster	237	Web Environment	2010-05-03 15:36:37	220
+rubbos	237	Web Environment	2010-05-03 15:36:38	220
+rubis	237	Web Environment	2010-05-03 15:36:38	220
+scarbo	237	Web Environment	2010-05-03 15:36:38	220
+scarbo	230	Win32 (MS Windows)	2010-05-03 15:36:38	220
+scarbo	229	X11 Applications	2010-05-03 15:36:38	220
+shark	229	X11 Applications	2010-05-03 15:36:38	220
+shark	230	Win32 (MS Windows)	2010-05-03 15:36:38	220
+shark	237	Web Environment	2010-05-03 15:36:38	220
+snapper	238	No Input/Output (Daemon)	2010-05-03 15:36:38	220
+snapper	237	Web Environment	2010-05-03 15:36:38	220
+snapper	230	Win32 (MS Windows)	2010-05-03 15:36:38	220
+spagic	233	Other Environment	2010-05-03 15:36:38	220
+spagic	237	Web Environment	2010-05-03 15:36:38	220
+spago	237	Web Environment	2010-05-03 15:36:38	220
+spago4q	237	Web Environment	2010-05-03 15:36:38	220
+spagobi	237	Web Environment	2010-05-03 15:36:38	220
+speedo	238	No Input/Output (Daemon)	2010-05-03 15:36:38	220
+starwebservice	230	Win32 (MS Windows)	2010-05-03 15:36:38	220
+stock-online	226	Console (Text Based)	2010-05-03 15:36:38	220
+telosys	237	Web Environment	2010-05-03 15:36:38	220
+wildcat	238	No Input/Output (Daemon)	2010-05-03 15:36:38	220
+xmlc	226	Console (Text Based)	2010-05-03 15:36:38	220
+xmlc	237	Web Environment	2010-05-03 15:36:38	220
+xplus	226	Console (Text Based)	2010-05-03 15:36:38	220
+xservice	230	Win32 (MS Windows)	2010-05-03 15:36:38	220
+xwiki	237	Web Environment	2010-05-03 15:36:38	220

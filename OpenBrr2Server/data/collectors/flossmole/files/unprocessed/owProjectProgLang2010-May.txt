@@ -1,0 +1,142 @@
+#  file: owProjProgLang2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, code, description, date_collected, datasource_id
+#  FROM ow_project_programming_language
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	code	description	date_collected	datasource_id
+acceleo	198	Java	2010-05-03 15:36:06	220
+apollon	198	Java	2010-05-03 15:36:35	220
+asm	198	Java	2010-05-03 15:36:35	220
+aspire	198	Java	2010-05-03 15:36:35	220
+aspire	183	PHP	2010-05-03 15:36:35	220
+azuki	198	Java	2010-05-03 15:36:35	220
+barracudamvc	198	Java	2010-05-03 15:36:36	220
+been	198	Java	2010-05-03 15:36:36	220
+been	164	C	2010-05-03 15:36:36	220
+bonita	198	Java	2010-05-03 15:36:36	220
+bonita	213	Other	2010-05-03 15:36:36	220
+bsframework	198	Java	2010-05-03 15:36:36	220
+byline	198	Java	2010-05-03 15:36:36	220
+c-jdbc	198	Java	2010-05-03 15:36:36	220
+cardamom	198	Java	2010-05-03 15:36:36	220
+cardamom	165	C++	2010-05-03 15:36:36	220
+carol	198	Java	2010-05-03 15:36:36	220
+clif	198	Java	2010-05-03 15:36:36	220
+deployment	198	Java	2010-05-03 15:36:36	220
+director	164	C	2010-05-03 15:36:36	220
+dods	198	Java	2010-05-03 15:36:36	220
+dotnetj	198	Java	2010-05-03 15:36:36	220
+dream	198	Java	2010-05-03 15:36:36	220
+dryverl	164	C	2010-05-03 15:36:36	220
+dryverl	264	Erlang	2010-05-03 15:36:36	220
+dysoweb	198	Java	2010-05-03 15:36:36	220
+eaf	198	Java	2010-05-03 15:36:36	220
+easybeans	198	Java	2010-05-03 15:36:36	220
+edemos	198	Java	2010-05-03 15:36:36	220
+enhydra	198	Java	2010-05-03 15:36:36	220
+exoplatform	198	Java	2010-05-03 15:36:36	220
+federid	198	Java	2010-05-03 15:36:36	220
+federid	176	Perl	2010-05-03 15:36:36	220
+federid	178	Python	2010-05-03 15:36:36	220
+fractal	198	Java	2010-05-03 15:36:36	220
+gasp	198	Java	2010-05-03 15:36:36	220
+gotm	198	Java	2010-05-03 15:36:36	220
+howl	198	Java	2010-05-03 15:36:36	220
+initiativebi	198	Java	2010-05-03 15:36:36	220
+interldap	164	C	2010-05-03 15:36:36	220
+interldap	198	Java	2010-05-03 15:36:36	220
+interldap	176	Perl	2010-05-03 15:36:36	220
+introspector	254	PL/SQL	2010-05-03 15:36:36	220
+introspector	176	Perl	2010-05-03 15:36:36	220
+introspector	164	C	2010-05-03 15:36:36	220
+ishmael	198	Java	2010-05-03 15:36:36	220
+jac	198	Java	2010-05-03 15:36:36	220
+jaspte	198	Java	2010-05-03 15:36:36	220
+javaservice	198	Java	2010-05-03 15:36:36	220
+javaservice	165	C++	2010-05-03 15:36:36	220
+javaservice	164	C	2010-05-03 15:36:36	220
+jawe	198	Java	2010-05-03 15:36:37	220
+jeffree	198	Java	2010-05-03 15:36:37	220
+jonathan	198	Java	2010-05-03 15:36:37	220
+joram	198	Java	2010-05-03 15:36:37	220
+jorm	198	Java	2010-05-03 15:36:37	220
+jotm	198	Java	2010-05-03 15:36:37	220
+jsurvey	198	Java	2010-05-03 15:36:37	220
+kelly	198	Java	2010-05-03 15:36:37	220
+kelp	198	Java	2010-05-03 15:36:37	220
+kilim	198	Java	2010-05-03 15:36:37	220
+kilim2	198	Java	2010-05-03 15:36:37	220
+lemonldap	176	Perl	2010-05-03 15:36:37	220
+lewys	164	C	2010-05-03 15:36:37	220
+lewys	198	Java	2010-05-03 15:36:37	220
+lomboz	198	Java	2010-05-03 15:36:37	220
+massiv	165	C++	2010-05-03 15:36:37	220
+medor	198	Java	2010-05-03 15:36:37	220
+modfact	198	Java	2010-05-03 15:36:37	220
+modfact	213	Other	2010-05-03 15:36:37	220
+monolog	198	Java	2010-05-03 15:36:37	220
+noah	198	Java	2010-05-03 15:36:37	220
+objectweb-zh	198	Java	2010-05-03 15:36:37	220
+octopus	198	Java	2010-05-03 15:36:37	220
+octopus	254	PL/SQL	2010-05-03 15:36:37	220
+odis	198	Java	2010-05-03 15:36:37	220
+ofccharts	198	Java	2010-05-03 15:36:37	220
+oncepi	198	Java	2010-05-03 15:36:37	220
+oncess	198	Java	2010-05-03 15:36:37	220
+openediint	198	Java	2010-05-03 15:36:37	220
+openmobileis	198	Java	2010-05-03 15:36:37	220
+orchestra	198	Java	2010-05-03 15:36:37	220
+orientwareccm	165	C++	2010-05-03 15:36:37	220
+oyster	198	Java	2010-05-03 15:36:37	220
+paje	174	Objective C	2010-05-03 15:36:37	220
+pargres	198	Java	2010-05-03 15:36:37	220
+perseus	198	Java	2010-05-03 15:36:37	220
+petals	198	Java	2010-05-03 15:36:37	220
+petalsmaster	198	Java	2010-05-03 15:36:37	220
+rubbos	198	Java	2010-05-03 15:36:38	220
+rubis	198	Java	2010-05-03 15:36:38	220
+scarbo	198	Java	2010-05-03 15:36:38	220
+scarbo	213	Other	2010-05-03 15:36:38	220
+shark	198	Java	2010-05-03 15:36:38	220
+snapper	198	Java	2010-05-03 15:36:38	220
+sofa	198	Java	2010-05-03 15:36:38	220
+spagic	198	Java	2010-05-03 15:36:38	220
+spago	198	Java	2010-05-03 15:36:38	220
+spago4q	198	Java	2010-05-03 15:36:38	220
+spagobi	198	Java	2010-05-03 15:36:38	220
+speedo	198	Java	2010-05-03 15:36:38	220
+starwebservice	198	Java	2010-05-03 15:36:38	220
+stock-online	198	Java	2010-05-03 15:36:38	220
+telosys	198	Java	2010-05-03 15:36:38	220
+tess	198	Java	2010-05-03 15:36:38	220
+think	269	Assembly	2010-05-03 15:36:38	220
+think	164	C	2010-05-03 15:36:38	220
+think	198	Java	2010-05-03 15:36:38	220
+wildcat	198	Java	2010-05-03 15:36:38	220
+xmlc	198	Java	2010-05-03 15:36:38	220
+xplus	198	Java	2010-05-03 15:36:38	220
+xquare	198	Java	2010-05-03 15:36:38	220
+xservice	198	Java	2010-05-03 15:36:38	220
+xwiki	198	Java	2010-05-03 15:36:38	220
+zeus	198	Java	2010-05-03 15:36:38	220

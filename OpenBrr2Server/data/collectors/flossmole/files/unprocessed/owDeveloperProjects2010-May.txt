@@ -1,0 +1,1222 @@
+#  file: owDevProjects2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, dev_loginname, is_admin, position, date_collected, datasource_id
+#  FROM ow_developer_projects
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname, dev_loginname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	dev_loginname	is_admin	position	date_collected	datasource_id
+acceleo	allilaire	0	Developer	2010-05-03 15:29:11	220
+acceleo	cbrun	1	Developer	2010-05-03 15:29:11	220
+acceleo	chouyas	0	Developer	2010-05-03 15:29:11	220
+acceleo	cnotot	0	Developer	2010-05-03 15:29:11	220
+acceleo	dbonneau	0	Developer	2010-05-03 15:29:11	220
+acceleo	ejuliot	1	Developer	2010-05-03 15:29:11	220
+acceleo	fgaudin	0	Developer	2010-05-03 15:29:11	220
+acceleo	fmorel	0	Developer	2010-05-03 15:29:11	220
+acceleo	ggebhart	0	Developer	2010-05-03 15:29:11	220
+acceleo	glefur	0	Developer	2010-05-03 15:29:11	220
+acceleo	greydet	0	Developer	2010-05-03 15:29:11	220
+acceleo	integration	0	Developer	2010-05-03 15:29:11	220
+acceleo	jbenois	0	Developer	2010-05-03 15:29:11	220
+acceleo	jmusset	1	Project Manager	2010-05-03 15:29:11	220
+acceleo	ldelaigue	0	Developer	2010-05-03 15:29:11	220
+acceleo	lgoubet	0	Developer	2010-05-03 15:29:11	220
+acceleo	mchauvin	0	Undefined	2010-05-03 15:29:11	220
+acceleo	moddolibarr	0	Developer	2010-05-03 15:29:11	220
+acceleo	nathalielepine	0	Undefined	2010-05-03 15:29:11	220
+acceleo	plind	0	Developer	2010-05-03 15:29:11	220
+acceleo	pounard	0	Developer	2010-05-03 15:29:11	220
+acceleo	praguin	0	Developer	2010-05-03 15:29:11	220
+acceleo	praynal	0	Developer	2010-05-03 15:29:11	220
+acceleo	sadellahr	0	Developer	2010-05-03 15:29:11	220
+acceleo	sbouchet	0	Developer	2010-05-03 15:29:11	220
+acceleo	slacrampe	1	Undefined	2010-05-03 15:29:11	220
+acceleo	sliard	0	Undefined	2010-05-03 15:29:11	220
+acceleo	templth	0	Developer	2010-05-03 15:29:11	220
+acceleo	toutpt	0	Developer	2010-05-03 15:29:11	220
+acceleo	willpiers	0	Developer	2010-05-03 15:29:11	220
+acceleo	ylussaud	0	Developer	2010-05-03 15:29:11	220
+acceleo	ymortier	0	Developer	2010-05-03 15:29:11	220
+accord	brunoborges	1	Project Manager	2010-05-03 15:29:14	220
+accord	rmarins	1	Undefined	2010-05-03 15:29:14	220
+apollon	contrera	1	Undefined	2010-05-03 15:29:16	220
+apollon	jmesnil	0	Undefined	2010-05-03 15:29:16	220
+apollon	rouvoy	0	Undefined	2010-05-03 15:29:16	220
+asm	andrei	1	Project Manager	2010-05-03 15:29:19	220
+asm	ebruneton	1	Project Manager	2010-05-03 15:29:19	220
+asm	ekuleshov	1	Project Manager	2010-05-03 15:29:19	220
+asm	forax	0	Developer	2010-05-03 15:29:19	220
+aspire	angoca	0	Developer	2010-05-03 15:29:21	220
+aspire	baz	0	Developer	2010-05-03 15:29:21	220
+aspire	desertom	0	Developer	2010-05-03 15:29:21	220
+aspire	donsez	1	Unix Admin	2010-05-03 15:29:21	220
+aspire	elka	0	Developer	2010-05-03 15:29:21	220
+aspire	fornacif	0	Developer	2010-05-03 15:29:21	220
+aspire	gabo_pedraza	0	Developer	2010-05-03 15:29:21	220
+aspire	gandrille	0	Developer	2010-05-03 15:29:21	220
+aspire	jellart	0	Developer	2010-05-03 15:29:21	220
+aspire	jpdomenge	0	Developer	2010-05-03 15:29:21	220
+aspire	jsoldat	1	Unix Admin	2010-05-03 15:29:21	220
+aspire	kievgama	0	Developer	2010-05-03 15:29:21	220
+aspire	nektarios	0	Developer	2010-05-03 15:29:21	220
+aspire	nkef	1	Unix Admin	2010-05-03 15:29:21	220
+aspire	nkons	0	Developer	2010-05-03 15:29:21	220
+aspire	rouvoy	0	Developer	2010-05-03 15:29:21	220
+aspire	rudametw	0	Developer	2010-05-03 15:29:21	220
+aspire	schmidt	0	Developer	2010-05-03 15:29:21	220
+aspire	seintur	0	Developer	2010-05-03 15:29:21	220
+aspire	simatic	0	Developer	2010-05-03 15:29:21	220
+aspire	smyousuf	0	Undefined	2010-05-03 15:29:21	220
+aspire	sribas	0	Undefined	2010-05-03 15:29:21	220
+aspire	touseau	0	Developer	2010-05-03 15:29:21	220
+aspire	vangelisk	0	Doc Writer	2010-05-03 15:29:21	220
+aspire	yluo	0	Developer	2010-05-03 15:29:21	220
+azuki	mjucker	1	Project Manager	2010-05-03 15:29:24	220
+azuki	robertbakic	1	Project Manager	2010-05-03 15:29:24	220
+azuki	yoannperrin	1	Project Manager	2010-05-03 15:29:24	220
+barracudamvc	alci	1	Developer	2010-05-03 15:29:26	220
+barracudamvc	bugfixer	1	Unix Admin	2010-05-03 15:29:26	220
+barracudamvc	christianc	1	Developer	2010-05-03 15:29:26	220
+barracudamvc	darthvader	1	Developer	2010-05-03 15:29:26	220
+barracudamvc	deets	1	Developer	2010-05-03 15:29:26	220
+barracudamvc	jkjome	1	Developer	2010-05-03 15:29:26	220
+barracudamvc	lannocc	1	Developer	2010-05-03 15:29:26	220
+been	andrej	0	Developer	2010-05-03 15:29:29	220
+been	atrac	0	Developer	2010-05-03 15:29:29	220
+been	brepcek	0	Developer	2010-05-03 15:29:29	220
+been	ceres	1	Project Manager	2010-05-03 15:29:29	220
+been	jiri_tauber	0	Developer	2010-05-03 15:29:29	220
+been	lehotsky	0	Developer	2010-05-03 15:29:29	220
+been	majda	1	Project Manager	2010-05-03 15:29:29	220
+been	tkalibera	1	Project Manager	2010-05-03 15:29:29	220
+been	tomcanyi	0	Developer	2010-05-03 15:29:29	220
+been	tomecek	0	Developer	2010-05-03 15:29:29	220
+been	urban	0	Developer	2010-05-03 15:29:29	220
+bonita	anthony_b	0	Developer	2010-05-03 15:29:31	220
+bonita	blachonm	0	Developer	2010-05-03 15:29:31	220
+bonita	chaffotm	0	Developer	2010-05-03 15:29:31	220
+bonita	charoy	0	Developer	2010-05-03 15:29:31	220
+bonita	dparisek	0	Undefined	2010-05-03 15:29:31	220
+bonita	egberts	0	Undefined	2010-05-03 15:29:31	220
+bonita	elazzouzi	0	Developer	2010-05-03 15:29:31	220
+bonita	hudson	0	Undefined	2010-05-03 15:29:31	220
+bonita	joaninh	0	Undefined	2010-05-03 15:29:31	220
+bonita	lejeuneg	0	Undefined	2010-05-03 15:29:31	220
+bonita	mvaldes	1	Project Manager	2010-05-03 15:29:31	220
+bonita	oscarbarrios	0	Developer	2010-05-03 15:29:31	220
+bonita	porcherg	0	Developer	2010-05-03 15:29:31	220
+bonita	rlg	1	Project Manager	2010-05-03 15:29:31	220
+bonita	souillac	1	Project Manager	2010-05-03 15:29:31	220
+bonita	vigneras	0	Developer	2010-05-03 15:29:31	220
+bpmadmin	blachonm	0	Developer	2010-05-03 15:29:33	220
+bpmadmin	brahime	0	Developer	2010-05-03 15:29:33	220
+bpmadmin	dparisek	0	Developer	2010-05-03 15:29:33	220
+bpmadmin	elkholymaggy	0	Developer	2010-05-03 15:29:33	220
+bpmadmin	gaellalire	0	Undefined	2010-05-03 15:29:33	220
+bpmadmin	hammamio	0	Developer	2010-05-03 15:29:33	220
+bpmadmin	joaninh	0	Developer	2010-05-03 15:29:33	220
+bpmadmin	khdung	0	Developer	2010-05-03 15:29:33	220
+bpmadmin	mvaldes	1	Project Manager	2010-05-03 15:29:33	220
+bpmadmin	porcherg	0	Developer	2010-05-03 15:29:33	220
+bpmadmin	rlg	1	Project Manager	2010-05-03 15:29:33	220
+bpmadmin	souillac	1	Developer	2010-05-03 15:29:33	220
+bpmadmin	vigneras	0	Developer	2010-05-03 15:29:33	220
+byline	ashah	0	Developer	2010-05-03 15:29:38	220
+byline	bprucha	0	Developer	2010-05-03 15:29:38	220
+byline	bryanche	0	Developer	2010-05-03 15:29:38	220
+byline	danpb	0	Developer	2010-05-03 15:29:38	220
+byline	dgregoro	1	Developer	2010-05-03 15:29:38	220
+byline	el-vadimo	0	Developer	2010-05-03 15:29:38	220
+byline	jorris	0	Developer	2010-05-03 15:29:38	220
+byline	justin	0	Developer	2010-05-03 15:29:38	220
+byline	mark2000	0	Developer	2010-05-03 15:29:38	220
+byline	richardl	1	Project Manager	2010-05-03 15:29:38	220
+byline	scruntime	0	Developer	2010-05-03 15:29:38	220
+byline	sshinde	0	Developer	2010-05-03 15:29:38	220
+byline	sskracic	0	Developer	2010-05-03 15:29:38	220
+c-jdbc	aledeniz	0	Doc Writer	2010-05-03 15:29:40	220
+c-jdbc	cecchet	1	Project Manager	2010-05-03 15:29:40	220
+c-jdbc	damian	0	Undefined	2010-05-03 15:29:40	220
+c-jdbc	demch	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	dhansen	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	dssmith	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	gward	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	hint	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	jbvanzuylen	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	jeffkole	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	jmesnil	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	kolos	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	macros	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	marc	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	margueri	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	mheath	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	mherbert	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	modrzyk	1	Developer	2010-05-03 15:29:40	220
+c-jdbc	mpeltier	1	Developer	2010-05-03 15:29:40	220
+c-jdbc	mprochazka	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	ntolia	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	olaf	1	Developer	2010-05-03 15:29:40	220
+c-jdbc	pbresson	0	Doc Writer	2010-05-03 15:29:40	220
+c-jdbc	reschini	0	Doc Writer	2010-05-03 15:29:40	220
+c-jdbc	rickla	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	slincan	0	Developer	2010-05-03 15:29:40	220
+c-jdbc	stahlmann	0	Doc Writer	2010-05-03 15:29:40	220
+c-jdbc	ugurkarakaya	0	Doc Writer	2010-05-03 15:29:40	220
+cardamom	bonenfant	1	Support Manager	2010-05-03 15:29:43	220
+cardamom	jfichez	1	Project Manager	2010-05-03 15:29:43	220
+cardamom	souami	1	Graphic/Other Designer	2010-05-03 15:29:43	220
+carol	alitokmen	0	Developer	2010-05-03 15:29:45	220
+carol	amrania	0	Developer	2010-05-03 15:29:45	220
+carol	ashah	0	Developer	2010-05-03 15:29:45	220
+carol	benoitf	1	Project Manager	2010-05-03 15:29:45	220
+carol	braeuney	0	Developer	2010-05-03 15:29:45	220
+carol	bricardq	0	Developer	2010-05-03 15:29:45	220
+carol	coqp	0	Developer	2010-05-03 15:29:45	220
+carol	durieuxp	0	Developer	2010-05-03 15:29:45	220
+carol	duvauchn	0	Developer	2010-05-03 15:29:45	220
+carol	eyindanga	0	Developer	2010-05-03 15:29:45	220
+carol	fnasser	0	Developer	2010-05-03 15:29:45	220
+carol	fornacif	0	Developer	2010-05-03 15:29:45	220
+carol	frperezs	0	Developer	2010-05-03 15:29:45	220
+carol	gaellalire	0	Developer	2010-05-03 15:29:45	220
+carol	gof83	0	Developer	2010-05-03 15:29:45	220
+carol	japaz	0	Developer	2010-05-03 15:29:45	220
+carol	joaninh	0	Developer	2010-05-03 15:29:45	220
+carol	loris	1	Developer	2010-05-03 15:29:45	220
+carol	missonng	0	Developer	2010-05-03 15:29:45	220
+carol	nieuviar	0	Developer	2010-05-03 15:29:45	220
+carol	ningzh	0	Developer	2010-05-03 15:29:45	220
+carol	pelletib	1	Developer	2010-05-03 15:29:45	220
+carol	renaultgu	0	Developer	2010-05-03 15:29:45	220
+carol	rhs	0	Developer	2010-05-03 15:29:45	220
+carol	sauthieg	0	Developer	2010-05-03 15:29:45	220
+carol	wangzy	0	Developer	2010-05-03 15:29:45	220
+carol	zhouyue	0	Developer	2010-05-03 15:29:45	220
+celtix	adisakala	1	Project Manager	2010-05-03 15:29:48	220
+celtix	andrea	0	Developer	2010-05-03 15:29:48	220
+celtix	apaibir	0	Developer	2010-05-03 15:29:48	220
+celtix	bozhong	1	Project Manager	2010-05-03 15:29:48	220
+celtix	bwright	0	Doc Writer	2010-05-03 15:29:48	220
+celtix	carlos	0	Developer	2010-05-03 15:29:48	220
+celtix	cctrieloff	1	Project Manager	2010-05-03 15:29:48	220
+celtix	cjodea	0	Developer	2010-05-03 15:29:48	220
+celtix	cliffschmidt	1	Project Manager	2010-05-03 15:29:48	220
+celtix	dkulp	0	Developer	2010-05-03 15:29:48	220
+celtix	eamdwyer	0	Undefined	2010-05-03 15:29:48	220
+celtix	eglynn	0	Developer	2010-05-03 15:29:48	220
+celtix	ejohnson	0	Doc Writer	2010-05-03 15:29:48	220
+celtix	fbolton	0	Doc Writer	2010-05-03 15:29:48	220
+celtix	ffang	0	Undefined	2010-05-03 15:29:48	220
+celtix	jdcasey	0	Developer	2010-05-03 15:29:48	220
+celtix	jiangning	0	Developer	2010-05-03 15:29:48	220
+celtix	jimma	0	Developer	2010-05-03 15:29:48	220
+celtix	jliu	0	Developer	2010-05-03 15:29:48	220
+celtix	jsquires	0	Developer	2010-05-03 15:29:48	220
+celtix	maomaode	0	Developer	2010-05-03 15:29:48	220
+celtix	ofitz	0	Doc Writer	2010-05-03 15:29:48	220
+celtix	peterjones	0	Developer	2010-05-03 15:29:48	220
+celtix	seanoc	0	Developer	2010-05-03 15:29:48	220
+celtix	smccarth	0	Doc Writer	2010-05-03 15:29:48	220
+celtix	tomli	0	Undefined	2010-05-03 15:29:48	220
+celtix	ulhasbhole	0	Developer	2010-05-03 15:29:48	220
+clif	abonnefoy	0	Developer	2010-05-03 15:29:50	220
+clif	ahiba	0	Developer	2010-05-03 15:29:50	220
+clif	beyler_olivier	0	Developer	2010-05-03 15:29:50	220
+clif	chassand	0	Developer	2010-05-03 15:29:50	220
+clif	dillense	1	Project Manager	2010-05-03 15:29:50	220
+clif	fab	0	Developer	2010-05-03 15:29:50	220
+clif	flmc8433	0	Developer	2010-05-03 15:29:50	220
+clif	fmetral	0	Developer	2010-05-03 15:29:50	220
+clif	jchaumont	0	Developer	2010-05-03 15:29:50	220
+clif	kalo	0	Developer	2010-05-03 15:29:50	220
+clif	marchemi	0	Developer	2010-05-03 15:29:50	220
+clif	pcrepieux	0	Developer	2010-05-03 15:29:50	220
+clif	philijer	0	Developer	2010-05-03 15:29:50	220
+clif	rdruilhe	0	Developer	2010-05-03 15:29:50	220
+clif	skars	0	Developer	2010-05-03 15:29:50	220
+clif	tescalle	1	Project Manager	2010-05-03 15:29:50	220
+clif	tomas	1	Developer	2010-05-03 15:29:50	220
+clif	vachet	0	Developer	2010-05-03 15:29:50	220
+clif	vincenco	1	Developer	2010-05-03 15:29:50	220
+cmi	amrania	0	Developer	2010-05-03 15:29:53	220
+cmi	benoitf	1	Project Manager	2010-05-03 15:29:53	220
+cmi	bourzabe	0	Undefined	2010-05-03 15:29:53	220
+cmi	bricardq	0	Developer	2010-05-03 15:29:53	220
+cmi	eyindanga	1	Project Manager	2010-05-03 15:29:53	220
+cmi	fornacif	0	Developer	2010-05-03 15:29:53	220
+cmi	lglglglg	0	Developer	2010-05-03 15:29:53	220
+cmi	lhw09	0	Developer	2010-05-03 15:29:53	220
+cmi	loris	1	Project Manager	2010-05-03 15:29:53	220
+cmi	maxj07	0	Developer	2010-05-03 15:29:53	220
+cmi	pelletib	1	Project Manager	2010-05-03 15:29:53	220
+cmi	wangzy	0	Undefined	2010-05-03 15:29:53	220
+deployment	belkhatir	0	Undefined	2010-05-03 15:29:55	220
+deployment	donsez	0	Undefined	2010-05-03 15:29:55	220
+deployment	flissi	1	Developer	2010-05-03 15:29:55	220
+deployment	merle	1	Project Manager	2010-05-03 15:29:55	220
+deployment	usero	0	Undefined	2010-05-03 15:29:55	220
+director	a_madl	1	Project Manager	2010-05-03 15:29:57	220
+dods	a_madl	1	Project Manager	2010-05-03 15:30:00	220
+dotnetj	dotnetj	1	Undefined	2010-05-03 15:30:02	220
+dotnetj	riviereg	1	Undefined	2010-05-03 15:30:02	220
+dream	apace	0	Developer	2010-05-03 15:30:05	220
+dream	baz	0	Developer	2010-05-03 15:30:05	220
+dream	cecchet	0	Developer	2010-05-03 15:30:05	220
+dream	diego-midon	0	Developer	2010-05-03 15:30:05	220
+dream	ervalerio	0	Developer	2010-05-03 15:30:05	220
+dream	garciap	1	Developer	2010-05-03 15:30:05	220
+dream	jkornas	0	Developer	2010-05-03 15:30:05	220
+dream	leclercq	1	Developer	2010-05-03 15:30:05	220
+dream	quema	1	Developer	2010-05-03 15:30:05	220
+dream	rlenglet	0	Developer	2010-05-03 15:30:05	220
+dream	rnaudin	1	Developer	2010-05-03 15:30:05	220
+dryverl	asergey	0	Developer	2010-05-03 15:30:07	220
+dryverl	rlenglet	1	Undefined	2010-05-03 15:30:07	220
+dysoweb	afreret	0	Undefined	2010-05-03 15:30:09	220
+dysoweb	cvergnaud	0	Developer	2010-05-03 15:30:09	220
+dysoweb	donsez	0	Developer	2010-05-03 15:30:09	220
+dysoweb	mgasco83	0	Developer	2010-05-03 15:30:09	220
+dysoweb	pdubois	1	Undefined	2010-05-03 15:30:09	220
+eaf	a_madl	1	Undefined	2010-05-03 15:30:12	220
+easybeans	alex86	0	Developer	2010-05-03 15:30:14	220
+easybeans	alitokmen	0	Developer	2010-05-03 15:30:14	220
+easybeans	amrania	0	Developer	2010-05-03 15:30:14	220
+easybeans	benoitf	1	Project Manager	2010-05-03 15:30:14	220
+easybeans	bricardq	0	Developer	2010-05-03 15:30:14	220
+easybeans	coqp	0	Developer	2010-05-03 15:30:14	220
+easybeans	danesa	0	Developer	2010-05-03 15:30:14	220
+easybeans	dr-alves	0	Developer	2010-05-03 15:30:14	220
+easybeans	durieuxp	0	Developer	2010-05-03 15:30:14	220
+easybeans	eyindanga	0	Developer	2010-05-03 15:30:14	220
+easybeans	fornacif	0	Developer	2010-05-03 15:30:14	220
+easybeans	gaellalire	0	Developer	2010-05-03 15:30:14	220
+easybeans	jblais	0	Developer	2010-05-03 15:30:14	220
+easybeans	jlegrand	0	Developer	2010-05-03 15:30:14	220
+easybeans	joaninh	0	Developer	2010-05-03 15:30:14	220
+easybeans	loris	0	Developer	2010-05-03 15:30:14	220
+easybeans	loverad	0	Developer	2010-05-03 15:30:14	220
+easybeans	mancelin	0	Developer	2010-05-03 15:30:14	220
+easybeans	missonng	0	Developer	2010-05-03 15:30:14	220
+easybeans	mleduque	0	Developer	2010-05-03 15:30:14	220
+easybeans	ningzh	0	Developer	2010-05-03 15:30:14	220
+easybeans	pelletib	0	Developer	2010-05-03 15:30:14	220
+easybeans	pinheirg	0	Developer	2010-05-03 15:30:14	220
+easybeans	renaultgu	0	Developer	2010-05-03 15:30:14	220
+easybeans	sauthieg	1	Developer	2010-05-03 15:30:14	220
+easybeans	sebastiend	0	Developer	2010-05-03 15:30:14	220
+easybeans	souadnia21	0	Developer	2010-05-03 15:30:14	220
+easybeans	strappab	0	Developer	2010-05-03 15:30:14	220
+easybeans	studzine	0	Developer	2010-05-03 15:30:14	220
+easybeans	vmichaud	0	Developer	2010-05-03 15:30:14	220
+easybeans	zhouyue	0	Developer	2010-05-03 15:30:14	220
+easywsdl	alouis	1	Developer	2010-05-03 15:30:17	220
+easywsdl	cdeneux	0	Developer	2010-05-03 15:30:17	220
+easywsdl	chamerling	1	Developer	2010-05-03 15:30:17	220
+easywsdl	charles_casadei	0	Developer	2010-05-03 15:30:17	220
+easywsdl	fgardes	0	Developer	2010-05-03 15:30:17	220
+easywsdl	gblondelle	1	Developer	2010-05-03 15:30:17	220
+easywsdl	jlesbegueries	0	Developer	2010-05-03 15:30:17	220
+easywsdl	mbeldame	0	Developer	2010-05-03 15:30:17	220
+easywsdl	mjambert	1	Developer	2010-05-03 15:30:17	220
+easywsdl	nboissel	1	Project Manager	2010-05-03 15:30:17	220
+easywsdl	nsalatge	1	Developer	2010-05-03 15:30:17	220
+easywsdl	ofabre	1	Developer	2010-05-03 15:30:17	220
+easywsdl	rnaudin	1	Developer	2010-05-03 15:30:17	220
+easywsdl	tdejean	0	Developer	2010-05-03 15:30:17	220
+eclipse-update	andrei	1	Undefined	2010-05-03 15:30:19	220
+eclipse-update	benoitf	1	Undefined	2010-05-03 15:30:19	220
+eclipse-update	ebruneton	1	Undefined	2010-05-03 15:30:19	220
+eclipse-update	gmohr	1	Developer	2010-05-03 15:30:19	220
+eclipse-update	moghrabi	1	Undefined	2010-05-03 15:30:19	220
+eclipse-update	riase	0	Undefined	2010-05-03 15:30:19	220
+eclipse-update	sauthieg	1	Undefined	2010-05-03 15:30:19	220
+edemos	a_madl	1	Project Manager	2010-05-03 15:30:22	220
+enhydra	a_madl	1	Project Manager	2010-05-03 15:30:25	220
+enusmv	kayliu	1	Undefined	2010-05-03 15:30:27	220
+epaf	loveofcsdt	1	Undefined	2010-05-03 15:30:30	220
+exoplatform	andreyparfonov	0	Developer	2010-05-03 15:30:33	220
+exoplatform	benjmestrallet	1	Project Manager	2010-05-03 15:30:33	220
+exoplatform	bergschlos	0	Developer	2010-05-03 15:30:33	220
+exoplatform	brice	1	Developer	2010-05-03 15:30:33	220
+exoplatform	congnguyen	1	Undefined	2010-05-03 15:30:33	220
+exoplatform	davidedc	0	Developer	2010-05-03 15:30:33	220
+exoplatform	dungln	1	Developer	2010-05-03 15:30:33	220
+exoplatform	essobedo	1	Project Manager	2010-05-03 15:30:33	220
+exoplatform	exo	0	Developer	2010-05-03 15:30:33	220
+exoplatform	fichatel	1	Project Manager	2010-05-03 15:30:33	220
+exoplatform	francesm	0	Developer	2010-05-03 15:30:33	220
+exoplatform	geaz	1	Developer	2010-05-03 15:30:33	220
+exoplatform	hainguyen	0	Developer	2010-05-03 15:30:33	220
+exoplatform	hunghoang	0	Developer	2010-05-03 15:30:33	220
+exoplatform	kito99	0	Developer	2010-05-03 15:30:33	220
+exoplatform	ksm	0	Undefined	2010-05-03 15:30:33	220
+exoplatform	lapnguyen	1	Undefined	2010-05-03 15:30:33	220
+exoplatform	lautarul	0	Developer	2010-05-03 15:30:33	220
+exoplatform	lesya_metelya	0	Tester	2010-05-03 15:30:33	220
+exoplatform	makis	0	Undefined	2010-05-03 15:30:33	220
+exoplatform	manhdung	0	Developer	2010-05-03 15:30:33	220
+exoplatform	minhdv	0	Developer	2010-05-03 15:30:33	220
+exoplatform	minhnguyen	0	Tester	2010-05-03 15:30:33	220
+exoplatform	namphunghai	0	Developer	2010-05-03 15:30:33	220
+exoplatform	nqhungvn	0	Developer	2010-05-03 15:30:33	220
+exoplatform	onurbacak	0	Undefined	2010-05-03 15:30:33	220
+exoplatform	paristot	1	Developer	2010-05-03 15:30:33	220
+exoplatform	peterit	1	Developer	2010-05-03 15:30:33	220
+exoplatform	phunguyen	0	Developer	2010-05-03 15:30:33	220
+exoplatform	plamarque	1	Unix Admin	2010-05-03 15:30:33	220
+exoplatform	pnedonosko	1	Undefined	2010-05-03 15:30:33	220
+exoplatform	rainf0x	0	Undefined	2010-05-03 15:30:33	220
+exoplatform	songjy	0	Developer	2010-05-03 15:30:33	220
+exoplatform	sunman	0	Developer	2010-05-03 15:30:33	220
+exoplatform	tgrall	1	Undefined	2010-05-03 15:30:33	220
+exoplatform	thuynguyen	0	Developer	2010-05-03 15:30:33	220
+exoplatform	trongtran	0	Developer	2010-05-03 15:30:33	220
+exoplatform	tuanpham	0	Developer	2010-05-03 15:30:33	220
+exoplatform	tuduy	0	Developer	2010-05-03 15:30:33	220
+exoplatform	tungnguyen	0	Developer	2010-05-03 15:30:33	220
+exoplatform	tungthanh	0	Developer	2010-05-03 15:30:33	220
+exoplatform	vietlongnguyen	0	Tester	2010-05-03 15:30:33	220
+exoplatform	vitalka	0	Developer	2010-05-03 15:30:33	220
+exoplatform	xiayl	0	Developer	2010-05-03 15:30:33	220
+federid	cdangerville	0	Tester	2010-05-03 15:30:36	220
+federid	cgravier	0	Developer	2010-05-03 15:30:36	220
+federid	clement_oudot	1	Project Manager	2010-05-03 15:30:36	220
+federid	eseyman	0	Developer	2010-05-03 15:30:36	220
+federid	farmand	0	Developer	2010-05-03 15:30:36	220
+federid	fpeters	0	Developer	2010-05-03 15:30:36	220
+federid	mikael	0	Developer	2010-05-03 15:30:36	220
+federid	rouazana	0	Developer	2010-05-03 15:30:36	220
+federid	sbahloul	1	Project Manager	2010-05-03 15:30:36	220
+federid	tchemineau	0	Developer	2010-05-03 15:30:36	220
+foo	bamboo	0	Undefined	2010-05-03 15:30:38	220
+foo	cgravier	0	Undefined	2010-05-03 15:30:38	220
+foo	fpeters	0	Undefined	2010-05-03 15:30:38	220
+foo	jmfrenard	0	Undefined	2010-05-03 15:30:38	220
+foo	moghrabi	1	Project Manager	2010-05-03 15:30:38	220
+fractal	andrey	0	Undefined	2010-05-03 15:30:41	220
+fractal	apace	0	Developer	2010-05-03 15:30:41	220
+fractal	debrouxl	0	Developer	2010-05-03 15:30:41	220
+fractal	dechampa	0	Undefined	2010-05-03 15:30:41	220
+fractal	demarey	0	Developer	2010-05-03 15:30:41	220
+fractal	dillense	1	Developer	2010-05-03 15:30:41	220
+fractal	donsez	0	Developer	2010-05-03 15:30:41	220
+fractal	ebruneton	1	Undefined	2010-05-03 15:30:41	220
+fractal	ervalerio	0	Developer	2010-05-03 15:30:41	220
+fractal	fabien_mottet	0	Developer	2010-05-03 15:30:41	220
+fractal	floiret	0	Developer	2010-05-03 15:30:41	220
+fractal	fmetral	0	Developer	2010-05-03 15:30:41	220
+fractal	garciap	0	Developer	2010-05-03 15:30:41	220
+fractal	haugoug	0	Developer	2010-05-03 15:30:41	220
+fractal	jlabejof	0	Developer	2010-05-03 15:30:41	220
+fractal	jribault	0	Developer	2010-05-03 15:30:41	220
+fractal	kofron	0	Developer	2010-05-03 15:30:41	220
+fractal	lavigueur	0	Developer	2010-05-03 15:30:41	220
+fractal	leclercq	1	Developer	2010-05-03 15:30:41	220
+fractal	loris	0	Developer	2010-05-03 15:30:41	220
+fractal	mahmoudbh	0	Developer	2010-05-03 15:30:41	220
+fractal	mencl	0	Developer	2010-05-03 15:30:41	220
+fractal	merle	1	Project Manager	2010-05-03 15:30:41	220
+fractal	mleger	0	Developer	2010-05-03 15:30:41	220
+fractal	mmorel	0	Developer	2010-05-03 15:30:42	220
+fractal	moroy	0	Developer	2010-05-03 15:30:42	220
+fractal	msauvage	0	Developer	2010-05-03 15:30:42	220
+fractal	olivier_benny	0	Developer	2010-05-03 15:30:42	220
+fractal	ozcan	0	Developer	2010-05-03 15:30:42	220
+fractal	pcdavid	0	Developer	2010-05-03 15:30:42	220
+fractal	pessemier	0	Developer	2010-05-03 15:30:42	220
+fractal	rivierni	0	Developer	2010-05-03 15:30:42	220
+fractal	rmelisson	0	Developer	2010-05-03 15:30:42	220
+fractal	rouvoy	0	Developer	2010-05-03 15:30:42	220
+fractal	seintur	1	Developer	2010-05-03 15:30:42	220
+fractal	tcoupaye	1	Project Manager	2010-05-03 15:30:42	220
+fractal	yann_davin	0	Developer	2010-05-03 15:30:42	220
+frascati	cquinton	0	Developer	2010-05-03 15:30:44	220
+frascati	demarey	1	Developer	2010-05-03 15:30:44	220
+frascati	dfournie	0	Developer	2010-05-03 15:30:44	220
+frascati	dolet	1	Developer	2010-05-03 15:30:44	220
+frascati	ervalerio	0	Developer	2010-05-03 15:30:44	220
+frascati	jlabejof	0	Developer	2010-05-03 15:30:44	220
+frascati	mahmoudbh	0	Developer	2010-05-03 15:30:44	220
+frascati	merle	1	Project Manager	2010-05-03 15:30:44	220
+frascati	pcarton	0	Developer	2010-05-03 15:30:44	220
+frascati	pessemier	0	Developer	2010-05-03 15:30:44	220
+frascati	rmelisson	0	Developer	2010-05-03 15:30:44	220
+frascati	rouvoy	0	Developer	2010-05-03 15:30:44	220
+frascati	seintur	1	Project Manager	2010-05-03 15:30:44	220
+fwkdemoiselle	fredsdc	1	Undefined	2010-05-03 15:30:47	220
+gasp	adgeg	0	Developer	2010-05-03 15:30:50	220
+gasp	bouillot	0	Developer	2010-05-03 15:30:50	220
+gasp	delpiano	1	Project Manager	2010-05-03 15:30:50	220
+gasp	fcaron	1	Developer	2010-05-03 15:30:50	220
+gasp	gressier	1	Project Manager	2010-05-03 15:30:50	220
+gasp	kocik	0	Developer	2010-05-03 15:30:50	220
+gasp	ozanne_a	0	Developer	2010-05-03 15:30:50	220
+gasp	pellerin	1	Project Manager	2010-05-03 15:30:50	220
+gasp	simatic	1	Project Manager	2010-05-03 15:30:50	220
+gotm	dolet	0	Developer	2010-05-03 15:30:53	220
+gotm	moroy	0	Developer	2010-05-03 15:30:53	220
+gotm	pessemier	0	Developer	2010-05-03 15:30:53	220
+gotm	rouvoy	1	Project Manager	2010-05-03 15:30:53	220
+gotm	serrano	0	Developer	2010-05-03 15:30:53	220
+howl	chirino	0	Developer	2010-05-03 15:30:55	220
+howl	djencks	0	Developer	2010-05-03 15:30:55	220
+howl	durieuxp	1	Support Manager	2010-05-03 15:30:55	220
+howl	ehardesty	1	Developer	2010-05-03 15:30:55	220
+howl	girouxm	1	Project Manager	2010-05-03 15:30:55	220
+howl	jboynes	0	Developer	2010-05-03 15:30:55	220
+howl	trentshue	1	Project Manager	2010-05-03 15:30:55	220
+initiativebi	caseryj	1	Undefined	2010-05-03 15:30:59	220
+initiativebi	scamuzzo	1	Unix Admin	2010-05-03 15:30:59	220
+initiativebi	spadique	1	Project Manager	2010-05-03 15:30:59	220
+interldap	cgravier	0	Tester	2010-05-03 15:31:01	220
+interldap	clement_oudot	1	Project Manager	2010-05-03 15:31:01	220
+interldap	farmand	0	Developer	2010-05-03 15:31:01	220
+interldap	jclarke	0	Developer	2010-05-03 15:31:01	220
+interldap	mikael	0	Tester	2010-05-03 15:31:01	220
+interldap	rouazana	0	Developer	2010-05-03 15:31:01	220
+interldap	rschermesser	0	Developer	2010-05-03 15:31:01	220
+interldap	sbahloul	1	Project Manager	2010-05-03 15:31:01	220
+interldap	tchemineau	0	Developer	2010-05-03 15:31:01	220
+introspector	mdupont	1	Undefined	2010-05-03 15:31:04	220
+ishmael	benoitf	1	Project Manager	2010-05-03 15:31:07	220
+ishmael	camillej	1	Developer	2010-05-03 15:31:07	220
+ishmael	coqp	1	Project Manager	2010-05-03 15:31:07	220
+ishmael	deanj	1	Project Manager	2010-05-03 15:31:07	220
+ishmael	joaninh	1	Developer	2010-05-03 15:31:07	220
+ishmael	sauthieg	1	Developer	2010-05-03 15:31:07	220
+ishmael	timh	1	Developer	2010-05-03 15:31:07	220
+istx	tcsetp	1	Undefined	2010-05-03 15:31:09	220
+ivy	blachonm	1	Developer	2010-05-03 15:31:12	220
+ivy	bpm	1	Developer	2010-05-03 15:31:12	220
+ivy	mvaldes	1	Project Manager	2010-05-03 15:31:12	220
+ivy	porcherg	1	Developer	2010-05-03 15:31:12	220
+ivy	souillac	1	Undefined	2010-05-03 15:31:12	220
+ivy	vigneras	1	Developer	2010-05-03 15:31:12	220
+j2ws	zhangxf	1	Undefined	2010-05-03 15:31:15	220
+jac	laurent	1	Undefined	2010-05-03 15:31:17	220
+jac	renaud	1	Undefined	2010-05-03 15:31:17	220
+jac	seintur	1	Undefined	2010-05-03 15:31:17	220
+jasmine	alitokmen	0	Developer	2010-05-03 15:31:20	220
+jasmine	apupier	0	Developer	2010-05-03 15:31:20	220
+jasmine	ardaaydin	0	Developer	2010-05-03 15:31:20	220
+jasmine	benoitf	0	Developer	2010-05-03 15:31:20	220
+jasmine	chahinem	0	Developer	2010-05-03 15:31:20	220
+jasmine	danesa	0	Developer	2010-05-03 15:31:20	220
+jasmine	dangtran	0	Developer	2010-05-03 15:31:20	220
+jasmine	diopt	0	Developer	2010-05-03 15:31:20	220
+jasmine	durieuxp	0	Developer	2010-05-03 15:31:20	220
+jasmine	eyindanga	0	Developer	2010-05-03 15:31:20	220
+jasmine	fornacif	0	Developer	2010-05-03 15:31:20	220
+jasmine	ghanmh	0	Developer	2010-05-03 15:31:20	220
+jasmine	hien_it	0	Developer	2010-05-03 15:31:20	220
+jasmine	hudson_jasmine	1	Undefined	2010-05-03 15:31:20	220
+jasmine	jlegrand	1	Developer	2010-05-03 15:31:20	220
+jasmine	loris	1	Developer	2010-05-03 15:31:20	220
+jasmine	loverad	0	Developer	2010-05-03 15:31:20	220
+jasmine	merisiec	0	Developer	2010-05-03 15:31:20	220
+jasmine	ndepalma	1	Project Manager	2010-05-03 15:31:20	220
+jasmine	nicoulaj	0	Developer	2010-05-03 15:31:20	220
+jasmine	pelletib	1	Project Manager	2010-05-03 15:31:20	220
+jasmine	poutchej	0	Developer	2010-05-03 15:31:20	220
+jasmine	qingzhu	0	Developer	2010-05-03 15:31:20	220
+jasmine	radua	0	Developer	2010-05-03 15:31:20	220
+jasmine	rbresson	0	Developer	2010-05-03 15:31:20	220
+jasmine	renaultgu	0	Developer	2010-05-03 15:31:20	220
+jasmine	rouxj	0	Developer	2010-05-03 15:31:20	220
+jasmine	ruaudl	0	Developer	2010-05-03 15:31:20	220
+jasmine	sauthieg	1	Project Manager	2010-05-03 15:31:20	220
+jasmine	solderag	0	Developer	2010-05-03 15:31:20	220
+jasmine	tommy	0	Developer	2010-05-03 15:31:20	220
+jasmine	veyjul	0	Developer	2010-05-03 15:31:20	220
+jasmine	waeselynck	0	Developer	2010-05-03 15:31:20	220
+jasmine	youchao	0	Developer	2010-05-03 15:31:20	220
+jaspte	duanzhiquan	1	Developer	2010-05-03 15:31:22	220
+jaspte	wangwei_email	1	Undefined	2010-05-03 15:31:22	220
+javaservice	rutthenut	1	Developer	2010-05-03 15:31:25	220
+jawe	a_madl	1	Project Manager	2010-05-03 15:31:28	220
+jeffree	jeffree-admin	1	Project Manager	2010-05-03 15:31:30	220
+jeffree	pierre	1	Developer	2010-05-03 15:31:30	220
+jmimetypelib	pabloa	1	Undefined	2010-05-03 15:31:33	220
+jnetcontrol	mastercracker3d	1	Undefined	2010-05-03 15:31:35	220
+jonas-doc	andreasschenk	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	bellmann29	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	benoitf	1	Developer	2010-05-03 15:31:38	220
+jonas-doc	camillej	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	coqp	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	danesa	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	degolf	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	dolet	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	durieuxp	1	Developer	2010-05-03 15:31:38	220
+jonas-doc	ehardesty	1	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	exertief	1	Project Manager	2010-05-03 15:31:38	220
+jonas-doc	flow	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	fnasser	1	Undefined	2010-05-03 15:31:38	220
+jonas-doc	frperezs	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	gbort	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	girouxm	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	hanzz	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	hjfried	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	hubert_peters	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	jandes	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	japaz	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	jeromephx	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	joaninh	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	kburgess	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	leonardofc	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	manley	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	margueri	0	Undefined	2010-05-03 15:31:38	220
+jonas-doc	markus-karg	1	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	mwringe	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	nolte001	1	Project Manager	2010-05-03 15:31:38	220
+jonas-doc	pelletib	1	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	reinhard4711	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	rene	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	rtorsoli	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	sauthieg	1	Developer	2010-05-03 15:31:38	220
+jonas-doc	schmittp	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	schultzr	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	sensunik76	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	siegmund	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	straumat	0	Developer	2010-05-03 15:31:38	220
+jonas-doc	tonyortiz	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	vivekl	0	Doc Writer	2010-05-03 15:31:38	220
+jonas-doc	xiaochaowu	0	Developer	2010-05-03 15:31:38	220
+jonathan	ashah	0	Undefined	2010-05-03 15:31:41	220
+jonathan	coqp	0	Undefined	2010-05-03 15:31:41	220
+jonathan	dechampa	0	Undefined	2010-05-03 15:31:41	220
+jonathan	delpiano	1	Undefined	2010-05-03 15:31:41	220
+jonathan	dumantbr	0	Undefined	2010-05-03 15:31:41	220
+jonathan	durieuxp	0	Undefined	2010-05-03 15:31:41	220
+jonathan	jmesnil	0	Undefined	2010-05-03 15:31:41	220
+jonathan	joaninh	0	Undefined	2010-05-03 15:31:41	220
+jonathan	riviereg	0	Undefined	2010-05-03 15:31:41	220
+joram	afreyssin	1	Project Manager	2010-05-03 15:31:43	220
+joram	badolle	0	Developer	2010-05-03 15:31:43	220
+joram	bellissa	0	Developer	2010-05-03 15:31:43	220
+joram	feliot	1	Project Manager	2010-05-03 15:31:43	220
+joram	surrel	0	Developer	2010-05-03 15:31:43	220
+joram	tachker	1	Project Manager	2010-05-03 15:31:43	220
+jorm	bersihyo	1	Developer	2010-05-03 15:31:46	220
+jorm	chassand	1	Developer	2010-05-03 15:31:46	220
+jorm	dechampa	1	Project Manager	2010-05-03 15:31:46	220
+jorm	durieuxp	0	Developer	2010-05-03 15:31:46	220
+jorm	hamonca	0	Developer	2010-05-03 15:31:46	220
+jorm	lefebval	1	Developer	2010-05-03 15:31:46	220
+jorm	lobryol	0	Developer	2010-05-03 15:31:46	220
+jorm	rhs	0	Developer	2010-05-03 15:31:46	220
+jotm	degolf	1	Project Manager	2010-05-03 15:31:49	220
+jotm	durieuxp	1	Project Manager	2010-05-03 15:31:49	220
+jotm	ehardesty	0	Developer	2010-05-03 15:31:49	220
+jotm	experl01	0	Undefined	2010-05-03 15:31:49	220
+jotm	gibello	1	Undefined	2010-05-03 15:31:49	220
+jotm	jmesnil	1	Project Manager	2010-05-03 15:31:49	220
+jotm	margueri	0	Undefined	2010-05-03 15:31:49	220
+jotm	mprochazka	0	Developer	2010-05-03 15:31:49	220
+jotm	riviereg	0	Developer	2010-05-03 15:31:49	220
+jotm	rouvoy	0	Developer	2010-05-03 15:31:49	220
+jotm	tonyortiz	1	Developer	2010-05-03 15:31:49	220
+jotm	trentshue	1	Project Manager	2010-05-03 15:31:49	220
+jsurvey	greg	0	Developer	2010-05-03 15:31:51	220
+jsurvey	riviereg	1	Undefined	2010-05-03 15:31:51	220
+jwtgen	jeromepetit	1	Project Manager	2010-05-03 15:31:54	220
+jwtgen	joelle	1	Project Manager	2010-05-03 15:31:54	220
+jwtgen	keulkeul	0	Developer	2010-05-03 15:31:54	220
+jwtgen	kpollet	0	Developer	2010-05-03 15:31:54	220
+kelly	camillej	1	Undefined	2010-05-03 15:31:56	220
+kelly	charauxp	1	Undefined	2010-05-03 15:31:56	220
+kelly	fmolinieres	0	Developer	2010-05-03 15:31:56	220
+kelly	griffin	1	Project Manager	2010-05-03 15:31:56	220
+kelp	a_madl	1	Project Manager	2010-05-03 15:31:59	220
+kilim	bmi	1	Developer	2010-05-03 15:32:02	220
+kilim	delpiano	1	Project Manager	2010-05-03 15:32:02	220
+kilim	dumantbr	1	Project Manager	2010-05-03 15:32:02	220
+kilim	durieuxp	1	Undefined	2010-05-03 15:32:02	220
+kilim	dutoo	0	Undefined	2010-05-03 15:32:02	220
+kilim	jmesnil	0	Undefined	2010-05-03 15:32:02	220
+kilim	schambon	1	Developer	2010-05-03 15:32:02	220
+kilim2	delpiano	1	Developer	2010-05-03 15:32:04	220
+kilim2	horn	0	Project Manager	2010-05-03 15:32:04	220
+lemonldap	clement_oudot	1	Project Manager	2010-05-03 15:32:07	220
+lemonldap	guimard	1	Project Manager	2010-05-03 15:32:07	220
+lemonldap	tchemineau	0	Developer	2010-05-03 15:32:07	220
+lewys	abdellat	0	Developer	2010-05-03 15:32:10	220
+lewys	adadiaconescu	0	Developer	2010-05-03 15:32:10	220
+lewys	ahiba	0	Developer	2010-05-03 15:32:10	220
+lewys	boutaleb	0	Developer	2010-05-03 15:32:10	220
+lewys	calvisim	0	Developer	2010-05-03 15:32:10	220
+lewys	cecchet	1	Project Manager	2010-05-03 15:32:10	220
+lewys	chazalet	0	Developer	2010-05-03 15:32:10	220
+lewys	dillense	1	Developer	2010-05-03 15:32:10	220
+lewys	goebelg	0	Developer	2010-05-03 15:32:10	220
+lewys	hazem	0	Developer	2010-05-03 15:32:10	220
+lewys	leclercq	1	Developer	2010-05-03 15:32:10	220
+lewys	modrzyk	0	Developer	2010-05-03 15:32:10	220
+lewys	olayaida	0	Developer	2010-05-03 15:32:10	220
+lewys	pelletib	0	Project Manager	2010-05-03 15:32:10	220
+lewys	quema	1	Developer	2010-05-03 15:32:10	220
+lomboz	bsayli	0	Developer	2010-05-03 15:32:13	220
+lomboz	camillej	0	Developer	2010-05-03 15:32:13	220
+lomboz	dturkoglu	0	Undefined	2010-05-03 15:32:13	220
+lomboz	gercan	0	Developer	2010-05-03 15:32:13	220
+lomboz	nacid	1	Undefined	2010-05-03 15:32:13	220
+lomboz	ozgurt	0	Developer	2010-05-03 15:32:13	220
+lomboz	sinankonya	0	Developer	2010-05-03 15:32:13	220
+lomboz	uyildirim	1	Developer	2010-05-03 15:32:13	220
+lomboz	volkana	0	Developer	2010-05-03 15:32:13	220
+massiv	johnb	0	Developer	2010-05-03 15:32:16	220
+massiv	markoid	1	Project Manager	2010-05-03 15:32:16	220
+massiv	taweili	1	Undefined	2010-05-03 15:32:16	220
+maven	afreyssin	1	Undefined	2010-05-03 15:32:18	220
+maven	alitokmen	0	Developer	2010-05-03 15:32:18	220
+maven	apace	1	Undefined	2010-05-03 15:32:18	220
+maven	bamboo	0	Developer	2010-05-03 15:32:18	220
+maven	barjo	0	Developer	2010-05-03 15:32:18	220
+maven	benjmestrallet	1	Project Manager	2010-05-03 15:32:18	220
+maven	benoitf	1	Project Manager	2010-05-03 15:32:18	220
+maven	beyler_olivier	0	Developer	2010-05-03 15:32:18	220
+maven	bourcier	0	Developer	2010-05-03 15:32:18	220
+maven	bourretp	0	Developer	2010-05-03 15:32:18	220
+maven	bpm	1	Undefined	2010-05-03 15:32:18	220
+maven	brice	1	Undefined	2010-05-03 15:32:18	220
+maven	brunoborges	0	Developer	2010-05-03 15:32:18	220
+maven	carlos	0	Developer	2010-05-03 15:32:18	220
+maven	cescoffier	0	Developer	2010-05-03 15:32:18	220
+maven	chamerling	1	Undefined	2010-05-03 15:32:18	220
+maven	coqp	1	Project Manager	2010-05-03 15:32:18	220
+maven	danesa	1	Developer	2010-05-03 15:32:18	220
+maven	dangtran	1	Undefined	2010-05-03 15:32:18	220
+maven	demarey	1	Developer	2010-05-03 15:32:18	220
+maven	djencks	1	Undefined	2010-05-03 15:32:18	220
+maven	dkulp	1	Undefined	2010-05-03 15:32:19	220
+maven	dolet	1	Developer	2010-05-03 15:32:19	220
+maven	durieuxp	1	Developer	2010-05-03 15:32:19	220
+maven	dutoo	0	Developer	2010-05-03 15:32:19	220
+maven	ekuleshov	1	Undefined	2010-05-03 15:32:19	220
+maven	ervalerio	1	Undefined	2010-05-03 15:32:19	220
+maven	exo	1	Undefined	2010-05-03 15:32:19	220
+maven	eyindanga	1	Developer	2010-05-03 15:32:19	220
+maven	fornacif	1	Project Manager	2010-05-03 15:32:19	220
+maven	frascati-bot	1	Support Manager	2010-05-03 15:32:19	220
+maven	gaellalire	0	Developer	2010-05-03 15:32:19	220
+maven	garciap	1	Undefined	2010-05-03 15:32:19	220
+maven	haugoug	1	Undefined	2010-05-03 15:32:19	220
+maven	jlegrand	1	Undefined	2010-05-03 15:32:19	220
+maven	joaninh	1	Developer	2010-05-03 15:32:19	220
+maven	kievgama	0	Developer	2010-05-03 15:32:19	220
+maven	leclercq	1	Undefined	2010-05-03 15:32:19	220
+maven	lejeuneg	1	Undefined	2010-05-03 15:32:19	220
+maven	loris	1	Project Manager	2010-05-03 15:32:19	220
+maven	loverad	0	Developer	2010-05-03 15:32:19	220
+maven	ludovic	1	Project Manager	2010-05-03 15:32:19	220
+maven	maven	0	Undefined	2010-05-03 15:32:19	220
+maven	merle	0	Developer	2010-05-03 15:32:19	220
+maven	mickael_istria	0	Developer	2010-05-03 15:32:19	220
+maven	moghrabi	1	Unix Admin	2010-05-03 15:32:19	220
+maven	mo_eljai2	0	Developer	2010-05-03 15:32:19	220
+maven	mvaldes	1	Undefined	2010-05-03 15:32:19	220
+maven	ofabre	1	Undefined	2010-05-03 15:32:19	220
+maven	orchestra	1	Developer	2010-05-03 15:32:19	220
+maven	ozcan	1	Undefined	2010-05-03 15:32:19	220
+maven	pcdavid	1	Developer	2010-05-03 15:32:19	220
+maven	pellerin	0	Developer	2010-05-03 15:32:19	220
+maven	pelletib	0	Developer	2010-05-03 15:32:19	220
+maven	pessemier	0	Undefined	2010-05-03 15:32:19	220
+maven	petals	1	Developer	2010-05-03 15:32:19	220
+maven	porcherg	1	Developer	2010-05-03 15:32:19	220
+maven	renaultgu	0	Developer	2010-05-03 15:32:19	220
+maven	rmarins	0	Developer	2010-05-03 15:32:19	220
+maven	rnaudin	1	Developer	2010-05-03 15:32:19	220
+maven	rouvoy	1	Undefined	2010-05-03 15:32:19	220
+maven	sauthieg	1	Undefined	2010-05-03 15:32:19	220
+maven	seintur	1	Developer	2010-05-03 15:32:19	220
+maven	souillac	1	Developer	2010-05-03 15:32:19	220
+maven	tachker	1	Developer	2010-05-03 15:32:19	220
+maven	vmassol	1	Project Manager	2010-05-03 15:32:19	220
+maven	weblab-maven	0	Developer	2010-05-03 15:32:19	220
+maven	yann_davin	1	Developer	2010-05-03 15:32:19	220
+medor	aliam	1	Undefined	2010-05-03 15:32:22	220
+medor	bersihyo	0	Developer	2010-05-03 15:32:22	220
+medor	chassand	1	Undefined	2010-05-03 15:32:22	220
+medor	dechampa	1	Undefined	2010-05-03 15:32:22	220
+medor	durieuxp	0	Developer	2010-05-03 15:32:22	220
+medor	jmesnil	0	Undefined	2010-05-03 15:32:22	220
+medor	joaninh	0	Developer	2010-05-03 15:32:22	220
+medor	julien_blass	0	Developer	2010-05-03 15:32:22	220
+medor	lefebval	1	Undefined	2010-05-03 15:32:22	220
+medor	lobryol	0	Developer	2010-05-03 15:32:22	220
+medor	paulus	0	Undefined	2010-05-03 15:32:22	220
+medor	rhs	0	Developer	2010-05-03 15:32:22	220
+mesh	acldrwd	1	Undefined	2010-05-03 15:32:24	220
+mind	annema	0	Undefined	2010-05-03 15:32:27	220
+mind	charrep	0	Developer	2010-05-03 15:32:27	220
+mind	chomats	0	Undefined	2010-05-03 15:32:27	220
+mind	dfournie	0	Undefined	2010-05-03 15:32:27	220
+mind	floiret	0	Undefined	2010-05-03 15:32:27	220
+mind	gvega	0	Undefined	2010-05-03 15:32:27	220
+mind	haugoug	0	Undefined	2010-05-03 15:32:27	220
+mind	lavigueur	0	Undefined	2010-05-03 15:32:27	220
+mind	leclercq	1	Undefined	2010-05-03 15:32:27	220
+mind	metzgerm	0	Undefined	2010-05-03 15:32:27	220
+mind	mlouvel	0	Undefined	2010-05-03 15:32:27	220
+mind	mmillequant	0	Undefined	2010-05-03 15:32:27	220
+mind	olivier_benny	0	Undefined	2010-05-03 15:32:27	220
+mind	omarot	0	Undefined	2010-05-03 15:32:27	220
+mind	ozcan	0	Undefined	2010-05-03 15:32:27	220
+mind	pierrebonhomme	0	Undefined	2010-05-03 15:32:27	220
+mind	poulhies	0	Undefined	2010-05-03 15:32:27	220
+mind	rmelisson	0	Undefined	2010-05-03 15:32:27	220
+mind	rproust	1	Undefined	2010-05-03 15:32:27	220
+mind	seintur	0	Undefined	2010-05-03 15:32:27	220
+mind	seyvozs	0	Undefined	2010-05-03 15:32:27	220
+modfact	alaric	0	Developer	2010-05-03 15:32:30	220
+modfact	andreys	1	Project Manager	2010-05-03 15:32:30	220
+modfact	bendraou	0	Developer	2010-05-03 15:32:30	220
+modfact	carpentier	0	Developer	2010-05-03 15:32:30	220
+modfact	gregory	0	Developer	2010-05-03 15:32:30	220
+modfact	heini	0	Developer	2010-05-03 15:32:30	220
+modfact	ifall	0	Developer	2010-05-03 15:32:30	220
+modfact	lamari	0	Developer	2010-05-03 15:32:30	220
+modfact	prawee	0	Developer	2010-05-03 15:32:30	220
+modfact	rafi	1	Project Manager	2010-05-03 15:32:30	220
+modfact	sbouzitouna	1	Developer	2010-05-03 15:32:30	220
+modfact	tritter	0	Developer	2010-05-03 15:32:30	220
+modfact	xblanc	1	Project Manager	2010-05-03 15:32:30	220
+monolog	benoitf	0	Undefined	2010-05-03 15:32:33	220
+monolog	beyler_olivier	0	Developer	2010-05-03 15:32:33	220
+monolog	chassand	1	Project Manager	2010-05-03 15:32:33	220
+monolog	dechampa	0	Tester	2010-05-03 15:32:33	220
+monolog	fmillevi	0	Developer	2010-05-03 15:32:33	220
+monolog	fornacif	0	Developer	2010-05-03 15:32:33	220
+monolog	ksclarke	0	Developer	2010-05-03 15:32:33	220
+monolog	sauthieg	0	Developer	2010-05-03 15:32:33	220
+monolog	waeselynck	0	Developer	2010-05-03 15:32:33	220
+navilis	mboweb	1	Undefined	2010-05-03 15:32:35	220
+newsadmin	admin	1	Undefined	2010-05-03 15:32:38	220
+newsadmin	cnuel	1	Developer	2010-05-03 15:32:38	220
+newsadmin	doisneal	0	Undefined	2010-05-03 15:32:38	220
+newsadmin	margueri	1	Unix Admin	2010-05-03 15:32:38	220
+newsadmin	moghrabi	1	Unix Admin	2010-05-03 15:32:38	220
+noah	emsellem	1	Undefined	2010-05-03 15:32:40	220
+noah	riveill	1	Undefined	2010-05-03 15:32:40	220
+objectweb-zh	cyz	0	Undefined	2010-05-03 15:32:43	220
+objectweb-zh	genewoo	0	Developer	2010-05-03 15:32:43	220
+objectweb-zh	guo_miao	0	Developer	2010-05-03 15:32:43	220
+objectweb-zh	harry	1	Project Manager	2010-05-03 15:32:43	220
+objectweb-zh	javababe	0	Developer	2010-05-03 15:32:43	220
+objectweb-zh	linuxman	1	Undefined	2010-05-03 15:32:43	220
+objectweb-zh	margueri	0	Undefined	2010-05-03 15:32:43	220
+objectweb-zh	taweili	1	Undefined	2010-05-03 15:32:43	220
+ocelot	cgravier	1	Undefined	2010-05-03 15:32:46	220
+octopus	a_madl	1	Project Manager	2010-05-03 15:32:48	220
+odis	beyler_olivier	1	Project Manager	2010-05-03 15:32:51	220
+odis	hitogoroshi	0	Undefined	2010-05-03 15:32:51	220
+odis	ojoh6423	0	Developer	2010-05-03 15:32:51	220
+odis	phsur	0	Developer	2010-05-03 15:32:51	220
+odis	sandra_bogaert	0	Undefined	2010-05-03 15:32:51	220
+odis	tachker	1	Developer	2010-05-03 15:32:51	220
+odis	tebanzouhair	0	Undefined	2010-05-03 15:32:51	220
+ofccharts	oxymel	1	Project Manager	2010-05-03 15:32:53	220
+oncepi	chenjh	1	Developer	2010-05-03 15:32:56	220
+oncepi	xiayl	1	Undefined	2010-05-03 15:32:56	220
+oncess	yeshiyang	1	Undefined	2010-05-03 15:32:59	220
+opalval	ataurelli	1	Unix Admin	2010-05-03 15:33:01	220
+opalval	caseryj	1	Undefined	2010-05-03 15:33:01	220
+opalval	jdcoudf	0	Developer	2010-05-03 15:33:01	220
+opalval	oliviergenty	1	Unix Admin	2010-05-03 15:33:01	220
+opalval	user-test	1	Unix Admin	2010-05-03 15:33:01	220
+opalval	xwikiadmin	0	Developer	2010-05-03 15:33:01	220
+openediint	rmarins	1	Project Manager	2010-05-03 15:33:04	220
+openediint	vnadai	0	Developer	2010-05-03 15:33:04	220
+openmobileis	davymoussavou	0	Developer	2010-05-03 15:33:07	220
+openmobileis	ffrancis	1	Developer	2010-05-03 15:33:07	220
+openmobileis	jldominguez	0	Developer	2010-05-03 15:33:07	220
+openmobileis	mgomez	1	Project Manager	2010-05-03 15:33:07	220
+openmobileis	pdelrieu	1	Project Manager	2010-05-03 15:33:07	220
+ops	avernet	1	Project Manager	2010-05-03 15:33:10	220
+ops	dsmall0	1	Developer	2010-05-03 15:33:10	220
+ops	ebruchez	1	Developer	2010-05-03 15:33:10	220
+ops	evlist	0	Developer	2010-05-03 15:33:10	220
+ops	orbeonbld2	0	Developer	2010-05-03 15:33:10	220
+orchestra	afuca	0	Developer	2010-05-03 15:33:12	220
+orchestra	alitokmen	0	Developer	2010-05-03 15:33:12	220
+orchestra	benoitf	0	Undefined	2010-05-03 15:33:12	220
+orchestra	blachonm	0	Developer	2010-05-03 15:33:12	220
+orchestra	camillej	0	Tester	2010-05-03 15:33:12	220
+orchestra	gaellalire	0	Developer	2010-05-03 15:33:12	220
+orchestra	goubetjy	0	Developer	2010-05-03 15:33:12	220
+orchestra	huynh	0	Developer	2010-05-03 15:33:12	220
+orchestra	joaninh	0	Tester	2010-05-03 15:33:12	220
+orchestra	khdung	0	Developer	2010-05-03 15:33:12	220
+orchestra	lejeuneg	1	Project Manager	2010-05-03 15:33:12	220
+orchestra	mathieuc	0	Developer	2010-05-03 15:33:12	220
+orchestra	porcherg	1	Developer	2010-05-03 15:33:12	220
+orchestra	renaultgu	0	Developer	2010-05-03 15:33:12	220
+orchestra	tuloup	0	Developer	2010-05-03 15:33:12	220
+orchestra	vigneras	0	Developer	2010-05-03 15:33:12	220
+orientwareccm	kevin_goo	1	Undefined	2010-05-03 15:33:15	220
+osa-interop	mmoody_js	1	Undefined	2010-05-03 15:33:17	220
+oslcv3	caustin	0	Developer	2010-05-03 15:33:20	220
+oslcv3	donsez	0	Developer	2010-05-03 15:33:20	220
+oslcv3	eetuj	0	Project Manager	2010-05-03 15:33:20	220
+oslcv3	ekurkela	0	Project Manager	2010-05-03 15:33:20	220
+oslcv3	heikkinen	0	Project Manager	2010-05-03 15:33:20	220
+oslcv3	jorri	0	Project Manager	2010-05-03 15:33:20	220
+oslcv3	jvlaine	0	Project Manager	2010-05-03 15:33:20	220
+oslcv3	kupsu	1	Project Manager	2010-05-03 15:33:20	220
+oslcv3	lparikka	0	Project Manager	2010-05-03 15:33:20	220
+oslcv3	sribas	0	Undefined	2010-05-03 15:33:20	220
+oslcv3	thejaswihr	0	Developer	2010-05-03 15:33:20	220
+oslcv3	villoks	1	Project Manager	2010-05-03 15:33:20	220
+ow2appliances	caseryj	1	Undefined	2010-05-03 15:33:23	220
+ow2appliances	cnuel	1	Unix Admin	2010-05-03 15:33:23	220
+ow2appliances	gblondelle	1	Unix Admin	2010-05-03 15:33:23	220
+ow2appliances	lefebval	0	Unix Admin	2010-05-03 15:33:23	220
+oyster	a_madl	1	Project Manager	2010-05-03 15:33:25	220
+paje	araujo	0	Developer	2010-05-03 15:33:28	220
+paje	benhur	1	Project Manager	2010-05-03 15:33:28	220
+paje	geovanirw	0	Developer	2010-05-03 15:33:28	220
+paje	mounie	0	Developer	2010-05-03 15:33:28	220
+paje	schnorr	1	Developer	2010-05-03 15:33:28	220
+paje	vdanjean	1	Developer	2010-05-03 15:33:28	220
+pangu	kayliu	1	Undefined	2010-05-03 15:33:31	220
+pargres	assis	0	Developer	2010-05-03 15:33:33	220
+pargres	aveleda	0	Developer	2010-05-03 15:33:33	220
+pargres	baiao	0	Developer	2010-05-03 15:33:33	220
+pargres	bmiranda	0	Developer	2010-05-03 15:33:33	220
+pargres	braganholo	1	Undefined	2010-05-03 15:33:33	220
+pargres	kinder	0	Developer	2010-05-03 15:33:33	220
+pargres	marcelomouracio	0	Undefined	2010-05-03 15:33:33	220
+pargres	marta	1	Project Manager	2010-05-03 15:33:33	220
+pargres	zimbrao	0	Developer	2010-05-03 15:33:33	220
+perseus	bersihyo	0	Developer	2010-05-03 15:33:36	220
+perseus	chassand	1	Project Manager	2010-05-03 15:33:36	220
+perseus	dechampa	1	Project Manager	2010-05-03 15:33:36	220
+perseus	durieuxp	0	Developer	2010-05-03 15:33:36	220
+perseus	etcheversx	0	Developer	2010-05-03 15:33:36	220
+perseus	lefebval	0	Developer	2010-05-03 15:33:36	220
+perseus	lgarcia	0	Developer	2010-05-03 15:33:36	220
+perseus	lobryol	0	Developer	2010-05-03 15:33:36	220
+petals	alouis	1	Project Manager	2010-05-03 15:33:39	220
+petals	aruffie	0	Developer	2010-05-03 15:33:39	220
+petals	cdeneux	0	Developer	2010-05-03 15:33:39	220
+petals	chamerling	1	Project Manager	2010-05-03 15:33:39	220
+petals	charles_casadei	1	Developer	2010-05-03 15:33:39	220
+petals	dutoo	0	Developer	2010-05-03 15:33:39	220
+petals	fgardes	0	Developer	2010-05-03 15:33:39	220
+petals	gblondelle	1	Project Manager	2010-05-03 15:33:39	220
+petals	gibello	0	Developer	2010-05-03 15:33:39	220
+petals	jlesbegueries	0	Developer	2010-05-03 15:33:39	220
+petals	jplorre	0	Tester	2010-05-03 15:33:39	220
+petals	mbeldame	1	Support Manager	2010-05-03 15:33:39	220
+petals	mjambert	0	Developer	2010-05-03 15:33:39	220
+petals	mlebreton	1	Graphic/Other Designer	2010-05-03 15:33:39	220
+petals	mo_eljai2	0	Developer	2010-05-03 15:33:39	220
+petals	msauvage	0	Developer	2010-05-03 15:33:39	220
+petals	m_carrolle	0	Developer	2010-05-03 15:33:39	220
+petals	nfleury	0	Developer	2010-05-03 15:33:39	220
+petals	nsalatge	0	Developer	2010-05-03 15:33:39	220
+petals	ofabre	1	Developer	2010-05-03 15:33:39	220
+petals	pconil	0	Developer	2010-05-03 15:33:39	220
+petals	petals	1	Developer	2010-05-03 15:33:39	220
+petals	rnaudin	1	Project Manager	2010-05-03 15:33:39	220
+petals	sandre	0	Developer	2010-05-03 15:33:39	220
+petals	sgarcia	1	Graphic/Other Designer	2010-05-03 15:33:39	220
+petals	strino	0	Developer	2010-05-03 15:33:39	220
+petals	tdejean	0	Developer	2010-05-03 15:33:39	220
+petals	zurczakv	0	Developer	2010-05-03 15:33:39	220
+petalsmaster	aruffie	0	Developer	2010-05-03 15:33:43	220
+petalsmaster	atiar	0	Developer	2010-05-03 15:33:43	220
+petalsmaster	chamerling	1	Project Manager	2010-05-03 15:33:43	220
+petalsmaster	gblondelle	1	Project Manager	2010-05-03 15:33:43	220
+petalsmaster	mlebreton	1	Developer	2010-05-03 15:33:43	220
+petalsmaster	nboissel	0	Developer	2010-05-03 15:33:43	220
+petalsmaster	nsalatge	1	Developer	2010-05-03 15:33:43	220
+petalsmaster	ofabre	1	Developer	2010-05-03 15:33:43	220
+petalsmaster	psmeyers	0	Developer	2010-05-03 15:33:43	220
+petalsmaster	strino	0	Developer	2010-05-03 15:33:43	220
+pkuas	caodg	1	Project Manager	2010-05-03 15:33:46	220
+pkuas	dengfei	0	Undefined	2010-05-03 15:33:46	220
+pkuas	gof83	1	Developer	2010-05-03 15:33:46	220
+pkuas	helenli	0	Undefined	2010-05-03 15:33:46	220
+pkuas	lglglglg	0	Undefined	2010-05-03 15:33:46	220
+pkuas	lhw09	0	Undefined	2010-05-03 15:33:46	220
+pkuas	maxj07	1	Unix Admin	2010-05-03 15:33:46	220
+pkuas	qingyue	0	Undefined	2010-05-03 15:33:46	220
+pkuas	xiaoda	0	Undefined	2010-05-03 15:33:46	220
+pkuas	youchao	0	Undefined	2010-05-03 15:33:46	220
+pkuas	zhouminghui	1	Undefined	2010-05-03 15:33:46	220
+polyorb	fko	1	Project Manager	2010-05-03 15:33:50	220
+polyorb	hugues	1	Project Manager	2010-05-03 15:33:50	220
+polyorb	pautet	1	Project Manager	2010-05-03 15:33:50	220
+polyorb	vergnaud	1	Unix Admin	2010-05-03 15:33:50	220
+rfid	donsez	0	Developer	2010-05-03 15:33:53	220
+rfid	mep	1	Project Manager	2010-05-03 15:33:53	220
+rfid	taweili	1	Undefined	2010-05-03 15:33:53	220
+rubbos	cecchet	1	Project Manager	2010-05-03 15:33:56	220
+rubbos	margueri	1	Project Manager	2010-05-03 15:33:56	220
+rubbos	ntolia	1	Developer	2010-05-03 15:33:56	220
+rubis	cecchet	1	Project Manager	2010-05-03 15:34:00	220
+rubis	margueri	1	Undefined	2010-05-03 15:34:00	220
+rubis	ntolia	0	Developer	2010-05-03 15:34:00	220
+s4allsdk	aboulze	1	Undefined	2010-05-03 15:34:03	220
+s4allsdk	moghrabi	1	Undefined	2010-05-03 15:34:03	220
+s4allsdk	quaireau	1	Project Manager	2010-05-03 15:34:03	220
+salome-tmf	aurore	0	Developer	2010-05-03 15:34:07	220
+salome-tmf	fsougrati	1	Unix Admin	2010-05-03 15:34:07	220
+salome-tmf	gfavro	0	Developer	2010-05-03 15:34:07	220
+salome-tmf	jeremie_defaye	0	Developer	2010-05-03 15:34:07	220
+salome-tmf	jm_hallouet	0	Developer	2010-05-03 15:34:07	220
+salome-tmf	kalo	0	Developer	2010-05-03 15:34:07	220
+salome-tmf	marchemi	1	Undefined	2010-05-03 15:34:07	220
+salome-tmf	ppaulus	1	Project Manager	2010-05-03 15:34:07	220
+salome-tmf	skars	0	Developer	2010-05-03 15:34:07	220
+salome-tmf	ssaurel	1	Project Manager	2010-05-03 15:34:07	220
+salome-tmf	tescalle	1	Project Manager	2010-05-03 15:34:07	220
+salome-tmf	vetheault	1	Project Manager	2010-05-03 15:34:07	220
+scarbo	dutoo	1	Project Manager	2010-05-03 15:34:10	220
+scarbo	flombard	0	Developer	2010-05-03 15:34:10	220
+scarbo	gdecarnin	0	Developer	2010-05-03 15:34:10	220
+scarbo	mickael_istria	1	Developer	2010-05-03 15:34:10	220
+scarbo	mo_eljai2	0	Developer	2010-05-03 15:34:10	220
+scarbo	vaudauxr	0	Developer	2010-05-03 15:34:10	220
+shark	a_madl	1	Project Manager	2010-05-03 15:34:14	220
+siteadmin	admin	1	Undefined	2010-05-03 15:34:18	220
+siteadmin	ataurelli	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	benoitf	1	Support Manager	2010-05-03 15:34:18	220
+siteadmin	caseryj	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	cayuelaj	1	Undefined	2010-05-03 15:34:18	220
+siteadmin	cedric	1	Project Manager	2010-05-03 15:34:18	220
+siteadmin	ceres	1	Support Manager	2010-05-03 15:34:18	220
+siteadmin	clement_oudot	0	Developer	2010-05-03 15:34:18	220
+siteadmin	cnuel	1	Developer	2010-05-03 15:34:18	220
+siteadmin	esdaniel	0	Project Manager	2010-05-03 15:34:18	220
+siteadmin	gblondelle	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	gfiorentino	1	Undefined	2010-05-03 15:34:18	220
+siteadmin	lannoisa	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	laudinetl	1	Support Manager	2010-05-03 15:34:18	220
+siteadmin	lefebval	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	moghrabi	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	moghrabix	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	oliviergenty	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	palazzotti	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	petitjef	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	pophillt	1	Unix Admin	2010-05-03 15:34:18	220
+siteadmin	quaireau	1	Undefined	2010-05-03 15:34:18	220
+siteadmin	ruffatti	0	Undefined	2010-05-03 15:34:18	220
+siteadmin	sauthieg	1	Support Manager	2010-05-03 15:34:18	220
+siteadmin	sribas	1	Support Manager	2010-05-03 15:34:18	220
+siteadmin	user-test	0	Undefined	2010-05-03 15:34:18	220
+siteadmin	xsalto-team	1	Undefined	2010-05-03 15:34:18	220
+snapper	a_madl	1	Undefined	2010-05-03 15:34:21	220
+soda	amensch	1	Undefined	2010-05-03 15:34:24	220
+sofa	babkd	0	Developer	2010-05-03 15:34:28	220
+sofa	bures	1	Developer	2010-05-03 15:34:28	220
+sofa	hauzar	0	Developer	2010-05-03 15:34:28	220
+sofa	hnetynka	1	Developer	2010-05-03 15:34:28	220
+sofa	hosekp	1	Developer	2010-05-03 15:34:28	220
+sofa	jaruch	0	Developer	2010-05-03 15:34:28	220
+sofa	keznikl	0	Developer	2010-05-03 15:34:28	220
+sofa	klesnil	0	Developer	2010-05-03 15:34:28	220
+sofa	kofron	0	Developer	2010-05-03 15:34:28	220
+sofa	kucerat	0	Developer	2010-05-03 15:34:28	220
+sofa	lukasjezek	0	Developer	2010-05-03 15:34:28	220
+sofa	matej	0	Developer	2010-05-03 15:34:28	220
+sofa	mmalohlava	1	Developer	2010-05-03 15:34:28	220
+sofa	mpapez	0	Developer	2010-05-03 15:34:28	220
+sofa	musado	0	Developer	2010-05-03 15:34:28	220
+sofa	ondrac	0	Developer	2010-05-03 15:34:28	220
+sofa	pavelpar	0	Developer	2010-05-03 15:34:28	220
+sofa	poch	0	Developer	2010-05-03 15:34:28	220
+sofa	pop	0	Developer	2010-05-03 15:34:28	220
+sofa	raszykj	0	Developer	2010-05-03 15:34:28	220
+sofa	simko	0	Developer	2010-05-03 15:34:28	220
+sofa	tkalibera	0	Developer	2010-05-03 15:34:28	220
+sofa	vasekremes	0	Developer	2010-05-03 15:34:28	220
+sofa	vojtmen	0	Developer	2010-05-03 15:34:28	220
+spagic	antmiele	0	Developer	2010-05-03 15:34:32	220
+spagic	barozzi	0	Developer	2010-05-03 15:34:32	220
+spagic	bdany70	0	Undefined	2010-05-03 15:34:32	220
+spagic	dbutano	0	Developer	2010-05-03 15:34:32	220
+spagic	fgheno	0	Developer	2010-05-03 15:34:32	220
+spagic	gboccalon	1	Project Manager	2010-05-03 15:34:32	220
+spagic	maranzana	0	Developer	2010-05-03 15:34:32	220
+spagic	nalirko	0	Undefined	2010-05-03 15:34:32	220
+spagic	rosso83	0	Developer	2010-05-03 15:34:32	220
+spagic	saint	0	Developer	2010-05-03 15:34:32	220
+spagic	zoppello	1	Project Manager	2010-05-03 15:34:32	220
+spago	andreagrassi	1	Project Manager	2010-05-03 15:34:35	220
+spago	bernabei	0	Developer	2010-05-03 15:34:35	220
+spago	dbutano	1	Project Manager	2010-05-03 15:34:35	220
+spago	gboccalon	1	Project Manager	2010-05-03 15:34:35	220
+spago	gisalern	0	Developer	2010-05-03 15:34:35	220
+spago	roscarci	0	Developer	2010-05-03 15:34:35	220
+spago	zoppello	0	Developer	2010-05-03 15:34:35	220
+spago4q	chiarelli	0	Developer	2010-05-03 15:34:39	220
+spago4q	davidedc	1	Project Manager	2010-05-03 15:34:39	220
+spago4q	gavardi	0	Developer	2010-05-03 15:34:39	220
+spago4q	nibertaz	0	Developer	2010-05-03 15:34:39	220
+spago4q	oltolina	1	Project Manager	2010-05-03 15:34:39	220
+spagobi	aghedin	0	Developer	2010-05-03 15:34:42	220
+spagobi	bernabei	0	Undefined	2010-05-03 15:34:42	220
+spagobi	cazzin	1	Project Manager	2010-05-03 15:34:42	220
+spagobi	chiarelli	0	Developer	2010-05-03 15:34:42	220
+spagobi	davidedc	0	Developer	2010-05-03 15:34:42	220
+spagobi	franceschini	0	Developer	2010-05-03 15:34:42	220
+spagobi	gavardi	0	Developer	2010-05-03 15:34:42	220
+spagobi	giachino	0	Developer	2010-05-03 15:34:42	220
+spagobi	gioia	0	Developer	2010-05-03 15:34:42	220
+spagobi	mcortella	0	Developer	2010-05-03 15:34:42	220
+spagobi	nibertaz	0	Developer	2010-05-03 15:34:42	220
+spagobi	zerbetto	0	Developer	2010-05-03 15:34:42	220
+spagobi	zoppello	0	Developer	2010-05-03 15:34:42	220
+speedo	bersihyo	1	Project Manager	2010-05-03 15:34:46	220
+speedo	beyler_olivier	0	Developer	2010-05-03 15:34:46	220
+speedo	chassand	1	Project Manager	2010-05-03 15:34:46	220
+speedo	dechampa	1	Developer	2010-05-03 15:34:46	220
+speedo	fmillevi	0	Developer	2010-05-03 15:34:46	220
+speedo	lefebval	0	Developer	2010-05-03 15:34:46	220
+speedo	lobryol	0	Undefined	2010-05-03 15:34:46	220
+speedo	scol	0	Developer	2010-05-03 15:34:46	220
+starwebservice	starwebservice	1	Project Manager	2010-05-03 15:34:49	220
+stock-online	csiro	1	Undefined	2010-05-03 15:34:53	220
+surf	greenwood	1	Project Manager	2010-05-03 15:34:56	220
+surf	lkeller	1	Project Manager	2010-05-03 15:34:56	220
+surf	mca	1	Project Manager	2010-05-03 15:34:56	220
+surf	rlevy	1	Project Manager	2010-05-03 15:34:56	220
+telosys	aucoueron	0	Developer	2010-05-03 15:35:00	220
+telosys	elemelin	0	Developer	2010-05-03 15:35:00	220
+telosys	lguerin	1	Project Manager	2010-05-03 15:35:00	220
+telosys	redwene	0	Developer	2010-05-03 15:35:00	220
+telosys	tgrall	0	Doc Writer	2010-05-03 15:35:00	220
+tess	xophe	1	Undefined	2010-05-03 15:35:03	220
+think	abdellat	0	Developer	2010-05-03 15:35:06	220
+think	adil	0	Developer	2010-05-03 15:35:06	220
+think	adriangep	0	Undefined	2010-05-03 15:35:06	220
+think	ahmedadouani	0	Developer	2010-05-03 15:35:06	220
+think	aime	0	Undefined	2010-05-03 15:35:06	220
+think	annema	1	Developer	2010-05-03 15:35:06	220
+think	apace	0	Undefined	2010-05-03 15:35:06	220
+think	bruno_therese	0	Developer	2010-05-03 15:35:06	220
+think	cburin	0	Developer	2010-05-03 15:35:06	220
+think	dhdv	0	Developer	2010-05-03 15:35:06	220
+think	epva5350	0	Developer	2010-05-03 15:35:06	220
+think	fabien_almori	0	Developer	2010-05-03 15:35:06	220
+think	fassinjp	0	Undefined	2010-05-03 15:35:06	220
+think	floiret	0	Developer	2010-05-03 15:35:06	220
+think	foufou73	0	Developer	2010-05-03 15:35:06	220
+think	gyil5326	0	Developer	2010-05-03 15:35:06	220
+think	hamza	0	Developer	2010-05-03 15:35:06	220
+think	hryan	0	Undefined	2010-05-03 15:35:06	220
+think	jarbouta	0	Developer	2010-05-03 15:35:06	220
+think	jnavasm	0	Developer	2010-05-03 15:35:06	220
+think	juraj	0	Project Manager	2010-05-03 15:35:06	220
+think	keita007	0	Developer	2010-05-03 15:35:06	220
+think	lacostma	0	Developer	2010-05-03 15:35:06	220
+think	leclercq	0	Developer	2010-05-03 15:35:06	220
+think	lingoini	1	Developer	2010-05-03 15:35:06	220
+think	lobryol	1	Project Manager	2010-05-03 15:35:06	220
+think	mcissoko	0	Developer	2010-05-03 15:35:06	220
+think	mehdy13	0	Developer	2010-05-03 15:35:06	220
+think	mlouvel	1	Developer	2010-05-03 15:35:06	220
+think	montagny	0	Developer	2010-05-03 15:35:06	220
+think	mpoize	0	Developer	2010-05-03 15:35:06	220
+think	natacha	0	Developer	2010-05-03 15:35:06	220
+think	nejla_rouis	0	Developer	2010-05-03 15:35:06	220
+think	nunien	0	Tester	2010-05-03 15:35:06	220
+think	ozcan	0	Developer	2010-05-03 15:35:06	220
+think	poulhies	0	Developer	2010-05-03 15:35:06	220
+think	pulou	0	Tester	2010-05-03 15:35:06	220
+think	quema	0	Developer	2010-05-03 15:35:06	220
+think	raduk	0	Developer	2010-05-03 15:35:06	220
+think	rafael	0	Developer	2010-05-03 15:35:06	220
+think	rlachaiz	0	Undefined	2010-05-03 15:35:06	220
+think	rochenic	0	Developer	2010-05-03 15:35:06	220
+think	seyvozs	0	Developer	2010-05-03 15:35:06	220
+think	sourcec	0	Developer	2010-05-03 15:35:06	220
+think	tanguy	0	Developer	2010-05-03 15:35:06	220
+think	thib	0	Developer	2010-05-03 15:35:06	220
+think	thinkbot	1	Undefined	2010-05-03 15:35:06	220
+think	tonetto	0	Developer	2010-05-03 15:35:06	220
+think	tony3107	0	Developer	2010-05-03 15:35:06	220
+think	tournijc	0	Developer	2010-05-03 15:35:06	220
+think	tousjuli	0	Developer	2010-05-03 15:35:06	220
+think	villep	0	Developer	2010-05-03 15:35:06	220
+think	wafa_saidane	0	Developer	2010-05-03 15:35:06	220
+think	yasbai	0	Developer	2010-05-03 15:35:06	220
+think	yelmo	0	Developer	2010-05-03 15:35:06	220
+think	younes_174	0	Developer	2010-05-03 15:35:06	220
+think	ziping	0	Developer	2010-05-03 15:35:06	220
+tox	linuxman	1	Undefined	2010-05-03 15:35:09	220
+ubistar	dxshi	1	Undefined	2010-05-03 15:35:13	220
+wcms	rainswallow	1	Undefined	2010-05-03 15:35:16	220
+wildcat	barais	1	Developer	2010-05-03 15:35:20	220
+wildcat	gsigms	1	Project Manager	2010-05-03 15:35:20	220
+wildcat	loris	1	Project Manager	2010-05-03 15:35:20	220
+wildcat	mahmoudbh	1	Developer	2010-05-03 15:35:20	220
+wildcat	pcdavid	1	Undefined	2010-05-03 15:35:20	220
+wildcat	tledoux	1	Project Manager	2010-05-03 15:35:20	220
+winqemu	kayliu	1	Undefined	2010-05-03 15:35:23	220
+wsunit	dbradby	1	Undefined	2010-05-03 15:35:26	220
+xmlc	akardell	0	Developer	2010-05-03 15:35:30	220
+xmlc	a_madl	1	Undefined	2010-05-03 15:35:30	220
+xmlc	dhy01	0	Doc Writer	2010-05-03 15:35:30	220
+xmlc	jkjome	1	Project Manager	2010-05-03 15:35:30	220
+xmlc	kunze	1	Project Manager	2010-05-03 15:35:30	220
+xmlc	levmar	0	Developer	2010-05-03 15:35:30	220
+xmlc	taweili	1	Project Manager	2010-05-03 15:35:30	220
+xplus	caodg	1	Project Manager	2010-05-03 15:35:33	220
+xplus	lglglglg	1	Developer	2010-05-03 15:35:33	220
+xplus	lianglin	1	Undefined	2010-05-03 15:35:33	220
+xquare	amensch	1	Developer	2010-05-03 15:35:36	220
+xquare	lsmit	1	Developer	2010-05-03 15:35:36	220
+xquare	srouges	1	Developer	2010-05-03 15:35:36	220
+xservice	alphaa	0	Developer	2010-05-03 15:35:40	220
+xservice	cover_eye	0	Developer	2010-05-03 15:35:40	220
+xservice	evamars	0	Developer	2010-05-03 15:35:40	220
+xservice	gift	0	Developer	2010-05-03 15:35:40	220
+xservice	handongd	0	Developer	2010-05-03 15:35:40	220
+xservice	kersus	1	Project Manager	2010-05-03 15:35:40	220
+xservice	liumeirongact	0	Developer	2010-05-03 15:35:40	220
+xservice	liumin	0	Developer	2010-05-03 15:35:40	220
+xservice	lizhuqing	1	Project Manager	2010-05-03 15:35:40	220
+xservice	moonsea	0	Developer	2010-05-03 15:35:40	220
+xservice	sunitty	1	Project Manager	2010-05-03 15:35:40	220
+xservice	wangying	0	Developer	2010-05-03 15:35:40	220
+xservice	wjoseph	0	Developer	2010-05-03 15:35:40	220
+xservice	yinjian	0	Developer	2010-05-03 15:35:40	220
+xservice	zhangdecai	0	Developer	2010-05-03 15:35:40	220
+xservice	zhuyihan	0	Doc Writer	2010-05-03 15:35:40	220
+xwiki	aluca	1	Project Manager	2010-05-03 15:35:43	220
+xwiki	dgervalle	1	Project Manager	2010-05-03 15:35:43	220
+xwiki	florinciu	0	Project Manager	2010-05-03 15:35:43	220
+xwiki	fmancinelli	1	Project Manager	2010-05-03 15:35:43	220
+xwiki	jvdrean	1	Project Manager	2010-05-03 15:35:43	220
+xwiki	jvelociter	1	Project Manager	2010-05-03 15:35:43	220
+xwiki	ludovic	1	Project Manager	2010-05-03 15:35:43	220
+xwiki	raffaello	1	Unix Admin	2010-05-03 15:35:43	220
+xwiki	sdumitriu	1	Project Manager	2010-05-03 15:35:43	220
+xwiki	tmortagne	1	Project Manager	2010-05-03 15:35:43	220
+xwiki	vmassol	1	Project Manager	2010-05-03 15:35:43	220
+zeus	cney	1	Project Manager	2010-05-03 15:35:46	220
+zeus	contrera	1	Developer	2010-05-03 15:35:46	220
+zeus	flet	1	Doc Writer	2010-05-03 15:35:46	220

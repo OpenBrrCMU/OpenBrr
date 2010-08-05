@@ -1,0 +1,142 @@
+#  file: owProjOpSys2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, code, description, date_collected, datasource_id
+#  FROM ow_project_operating_system
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	code	description	date_collected	datasource_id
+acceleo	235	OS Independent	2010-05-03 15:36:06	220
+apollon	235	OS Independent	2010-05-03 15:36:35	220
+asm	235	OS Independent	2010-05-03 15:36:35	220
+aspire	216	Windows	2010-05-03 15:36:35	220
+aspire	201	Linux	2010-05-03 15:36:35	220
+azuki	235	OS Independent	2010-05-03 15:36:35	220
+barracudamvc	235	OS Independent	2010-05-03 15:36:36	220
+been	235	OS Independent	2010-05-03 15:36:36	220
+bonita	235	OS Independent	2010-05-03 15:36:36	220
+bsframework	235	OS Independent	2010-05-03 15:36:36	220
+byline	235	OS Independent	2010-05-03 15:36:36	220
+byline	201	Linux	2010-05-03 15:36:36	220
+c-jdbc	235	OS Independent	2010-05-03 15:36:36	220
+cardamom	201	Linux	2010-05-03 15:36:36	220
+carol	235	OS Independent	2010-05-03 15:36:36	220
+clif	235	OS Independent	2010-05-03 15:36:36	220
+deployment	235	OS Independent	2010-05-03 15:36:36	220
+director	219	Windows NT/2000	2010-05-03 15:36:36	220
+director	201	Linux	2010-05-03 15:36:36	220
+director	207	SunOS/Solaris	2010-05-03 15:36:36	220
+dods	235	OS Independent	2010-05-03 15:36:36	220
+dotnetj	235	OS Independent	2010-05-03 15:36:36	220
+dotnetj	219	Windows NT/2000	2010-05-03 15:36:36	220
+dream	235	OS Independent	2010-05-03 15:36:36	220
+dryverl	200	POSIX	2010-05-03 15:36:36	220
+eaf	235	OS Independent	2010-05-03 15:36:36	220
+easybeans	235	OS Independent	2010-05-03 15:36:36	220
+edemos	201	Linux	2010-05-03 15:36:36	220
+edemos	235	OS Independent	2010-05-03 15:36:36	220
+edemos	219	Windows NT/2000	2010-05-03 15:36:36	220
+enhydra	235	OS Independent	2010-05-03 15:36:36	220
+exoplatform	235	OS Independent	2010-05-03 15:36:36	220
+federid	200	POSIX	2010-05-03 15:36:36	220
+fractal	235	OS Independent	2010-05-03 15:36:36	220
+gasp	214	Microsoft	2010-05-03 15:36:36	220
+gasp	201	Linux	2010-05-03 15:36:36	220
+gotm	235	OS Independent	2010-05-03 15:36:36	220
+howl	235	OS Independent	2010-05-03 15:36:36	220
+initiativebi	201	Linux	2010-05-03 15:36:36	220
+interldap	235	OS Independent	2010-05-03 15:36:36	220
+introspector	235	OS Independent	2010-05-03 15:36:36	220
+ishmael	235	OS Independent	2010-05-03 15:36:36	220
+jac	235	OS Independent	2010-05-03 15:36:36	220
+javaservice	219	Windows NT/2000	2010-05-03 15:36:36	220
+jawe	235	OS Independent	2010-05-03 15:36:36	220
+jeffree	235	OS Independent	2010-05-03 15:36:37	220
+jonathan	235	OS Independent	2010-05-03 15:36:37	220
+joram	235	OS Independent	2010-05-03 15:36:37	220
+jorm	235	OS Independent	2010-05-03 15:36:37	220
+jotm	235	OS Independent	2010-05-03 15:36:37	220
+kelly	235	OS Independent	2010-05-03 15:36:37	220
+kelp	201	Linux	2010-05-03 15:36:37	220
+kelp	216	Windows	2010-05-03 15:36:37	220
+kilim	235	OS Independent	2010-05-03 15:36:37	220
+kilim2	235	OS Independent	2010-05-03 15:36:37	220
+lemonldap	214	Microsoft	2010-05-03 15:36:37	220
+lemonldap	201	Linux	2010-05-03 15:36:37	220
+lewys	201	Linux	2010-05-03 15:36:37	220
+lewys	235	OS Independent	2010-05-03 15:36:37	220
+lewys	214	Microsoft	2010-05-03 15:36:37	220
+lomboz	235	OS Independent	2010-05-03 15:36:37	220
+massiv	221	MacOS	2010-05-03 15:36:37	220
+massiv	216	Windows	2010-05-03 15:36:37	220
+massiv	201	Linux	2010-05-03 15:36:37	220
+modfact	235	OS Independent	2010-05-03 15:36:37	220
+monolog	235	OS Independent	2010-05-03 15:36:37	220
+noah	235	OS Independent	2010-05-03 15:36:37	220
+octopus	219	Windows NT/2000	2010-05-03 15:36:37	220
+octopus	235	OS Independent	2010-05-03 15:36:37	220
+octopus	201	Linux	2010-05-03 15:36:37	220
+odis	235	OS Independent	2010-05-03 15:36:37	220
+ofccharts	235	OS Independent	2010-05-03 15:36:37	220
+oncepi	235	OS Independent	2010-05-03 15:36:37	220
+oncess	216	Windows	2010-05-03 15:36:37	220
+openediint	235	OS Independent	2010-05-03 15:36:37	220
+openmobileis	222	Windows CE	2010-05-03 15:36:37	220
+openmobileis	235	OS Independent	2010-05-03 15:36:37	220
+ops	235	OS Independent	2010-05-03 15:36:37	220
+orchestra	235	OS Independent	2010-05-03 15:36:37	220
+orientwareccm	201	Linux	2010-05-03 15:36:37	220
+orientwareccm	219	Windows NT/2000	2010-05-03 15:36:37	220
+orientwareccm	218	Windows 95/98/2000	2010-05-03 15:36:37	220
+oyster	219	Windows NT/2000	2010-05-03 15:36:37	220
+oyster	235	OS Independent	2010-05-03 15:36:37	220
+oyster	201	Linux	2010-05-03 15:36:37	220
+paje	200	POSIX	2010-05-03 15:36:37	220
+pargres	235	OS Independent	2010-05-03 15:36:37	220
+perseus	235	OS Independent	2010-05-03 15:36:37	220
+petals	235	OS Independent	2010-05-03 15:36:37	220
+petalsmaster	235	OS Independent	2010-05-03 15:36:37	220
+rubbos	235	OS Independent	2010-05-03 15:36:38	220
+rubis	235	OS Independent	2010-05-03 15:36:38	220
+scarbo	235	OS Independent	2010-05-03 15:36:38	220
+shark	235	OS Independent	2010-05-03 15:36:38	220
+snapper	201	Linux	2010-05-03 15:36:38	220
+snapper	235	OS Independent	2010-05-03 15:36:38	220
+snapper	219	Windows NT/2000	2010-05-03 15:36:38	220
+sofa	235	OS Independent	2010-05-03 15:36:38	220
+spagic	235	OS Independent	2010-05-03 15:36:38	220
+spago	235	OS Independent	2010-05-03 15:36:38	220
+spago4q	235	OS Independent	2010-05-03 15:36:38	220
+spagobi	235	OS Independent	2010-05-03 15:36:38	220
+speedo	235	OS Independent	2010-05-03 15:36:38	220
+starwebservice	216	Windows	2010-05-03 15:36:38	220
+stock-online	235	OS Independent	2010-05-03 15:36:38	220
+telosys	235	OS Independent	2010-05-03 15:36:38	220
+tess	235	OS Independent	2010-05-03 15:36:38	220
+wildcat	201	Linux	2010-05-03 15:36:38	220
+wildcat	235	OS Independent	2010-05-03 15:36:38	220
+xplus	235	OS Independent	2010-05-03 15:36:38	220
+xquare	235	OS Independent	2010-05-03 15:36:38	220
+xservice	216	Windows	2010-05-03 15:36:38	220
+xservice	201	Linux	2010-05-03 15:36:38	220
+xwiki	235	OS Independent	2010-05-03 15:36:38	220
+zeus	235	OS Independent	2010-05-03 15:36:38	220

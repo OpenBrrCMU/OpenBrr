@@ -1,0 +1,3194 @@
+#  file: rfProjectEnvironment2010-May.txt
+#  package: rfRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of RubyForge project 
+#  information generated from the list of projects gathered in 2010-May
+#
+#  Raw html data was inserted into database by running our java-based Rubyforge 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, code, description, date_collected, datasource_id
+#  FROM rf_project_environment
+#  WHERE datasource_id=219
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 219 is the 2010-May run on Rubyforge.
+
+proj_unixname	code	description	date_collected	datasource_id
+aaap	237	Web Environment	2010-05-04 12:53:43	219
+aalib-ruby	227	Curses	2010-05-04 12:53:43	219
+aalib-ruby	229	X11 Applications	2010-05-04 12:53:43	219
+aamm	233	Other Environment	2010-05-04 12:53:44	219
+aamm	237	Web Environment	2010-05-04 12:53:44	219
+aapc	237	Web Environment	2010-05-04 12:53:44	219
+aargvark	226	Console (Text Based)	2010-05-04 12:53:44	219
+aaserverbrowser	230	Win32 (MS Windows)	2010-05-04 12:53:44	219
+aaserverbrowser	231	Gnome	2010-05-04 12:53:44	219
+absrenamer	226	Console (Text Based)	2010-05-04 12:53:44	219
+accelerator	226	Console (Text Based)	2010-05-04 12:53:44	219
+accounting	237	Web Environment	2010-05-04 12:53:44	219
+accounts4free	237	Web Environment	2010-05-04 12:53:44	219
+accra	237	Web Environment	2010-05-04 12:53:44	219
+aclport	237	Web Environment	2010-05-04 12:53:44	219
+aclsystem	237	Web Environment	2010-05-04 12:53:44	219
+act-as-debug	229	X11 Applications	2010-05-04 12:53:44	219
+act-as-debug	230	Win32 (MS Windows)	2010-05-04 12:53:44	219
+actasenherit	237	Web Environment	2010-05-04 12:53:44	219
+actionflow	237	Web Environment	2010-05-04 12:53:44	219
+actir4cdp	226	Console (Text Based)	2010-05-04 12:53:44	219
+actir4cdp	237	Web Environment	2010-05-04 12:53:44	219
+active-lastfm	229	X11 Applications	2010-05-04 12:53:44	219
+active-lastfm	237	Web Environment	2010-05-04 12:53:44	219
+active-lastfm	226	Console (Text Based)	2010-05-04 12:53:44	219
+active-rbac	238	No Input/Output (Daemon)	2010-05-04 12:53:44	219
+active-relation	238	No Input/Output (Daemon)	2010-05-04 12:53:45	219
+active-relation	233	Other Environment	2010-05-04 12:53:45	219
+active-relation	237	Web Environment	2010-05-04 12:53:45	219
+activeacl	237	Web Environment	2010-05-04 12:53:45	219
+activedirectory	233	Other Environment	2010-05-04 12:53:45	219
+activeflow	237	Web Environment	2010-05-04 12:53:45	219
+activeform	237	Web Environment	2010-05-04 12:53:45	219
+activelocale	237	Web Environment	2010-05-04 12:53:45	219
+activemdb	226	Console (Text Based)	2010-05-04 12:53:45	219
+activemdb	233	Other Environment	2010-05-04 12:53:45	219
+activerdf	237	Web Environment	2010-05-04 12:53:45	219
+activerdf	233	Other Environment	2010-05-04 12:53:45	219
+activerdf	226	Console (Text Based)	2010-05-04 12:53:45	219
+activerdf-rules	238	No Input/Output (Daemon)	2010-05-04 12:53:45	219
+activeresources	237	Web Environment	2010-05-04 12:53:45	219
+activerest	237	Web Environment	2010-05-04 12:53:45	219
+activerevver	237	Web Environment	2010-05-04 12:53:45	219
+activerubic	237	Web Environment	2010-05-04 12:53:45	219
+activesearch	233	Other Environment	2010-05-04 12:53:45	219
+activesearch	237	Web Environment	2010-05-04 12:53:45	219
+activesms	237	Web Environment	2010-05-04 12:53:45	219
+activesocial	237	Web Environment	2010-05-04 12:53:45	219
+activetest	237	Web Environment	2010-05-04 12:53:45	219
+activetest	226	Console (Text Based)	2010-05-04 12:53:45	219
+activewarehouse	237	Web Environment	2010-05-04 12:53:45	219
+activitystreams	226	Console (Text Based)	2010-05-04 12:53:45	219
+activrecord2sdb	237	Web Environment	2010-05-04 12:53:46	219
+acts-as-cortado	237	Web Environment	2010-05-04 12:53:46	219
+acts-as-matree	237	Web Environment	2010-05-04 12:53:46	219
+acts-as-secured	237	Web Environment	2010-05-04 12:53:46	219
+acts-as-solr	237	Web Environment	2010-05-04 12:53:46	219
+acts-as-toucher	237	Web Environment	2010-05-04 12:53:46	219
+acts-pollable	237	Web Environment	2010-05-04 12:53:46	219
+acts-voteable	237	Web Environment	2010-05-04 12:53:46	219
+actsascatalog	237	Web Environment	2010-05-04 12:53:46	219
+actsasferret	237	Web Environment	2010-05-04 12:53:46	219
+actsasformatted	237	Web Environment	2010-05-04 12:53:46	219
+actsasmodified	237	Web Environment	2010-05-04 12:53:46	219
+actsasrenderer	237	Web Environment	2010-05-04 12:53:46	219
+actsasresource	237	Web Environment	2010-05-04 12:53:46	219
+actsassvn	237	Web Environment	2010-05-04 12:53:46	219
+actsasupload	237	Web Environment	2010-05-04 12:53:46	219
+ad4ruby	233	Other Environment	2010-05-04 12:53:46	219
+addressable	226	Console (Text Based)	2010-05-04 12:53:46	219
+addressable	237	Web Environment	2010-05-04 12:53:46	219
+adesklets-ruby	229	X11 Applications	2010-05-04 12:53:46	219
+adminpage	226	Console (Text Based)	2010-05-04 12:53:47	219
+adminscaffold	237	Web Environment	2010-05-04 12:53:47	219
+admob	237	Web Environment	2010-05-04 12:53:47	219
+admreq	237	Web Environment	2010-05-04 12:53:47	219
+adocca-plugins	237	Web Environment	2010-05-04 12:53:47	219
+adsense	237	Web Environment	2010-05-04 12:53:47	219
+adsf	226	Console (Text Based)	2010-05-04 12:53:47	219
+advabest	237	Web Environment	2010-05-04 12:53:47	219
+advertnet	237	Web Environment	2010-05-04 12:53:47	219
+advertnet	233	Other Environment	2010-05-04 12:53:47	219
+adwallah	237	Web Environment	2010-05-04 12:53:47	219
+aeditor	310	Fox	2010-05-04 12:53:47	219
+aethyr	237	Web Environment	2010-05-04 12:53:47	219
+affected-items	237	Web Environment	2010-05-04 12:53:47	219
+afphelper	226	Console (Text Based)	2010-05-04 12:53:47	219
+agg4r	310	Fox	2010-05-04 12:53:47	219
+agg4r	230	Win32 (MS Windows)	2010-05-04 12:53:47	219
+agg4r	229	X11 Applications	2010-05-04 12:53:47	219
+agora	226	Console (Text Based)	2010-05-04 12:53:47	219
+agoraruby	237	Web Environment	2010-05-04 12:53:47	219
+agtools	237	Web Environment	2010-05-04 12:53:47	219
+ahft	237	Web Environment	2010-05-04 12:53:47	219
+ai-app-prog	226	Console (Text Based)	2010-05-04 12:53:47	219
+aikidosalvador	237	Web Environment	2010-05-04 12:53:47	219
+aiml-programr	226	Console (Text Based)	2010-05-04 12:53:47	219
+aiml-programr	237	Web Environment	2010-05-04 12:53:47	219
+airport	226	Console (Text Based)	2010-05-04 12:53:47	219
+airscript-fe	226	Console (Text Based)	2010-05-04 12:53:47	219
+airscript-fe	231	Gnome	2010-05-04 12:53:47	219
+ajax-grid	226	Console (Text Based)	2010-05-04 12:53:48	219
+akiba	226	Console (Text Based)	2010-05-04 12:53:48	219
+akisu	237	Web Environment	2010-05-04 12:53:48	219
+akisu	238	No Input/Output (Daemon)	2010-05-04 12:53:48	219
+akisu	226	Console (Text Based)	2010-05-04 12:53:48	219
+alacarte	237	Web Environment	2010-05-04 12:53:48	219
+alexandria	313	Cocoa (MacOS X)	2010-05-04 12:53:48	219
+alexandria	231	Gnome	2010-05-04 12:53:48	219
+allinoneruby	226	Console (Text Based)	2010-05-04 12:53:48	219
+alogr	233	Other Environment	2010-05-04 12:53:48	219
+alph	237	Web Environment	2010-05-04 12:53:48	219
+alphabar	237	Web Environment	2010-05-04 12:53:48	219
+alumnionrails	237	Web Environment	2010-05-04 12:53:48	219
+amazing	229	X11 Applications	2010-05-04 12:53:48	219
+amazon-ec2	233	Other Environment	2010-05-04 12:53:48	219
+amber	226	Console (Text Based)	2010-05-04 12:53:48	219
+ambient	233	Other Environment	2010-05-04 12:53:48	219
+ambling	237	Web Environment	2010-05-04 12:53:48	219
+amf4r	237	Web Environment	2010-05-04 12:53:48	219
+amfc	237	Web Environment	2010-05-04 12:53:49	219
+amqp	226	Console (Text Based)	2010-05-04 12:53:49	219
+amused	230	Win32 (MS Windows)	2010-05-04 12:53:49	219
+amused	237	Web Environment	2010-05-04 12:53:49	219
+anchor	311	WxWidgits	2010-05-04 12:53:49	219
+anchor	231	Gnome	2010-05-04 12:53:49	219
+andrewid	237	Web Environment	2010-05-04 12:53:49	219
+angelmap	237	Web Environment	2010-05-04 12:53:49	219
+annotate-models	237	Web Environment	2010-05-04 12:53:49	219
+annttrainer	229	X11 Applications	2010-05-04 12:53:49	219
+annttrainer	233	Other Environment	2010-05-04 12:53:49	219
+ansi-sys	226	Console (Text Based)	2010-05-04 12:53:49	219
+ansi-sys	237	Web Environment	2010-05-04 12:53:49	219
+anteater	237	Web Environment	2010-05-04 12:53:49	219
+anthill	238	No Input/Output (Daemon)	2010-05-04 12:53:49	219
+anthilldiameter	238	No Input/Output (Daemon)	2010-05-04 12:53:49	219
+anthillsmpp	238	No Input/Output (Daemon)	2010-05-04 12:53:49	219
+anvil	313	Cocoa (MacOS X)	2010-05-04 12:53:49	219
+anvil	311	WxWidgits	2010-05-04 12:53:49	219
+anvil	231	Gnome	2010-05-04 12:53:49	219
+ap4r	226	Console (Text Based)	2010-05-04 12:53:49	219
+apl	231	Gnome	2010-05-04 12:53:49	219
+apotomo	237	Web Environment	2010-05-04 12:53:49	219
+app-profiler	238	No Input/Output (Daemon)	2010-05-04 12:53:49	219
+app-profiler	237	Web Environment	2010-05-04 12:53:49	219
+appmath	226	Console (Text Based)	2010-05-04 12:53:49	219
+approach	237	Web Environment	2010-05-04 12:53:50	219
+appswarm	237	Web Environment	2010-05-04 12:53:50	219
+apptrain	237	Web Environment	2010-05-04 12:53:50	219
+apriori	226	Console (Text Based)	2010-05-04 12:53:50	219
+apropos	237	Web Environment	2010-05-04 12:53:50	219
+apt	237	Web Environment	2010-05-04 12:53:50	219
+ar-copyable	237	Web Environment	2010-05-04 12:53:50	219
+ar-timeline	237	Web Environment	2010-05-04 12:53:50	219
+arbypod	229	X11 Applications	2010-05-04 12:53:50	219
+arbypod	226	Console (Text Based)	2010-05-04 12:53:50	219
+arcadia	230	Win32 (MS Windows)	2010-05-04 12:53:51	219
+arcadia	229	X11 Applications	2010-05-04 12:53:51	219
+archeodata	237	Web Environment	2010-05-04 12:53:51	219
+archipelago	238	No Input/Output (Daemon)	2010-05-04 12:53:51	219
+archive-tar	233	Other Environment	2010-05-04 12:53:51	219
+archive-zip	233	Other Environment	2010-05-04 12:53:51	219
+archive-zip	238	No Input/Output (Daemon)	2010-05-04 12:53:51	219
+archive-zip	226	Console (Text Based)	2010-05-04 12:53:51	219
+arfparser	226	Console (Text Based)	2010-05-04 12:53:52	219
+argent	226	Console (Text Based)	2010-05-04 12:53:52	219
+arid	237	Web Environment	2010-05-04 12:53:52	219
+as3-puremvc	237	Web Environment	2010-05-04 12:53:52	219
+as3spec	226	Console (Text Based)	2010-05-04 12:53:52	219
+asami	231	Gnome	2010-05-04 12:53:52	219
+asf	237	Web Environment	2010-05-04 12:53:52	219
+asgoogleaccount	237	Web Environment	2010-05-04 12:53:52	219
+asl	237	Web Environment	2010-05-04 12:53:52	219
+asl	226	Console (Text Based)	2010-05-04 12:53:52	219
+asproject	226	Console (Text Based)	2010-05-04 12:53:52	219
+assert2	226	Console (Text Based)	2010-05-04 12:53:52	219
+assetdb	237	Web Environment	2010-05-04 12:53:52	219
+assoc-mgmt	237	Web Environment	2010-05-04 12:53:52	219
+assocext	237	Web Environment	2010-05-04 12:53:52	219
+assocupload	237	Web Environment	2010-05-04 12:53:52	219
+asterisk-ruby	226	Console (Text Based)	2010-05-04 12:53:52	219
+asterisk-ruby	238	No Input/Output (Daemon)	2010-05-04 12:53:52	219
+asteriskonrails	237	Web Environment	2010-05-04 12:53:53	219
+atlasonrails	237	Web Environment	2010-05-04 12:53:53	219
+atompp	237	Web Environment	2010-05-04 12:53:53	219
+atompublog	237	Web Environment	2010-05-04 12:53:53	219
+attachr	237	Web Environment	2010-05-04 12:53:53	219
+aurita	226	Console (Text Based)	2010-05-04 12:53:53	219
+aurita	237	Web Environment	2010-05-04 12:53:53	219
+aurora	238	No Input/Output (Daemon)	2010-05-04 12:53:53	219
+aurora	237	Web Environment	2010-05-04 12:53:53	219
+auth-resource	237	Web Environment	2010-05-04 12:53:53	219
+auth-resource	233	Other Environment	2010-05-04 12:53:53	219
+auth-typekey	237	Web Environment	2010-05-04 12:53:53	219
+authentable	237	Web Environment	2010-05-04 12:53:53	219
+authentication	237	Web Environment	2010-05-04 12:53:53	219
+authorails	237	Web Environment	2010-05-04 12:53:53	219
+authorization	237	Web Environment	2010-05-04 12:53:53	219
+auto	230	Win32 (MS Windows)	2010-05-04 12:53:53	219
+auto	229	X11 Applications	2010-05-04 12:53:53	219
+autobuild	226	Console (Text Based)	2010-05-04 12:53:53	219
+autodrop	238	No Input/Output (Daemon)	2010-05-04 12:53:53	219
+autom-proyectos	226	Console (Text Based)	2010-05-04 12:53:53	219
+automateit	226	Console (Text Based)	2010-05-04 12:53:53	219
+automatic-fk	226	Console (Text Based)	2010-05-04 12:53:54	219
+autometric	226	Console (Text Based)	2010-05-04 12:53:54	219
+autozest	313	Cocoa (MacOS X)	2010-05-04 12:53:54	219
+autozest	231	Gnome	2010-05-04 12:53:54	219
+autumn-leaves	238	No Input/Output (Daemon)	2010-05-04 12:53:54	219
+avant	226	Console (Text Based)	2010-05-04 12:53:54	219
+aversa	226	Console (Text Based)	2010-05-04 12:53:54	219
+awesome-usps	237	Web Environment	2010-05-04 12:53:54	219
+awshucks	226	Console (Text Based)	2010-05-04 12:53:54	219
+axis-netcam	238	No Input/Output (Daemon)	2010-05-04 12:53:54	219
+azureusonrails	237	Web Environment	2010-05-04 12:53:54	219
+b10g	237	Web Environment	2010-05-04 12:53:54	219
+b10g	226	Console (Text Based)	2010-05-04 12:53:54	219
+backlog	237	Web Environment	2010-05-04 12:53:54	219
+backup	238	No Input/Output (Daemon)	2010-05-04 12:53:54	219
+backupgem	226	Console (Text Based)	2010-05-04 12:53:54	219
+backupman	226	Console (Text Based)	2010-05-04 12:53:54	219
+bacuview	237	Web Environment	2010-05-04 12:53:54	219
+bake	226	Console (Text Based)	2010-05-04 12:53:55	219
+baker	226	Console (Text Based)	2010-05-04 12:53:55	219
+ballerr	233	Other Environment	2010-05-04 12:53:55	219
+bangkok	226	Console (Text Based)	2010-05-04 12:53:55	219
+barcode-gen	237	Web Environment	2010-05-04 12:53:55	219
+barometer	226	Console (Text Based)	2010-05-04 12:53:55	219
+barometer	237	Web Environment	2010-05-04 12:53:55	219
+base62	233	Other Environment	2010-05-04 12:53:55	219
+basewoot	226	Console (Text Based)	2010-05-04 12:53:55	219
+basewoot	229	X11 Applications	2010-05-04 12:53:55	219
+basketcase	226	Console (Text Based)	2010-05-04 12:53:55	219
+bat	226	Console (Text Based)	2010-05-04 12:53:55	219
+bayuploader	226	Console (Text Based)	2010-05-04 12:53:55	219
+bb-ruby	237	Web Environment	2010-05-04 12:53:55	219
+bcrypt-ruby	233	Other Environment	2010-05-04 12:53:55	219
+beamr	226	Console (Text Based)	2010-05-04 12:53:55	219
+beamr	237	Web Environment	2010-05-04 12:53:55	219
+bee	226	Console (Text Based)	2010-05-04 12:53:55	219
+beenverified	237	Web Environment	2010-05-04 12:53:55	219
+bells	226	Console (Text Based)	2010-05-04 12:53:55	219
+belongs-to-enum	237	Web Environment	2010-05-04 12:53:55	219
+betabrite	226	Console (Text Based)	2010-05-04 12:53:55	219
+betfairclient	238	No Input/Output (Daemon)	2010-05-04 12:53:55	219
+bettercable	230	Win32 (MS Windows)	2010-05-04 12:53:55	219
+betternestedset	237	Web Environment	2010-05-04 12:53:55	219
+bettybuilder	237	Web Environment	2010-05-04 12:53:56	219
+bibstudy	237	Web Environment	2010-05-04 12:53:56	219
+bibtexparser	226	Console (Text Based)	2010-05-04 12:53:56	219
+bijou	237	Web Environment	2010-05-04 12:53:56	219
+bin2hex	226	Console (Text Based)	2010-05-04 12:53:56	219
+binaryparse	238	No Input/Output (Daemon)	2010-05-04 12:53:56	219
+binbackup	226	Console (Text Based)	2010-05-04 12:53:56	219
+biomart	237	Web Environment	2010-05-04 12:53:56	219
+birdy	231	Gnome	2010-05-04 12:53:56	219
+birdy	232	KDE	2010-05-04 12:53:56	219
+bitcache	226	Console (Text Based)	2010-05-04 12:53:56	219
+bitcache	238	No Input/Output (Daemon)	2010-05-04 12:53:56	219
+bitchun	237	Web Environment	2010-05-04 12:53:56	219
+bitchun	233	Other Environment	2010-05-04 12:53:56	219
+bits	230	Win32 (MS Windows)	2010-05-04 12:53:56	219
+bitstring	233	Other Environment	2010-05-04 12:53:56	219
+bitter	237	Web Environment	2010-05-04 12:53:56	219
+bl6g	237	Web Environment	2010-05-04 12:53:56	219
+blackcloth	237	Web Environment	2010-05-04 12:53:56	219
+blackcloth	226	Console (Text Based)	2010-05-04 12:53:56	219
+blacklight	237	Web Environment	2010-05-04 12:53:56	219
+blanket	226	Console (Text Based)	2010-05-04 12:53:56	219
+blatanalyzer	226	Console (Text Based)	2010-05-04 12:53:56	219
+ble	229	X11 Applications	2010-05-04 12:53:56	219
+ble	230	Win32 (MS Windows)	2010-05-04 12:53:56	219
+ble	233	Other Environment	2010-05-04 12:53:56	219
+blender	226	Console (Text Based)	2010-05-04 12:53:56	219
+blindtris	227	Curses	2010-05-04 12:53:57	219
+blinkenwords	311	WxWidgits	2010-05-04 12:53:57	219
+blitz3d	230	Win32 (MS Windows)	2010-05-04 12:53:57	219
+blogengine	237	Web Environment	2010-05-04 12:53:57	219
+bloglines	237	Web Environment	2010-05-04 12:53:57	219
+blogsight	226	Console (Text Based)	2010-05-04 12:53:57	219
+blogsight	229	X11 Applications	2010-05-04 12:53:57	219
+blogwell	237	Web Environment	2010-05-04 12:53:57	219
+bluefeather	226	Console (Text Based)	2010-05-04 12:53:57	219
+bob	226	Console (Text Based)	2010-05-04 12:53:57	219
+boilerplate	237	Web Environment	2010-05-04 12:53:57	219
+boisjoli	226	Console (Text Based)	2010-05-04 12:53:57	219
+boisjoli	237	Web Environment	2010-05-04 12:53:57	219
+bokeo	310	Fox	2010-05-04 12:53:57	219
+boogaloo	238	No Input/Output (Daemon)	2010-05-04 12:53:57	219
+bookworms	237	Web Environment	2010-05-04 12:53:57	219
+boomerang	226	Console (Text Based)	2010-05-04 12:53:57	219
+borges	238	No Input/Output (Daemon)	2010-05-04 12:53:57	219
+borges	237	Web Environment	2010-05-04 12:53:57	219
+botijo	233	Other Environment	2010-05-04 12:53:57	219
+botijo	237	Web Environment	2010-05-04 12:53:57	219
+boto	238	No Input/Output (Daemon)	2010-05-04 12:53:57	219
+bottone	226	Console (Text Based)	2010-05-04 12:53:57	219
+bounce-email	226	Console (Text Based)	2010-05-04 12:53:57	219
+bowline	233	Other Environment	2010-05-04 12:53:57	219
+bowtie	226	Console (Text Based)	2010-05-04 12:53:57	219
+boxroom	237	Web Environment	2010-05-04 12:53:57	219
+brascms	237	Web Environment	2010-05-04 12:53:58	219
+brcobranca	237	Web Environment	2010-05-04 12:53:58	219
+breeze	226	Console (Text Based)	2010-05-04 12:53:58	219
+bricks	226	Console (Text Based)	2010-05-04 12:53:58	219
+brightbox	226	Console (Text Based)	2010-05-04 12:53:58	219
+briscola	310	Fox	2010-05-04 12:53:58	219
+broadsoft	226	Console (Text Based)	2010-05-04 12:53:58	219
+browsercms	237	Web Environment	2010-05-04 12:53:58	219
+browserdebug	237	Web Environment	2010-05-04 12:53:58	219
+bufferaffects	238	No Input/Output (Daemon)	2010-05-04 12:53:58	219
+buggy	226	Console (Text Based)	2010-05-04 12:53:58	219
+buggy	233	Other Environment	2010-05-04 12:53:58	219
+buggy	237	Web Environment	2010-05-04 12:53:58	219
+bugtrack	237	Web Environment	2010-05-04 12:53:58	219
+build2spec	226	Console (Text Based)	2010-05-04 12:53:58	219
+buildr	226	Console (Text Based)	2010-05-04 12:53:58	219
+buildscript	226	Console (Text Based)	2010-05-04 12:53:58	219
+bulkmail	226	Console (Text Based)	2010-05-04 12:53:58	219
+bulletproof	226	Console (Text Based)	2010-05-04 12:53:58	219
+bulletrb	229	X11 Applications	2010-05-04 12:53:58	219
+bulletrb	230	Win32 (MS Windows)	2010-05-04 12:53:58	219
+bulletrb	313	Cocoa (MacOS X)	2010-05-04 12:53:58	219
+bunny-amqp	226	Console (Text Based)	2010-05-04 12:53:58	219
+bunny-amqp	233	Other Environment	2010-05-04 12:53:58	219
+bus-scheme	226	Console (Text Based)	2010-05-04 12:53:58	219
+busyajax	237	Web Environment	2010-05-04 12:53:58	219
+butler	238	No Input/Output (Daemon)	2010-05-04 12:53:58	219
+butler	226	Console (Text Based)	2010-05-04 12:53:58	219
+button-labels	237	Web Environment	2010-05-04 12:53:58	219
+byeloo	237	Web Environment	2010-05-04 12:53:58	219
+bzrwrapper	226	Console (Text Based)	2010-05-04 12:53:59	219
+bzzz	231	Gnome	2010-05-04 12:53:59	219
+caboose	237	Web Environment	2010-05-04 12:53:59	219
+caching-plugin	237	Web Environment	2010-05-04 12:53:59	219
+cairn	237	Web Environment	2010-05-04 12:53:59	219
+cairo	237	Web Environment	2010-05-04 12:53:59	219
+cairo	230	Win32 (MS Windows)	2010-05-04 12:53:59	219
+cairo	231	Gnome	2010-05-04 12:53:59	219
+caldersphere	233	Other Environment	2010-05-04 12:53:59	219
+calterm	227	Curses	2010-05-04 12:53:59	219
+camellia	310	Fox	2010-05-04 12:53:59	219
+campaignmonitor	237	Web Environment	2010-05-04 12:53:59	219
+capistrano	226	Console (Text Based)	2010-05-04 12:53:59	219
+capistrano-conf	226	Console (Text Based)	2010-05-04 12:53:59	219
+capistranocolor	226	Console (Text Based)	2010-05-04 12:53:59	219
+cappy-runit	226	Console (Text Based)	2010-05-04 12:53:59	219
+capsaicin	226	Console (Text Based)	2010-05-04 12:53:59	219
+capsaicin	230	Win32 (MS Windows)	2010-05-04 12:53:59	219
+captcha	237	Web Environment	2010-05-04 12:53:59	219
+caramel	237	Web Environment	2010-05-04 12:53:59	219
+carbonica	233	Other Environment	2010-05-04 12:53:59	219
+cardia	237	Web Environment	2010-05-04 12:54:00	219
+cardinal	226	Console (Text Based)	2010-05-04 12:54:00	219
+caricature	233	Other Environment	2010-05-04 12:54:00	219
+carpark	233	Other Environment	2010-05-04 12:54:00	219
+carpere	233	Other Environment	2010-05-04 12:54:00	219
+carrierwave	237	Web Environment	2010-05-04 12:54:00	219
+cartesian	226	Console (Text Based)	2010-05-04 12:54:00	219
+casablanca	226	Console (Text Based)	2010-05-04 12:54:00	219
+caser	237	Web Environment	2010-05-04 12:54:00	219
+cashjuggler	230	Win32 (MS Windows)	2010-05-04 12:54:00	219
+cashjuggler	231	Gnome	2010-05-04 12:54:00	219
+casl	226	Console (Text Based)	2010-05-04 12:54:00	219
+catamount	237	Web Environment	2010-05-04 12:54:00	219
+catamount	226	Console (Text Based)	2010-05-04 12:54:00	219
+catori	226	Console (Text Based)	2010-05-04 12:54:00	219
+catori	229	X11 Applications	2010-05-04 12:54:00	219
+cbac	237	Web Environment	2010-05-04 12:54:00	219
+cbuilder	238	No Input/Output (Daemon)	2010-05-04 12:54:00	219
+ccredit	237	Web Environment	2010-05-04 12:54:00	219
+cctrayrb	231	Gnome	2010-05-04 12:54:00	219
+cdblog	237	Web Environment	2010-05-04 12:54:00	219
+celerity	237	Web Environment	2010-05-04 12:54:00	219
+cells	237	Web Environment	2010-05-04 12:54:00	219
+centaurr	238	No Input/Output (Daemon)	2010-05-04 12:54:00	219
+cerberus	238	No Input/Output (Daemon)	2010-05-04 12:54:00	219
+cereal	238	No Input/Output (Daemon)	2010-05-04 12:54:00	219
+cerise	226	Console (Text Based)	2010-05-04 12:54:00	219
+cerise	237	Web Environment	2010-05-04 12:54:00	219
+cevirgec	226	Console (Text Based)	2010-05-04 12:54:00	219
+cevirgec	230	Win32 (MS Windows)	2010-05-04 12:54:00	219
+cfpropertylist	237	Web Environment	2010-05-04 12:54:00	219
+cfpropertylist	233	Other Environment	2010-05-04 12:54:00	219
+cfpropertylist	313	Cocoa (MacOS X)	2010-05-04 12:54:00	219
+cfruby	226	Console (Text Based)	2010-05-04 12:54:00	219
+cgen	226	Console (Text Based)	2010-05-04 12:54:00	219
+chameleon	237	Web Environment	2010-05-04 12:54:01	219
+charlie	226	Console (Text Based)	2010-05-04 12:54:01	219
+chartr	237	Web Environment	2010-05-04 12:54:01	219
+chatten	237	Web Environment	2010-05-04 12:54:01	219
+checkr	226	Console (Text Based)	2010-05-04 12:54:01	219
+chess	237	Web Environment	2010-05-04 12:54:01	219
+chessonrails	237	Web Environment	2010-05-04 12:54:01	219
+chikkenbukket	237	Web Environment	2010-05-04 12:54:01	219
+chirp	226	Console (Text Based)	2010-05-04 12:54:01	219
+chrysalis	226	Console (Text Based)	2010-05-04 12:54:01	219
+chuckslist	233	Other Environment	2010-05-04 12:54:01	219
+chump-change	238	No Input/Output (Daemon)	2010-05-04 12:54:01	219
+chump-change	237	Web Environment	2010-05-04 12:54:01	219
+chun	226	Console (Text Based)	2010-05-04 12:54:01	219
+cinabox	226	Console (Text Based)	2010-05-04 12:54:01	219
+circus	238	No Input/Output (Daemon)	2010-05-04 12:54:01	219
+cit	237	Web Environment	2010-05-04 12:54:01	219
+citer	237	Web Environment	2010-05-04 12:54:01	219
+citriski	237	Web Environment	2010-05-04 12:54:01	219
+civicduty	237	Web Environment	2010-05-04 12:54:01	219
+classbrowser	310	Fox	2010-05-04 12:54:01	219
+classified	237	Web Environment	2010-05-04 12:54:01	219
+classifier	226	Console (Text Based)	2010-05-04 12:54:01	219
+classroom	226	Console (Text Based)	2010-05-04 12:54:02	219
+clevic	233	Other Environment	2010-05-04 12:54:02	219
+cliaws	226	Console (Text Based)	2010-05-04 12:54:02	219
+cliblog	226	Console (Text Based)	2010-05-04 12:54:02	219
+clickspotter	229	X11 Applications	2010-05-04 12:54:02	219
+clientsidevali	237	Web Environment	2010-05-04 12:54:02	219
+clsruby	226	Console (Text Based)	2010-05-04 12:54:02	219
+clubweb	237	Web Environment	2010-05-04 12:54:02	219
+clusterim	226	Console (Text Based)	2010-05-04 12:54:02	219
+clusterim	233	Other Environment	2010-05-04 12:54:02	219
+clusterim	237	Web Environment	2010-05-04 12:54:02	219
+clyk	237	Web Environment	2010-05-04 12:54:02	219
+cmd	226	Console (Text Based)	2010-05-04 12:54:02	219
+cmdline	226	Console (Text Based)	2010-05-04 12:54:02	219
+cmdparse	226	Console (Text Based)	2010-05-04 12:54:02	219
+cmsplugin	237	Web Environment	2010-05-04 12:54:02	219
+cnav	310	Fox	2010-05-04 12:54:02	219
+cntrlproto	237	Web Environment	2010-05-04 12:54:02	219
+cobasis	237	Web Environment	2010-05-04 12:54:02	219
+coco-ruby	226	Console (Text Based)	2010-05-04 12:54:02	219
+code74	313	Cocoa (MacOS X)	2010-05-04 12:54:02	219
+codefumes	226	Console (Text Based)	2010-05-04 12:54:03	219
+codemax	229	X11 Applications	2010-05-04 12:54:03	219
+codemax	230	Win32 (MS Windows)	2010-05-04 12:54:03	219
+codemax	313	Cocoa (MacOS X)	2010-05-04 12:54:03	219
+coderay	237	Web Environment	2010-05-04 12:54:03	219
+color-japanese	238	No Input/Output (Daemon)	2010-05-04 12:54:03	219
+colorize	226	Console (Text Based)	2010-05-04 12:54:03	219
+colorparser	226	Console (Text Based)	2010-05-04 12:54:03	219
+comatose	237	Web Environment	2010-05-04 12:54:03	219
+comet-gramework	237	Web Environment	2010-05-04 12:54:03	219
+commandset	226	Console (Text Based)	2010-05-04 12:54:03	219
+commandset	233	Other Environment	2010-05-04 12:54:03	219
+commitment	237	Web Environment	2010-05-04 12:54:03	219
+communitio	237	Web Environment	2010-05-04 12:54:03	219
+compages	237	Web Environment	2010-05-04 12:54:03	219
+compages	233	Other Environment	2010-05-04 12:54:03	219
+comparedbmysql	311	WxWidgits	2010-05-04 12:54:03	219
+concatenative	226	Console (Text Based)	2010-05-04 12:54:03	219
+confersion	226	Console (Text Based)	2010-05-04 12:54:03	219
+connectmobile	237	Web Environment	2010-05-04 12:54:04	219
+conssolv	233	Other Environment	2010-05-04 12:54:04	219
+constancy	237	Web Environment	2010-05-04 12:54:04	219
+constantrecord	237	Web Environment	2010-05-04 12:54:04	219
+constellation	233	Other Environment	2010-05-04 12:54:04	219
+constellation	237	Web Environment	2010-05-04 12:54:04	219
+contactsiphon	237	Web Environment	2010-05-04 12:54:04	219
+continuous4r	233	Other Environment	2010-05-04 12:54:04	219
+conveyor	237	Web Environment	2010-05-04 12:54:04	219
+cooloptions	226	Console (Text Based)	2010-05-04 12:54:04	219
+copland	226	Console (Text Based)	2010-05-04 12:54:04	219
+copland	238	No Input/Output (Daemon)	2010-05-04 12:54:04	219
+cortex-reaver	237	Web Environment	2010-05-04 12:54:04	219
+cotta	230	Win32 (MS Windows)	2010-05-04 12:54:04	219
+cotta	238	No Input/Output (Daemon)	2010-05-04 12:54:04	219
+cotta	313	Cocoa (MacOS X)	2010-05-04 12:54:04	219
+cougar	237	Web Environment	2010-05-04 12:54:04	219
+cougar	230	Win32 (MS Windows)	2010-05-04 12:54:04	219
+cougar	229	X11 Applications	2010-05-04 12:54:04	219
+countloc	226	Console (Text Based)	2010-05-04 12:54:04	219
+courseadvisor	237	Web Environment	2010-05-04 12:54:04	219
+crackup	226	Console (Text Based)	2010-05-04 12:54:04	219
+crank	226	Console (Text Based)	2010-05-04 12:54:05	219
+criteria	233	Other Environment	2010-05-04 12:54:05	219
+crm114	226	Console (Text Based)	2010-05-04 12:54:05	219
+crm114	237	Web Environment	2010-05-04 12:54:05	219
+cronedit	226	Console (Text Based)	2010-05-04 12:54:05	219
+crtestrunner	233	Other Environment	2010-05-04 12:54:05	219
+crude	237	Web Environment	2010-05-04 12:54:05	219
+crush	226	Console (Text Based)	2010-05-04 12:54:05	219
+crypt-tea	226	Console (Text Based)	2010-05-04 12:54:05	219
+cssformbuilder	237	Web Environment	2010-05-04 12:54:05	219
+cssganttplugin	237	Web Environment	2010-05-04 12:54:05	219
+csspress	226	Console (Text Based)	2010-05-04 12:54:05	219
+csv-rails	237	Web Environment	2010-05-04 12:54:05	219
+csvrecord	226	Console (Text Based)	2010-05-04 12:54:05	219
+ctioga2	226	Console (Text Based)	2010-05-04 12:54:05	219
+ctl2ncl	226	Console (Text Based)	2010-05-04 12:54:05	219
+cuca	237	Web Environment	2010-05-04 12:54:05	219
+cupola	237	Web Environment	2010-05-04 12:54:05	219
+cups	233	Other Environment	2010-05-04 12:54:05	219
+curb	238	No Input/Output (Daemon)	2010-05-04 12:54:05	219
+curl-multi	237	Web Environment	2010-05-04 12:54:05	219
+cursor	238	No Input/Output (Daemon)	2010-05-04 12:54:06	219
+curtis	237	Web Environment	2010-05-04 12:54:06	219
+cvstools	237	Web Environment	2010-05-04 12:54:06	219
+cvstools	233	Other Environment	2010-05-04 12:54:06	219
+cvstools	226	Console (Text Based)	2010-05-04 12:54:06	219
+cws	237	Web Environment	2010-05-04 12:54:06	219
+cyberdeck	237	Web Environment	2010-05-04 12:54:06	219
+cyberdeck	230	Win32 (MS Windows)	2010-05-04 12:54:06	219
+cyberdeck	229	X11 Applications	2010-05-04 12:54:06	219
+czytacz	231	Gnome	2010-05-04 12:54:06	219
+czytacz	227	Curses	2010-05-04 12:54:06	219
+d8a	226	Console (Text Based)	2010-05-04 12:54:06	219
+daapclient	226	Console (Text Based)	2010-05-04 12:54:06	219
+dabcup	226	Console (Text Based)	2010-05-04 12:54:06	219
+dacota	237	Web Environment	2010-05-04 12:54:06	219
+daemons	238	No Input/Output (Daemon)	2010-05-04 12:54:06	219
+dake	226	Console (Text Based)	2010-05-04 12:54:06	219
+dangertree-ss	237	Web Environment	2010-05-04 12:54:06	219
+dataex	226	Console (Text Based)	2010-05-04 12:54:06	219
+datagen	230	Win32 (MS Windows)	2010-05-04 12:54:06	219
+datamapper	233	Other Environment	2010-05-04 12:54:06	219
+datebalks	237	Web Environment	2010-05-04 12:54:06	219
+datedbackup	226	Console (Text Based)	2010-05-04 12:54:06	219
+dateeaster	233	Other Environment	2010-05-04 12:54:06	219
+davclient	226	Console (Text Based)	2010-05-04 12:54:06	219
+db2extended	237	Web Environment	2010-05-04 12:54:06	219
+db2rails	226	Console (Text Based)	2010-05-04 12:54:06	219
+dbc	226	Console (Text Based)	2010-05-04 12:54:06	219
+dbcov	237	Web Environment	2010-05-04 12:54:07	219
+dbrubymanager	237	Web Environment	2010-05-04 12:54:07	219
+dbus-ruby	226	Console (Text Based)	2010-05-04 12:54:07	219
+dconr	237	Web Environment	2010-05-04 12:54:07	219
+dctl	226	Console (Text Based)	2010-05-04 12:54:07	219
+dctl	238	No Input/Output (Daemon)	2010-05-04 12:54:07	219
+ddate	226	Console (Text Based)	2010-05-04 12:54:07	219
+debianonrails	226	Console (Text Based)	2010-05-04 12:54:07	219
+debpack	226	Console (Text Based)	2010-05-04 12:54:07	219
+debugprint	226	Console (Text Based)	2010-05-04 12:54:07	219
+deckshuffler	237	Web Environment	2010-05-04 12:54:07	219
+dectxn	237	Web Environment	2010-05-04 12:54:07	219
+dedawiki	237	Web Environment	2010-05-04 12:54:07	219
+deepend	226	Console (Text Based)	2010-05-04 12:54:07	219
+delicious4r	237	Web Environment	2010-05-04 12:54:07	219
+delish	226	Console (Text Based)	2010-05-04 12:54:07	219
+deplategem	226	Console (Text Based)	2010-05-04 12:54:07	219
+deprec	226	Console (Text Based)	2010-05-04 12:54:07	219
+depth-charge	226	Console (Text Based)	2010-05-04 12:54:07	219
+devalot	237	Web Environment	2010-05-04 12:54:08	219
+developergarden	233	Other Environment	2010-05-04 12:54:08	219
+developergarden	237	Web Environment	2010-05-04 12:54:08	219
+diakonos	227	Curses	2010-05-04 12:54:08	219
+dialog	227	Curses	2010-05-04 12:54:08	219
+diaria	226	Console (Text Based)	2010-05-04 12:54:08	219
+dicomutils	226	Console (Text Based)	2010-05-04 12:54:08	219
+dicomutils	310	Fox	2010-05-04 12:54:08	219
+dicomutils	230	Win32 (MS Windows)	2010-05-04 12:54:08	219
+diff-csv	226	Console (Text Based)	2010-05-04 12:54:08	219
+digitalmoney	237	Web Environment	2010-05-04 12:54:08	219
+digitalronin	226	Console (Text Based)	2010-05-04 12:54:08	219
+dime	233	Other Environment	2010-05-04 12:54:08	219
+diplomacy	233	Other Environment	2010-05-04 12:54:08	219
+diptera	231	Gnome	2010-05-04 12:54:08	219
+dirdiff	226	Console (Text Based)	2010-05-04 12:54:08	219
+dirjoy	238	No Input/Output (Daemon)	2010-05-04 12:54:08	219
+discussit	237	Web Environment	2010-05-04 12:54:08	219
+dispatcher	237	Web Environment	2010-05-04 12:54:08	219
+disqus	237	Web Environment	2010-05-04 12:54:08	219
+distribustream	238	No Input/Output (Daemon)	2010-05-04 12:54:08	219
+ditz	226	Console (Text Based)	2010-05-04 12:54:08	219
+ditz	237	Web Environment	2010-05-04 12:54:08	219
+djbt	230	Win32 (MS Windows)	2010-05-04 12:54:08	219
+djbt	226	Console (Text Based)	2010-05-04 12:54:08	219
+dl-link-helper	237	Web Environment	2010-05-04 12:54:08	219
+dlinkctrl	226	Console (Text Based)	2010-05-04 12:54:08	219
+dm-paperclip	238	No Input/Output (Daemon)	2010-05-04 12:54:09	219
+dm-rdf	226	Console (Text Based)	2010-05-04 12:54:09	219
+dnbnor2qif	226	Console (Text Based)	2010-05-04 12:54:09	219
+dnsomatic	226	Console (Text Based)	2010-05-04 12:54:09	219
+dnssd	226	Console (Text Based)	2010-05-04 12:54:09	219
+dnstraverse	226	Console (Text Based)	2010-05-04 12:54:09	219
+doab	237	Web Environment	2010-05-04 12:54:09	219
+doc2html	230	Win32 (MS Windows)	2010-05-04 12:54:09	219
+documatic	237	Web Environment	2010-05-04 12:54:09	219
+documatic	226	Console (Text Based)	2010-05-04 12:54:09	219
+dodt-chargen	230	Win32 (MS Windows)	2010-05-04 12:54:09	219
+dodt-chargen	229	X11 Applications	2010-05-04 12:54:09	219
+dojor	237	Web Environment	2010-05-04 12:54:09	219
+dokkit	226	Console (Text Based)	2010-05-04 12:54:09	219
+dorkbuster	226	Console (Text Based)	2010-05-04 12:54:09	219
+dotime	226	Console (Text Based)	2010-05-04 12:54:09	219
+dotnetvc	230	Win32 (MS Windows)	2010-05-04 12:54:09	219
+dotr	233	Other Environment	2010-05-04 12:54:09	219
+drcureta	226	Console (Text Based)	2010-05-04 12:54:10	219
+drcureta	237	Web Environment	2010-05-04 12:54:10	219
+drolfar	229	X11 Applications	2010-05-04 12:54:10	219
+drqueue	237	Web Environment	2010-05-04 12:54:10	219
+drqueue	233	Other Environment	2010-05-04 12:54:10	219
+druid	238	No Input/Output (Daemon)	2010-05-04 12:54:10	219
+druida	226	Console (Text Based)	2010-05-04 12:54:10	219
+duby	229	X11 Applications	2010-05-04 12:54:10	219
+dubya	229	X11 Applications	2010-05-04 12:54:10	219
+dubya	313	Cocoa (MacOS X)	2010-05-04 12:54:10	219
+dumptruck	226	Console (Text Based)	2010-05-04 12:54:10	219
+dyn-ftp-serv	238	No Input/Output (Daemon)	2010-05-04 12:54:10	219
+dynpet	226	Console (Text Based)	2010-05-04 12:54:10	219
+eaal	233	Other Environment	2010-05-04 12:54:10	219
+eagerfindersql	237	Web Environment	2010-05-04 12:54:10	219
+ean	237	Web Environment	2010-05-04 12:54:10	219
+earfl	237	Web Environment	2010-05-04 12:54:10	219
+eassl	233	Other Environment	2010-05-04 12:54:10	219
+easygameengine	226	Console (Text Based)	2010-05-04 12:54:10	219
+easygameengine	230	Win32 (MS Windows)	2010-05-04 12:54:10	219
+easykb	237	Web Environment	2010-05-04 12:54:11	219
+easymessages	237	Web Environment	2010-05-04 12:54:11	219
+easyproj	237	Web Environment	2010-05-04 12:54:11	219
+easyprompt	226	Console (Text Based)	2010-05-04 12:54:11	219
+ebay4r	237	Web Environment	2010-05-04 12:54:11	219
+eblog	230	Win32 (MS Windows)	2010-05-04 12:54:11	219
+echi-converter	230	Win32 (MS Windows)	2010-05-04 12:54:11	219
+echi-converter	238	No Input/Output (Daemon)	2010-05-04 12:54:11	219
+ecmdlineparser	226	Console (Text Based)	2010-05-04 12:54:11	219
+ecommerce	237	Web Environment	2010-05-04 12:54:11	219
+ecs	226	Console (Text Based)	2010-05-04 12:54:11	219
+ecs	237	Web Environment	2010-05-04 12:54:11	219
+eduerp	229	X11 Applications	2010-05-04 12:54:11	219
+edx	310	Fox	2010-05-04 12:54:11	219
+efp	237	Web Environment	2010-05-04 12:54:11	219
+eldorado	237	Web Environment	2010-05-04 12:54:11	219
+eleanor	226	Console (Text Based)	2010-05-04 12:54:11	219
+elektronik	237	Web Environment	2010-05-04 12:54:11	219
+element	226	Console (Text Based)	2010-05-04 12:54:11	219
+element	237	Web Environment	2010-05-04 12:54:11	219
+elephant	237	Web Environment	2010-05-04 12:54:11	219
+elevator	237	Web Environment	2010-05-04 12:54:11	219
+elif	226	Console (Text Based)	2010-05-04 12:54:11	219
+elitejournal	237	Web Environment	2010-05-04 12:54:11	219
+emdrb	238	No Input/Output (Daemon)	2010-05-04 12:54:11	219
+emerald	237	Web Environment	2010-05-04 12:54:11	219
+emilsscraper	230	Win32 (MS Windows)	2010-05-04 12:54:11	219
+emoji	233	Other Environment	2010-05-04 12:54:12	219
+emoji	237	Web Environment	2010-05-04 12:54:12	219
+emojiconv	237	Web Environment	2010-05-04 12:54:12	219
+encml	238	No Input/Output (Daemon)	2010-05-04 12:54:12	219
+ender	238	No Input/Output (Daemon)	2010-05-04 12:54:12	219
+enemy	237	Web Environment	2010-05-04 12:54:12	219
+energon	237	Web Environment	2010-05-04 12:54:12	219
+enforce-limits	237	Web Environment	2010-05-04 12:54:12	219
+enhanced-mgrtns	237	Web Environment	2010-05-04 12:54:12	219
+enigma	233	Other Environment	2010-05-04 12:54:12	219
+enigma	237	Web Environment	2010-05-04 12:54:12	219
+equipment	237	Web Environment	2010-05-04 12:54:12	219
+erlbox	226	Console (Text Based)	2010-05-04 12:54:12	219
+erlgen	226	Console (Text Based)	2010-05-04 12:54:12	219
+erubis	226	Console (Text Based)	2010-05-04 12:54:12	219
+erun	237	Web Environment	2010-05-04 12:54:12	219
+eruta	229	X11 Applications	2010-05-04 12:54:12	219
+eruta	230	Win32 (MS Windows)	2010-05-04 12:54:12	219
+eruta	313	Cocoa (MacOS X)	2010-05-04 12:54:12	219
+eschool	237	Web Environment	2010-05-04 12:54:12	219
+escptopdf	226	Console (Text Based)	2010-05-04 12:54:12	219
+esmir	238	No Input/Output (Daemon)	2010-05-04 12:54:12	219
+esp	237	Web Environment	2010-05-04 12:54:12	219
+et-tool	310	Fox	2010-05-04 12:54:12	219
+etch	230	Win32 (MS Windows)	2010-05-04 12:54:12	219
+etchrec	237	Web Environment	2010-05-04 12:54:12	219
+eteos-client	237	Web Environment	2010-05-04 12:54:12	219
+etherquest	227	Curses	2010-05-04 12:54:12	219
+etherquest	230	Win32 (MS Windows)	2010-05-04 12:54:12	219
+etherquest	229	X11 Applications	2010-05-04 12:54:12	219
+ev-memcache-cli	238	No Input/Output (Daemon)	2010-05-04 12:54:13	219
+ev-memcache-cli	226	Console (Text Based)	2010-05-04 12:54:13	219
+evangelisator	231	Gnome	2010-05-04 12:54:13	219
+eve-igb	237	Web Environment	2010-05-04 12:54:13	219
+eveapi	238	No Input/Output (Daemon)	2010-05-04 12:54:13	219
+eventlogger	237	Web Environment	2010-05-04 12:54:13	219
+eventmachine	226	Console (Text Based)	2010-05-04 12:54:13	219
+everdex	230	Win32 (MS Windows)	2010-05-04 12:54:13	219
+evm	226	Console (Text Based)	2010-05-04 12:54:13	219
+evosynth	226	Console (Text Based)	2010-05-04 12:54:13	219
+exact4r	237	Web Environment	2010-05-04 12:54:13	219
+excelio	237	Web Environment	2010-05-04 12:54:13	219
+exclusive-flags	237	Web Environment	2010-05-04 12:54:13	219
+exif-graph	226	Console (Text Based)	2010-05-04 12:54:13	219
+exiffu	237	Web Environment	2010-05-04 12:54:13	219
+exist-xml-rpc	237	Web Environment	2010-05-04 12:54:13	219
+expensetracker	237	Web Environment	2010-05-04 12:54:13	219
+expire-sessions	237	Web Environment	2010-05-04 12:54:13	219
+explainpmt	237	Web Environment	2010-05-04 12:54:13	219
+extmath	226	Console (Text Based)	2010-05-04 12:54:13	219
+extract-curves	231	Gnome	2010-05-04 12:54:13	219
+ezabel	237	Web Environment	2010-05-04 12:54:14	219
+ezgtk	231	Gnome	2010-05-04 12:54:14	219
+f-m	229	X11 Applications	2010-05-04 12:54:14	219
+f-m	310	Fox	2010-05-04 12:54:14	219
+facebookbot	226	Console (Text Based)	2010-05-04 12:54:14	219
+facter	226	Console (Text Based)	2010-05-04 12:54:14	219
+facter	238	No Input/Output (Daemon)	2010-05-04 12:54:14	219
+fakeweb	226	Console (Text Based)	2010-05-04 12:54:14	219
+familycalendar	237	Web Environment	2010-05-04 12:54:14	219
+familyconnect	237	Web Environment	2010-05-04 12:54:14	219
+fastercsv	226	Console (Text Based)	2010-05-04 12:54:14	219
+fasterh	237	Web Environment	2010-05-04 12:54:14	219
+fasterpath	237	Web Environment	2010-05-04 12:54:14	219
+fastreader	227	Curses	2010-05-04 12:54:14	219
+fatfreecrm	237	Web Environment	2010-05-04 12:54:14	219
+fathom	237	Web Environment	2010-05-04 12:54:14	219
+fblib	238	No Input/Output (Daemon)	2010-05-04 12:54:14	219
+fcca	230	Win32 (MS Windows)	2010-05-04 12:54:14	219
+fcca	229	X11 Applications	2010-05-04 12:54:14	219
+fccropper	237	Web Environment	2010-05-04 12:54:14	219
+fcgi	237	Web Environment	2010-05-04 12:54:14	219
+feed-discover	226	Console (Text Based)	2010-05-04 12:54:14	219
+feedblender	226	Console (Text Based)	2010-05-04 12:54:15	219
+feeddiscoverapi	238	No Input/Output (Daemon)	2010-05-04 12:54:15	219
+feeds	237	Web Environment	2010-05-04 12:54:15	219
+feedvalidator	226	Console (Text Based)	2010-05-04 12:54:15	219
+feedvalidator	237	Web Environment	2010-05-04 12:54:15	219
+femail	237	Web Environment	2010-05-04 12:54:15	219
+ferb	226	Console (Text Based)	2010-05-04 12:54:15	219
+ffi-ncurses	227	Curses	2010-05-04 12:54:15	219
+fforum	237	Web Environment	2010-05-04 12:54:15	219
+fhlow	226	Console (Text Based)	2010-05-04 12:54:15	219
+fhlow	311	WxWidgits	2010-05-04 12:54:15	219
+filament	226	Console (Text Based)	2010-05-04 12:54:15	219
+file-formatter	237	Web Environment	2010-05-04 12:54:15	219
+file-formatter	226	Console (Text Based)	2010-05-04 12:54:15	219
+filebrowser	237	Web Environment	2010-05-04 12:54:15	219
+filecache	233	Other Environment	2010-05-04 12:54:15	219
+filefinder	231	Gnome	2010-05-04 12:54:15	219
+filereplacer	226	Console (Text Based)	2010-05-04 12:54:15	219
+filereplacer	230	Win32 (MS Windows)	2010-05-04 12:54:15	219
+filereplicator	226	Console (Text Based)	2010-05-04 12:54:15	219
+filetter	226	Console (Text Based)	2010-05-04 12:54:15	219
+filtered-list	237	Web Environment	2010-05-04 12:54:15	219
+financasonrails	237	Web Environment	2010-05-04 12:54:15	219
+finance-tvm	233	Other Environment	2010-05-04 12:54:15	219
+firephruby	237	Web Environment	2010-05-04 12:54:16	219
+fireruby	233	Other Environment	2010-05-04 12:54:16	219
+fishtrack	226	Console (Text Based)	2010-05-04 12:54:16	219
+fityk-ruby	233	Other Environment	2010-05-04 12:54:16	219
+flacinfo-rb	226	Console (Text Based)	2010-05-04 12:54:16	219
+flash-helper	237	Web Environment	2010-05-04 12:54:16	219
+flash-plugin	237	Web Environment	2010-05-04 12:54:16	219
+flashgame	237	Web Environment	2010-05-04 12:54:16	219
+flashrails	230	Win32 (MS Windows)	2010-05-04 12:54:16	219
+flex-attributes	237	Web Environment	2010-05-04 12:54:16	219
+flexamater	237	Web Environment	2010-05-04 12:54:16	219
+flexboox	237	Web Environment	2010-05-04 12:54:16	219
+flexboox	231	Gnome	2010-05-04 12:54:16	219
+flexible-rails	237	Web Environment	2010-05-04 12:54:16	219
+flextimes	237	Web Environment	2010-05-04 12:54:16	219
+flickrfetchr	226	Console (Text Based)	2010-05-04 12:54:16	219
+flickrfetchr	233	Other Environment	2010-05-04 12:54:16	219
+fliewr	231	Gnome	2010-05-04 12:54:16	219
+flipper	237	Web Environment	2010-05-04 12:54:16	219
+flite4r	233	Other Environment	2010-05-04 12:54:16	219
+flittr	310	Fox	2010-05-04 12:54:16	219
+flixr	230	Win32 (MS Windows)	2010-05-04 12:54:16	219
+flixr	231	Gnome	2010-05-04 12:54:16	219
+flotilla	237	Web Environment	2010-05-04 12:54:16	219
+flout	226	Console (Text Based)	2010-05-04 12:54:16	219
+fluentxpath	233	Other Environment	2010-05-04 12:54:17	219
+fluid	238	No Input/Output (Daemon)	2010-05-04 12:54:17	219
+fluxr	238	No Input/Output (Daemon)	2010-05-04 12:54:17	219
+fluxr	237	Web Environment	2010-05-04 12:54:17	219
+flvtool2	226	Console (Text Based)	2010-05-04 12:54:17	219
+fly	226	Console (Text Based)	2010-05-04 12:54:17	219
+fly	237	Web Environment	2010-05-04 12:54:17	219
+flytrap	237	Web Environment	2010-05-04 12:54:17	219
+flytrap	226	Console (Text Based)	2010-05-04 12:54:17	219
+fmq	226	Console (Text Based)	2010-05-04 12:54:17	219
+fmq	237	Web Environment	2010-05-04 12:54:17	219
+fop4rails	237	Web Environment	2010-05-04 12:54:17	219
+forc	229	X11 Applications	2010-05-04 12:54:17	219
+forgespider	237	Web Environment	2010-05-04 12:54:17	219
+forgetful	226	Console (Text Based)	2010-05-04 12:54:17	219
+formatr	226	Console (Text Based)	2010-05-04 12:54:17	219
+formbuilder	237	Web Environment	2010-05-04 12:54:17	219
+forulio	237	Web Environment	2010-05-04 12:54:17	219
+foundry	226	Console (Text Based)	2010-05-04 12:54:17	219
+foursquare	237	Web Environment	2010-05-04 12:54:17	219
+fox-tool	230	Win32 (MS Windows)	2010-05-04 12:54:17	219
+fox-tool	229	X11 Applications	2010-05-04 12:54:17	219
+freeride	230	Win32 (MS Windows)	2010-05-04 12:54:17	219
+freeride	229	X11 Applications	2010-05-04 12:54:17	219
+frusdl	229	X11 Applications	2010-05-04 12:54:17	219
+frusdl	230	Win32 (MS Windows)	2010-05-04 12:54:17	219
+frusdl	313	Cocoa (MacOS X)	2010-05-04 12:54:17	219
+fsmgen	238	No Input/Output (Daemon)	2010-05-04 12:54:18	219
+ftpfxp	233	Other Environment	2010-05-04 12:54:18	219
+fudger	231	Gnome	2010-05-04 12:54:18	219
+funfx	230	Win32 (MS Windows)	2010-05-04 12:54:18	219
+funfx	237	Web Environment	2010-05-04 12:54:18	219
+fuzzyfixtures	237	Web Environment	2010-05-04 12:54:18	219
+fxframework	310	Fox	2010-05-04 12:54:18	219
+fxframework	230	Win32 (MS Windows)	2010-05-04 12:54:18	219
+fxframework	229	X11 Applications	2010-05-04 12:54:18	219
+fxirb	229	X11 Applications	2010-05-04 12:54:18	219
+fxirb	230	Win32 (MS Windows)	2010-05-04 12:54:18	219
+fxirb	310	Fox	2010-05-04 12:54:18	219
+fxri	310	Fox	2010-05-04 12:54:18	219
+fxsvgcanvas	230	Win32 (MS Windows)	2010-05-04 12:54:18	219
+fxsvgcanvas	229	X11 Applications	2010-05-04 12:54:18	219
+g-gem	226	Console (Text Based)	2010-05-04 12:54:18	219
+g11n	237	Web Environment	2010-05-04 12:54:18	219
+g3d-ruby	229	X11 Applications	2010-05-04 12:54:18	219
+g3d-ruby	230	Win32 (MS Windows)	2010-05-04 12:54:18	219
+g3l	237	Web Environment	2010-05-04 12:54:18	219
+galaxy	237	Web Environment	2010-05-04 12:54:18	219
+galena	226	Console (Text Based)	2010-05-04 12:54:18	219
+gallery-remote	233	Other Environment	2010-05-04 12:54:18	219
+gallery-remote	226	Console (Text Based)	2010-05-04 12:54:18	219
+gambit	237	Web Environment	2010-05-04 12:54:18	219
+gamequery	226	Console (Text Based)	2010-05-04 12:54:18	219
+gamequery	233	Other Environment	2010-05-04 12:54:18	219
+gaspode	238	No Input/Output (Daemon)	2010-05-04 12:54:18	219
+gatekeeper	237	Web Environment	2010-05-04 12:54:18	219
+gazette	237	Web Environment	2010-05-04 12:54:18	219
+gcalapi	233	Other Environment	2010-05-04 12:54:19	219
+gcalevents	226	Console (Text Based)	2010-05-04 12:54:19	219
+gcheckout	237	Web Environment	2010-05-04 12:54:19	219
+gcheckout-plug	237	Web Environment	2010-05-04 12:54:19	219
+gd2	237	Web Environment	2010-05-04 12:54:19	219
+gd2	233	Other Environment	2010-05-04 12:54:19	219
+gdata	237	Web Environment	2010-05-04 12:54:19	219
+gdiff	226	Console (Text Based)	2010-05-04 12:54:19	219
+gdiff	238	No Input/Output (Daemon)	2010-05-04 12:54:19	219
+geegocms	237	Web Environment	2010-05-04 12:54:19	219
+geekast	231	Gnome	2010-05-04 12:54:19	219
+gem-make	226	Console (Text Based)	2010-05-04 12:54:19	219
+gem-repackager	226	Console (Text Based)	2010-05-04 12:54:19	219
+geminstaller	226	Console (Text Based)	2010-05-04 12:54:19	219
+gender	238	No Input/Output (Daemon)	2010-05-04 12:54:19	219
+gender	233	Other Environment	2010-05-04 12:54:19	219
+gender	237	Web Environment	2010-05-04 12:54:19	219
+genfrag	238	No Input/Output (Daemon)	2010-05-04 12:54:19	219
+genfrag	226	Console (Text Based)	2010-05-04 12:54:19	219
+genie	238	No Input/Output (Daemon)	2010-05-04 12:54:19	219
+gentlecms	237	Web Environment	2010-05-04 12:54:19	219
+geo	238	No Input/Output (Daemon)	2010-05-04 12:54:19	219
+geogazer	237	Web Environment	2010-05-04 12:54:19	219
+geoip	238	No Input/Output (Daemon)	2010-05-04 12:54:19	219
+geopol	237	Web Environment	2010-05-04 12:54:20	219
+george	237	Web Environment	2010-05-04 12:54:20	219
+georuby	237	Web Environment	2010-05-04 12:54:20	219
+gesperanto	227	Curses	2010-05-04 12:54:20	219
+gesperanto	231	Gnome	2010-05-04 12:54:20	219
+getoptdeclare	226	Console (Text Based)	2010-05-04 12:54:20	219
+getoptions	226	Console (Text Based)	2010-05-04 12:54:20	219
+gettext	233	Other Environment	2010-05-04 12:54:20	219
+gettext	237	Web Environment	2010-05-04 12:54:20	219
+gettextlocalize	237	Web Environment	2010-05-04 12:54:20	219
+getyouridx-ruby	233	Other Environment	2010-05-04 12:54:20	219
+gewee	231	Gnome	2010-05-04 12:54:20	219
+gforge-console	233	Other Environment	2010-05-04 12:54:20	219
+gforge-console	226	Console (Text Based)	2010-05-04 12:54:20	219
+ggenv	226	Console (Text Based)	2010-05-04 12:54:20	219
+gglib	313	Cocoa (MacOS X)	2010-05-04 12:54:20	219
+gglib	230	Win32 (MS Windows)	2010-05-04 12:54:20	219
+gglib	229	X11 Applications	2010-05-04 12:54:20	219
+ggraphwidget	231	Gnome	2010-05-04 12:54:20	219
+ghost	226	Console (Text Based)	2010-05-04 12:54:20	219
+ghostwheel	226	Console (Text Based)	2010-05-04 12:54:20	219
+gil	226	Console (Text Based)	2010-05-04 12:54:20	219
+ginst	238	No Input/Output (Daemon)	2010-05-04 12:54:20	219
+gipper	226	Console (Text Based)	2010-05-04 12:54:20	219
+git	226	Console (Text Based)	2010-05-04 12:54:20	219
+git-rails	226	Console (Text Based)	2010-05-04 12:54:20	219
+git-trac	226	Console (Text Based)	2010-05-04 12:54:20	219
+git-webhook	233	Other Environment	2010-05-04 12:54:20	219
+gitchart	226	Console (Text Based)	2010-05-04 12:54:20	219
+gitian-tools	226	Console (Text Based)	2010-05-04 12:54:20	219
+gitian-tools	237	Web Environment	2010-05-04 12:54:20	219
+gitjour	226	Console (Text Based)	2010-05-04 12:54:20	219
+glad	233	Other Environment	2010-05-04 12:54:21	219
+gli	226	Console (Text Based)	2010-05-04 12:54:21	219
+glimr	313	Cocoa (MacOS X)	2010-05-04 12:54:21	219
+glimr	230	Win32 (MS Windows)	2010-05-04 12:54:21	219
+glimr	229	X11 Applications	2010-05-04 12:54:21	219
+globalize	237	Web Environment	2010-05-04 12:54:21	219
+gltail	229	X11 Applications	2010-05-04 12:54:21	219
+glue-factory	237	Web Environment	2010-05-04 12:54:21	219
+gmailutils	226	Console (Text Based)	2010-05-04 12:54:21	219
+gmaps2	237	Web Environment	2010-05-04 12:54:21	219
+gms	237	Web Environment	2010-05-04 12:54:21	219
+gnetvibes	231	Gnome	2010-05-04 12:54:21	219
+gnms	231	Gnome	2010-05-04 12:54:21	219
+gnome-art	231	Gnome	2010-05-04 12:54:21	219
+gnumedia	237	Web Environment	2010-05-04 12:54:21	219
+gnuplot	226	Console (Text Based)	2010-05-04 12:54:21	219
+gnuplot	230	Win32 (MS Windows)	2010-05-04 12:54:21	219
+gnuplot	229	X11 Applications	2010-05-04 12:54:21	219
+goals-fond	237	Web Environment	2010-05-04 12:54:21	219
+goform	237	Web Environment	2010-05-04 12:54:21	219
+goldberg	237	Web Environment	2010-05-04 12:54:21	219
+gong	310	Fox	2010-05-04 12:54:21	219
+google-checkout	237	Web Environment	2010-05-04 12:54:21	219
+google-video	237	Web Environment	2010-05-04 12:54:21	219
+google-video	226	Console (Text Based)	2010-05-04 12:54:21	219
+google4r	238	No Input/Output (Daemon)	2010-05-04 12:54:21	219
+googlecalendar	233	Other Environment	2010-05-04 12:54:21	219
+googlecalendar	237	Web Environment	2010-05-04 12:54:21	219
+googlecheckout	237	Web Environment	2010-05-04 12:54:21	219
+googlepagerank	237	Web Environment	2010-05-04 12:54:21	219
+googlepagerank	226	Console (Text Based)	2010-05-04 12:54:21	219
+googleservice	237	Web Environment	2010-05-04 12:54:21	219
+gor	237	Web Environment	2010-05-04 12:54:22	219
+gossamer	237	Web Environment	2010-05-04 12:54:22	219
+gossip	238	No Input/Output (Daemon)	2010-05-04 12:54:22	219
+gowda	237	Web Environment	2010-05-04 12:54:22	219
+gpstrail	230	Win32 (MS Windows)	2010-05-04 12:54:22	219
+gpxtools	226	Console (Text Based)	2010-05-04 12:54:22	219
+graffle	238	No Input/Output (Daemon)	2010-05-04 12:54:22	219
+granen	226	Console (Text Based)	2010-05-04 12:54:22	219
+graphiclious	226	Console (Text Based)	2010-05-04 12:54:22	219
+graphiclious	310	Fox	2010-05-04 12:54:22	219
+gravatarplugin	237	Web Environment	2010-05-04 12:54:22	219
+grb	226	Console (Text Based)	2010-05-04 12:54:22	219
+grchart	231	Gnome	2010-05-04 12:54:22	219
+greencloth	226	Console (Text Based)	2010-05-04 12:54:22	219
+greenpepperruby	226	Console (Text Based)	2010-05-04 12:54:22	219
+grill	231	Gnome	2010-05-04 12:54:22	219
+grism	229	X11 Applications	2010-05-04 12:54:22	219
+grism	230	Win32 (MS Windows)	2010-05-04 12:54:22	219
+ground	237	Web Environment	2010-05-04 12:54:22	219
+groundwork	226	Console (Text Based)	2010-05-04 12:54:22	219
+growl-logger	313	Cocoa (MacOS X)	2010-05-04 12:54:22	219
+growl-logger	230	Win32 (MS Windows)	2010-05-04 12:54:22	219
+gruesome	237	Web Environment	2010-05-04 12:54:23	219
+gruesome	226	Console (Text Based)	2010-05-04 12:54:23	219
+gruff	237	Web Environment	2010-05-04 12:54:23	219
+grumblr	231	Gnome	2010-05-04 12:54:23	219
+gs-phone	226	Console (Text Based)	2010-05-04 12:54:23	219
+gsm	237	Web Environment	2010-05-04 12:54:23	219
+gst	229	X11 Applications	2010-05-04 12:54:23	219
+gtk-fortune	231	Gnome	2010-05-04 12:54:23	219
+gtk2alertapp	231	Gnome	2010-05-04 12:54:23	219
+gtk2applib	231	Gnome	2010-05-04 12:54:23	219
+gtk2blackjack	231	Gnome	2010-05-04 12:54:23	219
+gtk2bookmarks	231	Gnome	2010-05-04 12:54:23	219
+gtk2diaryapp	231	Gnome	2010-05-04 12:54:23	219
+gtk2passwordapp	231	Gnome	2010-05-04 12:54:23	219
+gtk2todoapp	231	Gnome	2010-05-04 12:54:23	219
+gtk2twitter	231	Gnome	2010-05-04 12:54:23	219
+gtk2youtubeapp	231	Gnome	2010-05-04 12:54:23	219
+gtkrules	230	Win32 (MS Windows)	2010-05-04 12:54:23	219
+gtkrules	231	Gnome	2010-05-04 12:54:23	219
+gueda	229	X11 Applications	2010-05-04 12:54:23	219
+guessmethod	226	Console (Text Based)	2010-05-04 12:54:23	219
+guff	226	Console (Text Based)	2010-05-04 12:54:23	219
+guild	237	Web Environment	2010-05-04 12:54:23	219
+guildbuilds	237	Web Environment	2010-05-04 12:54:23	219
+guitest	230	Win32 (MS Windows)	2010-05-04 12:54:23	219
+gurgitate-mail	226	Console (Text Based)	2010-05-04 12:54:23	219
+gwdamcalc	226	Console (Text Based)	2010-05-04 12:54:23	219
+haberdasher	237	Web Environment	2010-05-04 12:54:23	219
+halcyon	238	No Input/Output (Daemon)	2010-05-04 12:54:23	219
+halcyon	237	Web Environment	2010-05-04 12:54:23	219
+ham	233	Other Environment	2010-05-04 12:54:23	219
+hammer	233	Other Environment	2010-05-04 12:54:24	219
+hamr	311	WxWidgits	2010-05-04 12:54:24	219
+hamster	237	Web Environment	2010-05-04 12:54:24	219
+hancock	237	Web Environment	2010-05-04 12:54:24	219
+handy	226	Console (Text Based)	2010-05-04 12:54:24	219
+handy	238	No Input/Output (Daemon)	2010-05-04 12:54:24	219
+handynotes	237	Web Environment	2010-05-04 12:54:24	219
+happygirl	233	Other Environment	2010-05-04 12:54:24	219
+harmonize	313	Cocoa (MacOS X)	2010-05-04 12:54:24	219
+has-fixtures	237	Web Environment	2010-05-04 12:54:24	219
+has-image	226	Console (Text Based)	2010-05-04 12:54:24	219
+hash-access	226	Console (Text Based)	2010-05-04 12:54:24	219
+hatenagraphup	226	Console (Text Based)	2010-05-04 12:54:24	219
+hedgehog	237	Web Environment	2010-05-04 12:54:24	219
+helpengine	237	Web Environment	2010-05-04 12:54:24	219
+herd	226	Console (Text Based)	2010-05-04 12:54:24	219
+herd	238	No Input/Output (Daemon)	2010-05-04 12:54:24	219
+herd	237	Web Environment	2010-05-04 12:54:24	219
+hgeruby	230	Win32 (MS Windows)	2010-05-04 12:54:24	219
+higgs	233	Other Environment	2010-05-04 12:54:25	219
+highline	226	Console (Text Based)	2010-05-04 12:54:25	219
+highwire	237	Web Environment	2010-05-04 12:54:25	219
+hilfer	229	X11 Applications	2010-05-04 12:54:25	219
+hilgo	237	Web Environment	2010-05-04 12:54:25	219
+hipster	230	Win32 (MS Windows)	2010-05-04 12:54:25	219
+hobix	237	Web Environment	2010-05-04 12:54:25	219
+hobix	226	Console (Text Based)	2010-05-04 12:54:25	219
+holidays	226	Console (Text Based)	2010-05-04 12:54:25	219
+holidays	237	Web Environment	2010-05-04 12:54:25	219
+holidays	230	Win32 (MS Windows)	2010-05-04 12:54:25	219
+homeagent	237	Web Environment	2010-05-04 12:54:25	219
+homecenter	237	Web Environment	2010-05-04 12:54:25	219
+homer	238	No Input/Output (Daemon)	2010-05-04 12:54:25	219
+homeschool	226	Console (Text Based)	2010-05-04 12:54:25	219
+homeschool	233	Other Environment	2010-05-04 12:54:25	219
+homeschool	237	Web Environment	2010-05-04 12:54:25	219
+honey-do	230	Win32 (MS Windows)	2010-05-04 12:54:25	219
+honey-do	237	Web Environment	2010-05-04 12:54:25	219
+hornetseye	226	Console (Text Based)	2010-05-04 12:54:25	219
+hornetseye	229	X11 Applications	2010-05-04 12:54:25	219
+hostblock	238	No Input/Output (Daemon)	2010-05-04 12:54:25	219
+hostconnect	237	Web Environment	2010-05-04 12:54:25	219
+hotmailer	226	Console (Text Based)	2010-05-04 12:54:25	219
+hotp	233	Other Environment	2010-05-04 12:54:25	219
+howdy	226	Console (Text Based)	2010-05-04 12:54:25	219
+hparser	226	Console (Text Based)	2010-05-04 12:54:25	219
+hpricot-scrub	237	Web Environment	2010-05-04 12:54:25	219
+hrman	237	Web Environment	2010-05-04 12:54:25	219
+htaccess	237	Web Environment	2010-05-04 12:54:25	219
+html2csv	226	Console (Text Based)	2010-05-04 12:54:25	219
+htmldoc	237	Web Environment	2010-05-04 12:54:25	219
+httpal	233	Other Environment	2010-05-04 12:54:25	219
+httpal	237	Web Environment	2010-05-04 12:54:25	219
+httpauth	237	Web Environment	2010-05-04 12:54:26	219
+httpbl	237	Web Environment	2010-05-04 12:54:26	219
+hunspell	226	Console (Text Based)	2010-05-04 12:54:26	219
+hyperactvrsrc	237	Web Environment	2010-05-04 12:54:26	219
+i-candy	237	Web Environment	2010-05-04 12:54:26	219
+i18nrb	237	Web Environment	2010-05-04 12:54:26	219
+iab	237	Web Environment	2010-05-04 12:54:26	219
+ib-ruby	226	Console (Text Based)	2010-05-04 12:54:26	219
+ibank2	226	Console (Text Based)	2010-05-04 12:54:26	219
+ibes	237	Web Environment	2010-05-04 12:54:26	219
+icalc	226	Console (Text Based)	2010-05-04 12:54:26	219
+icalendar	226	Console (Text Based)	2010-05-04 12:54:26	219
+icalendar	237	Web Environment	2010-05-04 12:54:26	219
+icalendar	229	X11 Applications	2010-05-04 12:54:26	219
+icarus	226	Console (Text Based)	2010-05-04 12:54:26	219
+ideal-ruby	237	Web Environment	2010-05-04 12:54:26	219
+ideaxchange	237	Web Environment	2010-05-04 12:54:26	219
+idiomag	233	Other Environment	2010-05-04 12:54:26	219
+idn	233	Other Environment	2010-05-04 12:54:26	219
+idn	237	Web Environment	2010-05-04 12:54:26	219
+idt	230	Win32 (MS Windows)	2010-05-04 12:54:26	219
+idt	226	Console (Text Based)	2010-05-04 12:54:26	219
+idvault	237	Web Environment	2010-05-04 12:54:26	219
+ifetch-tools	238	No Input/Output (Daemon)	2010-05-04 12:54:26	219
+iffish	313	Cocoa (MacOS X)	2010-05-04 12:54:26	219
+iffish	230	Win32 (MS Windows)	2010-05-04 12:54:26	219
+iffish	229	X11 Applications	2010-05-04 12:54:26	219
+ifmapper	310	Fox	2010-05-04 12:54:26	219
+iforead	226	Console (Text Based)	2010-05-04 12:54:26	219
+ifragmentcache	237	Web Environment	2010-05-04 12:54:26	219
+iii	237	Web Environment	2010-05-04 12:54:27	219
+ikko	233	Other Environment	2010-05-04 12:54:27	219
+image-data	229	X11 Applications	2010-05-04 12:54:27	219
+image-data	237	Web Environment	2010-05-04 12:54:27	219
+image-data	226	Console (Text Based)	2010-05-04 12:54:27	219
+imagetooth	226	Console (Text Based)	2010-05-04 12:54:27	219
+imagevenue	226	Console (Text Based)	2010-05-04 12:54:27	219
+imagine	237	Web Environment	2010-05-04 12:54:27	219
+imapget	226	Console (Text Based)	2010-05-04 12:54:27	219
+imapstore	226	Console (Text Based)	2010-05-04 12:54:27	219
+imparcial	226	Console (Text Based)	2010-05-04 12:54:27	219
+imposer	226	Console (Text Based)	2010-05-04 12:54:27	219
+informl	237	Web Environment	2010-05-04 12:54:27	219
+infotech	237	Web Environment	2010-05-04 12:54:27	219
+inline	226	Console (Text Based)	2010-05-04 12:54:27	219
+inoto	237	Web Environment	2010-05-04 12:54:27	219
+inplacecontrols	237	Web Environment	2010-05-04 12:54:27	219
+input	226	Console (Text Based)	2010-05-04 12:54:27	219
+inquest	238	No Input/Output (Daemon)	2010-05-04 12:54:27	219
+inquisitor	237	Web Environment	2010-05-04 12:54:27	219
+instantredmine	230	Win32 (MS Windows)	2010-05-04 12:54:27	219
+instiki	237	Web Environment	2010-05-04 12:54:27	219
+instiki	238	No Input/Output (Daemon)	2010-05-04 12:54:27	219
+integral	226	Console (Text Based)	2010-05-04 12:54:27	219
+integrator2	237	Web Environment	2010-05-04 12:54:27	219
+integrator2	230	Win32 (MS Windows)	2010-05-04 12:54:27	219
+integrator2	231	Gnome	2010-05-04 12:54:27	219
+integrity	237	Web Environment	2010-05-04 12:54:27	219
+integrity	226	Console (Text Based)	2010-05-04 12:54:27	219
+investrackr	237	Web Environment	2010-05-04 12:54:28	219
+invoicing	237	Web Environment	2010-05-04 12:54:28	219
+io-like	226	Console (Text Based)	2010-05-04 12:54:28	219
+io-like	238	No Input/Output (Daemon)	2010-05-04 12:54:28	219
+io-like	233	Other Environment	2010-05-04 12:54:28	219
+iowa	237	Web Environment	2010-05-04 12:54:28	219
+ip-address	233	Other Environment	2010-05-04 12:54:28	219
+ipaccess	238	No Input/Output (Daemon)	2010-05-04 12:54:28	219
+iptcext	226	Console (Text Based)	2010-05-04 12:54:28	219
+irbal	226	Console (Text Based)	2010-05-04 12:54:28	219
+irccat	237	Web Environment	2010-05-04 12:54:28	219
+irccat	226	Console (Text Based)	2010-05-04 12:54:28	219
+irk	237	Web Environment	2010-05-04 12:54:28	219
+ironruby	233	Other Environment	2010-05-04 12:54:28	219
+ironruby	230	Win32 (MS Windows)	2010-05-04 12:54:28	219
+irr	226	Console (Text Based)	2010-05-04 12:54:28	219
+irr	229	X11 Applications	2010-05-04 12:54:28	219
+iruby-mode	233	Other Environment	2010-05-04 12:54:28	219
+is-gd	238	No Input/Output (Daemon)	2010-05-04 12:54:28	219
+isefad	227	Curses	2010-05-04 12:54:28	219
+isi-rb	226	Console (Text Based)	2010-05-04 12:54:28	219
+isiqongo	237	Web Environment	2010-05-04 12:54:28	219
+isitiphone	237	Web Environment	2010-05-04 12:54:28	219
+iso8583	233	Other Environment	2010-05-04 12:54:28	219
+iso8583	238	No Input/Output (Daemon)	2010-05-04 12:54:28	219
+isync	313	Cocoa (MacOS X)	2010-05-04 12:54:28	219
+itunes-rm-dups	313	Cocoa (MacOS X)	2010-05-04 12:54:29	219
+itunesxmlparser	230	Win32 (MS Windows)	2010-05-04 12:54:29	219
+ivy	237	Web Environment	2010-05-04 12:54:29	219
+iwget	226	Console (Text Based)	2010-05-04 12:54:29	219
+jabber-bot	238	No Input/Output (Daemon)	2010-05-04 12:54:29	219
+jabber4r	233	Other Environment	2010-05-04 12:54:29	219
+jabberstatus	238	No Input/Output (Daemon)	2010-05-04 12:54:29	219
+jackdaw	313	Cocoa (MacOS X)	2010-05-04 12:54:29	219
+jackdaw	311	WxWidgits	2010-05-04 12:54:29	219
+jackdaw	231	Gnome	2010-05-04 12:54:29	219
+jasper-client	238	No Input/Output (Daemon)	2010-05-04 12:54:29	219
+jasper-rails	237	Web Environment	2010-05-04 12:54:29	219
+javaclass	226	Console (Text Based)	2010-05-04 12:54:29	219
+jdbc-wrapper	233	Other Environment	2010-05-04 12:54:29	219
+jello	238	No Input/Output (Daemon)	2010-05-04 12:54:29	219
+jewelnet	237	Web Environment	2010-05-04 12:54:29	219
+jewelnet	238	No Input/Output (Daemon)	2010-05-04 12:54:29	219
+jewelnet	226	Console (Text Based)	2010-05-04 12:54:29	219
+jite	226	Console (Text Based)	2010-05-04 12:54:29	219
+jldrill	231	Gnome	2010-05-04 12:54:29	219
+jobpot	237	Web Environment	2010-05-04 12:54:29	219
+jobserver	238	No Input/Output (Daemon)	2010-05-04 12:54:29	219
+jobsworth	237	Web Environment	2010-05-04 12:54:29	219
+jobtracker	237	Web Environment	2010-05-04 12:54:29	219
+jota	226	Console (Text Based)	2010-05-04 12:54:29	219
+jota	230	Win32 (MS Windows)	2010-05-04 12:54:29	219
+jota	229	X11 Applications	2010-05-04 12:54:29	219
+journeta	237	Web Environment	2010-05-04 12:54:29	219
+journeta	238	No Input/Output (Daemon)	2010-05-04 12:54:29	219
+journeta	226	Console (Text Based)	2010-05-04 12:54:29	219
+joystick-ruby	238	No Input/Output (Daemon)	2010-05-04 12:54:29	219
+jpmobile	237	Web Environment	2010-05-04 12:54:29	219
+jq4r	237	Web Environment	2010-05-04 12:54:29	219
+jquery-cheat	226	Console (Text Based)	2010-05-04 12:54:29	219
+jrails	237	Web Environment	2010-05-04 12:54:29	219
+jruby-extras	233	Other Environment	2010-05-04 12:54:30	219
+js-developer	237	Web Environment	2010-05-04 12:54:30	219
+js-if-blocks	237	Web Environment	2010-05-04 12:54:30	219
+jscmd	226	Console (Text Based)	2010-05-04 12:54:30	219
+json-rpc	233	Other Environment	2010-05-04 12:54:30	219
+jspp	226	Console (Text Based)	2010-05-04 12:54:30	219
+juggernaut	237	Web Environment	2010-05-04 12:54:30	219
+juglares	237	Web Environment	2010-05-04 12:54:30	219
+juicer	226	Console (Text Based)	2010-05-04 12:54:30	219
+jutorrent	237	Web Environment	2010-05-04 12:54:30	219
+jyte	226	Console (Text Based)	2010-05-04 12:54:30	219
+kabe	237	Web Environment	2010-05-04 12:54:30	219
+kaching	237	Web Environment	2010-05-04 12:54:30	219
+kalculus	232	KDE	2010-05-04 12:54:30	219
+kamila	231	Gnome	2010-05-04 12:54:30	219
+kamila	232	KDE	2010-05-04 12:54:30	219
+kams	226	Console (Text Based)	2010-05-04 12:54:30	219
+kane	230	Win32 (MS Windows)	2010-05-04 12:54:30	219
+kane	229	X11 Applications	2010-05-04 12:54:30	219
+kantan-sgf	226	Console (Text Based)	2010-05-04 12:54:30	219
+kcssbars	232	KDE	2010-05-04 12:54:30	219
+kdialog	232	KDE	2010-05-04 12:54:30	219
+keepyourhead	231	Gnome	2010-05-04 12:54:30	219
+kernul	237	Web Environment	2010-05-04 12:54:30	219
+keybox	226	Console (Text Based)	2010-05-04 12:54:30	219
+keynotegen	233	Other Environment	2010-05-04 12:54:30	219
+keypoint	226	Console (Text Based)	2010-05-04 12:54:30	219
+keyword-density	237	Web Environment	2010-05-04 12:54:30	219
+khammurabi	238	No Input/Output (Daemon)	2010-05-04 12:54:31	219
+khayyam	226	Console (Text Based)	2010-05-04 12:54:31	219
+kilopaper	237	Web Environment	2010-05-04 12:54:31	219
+kind-dom	237	Web Environment	2010-05-04 12:54:31	219
+kirbybase	226	Console (Text Based)	2010-05-04 12:54:31	219
+kirbyrecord	238	No Input/Output (Daemon)	2010-05-04 12:54:31	219
+kit	238	No Input/Output (Daemon)	2010-05-04 12:54:31	219
+kit	237	Web Environment	2010-05-04 12:54:31	219
+kitchen	226	Console (Text Based)	2010-05-04 12:54:31	219
+kitty	226	Console (Text Based)	2010-05-04 12:54:31	219
+kloner	226	Console (Text Based)	2010-05-04 12:54:31	219
+klookup	226	Console (Text Based)	2010-05-04 12:54:31	219
+klookup	237	Web Environment	2010-05-04 12:54:31	219
+kodekopelli	226	Console (Text Based)	2010-05-04 12:54:31	219
+kofblog	237	Web Environment	2010-05-04 12:54:31	219
+kokori	313	Cocoa (MacOS X)	2010-05-04 12:54:31	219
+komment	232	KDE	2010-05-04 12:54:31	219
+korundum	232	KDE	2010-05-04 12:54:31	219
+ksd	231	Gnome	2010-05-04 12:54:31	219
+kucms	237	Web Environment	2010-05-04 12:54:31	219
+kwala	226	Console (Text Based)	2010-05-04 12:54:31	219
+kwalify	226	Console (Text Based)	2010-05-04 12:54:31	219
+kwartz	237	Web Environment	2010-05-04 12:54:31	219
+l-ruby	226	Console (Text Based)	2010-05-04 12:54:31	219
+l5rruby	311	WxWidgits	2010-05-04 12:54:31	219
+labyrinth	237	Web Environment	2010-05-04 12:54:31	219
+lapillus	237	Web Environment	2010-05-04 12:54:32	219
+layout-helper	237	Web Environment	2010-05-04 12:54:32	219
+layout-mollio-g	237	Web Environment	2010-05-04 12:54:32	219
+lazymethods	237	Web Environment	2010-05-04 12:54:32	219
+lazyscript	226	Console (Text Based)	2010-05-04 12:54:32	219
+lazytest	226	Console (Text Based)	2010-05-04 12:54:32	219
+ldap-auth	233	Other Environment	2010-05-04 12:54:32	219
+ldap-auth	237	Web Environment	2010-05-04 12:54:32	219
+ldapfs	226	Console (Text Based)	2010-05-04 12:54:32	219
+ldapmapper	226	Console (Text Based)	2010-05-04 12:54:32	219
+ldapmapper	233	Other Environment	2010-05-04 12:54:32	219
+le-bliki	237	Web Environment	2010-05-04 12:54:32	219
+leaves	226	Console (Text Based)	2010-05-04 12:54:32	219
+ledsign	238	No Input/Output (Daemon)	2010-05-04 12:54:32	219
+ledsign	237	Web Environment	2010-05-04 12:54:32	219
+lego-mindstorms	230	Win32 (MS Windows)	2010-05-04 12:54:32	219
+levenshtein	233	Other Environment	2010-05-04 12:54:32	219
+libastag	233	Other Environment	2010-05-04 12:54:32	219
+libcisco	226	Console (Text Based)	2010-05-04 12:54:32	219
+libgnupg-ruby	233	Other Environment	2010-05-04 12:54:32	219
+libid3tag-ruby	226	Console (Text Based)	2010-05-04 12:54:32	219
+libmtp	226	Console (Text Based)	2010-05-04 12:54:33	219
+librage	229	X11 Applications	2010-05-04 12:54:33	219
+libraryfind	237	Web Environment	2010-05-04 12:54:33	219
+librarysolution	237	Web Environment	2010-05-04 12:54:33	219
+librend	229	X11 Applications	2010-05-04 12:54:33	219
+libtorrent-ruby	237	Web Environment	2010-05-04 12:54:33	219
+libxosd-ruby	229	X11 Applications	2010-05-04 12:54:33	219
+libyate	226	Console (Text Based)	2010-05-04 12:54:33	219
+libyate	233	Other Environment	2010-05-04 12:54:33	219
+libyate	237	Web Environment	2010-05-04 12:54:33	219
+lifeinart	229	X11 Applications	2010-05-04 12:54:33	219
+lifetype	226	Console (Text Based)	2010-05-04 12:54:33	219
+liftoff	237	Web Environment	2010-05-04 12:54:33	219
+lightrail	237	Web Environment	2010-05-04 12:54:33	219
+linearnote	237	Web Environment	2010-05-04 12:54:33	219
+linefit	226	Console (Text Based)	2010-05-04 12:54:33	219
+lingo	226	Console (Text Based)	2010-05-04 12:54:33	219
+linkedscaffold	237	Web Environment	2010-05-04 12:54:33	219
+linkize	237	Web Environment	2010-05-04 12:54:33	219
+linklift-plugin	237	Web Environment	2010-05-04 12:54:33	219
+linnet	226	Console (Text Based)	2010-05-04 12:54:33	219
+linnet	238	No Input/Output (Daemon)	2010-05-04 12:54:33	219
+lipsiadmin	233	Other Environment	2010-05-04 12:54:33	219
+liquidrail	237	Web Environment	2010-05-04 12:54:33	219
+lirp	237	Web Environment	2010-05-04 12:54:33	219
+lisp	226	Console (Text Based)	2010-05-04 12:54:33	219
+list-utils-gem	238	No Input/Output (Daemon)	2010-05-04 12:54:33	219
+listentome	237	Web Environment	2010-05-04 12:54:34	219
+littlelexer	226	Console (Text Based)	2010-05-04 12:54:34	219
+littlestream	237	Web Environment	2010-05-04 12:54:34	219
+live-console	238	No Input/Output (Daemon)	2010-05-04 12:54:34	219
+live-console	226	Console (Text Based)	2010-05-04 12:54:34	219
+lix	226	Console (Text Based)	2010-05-04 12:54:34	219
+lix	238	No Input/Output (Daemon)	2010-05-04 12:54:34	219
+ljpost	226	Console (Text Based)	2010-05-04 12:54:34	219
+lldmud	238	No Input/Output (Daemon)	2010-05-04 12:54:34	219
+lms	237	Web Environment	2010-05-04 12:54:34	219
+lnbackup	226	Console (Text Based)	2010-05-04 12:54:34	219
+locale	233	Other Environment	2010-05-04 12:54:34	219
+locale	237	Web Environment	2010-05-04 12:54:34	219
+locale	229	X11 Applications	2010-05-04 12:54:34	219
+locatehip	226	Console (Text Based)	2010-05-04 12:54:34	219
+log-debug	226	Console (Text Based)	2010-05-04 12:54:34	219
+logilogi	237	Web Environment	2010-05-04 12:54:34	219
+login	237	Web Environment	2010-05-04 12:54:34	219
+loginsugar	237	Web Environment	2010-05-04 12:54:34	219
+loginui	237	Web Environment	2010-05-04 12:54:34	219
+loglibrary	237	Web Environment	2010-05-04 12:54:34	219
+logruby	226	Console (Text Based)	2010-05-04 12:54:34	219
+loki	313	Cocoa (MacOS X)	2010-05-04 12:54:34	219
+lolita	237	Web Environment	2010-05-04 12:54:34	219
+lonelythinker	237	Web Environment	2010-05-04 12:54:34	219
+long-decimal	226	Console (Text Based)	2010-05-04 12:54:34	219
+lookupfields	237	Web Environment	2010-05-04 12:54:34	219
+loom	310	Fox	2010-05-04 12:54:34	219
+lore	226	Console (Text Based)	2010-05-04 12:54:34	219
+lore	237	Web Environment	2010-05-04 12:54:34	219
+lostboysrb	237	Web Environment	2010-05-04 12:54:34	219
+lotto	226	Console (Text Based)	2010-05-04 12:54:34	219
+lpx	226	Console (Text Based)	2010-05-04 12:54:35	219
+ludy	226	Console (Text Based)	2010-05-04 12:54:35	219
+luna-ruby	230	Win32 (MS Windows)	2010-05-04 12:54:35	219
+lustr	311	WxWidgits	2010-05-04 12:54:35	219
+lustr	230	Win32 (MS Windows)	2010-05-04 12:54:35	219
+lustr	237	Web Environment	2010-05-04 12:54:35	219
+luvbot	313	Cocoa (MacOS X)	2010-05-04 12:54:35	219
+luvbot	238	No Input/Output (Daemon)	2010-05-04 12:54:35	219
+luvbot	311	WxWidgits	2010-05-04 12:54:35	219
+lwr-simple	237	Web Environment	2010-05-04 12:54:35	219
+lwr-simple	226	Console (Text Based)	2010-05-04 12:54:35	219
+lwtools	226	Console (Text Based)	2010-05-04 12:54:35	219
+lwtools	233	Other Environment	2010-05-04 12:54:35	219
+machinery	226	Console (Text Based)	2010-05-04 12:54:35	219
+macinstaller	226	Console (Text Based)	2010-05-04 12:54:35	219
+maggaworld	229	X11 Applications	2010-05-04 12:54:35	219
+magicdb	237	Web Environment	2010-05-04 12:54:35	219
+magicmaze	229	X11 Applications	2010-05-04 12:54:35	219
+magicmodel	237	Web Environment	2010-05-04 12:54:35	219
+mail-queue	237	Web Environment	2010-05-04 12:54:35	219
+maildiode	238	No Input/Output (Daemon)	2010-05-04 12:54:35	219
+mailee	237	Web Environment	2010-05-04 12:54:35	219
+mailhub	238	No Input/Output (Daemon)	2010-05-04 12:54:35	219
+mailing-queue	226	Console (Text Based)	2010-05-04 12:54:35	219
+mailproc	226	Console (Text Based)	2010-05-04 12:54:35	219
+mailr	237	Web Environment	2010-05-04 12:54:35	219
+make	226	Console (Text Based)	2010-05-04 12:54:36	219
+mallrat	237	Web Environment	2010-05-04 12:54:36	219
+managesieve	226	Console (Text Based)	2010-05-04 12:54:36	219
+managesystems	237	Web Environment	2010-05-04 12:54:36	219
+mandarina	237	Web Environment	2010-05-04 12:54:36	219
+mandown	226	Console (Text Based)	2010-05-04 12:54:36	219
+mango	237	Web Environment	2010-05-04 12:54:36	219
+maraudeur	233	Other Environment	2010-05-04 12:54:36	219
+marimba	233	Other Environment	2010-05-04 12:54:36	219
+marjoree	230	Win32 (MS Windows)	2010-05-04 12:54:36	219
+markaboo	237	Web Environment	2010-05-04 12:54:36	219
+mars	237	Web Environment	2010-05-04 12:54:36	219
+maruku	226	Console (Text Based)	2010-05-04 12:54:36	219
+maruku	237	Web Environment	2010-05-04 12:54:36	219
+mashfeed	226	Console (Text Based)	2010-05-04 12:54:36	219
+massage	237	Web Environment	2010-05-04 12:54:36	219
+mastership	237	Web Environment	2010-05-04 12:54:36	219
+masterview	237	Web Environment	2010-05-04 12:54:36	219
+matchable	226	Console (Text Based)	2010-05-04 12:54:36	219
+matchable	238	No Input/Output (Daemon)	2010-05-04 12:54:36	219
+matchable	237	Web Environment	2010-05-04 12:54:36	219
+mathwiki	237	Web Environment	2010-05-04 12:54:36	219
+matriculimit	233	Other Environment	2010-05-04 12:54:36	219
+matrixorbital	226	Console (Text Based)	2010-05-04 12:54:36	219
+maveric	237	Web Environment	2010-05-04 12:54:36	219
+maxwiki	237	Web Environment	2010-05-04 12:54:36	219
+mazemaker	311	WxWidgits	2010-05-04 12:54:36	219
+mazemaker	310	Fox	2010-05-04 12:54:36	219
+mcunilib	230	Win32 (MS Windows)	2010-05-04 12:54:37	219
+mechanize	226	Console (Text Based)	2010-05-04 12:54:37	219
+mediacloth	237	Web Environment	2010-05-04 12:54:37	219
+mediaremote	237	Web Environment	2010-05-04 12:54:37	219
+mediawikiclient	237	Web Environment	2010-05-04 12:54:37	219
+meimei	226	Console (Text Based)	2010-05-04 12:54:37	219
+membres	237	Web Environment	2010-05-04 12:54:37	219
+memento	226	Console (Text Based)	2010-05-04 12:54:37	219
+merb-cache	237	Web Environment	2010-05-04 12:54:37	219
+merb-ext-direct	237	Web Environment	2010-05-04 12:54:37	219
+merb-global	237	Web Environment	2010-05-04 12:54:37	219
+merb-mootools	237	Web Environment	2010-05-04 12:54:37	219
+merb-strokedb	238	No Input/Output (Daemon)	2010-05-04 12:54:37	219
+merb-strokedb	233	Other Environment	2010-05-04 12:54:37	219
+merb-strokedb	237	Web Environment	2010-05-04 12:54:37	219
+merbiful	237	Web Environment	2010-05-04 12:54:37	219
+meta-rails	237	Web Environment	2010-05-04 12:54:37	219
+metabuild	226	Console (Text Based)	2010-05-04 12:54:37	219
+metafusion	226	Console (Text Based)	2010-05-04 12:54:37	219
+meth-math	230	Win32 (MS Windows)	2010-05-04 12:54:37	219
+mftools	237	Web Environment	2010-05-04 12:54:38	219
+mfwrite	237	Web Environment	2010-05-04 12:54:38	219
+mget	226	Console (Text Based)	2010-05-04 12:54:38	219
+mhandler	226	Console (Text Based)	2010-05-04 12:54:38	219
+microarray	226	Console (Text Based)	2010-05-04 12:54:38	219
+microengine	237	Web Environment	2010-05-04 12:54:38	219
+midilib	226	Console (Text Based)	2010-05-04 12:54:38	219
+mig-constraints	237	Web Environment	2010-05-04 12:54:38	219
+milk	237	Web Environment	2010-05-04 12:54:38	219
+milk	238	No Input/Output (Daemon)	2010-05-04 12:54:38	219
+milk	226	Console (Text Based)	2010-05-04 12:54:38	219
+mime	233	Other Environment	2010-05-04 12:54:38	219
+mime	237	Web Environment	2010-05-04 12:54:38	219
+mime-alt-lite	233	Other Environment	2010-05-04 12:54:38	219
+mindshare	237	Web Environment	2010-05-04 12:54:38	219
+miner	232	KDE	2010-05-04 12:54:38	219
+mingruby	237	Web Environment	2010-05-04 12:54:38	219
+mingruby	226	Console (Text Based)	2010-05-04 12:54:38	219
+minicomic	226	Console (Text Based)	2010-05-04 12:54:38	219
+minilab	230	Win32 (MS Windows)	2010-05-04 12:54:38	219
+minirubywiki	226	Console (Text Based)	2010-05-04 12:54:38	219
+minirubywiki	237	Web Environment	2010-05-04 12:54:38	219
+ministat	233	Other Environment	2010-05-04 12:54:38	219
+ministat	226	Console (Text Based)	2010-05-04 12:54:38	219
+minuteman	237	Web Environment	2010-05-04 12:54:38	219
+miriad	226	Console (Text Based)	2010-05-04 12:54:38	219
+misctools	230	Win32 (MS Windows)	2010-05-04 12:54:38	219
+mkmf2	226	Console (Text Based)	2010-05-04 12:54:38	219
+ml-ruby	226	Console (Text Based)	2010-05-04 12:54:38	219
+mlmp3p	227	Curses	2010-05-04 12:54:38	219
+mmoplus2	313	Cocoa (MacOS X)	2010-05-04 12:54:39	219
+mmoplus2	230	Win32 (MS Windows)	2010-05-04 12:54:39	219
+mmor	230	Win32 (MS Windows)	2010-05-04 12:54:39	219
+mmor	229	X11 Applications	2010-05-04 12:54:39	219
+mobliki	237	Web Environment	2010-05-04 12:54:39	219
+mobliki	238	No Input/Output (Daemon)	2010-05-04 12:54:39	219
+mobyproxy	237	Web Environment	2010-05-04 12:54:39	219
+model-ac	237	Web Environment	2010-05-04 12:54:39	219
+model-tags	237	Web Environment	2010-05-04 12:54:39	219
+modelbrowser	237	Web Environment	2010-05-04 12:54:39	219
+modspox	226	Console (Text Based)	2010-05-04 12:54:39	219
+mogo24r	226	Console (Text Based)	2010-05-04 12:54:39	219
+mole	226	Console (Text Based)	2010-05-04 12:54:39	219
+mole	237	Web Environment	2010-05-04 12:54:39	219
+mollom	226	Console (Text Based)	2010-05-04 12:54:39	219
+mollom	237	Web Environment	2010-05-04 12:54:39	219
+molruby	226	Console (Text Based)	2010-05-04 12:54:39	219
+mondriancms	237	Web Environment	2010-05-04 12:54:39	219
+monetdb-ror	237	Web Environment	2010-05-04 12:54:39	219
+mongrel-compres	237	Web Environment	2010-05-04 12:54:39	219
+mongrel-cow	238	No Input/Output (Daemon)	2010-05-04 12:54:39	219
+mongrel-stunnel	238	No Input/Output (Daemon)	2010-05-04 12:54:39	219
+monitmanager	237	Web Environment	2010-05-04 12:54:39	219
+monkeybars	313	Cocoa (MacOS X)	2010-05-04 12:54:39	219
+monkeybars	230	Win32 (MS Windows)	2010-05-04 12:54:39	219
+monkeybars	229	X11 Applications	2010-05-04 12:54:39	219
+monkeys	230	Win32 (MS Windows)	2010-05-04 12:54:39	219
+monkeys	229	X11 Applications	2010-05-04 12:54:39	219
+monkeytest	226	Console (Text Based)	2010-05-04 12:54:39	219
+monolog	226	Console (Text Based)	2010-05-04 12:54:39	219
+monorail	226	Console (Text Based)	2010-05-04 12:54:40	219
+monrails	238	No Input/Output (Daemon)	2010-05-04 12:54:40	219
+monrails	237	Web Environment	2010-05-04 12:54:40	219
+moodcube	226	Console (Text Based)	2010-05-04 12:54:40	219
+moodcube	238	No Input/Output (Daemon)	2010-05-04 12:54:40	219
+moron	238	No Input/Output (Daemon)	2010-05-04 12:54:40	219
+moron	226	Console (Text Based)	2010-05-04 12:54:40	219
+mosquito	237	Web Environment	2010-05-04 12:54:40	219
+most-popular	237	Web Environment	2010-05-04 12:54:40	219
+mouliruby	226	Console (Text Based)	2010-05-04 12:54:40	219
+move	237	Web Environment	2010-05-04 12:54:40	219
+mowaon	237	Web Environment	2010-05-04 12:54:40	219
+moxruby	226	Console (Text Based)	2010-05-04 12:54:40	219
+mp3collector	310	Fox	2010-05-04 12:54:40	219
+mp3control	226	Console (Text Based)	2010-05-04 12:54:40	219
+mp3control	238	No Input/Output (Daemon)	2010-05-04 12:54:40	219
+mp3control	237	Web Environment	2010-05-04 12:54:40	219
+mp3retracker	226	Console (Text Based)	2010-05-04 12:54:40	219
+mpd	238	No Input/Output (Daemon)	2010-05-04 12:54:40	219
+mr-guid	231	Gnome	2010-05-04 12:54:40	219
+mrirc	233	Other Environment	2010-05-04 12:54:40	219
+mrirc	237	Web Environment	2010-05-04 12:54:40	219
+mropener	230	Win32 (MS Windows)	2010-05-04 12:54:40	219
+mropener	229	X11 Applications	2010-05-04 12:54:40	219
+mspire	226	Console (Text Based)	2010-05-04 12:54:40	219
+mtik	233	Other Environment	2010-05-04 12:54:40	219
+mtuciproject	230	Win32 (MS Windows)	2010-05-04 12:54:40	219
+mtuciproject	231	Gnome	2010-05-04 12:54:40	219
+muby	226	Console (Text Based)	2010-05-04 12:54:40	219
+muddygems	226	Console (Text Based)	2010-05-04 12:54:41	219
+muding	226	Console (Text Based)	2010-05-04 12:54:41	219
+multi-stmt-qry	237	Web Environment	2010-05-04 12:54:41	219
+multimethod	233	Other Environment	2010-05-04 12:54:41	219
+mundo-pepino	226	Console (Text Based)	2010-05-04 12:54:41	219
+mupnp	233	Other Environment	2010-05-04 12:54:41	219
+muravey-tools	237	Web Environment	2010-05-04 12:54:41	219
+musicextras	229	X11 Applications	2010-05-04 12:54:41	219
+musicextras	226	Console (Text Based)	2010-05-04 12:54:41	219
+mux	226	Console (Text Based)	2010-05-04 12:54:41	219
+mwgui	230	Win32 (MS Windows)	2010-05-04 12:54:41	219
+mxc2	229	X11 Applications	2010-05-04 12:54:41	219
+mxmconnect	237	Web Environment	2010-05-04 12:54:41	219
+mxx-ru	226	Console (Text Based)	2010-05-04 12:54:41	219
+mycash	230	Win32 (MS Windows)	2010-05-04 12:54:41	219
+mycash	229	X11 Applications	2010-05-04 12:54:41	219
+myexperiment	237	Web Environment	2010-05-04 12:54:41	219
+mygui	230	Win32 (MS Windows)	2010-05-04 12:54:41	219
+mylibrary	310	Fox	2010-05-04 12:54:41	219
+myrubyblog	237	Web Environment	2010-05-04 12:54:41	219
+myspace-ruby	237	Web Environment	2010-05-04 12:54:41	219
+myspace-ruby	226	Console (Text Based)	2010-05-04 12:54:41	219
+myspaceid-sdk	237	Web Environment	2010-05-04 12:54:41	219
+mysql-win	230	Win32 (MS Windows)	2010-05-04 12:54:42	219
+mysqladmin	233	Other Environment	2010-05-04 12:54:42	219
+mysqlmsr	238	No Input/Output (Daemon)	2010-05-04 12:54:42	219
+mysqlmsr	226	Console (Text Based)	2010-05-04 12:54:42	219
+nanoc	226	Console (Text Based)	2010-05-04 12:54:42	219
+naptr	226	Console (Text Based)	2010-05-04 12:54:42	219
+narf	226	Console (Text Based)	2010-05-04 12:54:42	219
+narf	237	Web Environment	2010-05-04 12:54:42	219
+natcmp	233	Other Environment	2010-05-04 12:54:42	219
+nautils	226	Console (Text Based)	2010-05-04 12:54:42	219
+ncal2gcal	230	Win32 (MS Windows)	2010-05-04 12:54:42	219
+ndc	238	No Input/Output (Daemon)	2010-05-04 12:54:42	219
+ndc	231	Gnome	2010-05-04 12:54:42	219
+nebraska	226	Console (Text Based)	2010-05-04 12:54:42	219
+nebraska	237	Web Environment	2010-05-04 12:54:42	219
+ned	231	Gnome	2010-05-04 12:54:42	219
+ned	227	Curses	2010-05-04 12:54:42	219
+needle	238	No Input/Output (Daemon)	2010-05-04 12:54:42	219
+neelix	230	Win32 (MS Windows)	2010-05-04 12:54:42	219
+neelix	229	X11 Applications	2010-05-04 12:54:42	219
+neo4j	233	Other Environment	2010-05-04 12:54:42	219
+nessus-xmlrpc	226	Console (Text Based)	2010-05-04 12:54:42	219
+nested-layouts	237	Web Environment	2010-05-04 12:54:42	219
+net-dns	226	Console (Text Based)	2010-05-04 12:54:42	219
+net-im	238	No Input/Output (Daemon)	2010-05-04 12:54:43	219
+net-im	233	Other Environment	2010-05-04 12:54:43	219
+net-im	237	Web Environment	2010-05-04 12:54:43	219
+net-nbd	238	No Input/Output (Daemon)	2010-05-04 12:54:43	219
+net-netrc	238	No Input/Output (Daemon)	2010-05-04 12:54:43	219
+net-netrc	226	Console (Text Based)	2010-05-04 12:54:43	219
+net-smpp	238	No Input/Output (Daemon)	2010-05-04 12:54:43	219
+net-ssh-krb	226	Console (Text Based)	2010-05-04 12:54:43	219
+netplayplus	230	Win32 (MS Windows)	2010-05-04 12:54:43	219
+netsinav	237	Web Environment	2010-05-04 12:54:43	219
+network-facade	238	No Input/Output (Daemon)	2010-05-04 12:54:43	219
+neural	233	Other Environment	2010-05-04 12:54:43	219
+neural	237	Web Environment	2010-05-04 12:54:43	219
+newby	313	Cocoa (MacOS X)	2010-05-04 12:54:43	219
+newby	237	Web Environment	2010-05-04 12:54:43	219
+newsfire-export	237	Web Environment	2010-05-04 12:54:43	219
+newsfire-export	233	Other Environment	2010-05-04 12:54:43	219
+newsstats	226	Console (Text Based)	2010-05-04 12:54:43	219
+newssucker	226	Console (Text Based)	2010-05-04 12:54:43	219
+newstickor	237	Web Environment	2010-05-04 12:54:43	219
+nickel-silver	226	Console (Text Based)	2010-05-04 12:54:43	219
+nickel-silver	238	No Input/Output (Daemon)	2010-05-04 12:54:43	219
+nihongobenkyo	229	X11 Applications	2010-05-04 12:54:43	219
+nihongobenkyo	230	Win32 (MS Windows)	2010-05-04 12:54:43	219
+nile	229	X11 Applications	2010-05-04 12:54:43	219
+nilsimsa	226	Console (Text Based)	2010-05-04 12:54:43	219
+nitro	226	Console (Text Based)	2010-05-04 12:54:43	219
+nitro	237	Web Environment	2010-05-04 12:54:43	219
+nitro-auth	237	Web Environment	2010-05-04 12:54:43	219
+nitro-auth	226	Console (Text Based)	2010-05-04 12:54:43	219
+nntp	226	Console (Text Based)	2010-05-04 12:54:44	219
+nntp	233	Other Environment	2010-05-04 12:54:44	219
+noclergy	226	Console (Text Based)	2010-05-04 12:54:44	219
+noclergy	237	Web Environment	2010-05-04 12:54:44	219
+nodewrap	238	No Input/Output (Daemon)	2010-05-04 12:54:44	219
+nodewrap	226	Console (Text Based)	2010-05-04 12:54:44	219
+nokiafs	238	No Input/Output (Daemon)	2010-05-04 12:54:44	219
+noobysite	237	Web Environment	2010-05-04 12:54:44	219
+nooto	237	Web Environment	2010-05-04 12:54:44	219
+nor	237	Web Environment	2010-05-04 12:54:44	219
+notes	237	Web Environment	2010-05-04 12:54:44	219
+notesexport	230	Win32 (MS Windows)	2010-05-04 12:54:44	219
+nrkscraper	226	Console (Text Based)	2010-05-04 12:54:44	219
+nrr	226	Console (Text Based)	2010-05-04 12:54:44	219
+nrr	237	Web Environment	2010-05-04 12:54:44	219
+nsjtpd	238	No Input/Output (Daemon)	2010-05-04 12:54:44	219
+nu2blogger	237	Web Environment	2010-05-04 12:54:44	219
+nvtristrip	238	No Input/Output (Daemon)	2010-05-04 12:54:44	219
+nwn-lib	238	No Input/Output (Daemon)	2010-05-04 12:54:44	219
+nwn-lib	226	Console (Text Based)	2010-05-04 12:54:44	219
+objectiveflickr	237	Web Environment	2010-05-04 12:54:44	219
+obloh	237	Web Environment	2010-05-04 12:54:44	219
+oc-manager	237	Web Environment	2010-05-04 12:54:44	219
+ocadia	237	Web Environment	2010-05-04 12:54:44	219
+ocra	230	Win32 (MS Windows)	2010-05-04 12:54:44	219
+octave-ruby	233	Other Environment	2010-05-04 12:54:44	219
+odbc-rails	233	Other Environment	2010-05-04 12:54:45	219
+oedipus	226	Console (Text Based)	2010-05-04 12:54:45	219
+oedipus	310	Fox	2010-05-04 12:54:45	219
+offspringviewer	310	Fox	2010-05-04 12:54:45	219
+ofront	311	WxWidgits	2010-05-04 12:54:45	219
+ofx	226	Console (Text Based)	2010-05-04 12:54:45	219
+ofx	238	No Input/Output (Daemon)	2010-05-04 12:54:45	219
+ofx	237	Web Environment	2010-05-04 12:54:45	219
+ofxget	226	Console (Text Based)	2010-05-04 12:54:45	219
+ogrerb	229	X11 Applications	2010-05-04 12:54:45	219
+ogrerb	230	Win32 (MS Windows)	2010-05-04 12:54:45	219
+ogrerb	313	Cocoa (MacOS X)	2010-05-04 12:54:45	219
+oii	237	Web Environment	2010-05-04 12:54:45	219
+oiko	237	Web Environment	2010-05-04 12:54:45	219
+oiko	230	Win32 (MS Windows)	2010-05-04 12:54:45	219
+oiko	229	X11 Applications	2010-05-04 12:54:45	219
+oinoid	237	Web Environment	2010-05-04 12:54:45	219
+olore	237	Web Environment	2010-05-04 12:54:45	219
+ondemandcaptcha	237	Web Environment	2010-05-04 12:54:45	219
+onebody	237	Web Environment	2010-05-04 12:54:45	219
+onemanpublisher	237	Web Environment	2010-05-04 12:54:45	219
+onering	237	Web Environment	2010-05-04 12:54:45	219
+onewire	238	No Input/Output (Daemon)	2010-05-04 12:54:45	219
+oniisama	237	Web Environment	2010-05-04 12:54:45	219
+oniisama	238	No Input/Output (Daemon)	2010-05-04 12:54:45	219
+ontomde	226	Console (Text Based)	2010-05-04 12:54:45	219
+ook	226	Console (Text Based)	2010-05-04 12:54:45	219
+ook	310	Fox	2010-05-04 12:54:45	219
+ook	237	Web Environment	2010-05-04 12:54:45	219
+ooo4r	226	Console (Text Based)	2010-05-04 12:54:45	219
+open-australia	237	Web Environment	2010-05-04 12:54:45	219
+open-diary	237	Web Environment	2010-05-04 12:54:45	219
+openagenda	237	Web Environment	2010-05-04 12:54:45	219
+openbill	237	Web Environment	2010-05-04 12:54:45	219
+openbsd-dist	237	Web Environment	2010-05-04 12:54:45	219
+openbsd-dist	226	Console (Text Based)	2010-05-04 12:54:45	219
+opendht	233	Other Environment	2010-05-04 12:54:45	219
+openedgeadapter	230	Win32 (MS Windows)	2010-05-04 12:54:45	219
+openfrbr	237	Web Environment	2010-05-04 12:54:45	219
+openkh	237	Web Environment	2010-05-04 12:54:45	219
+openmoney	237	Web Environment	2010-05-04 12:54:46	219
+opensocial	237	Web Environment	2010-05-04 12:54:46	219
+opensteam	237	Web Environment	2010-05-04 12:54:46	219
+opentaxonomy	237	Web Environment	2010-05-04 12:54:46	219
+opentg	227	Curses	2010-05-04 12:54:46	219
+openvpnserver	226	Console (Text Based)	2010-05-04 12:54:46	219
+opsdoodle	237	Web Environment	2010-05-04 12:54:46	219
+opticon	226	Console (Text Based)	2010-05-04 12:54:46	219
+opticon	238	No Input/Output (Daemon)	2010-05-04 12:54:46	219
+optimus-ep	226	Console (Text Based)	2010-05-04 12:54:46	219
+optionparser	226	Console (Text Based)	2010-05-04 12:54:46	219
+oracle-enhanced	237	Web Environment	2010-05-04 12:54:46	219
+orbjson	237	Web Environment	2010-05-04 12:54:46	219
+orchid	237	Web Environment	2010-05-04 12:54:46	219
+ordered-tree	237	Web Environment	2010-05-04 12:54:46	219
+orderederrors	237	Web Environment	2010-05-04 12:54:46	219
+orderific	237	Web Environment	2010-05-04 12:54:46	219
+organiseddkp	237	Web Environment	2010-05-04 12:54:46	219
+osirails	237	Web Environment	2010-05-04 12:54:46	219
+osiris	226	Console (Text Based)	2010-05-04 12:54:46	219
+oslink	237	Web Environment	2010-05-04 12:54:46	219
+osmlib	226	Console (Text Based)	2010-05-04 12:54:46	219
+ossp	237	Web Environment	2010-05-04 12:54:46	219
+osxbuild	226	Console (Text Based)	2010-05-04 12:54:46	219
+oughtve	226	Console (Text Based)	2010-05-04 12:54:46	219
+oupsnow	237	Web Environment	2010-05-04 12:54:46	219
+owlscribble	226	Console (Text Based)	2010-05-04 12:54:47	219
+owlscribble	237	Web Environment	2010-05-04 12:54:47	219
+ozimodo	237	Web Environment	2010-05-04 12:54:47	219
+p2converter	226	Console (Text Based)	2010-05-04 12:54:47	219
+packgen	226	Console (Text Based)	2010-05-04 12:54:47	219
+pacuby	227	Curses	2010-05-04 12:54:47	219
+page-glimpse	237	Web Environment	2010-05-04 12:54:47	219
+pages-bibtex	226	Console (Text Based)	2010-05-04 12:54:47	219
+pagetemplate	237	Web Environment	2010-05-04 12:54:47	219
+pallas	237	Web Environment	2010-05-04 12:54:47	219
+palmgoog	230	Win32 (MS Windows)	2010-05-04 12:54:47	219
+pandora	237	Web Environment	2010-05-04 12:54:47	219
+parallelforkmgr	226	Console (Text Based)	2010-05-04 12:54:47	219
+parallelforkmgr	230	Win32 (MS Windows)	2010-05-04 12:54:47	219
+parasite	237	Web Environment	2010-05-04 12:54:47	219
+parlay	231	Gnome	2010-05-04 12:54:47	219
+parlay	233	Other Environment	2010-05-04 12:54:47	219
+parlay	226	Console (Text Based)	2010-05-04 12:54:47	219
+parlement	237	Web Environment	2010-05-04 12:54:47	219
+parsetree	226	Console (Text Based)	2010-05-04 12:54:47	219
+partialsmon	237	Web Environment	2010-05-04 12:54:47	219
+pasaporte	237	Web Environment	2010-05-04 12:54:47	219
+passiveldap	230	Win32 (MS Windows)	2010-05-04 12:54:47	219
+passiveldap	237	Web Environment	2010-05-04 12:54:47	219
+passiveldap	226	Console (Text Based)	2010-05-04 12:54:47	219
+patch-server	237	Web Environment	2010-05-04 12:54:48	219
+patir	226	Console (Text Based)	2010-05-04 12:54:48	219
+patir	237	Web Environment	2010-05-04 12:54:48	219
+patron	233	Other Environment	2010-05-04 12:54:48	219
+patternfinder	226	Console (Text Based)	2010-05-04 12:54:48	219
+payment	237	Web Environment	2010-05-04 12:54:48	219
+pbmail	237	Web Environment	2010-05-04 12:54:48	219
+pbxmanager	237	Web Environment	2010-05-04 12:54:48	219
+pcanusb	226	Console (Text Based)	2010-05-04 12:54:48	219
+pdf-toolkit	226	Console (Text Based)	2010-05-04 12:54:48	219
+peachdb	238	No Input/Output (Daemon)	2010-05-04 12:54:48	219
+peerwater	237	Web Environment	2010-05-04 12:54:48	219
+pelmo	237	Web Environment	2010-05-04 12:54:48	219
+pepper	237	Web Environment	2010-05-04 12:54:48	219
+peridot	226	Console (Text Based)	2010-05-04 12:54:48	219
+periscope	237	Web Environment	2010-05-04 12:54:48	219
+persia	237	Web Environment	2010-05-04 12:54:48	219
+persmedialib	237	Web Environment	2010-05-04 12:54:48	219
+petcare	230	Win32 (MS Windows)	2010-05-04 12:54:48	219
+petite	313	Cocoa (MacOS X)	2010-05-04 12:54:49	219
+petite	230	Win32 (MS Windows)	2010-05-04 12:54:49	219
+petite	229	X11 Applications	2010-05-04 12:54:49	219
+pfff	230	Win32 (MS Windows)	2010-05-04 12:54:49	219
+pfff	229	X11 Applications	2010-05-04 12:54:49	219
+pgexplain	237	Web Environment	2010-05-04 12:54:49	219
+pgplot	229	X11 Applications	2010-05-04 12:54:49	219
+phishtank	226	Console (Text Based)	2010-05-04 12:54:49	219
+photosync	226	Console (Text Based)	2010-05-04 12:54:49	219
+photosync	237	Web Environment	2010-05-04 12:54:49	219
+php	226	Console (Text Based)	2010-05-04 12:54:49	219
+phprpc	237	Web Environment	2010-05-04 12:54:49	219
+phprpc	233	Other Environment	2010-05-04 12:54:49	219
+pickacolor	237	Web Environment	2010-05-04 12:54:49	219
+pickworks	310	Fox	2010-05-04 12:54:49	219
+picnic	238	No Input/Output (Daemon)	2010-05-04 12:54:49	219
+picnic	237	Web Environment	2010-05-04 12:54:49	219
+picolena	237	Web Environment	2010-05-04 12:54:49	219
+pictrails	237	Web Environment	2010-05-04 12:54:49	219
+pie	237	Web Environment	2010-05-04 12:54:49	219
+piggy	310	Fox	2010-05-04 12:54:49	219
+pimki	237	Web Environment	2010-05-04 12:54:49	219
+pingfm	237	Web Environment	2010-05-04 12:54:49	219
+pingfm	226	Console (Text Based)	2010-05-04 12:54:49	219
+pinup	237	Web Environment	2010-05-04 12:54:49	219
+pippin	238	No Input/Output (Daemon)	2010-05-04 12:54:49	219
+pirates	226	Console (Text Based)	2010-05-04 12:54:49	219
+pirates	237	Web Environment	2010-05-04 12:54:49	219
+piston	226	Console (Text Based)	2010-05-04 12:54:49	219
+pixiedust	226	Console (Text Based)	2010-05-04 12:54:49	219
+pl-commerce	233	Other Environment	2010-05-04 12:54:49	219
+planet	226	Console (Text Based)	2010-05-04 12:54:49	219
+planner-rtm	226	Console (Text Based)	2010-05-04 12:54:50	219
+pllite	237	Web Environment	2010-05-04 12:54:50	219
+pluginaweek	237	Web Environment	2010-05-04 12:54:50	219
+plugman	233	Other Environment	2010-05-04 12:54:50	219
+pmatch	226	Console (Text Based)	2010-05-04 12:54:50	219
+podcastfs	226	Console (Text Based)	2010-05-04 12:54:50	219
+podcastpublish	237	Web Environment	2010-05-04 12:54:50	219
+podcatcher	226	Console (Text Based)	2010-05-04 12:54:50	219
+pokemon-hunters	229	X11 Applications	2010-05-04 12:54:50	219
+poker	226	Console (Text Based)	2010-05-04 12:54:50	219
+pol	226	Console (Text Based)	2010-05-04 12:54:50	219
+pollywog	237	Web Environment	2010-05-04 12:54:50	219
+polyglot	238	No Input/Output (Daemon)	2010-05-04 12:54:50	219
+pongo	313	Cocoa (MacOS X)	2010-05-04 12:54:50	219
+pongo	230	Win32 (MS Windows)	2010-05-04 12:54:50	219
+por	233	Other Environment	2010-05-04 12:54:50	219
+port	226	Console (Text Based)	2010-05-04 12:54:50	219
+portal-ruby	233	Other Environment	2010-05-04 12:54:50	219
+portmidi	233	Other Environment	2010-05-04 12:54:50	219
+portrails	237	Web Environment	2010-05-04 12:54:50	219
+posted	237	Web Environment	2010-05-04 12:54:50	219
+postini4r	233	Other Environment	2010-05-04 12:54:51	219
+postview	237	Web Environment	2010-05-04 12:54:51	219
+powncy	226	Console (Text Based)	2010-05-04 12:54:51	219
+powncy	237	Web Environment	2010-05-04 12:54:51	219
+powncy	311	WxWidgits	2010-05-04 12:54:51	219
+ppds-libs	231	Gnome	2010-05-04 12:54:51	219
+pricewatch	230	Win32 (MS Windows)	2010-05-04 12:54:51	219
+pricewatch	310	Fox	2010-05-04 12:54:51	219
+prime	226	Console (Text Based)	2010-05-04 12:54:51	219
+prime	237	Web Environment	2010-05-04 12:54:51	219
+princess	237	Web Environment	2010-05-04 12:54:51	219
+printermgr	230	Win32 (MS Windows)	2010-05-04 12:54:51	219
+printing-labels	237	Web Environment	2010-05-04 12:54:51	219
+priority-queue	233	Other Environment	2010-05-04 12:54:51	219
+priority-queue	238	No Input/Output (Daemon)	2010-05-04 12:54:51	219
+processorpool	237	Web Environment	2010-05-04 12:54:51	219
+progbarsnapshot	237	Web Environment	2010-05-04 12:54:51	219
+progress	226	Console (Text Based)	2010-05-04 12:54:51	219
+progress-meter	226	Console (Text Based)	2010-05-04 12:54:51	219
+projectdesk	237	Web Environment	2010-05-04 12:54:51	219
+prometheus	226	Console (Text Based)	2010-05-04 12:54:51	219
+prong	237	Web Environment	2010-05-04 12:54:51	219
+prophet	237	Web Environment	2010-05-04 12:54:51	219
+proteinfactory	233	Other Environment	2010-05-04 12:54:51	219
+proteus	226	Console (Text Based)	2010-05-04 12:54:51	219
+provenance	231	Gnome	2010-05-04 12:54:51	219
+pry	238	No Input/Output (Daemon)	2010-05-04 12:54:51	219
+pry	226	Console (Text Based)	2010-05-04 12:54:51	219
+pscan	226	Console (Text Based)	2010-05-04 12:54:51	219
+pseudo-gettext	237	Web Environment	2010-05-04 12:54:51	219
+pseudocursors	226	Console (Text Based)	2010-05-04 12:54:52	219
+ptodo	226	Console (Text Based)	2010-05-04 12:54:52	219
+ptreloaded	226	Console (Text Based)	2010-05-04 12:54:52	219
+publikaopinio	233	Other Environment	2010-05-04 12:54:52	219
+publikaopinio	237	Web Environment	2010-05-04 12:54:52	219
+puppet	238	No Input/Output (Daemon)	2010-05-04 12:54:52	219
+purplepkg	226	Console (Text Based)	2010-05-04 12:54:52	219
+puzzlemaps	231	Gnome	2010-05-04 12:54:52	219
+q-and-a-machine	237	Web Environment	2010-05-04 12:54:52	219
+q2engine	237	Web Environment	2010-05-04 12:54:52	219
+qalculate-ruby	233	Other Environment	2010-05-04 12:54:52	219
+qbfc	230	Win32 (MS Windows)	2010-05-04 12:54:52	219
+qbruby	230	Win32 (MS Windows)	2010-05-04 12:54:52	219
+qbruby	311	WxWidgits	2010-05-04 12:54:52	219
+qlc	233	Other Environment	2010-05-04 12:54:52	219
+qtext	230	Win32 (MS Windows)	2010-05-04 12:54:52	219
+qtext	229	X11 Applications	2010-05-04 12:54:52	219
+qtodo	233	Other Environment	2010-05-04 12:54:52	219
+quantcast	237	Web Environment	2010-05-04 12:54:52	219
+quantity	226	Console (Text Based)	2010-05-04 12:54:52	219
+quarry	237	Web Environment	2010-05-04 12:54:52	219
+quartzhouse	226	Console (Text Based)	2010-05-04 12:54:52	219
+quarzo	237	Web Environment	2010-05-04 12:54:52	219
+queenofdiamonds	230	Win32 (MS Windows)	2010-05-04 12:54:52	219
+queryparser	226	Console (Text Based)	2010-05-04 12:54:52	219
+questionnaire	233	Other Environment	2010-05-04 12:54:53	219
+queue-tip	232	KDE	2010-05-04 12:54:53	219
+queue-tip	237	Web Environment	2010-05-04 12:54:53	219
+quickmagick	226	Console (Text Based)	2010-05-04 12:54:53	219
+quizr	226	Console (Text Based)	2010-05-04 12:54:53	219
+quizr	237	Web Environment	2010-05-04 12:54:53	219
+qwik	237	Web Environment	2010-05-04 12:54:53	219
+qwik	238	No Input/Output (Daemon)	2010-05-04 12:54:53	219
+r-l-a	226	Console (Text Based)	2010-05-04 12:54:53	219
+r-lijo	233	Other Environment	2010-05-04 12:54:53	219
+r-pass	226	Console (Text Based)	2010-05-04 12:54:53	219
+r-pass	232	KDE	2010-05-04 12:54:53	219
+r18n	237	Web Environment	2010-05-04 12:54:53	219
+r18n	233	Other Environment	2010-05-04 12:54:53	219
+r18n	226	Console (Text Based)	2010-05-04 12:54:53	219
+r3t	226	Console (Text Based)	2010-05-04 12:54:53	219
+r43	237	Web Environment	2010-05-04 12:54:53	219
+r4digitalnz	226	Console (Text Based)	2010-05-04 12:54:53	219
+r4hcp	226	Console (Text Based)	2010-05-04 12:54:53	219
+r4hcp	237	Web Environment	2010-05-04 12:54:53	219
+rabbit	231	Gnome	2010-05-04 12:54:53	219
+rabbit	230	Win32 (MS Windows)	2010-05-04 12:54:53	219
+rabbit	313	Cocoa (MacOS X)	2010-05-04 12:54:53	219
+rabble	226	Console (Text Based)	2010-05-04 12:54:53	219
+rabble	229	X11 Applications	2010-05-04 12:54:53	219
+radhosting	233	Other Environment	2010-05-04 12:54:54	219
+radiance	237	Web Environment	2010-05-04 12:54:54	219
+radiant	237	Web Environment	2010-05-04 12:54:54	219
+radiant-gallery	237	Web Environment	2010-05-04 12:54:54	219
+radiantonrails	237	Web Environment	2010-05-04 12:54:54	219
+radical	237	Web Environment	2010-05-04 12:54:54	219
+radical	238	No Input/Output (Daemon)	2010-05-04 12:54:54	219
+radical	226	Console (Text Based)	2010-05-04 12:54:54	219
+radoop	226	Console (Text Based)	2010-05-04 12:54:54	219
+radum	226	Console (Text Based)	2010-05-04 12:54:54	219
+rafaq	237	Web Environment	2010-05-04 12:54:54	219
+rage	226	Console (Text Based)	2010-05-04 12:54:54	219
+rage	237	Web Environment	2010-05-04 12:54:54	219
+railbase	237	Web Environment	2010-05-04 12:54:54	219
+railendar	237	Web Environment	2010-05-04 12:54:54	219
+railfrog	237	Web Environment	2010-05-04 12:54:54	219
+railpass	237	Web Environment	2010-05-04 12:54:54	219
+railroad	226	Console (Text Based)	2010-05-04 12:54:54	219
+rails	237	Web Environment	2010-05-04 12:54:54	219
+rails-cmdb	237	Web Environment	2010-05-04 12:54:54	219
+rails-datum	237	Web Environment	2010-05-04 12:54:54	219
+rails-editor	226	Console (Text Based)	2010-05-04 12:54:54	219
+rails-editor	237	Web Environment	2010-05-04 12:54:54	219
+rails-engines	237	Web Environment	2010-05-04 12:54:54	219
+rails-ledger	237	Web Environment	2010-05-04 12:54:54	219
+rails-on-rails	237	Web Environment	2010-05-04 12:54:54	219
+rails-on-rails	238	No Input/Output (Daemon)	2010-05-04 12:54:54	219
+rails-on-rails	226	Console (Text Based)	2010-05-04 12:54:54	219
+rails-psql-auth	237	Web Environment	2010-05-04 12:54:54	219
+rails-pwnage	226	Console (Text Based)	2010-05-04 12:54:54	219
+rails-sequel	237	Web Environment	2010-05-04 12:54:54	219
+rails-undo-redo	237	Web Environment	2010-05-04 12:54:54	219
+railsbb	237	Web Environment	2010-05-04 12:54:54	219
+railsbench	226	Console (Text Based)	2010-05-04 12:54:54	219
+railscart	237	Web Environment	2010-05-04 12:54:55	219
+railschess	237	Web Environment	2010-05-04 12:54:55	219
+railscollab	237	Web Environment	2010-05-04 12:54:55	219
+railsdb	237	Web Environment	2010-05-04 12:54:55	219
+railserp	237	Web Environment	2010-05-04 12:54:55	219
+railsforums	238	No Input/Output (Daemon)	2010-05-04 12:54:55	219
+railsforums	237	Web Environment	2010-05-04 12:54:55	219
+railsinstaller	230	Win32 (MS Windows)	2010-05-04 12:54:55	219
+railslets	237	Web Environment	2010-05-04 12:54:55	219
+railsloft	233	Other Environment	2010-05-04 12:54:55	219
+railsmailserver	226	Console (Text Based)	2010-05-04 12:54:55	219
+railsmon	237	Web Environment	2010-05-04 12:54:55	219
+railsmud	237	Web Environment	2010-05-04 12:54:55	219
+railsmyadmin	237	Web Environment	2010-05-04 12:54:55	219
+railsondesktop	230	Win32 (MS Windows)	2010-05-04 12:54:55	219
+railsonusb	238	No Input/Output (Daemon)	2010-05-04 12:54:55	219
+railsonusb	230	Win32 (MS Windows)	2010-05-04 12:54:55	219
+railspdfplugin	237	Web Environment	2010-05-04 12:54:55	219
+railspgprocs	237	Web Environment	2010-05-04 12:54:55	219
+railspki	237	Web Environment	2010-05-04 12:54:55	219
+railsrtv	237	Web Environment	2010-05-04 12:54:55	219
+railsstats	237	Web Environment	2010-05-04 12:54:55	219
+railstat	237	Web Environment	2010-05-04 12:54:55	219
+railstracker	237	Web Environment	2010-05-04 12:54:55	219
+raimbo	238	No Input/Output (Daemon)	2010-05-04 12:54:55	219
+rainbow	226	Console (Text Based)	2010-05-04 12:54:55	219
+rainbows	238	No Input/Output (Daemon)	2010-05-04 12:54:55	219
+rake	226	Console (Text Based)	2010-05-04 12:54:55	219
+rake-completion	226	Console (Text Based)	2010-05-04 12:54:55	219
+rake-tasks	226	Console (Text Based)	2010-05-04 12:54:55	219
+rake4latex	226	Console (Text Based)	2010-05-04 12:54:55	219
+rakemenu	226	Console (Text Based)	2010-05-04 12:54:55	219
+rakeweb	226	Console (Text Based)	2010-05-04 12:54:56	219
+rakeweb	237	Web Environment	2010-05-04 12:54:56	219
+ralbum	226	Console (Text Based)	2010-05-04 12:54:56	219
+raliasfile	313	Cocoa (MacOS X)	2010-05-04 12:54:56	219
+ram	237	Web Environment	2010-05-04 12:54:56	219
+ramaze	226	Console (Text Based)	2010-05-04 12:54:56	219
+ramaze	237	Web Environment	2010-05-04 12:54:56	219
+rametook	226	Console (Text Based)	2010-05-04 12:54:56	219
+rametook	238	No Input/Output (Daemon)	2010-05-04 12:54:56	219
+rami	226	Console (Text Based)	2010-05-04 12:54:56	219
+ramis	237	Web Environment	2010-05-04 12:54:56	219
+ramona	237	Web Environment	2010-05-04 12:54:56	219
+rams	237	Web Environment	2010-05-04 12:54:56	219
+random-word-gen	237	Web Environment	2010-05-04 12:54:56	219
+rannel	233	Other Environment	2010-05-04 12:54:56	219
+rannotate	237	Web Environment	2010-05-04 12:54:56	219
+rant	226	Console (Text Based)	2010-05-04 12:54:56	219
+raop	238	No Input/Output (Daemon)	2010-05-04 12:54:56	219
+rapidshare	238	No Input/Output (Daemon)	2010-05-04 12:54:56	219
+rapt	237	Web Environment	2010-05-04 12:54:56	219
+rash	226	Console (Text Based)	2010-05-04 12:54:56	219
+rasm	226	Console (Text Based)	2010-05-04 12:54:56	219
+rassembler	233	Other Environment	2010-05-04 12:54:56	219
+rassmalog	226	Console (Text Based)	2010-05-04 12:54:56	219
+rasta	230	Win32 (MS Windows)	2010-05-04 12:54:56	219
+rastman	233	Other Environment	2010-05-04 12:54:56	219
+rat	227	Curses	2010-05-04 12:54:56	219
+ratchet	230	Win32 (MS Windows)	2010-05-04 12:54:56	219
+ratchet	231	Gnome	2010-05-04 12:54:56	219
+rav	237	Web Environment	2010-05-04 12:54:56	219
+raven	226	Console (Text Based)	2010-05-04 12:54:56	219
+rawiki	237	Web Environment	2010-05-04 12:54:56	219
+rawk-the-logs	237	Web Environment	2010-05-04 12:54:57	219
+rawline	226	Console (Text Based)	2010-05-04 12:54:57	219
+raziel	237	Web Environment	2010-05-04 12:54:57	219
+rb-aes31	226	Console (Text Based)	2010-05-04 12:54:57	219
+rb-appscript	226	Console (Text Based)	2010-05-04 12:54:57	219
+rb-cdio	226	Console (Text Based)	2010-05-04 12:54:57	219
+rb-itunes	238	No Input/Output (Daemon)	2010-05-04 12:54:57	219
+rb-itunes	233	Other Environment	2010-05-04 12:54:57	219
+rb-itunes	237	Web Environment	2010-05-04 12:54:57	219
+rb-plplot	229	X11 Applications	2010-05-04 12:54:57	219
+rb-plplot	230	Win32 (MS Windows)	2010-05-04 12:54:57	219
+rb-plplot	233	Other Environment	2010-05-04 12:54:57	219
+rb-wartslib	226	Console (Text Based)	2010-05-04 12:54:57	219
+rbaio	230	Win32 (MS Windows)	2010-05-04 12:54:57	219
+rbarcode	229	X11 Applications	2010-05-04 12:54:57	219
+rbarcode	237	Web Environment	2010-05-04 12:54:57	219
+rbarcode	226	Console (Text Based)	2010-05-04 12:54:57	219
+rbase	233	Other Environment	2010-05-04 12:54:57	219
+rbb	237	Web Environment	2010-05-04 12:54:57	219
+rbclutter	229	X11 Applications	2010-05-04 12:54:57	219
+rbcoincoin	231	Gnome	2010-05-04 12:54:57	219
+rbconf	226	Console (Text Based)	2010-05-04 12:54:57	219
+rbcurse	227	Curses	2010-05-04 12:54:57	219
+rbgrep	226	Console (Text Based)	2010-05-04 12:54:57	219
+rbibtex	226	Console (Text Based)	2010-05-04 12:54:57	219
+rbibtex	238	No Input/Output (Daemon)	2010-05-04 12:54:57	219
+rbimapsync	226	Console (Text Based)	2010-05-04 12:54:57	219
+rbiphonetest	313	Cocoa (MacOS X)	2010-05-04 12:54:57	219
+rbluez	226	Console (Text Based)	2010-05-04 12:54:58	219
+rbmediawiki	226	Console (Text Based)	2010-05-04 12:54:58	219
+rbmood	238	No Input/Output (Daemon)	2010-05-04 12:54:58	219
+rbmud	226	Console (Text Based)	2010-05-04 12:54:58	219
+rbmud	237	Web Environment	2010-05-04 12:54:58	219
+rboard	237	Web Environment	2010-05-04 12:54:58	219
+rbook	233	Other Environment	2010-05-04 12:54:58	219
+rbot	238	No Input/Output (Daemon)	2010-05-04 12:54:58	219
+rbot	237	Web Environment	2010-05-04 12:54:58	219
+rbpar	226	Console (Text Based)	2010-05-04 12:54:58	219
+rbpm	233	Other Environment	2010-05-04 12:54:58	219
+rbroccoli	226	Console (Text Based)	2010-05-04 12:54:58	219
+rbsh	226	Console (Text Based)	2010-05-04 12:54:58	219
+rbshell	226	Console (Text Based)	2010-05-04 12:54:58	219
+rbt	237	Web Environment	2010-05-04 12:54:58	219
+rbugtracker	230	Win32 (MS Windows)	2010-05-04 12:54:58	219
+rbyaml	238	No Input/Output (Daemon)	2010-05-04 12:54:58	219
+rcalc	226	Console (Text Based)	2010-05-04 12:54:58	219
+rcalendar	237	Web Environment	2010-05-04 12:54:58	219
+rcdk	226	Console (Text Based)	2010-05-04 12:54:58	219
+rchemy	226	Console (Text Based)	2010-05-04 12:54:58	219
+rchemy	238	No Input/Output (Daemon)	2010-05-04 12:54:58	219
+rcicindela	237	Web Environment	2010-05-04 12:54:58	219
+rcipher	233	Other Environment	2010-05-04 12:54:58	219
+rcm	233	Other Environment	2010-05-04 12:54:58	219
+rcm	226	Console (Text Based)	2010-05-04 12:54:58	219
+rcoaster	226	Console (Text Based)	2010-05-04 12:54:58	219
+rcoaster	237	Web Environment	2010-05-04 12:54:58	219
+rcoaster	231	Gnome	2010-05-04 12:54:58	219
+rcommand	226	Console (Text Based)	2010-05-04 12:54:58	219
+rcommerce	237	Web Environment	2010-05-04 12:54:58	219
+rcommons	233	Other Environment	2010-05-04 12:54:58	219
+rconda-rconfig	233	Other Environment	2010-05-04 12:54:58	219
+rconfig	237	Web Environment	2010-05-04 12:54:58	219
+rconftool	226	Console (Text Based)	2010-05-04 12:54:58	219
+rcor	226	Console (Text Based)	2010-05-04 12:54:59	219
+rcraigslist	226	Console (Text Based)	2010-05-04 12:54:59	219
+rcrawl	226	Console (Text Based)	2010-05-04 12:54:59	219
+rcss	237	Web Environment	2010-05-04 12:54:59	219
+rcurses	227	Curses	2010-05-04 12:54:59	219
+rcv	230	Win32 (MS Windows)	2010-05-04 12:54:59	219
+rcv	231	Gnome	2010-05-04 12:54:59	219
+rdav	237	Web Environment	2010-05-04 12:54:59	219
+rdav	233	Other Environment	2010-05-04 12:54:59	219
+rdb	237	Web Environment	2010-05-04 12:54:59	219
+rdbc	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdbxml	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdbxml	238	No Input/Output (Daemon)	2010-05-04 12:54:59	219
+rddb	238	No Input/Output (Daemon)	2010-05-04 12:54:59	219
+rde	230	Win32 (MS Windows)	2010-05-04 12:54:59	219
+rdf	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdf-rails	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdfbus	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdfcache	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdfgrid	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdfize	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdfs	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdfsgen	237	Web Environment	2010-05-04 12:54:59	219
+rdialog	227	Curses	2010-05-04 12:54:59	219
+rdirector	237	Web Environment	2010-05-04 12:54:59	219
+rdoc-chm	230	Win32 (MS Windows)	2010-05-04 12:54:59	219
+rdoc-chm	233	Other Environment	2010-05-04 12:54:59	219
+rdoc-on-rails	237	Web Environment	2010-05-04 12:54:59	219
+rdocbrowser	229	X11 Applications	2010-05-04 12:54:59	219
+rdocweb	237	Web Environment	2010-05-04 12:54:59	219
+rdr	237	Web Environment	2010-05-04 12:54:59	219
+rdtool	226	Console (Text Based)	2010-05-04 12:54:59	219
+rdvd-slideshow	226	Console (Text Based)	2010-05-04 12:54:59	219
+realfk	237	Web Environment	2010-05-04 12:54:59	219
+recipe	237	Web Environment	2010-05-04 12:54:59	219
+reckoner	226	Console (Text Based)	2010-05-04 12:54:59	219
+redbook	226	Console (Text Based)	2010-05-04 12:55:00	219
+redboy	231	Gnome	2010-05-04 12:55:00	219
+redcloth	237	Web Environment	2010-05-04 12:55:00	219
+redcloth	226	Console (Text Based)	2010-05-04 12:55:00	219
+redclothcoderay	237	Web Environment	2010-05-04 12:55:00	219
+reddy	226	Console (Text Based)	2010-05-04 12:55:00	219
+redgem	226	Console (Text Based)	2010-05-04 12:55:00	219
+redgem	237	Web Environment	2010-05-04 12:55:00	219
+redirect	237	Web Environment	2010-05-04 12:55:00	219
+redlight	226	Console (Text Based)	2010-05-04 12:55:00	219
+redlight	238	No Input/Output (Daemon)	2010-05-04 12:55:00	219
+redlight	237	Web Environment	2010-05-04 12:55:00	219
+redmine	237	Web Environment	2010-05-04 12:55:00	219
+redpimp	237	Web Environment	2010-05-04 12:55:00	219
+redshift	226	Console (Text Based)	2010-05-04 12:55:00	219
+redtickets	227	Curses	2010-05-04 12:55:00	219
+redtickets	237	Web Environment	2010-05-04 12:55:00	219
+redtickets	229	X11 Applications	2010-05-04 12:55:00	219
+redux	237	Web Environment	2010-05-04 12:55:00	219
+redwood	229	X11 Applications	2010-05-04 12:55:00	219
+reek	226	Console (Text Based)	2010-05-04 12:55:00	219
+refe	226	Console (Text Based)	2010-05-04 12:55:00	219
+refinery	238	No Input/Output (Daemon)	2010-05-04 12:55:00	219
+refresh-to	237	Web Environment	2010-05-04 12:55:00	219
+refuge	226	Console (Text Based)	2010-05-04 12:55:00	219
+regax	237	Web Environment	2010-05-04 12:55:00	219
+relais	237	Web Environment	2010-05-04 12:55:00	219
+relais	226	Console (Text Based)	2010-05-04 12:55:00	219
+relax	237	Web Environment	2010-05-04 12:55:00	219
+relearn	237	Web Environment	2010-05-04 12:55:00	219
+reliable-msg	226	Console (Text Based)	2010-05-04 12:55:00	219
+rematch	233	Other Environment	2010-05-04 12:55:01	219
+rematch	230	Win32 (MS Windows)	2010-05-04 12:55:01	219
+reminder	231	Gnome	2010-05-04 12:55:01	219
+remit	237	Web Environment	2010-05-04 12:55:01	219
+remote-api	237	Web Environment	2010-05-04 12:55:01	219
+remote-ruby	226	Console (Text Based)	2010-05-04 12:55:01	219
+remote-ruby	238	No Input/Output (Daemon)	2010-05-04 12:55:01	219
+remote-ruby	237	Web Environment	2010-05-04 12:55:01	219
+remote-validate	237	Web Environment	2010-05-04 12:55:01	219
+rempires	230	Win32 (MS Windows)	2010-05-04 12:55:01	219
+rempires	229	X11 Applications	2010-05-04 12:55:01	219
+renamer	226	Console (Text Based)	2010-05-04 12:55:01	219
+renkin	311	WxWidgits	2010-05-04 12:55:01	219
+replacefixtures	237	Web Environment	2010-05-04 12:55:01	219
+repobundle	237	Web Environment	2010-05-04 12:55:01	219
+reptile	226	Console (Text Based)	2010-05-04 12:55:01	219
+repub	226	Console (Text Based)	2010-05-04 12:55:01	219
+respvisualizer	313	Cocoa (MacOS X)	2010-05-04 12:55:01	219
+respvisualizer	230	Win32 (MS Windows)	2010-05-04 12:55:01	219
+ressbo	227	Curses	2010-05-04 12:55:01	219
+resteasy	237	Web Environment	2010-05-04 12:55:01	219
+resteasy	233	Other Environment	2010-05-04 12:55:01	219
+restful-rails	237	Web Environment	2010-05-04 12:55:01	219
+restfulezm	237	Web Environment	2010-05-04 12:55:01	219
+restfulite	237	Web Environment	2010-05-04 12:55:01	219
+restfulx	233	Other Environment	2010-05-04 12:55:01	219
+restfulx	237	Web Environment	2010-05-04 12:55:01	219
+restly	237	Web Environment	2010-05-04 12:55:01	219
+restr	238	No Input/Output (Daemon)	2010-05-04 12:55:01	219
+reststop	238	No Input/Output (Daemon)	2010-05-04 12:55:01	219
+resume	226	Console (Text Based)	2010-05-04 12:55:01	219
+resumeonrails	237	Web Environment	2010-05-04 12:55:01	219
+retrograph	229	X11 Applications	2010-05-04 12:55:02	219
+retrograph	230	Win32 (MS Windows)	2010-05-04 12:55:02	219
+retrospectiva	237	Web Environment	2010-05-04 12:55:02	219
+reve	233	Other Environment	2010-05-04 12:55:02	219
+reviews	237	Web Environment	2010-05-04 12:55:02	219
+revolt	226	Console (Text Based)	2010-05-04 12:55:02	219
+revolution	233	Other Environment	2010-05-04 12:55:02	219
+revolutionary	226	Console (Text Based)	2010-05-04 12:55:02	219
+revver4r	237	Web Environment	2010-05-04 12:55:02	219
+rex	226	Console (Text Based)	2010-05-04 12:55:02	219
+rexchange	233	Other Environment	2010-05-04 12:55:02	219
+rexpect	226	Console (Text Based)	2010-05-04 12:55:02	219
+rf-comments	237	Web Environment	2010-05-04 12:55:02	219
+rfacebook	237	Web Environment	2010-05-04 12:55:02	219
+rfeedfinder	237	Web Environment	2010-05-04 12:55:02	219
+rfeedreader	237	Web Environment	2010-05-04 12:55:02	219
+rffitool	226	Console (Text Based)	2010-05-04 12:55:02	219
+rfm	233	Other Environment	2010-05-04 12:55:02	219
+rfolio	237	Web Environment	2010-05-04 12:55:02	219
+rforce	237	Web Environment	2010-05-04 12:55:02	219
+rforce	233	Other Environment	2010-05-04 12:55:02	219
+rforce	226	Console (Text Based)	2010-05-04 12:55:02	219
+rforum	238	No Input/Output (Daemon)	2010-05-04 12:55:02	219
+rforum	237	Web Environment	2010-05-04 12:55:02	219
+rfpdf	237	Web Environment	2010-05-04 12:55:02	219
+rfs	310	Fox	2010-05-04 12:55:02	219
+rfs	226	Console (Text Based)	2010-05-04 12:55:02	219
+rfuse-ng	238	No Input/Output (Daemon)	2010-05-04 12:55:02	219
+rgate	237	Web Environment	2010-05-04 12:55:02	219
+rgdata	237	Web Environment	2010-05-04 12:55:02	219
+rgenetic	226	Console (Text Based)	2010-05-04 12:55:02	219
+rghost	233	Other Environment	2010-05-04 12:55:02	219
+rgl	226	Console (Text Based)	2010-05-04 12:55:02	219
+rglpk	226	Console (Text Based)	2010-05-04 12:55:02	219
+rgssbattlesys	237	Web Environment	2010-05-04 12:55:03	219
+rgssbattlesys	230	Win32 (MS Windows)	2010-05-04 12:55:03	219
+rhaiker	237	Web Environment	2010-05-04 12:55:03	219
+rhb	237	Web Environment	2010-05-04 12:55:03	219
+rhel	230	Win32 (MS Windows)	2010-05-04 12:55:03	219
+rhel	313	Cocoa (MacOS X)	2010-05-04 12:55:03	219
+rhel	314	Cocoa (GNUStep)	2010-05-04 12:55:03	219
+rhodes	233	Other Environment	2010-05-04 12:55:03	219
+rhotoalbum	226	Console (Text Based)	2010-05-04 12:55:03	219
+rhuidean	226	Console (Text Based)	2010-05-04 12:55:03	219
+rhuidean	238	No Input/Output (Daemon)	2010-05-04 12:55:03	219
+ri18n	237	Web Environment	2010-05-04 12:55:03	219
+ri18n	233	Other Environment	2010-05-04 12:55:03	219
+ribit	237	Web Environment	2010-05-04 12:55:03	219
+ribusb	233	Other Environment	2010-05-04 12:55:03	219
+rices	238	No Input/Output (Daemon)	2010-05-04 12:55:03	219
+richruby	237	Web Environment	2010-05-04 12:55:03	219
+riddler	226	Console (Text Based)	2010-05-04 12:55:03	219
+riddler	233	Other Environment	2010-05-04 12:55:03	219
+ride	226	Console (Text Based)	2010-05-04 12:55:03	219
+ridge	238	No Input/Output (Daemon)	2010-05-04 12:55:03	219
+ridge	233	Other Environment	2010-05-04 12:55:03	219
+ridge	237	Web Environment	2010-05-04 12:55:03	219
+riess	230	Win32 (MS Windows)	2010-05-04 12:55:03	219
+riess	237	Web Environment	2010-05-04 12:55:03	219
+rife	226	Console (Text Based)	2010-05-04 12:55:03	219
+rift	226	Console (Text Based)	2010-05-04 12:55:03	219
+rightcert	226	Console (Text Based)	2010-05-04 12:55:03	219
+rightcert	237	Web Environment	2010-05-04 12:55:03	219
+rightlink	237	Web Environment	2010-05-04 12:55:03	219
+rimport	226	Console (Text Based)	2010-05-04 12:55:03	219
+rinderbox	237	Web Environment	2010-05-04 12:55:04	219
+rindr	226	Console (Text Based)	2010-05-04 12:55:04	219
+rindr	238	No Input/Output (Daemon)	2010-05-04 12:55:04	219
+rinit	226	Console (Text Based)	2010-05-04 12:55:04	219
+rino	226	Console (Text Based)	2010-05-04 12:55:04	219
+rinotify	233	Other Environment	2010-05-04 12:55:04	219
+rinruby	226	Console (Text Based)	2010-05-04 12:55:04	219
+rinruby	230	Win32 (MS Windows)	2010-05-04 12:55:04	219
+rinruby	229	X11 Applications	2010-05-04 12:55:04	219
+rinstant	237	Web Environment	2010-05-04 12:55:04	219
+rip	233	Other Environment	2010-05-04 12:55:04	219
+rip	226	Console (Text Based)	2010-05-04 12:55:04	219
+ripod	233	Other Environment	2010-05-04 12:55:04	219
+riposte	237	Web Environment	2010-05-04 12:55:04	219
+ripple	237	Web Environment	2010-05-04 12:55:04	219
+risc	233	Other Environment	2010-05-04 12:55:04	219
+rise	226	Console (Text Based)	2010-05-04 12:55:04	219
+risk-man	230	Win32 (MS Windows)	2010-05-04 12:55:04	219
+risk-man	237	Web Environment	2010-05-04 12:55:04	219
+rislamic	237	Web Environment	2010-05-04 12:55:04	219
+rjack	226	Console (Text Based)	2010-05-04 12:55:04	219
+rjournal	237	Web Environment	2010-05-04 12:55:04	219
+rkalzium	237	Web Environment	2010-05-04 12:55:04	219
+rkeychain	233	Other Environment	2010-05-04 12:55:04	219
+rload	226	Console (Text Based)	2010-05-04 12:55:04	219
+rload	233	Other Environment	2010-05-04 12:55:04	219
+rload	237	Web Environment	2010-05-04 12:55:04	219
+rlsm	226	Console (Text Based)	2010-05-04 12:55:04	219
+rmagick	229	X11 Applications	2010-05-04 12:55:05	219
+rmagick	230	Win32 (MS Windows)	2010-05-04 12:55:05	219
+rmagick	237	Web Environment	2010-05-04 12:55:05	219
+rmasm	226	Console (Text Based)	2010-05-04 12:55:05	219
+rmb	313	Cocoa (MacOS X)	2010-05-04 12:55:05	219
+rmb	226	Console (Text Based)	2010-05-04 12:55:05	219
+rmb	230	Win32 (MS Windows)	2010-05-04 12:55:05	219
+rmchd	226	Console (Text Based)	2010-05-04 12:55:05	219
+rmedial	237	Web Environment	2010-05-04 12:55:05	219
+rml	237	Web Environment	2010-05-04 12:55:05	219
+rmmseg	226	Console (Text Based)	2010-05-04 12:55:05	219
+rmobilemail	237	Web Environment	2010-05-04 12:55:05	219
+rmobio	237	Web Environment	2010-05-04 12:55:05	219
+rmovie	238	No Input/Output (Daemon)	2010-05-04 12:55:05	219
+rmql	237	Web Environment	2010-05-04 12:55:05	219
+rms	237	Web Environment	2010-05-04 12:55:05	219
+rmud	226	Console (Text Based)	2010-05-04 12:55:05	219
+rmush	238	No Input/Output (Daemon)	2010-05-04 12:55:05	219
+rmx	229	X11 Applications	2010-05-04 12:55:05	219
+rnetwhistler	310	Fox	2010-05-04 12:55:05	219
+rnews	237	Web Environment	2010-05-04 12:55:05	219
+rnwnsrvemu	226	Console (Text Based)	2010-05-04 12:55:05	219
+roar	237	Web Environment	2010-05-04 12:55:05	219
+roastbeef	226	Console (Text Based)	2010-05-04 12:55:05	219
+roby	226	Console (Text Based)	2010-05-04 12:55:05	219
+rocketstarter	226	Console (Text Based)	2010-05-04 12:55:05	219
+rockit	226	Console (Text Based)	2010-05-04 12:55:05	219
+rocksolidrails	233	Other Environment	2010-05-04 12:55:05	219
+rocmail	226	Console (Text Based)	2010-05-04 12:55:05	219
+rodo	226	Console (Text Based)	2010-05-04 12:55:05	219
+rog	226	Console (Text Based)	2010-05-04 12:55:05	219
+rog	237	Web Environment	2010-05-04 12:55:05	219
+rogger	238	No Input/Output (Daemon)	2010-05-04 12:55:05	219
+rojo	237	Web Environment	2010-05-04 12:55:05	219
+rollinggemstone	237	Web Environment	2010-05-04 12:55:06	219
+romey	237	Web Environment	2010-05-04 12:55:06	219
+roo	226	Console (Text Based)	2010-05-04 12:55:06	219
+rook	226	Console (Text Based)	2010-05-04 12:55:06	219
+rools	238	No Input/Output (Daemon)	2010-05-04 12:55:06	219
+ror-akismet	237	Web Environment	2010-05-04 12:55:06	219
+ror-dot	226	Console (Text Based)	2010-05-04 12:55:06	219
+rorascanner	226	Console (Text Based)	2010-05-04 12:55:06	219
+rorbb	237	Web Environment	2010-05-04 12:55:06	219
+rorem	237	Web Environment	2010-05-04 12:55:06	219
+rornuke	237	Web Environment	2010-05-04 12:55:06	219
+rorox	237	Web Environment	2010-05-04 12:55:06	219
+rorsublist	237	Web Environment	2010-05-04 12:55:06	219
+rorsvnprep	226	Console (Text Based)	2010-05-04 12:55:06	219
+ros	233	Other Environment	2010-05-04 12:55:06	219
+roscar	238	No Input/Output (Daemon)	2010-05-04 12:55:06	219
+ross	226	Console (Text Based)	2010-05-04 12:55:06	219
+rosters	237	Web Environment	2010-05-04 12:55:06	219
+rote	226	Console (Text Based)	2010-05-04 12:55:06	219
+rottztv	230	Win32 (MS Windows)	2010-05-04 12:55:06	219
+rottztv	231	Gnome	2010-05-04 12:55:06	219
+rownage	227	Curses	2010-05-04 12:55:06	219
+roxanne	237	Web Environment	2010-05-04 12:55:06	219
+rpa-base	226	Console (Text Based)	2010-05-04 12:55:06	219
+rplanet	237	Web Environment	2010-05-04 12:55:06	219
+rplot	231	Gnome	2010-05-04 12:55:06	219
+rpod	226	Console (Text Based)	2010-05-04 12:55:07	219
+rpodder	226	Console (Text Based)	2010-05-04 12:55:07	219
+rpos	237	Web Environment	2010-05-04 12:55:07	219
+rpos	310	Fox	2010-05-04 12:55:07	219
+rpos	226	Console (Text Based)	2010-05-04 12:55:07	219
+rpp	238	No Input/Output (Daemon)	2010-05-04 12:55:07	219
+rqrcode	237	Web Environment	2010-05-04 12:55:07	219
+rquerypad	237	Web Environment	2010-05-04 12:55:07	219
+rrb	233	Other Environment	2010-05-04 12:55:07	219
+rrb	227	Curses	2010-05-04 12:55:07	219
+rrc	311	WxWidgits	2010-05-04 12:55:07	219
+rrename	231	Gnome	2010-05-04 12:55:07	219
+rrev	226	Console (Text Based)	2010-05-04 12:55:07	219
+rrev	231	Gnome	2010-05-04 12:55:07	219
+rriki	237	Web Environment	2010-05-04 12:55:07	219
+rrncurses	227	Curses	2010-05-04 12:55:07	219
+rrrip	310	Fox	2010-05-04 12:55:07	219
+rrscms	237	Web Environment	2010-05-04 12:55:07	219
+rrt-ruby	230	Win32 (MS Windows)	2010-05-04 12:55:07	219
+rsame	229	X11 Applications	2010-05-04 12:55:07	219
+rsame	230	Win32 (MS Windows)	2010-05-04 12:55:07	219
+rsame	226	Console (Text Based)	2010-05-04 12:55:07	219
+rscm	226	Console (Text Based)	2010-05-04 12:55:07	219
+rsh3ll	226	Console (Text Based)	2010-05-04 12:55:07	219
+rsheet	237	Web Environment	2010-05-04 12:55:07	219
+rshell	226	Console (Text Based)	2010-05-04 12:55:07	219
+rsherpa	233	Other Environment	2010-05-04 12:55:07	219
+rsherpa	226	Console (Text Based)	2010-05-04 12:55:07	219
+rsil	313	Cocoa (MacOS X)	2010-05-04 12:55:07	219
+rsimul	226	Console (Text Based)	2010-05-04 12:55:07	219
+rsimul	237	Web Environment	2010-05-04 12:55:07	219
+rsl	226	Console (Text Based)	2010-05-04 12:55:07	219
+rsocsvr	237	Web Environment	2010-05-04 12:55:08	219
+rsocsvr	226	Console (Text Based)	2010-05-04 12:55:08	219
+rsp	237	Web Environment	2010-05-04 12:55:08	219
+rspec	226	Console (Text Based)	2010-05-04 12:55:08	219
+rspechamlscaff	237	Web Environment	2010-05-04 12:55:08	219
+rsqlitegui	230	Win32 (MS Windows)	2010-05-04 12:55:08	219
+rsqlitegui	231	Gnome	2010-05-04 12:55:08	219
+rsrcg	233	Other Environment	2010-05-04 12:55:08	219
+rsreport	237	Web Environment	2010-05-04 12:55:08	219
+rss-client	226	Console (Text Based)	2010-05-04 12:55:08	219
+rss2mail	226	Console (Text Based)	2010-05-04 12:55:08	219
+rssfwd	237	Web Environment	2010-05-04 12:55:08	219
+rstyx	238	No Input/Output (Daemon)	2010-05-04 12:55:08	219
+rsudoku	229	X11 Applications	2010-05-04 12:55:08	219
+rswx	237	Web Environment	2010-05-04 12:55:08	219
+rsync-mirror	226	Console (Text Based)	2010-05-04 12:55:08	219
+rtaglib	238	No Input/Output (Daemon)	2010-05-04 12:55:08	219
+rtags	226	Console (Text Based)	2010-05-04 12:55:08	219
+rtags	229	X11 Applications	2010-05-04 12:55:08	219
+rtd	226	Console (Text Based)	2010-05-04 12:55:08	219
+rtd	230	Win32 (MS Windows)	2010-05-04 12:55:08	219
+rtella	238	No Input/Output (Daemon)	2010-05-04 12:55:08	219
+rticle	237	Web Environment	2010-05-04 12:55:08	219
+rtictactoe	226	Console (Text Based)	2010-05-04 12:55:08	219
+rtictactoe	230	Win32 (MS Windows)	2010-05-04 12:55:08	219
+rtinspect	226	Console (Text Based)	2010-05-04 12:55:08	219
+rtm-shell	226	Console (Text Based)	2010-05-04 12:55:08	219
+rtmapi	237	Web Environment	2010-05-04 12:55:08	219
+rtplan	237	Web Environment	2010-05-04 12:55:09	219
+rtrace	226	Console (Text Based)	2010-05-04 12:55:09	219
+rtrace	233	Other Environment	2010-05-04 12:55:09	219
+rtrace	237	Web Environment	2010-05-04 12:55:09	219
+rturing	230	Win32 (MS Windows)	2010-05-04 12:55:09	219
+rturing	231	Gnome	2010-05-04 12:55:09	219
+rtv	226	Console (Text Based)	2010-05-04 12:55:09	219
+rubac	226	Console (Text Based)	2010-05-04 12:55:09	219
+rubalt	226	Console (Text Based)	2010-05-04 12:55:09	219
+rubber	227	Curses	2010-05-04 12:55:09	219
+rubedo	237	Web Environment	2010-05-04 12:55:09	219
+rubia	237	Web Environment	2010-05-04 12:55:09	219
+rubia	238	No Input/Output (Daemon)	2010-05-04 12:55:09	219
+rubicante	226	Console (Text Based)	2010-05-04 12:55:09	219
+rubidine	237	Web Environment	2010-05-04 12:55:09	219
+rubidium	231	Gnome	2010-05-04 12:55:09	219
+rubiki	237	Web Environment	2010-05-04 12:55:09	219
+rubikon	226	Console (Text Based)	2010-05-04 12:55:09	219
+rubines	226	Console (Text Based)	2010-05-04 12:55:09	219
+rubish	237	Web Environment	2010-05-04 12:55:09	219
+rublog	237	Web Environment	2010-05-04 12:55:09	219
+rubob	237	Web Environment	2010-05-04 12:55:09	219
+ruboss4ruby	237	Web Environment	2010-05-04 12:55:09	219
+rubot	238	No Input/Output (Daemon)	2010-05-04 12:55:09	219
+rubot	226	Console (Text Based)	2010-05-04 12:55:09	219
+rubric	237	Web Environment	2010-05-04 12:55:09	219
+ruby	233	Other Environment	2010-05-04 12:55:09	219
+ruby-ajp	237	Web Environment	2010-05-04 12:55:10	219
+ruby-asp	237	Web Environment	2010-05-04 12:55:10	219
+ruby-bluetooth	238	No Input/Output (Daemon)	2010-05-04 12:55:10	219
+ruby-bluetooth	226	Console (Text Based)	2010-05-04 12:55:10	219
+ruby-bookshelf	237	Web Environment	2010-05-04 12:55:10	219
+ruby-box2d	230	Win32 (MS Windows)	2010-05-04 12:55:10	219
+ruby-breakpoint	226	Console (Text Based)	2010-05-04 12:55:10	219
+ruby-cg	233	Other Environment	2010-05-04 12:55:10	219
+ruby-cradle	226	Console (Text Based)	2010-05-04 12:55:10	219
+ruby-decimal	238	No Input/Output (Daemon)	2010-05-04 12:55:10	219
+ruby-devil	230	Win32 (MS Windows)	2010-05-04 12:55:10	219
+ruby-devil	229	X11 Applications	2010-05-04 12:55:10	219
+ruby-dlx	233	Other Environment	2010-05-04 12:55:10	219
+ruby-doom	226	Console (Text Based)	2010-05-04 12:55:10	219
+ruby-dumpasn1	227	Curses	2010-05-04 12:55:10	219
+ruby-exiv2	226	Console (Text Based)	2010-05-04 12:55:10	219
+ruby-exiv2	238	No Input/Output (Daemon)	2010-05-04 12:55:10	219
+ruby-exiv2	237	Web Environment	2010-05-04 12:55:10	219
+ruby-fb2k	230	Win32 (MS Windows)	2010-05-04 12:55:10	219
+ruby-ftgl	229	X11 Applications	2010-05-04 12:55:10	219
+ruby-ftgl	230	Win32 (MS Windows)	2010-05-04 12:55:10	219
+ruby-ftgl	313	Cocoa (MacOS X)	2010-05-04 12:55:10	219
+ruby-geonames	233	Other Environment	2010-05-04 12:55:10	219
+ruby-gforge	237	Web Environment	2010-05-04 12:55:10	219
+ruby-glfw	313	Cocoa (MacOS X)	2010-05-04 12:55:10	219
+ruby-glfw	230	Win32 (MS Windows)	2010-05-04 12:55:10	219
+ruby-glfw	229	X11 Applications	2010-05-04 12:55:10	219
+ruby-helix	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-hunspell	233	Other Environment	2010-05-04 12:55:11	219
+ruby-ical	233	Other Environment	2010-05-04 12:55:11	219
+ruby-informix	233	Other Environment	2010-05-04 12:55:11	219
+ruby-irc	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-ircd	238	No Input/Output (Daemon)	2010-05-04 12:55:11	219
+ruby-iwlist	238	No Input/Output (Daemon)	2010-05-04 12:55:11	219
+ruby-kaart	237	Web Environment	2010-05-04 12:55:11	219
+ruby-ldapserver	238	No Input/Output (Daemon)	2010-05-04 12:55:11	219
+ruby-libburn	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-libburn	229	X11 Applications	2010-05-04 12:55:11	219
+ruby-libnet	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-libnids	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-linkparser	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-lorcon	227	Curses	2010-05-04 12:55:11	219
+ruby-net-nntp	238	No Input/Output (Daemon)	2010-05-04 12:55:11	219
+ruby-nxt	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-nxt	238	No Input/Output (Daemon)	2010-05-04 12:55:11	219
+ruby-ogg	233	Other Environment	2010-05-04 12:55:11	219
+ruby-ole	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-openal	233	Other Environment	2010-05-04 12:55:11	219
+ruby-openal	226	Console (Text Based)	2010-05-04 12:55:11	219
+ruby-opencl	233	Other Environment	2010-05-04 12:55:11	219
+ruby-opengl	313	Cocoa (MacOS X)	2010-05-04 12:55:11	219
+ruby-opengl	229	X11 Applications	2010-05-04 12:55:11	219
+ruby-openid	237	Web Environment	2010-05-04 12:55:11	219
+ruby-ow-patches	230	Win32 (MS Windows)	2010-05-04 12:55:12	219
+ruby-packetio	238	No Input/Output (Daemon)	2010-05-04 12:55:12	219
+ruby-pipeline	238	No Input/Output (Daemon)	2010-05-04 12:55:12	219
+ruby-prof	226	Console (Text Based)	2010-05-04 12:55:12	219
+ruby-prof	230	Win32 (MS Windows)	2010-05-04 12:55:12	219
+ruby-prolog	237	Web Environment	2010-05-04 12:55:12	219
+ruby-prolog	233	Other Environment	2010-05-04 12:55:12	219
+ruby-prolog	226	Console (Text Based)	2010-05-04 12:55:12	219
+ruby-ptbr	233	Other Environment	2010-05-04 12:55:12	219
+ruby-ptbr	230	Win32 (MS Windows)	2010-05-04 12:55:12	219
+ruby-recaptcha	237	Web Environment	2010-05-04 12:55:12	219
+ruby-release	226	Console (Text Based)	2010-05-04 12:55:12	219
+ruby-saferpay	237	Web Environment	2010-05-04 12:55:12	219
+ruby-sendfile	226	Console (Text Based)	2010-05-04 12:55:12	219
+ruby-sendfile	238	No Input/Output (Daemon)	2010-05-04 12:55:12	219
+ruby-sendfile	237	Web Environment	2010-05-04 12:55:12	219
+ruby-sexy	233	Other Environment	2010-05-04 12:55:12	219
+ruby-sexy	231	Gnome	2010-05-04 12:55:12	219
+ruby-snarl	230	Win32 (MS Windows)	2010-05-04 12:55:12	219
+ruby-statsample	226	Console (Text Based)	2010-05-04 12:55:12	219
+ruby-style	238	No Input/Output (Daemon)	2010-05-04 12:55:12	219
+ruby-v4l	238	No Input/Output (Daemon)	2010-05-04 12:55:12	219
+ruby-v4l	229	X11 Applications	2010-05-04 12:55:12	219
+ruby-vault	237	Web Environment	2010-05-04 12:55:12	219
+ruby-vpi	226	Console (Text Based)	2010-05-04 12:55:12	219
+ruby-vpopmail	226	Console (Text Based)	2010-05-04 12:55:13	219
+ruby-web	237	Web Environment	2010-05-04 12:55:13	219
+ruby-wmi	230	Win32 (MS Windows)	2010-05-04 12:55:13	219
+ruby-xattr	226	Console (Text Based)	2010-05-04 12:55:13	219
+ruby-xen	226	Console (Text Based)	2010-05-04 12:55:13	219
+ruby-xosd	229	X11 Applications	2010-05-04 12:55:13	219
+ruby2c	226	Console (Text Based)	2010-05-04 12:55:13	219
+ruby2cext	226	Console (Text Based)	2010-05-04 12:55:13	219
+ruby9i	238	No Input/Output (Daemon)	2010-05-04 12:55:13	219
+rubyamf	237	Web Environment	2010-05-04 12:55:13	219
+rubybb	237	Web Environment	2010-05-04 12:55:13	219
+rubybbcom	237	Web Environment	2010-05-04 12:55:13	219
+rubyblackjack	238	No Input/Output (Daemon)	2010-05-04 12:55:13	219
+rubybnc	238	No Input/Output (Daemon)	2010-05-04 12:55:13	219
+rubybrl	238	No Input/Output (Daemon)	2010-05-04 12:55:13	219
+rubyc	238	No Input/Output (Daemon)	2010-05-04 12:55:13	219
+rubycampus	237	Web Environment	2010-05-04 12:55:13	219
+rubycas-client	238	No Input/Output (Daemon)	2010-05-04 12:55:13	219
+rubycas-server	238	No Input/Output (Daemon)	2010-05-04 12:55:13	219
+rubycas-server	237	Web Environment	2010-05-04 12:55:13	219
+rubychart	233	Other Environment	2010-05-04 12:55:13	219
+rubychart	237	Web Environment	2010-05-04 12:55:13	219
+rubychess	233	Other Environment	2010-05-04 12:55:13	219
+rubycms	237	Web Environment	2010-05-04 12:55:13	219
+rubycook	237	Web Environment	2010-05-04 12:55:13	219
+rubycreatures	226	Console (Text Based)	2010-05-04 12:55:13	219
+rubycron	226	Console (Text Based)	2010-05-04 12:55:13	219
+rubycube	230	Win32 (MS Windows)	2010-05-04 12:55:13	219
+rubydevelop	231	Gnome	2010-05-04 12:55:13	219
+rubydevelop	233	Other Environment	2010-05-04 12:55:13	219
+rubydocbrowser	237	Web Environment	2010-05-04 12:55:14	219
+rubydotnet	226	Console (Text Based)	2010-05-04 12:55:14	219
+rubydotnet	237	Web Environment	2010-05-04 12:55:14	219
+rubydotnet	230	Win32 (MS Windows)	2010-05-04 12:55:14	219
+rubydrill	238	No Input/Output (Daemon)	2010-05-04 12:55:14	219
+rubyfast	226	Console (Text Based)	2010-05-04 12:55:14	219
+rubyforapache	237	Web Environment	2010-05-04 12:55:14	219
+rubyforger	226	Console (Text Based)	2010-05-04 12:55:14	219
+rubyforger	310	Fox	2010-05-04 12:55:14	219
+rubygame	229	X11 Applications	2010-05-04 12:55:14	219
+rubygame	230	Win32 (MS Windows)	2010-05-04 12:55:14	219
+rubygame	313	Cocoa (MacOS X)	2010-05-04 12:55:14	219
+rubygems	226	Console (Text Based)	2010-05-04 12:55:14	219
+rubygems	233	Other Environment	2010-05-04 12:55:14	219
+rubygl	230	Win32 (MS Windows)	2010-05-04 12:55:14	219
+rubygl	229	X11 Applications	2010-05-04 12:55:14	219
+rubyglew	229	X11 Applications	2010-05-04 12:55:14	219
+rubygo	229	X11 Applications	2010-05-04 12:55:14	219
+rubygo	230	Win32 (MS Windows)	2010-05-04 12:55:14	219
+rubygui	311	WxWidgits	2010-05-04 12:55:14	219
+rubyhealthvault	237	Web Environment	2010-05-04 12:55:14	219
+rubyibm	237	Web Environment	2010-05-04 12:55:14	219
+rubyinlabs	237	Web Environment	2010-05-04 12:55:14	219
+rubyinline	226	Console (Text Based)	2010-05-04 12:55:14	219
+rubyinlineaccel	226	Console (Text Based)	2010-05-04 12:55:14	219
+rubyinstaller	230	Win32 (MS Windows)	2010-05-04 12:55:14	219
+rubyircd	226	Console (Text Based)	2010-05-04 12:55:14	219
+rubyircd	238	No Input/Output (Daemon)	2010-05-04 12:55:14	219
+rubyjdwp	226	Console (Text Based)	2010-05-04 12:55:14	219
+rubylab	310	Fox	2010-05-04 12:55:14	219
+rubylets	237	Web Environment	2010-05-04 12:55:14	219
+rubylogparser	230	Win32 (MS Windows)	2010-05-04 12:55:15	219
+rubylucene	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubymacs	227	Curses	2010-05-04 12:55:15	219
+rubymail	233	Other Environment	2010-05-04 12:55:15	219
+rubyman	229	X11 Applications	2010-05-04 12:55:15	219
+rubyman	230	Win32 (MS Windows)	2010-05-04 12:55:15	219
+rubyman	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubyminer	313	Cocoa (MacOS X)	2010-05-04 12:55:15	219
+rubymon	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubymq	238	No Input/Output (Daemon)	2010-05-04 12:55:15	219
+rubymut	237	Web Environment	2010-05-04 12:55:15	219
+rubynet	230	Win32 (MS Windows)	2010-05-04 12:55:15	219
+rubynpr	237	Web Environment	2010-05-04 12:55:15	219
+rubynuts	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubyobjc	313	Cocoa (MacOS X)	2010-05-04 12:55:15	219
+rubyobjc	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubyomf2097	229	X11 Applications	2010-05-04 12:55:15	219
+rubyomf2097	230	Win32 (MS Windows)	2010-05-04 12:55:15	219
+rubyonblogs	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubyonbrforum	237	Web Environment	2010-05-04 12:55:15	219
+rubyonmexico	237	Web Environment	2010-05-04 12:55:15	219
+rubyopensolaris	233	Other Environment	2010-05-04 12:55:15	219
+rubyopensolaris	237	Web Environment	2010-05-04 12:55:15	219
+rubyosa	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubyosx	313	Cocoa (MacOS X)	2010-05-04 12:55:15	219
+rubyplayer	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubypodder	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubypython	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubyquartz	226	Console (Text Based)	2010-05-04 12:55:15	219
+rubyrep	226	Console (Text Based)	2010-05-04 12:55:16	219
+rubyrest	237	Web Environment	2010-05-04 12:55:16	219
+rubyri	238	No Input/Output (Daemon)	2010-05-04 12:55:16	219
+rubyrobot	233	Other Environment	2010-05-04 12:55:16	219
+rubyroom	231	Gnome	2010-05-04 12:55:16	219
+rubyrpc	238	No Input/Output (Daemon)	2010-05-04 12:55:16	219
+rubyrss	237	Web Environment	2010-05-04 12:55:16	219
+rubyscript2exe	226	Console (Text Based)	2010-05-04 12:55:16	219
+rubysettlers	311	WxWidgits	2010-05-04 12:55:16	219
+rubysh	226	Console (Text Based)	2010-05-04 12:55:16	219
+rubyspaces	233	Other Environment	2010-05-04 12:55:16	219
+rubystack	237	Web Environment	2010-05-04 12:55:16	219
+rubystack	230	Win32 (MS Windows)	2010-05-04 12:55:16	219
+rubysteps	237	Web Environment	2010-05-04 12:55:16	219
+rubystylejs	237	Web Environment	2010-05-04 12:55:16	219
+rubysunrpc	238	No Input/Output (Daemon)	2010-05-04 12:55:16	219
+rubyswitch	226	Console (Text Based)	2010-05-04 12:55:16	219
+rubysync	226	Console (Text Based)	2010-05-04 12:55:16	219
+rubytalism	229	X11 Applications	2010-05-04 12:55:16	219
+rubytcc	233	Other Environment	2010-05-04 12:55:16	219
+rubytests	226	Console (Text Based)	2010-05-04 12:55:16	219
+rubytidy	233	Other Environment	2010-05-04 12:55:16	219
+rubytorrent	226	Console (Text Based)	2010-05-04 12:55:16	219
+rubytrailers	238	No Input/Output (Daemon)	2010-05-04 12:55:16	219
+rubytree	233	Other Environment	2010-05-04 12:55:16	219
+rubytter	237	Web Environment	2010-05-04 12:55:16	219
+rubyunix	231	Gnome	2010-05-04 12:55:17	219
+rubyunix	311	WxWidgits	2010-05-04 12:55:17	219
+rubyunix	226	Console (Text Based)	2010-05-04 12:55:17	219
+rubyverse	226	Console (Text Based)	2010-05-04 12:55:17	219
+rubyvm	238	No Input/Output (Daemon)	2010-05-04 12:55:17	219
+rubyvmware	226	Console (Text Based)	2010-05-04 12:55:17	219
+rubyvote	237	Web Environment	2010-05-04 12:55:17	219
+rubyvote	233	Other Environment	2010-05-04 12:55:17	219
+rubyvote	226	Console (Text Based)	2010-05-04 12:55:17	219
+rubyweather	238	No Input/Output (Daemon)	2010-05-04 12:55:17	219
+rubywebdialogs	237	Web Environment	2010-05-04 12:55:17	219
+rubywiki	237	Web Environment	2010-05-04 12:55:17	219
+rubyyabt	226	Console (Text Based)	2010-05-04 12:55:17	219
+rubyzon	237	Web Environment	2010-05-04 12:55:17	219
+rubzilla	237	Web Environment	2010-05-04 12:55:17	219
+rucodegen	226	Console (Text Based)	2010-05-04 12:55:17	219
+rudebug	233	Other Environment	2010-05-04 12:55:17	219
+rudebug	230	Win32 (MS Windows)	2010-05-04 12:55:17	219
+rudebug	231	Gnome	2010-05-04 12:55:17	219
+rudoto	231	Gnome	2010-05-04 12:55:17	219
+rudups	313	Cocoa (MacOS X)	2010-05-04 12:55:17	219
+rufit	226	Console (Text Based)	2010-05-04 12:55:17	219
+rufopode	226	Console (Text Based)	2010-05-04 12:55:17	219
+ruga	226	Console (Text Based)	2010-05-04 12:55:17	219
+rugbee	229	X11 Applications	2010-05-04 12:55:17	219
+rugbee	230	Win32 (MS Windows)	2010-05-04 12:55:17	219
+rugbee	313	Cocoa (MacOS X)	2010-05-04 12:55:17	219
+rugomatic	237	Web Environment	2010-05-04 12:55:17	219
+rugtd	229	X11 Applications	2010-05-04 12:55:17	219
+rugui	231	Gnome	2010-05-04 12:55:17	219
+ruma	229	X11 Applications	2010-05-04 12:55:17	219
+rumbster	238	No Input/Output (Daemon)	2010-05-04 12:55:17	219
+rumda	226	Console (Text Based)	2010-05-04 12:55:17	219
+ruminate	226	Console (Text Based)	2010-05-04 12:55:17	219
+rumpus	226	Console (Text Based)	2010-05-04 12:55:18	219
+runison	226	Console (Text Based)	2010-05-04 12:55:18	219
+runtex	230	Win32 (MS Windows)	2010-05-04 12:55:18	219
+runtex	226	Console (Text Based)	2010-05-04 12:55:18	219
+runtimeprofile	233	Other Environment	2010-05-04 12:55:18	219
+rup	226	Console (Text Based)	2010-05-04 12:55:18	219
+rupac	226	Console (Text Based)	2010-05-04 12:55:18	219
+rupircd	237	Web Environment	2010-05-04 12:55:18	219
+rupl	233	Other Environment	2010-05-04 12:55:18	219
+ruport	237	Web Environment	2010-05-04 12:55:18	219
+ruport	226	Console (Text Based)	2010-05-04 12:55:18	219
+ruprecht	226	Console (Text Based)	2010-05-04 12:55:18	219
+ruprecht	310	Fox	2010-05-04 12:55:18	219
+rupy	226	Console (Text Based)	2010-05-04 12:55:18	219
+rush	227	Curses	2010-05-04 12:55:18	219
+russian	237	Web Environment	2010-05-04 12:55:18	219
+russian	233	Other Environment	2010-05-04 12:55:18	219
+russian	226	Console (Text Based)	2010-05-04 12:55:18	219
+russter	226	Console (Text Based)	2010-05-04 12:55:18	219
+rust	233	Other Environment	2010-05-04 12:55:18	219
+rutaci	226	Console (Text Based)	2010-05-04 12:55:18	219
+ruva	226	Console (Text Based)	2010-05-04 12:55:18	219
+ruvi	232	KDE	2010-05-04 12:55:18	219
+ruvi	227	Curses	2010-05-04 12:55:18	219
+ruvim	227	Curses	2010-05-04 12:55:18	219
+ruwese	226	Console (Text Based)	2010-05-04 12:55:18	219
+ruwiki	237	Web Environment	2010-05-04 12:55:18	219
+rvcs	238	No Input/Output (Daemon)	2010-05-04 12:55:18	219
+rvv	229	X11 Applications	2010-05-04 12:55:18	219
+rwb	226	Console (Text Based)	2010-05-04 12:55:18	219
+rwdapplications	237	Web Environment	2010-05-04 12:55:18	219
+rweb	237	Web Environment	2010-05-04 12:55:18	219
+rwebunit	230	Win32 (MS Windows)	2010-05-04 12:55:18	219
+rwidgets	229	X11 Applications	2010-05-04 12:55:18	219
+rwikibot	226	Console (Text Based)	2010-05-04 12:55:18	219
+rwsman	237	Web Environment	2010-05-04 12:55:19	219
+rwsman	226	Console (Text Based)	2010-05-04 12:55:19	219
+rxevil	237	Web Environment	2010-05-04 12:55:19	219
+rxlib	229	X11 Applications	2010-05-04 12:55:19	219
+rxul	237	Web Environment	2010-05-04 12:55:19	219
+ryms	237	Web Environment	2010-05-04 12:55:19	219
+ryzer	226	Console (Text Based)	2010-05-04 12:55:19	219
+s33r	226	Console (Text Based)	2010-05-04 12:55:19	219
+s5presents	237	Web Environment	2010-05-04 12:55:19	219
+s7-seven	226	Console (Text Based)	2010-05-04 12:55:19	219
+s7r47e50	229	X11 Applications	2010-05-04 12:55:19	219
+sac	226	Console (Text Based)	2010-05-04 12:55:19	219
+safe	226	Console (Text Based)	2010-05-04 12:55:19	219
+sahara	237	Web Environment	2010-05-04 12:55:19	219
+sahara	230	Win32 (MS Windows)	2010-05-04 12:55:19	219
+sahara	231	Gnome	2010-05-04 12:55:19	219
+saikuro	226	Console (Text Based)	2010-05-04 12:55:19	219
+sair-daemon	238	No Input/Output (Daemon)	2010-05-04 12:55:19	219
+sair-daemon	226	Console (Text Based)	2010-05-04 12:55:19	219
+salted-login	237	Web Environment	2010-05-04 12:55:19	219
+sambala	233	Other Environment	2010-05-04 12:55:19	219
+sapo-rb	233	Other Environment	2010-05-04 12:55:19	219
+sashimi	226	Console (Text Based)	2010-05-04 12:55:19	219
+scaffoldform	233	Other Environment	2010-05-04 12:55:19	219
+scaffolding-ext	237	Web Environment	2010-05-04 12:55:19	219
+scaffoldingesda	237	Web Environment	2010-05-04 12:55:19	219
+scandb	226	Console (Text Based)	2010-05-04 12:55:19	219
+scarlet	226	Console (Text Based)	2010-05-04 12:55:19	219
+schematron	226	Console (Text Based)	2010-05-04 12:55:19	219
+schoultzvideo	231	Gnome	2010-05-04 12:55:20	219
+scio	237	Web Environment	2010-05-04 12:55:20	219
+sciyag	226	Console (Text Based)	2010-05-04 12:55:20	219
+sciyag	233	Other Environment	2010-05-04 12:55:20	219
+scmrss	237	Web Environment	2010-05-04 12:55:20	219
+sconvert	230	Win32 (MS Windows)	2010-05-04 12:55:20	219
+sconvert	229	X11 Applications	2010-05-04 12:55:20	219
+scooter	237	Web Environment	2010-05-04 12:55:20	219
+scrabblit	226	Console (Text Based)	2010-05-04 12:55:20	219
+screensvr	310	Fox	2010-05-04 12:55:20	219
+screensvr	230	Win32 (MS Windows)	2010-05-04 12:55:20	219
+scribo	237	Web Environment	2010-05-04 12:55:20	219
+scrubyt	237	Web Environment	2010-05-04 12:55:20	219
+scrubyt	226	Console (Text Based)	2010-05-04 12:55:20	219
+scrumr	237	Web Environment	2010-05-04 12:55:20	219
+sds	233	Other Environment	2010-05-04 12:55:20	219
+searchable-rec	237	Web Environment	2010-05-04 12:55:20	219
+searchapi	233	Other Environment	2010-05-04 12:55:20	219
+searchgenerator	237	Web Environment	2010-05-04 12:55:20	219
+seguro	237	Web Environment	2010-05-04 12:55:20	219
+selector	237	Web Environment	2010-05-04 12:55:20	219
+selms	233	Other Environment	2010-05-04 12:55:20	219
+seltest	229	X11 Applications	2010-05-04 12:55:20	219
+semilla	237	Web Environment	2010-05-04 12:55:20	219
+sentence	226	Console (Text Based)	2010-05-04 12:55:20	219
+seotoolbox	237	Web Environment	2010-05-04 12:55:21	219
+serdisplib-ruby	226	Console (Text Based)	2010-05-04 12:55:21	219
+seriesviewer	232	KDE	2010-05-04 12:55:21	219
+serve	237	Web Environment	2010-05-04 12:55:21	219
+serverbuddy	226	Console (Text Based)	2010-05-04 12:55:21	219
+servicemerchant	237	Web Environment	2010-05-04 12:55:21	219
+sfii90	230	Win32 (MS Windows)	2010-05-04 12:55:21	219
+sfzer	226	Console (Text Based)	2010-05-04 12:55:21	219
+sgl	226	Console (Text Based)	2010-05-04 12:55:21	219
+sgl	233	Other Environment	2010-05-04 12:55:21	219
+sgl	230	Win32 (MS Windows)	2010-05-04 12:55:21	219
+shadowjack	233	Other Environment	2010-05-04 12:55:21	219
+shattered	229	X11 Applications	2010-05-04 12:55:21	219
+shattered	230	Win32 (MS Windows)	2010-05-04 12:55:21	219
+shattered	313	Cocoa (MacOS X)	2010-05-04 12:55:21	219
+shellable	226	Console (Text Based)	2010-05-04 12:55:21	219
+shellable	237	Web Environment	2010-05-04 12:55:21	219
+shiningred	237	Web Environment	2010-05-04 12:55:21	219
+shinmun	226	Console (Text Based)	2010-05-04 12:55:21	219
+shire	226	Console (Text Based)	2010-05-04 12:55:21	219
+shooting-star	238	No Input/Output (Daemon)	2010-05-04 12:55:21	219
+shoppinglist	237	Web Environment	2010-05-04 12:55:21	219
+shortepic-pmo	237	Web Environment	2010-05-04 12:55:21	219
+shroom	231	Gnome	2010-05-04 12:55:21	219
+shunya	237	Web Environment	2010-05-04 12:55:21	219
+shuttr	237	Web Environment	2010-05-04 12:55:22	219
+sicl	226	Console (Text Based)	2010-05-04 12:55:22	219
+sierra	230	Win32 (MS Windows)	2010-05-04 12:55:22	219
+siffer	233	Other Environment	2010-05-04 12:55:22	219
+siffer	237	Web Environment	2010-05-04 12:55:22	219
+siffer	230	Win32 (MS Windows)	2010-05-04 12:55:22	219
+sifrhelper	237	Web Environment	2010-05-04 12:55:22	219
+silver-screen	237	Web Environment	2010-05-04 12:55:22	219
+sim	226	Console (Text Based)	2010-05-04 12:55:22	219
+simple-json	237	Web Environment	2010-05-04 12:55:22	219
+simplecms	237	Web Environment	2010-05-04 12:55:22	219
+simpleconsole	226	Console (Text Based)	2010-05-04 12:55:22	219
+simplepass	226	Console (Text Based)	2010-05-04 12:55:22	219
+simplepay	237	Web Environment	2010-05-04 12:55:22	219
+simplesidebar	237	Web Environment	2010-05-04 12:55:22	219
+simplesubtitler	233	Other Environment	2010-05-04 12:55:22	219
+simplexmlparser	226	Console (Text Based)	2010-05-04 12:55:22	219
+simplypowerful	237	Web Environment	2010-05-04 12:55:22	219
+simplypowerful	233	Other Environment	2010-05-04 12:55:22	219
+simplypowerful	226	Console (Text Based)	2010-05-04 12:55:22	219
+simruby	226	Console (Text Based)	2010-05-04 12:55:22	219
+simruby	233	Other Environment	2010-05-04 12:55:22	219
+simuproxy	226	Console (Text Based)	2010-05-04 12:55:22	219
+sinai	226	Console (Text Based)	2010-05-04 12:55:22	219
+sinai	237	Web Environment	2010-05-04 12:55:22	219
+sinatra-mapping	237	Web Environment	2010-05-04 12:55:22	219
+sinatra-mapping	226	Console (Text Based)	2010-05-04 12:55:22	219
+sipper	226	Console (Text Based)	2010-05-04 12:55:22	219
+site-explorer	237	Web Environment	2010-05-04 12:55:23	219
+site-map	237	Web Environment	2010-05-04 12:55:23	219
+sitemap	237	Web Environment	2010-05-04 12:55:23	219
+sitemap-rb	232	KDE	2010-05-04 12:55:23	219
+sitemap-rb	230	Win32 (MS Windows)	2010-05-04 12:55:23	219
+sitemap-rb	226	Console (Text Based)	2010-05-04 12:55:23	219
+skema	226	Console (Text Based)	2010-05-04 12:55:23	219
+sketches	226	Console (Text Based)	2010-05-04 12:55:23	219
+skiaxer	238	No Input/Output (Daemon)	2010-05-04 12:55:23	219
+skiaxer	313	Cocoa (MacOS X)	2010-05-04 12:55:23	219
+skinnable	237	Web Environment	2010-05-04 12:55:23	219
+skinnyblog	237	Web Environment	2010-05-04 12:55:23	219
+skynet	226	Console (Text Based)	2010-05-04 12:55:23	219
+skynet	237	Web Environment	2010-05-04 12:55:23	219
+skyperapper	230	Win32 (MS Windows)	2010-05-04 12:55:23	219
+skyperapper	313	Cocoa (MacOS X)	2010-05-04 12:55:23	219
+sleipnir-api	230	Win32 (MS Windows)	2010-05-04 12:55:23	219
+smagacor	229	X11 Applications	2010-05-04 12:55:23	219
+smallcage	226	Console (Text Based)	2010-05-04 12:55:23	219
+smallcage	237	Web Environment	2010-05-04 12:55:23	219
+smarbs	226	Console (Text Based)	2010-05-04 12:55:23	219
+smartcard	238	No Input/Output (Daemon)	2010-05-04 12:55:23	219
+smartinput	226	Console (Text Based)	2010-05-04 12:55:23	219
+smeagol	237	Web Environment	2010-05-04 12:55:23	219
+smeagol4rails	237	Web Environment	2010-05-04 12:55:23	219
+smmanagement	237	Web Environment	2010-05-04 12:55:23	219
+sms-http	238	No Input/Output (Daemon)	2010-05-04 12:55:23	219
+smsender	226	Console (Text Based)	2010-05-04 12:55:23	219
+smuggler	237	Web Environment	2010-05-04 12:55:24	219
+smuggler	233	Other Environment	2010-05-04 12:55:24	219
+smuggler	226	Console (Text Based)	2010-05-04 12:55:24	219
+smugmug4r	237	Web Environment	2010-05-04 12:55:24	219
+snailgun	226	Console (Text Based)	2010-05-04 12:55:24	219
+snailgun	238	No Input/Output (Daemon)	2010-05-04 12:55:24	219
+snippits	229	X11 Applications	2010-05-04 12:55:24	219
+snmpscan	226	Console (Text Based)	2010-05-04 12:55:24	219
+snoopy	226	Console (Text Based)	2010-05-04 12:55:24	219
+socialruby	237	Web Environment	2010-05-04 12:55:24	219
+sodasearch	237	Web Environment	2010-05-04 12:55:24	219
+sodukusweeper	310	Fox	2010-05-04 12:55:24	219
+soks	237	Web Environment	2010-05-04 12:55:24	219
+solarisutils	233	Other Environment	2010-05-04 12:55:24	219
+solunas	237	Web Environment	2010-05-04 12:55:24	219
+solver	226	Console (Text Based)	2010-05-04 12:55:24	219
+sortable-list	237	Web Environment	2010-05-04 12:55:24	219
+sortablecolumns	237	Web Environment	2010-05-04 12:55:24	219
+soundmanager2	237	Web Environment	2010-05-04 12:55:24	219
+sourcecode2html	226	Console (Text Based)	2010-05-04 12:55:24	219
+spaceshooter	233	Other Environment	2010-05-04 12:55:24	219
+sparklines	237	Web Environment	2010-05-04 12:55:24	219
+sparql	226	Console (Text Based)	2010-05-04 12:55:24	219
+spec-converter	226	Console (Text Based)	2010-05-04 12:55:24	219
+specrun	226	Console (Text Based)	2010-05-04 12:55:25	219
+spectacles	226	Console (Text Based)	2010-05-04 12:55:25	219
+spectate	237	Web Environment	2010-05-04 12:55:25	219
+speed-reader	310	Fox	2010-05-04 12:55:25	219
+speedreader	230	Win32 (MS Windows)	2010-05-04 12:55:25	219
+speedreader	229	X11 Applications	2010-05-04 12:55:25	219
+speedymaths	226	Console (Text Based)	2010-05-04 12:55:25	219
+spider	238	No Input/Output (Daemon)	2010-05-04 12:55:25	219
+spirit	226	Console (Text Based)	2010-05-04 12:55:25	219
+spreadsheet	226	Console (Text Based)	2010-05-04 12:55:25	219
+spree	237	Web Environment	2010-05-04 12:55:25	219
+sprolog	237	Web Environment	2010-05-04 12:55:25	219
+sprout	226	Console (Text Based)	2010-05-04 12:55:25	219
+sproutcore	237	Web Environment	2010-05-04 12:55:25	219
+sqid	226	Console (Text Based)	2010-05-04 12:55:25	219
+sql2xls	226	Console (Text Based)	2010-05-04 12:55:25	219
+sqld4r	226	Console (Text Based)	2010-05-04 12:55:25	219
+sqliki	237	Web Environment	2010-05-04 12:55:25	219
+sqlite-ironruby	230	Win32 (MS Windows)	2010-05-04 12:55:25	219
+sqlyzer	238	No Input/Output (Daemon)	2010-05-04 12:55:25	219
+sqrbl	233	Other Environment	2010-05-04 12:55:25	219
+sqs	237	Web Environment	2010-05-04 12:55:25	219
+sqs	226	Console (Text Based)	2010-05-04 12:55:25	219
+squib	226	Console (Text Based)	2010-05-04 12:55:25	219
+squib	237	Web Environment	2010-05-04 12:55:25	219
+sqwee	237	Web Environment	2010-05-04 12:55:25	219
+sribi	226	Console (Text Based)	2010-05-04 12:55:26	219
+srt-resync	226	Console (Text Based)	2010-05-04 12:55:26	219
+ssbz	233	Other Environment	2010-05-04 12:55:26	219
+sshotgun	226	Console (Text Based)	2010-05-04 12:55:26	219
+sslplaypen	226	Console (Text Based)	2010-05-04 12:55:26	219
+ssoaa	237	Web Environment	2010-05-04 12:55:26	219
+stapler	237	Web Environment	2010-05-04 12:55:26	219
+stapler	226	Console (Text Based)	2010-05-04 12:55:26	219
+starman	237	Web Environment	2010-05-04 12:55:26	219
+statarray	233	Other Environment	2010-05-04 12:55:26	219
+staticmatic	237	Web Environment	2010-05-04 12:55:26	219
+staticweb	226	Console (Text Based)	2010-05-04 12:55:26	219
+staticweb	237	Web Environment	2010-05-04 12:55:26	219
+statistically	226	Console (Text Based)	2010-05-04 12:55:26	219
+statserv2	238	No Input/Output (Daemon)	2010-05-04 12:55:26	219
+statusreporter	237	Web Environment	2010-05-04 12:55:26	219
+stdlib-doc	226	Console (Text Based)	2010-05-04 12:55:26	219
+stdlib-doc	237	Web Environment	2010-05-04 12:55:26	219
+stellr	237	Web Environment	2010-05-04 12:55:26	219
+stencil-templ	226	Console (Text Based)	2010-05-04 12:55:26	219
+stim	237	Web Environment	2010-05-04 12:55:26	219
+stompmq	233	Other Environment	2010-05-04 12:55:26	219
+stone	237	Web Environment	2010-05-04 12:55:26	219
+storycards	237	Web Environment	2010-05-04 12:55:27	219
+storytracker	237	Web Environment	2010-05-04 12:55:27	219
+stripattributes	237	Web Environment	2010-05-04 12:55:27	219
+stuff	237	Web Environment	2010-05-04 12:55:27	219
+suberb	237	Web Environment	2010-05-04 12:55:27	219
+submeister	226	Console (Text Based)	2010-05-04 12:55:27	219
+submodulesync	226	Console (Text Based)	2010-05-04 12:55:27	219
+subrails	229	X11 Applications	2010-05-04 12:55:27	219
+substitutesolve	226	Console (Text Based)	2010-05-04 12:55:27	219
+subtle	229	X11 Applications	2010-05-04 12:55:27	219
+subwrap	226	Console (Text Based)	2010-05-04 12:55:27	219
+suck20	231	Gnome	2010-05-04 12:55:27	219
+sudoku	226	Console (Text Based)	2010-05-04 12:55:27	219
+sudoku-gtk	231	Gnome	2010-05-04 12:55:27	219
+sudoku-gtk	230	Win32 (MS Windows)	2010-05-04 12:55:27	219
+sudoku-x	226	Console (Text Based)	2010-05-04 12:55:27	219
+sugarbeaner	237	Web Environment	2010-05-04 12:55:27	219
+sugoi-mail	226	Console (Text Based)	2010-05-04 12:55:27	219
+sugoi-mail	233	Other Environment	2010-05-04 12:55:27	219
+sugoi-mail	237	Web Environment	2010-05-04 12:55:27	219
+sunaku	226	Console (Text Based)	2010-05-04 12:55:27	219
+sundae	226	Console (Text Based)	2010-05-04 12:55:27	219
+sup	227	Curses	2010-05-04 12:55:27	219
+support	237	Web Environment	2010-05-04 12:55:27	219
+suprails	226	Console (Text Based)	2010-05-04 12:55:27	219
+surething	229	X11 Applications	2010-05-04 12:55:27	219
+survey-toolkit	237	Web Environment	2010-05-04 12:55:28	219
+survey-toolkit	238	No Input/Output (Daemon)	2010-05-04 12:55:28	219
+survey-toolkit	226	Console (Text Based)	2010-05-04 12:55:28	219
+surveyor	237	Web Environment	2010-05-04 12:55:28	219
+svn-command	226	Console (Text Based)	2010-05-04 12:55:28	219
+svn-hooks	226	Console (Text Based)	2010-05-04 12:55:28	219
+svnauto	226	Console (Text Based)	2010-05-04 12:55:28	219
+svnbranch	226	Console (Text Based)	2010-05-04 12:55:28	219
+svportal	237	Web Environment	2010-05-04 12:55:28	219
+swallow	238	No Input/Output (Daemon)	2010-05-04 12:55:28	219
+swe-tv	237	Web Environment	2010-05-04 12:55:28	219
+sweetgui	233	Other Environment	2010-05-04 12:55:28	219
+swint	227	Curses	2010-05-04 12:55:28	219
+switchvox	237	Web Environment	2010-05-04 12:55:28	219
+sws	237	Web Environment	2010-05-04 12:55:28	219
+swxruby	237	Web Environment	2010-05-04 12:55:28	219
+symbian	233	Other Environment	2010-05-04 12:55:28	219
+symphony	226	Console (Text Based)	2010-05-04 12:55:28	219
+sympop	238	No Input/Output (Daemon)	2010-05-04 12:55:28	219
+sympop	226	Console (Text Based)	2010-05-04 12:55:28	219
+syndication	237	Web Environment	2010-05-04 12:55:28	219
+systir	226	Console (Text Based)	2010-05-04 12:55:28	219
+sysutils	226	Console (Text Based)	2010-05-04 12:55:28	219
+tabtab	226	Console (Text Based)	2010-05-04 12:55:28	219
+tadpoles	229	X11 Applications	2010-05-04 12:55:29	219
+tag-system	230	Win32 (MS Windows)	2010-05-04 12:55:29	219
+tagflow	237	Web Environment	2010-05-04 12:55:29	219
+tagloko	313	Cocoa (MacOS X)	2010-05-04 12:55:29	219
+tagtools	237	Web Environment	2010-05-04 12:55:29	219
+tagtreescanner	226	Console (Text Based)	2010-05-04 12:55:29	219
+tagtreescanner	237	Web Environment	2010-05-04 12:55:29	219
+taintedsignal	229	X11 Applications	2010-05-04 12:55:29	219
+taintedsignal	230	Win32 (MS Windows)	2010-05-04 12:55:29	219
+taintedsignal	313	Cocoa (MacOS X)	2010-05-04 12:55:29	219
+tal	233	Other Environment	2010-05-04 12:55:29	219
+tanzanite	311	WxWidgits	2010-05-04 12:55:29	219
+tanzanite	231	Gnome	2010-05-04 12:55:29	219
+tar2rubyscript	226	Console (Text Based)	2010-05-04 12:55:29	219
+tarpipe	233	Other Environment	2010-05-04 12:55:29	219
+tartan	233	Other Environment	2010-05-04 12:55:29	219
+tartan	237	Web Environment	2010-05-04 12:55:29	219
+taskjuggler	226	Console (Text Based)	2010-05-04 12:55:29	219
+taskjuggler	237	Web Environment	2010-05-04 12:55:29	219
+taskr	237	Web Environment	2010-05-04 12:55:29	219
+taskr	238	No Input/Output (Daemon)	2010-05-04 12:55:29	219
+tattletale	231	Gnome	2010-05-04 12:55:29	219
+tdbatmon	229	X11 Applications	2010-05-04 12:55:29	219
+tdiary	237	Web Environment	2010-05-04 12:55:29	219
+teleauth	229	X11 Applications	2010-05-04 12:55:29	219
+teleauth	237	Web Environment	2010-05-04 12:55:29	219
+teleauth	226	Console (Text Based)	2010-05-04 12:55:29	219
+tem	226	Console (Text Based)	2010-05-04 12:55:29	219
+tem	233	Other Environment	2010-05-04 12:55:29	219
+tempest	226	Console (Text Based)	2010-05-04 12:55:29	219
+tempest	237	Web Environment	2010-05-04 12:55:29	219
+templater	226	Console (Text Based)	2010-05-04 12:55:29	219
+tengen	231	Gnome	2010-05-04 12:55:29	219
+tensor	230	Win32 (MS Windows)	2010-05-04 12:55:29	219
+tensor	229	X11 Applications	2010-05-04 12:55:29	219
+tentsteak	237	Web Environment	2010-05-04 12:55:29	219
+terminator	226	Console (Text Based)	2010-05-04 12:55:30	219
+termios	226	Console (Text Based)	2010-05-04 12:55:30	219
+termtter	226	Console (Text Based)	2010-05-04 12:55:30	219
+termvisual	227	Curses	2010-05-04 12:55:30	219
+test-extensions	226	Console (Text Based)	2010-05-04 12:55:30	219
+test-httpweb	226	Console (Text Based)	2010-05-04 12:55:30	219
+test-httpweb	238	No Input/Output (Daemon)	2010-05-04 12:55:30	219
+test-httpweb	237	Web Environment	2010-05-04 12:55:30	219
+test-parser	226	Console (Text Based)	2010-05-04 12:55:30	219
+test-unit	231	Gnome	2010-05-04 12:55:30	219
+test-unit	310	Fox	2010-05-04 12:55:30	219
+test-unit	226	Console (Text Based)	2010-05-04 12:55:30	219
+testcamp	226	Console (Text Based)	2010-05-04 12:55:30	219
+testcamp	237	Web Environment	2010-05-04 12:55:30	219
+testdoc	226	Console (Text Based)	2010-05-04 12:55:30	219
+testunitxml	226	Console (Text Based)	2010-05-04 12:55:30	219
+texier	237	Web Environment	2010-05-04 12:55:30	219
+texier	226	Console (Text Based)	2010-05-04 12:55:30	219
+text-format	226	Console (Text Based)	2010-05-04 12:55:30	219
+text-format	233	Other Environment	2010-05-04 12:55:30	219
+text-highlight	226	Console (Text Based)	2010-05-04 12:55:30	219
+textilator	237	Web Environment	2010-05-04 12:55:30	219
+tftpplus	226	Console (Text Based)	2010-05-04 12:55:30	219
+tgrcms	237	Web Environment	2010-05-04 12:55:30	219
+thehub	237	Web Environment	2010-05-04 12:55:30	219
+themcp	237	Web Environment	2010-05-04 12:55:30	219
+theme-generator	237	Web Environment	2010-05-04 12:55:30	219
+therush	226	Console (Text Based)	2010-05-04 12:55:30	219
+thetis	237	Web Environment	2010-05-04 12:55:31	219
+thinhttp	233	Other Environment	2010-05-04 12:55:31	219
+thinhttp	237	Web Environment	2010-05-04 12:55:31	219
+thinky	226	Console (Text Based)	2010-05-04 12:55:31	219
+third-base	233	Other Environment	2010-05-04 12:55:31	219
+thirtyboxes	237	Web Environment	2010-05-04 12:55:31	219
+thumbnailer	226	Console (Text Based)	2010-05-04 12:55:31	219
+tibcorv	238	No Input/Output (Daemon)	2010-05-04 12:55:31	219
+tiddy	226	Console (Text Based)	2010-05-04 12:55:31	219
+tiddy	237	Web Environment	2010-05-04 12:55:31	219
+tidy	237	Web Environment	2010-05-04 12:55:31	219
+tidy-ffi	237	Web Environment	2010-05-04 12:55:31	219
+tigerevents	237	Web Environment	2010-05-04 12:55:31	219
+tiki	237	Web Environment	2010-05-04 12:55:31	219
+timcharper	237	Web Environment	2010-05-04 12:55:31	219
+timecert	237	Web Environment	2010-05-04 12:55:31	219
+timelog4r	237	Web Environment	2010-05-04 12:55:31	219
+timeofftracker	237	Web Environment	2010-05-04 12:55:31	219
+tinyurl	226	Console (Text Based)	2010-05-04 12:55:31	219
+tioga	226	Console (Text Based)	2010-05-04 12:55:31	219
+tipbackup	226	Console (Text Based)	2010-05-04 12:55:31	219
+tkar	233	Other Environment	2010-05-04 12:55:31	219
+tkar	229	X11 Applications	2010-05-04 12:55:31	219
+tkregreplace	233	Other Environment	2010-05-04 12:55:31	219
+tldlib	226	Console (Text Based)	2010-05-04 12:55:31	219
+tmtool	226	Console (Text Based)	2010-05-04 12:55:31	219
+to-json-options	237	Web Environment	2010-05-04 12:55:32	219
+todoexe	226	Console (Text Based)	2010-05-04 12:55:32	219
+toodledo	226	Console (Text Based)	2010-05-04 12:55:32	219
+toodoo	237	Web Environment	2010-05-04 12:55:32	219
+toombila	237	Web Environment	2010-05-04 12:55:32	219
+toozday	237	Web Environment	2010-05-04 12:55:32	219
+topsecret	237	Web Environment	2010-05-04 12:55:32	219
+topspot	237	Web Environment	2010-05-04 12:55:32	219
+tor	238	No Input/Output (Daemon)	2010-05-04 12:55:32	219
+tor	237	Web Environment	2010-05-04 12:55:32	219
+torgo	226	Console (Text Based)	2010-05-04 12:55:32	219
+torrentparser	238	No Input/Output (Daemon)	2010-05-04 12:55:32	219
+tournament	226	Console (Text Based)	2010-05-04 12:55:32	219
+tournament	237	Web Environment	2010-05-04 12:55:32	219
+tourneybot	226	Console (Text Based)	2010-05-04 12:55:32	219
+tourneybot	233	Other Environment	2010-05-04 12:55:32	219
+track-changes	233	Other Environment	2010-05-04 12:55:32	219
+tracker	226	Console (Text Based)	2010-05-04 12:55:32	219
+trackrecord	237	Web Environment	2010-05-04 12:55:32	219
+tradingrobotdsl	226	Console (Text Based)	2010-05-04 12:55:32	219
+trails	237	Web Environment	2010-05-04 12:55:32	219
+traks	237	Web Environment	2010-05-04 12:55:32	219
+transact	237	Web Environment	2010-05-04 12:55:32	219
+translated	237	Web Environment	2010-05-04 12:55:32	219
+trapeze	226	Console (Text Based)	2010-05-04 12:55:32	219
+treevisitor	226	Console (Text Based)	2010-05-04 12:55:32	219
+trestle	237	Web Environment	2010-05-04 12:55:32	219
+trimurti	238	No Input/Output (Daemon)	2010-05-04 12:55:33	219
+trinity	237	Web Environment	2010-05-04 12:55:33	219
+trivialcms	237	Web Environment	2010-05-04 12:55:33	219
+trophy-scraper	226	Console (Text Based)	2010-05-04 12:55:33	219
+trutag	226	Console (Text Based)	2010-05-04 12:55:33	219
+trutag	237	Web Environment	2010-05-04 12:55:33	219
+truveo	233	Other Environment	2010-05-04 12:55:33	219
+tsapi	230	Win32 (MS Windows)	2010-05-04 12:55:33	219
+tsm-command	226	Console (Text Based)	2010-05-04 12:55:33	219
+tsmadapter	230	Win32 (MS Windows)	2010-05-04 12:55:33	219
+tsmadapter	226	Console (Text Based)	2010-05-04 12:55:33	219
+tsql-analyzer	226	Console (Text Based)	2010-05-04 12:55:33	219
+ttk	226	Console (Text Based)	2010-05-04 12:55:33	219
+ttt2db	237	Web Environment	2010-05-04 12:55:33	219
+tumbler	233	Other Environment	2010-05-04 12:55:33	219
+tumbler	238	No Input/Output (Daemon)	2010-05-04 12:55:33	219
+turing	233	Other Environment	2010-05-04 12:55:33	219
+turing	237	Web Environment	2010-05-04 12:55:33	219
+turkcerb	237	Web Environment	2010-05-04 12:55:33	219
+tv-dot-com	237	Web Environment	2010-05-04 12:55:33	219
+tv-dot-com	233	Other Environment	2010-05-04 12:55:33	219
+tv-dot-com	226	Console (Text Based)	2010-05-04 12:55:33	219
+twitpic	226	Console (Text Based)	2010-05-04 12:55:33	219
+twitter2jabber	226	Console (Text Based)	2010-05-04 12:55:33	219
+twitter2jabber	238	No Input/Output (Daemon)	2010-05-04 12:55:33	219
+twitter2vk	226	Console (Text Based)	2010-05-04 12:55:33	219
+twitter2vk	238	No Input/Output (Daemon)	2010-05-04 12:55:33	219
+twitterscrobble	237	Web Environment	2010-05-04 12:55:34	219
+twitterscrobble	238	No Input/Output (Daemon)	2010-05-04 12:55:34	219
+twitterscrobble	226	Console (Text Based)	2010-05-04 12:55:34	219
+tycho	229	X11 Applications	2010-05-04 12:55:34	219
+typo	237	Web Environment	2010-05-04 12:55:34	219
+ubc-monitor	226	Console (Text Based)	2010-05-04 12:55:34	219
+uberhacker	226	Console (Text Based)	2010-05-04 12:55:34	219
+uddi4r	237	Web Environment	2010-05-04 12:55:34	219
+ufooar	230	Win32 (MS Windows)	2010-05-04 12:55:34	219
+uipoet	237	Web Environment	2010-05-04 12:55:34	219
+ulla	226	Console (Text Based)	2010-05-04 12:55:34	219
+ulmul	237	Web Environment	2010-05-04 12:55:34	219
+ulmul	226	Console (Text Based)	2010-05-04 12:55:34	219
+uniforma	226	Console (Text Based)	2010-05-04 12:55:34	219
+unity	237	Web Environment	2010-05-04 12:55:34	219
+unroller	226	Console (Text Based)	2010-05-04 12:55:34	219
+unstiki	237	Web Environment	2010-05-04 12:55:34	219
+upcoming-api	237	Web Environment	2010-05-04 12:55:34	219
+upde	310	Fox	2010-05-04 12:55:34	219
+uploadcolumn	237	Web Environment	2010-05-04 12:55:34	219
+urinal	227	Curses	2010-05-04 12:55:34	219
+urinal	229	X11 Applications	2010-05-04 12:55:34	219
+url-markr	237	Web Environment	2010-05-04 12:55:35	219
+uruby	226	Console (Text Based)	2010-05-04 12:55:35	219
+use-config	226	Console (Text Based)	2010-05-04 12:55:35	219
+userquery	238	No Input/Output (Daemon)	2010-05-04 12:55:35	219
+utilrb	238	No Input/Output (Daemon)	2010-05-04 12:55:35	219
+uweb	226	Console (Text Based)	2010-05-04 12:55:35	219
+uwkiwi	237	Web Environment	2010-05-04 12:55:35	219
+v4lradio	238	No Input/Output (Daemon)	2010-05-04 12:55:35	219
+vacl	237	Web Environment	2010-05-04 12:55:35	219
+validatecaptcha	237	Web Environment	2010-05-04 12:55:35	219
+validaterequest	237	Web Environment	2010-05-04 12:55:35	219
+validator	237	Web Environment	2010-05-04 12:55:35	219
+valirefl	237	Web Environment	2010-05-04 12:55:35	219
+valuable	233	Other Environment	2010-05-04 12:55:35	219
+vanatime	233	Other Environment	2010-05-04 12:55:35	219
+vault-web	237	Web Environment	2010-05-04 12:55:35	219
+veracity	237	Web Environment	2010-05-04 12:55:35	219
+vertigo	226	Console (Text Based)	2010-05-04 12:55:35	219
+vgrails	230	Win32 (MS Windows)	2010-05-04 12:55:35	219
+vgrails	229	X11 Applications	2010-05-04 12:55:35	219
+vi-cli	227	Curses	2010-05-04 12:55:35	219
+viddler	237	Web Environment	2010-05-04 12:55:35	219
+vikinggem	237	Web Environment	2010-05-04 12:55:36	219
+vimget	226	Console (Text Based)	2010-05-04 12:55:36	219
+vimmate	231	Gnome	2010-05-04 12:55:36	219
+virtuozzo	237	Web Environment	2010-05-04 12:55:36	219
+virtuozzo	233	Other Environment	2010-05-04 12:55:36	219
+virtuozzo	238	No Input/Output (Daemon)	2010-05-04 12:55:36	219
+visage	237	Web Environment	2010-05-04 12:55:36	219
+visualizemodels	226	Console (Text Based)	2010-05-04 12:55:36	219
+visualruby	230	Win32 (MS Windows)	2010-05-04 12:55:36	219
+vlaah	238	No Input/Output (Daemon)	2010-05-04 12:55:36	219
+vladenvironment	226	Console (Text Based)	2010-05-04 12:55:36	219
+vmonitor	229	X11 Applications	2010-05-04 12:55:36	219
+vmonitor	238	No Input/Output (Daemon)	2010-05-04 12:55:36	219
+vmsruby	233	Other Environment	2010-05-04 12:55:36	219
+vodcatcher	226	Console (Text Based)	2010-05-04 12:55:36	219
+voodoo	226	Console (Text Based)	2010-05-04 12:55:36	219
+voruby	226	Console (Text Based)	2010-05-04 12:55:36	219
+votigoto	233	Other Environment	2010-05-04 12:55:36	219
+votigoto	313	Cocoa (MacOS X)	2010-05-04 12:55:36	219
+vrtools	230	Win32 (MS Windows)	2010-05-04 12:55:36	219
+vwmclient	230	Win32 (MS Windows)	2010-05-04 12:55:36	219
+vwmclient	311	WxWidgits	2010-05-04 12:55:36	219
+w2tags	226	Console (Text Based)	2010-05-04 12:55:36	219
+w3cvalidators	237	Web Environment	2010-05-04 12:55:36	219
+wagit	237	Web Environment	2010-05-04 12:55:36	219
+wagn	237	Web Environment	2010-05-04 12:55:36	219
+wagon	237	Web Environment	2010-05-04 12:55:36	219
+wakame	226	Console (Text Based)	2010-05-04 12:55:36	219
+wakame	237	Web Environment	2010-05-04 12:55:36	219
+wakeonlan	226	Console (Text Based)	2010-05-04 12:55:36	219
+walrus	226	Console (Text Based)	2010-05-04 12:55:36	219
+warcraft-armory	226	Console (Text Based)	2010-05-04 12:55:36	219
+warcraft-armory	233	Other Environment	2010-05-04 12:55:36	219
+warp	226	Console (Text Based)	2010-05-04 12:55:36	219
+warp	238	No Input/Output (Daemon)	2010-05-04 12:55:36	219
+warp	237	Web Environment	2010-05-04 12:55:36	219
+watcher	238	No Input/Output (Daemon)	2010-05-04 12:55:37	219
+watcher	226	Console (Text Based)	2010-05-04 12:55:37	219
+watchr	226	Console (Text Based)	2010-05-04 12:55:37	219
+watchtower	237	Web Environment	2010-05-04 12:55:37	219
+watir-on-rails	237	Web Environment	2010-05-04 12:55:37	219
+wax	237	Web Environment	2010-05-04 12:55:37	219
+waxeye	226	Console (Text Based)	2010-05-04 12:55:37	219
+wbxml	237	Web Environment	2010-05-04 12:55:37	219
+wdot	226	Console (Text Based)	2010-05-04 12:55:37	219
+weaver	237	Web Environment	2010-05-04 12:55:37	219
+webby	226	Console (Text Based)	2010-05-04 12:55:37	219
+webdemon	310	Fox	2010-05-04 12:55:37	219
+webgen	226	Console (Text Based)	2010-05-04 12:55:37	219
+webjourney	237	Web Environment	2010-05-04 12:55:37	219
+webnotes	237	Web Environment	2010-05-04 12:55:37	219
+webplanner	237	Web Environment	2010-05-04 12:55:37	219
+websitiary	226	Console (Text Based)	2010-05-04 12:55:37	219
+webspike-ruby	238	No Input/Output (Daemon)	2010-05-04 12:55:37	219
+webspike-ruby	237	Web Environment	2010-05-04 12:55:37	219
+webstudio	231	Gnome	2010-05-04 12:55:37	219
+webu	237	Web Environment	2010-05-04 12:55:37	219
+webunit-codegen	226	Console (Text Based)	2010-05-04 12:55:37	219
+wee	237	Web Environment	2010-05-04 12:55:37	219
+weft-qda	311	WxWidgits	2010-05-04 12:55:37	219
+weighted-rate	237	Web Environment	2010-05-04 12:55:37	219
+wfe	237	Web Environment	2010-05-04 12:55:37	219
+whizzbot	226	Console (Text Based)	2010-05-04 12:55:38	219
+whotowho	226	Console (Text Based)	2010-05-04 12:55:38	219
+wiki-explorator	226	Console (Text Based)	2010-05-04 12:55:38	219
+wiki-explorator	233	Other Environment	2010-05-04 12:55:38	219
+wiki-explorator	237	Web Environment	2010-05-04 12:55:38	219
+wiki2go	237	Web Environment	2010-05-04 12:55:38	219
+wikicreole	233	Other Environment	2010-05-04 12:55:38	219
+wikid	237	Web Environment	2010-05-04 12:55:38	219
+wikitext	237	Web Environment	2010-05-04 12:55:38	219
+will-paginate	237	Web Environment	2010-05-04 12:55:38	219
+win-user32-ruby	230	Win32 (MS Windows)	2010-05-04 12:55:38	219
+win32-captureie	230	Win32 (MS Windows)	2010-05-04 12:55:38	219
+win32console	226	Console (Text Based)	2010-05-04 12:55:38	219
+win32console	230	Win32 (MS Windows)	2010-05-04 12:55:38	219
+win32ole-pp	230	Win32 (MS Windows)	2010-05-04 12:55:38	219
+win32olenet	233	Other Environment	2010-05-04 12:55:38	219
+win32utils	230	Win32 (MS Windows)	2010-05-04 12:55:38	219
+winjobscheduler	226	Console (Text Based)	2010-05-04 12:55:38	219
+winnower	237	Web Environment	2010-05-04 12:55:38	219
+winnscriptatype	237	Web Environment	2010-05-04 12:55:38	219
+wireless-ruby	226	Console (Text Based)	2010-05-04 12:55:38	219
+wireless-ruby	238	No Input/Output (Daemon)	2010-05-04 12:55:38	219
+wireless-ruby	237	Web Environment	2010-05-04 12:55:38	219
+wiretap	226	Console (Text Based)	2010-05-04 12:55:38	219
+wisdomgems	237	Web Environment	2010-05-04 12:55:38	219
+wise	229	X11 Applications	2010-05-04 12:55:38	219
+wlog	226	Console (Text Based)	2010-05-04 12:55:38	219
+wmainfo	226	Console (Text Based)	2010-05-04 12:55:38	219
+wol	226	Console (Text Based)	2010-05-04 12:55:38	219
+wolfe	226	Console (Text Based)	2010-05-04 12:55:38	219
+wontomedia	237	Web Environment	2010-05-04 12:55:38	219
+wora	226	Console (Text Based)	2010-05-04 12:55:38	219
+workpattern	233	Other Environment	2010-05-04 12:55:39	219
+worktimer	310	Fox	2010-05-04 12:55:39	219
+worktimer	230	Win32 (MS Windows)	2010-05-04 12:55:39	219
+wping	230	Win32 (MS Windows)	2010-05-04 12:55:39	219
+wrblog	237	Web Environment	2010-05-04 12:55:39	219
+wrtranslate	226	Console (Text Based)	2010-05-04 12:55:39	219
+wsoc	237	Web Environment	2010-05-04 12:55:39	219
+wsse	237	Web Environment	2010-05-04 12:55:39	219
+wtr	230	Win32 (MS Windows)	2010-05-04 12:55:39	219
+wtruby	237	Web Environment	2010-05-04 12:55:39	219
+wxredit	311	WxWidgits	2010-05-04 12:55:39	219
+wxride	311	WxWidgits	2010-05-04 12:55:39	219
+wxruby	313	Cocoa (MacOS X)	2010-05-04 12:55:39	219
+wxruby	230	Win32 (MS Windows)	2010-05-04 12:55:39	219
+wxruby	231	Gnome	2010-05-04 12:55:39	219
+wxrubydebug	311	WxWidgits	2010-05-04 12:55:39	219
+wxrubylayouts	229	X11 Applications	2010-05-04 12:55:39	219
+wxrubylayouts	230	Win32 (MS Windows)	2010-05-04 12:55:39	219
+wysmacs	230	Win32 (MS Windows)	2010-05-04 12:55:39	219
+wysmacs	311	WxWidgits	2010-05-04 12:55:39	219
+x12-parser	226	Console (Text Based)	2010-05-04 12:55:39	219
+x2c	226	Console (Text Based)	2010-05-04 12:55:39	219
+xampl	226	Console (Text Based)	2010-05-04 12:55:39	219
+xboot	226	Console (Text Based)	2010-05-04 12:55:39	219
+xdccfetch	310	Fox	2010-05-04 12:55:39	219
+xenzen	226	Console (Text Based)	2010-05-04 12:55:39	219
+xforge	226	Console (Text Based)	2010-05-04 12:55:39	219
+xgallery	237	Web Environment	2010-05-04 12:55:39	219
+xiacc	238	No Input/Output (Daemon)	2010-05-04 12:55:39	219
+xibe	229	X11 Applications	2010-05-04 12:55:39	219
+xinha-plugin	237	Web Environment	2010-05-04 12:55:40	219
+xinod	237	Web Environment	2010-05-04 12:55:40	219
+xlib	229	X11 Applications	2010-05-04 12:55:40	219
+xlsuite	237	Web Environment	2010-05-04 12:55:40	219
+xmbcs	237	Web Environment	2010-05-04 12:55:40	219
+xml-easy	233	Other Environment	2010-05-04 12:55:40	219
+xml-simple	233	Other Environment	2010-05-04 12:55:40	219
+xml2xls	226	Console (Text Based)	2010-05-04 12:55:40	219
+xml2xls	230	Win32 (MS Windows)	2010-05-04 12:55:40	219
+xmlresume2x	226	Console (Text Based)	2010-05-04 12:55:40	219
+xmlrocs	233	Other Environment	2010-05-04 12:55:40	219
+xmltv2html	226	Console (Text Based)	2010-05-04 12:55:40	219
+xmpp4r-simple	238	No Input/Output (Daemon)	2010-05-04 12:55:40	219
+xmppd	238	No Input/Output (Daemon)	2010-05-04 12:55:40	219
+xrefresh-server	226	Console (Text Based)	2010-05-04 12:55:40	219
+xspf	233	Other Environment	2010-05-04 12:55:40	219
+xspf	237	Web Environment	2010-05-04 12:55:40	219
+xss	237	Web Environment	2010-05-04 12:55:40	219
+yahoo-video	226	Console (Text Based)	2010-05-04 12:55:40	219
+yahoo-video	237	Web Environment	2010-05-04 12:55:40	219
+yahoo-weather	226	Console (Text Based)	2010-05-04 12:55:40	219
+yahoo-weather	237	Web Environment	2010-05-04 12:55:40	219
+yajb	233	Other Environment	2010-05-04 12:55:40	219
+yajd	226	Console (Text Based)	2010-05-04 12:55:40	219
+yak	231	Gnome	2010-05-04 12:55:40	219
+yak	230	Win32 (MS Windows)	2010-05-04 12:55:40	219
+yamlrpc	226	Console (Text Based)	2010-05-04 12:55:40	219
+yamlrpc	237	Web Environment	2010-05-04 12:55:40	219
+yarbo	237	Web Environment	2010-05-04 12:55:41	219
+yard	237	Web Environment	2010-05-04 12:55:41	219
+yard	233	Other Environment	2010-05-04 12:55:41	219
+yarv	226	Console (Text Based)	2010-05-04 12:55:41	219
+yax	226	Console (Text Based)	2010-05-04 12:55:41	219
+yaxml	226	Console (Text Based)	2010-05-04 12:55:41	219
+yaxml	237	Web Environment	2010-05-04 12:55:41	219
+ybur	238	No Input/Output (Daemon)	2010-05-04 12:55:41	219
+ycn	226	Console (Text Based)	2010-05-04 12:55:41	219
+yelp	237	Web Environment	2010-05-04 12:55:41	219
+yemuraidcdb	237	Web Environment	2010-05-04 12:55:41	219
+yo-lib	237	Web Environment	2010-05-04 12:55:41	219
+yoot	226	Console (Text Based)	2010-05-04 12:55:41	219
+youtube	237	Web Environment	2010-05-04 12:55:41	219
+youtube-g	237	Web Environment	2010-05-04 12:55:41	219
+yubikey	233	Other Environment	2010-05-04 12:55:41	219
+yuitree	237	Web Environment	2010-05-04 12:55:41	219
+yurtcms	226	Console (Text Based)	2010-05-04 12:55:41	219
+yurtcms	237	Web Environment	2010-05-04 12:55:41	219
+zak	226	Console (Text Based)	2010-05-04 12:55:41	219
+zebra	237	Web Environment	2010-05-04 12:55:41	219
+zena	237	Web Environment	2010-05-04 12:55:41	219
+zenhacks	226	Console (Text Based)	2010-05-04 12:55:41	219
+zentest	226	Console (Text Based)	2010-05-04 12:55:41	219
+zenweb	226	Console (Text Based)	2010-05-04 12:55:41	219
+zenweb	237	Web Environment	2010-05-04 12:55:41	219
+zerto	237	Web Environment	2010-05-04 12:55:41	219
+zfs-snapshot	226	Console (Text Based)	2010-05-04 12:55:41	219
+zik	231	Gnome	2010-05-04 12:55:41	219
+zimco	227	Curses	2010-05-04 12:55:42	219
+zimco	231	Gnome	2010-05-04 12:55:42	219
+zinzani	237	Web Environment	2010-05-04 12:55:42	219
+zionedit	311	WxWidgits	2010-05-04 12:55:42	219
+zionedit	230	Win32 (MS Windows)	2010-05-04 12:55:42	219
+zipcodesearch	237	Web Environment	2010-05-04 12:55:42	219
+zobjinspect	226	Console (Text Based)	2010-05-04 12:55:42	219
+zookeeper	226	Console (Text Based)	2010-05-04 12:55:42	219
+zyps	311	WxWidgits	2010-05-04 12:55:42	219

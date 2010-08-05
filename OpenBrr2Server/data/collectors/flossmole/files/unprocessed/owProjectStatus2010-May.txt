@@ -1,0 +1,122 @@
+#  file: owProjStatus2010-May.txt
+#  package: owRawData
+#  description of file/package:
+#
+#  This package includes raw data files from our database of objectweb project 
+#  information generated from the list of projects gathered in May of 2010
+#
+#  Raw html data was inserted into database by running our java-based objectweb 
+#  spidering program based on the libraries at ossmole.sf.net in our CVS tree.
+#  This html data was then parsed and scraped to extract interesting facts.
+#
+#  Scripts & raw data available at http://flossmole.org
+#  Scripts written by Megan Squire and contributed to the FLOSSmole project
+#
+#  This data is free and available for any use (after all we just spidered it ;)
+#  We do however request that those using the data in any published form provide 
+#  a citation to: FLOSSmole Project (2004-2010) 
+#  The project is available at: http://flossmole.org
+#
+#  SELECT proj_unixname, code, description, code_on_page, date_collected, datasource_id
+#  FROM ow_project_status
+#  WHERE datasource_id=220
+#  ORDER BY proj_unixname
+#
+#  datasource_id = 220 is the May 2010 run on objectweb.
+
+proj_unixname	code	description	date_collected	datasource_id
+acceleo	12	Mature	2010-05-03 15:36:06	220
+apollon	8	Pre-Alpha	2010-05-03 15:36:35	220
+asm	11	Production/Stable	2010-05-03 15:36:35	220
+aspire	9	Alpha	2010-05-03 15:36:35	220
+azuki	11	Production/Stable	2010-05-03 15:36:35	220
+barracudamvc	11	Production/Stable	2010-05-03 15:36:36	220
+been	9	Alpha	2010-05-03 15:36:36	220
+bonita	11	Production/Stable	2010-05-03 15:36:36	220
+bsframework	11	Production/Stable	2010-05-03 15:36:36	220
+byline	11	Production/Stable	2010-05-03 15:36:36	220
+c-jdbc	11	Production/Stable	2010-05-03 15:36:36	220
+cardamom	11	Production/Stable	2010-05-03 15:36:36	220
+carol	11	Production/Stable	2010-05-03 15:36:36	220
+clif	11	Production/Stable	2010-05-03 15:36:36	220
+deployment	7	Planning	2010-05-03 15:36:36	220
+director	11	Production/Stable	2010-05-03 15:36:36	220
+dods	11	Production/Stable	2010-05-03 15:36:36	220
+dotnetj	10	Beta	2010-05-03 15:36:36	220
+dream	10	Beta	2010-05-03 15:36:36	220
+dryverl	10	Beta	2010-05-03 15:36:36	220
+dysoweb	11	Production/Stable	2010-05-03 15:36:36	220
+eaf	12	Mature	2010-05-03 15:36:36	220
+easybeans	11	Production/Stable	2010-05-03 15:36:36	220
+edemos	11	Production/Stable	2010-05-03 15:36:36	220
+enhydra	11	Production/Stable	2010-05-03 15:36:36	220
+exoplatform	11	Production/Stable	2010-05-03 15:36:36	220
+federid	9	Alpha	2010-05-03 15:36:36	220
+fractal	10	Beta	2010-05-03 15:36:36	220
+gasp	9	Alpha	2010-05-03 15:36:36	220
+gotm	7	Planning	2010-05-03 15:36:36	220
+howl	11	Production/Stable	2010-05-03 15:36:36	220
+initiativebi	10	Beta	2010-05-03 15:36:36	220
+interldap	11	Production/Stable	2010-05-03 15:36:36	220
+introspector	9	Alpha	2010-05-03 15:36:36	220
+ishmael	9	Alpha	2010-05-03 15:36:36	220
+jaspte	8	Pre-Alpha	2010-05-03 15:36:36	220
+javaservice	11	Production/Stable	2010-05-03 15:36:36	220
+jawe	11	Production/Stable	2010-05-03 15:36:37	220
+jeffree	10	Beta	2010-05-03 15:36:37	220
+jonas-doc	8	Pre-Alpha	2010-05-03 15:36:37	220
+jonathan	11	Production/Stable	2010-05-03 15:36:37	220
+joram	11	Production/Stable	2010-05-03 15:36:37	220
+jorm	10	Beta	2010-05-03 15:36:37	220
+jotm	11	Production/Stable	2010-05-03 15:36:37	220
+jsurvey	9	Alpha	2010-05-03 15:36:37	220
+kelly	10	Beta	2010-05-03 15:36:37	220
+kelp	11	Production/Stable	2010-05-03 15:36:37	220
+kilim2	11	Production/Stable	2010-05-03 15:36:37	220
+lemonldap	12	Mature	2010-05-03 15:36:37	220
+lewys	9	Alpha	2010-05-03 15:36:37	220
+lomboz	11	Production/Stable	2010-05-03 15:36:37	220
+massiv	11	Production/Stable	2010-05-03 15:36:37	220
+medor	10	Beta	2010-05-03 15:36:37	220
+modfact	10	Beta	2010-05-03 15:36:37	220
+monolog	11	Production/Stable	2010-05-03 15:36:37	220
+navilis	7	Planning	2010-05-03 15:36:37	220
+noah	10	Beta	2010-05-03 15:36:37	220
+objectweb-zh	10	Beta	2010-05-03 15:36:37	220
+octopus	11	Production/Stable	2010-05-03 15:36:37	220
+odis	8	Pre-Alpha	2010-05-03 15:36:37	220
+ofccharts	11	Production/Stable	2010-05-03 15:36:37	220
+oncepi	11	Production/Stable	2010-05-03 15:36:37	220
+oncess	10	Beta	2010-05-03 15:36:37	220
+openediint	7	Planning	2010-05-03 15:36:37	220
+openmobileis	10	Beta	2010-05-03 15:36:37	220
+ops	12	Mature	2010-05-03 15:36:37	220
+orchestra	11	Production/Stable	2010-05-03 15:36:37	220
+orientwareccm	11	Production/Stable	2010-05-03 15:36:37	220
+oyster	11	Production/Stable	2010-05-03 15:36:37	220
+paje	10	Beta	2010-05-03 15:36:37	220
+pargres	10	Beta	2010-05-03 15:36:37	220
+perseus	11	Production/Stable	2010-05-03 15:36:37	220
+petals	11	Production/Stable	2010-05-03 15:36:37	220
+petalsmaster	11	Production/Stable	2010-05-03 15:36:37	220
+rubis	11	Production/Stable	2010-05-03 15:36:38	220
+s4allsdk	9	Alpha	2010-05-03 15:36:38	220
+scarbo	11	Production/Stable	2010-05-03 15:36:38	220
+shark	11	Production/Stable	2010-05-03 15:36:38	220
+snapper	12	Mature	2010-05-03 15:36:38	220
+sofa	10	Beta	2010-05-03 15:36:38	220
+spago	11	Production/Stable	2010-05-03 15:36:38	220
+spago4q	11	Production/Stable	2010-05-03 15:36:38	220
+spagobi	11	Production/Stable	2010-05-03 15:36:38	220
+speedo	11	Production/Stable	2010-05-03 15:36:38	220
+starwebservice	11	Production/Stable	2010-05-03 15:36:38	220
+stock-online	12	Mature	2010-05-03 15:36:38	220
+telosys	11	Production/Stable	2010-05-03 15:36:38	220
+tess	8	Pre-Alpha	2010-05-03 15:36:38	220
+wildcat	10	Beta	2010-05-03 15:36:38	220
+xmlc	11	Production/Stable	2010-05-03 15:36:38	220
+xplus	10	Beta	2010-05-03 15:36:38	220
+xquare	10	Beta	2010-05-03 15:36:38	220
+xservice	9	Alpha	2010-05-03 15:36:38	220
+xwiki	11	Production/Stable	2010-05-03 15:36:38	220
+zeus	10	Beta	2010-05-03 15:36:38	220
