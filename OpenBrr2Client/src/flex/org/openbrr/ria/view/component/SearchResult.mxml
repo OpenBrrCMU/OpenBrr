@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:obrr-comp="org.openbrr.ria.view.component.*" 
+	width="100%">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.controls.Alert;
+			import mx.binding.utils.BindingUtils;
+			import org.openbrr.ria.ObrrFacade;
+			
+			import flash.events.Event;
+	
+			public function searchText():String {
+				return searchTextInput.text;
+			}
+
+			[Bindable]
+			public var searchResult:ArrayCollection;
+			
+			public static const SEARCH_EVENT:String = "searchEvent";
+			
+			public function sendSearchNotification():void {
+				//dispatchEvent(new Event(SEARCH_EVENT));
+				ObrrFacade.getInstance().sendNotification(ObrrFacade.SEARCH, searchTextInput.text);
+			}
+			
+			public function sendProjectDetailNotification(projectId:String):void {
+				//dispatchEvent(new Event(SEARCH_EVENT));
+				ObrrFacade.getInstance().sendNotification(ObrrFacade.PROJECT_LOOKUP, projectId);
+			}
+			
+			public function setSearchResult(result:ArrayCollection):void {
+				searchResult = result;
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:VBox textAlign="center" paddingTop="0" width="100%">
+		<mx:Form id="searchForm" defaultButton="{searchBtn}" width="50%" autoLayout="false" paddingTop="0">
+			<mx:FormItem label="Search:" fontSize="14" direction="horizontal" paddingRight="1" paddingTop="0">
+				<mx:HBox paddingTop="0">
+					<mx:TextInput id="searchTextInput" text="" textAlign="left" fontSize="10" paddingLeft="0" paddingTop="0"/>
+					<mx:Button id="searchBtn" label="Search" click="sendSearchNotification()" fontSize="10" paddingTop="0"/>
+				</mx:HBox>
+			</mx:FormItem>
+		</mx:Form>
+		<mx:HBox width="100%">
+			<mx:VBox width="18%">
+				
+			</mx:VBox>
+			<mx:Panel title="Search Results" width="80%" textAlign="left">
+				<mx:Repeater id="pr" dataProvider="{searchResult}">
+					<mx:Canvas borderStyle="none" borderColor="#CCCCCC" width="100%" >
+						<mx:VBox width="100%">
+							<mx:LinkButton label="{pr.currentItem.name}" color="#0000FF" fontWeight="bold" 
+	           					 click="sendProjectDetailNotification('{pr.currentItem.id}')"/>
+	           				<mx:Label text="{pr.currentItem.desc}" width="600" height="60"/>
+	           				<mx:HBox width="100%" color="#6C6C6C" paddingBottom="0">
+	           					<mx:Label text="OS:" paddingBottom="0"/>
+	           					<mx:Label text="{pr.currentItem.os}" width="22%" textAlign="left" paddingBottom="0"/>
+	           					<mx:Label text=" | " paddingBottom="0" color="#CCCCCC"/>
+	           					<mx:Label text="Lic:" paddingBottom="0"/>
+	           					<mx:Label text="{pr.currentItem.lic}" width="22%" textAlign="left" paddingBottom="0"/>
+	           					<mx:Label text=" | " paddingBottom="0" color="#CCCCCC"/>
+	           					<mx:Label text="Code:" paddingBottom="0"/>
+	           					<mx:Label text="{pr.currentItem.code}" width="22%" textAlign="left" paddingBottom="0"/>
+	           					<mx:Label text=" | " paddingBottom="0" color="#CCCCCC"/>
+	           					<mx:Label text="DB:" paddingBottom="0"/>
+	           					<mx:Label text="{pr.currentItem.ds}" width="22%" textAlign="left" paddingBottom="0"/>
+	           				</mx:HBox>
+	           				<mx:HRule width="40%" horizontalCenter="0" strokeColor="#CCCCCC" shadowColor="#FCFCFC"/>
+						</mx:VBox>
+					</mx:Canvas>
+				</mx:Repeater>
+			</mx:Panel>
+		</mx:HBox>
+	</mx:VBox>
+	
+</mx:Canvas>

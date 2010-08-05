@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:obrr-comp="org.openbrr.ria.view.component.*" 
+	width="100%" height="100%">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.controls.Alert;
+			import mx.binding.utils.BindingUtils;
+			import org.openbrr.ria.view.event.SearchEvent;
+			import org.openbrr.ria.ObrrFacade;
+			
+			import flash.events.Event;
+			
+			public function sendSearchNotification():void {
+				ObrrFacade.getInstance().sendNotification(ObrrFacade.SEARCH, searchTextInput.text)
+			}
+		]]>
+	</mx:Script>
+	
+	<mx:HBox textAlign="center" horizontalAlign="center" verticalAlign="middle" width="100%" height="60%">
+		<mx:Form id="searchForm" defaultButton="{searchBtn}">
+			<mx:VBox width="100%" height="100%" horizontalCenter="0">
+				<mx:Label text="Search Open Source Software" fontSize="24"/>
+				<mx:FormItem>
+					<mx:TextInput id="searchTextInput" text="" textAlign="left" fontSize="12" 
+						focusEnabled="true" width="350" />
+				</mx:FormItem>
+				<mx:FormItem direction="horizontal">
+					<mx:Button id="searchBtn" label="Search" click="sendSearchNotification()"/>
+				</mx:FormItem>
+			</mx:VBox>
+		</mx:Form>
+	</mx:HBox>
+	
+</mx:Canvas>

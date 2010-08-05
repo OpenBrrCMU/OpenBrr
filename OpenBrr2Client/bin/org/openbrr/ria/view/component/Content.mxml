@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:ViewStack 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:obrr-comp="org.openbrr.ria.view.component.*"
+	width="100%" minHeight="400">
+	
+	<obrr-comp:SearchMain id="searchMain" width="100%"/>
+	<obrr-comp:SearchResult id="searchResult" width="90%"/>
+	<obrr-comp:Admin id="admin" width="100%"/>
+	<obrr-comp:ProjectDetail id="projectDetail" width="100%"/>
+	<obrr-comp:UsageScenario id="usageScenario" width="100%"/>
+	
+</mx:ViewStack>

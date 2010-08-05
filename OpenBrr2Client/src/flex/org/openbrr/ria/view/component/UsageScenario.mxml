@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="100%">
+	<mx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			[Bindable]
+			private var usage_scenarios:ArrayCollection;
+			
+			public function setUsageScenarios(usageScenarioData:ArrayCollection):void {
+				usage_scenarios = usageScenarioData;
+			}
+			
+			public function getUsageScenarios():ArrayCollection {
+				return usage_scenarios;
+			}
+		]]>
+	</mx:Script>
+	
+	<mx:VBox>
+		<mx:DataGrid id="usage_scenario_table" dataProvider="{usage_scenarios}" width="80%" height="400">
+			<mx:columns>
+				<mx:DataGridColumn dataField="scn_name" headerText="Name"/>
+				<mx:DataGridColumn dataField="scn_desc" headerText="Description"/>
+				<mx:DataGridColumn dataField="func_pct" headerText="Functionality"/>
+				<mx:DataGridColumn dataField="oper_pct" headerText="Operation Characteristics" headerWordWrap="true"/>
+				<mx:DataGridColumn dataField="supp_pct" headerText="Support and Services" headerWordWrap="true"/>
+				<mx:DataGridColumn dataField="doc_pct" headerText="Documentation"/>
+				<mx:DataGridColumn dataField="tech_pct" headerText="Software Technology Attributes" headerWordWrap="true"/>
+				<mx:DataGridColumn dataField="adop_pct" headerText="Community and Adoption" headerWordWrap="true"/>
+				<mx:DataGridColumn dataField="prof_pct" headerText="Professionalism"/>
+			</mx:columns>
+		</mx:DataGrid>
+	</mx:VBox>
+</mx:Canvas>

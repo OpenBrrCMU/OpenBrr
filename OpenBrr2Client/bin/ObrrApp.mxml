@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<mx:Application 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:obrr-comp="org.openbrr.ria.view.component.*"
+	creationComplete="initializeApp()">
+	
+	<!--mx:Style source="style/standard.css" /-->
+	<mx:Script>
+		<![CDATA[
+			//import org.openbrr.ria.view.event.SearchEvent;
+			import org.openbrr.ria.ObrrFacade;
+			
+			private var facade:ObrrFacade = null;
+			
+			private function initializeApp():void {
+				facade = ObrrFacade.getInstance();
+				facade.startUp(this);
+				content.selectedChild=content.searchMain;
+			}
+		]]>
+	</mx:Script>
+	
+	<obrr-comp:Header id="header" width="100%" height="50"/>
+	<mx:HRule width="100%"/>
+	<obrr-comp:Content id="content" width="100%"/>
+	<mx:HRule width="60%"/>
+	<obrr-comp:Footer id="footer" height="25"/>
+</mx:Application>

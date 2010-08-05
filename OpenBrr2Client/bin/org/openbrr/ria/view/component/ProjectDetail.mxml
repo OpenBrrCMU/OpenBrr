@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="100%"
+	creationComplete="initialize()" >
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.controls.Alert;
+			
+			import org.openbrr.ria.view.ProjectMediator;
+			import org.openbrr.ria.model.Project;
+			import org.openbrr.ria.ObrrFacade;
+			
+			private var facade:ObrrFacade;
+			private var projectMediator:ProjectMediator;
+			
+			[Bindable]
+			private var searchResult:ArrayCollection;
+			[Bindable]
+			private var project:Project;
+			[Bindable]
+			private var projectName:String;
+			[Bindable]
+			private var projectDesc:String;
+			[Bindable]
+			private var projectUrl:String;
+			
+			public function setSearchResult(_result:ArrayCollection):void {
+				searchResult = _result;
+				//Alert.show("lastResultSet: "+_result, "ProjectDetail.mxml", Alert.OK);
+			}
+			
+			public function setProject(_project:Project):void {
+				project = _project;
+				//Alert.show('name:'+project.name+', desc='+project.desc, 'ProjectDetail.mxml', Alert.OK);
+				projectName = project.name;
+				projectDesc = project.desc;
+				projectUrl = project.url;
+			}
+			
+			private function updateProject(linkButton:Object):void {
+				//Alert.show("Looking up project: "+linkButton.id2, "ProjectDetail.mxml", Alert.OK);
+				facade.sendNotification(ObrrFacade.PROJECT_LOOKUP, linkButton.id2);
+			}
+			
+			private function getCurrId(pr:Object):int {
+				return pr.currentItem.id;
+			}
+		]]>
+	</mx:Script>
+	<mx:HBox width="100%">
+		<mx:Panel title="Search List" width="20%" minWidth="80">
+			<!--
+			<mx:Repeater id="pr" dataProvider="{searchResult}">
+				<mx:Canvas width="100%">
+					<mx:LinkButton label="{pr.currentItem.name}" id2="{pr.currentItem.id}" color="#0000FF" fontWeight="bold" 
+       					 click="updateProject(this)"/>
+       				<mx:HRule width="40%" horizontalCenter="0" strokeColor="#CCCCCC" shadowColor="#FCFCFC"/>
+				</mx:Canvas>
+			</mx:Repeater>
+			-->
+		</mx:Panel>
+		
+		<mx:Panel title="Project Details: {projectName}" width="75%">
+			<mx:Label text="Desc: {projectDesc}"/>
+			<mx:Label text="URL: {projectUrl}"/>
+		</mx:Panel>
+		<!--
+		<mx:Panel title="Project Details: somename" width="75%">
+			<mx:Label text="Desc: somedesc"/>
+			<mx:Label text="URL: someurl"/>
+		</mx:Panel>
+		-->
+	</mx:HBox>
+</mx:Canvas>

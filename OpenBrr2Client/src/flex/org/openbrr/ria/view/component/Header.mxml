@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="100%" height="100%">
+	<mx:Script>
+		<![CDATA[
+			import org.openbrr.ria.ObrrFacade;
+			import mx.controls.Alert;
+			
+			private function showMain():void {
+				ObrrFacade.getInstance().sendNotification(ObrrFacade.SHOW_MAIN_PAGE);
+			} 
+
+			private function showAdmin():void {
+				ObrrFacade.getInstance().sendNotification(ObrrFacade.SHOW_ADMIN_PAGE);
+			} 
+
+			private function showUsageScenario():void {
+				ObrrFacade.getInstance().sendNotification(ObrrFacade.SHOW_USAGE_SCENARIO);
+			}
+			
+		]]>
+	</mx:Script>
+	<mx:HBox width="100%" paddingTop="0" paddingBottom="0" paddingLeft="20" verticalAlign="bottom">
+		<mx:Image id="headerLogo" source="@Embed('../../../../../images/openbrr.png')" enabled="true" enterState="showMain()"/>
+		<mx:HBox horizontalAlign="right" verticalAlign="bottom" width="100%">
+			<mx:LinkButton label="Home" click="showMain();" color="#003399" fontSize="10" textAlign="right"/>
+			<mx:Label text=" | " fontSize="10" color="#666666"/>
+			<mx:LinkButton label="Admin" click="showAdmin()" color="#003399" fontSize="10" textAlign="right"/>
+			<mx:Label text=" | " fontSize="10" color="#666666"/>
+			<mx:LinkButton label="Usage Scenario" click="showUsageScenario()" color="#003399" fontSize="10"/>
+			<mx:Label text=" | " fontSize="10" color="#666666"/>
+			<mx:LinkButton label="SignUp" click="Alert.show('The Login / Register screen will be shown')" color="#003399" fontSize="10"/>
+		</mx:HBox>
+	</mx:HBox>
+</mx:Canvas>
